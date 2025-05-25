@@ -7,7 +7,7 @@ import "./Product.scss";
 const Product = ({ product }) => {
 	const { t } = useTranslation();
 
-	const { id, name, variants, latName, isOrganic, harvest } = product;
+	const { id, name, variants, latName, isOrganic, harvest, status } = product;
 
 	const allImages = variants.flatMap((variant) =>
 		variant.images ? variant.images : []

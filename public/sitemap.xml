@@ -57,11 +57,23 @@
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://yagodakarpat.com/sweet-pepper</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://yagodakarpat.com/boletus</loc>
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://yagodakarpat.com/boletus-dried</loc>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>https://yagodakarpat.com/chanterelle</loc>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://yagodakarpat.com/chanterelle-dried</loc>
 	<priority>0.8</priority>
 </url>
 <url>

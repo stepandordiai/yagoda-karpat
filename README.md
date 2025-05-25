@@ -1,3 +1,3 @@
-# Yagoda Karpat
+# Ягода Карпат
 
-<img src='./public/screenshot/yagoda-karpat-screenshot-v3.png' />
+<img src='./public/screenshot/yagoda-karpat-ss-v5-c.png' />
