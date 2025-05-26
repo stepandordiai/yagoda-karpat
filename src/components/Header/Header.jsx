@@ -1,6 +1,6 @@
 import BurgerBtn from "../BurgerBtn/BurgerBtn";
-import { HashLink } from "react-router-hash-link";
 import LngSelect from "../LngSelect/LngSelect";
+import { NavLink } from "react-router-dom";
 import logo from "/logo-img/yagoda-karpat-logo.svg";
 import "./Header.scss";
 
@@ -18,10 +18,10 @@ const Header = () => {
 
 	return (
 		<header className="header">
-			<HashLink to={"/#home"} className="header__logo">
+			<NavLink to={"/"} className="header__logo">
 				<img width={30} src={logo} alt="" />
 				<span>Ягода Карпат</span>
-			</HashLink>
+			</NavLink>
 			<LngSelect />
 			<a className="header__tel" href="tel:+380968065513">
 				+38 096 806 55 13

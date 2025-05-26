@@ -138,7 +138,7 @@ const NavCurtain = () => {
 																className={({ isActive }) =>
 																	isActive ? activeLink : inactiveLink
 																}
-																to={`/product-page/${id}`}
+																to={`/${id}`}
 															>
 																{name}
 															</NavLink>
@@ -161,7 +161,7 @@ const NavCurtain = () => {
 																className={({ isActive }) =>
 																	isActive ? activeLink : inactiveLink
 																}
-																to={`/product-page/${id}`}
+																to={`/${id}`}
 															>
 																{name}
 															</NavLink>
@@ -184,7 +184,7 @@ const NavCurtain = () => {
 																className={({ isActive }) =>
 																	isActive ? activeLink : inactiveLink
 																}
-																to={`/product-page/${id}`}
+																to={`/${id}`}
 															>
 																{name}
 															</NavLink>
@@ -207,7 +207,7 @@ const NavCurtain = () => {
 																className={({ isActive }) =>
 																	isActive ? activeLink : inactiveLink
 																}
-																to={`/product-page/${id}`}
+																to={`/${id}`}
 															>
 																{name}
 															</NavLink>

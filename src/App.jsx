@@ -25,7 +25,7 @@ function App() {
 			<NavCurtain />
 			<Routes>
 				<Route path="/" element={<Home />} />
-				<Route path="/product-page/:id" element={<ProductPage />} />
+				<Route path="/:id" element={<ProductPage />} />
 			</Routes>
 			<Footer />
 		</Router>

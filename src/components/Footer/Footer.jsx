@@ -15,7 +15,10 @@ const Footer = () => {
 	const productsData = ProductsData();
 
 	const scrollToTop = () => {
-		document.documentElement.scrollTo(0, 0);
+		document.documentElement.scrollTo({
+			top: 0,
+			behavior: "smooth",
+		});
 	};
 
 	useEffect(() => {
@@ -60,10 +63,10 @@ const Footer = () => {
 				<img src={upArrowIcon} alt="" loading="lazy" />
 			</button>
 			<div className="footer-details">
-				<HashLink className="footer-logo" smooth to="/#home">
+				<NavLink className="footer-logo" to="/">
 					<img src={logo} width={50} alt="" />
 					<span>Ягода Карпат</span>
-				</HashLink>
+				</NavLink>
 				{/* <div>
                     <h3 className="certificates-info">
                         {t("footer.our_certificates")}
@@ -154,7 +157,7 @@ const Footer = () => {
 														className={({ isActive }) =>
 															isActive ? activeFooterLink : inactiveFooterLink
 														}
-														to={`/product-page/${id}`}
+														to={`/${id}`}
 													>
 														{name}
 													</NavLink>
@@ -189,7 +192,7 @@ const Footer = () => {
 														className={({ isActive }) =>
 															isActive ? activeFooterLink : inactiveFooterLink
 														}
-														to={`/product-page/${id}`}
+														to={`/${id}`}
 													>
 														{name}
 													</NavLink>
@@ -224,7 +227,7 @@ const Footer = () => {
 														className={({ isActive }) =>
 															isActive ? activeFooterLink : inactiveFooterLink
 														}
-														to={`/product-page/${id}`}
+														to={`/${id}`}
 													>
 														{name}
 													</NavLink>
@@ -259,7 +262,7 @@ const Footer = () => {
 														className={({ isActive }) =>
 															isActive ? activeFooterLink : inactiveFooterLink
 														}
-														to={`/product-page/${id}`}
+														to={`/${id}`}
 													>
 														{name}
 													</NavLink>

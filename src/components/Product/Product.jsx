@@ -42,7 +42,7 @@ const Product = ({ product }) => {
 						</div>
 						{isOrganic && <img src={organicLogo} alt="" />}
 					</div>
-					<NavLink to={`/product-page/${id}`} className="product__info-btn">
+					<NavLink to={`/${id}`} className="product__info-btn">
 						{t("products.show_more")}
 					</NavLink>
 				</div>
