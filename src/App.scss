@@ -2,21 +2,15 @@
 @use "./fonts" as *;
 @use "./variables" as *;
 
-html {
-	scroll-behavior: smooth;
-}
-
 body {
 	font-family: "Montserrat", serif;
 	background: rgb(245, 245, 245);
 	min-height: 100svh;
 	color: #000;
-	// overflow: hidden;
 	padding: 0 25px 25px;
 }
 
 .body--hidden {
-	// height: 100% !important;
 	overflow: hidden !important;
 }
 

@@ -6,9 +6,9 @@ import Home from "./pages/Home/Home";
 import ProductPage from "./pages/ProductPage/ProductPage";
 import ScrollToTop from "./utils/ScrollToTop";
 import "./i18n";
-import "./App.scss";
 import Loading from "./components/Loading/Loading";
 import { useEffect } from "react";
+import "./App.scss";
 
 function App() {
 	useEffect(() => {

@@ -111,7 +111,7 @@ const ProductPage = () => {
 							<p>{productData.desc && productData.desc}</p>
 						</div>
 					</div>
-					<HashLink to={"/#contacts"} className={"product-page__link"}>
+					<HashLink smooth to={"/#contacts"} className={"product-page__link"}>
 						{t("product_page.aviability_link")}
 					</HashLink>
 				</div>

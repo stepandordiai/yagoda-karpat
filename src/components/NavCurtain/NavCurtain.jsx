@@ -99,18 +99,22 @@ const NavCurtain = () => {
 			<div className="nav-curtain">
 				<ul className="nav-curtain__list">
 					<li>
-						<HashLink className="link js-link link--active" to={"/#home"}>
+						<HashLink
+							className="link js-link link--active"
+							smooth
+							to={"/#home"}
+						>
 							{t("home_title")}
 						</HashLink>
 					</li>
 					<li>
-						<HashLink className="link js-link" to={"/#about-us"}>
+						<HashLink className="link js-link" smooth to={"/#about-us"}>
 							{t("about_us_title")}
 						</HashLink>
 					</li>
 					<li>
 						<div className="nav-curtain__products-link">
-							<HashLink className="link js-link" to={"/#products"}>
+							<HashLink className="link js-link" smooth to={"/#products"}>
 								{t("products_title")}
 							</HashLink>
 							<button className="products-btn" onClick={showProducts}>
@@ -126,7 +130,7 @@ const NavCurtain = () => {
 										</p>
 										<ul className="nav-curtain__products-list">
 											{productsData
-												.filter((product) => product.type == "berry")
+												.filter((product) => product.type === "berry")
 												.map(({ id, name }) => {
 													return (
 														<li key={id}>
@@ -149,7 +153,7 @@ const NavCurtain = () => {
 										</p>
 										<ul className="nav-curtain__products-list">
 											{productsData
-												.filter((product) => product.type == "fruit")
+												.filter((product) => product.type === "fruit")
 												.map(({ id, name }) => {
 													return (
 														<li key={id}>
@@ -172,7 +176,7 @@ const NavCurtain = () => {
 										</p>
 										<ul className="nav-curtain__products-list">
 											{productsData
-												.filter((product) => product.type == "mushroom")
+												.filter((product) => product.type === "mushroom")
 												.map(({ id, name }) => {
 													return (
 														<li key={id}>
@@ -195,7 +199,7 @@ const NavCurtain = () => {
 										</p>
 										<ul className="nav-curtain__products-list">
 											{productsData
-												.filter((product) => product.type == "vegetable")
+												.filter((product) => product.type === "vegetable")
 												.map(({ id, name }) => {
 													return (
 														<li key={id}>
@@ -217,7 +221,7 @@ const NavCurtain = () => {
 						</div>
 					</li>
 					<li>
-						<HashLink className="link js-link" to={"/#contacts"}>
+						<HashLink className="link js-link" smooth to={"/#contacts"}>
 							{t("contacts_title")}
 						</HashLink>
 					</li>

@@ -60,7 +60,7 @@ const Footer = () => {
 				<img src={upArrowIcon} alt="" loading="lazy" />
 			</button>
 			<div className="footer-details">
-				<HashLink className="footer-logo" to="/#home">
+				<HashLink className="footer-logo" smooth to="/#home">
 					<img src={logo} width={50} alt="" />
 					<span>Ягода Карпат</span>
 				</HashLink>
@@ -95,22 +95,34 @@ const Footer = () => {
 							<div className="grid-dropdown">
 								<ul className="footer-nav__list">
 									<li>
-										<HashLink className="js-footer__link" to="/#home">
+										<HashLink className="js-footer__link" smooth to="/#home">
 											{t("home_title")}
 										</HashLink>
 									</li>
 									<li>
-										<HashLink className="js-footer__link" to="/#about-us">
+										<HashLink
+											className="js-footer__link"
+											smooth
+											to="/#about-us"
+										>
 											{t("about_us_title")}
 										</HashLink>
 									</li>
 									<li>
-										<HashLink className="js-footer__link" to="/#products">
+										<HashLink
+											className="js-footer__link"
+											smooth
+											to="/#products"
+										>
 											{t("products_title")}
 										</HashLink>
 									</li>
 									<li>
-										<HashLink className="js-footer__link" to="/#contacts">
+										<HashLink
+											className="js-footer__link"
+											smooth
+											to="/#contacts"
+										>
 											{t("contacts_title")}
 										</HashLink>
 									</li>
