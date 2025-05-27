@@ -2,7 +2,6 @@ import { useTranslation } from "react-i18next";
 import { Helmet } from "react-helmet";
 import { useParams } from "react-router-dom";
 import PageNavTitle from "../../components/PageNavTitle/PageNavTitle";
-import ProductsData from "../../data/productsData";
 import Product from "../../components/Product/Product";
 import { HashLink } from "react-router-hash-link";
 import { useEffect, useState } from "react";
@@ -17,12 +16,10 @@ import "swiper/css/pagination";
 import { Autoplay, Pagination } from "swiper/modules";
 import "./ProductPage.scss";
 
-const ProductPage = () => {
+const ProductPage = ({ productsData }) => {
 	const { t } = useTranslation();
 
 	const { id } = useParams();
-
-	const productsData = ProductsData();
 
 	const productData = productsData.find((product) => product.id === id);
 
@@ -53,10 +50,7 @@ const ProductPage = () => {
 		<>
 			<Helmet>
 				<title>{productData.name} / Ягода Карпат</title>
-				<link
-					rel="canonical"
-					href={`https://yagodakarpat.com/product-page/${id}`}
-				/>
+				<link rel="canonical" href={`https://yagodakarpat.com/${id}`} />
 			</Helmet>
 			<PageNavTitle
 				title={productData.name}
@@ -68,8 +62,8 @@ const ProductPage = () => {
 					<div className="product-page__details-inner">
 						<div>
 							<p className="product-page__lat-name">{productData.latName}</p>
-							<p className="product-page__name">{`${productData.name} 
-								${productVariant.state ? productVariant.state : ""}
+							<p className="product-page__name">{`${t(productData.name)} 
+								${t(productVariant.state) ? t(productVariant.state) : ""}
 							`}</p>
 						</div>
 						<div className="product-page__variants">
@@ -86,7 +80,7 @@ const ProductPage = () => {
 														: "variant-btn"
 												}
 											>
-												{variant.state}
+												{t(variant.state)}
 											</button>
 										);
 									}

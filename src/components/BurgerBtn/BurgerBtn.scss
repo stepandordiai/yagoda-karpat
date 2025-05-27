@@ -1,61 +1,61 @@
-@use "./../../mixins" as *;
+@use "./../../scss/mixins" as *;
 
 .burger-btn__wrapper {
-    background: var(--accent-clr);
-    width: 50px;
-    aspect-ratio: 1/1;
-    @include grid-center;
-    border-radius: inherit;
-    cursor: pointer;
+	background: var(--accent-clr);
+	width: 50px;
+	aspect-ratio: 1/1;
+	@include grid-center;
+	border-radius: inherit;
+	cursor: pointer;
 }
 
 .burger-btn {
-    position: relative;
-    width: 30px;
-    padding: 15px 0;
-    @include flex-center;
+	position: relative;
+	width: 30px;
+	padding: 15px 0;
+	@include flex-center;
 }
 
 .burger-btn::before {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 2px;
-    background: #000;
-    transform: translateY(-10px);
-    transition: transform 0.3s 0.3s, rotate 0.3s;
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 2px;
+	background: #000;
+	transform: translateY(-10px);
+	transition: transform 0.3s 0.3s, rotate 0.3s;
 }
 
 .burger-btn::after {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 2px;
-    background: #000;
-    transform: translateY(10px);
-    transition: transform 0.3s 0.3s, rotate 0.3s;
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 2px;
+	background: #000;
+	transform: translateY(10px);
+	transition: transform 0.3s 0.3s, rotate 0.3s;
 }
 
 .burger-btn__center-line {
-    width: 50px;
-    height: 2px;
-    background: #000;
-    opacity: 1;
-    transition: opacity 0s 0.3s;
+	width: 50px;
+	height: 2px;
+	background: #000;
+	opacity: 1;
+	transition: opacity 0s 0.3s;
 }
 
 .burger-btn__center-line--active {
-    opacity: 0;
+	opacity: 0;
 }
 
 .burger-btn--active::before {
-    transform: translateY(0);
-    rotate: 45deg;
-    transition: transform 0.3s, rotate 0.3s 0.3s;
+	transform: translateY(0);
+	rotate: 45deg;
+	transition: transform 0.3s, rotate 0.3s 0.3s;
 }
 
 .burger-btn--active::after {
-    transform: translateY(0);
-    rotate: -45deg;
-    transition: transform 0.3s, rotate 0.3s 0.3s;
+	transform: translateY(0);
+	rotate: -45deg;
+	transition: transform 0.3s, rotate 0.3s 0.3s;
 }

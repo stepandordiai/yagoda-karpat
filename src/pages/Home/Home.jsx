@@ -4,10 +4,11 @@ import AboutUs from "./../../components/AboutUs/AboutUs";
 import Products from "./../../components/Products/Products";
 import Contacts from "./../../components/Contacts/Contacts";
 import Gallery from "../../components/Gallery/Gallery";
+import { HashLink } from "react-router-hash-link";
 import video from "/video.mp4";
 import "./Home.scss";
 
-const Home = () => {
+const Home = ({ productsData }) => {
 	const { t } = useTranslation();
 
 	function animateVideo() {
@@ -36,13 +37,14 @@ const Home = () => {
 					<h1 className="home-container__title">ТОВ Ягода Карпат</h1>
 					<h2 className="home-container__sec-title">{t("home.title")}</h2>
 					<h3 style={{ color: "#fff" }}>{t("home.sec_title")}</h3>
-					<a className="home-container__link" href="#contacts">
+
+					<HashLink className="home-container__link" smooth to={"/#contacts"}>
 						{t("contact_us")}
-					</a>
+					</HashLink>
 				</div>
 			</div>
-			<AboutUs />
-			<Products />
+			<AboutUs productsData={productsData} />
+			<Products productsData={productsData} />
 			<Contacts />
 			<Gallery />
 		</>

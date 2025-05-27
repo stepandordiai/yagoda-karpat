@@ -1,2 +1,4 @@
 maybe add section for harvest with all our products
 in future i want to capture video in mountains when people will be picking up berries etc
+update all project with ts
+add styles folder for styles

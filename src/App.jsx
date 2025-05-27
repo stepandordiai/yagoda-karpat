@@ -8,7 +8,8 @@ import ScrollToTop from "./utils/ScrollToTop";
 import "./i18n";
 import Loading from "./components/Loading/Loading";
 import { useEffect } from "react";
-import "./App.scss";
+import productsData from "./data/products-data.json";
+import "./scss/App.scss";
 
 function App() {
 	useEffect(() => {
@@ -22,12 +23,15 @@ function App() {
 			<Loading />
 			<ScrollToTop />
 			<Header />
-			<NavCurtain />
+			<NavCurtain productsData={productsData} />
 			<Routes>
-				<Route path="/" element={<Home />} />
-				<Route path="/:id" element={<ProductPage />} />
+				<Route path="/" element={<Home productsData={productsData} />} />
+				<Route
+					path="/:id"
+					element={<ProductPage productsData={productsData} />}
+				/>
 			</Routes>
-			<Footer />
+			<Footer productsData={productsData} />
 		</Router>
 	);
 }

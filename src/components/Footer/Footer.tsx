@@ -2,17 +2,37 @@ import { useTranslation } from "react-i18next";
 import { useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
-import ProductsData from "../../data/productsData";
+// import ProductsData from "../../data/productsData";
 // import organicImg from "/assets/certificates/organic-logo.jpg";
 import upArrowIcon from "/icons/up-arrow.png";
 import plusIcon from "/icons/plus.png";
 import logo from "/logo-img/yagoda-karpat-logo.svg";
 import "./Footer.scss";
 
-const Footer = () => {
-	const { t } = useTranslation();
+interface ProductsData {
+	id: string;
+	type: string;
+	status: string;
+	latName: string;
+	name: string;
+	origin: string;
+	pack: string;
+	desc: string;
+	variants: {
+		id: string;
+		images?: string[];
+		state?: string;
+	}[];
+	isOrganic?: boolean;
+	harvest: number[];
+}
 
-	const productsData = ProductsData();
+interface FooterProps {
+	productsData: ProductsData[];
+}
+
+const Footer: React.FC<FooterProps> = ({ productsData }) => {
+	const { t } = useTranslation();
 
 	const scrollToTop = () => {
 		document.documentElement.scrollTo({
@@ -159,7 +179,7 @@ const Footer = () => {
 														}
 														to={`/${id}`}
 													>
-														{name}
+														{t(name)}
 													</NavLink>
 												</li>
 											);
@@ -194,7 +214,7 @@ const Footer = () => {
 														}
 														to={`/${id}`}
 													>
-														{name}
+														{t(name)}
 													</NavLink>
 												</li>
 											);
@@ -229,7 +249,7 @@ const Footer = () => {
 														}
 														to={`/${id}`}
 													>
-														{name}
+														{t(name)}
 													</NavLink>
 												</li>
 											);
@@ -264,7 +284,7 @@ const Footer = () => {
 														}
 														to={`/${id}`}
 													>
-														{name}
+														{t(name)}
 													</NavLink>
 												</li>
 											);

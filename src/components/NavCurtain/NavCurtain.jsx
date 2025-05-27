@@ -1,16 +1,13 @@
 import { useTranslation } from "react-i18next";
 import { useEffect } from "react";
-import ProductsData from "../../data/productsData";
 import { NavLink, useLocation } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 import "./NavCurtain.scss";
 
-const NavCurtain = () => {
+const NavCurtain = ({ productsData }) => {
 	const { t } = useTranslation();
 
 	const { pathname } = useLocation();
-
-	const productsData = ProductsData();
 
 	function handleNavIndicator(sections, links) {
 		links.forEach((link) => link.classList.remove("link--active"));
@@ -140,7 +137,7 @@ const NavCurtain = () => {
 																}
 																to={`/${id}`}
 															>
-																{name}
+																{t(name)}
 															</NavLink>
 														</li>
 													);
@@ -163,7 +160,7 @@ const NavCurtain = () => {
 																}
 																to={`/${id}`}
 															>
-																{name}
+																{t(name)}
 															</NavLink>
 														</li>
 													);
@@ -186,7 +183,7 @@ const NavCurtain = () => {
 																}
 																to={`/${id}`}
 															>
-																{name}
+																{t(name)}
 															</NavLink>
 														</li>
 													);
@@ -209,7 +206,7 @@ const NavCurtain = () => {
 																}
 																to={`/${id}`}
 															>
-																{name}
+																{t(name)}
 															</NavLink>
 														</li>
 													);

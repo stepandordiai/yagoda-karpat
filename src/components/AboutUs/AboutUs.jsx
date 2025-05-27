@@ -1,14 +1,12 @@
 import { useTranslation } from "react-i18next";
 import PageTitle from "../PageTitle/PageTitle";
 import { useEffect } from "react";
-import ProductsData from "../../data/productsData";
+// import ProductsData from "../../data/productsData";
 import worldMapImg from "../../assets/world-map.svg";
 import "./AboutUs.scss";
 
-const AboutUs = () => {
+const AboutUs = ({ productsData }) => {
 	const { t } = useTranslation();
-
-	const productsData = ProductsData();
 
 	const dateNow = new Date();
 	const companyEstablishedDate = new Date("2010");

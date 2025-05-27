@@ -1,18 +1,15 @@
 import { useTranslation } from "react-i18next";
 import { useState } from "react";
 import Product from "../Product/Product";
-import ProductsData from "../../data/productsData";
 import PageTitle from "../PageTitle/PageTitle";
 import searchIcon from "/icons/search.png";
 import closeIcon from "/icons/close.png";
 import "./Products.scss";
 
-const Products = () => {
+const Products = ({ productsData }) => {
 	const { t } = useTranslation();
 
 	const [search, setSearch] = useState("");
-
-	const productsData = ProductsData();
 
 	function clearSearch() {
 		setSearch("");
