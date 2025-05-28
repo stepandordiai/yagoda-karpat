@@ -38,7 +38,7 @@ const Product = ({ product }) => {
 					<div className="product__info-container-top">
 						<div>
 							<p className="product__lat-name">{latName}</p>
-							<h4 className="product-name">{t(name)}</h4>
+							<h3 className="product-name">{t(name)}</h3>
 						</div>
 						{isOrganic && <img src={organicLogo} alt="" />}
 					</div>

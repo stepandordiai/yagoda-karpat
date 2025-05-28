@@ -11,12 +11,6 @@ import "./Home.scss";
 const Home = ({ productsData }) => {
 	const { t } = useTranslation();
 
-	function animateVideo() {
-		document
-			.querySelector(".home-container__video")
-			.classList.add("home-container__video--active");
-	}
-
 	return (
 		<>
 			<Helmet>
@@ -32,7 +26,6 @@ const Home = ({ productsData }) => {
 						muted
 						playsInline
 						src={video}
-						onLoad={animateVideo}
 					></video>
 					<h1 className="home-container__title">ТОВ Ягода Карпат</h1>
 					<h2 className="home-container__sec-title">{t("home.title")}</h2>
