@@ -2,7 +2,17 @@ import { useTranslation } from "react-i18next";
 import { HashLink } from "react-router-hash-link";
 import "./PageNavTitle.scss";
 
-const PageNavTitle = ({ title, previousTitle, homeTitle }) => {
+interface PageNavTitleProps {
+	title: string;
+	previousTitle: string;
+	homeTitle: string;
+}
+
+const PageNavTitle = ({
+	title,
+	previousTitle,
+	homeTitle,
+}: PageNavTitleProps) => {
 	const { t } = useTranslation();
 
 	return (

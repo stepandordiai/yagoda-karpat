@@ -16,7 +16,29 @@ import "swiper/css/pagination";
 import { Autoplay, Pagination } from "swiper/modules";
 import "./ProductPage.scss";
 
-const ProductPage = ({ productsData }) => {
+interface ProductsData {
+	id: string;
+	type: string;
+	status: string;
+	latName: string;
+	name: string;
+	origin: string;
+	pack: string;
+	desc: string;
+	variants: {
+		id: string;
+		images?: string[];
+		state?: string;
+	}[];
+	isOrganic?: boolean;
+	harvest: number[];
+}
+
+interface ProductPageProps {
+	productsData: ProductsData[];
+}
+
+const ProductPage: React.FC<ProductPageProps> = ({ productsData }) => {
 	const { t } = useTranslation();
 
 	const { id } = useParams();
@@ -24,27 +46,35 @@ const ProductPage = ({ productsData }) => {
 	const productData = productsData.find((product) => product.id === id);
 
 	const [activeVariantId, setActiveVariantId] = useState(
-		productData.variants[0].id
+		productData?.variants[0].id
 	);
 
-	function handleVariantId(props) {
-		if (props) {
-			setActiveVariantId(props);
-		}
+	function handleVariantId(props: string) {
+		if (!props) return;
+		setActiveVariantId(props);
 	}
 
 	useEffect(() => {
 		if (activeVariantId) {
-			setActiveVariantId(productData.variants[0].id);
+			setActiveVariantId(productData?.variants[0].id);
 		}
 	}, [id]);
 
-	// I find value or  and omit undefinded
+	// I find value or and omit undefinded
 	// TODO:
-	const productVariant =
-		productData.variants.find((variant) => variant.id === activeVariantId) ??
-		productData.variants[0] ??
+
+	interface ProductVariant {
+		id: string;
+		images?: string[];
+		state?: string;
+	}
+
+	const productVariant: ProductVariant | null =
+		productData?.variants.find((variant) => variant.id === activeVariantId) ??
+		productData?.variants[0] ??
 		null;
+
+	if (!productData || !productVariant) return;
 
 	return (
 		<>
@@ -63,7 +93,7 @@ const ProductPage = ({ productsData }) => {
 						<div>
 							<p className="product-page__lat-name">{productData.latName}</p>
 							<p className="product-page__name">{`${t(productData.name)} 
-								${t(productVariant.state) ? t(productVariant.state) : ""}
+								${productVariant.state ? t(productVariant.state) : ""}
 							`}</p>
 						</div>
 						<div className="product-page__variants">

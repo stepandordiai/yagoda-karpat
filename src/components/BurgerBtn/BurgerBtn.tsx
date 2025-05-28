@@ -1,7 +1,7 @@
 import "./BurgerBtn.scss";
 
 const BurgerBtn = () => {
-	function toggleBurgerBtn() {
+	function toggleBurgerBtn(): void {
 		const burgerBtn = document.querySelector(
 			".burger-btn"
 		) as HTMLDivElement | null;

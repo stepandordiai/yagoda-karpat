@@ -4,12 +4,37 @@ import { NavLink, useLocation } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 import "./NavCurtain.scss";
 
-const NavCurtain = ({ productsData }) => {
+interface ProductsData {
+	id: string;
+	type: string;
+	status: string;
+	latName: string;
+	name: string;
+	origin: string;
+	pack: string;
+	desc: string;
+	variants: {
+		id: string;
+		images?: string[];
+		state?: string;
+	}[];
+	isOrganic?: boolean;
+	harvest: number[];
+}
+
+interface NavCurtainProps {
+	productsData: ProductsData[];
+}
+
+const NavCurtain: React.FC<NavCurtainProps> = ({ productsData }) => {
 	const { t } = useTranslation();
 
 	const { pathname } = useLocation();
 
-	function handleNavIndicator(sections, links) {
+	function handleNavIndicator(
+		sections: (HTMLElement | null)[],
+		links: NodeListOf<HTMLElement>
+	): void {
 		links.forEach((link) => link.classList.remove("link--active"));
 
 		sections.forEach((section, index) => {
@@ -23,12 +48,12 @@ const NavCurtain = ({ productsData }) => {
 	}
 
 	useEffect(() => {
-		const links = document.querySelectorAll(".link");
+		const links = document.querySelectorAll(".link") as NodeListOf<HTMLElement>;
 		const sections = [
-			document.querySelector(".js-home"),
-			document.querySelector(".js-about-us"),
-			document.querySelector(".js-products"),
-			document.querySelector(".js-contacts"),
+			document.querySelector(".js-home") as HTMLDivElement | null,
+			document.querySelector(".js-about-us") as HTMLDivElement | null,
+			document.querySelector(".js-products") as HTMLDivElement | null,
+			document.querySelector(".js-contacts") as HTMLDivElement | null,
 		];
 
 		// Remove indicators when navigate to another page
@@ -64,24 +89,39 @@ const NavCurtain = ({ productsData }) => {
 	useEffect(() => {
 		document.querySelectorAll(".js-link").forEach((link) => {
 			link.addEventListener("click", () => {
-				const burgerBtn = document.querySelector(".burger-btn");
-				const midLine = document.querySelector(".burger-btn__center-line");
-				const mobileMenu = document.querySelector(".nav-curtain");
-				burgerBtn.classList.remove("burger-btn--active");
-				midLine.classList.remove("burger-btn__center-line--active");
-				mobileMenu.classList.remove("nav-curtain--active");
-				document.querySelector(".curtain").classList.remove("curtain--active");
+				const burgerBtn = document.querySelector(
+					".burger-btn"
+				) as HTMLDivElement | null;
+				const midLine = document.querySelector(
+					".burger-btn__center-line"
+				) as HTMLDivElement | null;
+				const mobileMenu = document.querySelector(
+					".nav-curtain"
+				) as HTMLDivElement | null;
+				burgerBtn?.classList.remove("burger-btn--active");
+				midLine?.classList.remove("burger-btn__center-line--active");
+				mobileMenu?.classList.remove("nav-curtain--active");
+				const curtain = document.querySelector(
+					".curtain"
+				) as HTMLDivElement | null;
+				curtain?.classList.remove("curtain--active");
 
 				// hide list of products in menu by clicking menu btn
-				document
-					.querySelector(".nav-curtain__grid-dropdown")
-					.classList.remove("nav-curtain__grid-dropdown--active");
-				document
-					.querySelector(".products-btn")
-					.classList.remove("products-btn--active");
-				document
-					.querySelector(".products-btn__icon")
-					.classList.remove("products-btn__icon--active");
+				const navCurtainGridDd = document.querySelector(
+					".nav-curtain__grid-dropdown"
+				);
+
+				navCurtainGridDd?.classList.remove(
+					"nav-curtain__grid-dropdown--active"
+				);
+				const productsBtn = document.querySelector(".products-btn");
+
+				productsBtn?.classList.remove("products-btn--active");
+				const productsBtnIcon = document.querySelector(
+					".products-btn__icon"
+				) as HTMLDivElement | null;
+
+				productsBtnIcon?.classList.remove("products-btn__icon--active");
 				document.body.classList.remove("body--hidden");
 			});
 		});

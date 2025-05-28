@@ -6,7 +6,29 @@ import searchIcon from "/icons/search.png";
 import closeIcon from "/icons/close.png";
 import "./Products.scss";
 
-const Products = ({ productsData }) => {
+interface ProductsData {
+	id: string;
+	type: string;
+	status: string;
+	latName: string;
+	name: string;
+	origin: string;
+	pack: string;
+	desc: string;
+	variants: {
+		id: string;
+		images?: string[];
+		state?: string;
+	}[];
+	isOrganic?: boolean;
+	harvest: number[];
+}
+
+interface ProductsProps {
+	productsData: ProductsData[];
+}
+
+const Products: React.FC<ProductsProps> = ({ productsData }) => {
 	const { t } = useTranslation();
 
 	const [search, setSearch] = useState("");
@@ -16,7 +38,7 @@ const Products = ({ productsData }) => {
 	}
 
 	return (
-		<section className="js-products" id="products">
+		<div className="js-products" id="products">
 			<PageTitle name={t("products_title")} />
 			<div>
 				<p className="filter-title">{t("products.filter")}</p>
@@ -43,7 +65,7 @@ const Products = ({ productsData }) => {
 			<div className="products-container">
 				{productsData
 					.filter((product) => {
-						return search.toLowerCase() === ""
+						return search.trim() === ""
 							? product
 							: product.name.toLowerCase().startsWith(search.toLowerCase());
 					})
@@ -51,7 +73,7 @@ const Products = ({ productsData }) => {
 						return <Product key={product.id} product={product} />;
 					})}
 			</div>
-		</section>
+		</div>
 	);
 };
 

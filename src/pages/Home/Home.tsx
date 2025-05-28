@@ -1,14 +1,37 @@
 import { Helmet } from "react-helmet";
 import { useTranslation } from "react-i18next";
 import AboutUs from "../../components/AboutUs/AboutUs";
-import Products from "./../../components/Products/Products";
+// import Products from "../../components/Products/Products";
+import Products from "../../components/Products/Products";
 import Contacts from "../../components/Contacts/Contacts";
 import Gallery from "../../components/Gallery/Gallery";
 import { HashLink } from "react-router-hash-link";
 import video from "/video.mp4";
 import "./Home.scss";
 
-const Home = ({ productsData }) => {
+interface ProductsData {
+	id: string;
+	type: string;
+	status: string;
+	latName: string;
+	name: string;
+	origin: string;
+	pack: string;
+	desc: string;
+	variants: {
+		id: string;
+		images?: string[];
+		state?: string;
+	}[];
+	isOrganic?: boolean;
+	harvest: number[];
+}
+
+interface HomeProps {
+	productsData: ProductsData[];
+}
+
+const Home: React.FC<HomeProps> = ({ productsData }) => {
 	const { t } = useTranslation();
 
 	return (
