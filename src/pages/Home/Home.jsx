@@ -1,8 +1,8 @@
-import { useTranslation } from "react-i18next";
 import { Helmet } from "react-helmet";
-import AboutUs from "./../../components/AboutUs/AboutUs";
+import { useTranslation } from "react-i18next";
+import AboutUs from "../../components/AboutUs/AboutUs";
 import Products from "./../../components/Products/Products";
-import Contacts from "./../../components/Contacts/Contacts";
+import Contacts from "../../components/Contacts/Contacts";
 import Gallery from "../../components/Gallery/Gallery";
 import { HashLink } from "react-router-hash-link";
 import video from "/video.mp4";

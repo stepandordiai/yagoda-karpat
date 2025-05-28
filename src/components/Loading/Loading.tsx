@@ -1,5 +1,5 @@
 import styles from "./Loading.module.scss";
-import { useEffect } from "react";
+
 const Loading = () => {
 	return (
 		<div className={styles["loading"]}>

@@ -1,7 +1,10 @@
+import { useTranslation } from "react-i18next";
 import { HashLink } from "react-router-hash-link";
 import "./PageNavTitle.scss";
 
 const PageNavTitle = ({ title, previousTitle, homeTitle }) => {
+	const { t } = useTranslation();
+
 	return (
 		<div className="page-nav-title">
 			<HashLink className="page-nav-title__link" smooth to={"/#home"}>
@@ -12,7 +15,7 @@ const PageNavTitle = ({ title, previousTitle, homeTitle }) => {
 				{previousTitle}
 			</HashLink>
 			<span>/</span>
-			<span>{title}</span>
+			<span>{t(title)}</span>
 		</div>
 	);
 };

@@ -22,7 +22,13 @@ import styles from "./Gallery.module.scss";
 const Gallery = () => {
 	const { t } = useTranslation();
 
-	const galleryData = [
+	interface GalleryDataTypes {
+		img: string;
+		date: string;
+	}
+
+	// Required properties
+	const galleryData: Required<GalleryDataTypes[]> = [
 		{ img: img1, date: "26/11/21" },
 		{ img: img2, date: "8/7/23" },
 		{ img: img3, date: "18/7/23" },

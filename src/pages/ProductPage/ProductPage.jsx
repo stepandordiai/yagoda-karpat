@@ -49,7 +49,7 @@ const ProductPage = ({ productsData }) => {
 	return (
 		<>
 			<Helmet>
-				<title>{productData.name} / Ягода Карпат</title>
+				<title>{t(productData.name)} / Ягода Карпат</title>
 				<link rel="canonical" href={`https://yagodakarpat.com/${id}`} />
 			</Helmet>
 			<PageNavTitle
