@@ -177,7 +177,7 @@ const Footer: React.FC<FooterProps> = ({ productsData }) => {
 														className={({ isActive }) =>
 															isActive ? activeFooterLink : inactiveFooterLink
 														}
-														to={`/${id}`}
+														to={`/product-page/${id}`}
 													>
 														{t(name)}
 													</NavLink>
@@ -212,7 +212,7 @@ const Footer: React.FC<FooterProps> = ({ productsData }) => {
 														className={({ isActive }) =>
 															isActive ? activeFooterLink : inactiveFooterLink
 														}
-														to={`/${id}`}
+														to={`/product-page/${id}`}
 													>
 														{t(name)}
 													</NavLink>
@@ -247,7 +247,7 @@ const Footer: React.FC<FooterProps> = ({ productsData }) => {
 														className={({ isActive }) =>
 															isActive ? activeFooterLink : inactiveFooterLink
 														}
-														to={`/${id}`}
+														to={`/product-page/${id}`}
 													>
 														{t(name)}
 													</NavLink>
@@ -282,7 +282,7 @@ const Footer: React.FC<FooterProps> = ({ productsData }) => {
 														className={({ isActive }) =>
 															isActive ? activeFooterLink : inactiveFooterLink
 														}
-														to={`/${id}`}
+														to={`/product-page/${id}`}
 													>
 														{t(name)}
 													</NavLink>

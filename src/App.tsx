@@ -28,7 +28,7 @@ function App() {
 			<Routes>
 				<Route path="/" element={<Home productsData={productsData} />} />
 				<Route
-					path="/:id"
+					path="/product-page/:id"
 					element={<ProductPage productsData={productsData} />}
 				/>
 			</Routes>

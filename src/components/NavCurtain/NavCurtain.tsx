@@ -74,18 +74,6 @@ const NavCurtain: React.FC<NavCurtainProps> = ({ productsData }) => {
 		};
 	}, [pathname]);
 
-	function showProducts() {
-		document
-			.querySelector(".nav-curtain__grid-dropdown")
-			.classList.toggle("nav-curtain__grid-dropdown--active");
-		document
-			.querySelector(".products-btn")
-			.classList.toggle("products-btn--active");
-		document
-			.querySelector(".products-btn__icon")
-			.classList.toggle("products-btn__icon--active");
-	}
-
 	useEffect(() => {
 		document.querySelectorAll(".js-link").forEach((link) => {
 			link.addEventListener("click", () => {
@@ -98,6 +86,15 @@ const NavCurtain: React.FC<NavCurtainProps> = ({ productsData }) => {
 				const mobileMenu = document.querySelector(
 					".nav-curtain"
 				) as HTMLDivElement | null;
+				const navCurtainGridDd = document.querySelector(
+					".nav-curtain__grid-dropdown"
+				) as HTMLDivElement | null;
+				const productsBtn = document.querySelector(
+					".products-btn"
+				) as HTMLButtonElement | null;
+				const productsBtnIcon = document.querySelector(
+					".products-btn__icon"
+				) as HTMLDivElement | null;
 				burgerBtn?.classList.remove("burger-btn--active");
 				midLine?.classList.remove("burger-btn__center-line--active");
 				mobileMenu?.classList.remove("nav-curtain--active");
@@ -107,25 +104,30 @@ const NavCurtain: React.FC<NavCurtainProps> = ({ productsData }) => {
 				curtain?.classList.remove("curtain--active");
 
 				// hide list of products in menu by clicking menu btn
-				const navCurtainGridDd = document.querySelector(
-					".nav-curtain__grid-dropdown"
-				);
-
 				navCurtainGridDd?.classList.remove(
 					"nav-curtain__grid-dropdown--active"
 				);
-				const productsBtn = document.querySelector(".products-btn");
-
 				productsBtn?.classList.remove("products-btn--active");
-				const productsBtnIcon = document.querySelector(
-					".products-btn__icon"
-				) as HTMLDivElement | null;
-
 				productsBtnIcon?.classList.remove("products-btn__icon--active");
 				document.body.classList.remove("body--hidden");
 			});
 		});
 	}, []);
+
+	function showProducts(): void {
+		const navCurtainGridDd = document.querySelector(
+			".nav-curtain__grid-dropdown"
+		) as HTMLDivElement | null;
+		const productsBtn = document.querySelector(
+			".products-btn"
+		) as HTMLButtonElement | null;
+		const productsBtnIcon = document.querySelector(
+			".products-btn__icon"
+		) as HTMLDivElement | null;
+		navCurtainGridDd?.classList.toggle("nav-curtain__grid-dropdown--active");
+		productsBtn?.classList.toggle("products-btn--active");
+		productsBtnIcon?.classList.toggle("products-btn__icon--active");
+	}
 
 	const inactiveLink = "js-link";
 	const activeLink = "js-link product-link--active";
@@ -175,7 +177,7 @@ const NavCurtain: React.FC<NavCurtainProps> = ({ productsData }) => {
 																className={({ isActive }) =>
 																	isActive ? activeLink : inactiveLink
 																}
-																to={`/${id}`}
+																to={`/product-page/${id}`}
 															>
 																{t(name)}
 															</NavLink>
@@ -198,7 +200,7 @@ const NavCurtain: React.FC<NavCurtainProps> = ({ productsData }) => {
 																className={({ isActive }) =>
 																	isActive ? activeLink : inactiveLink
 																}
-																to={`/${id}`}
+																to={`/product-page/${id}`}
 															>
 																{t(name)}
 															</NavLink>
@@ -221,7 +223,7 @@ const NavCurtain: React.FC<NavCurtainProps> = ({ productsData }) => {
 																className={({ isActive }) =>
 																	isActive ? activeLink : inactiveLink
 																}
-																to={`/${id}`}
+																to={`/product-page/${id}`}
 															>
 																{t(name)}
 															</NavLink>
@@ -244,7 +246,7 @@ const NavCurtain: React.FC<NavCurtainProps> = ({ productsData }) => {
 																className={({ isActive }) =>
 																	isActive ? activeLink : inactiveLink
 																}
-																to={`/${id}`}
+																to={`/product-page/${id}`}
 															>
 																{t(name)}
 															</NavLink>
