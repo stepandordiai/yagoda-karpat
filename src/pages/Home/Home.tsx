@@ -1,7 +1,6 @@
 import { Helmet } from "react-helmet";
 import { useTranslation } from "react-i18next";
 import AboutUs from "../../components/AboutUs/AboutUs";
-// import Products from "../../components/Products/Products";
 import Products from "../../components/Products/Products";
 import Contacts from "../../components/Contacts/Contacts";
 import Gallery from "../../components/Gallery/Gallery";

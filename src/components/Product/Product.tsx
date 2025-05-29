@@ -4,10 +4,32 @@ import cameraIcon from "/icons/camera.png";
 import organicLogo from "/icons/organic-logo.jpg";
 import "./Product.scss";
 
-const Product = ({ product }) => {
+interface ProductsData {
+	id: string;
+	type: string;
+	status: string;
+	latName: string;
+	name: string;
+	origin: string;
+	pack: string;
+	desc: string;
+	variants: {
+		id: string;
+		images?: string[];
+		state?: string;
+	}[];
+	isOrganic?: boolean;
+	harvest: number[];
+}
+
+interface ProductProps {
+	product: ProductsData;
+}
+
+const Product: React.FC<ProductProps> = ({ product }) => {
 	const { t } = useTranslation();
 
-	const { id, name, variants, latName, isOrganic, harvest, status } = product;
+	const { id, name, variants, latName, isOrganic, harvest } = product;
 
 	const allImages = variants.flatMap((variant) =>
 		variant.images ? variant.images : []
