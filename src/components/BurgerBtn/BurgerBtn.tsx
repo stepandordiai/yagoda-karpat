@@ -16,8 +16,9 @@ const BurgerBtn = () => {
 		midLine?.classList.toggle("burger-btn__center-line--active");
 		navCurtain?.classList.toggle("nav-curtain--active");
 		curtain?.classList.toggle("curtain--active");
-		// hide list of products in menu by clicking menu btn
+		document.body.classList.toggle("body--hidden");
 
+		// hide list of products in menu by clicking menu btn
 		const navCurtainGridDd = document.querySelector(
 			".nav-curtain__grid-dropdown"
 		) as HTMLDivElement | null;
@@ -27,7 +28,6 @@ const BurgerBtn = () => {
 		navCurtainGridDd?.classList.remove("nav-curtain__grid-dropdown--active");
 		productsBtn?.classList.remove("products-btn--active");
 		productsBtnIcon?.classList.remove("products-btn__icon--active");
-		// document.body.classList.toggle("body--hidden");
 	}
 
 	return (
