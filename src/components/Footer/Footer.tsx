@@ -85,7 +85,7 @@ const Footer: React.FC<FooterProps> = ({ productsData }) => {
 			<div className="footer-details">
 				<NavLink className="footer-logo" to="/">
 					<img src={logo} width={50} alt="" />
-					<span>Ягода Карпат</span>
+					<span>{t("company_name")}</span>
 				</NavLink>
 				{/* <div>
                     <h3 className="certificates-info">
@@ -295,7 +295,7 @@ const Footer: React.FC<FooterProps> = ({ productsData }) => {
 					</div>
 				</div>
 				<div className="footer__bottom">
-					<p>© ТОВ Ягода Карпат 2025. Всі права захищені.</p>
+					<p>© 2025 {t("company_full_name")}. Всі права захищені.</p>
 					<p>
 						Made with love by{" "}
 						<a

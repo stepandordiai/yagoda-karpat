@@ -36,7 +36,7 @@ const Home: React.FC<HomeProps> = ({ productsData }) => {
 	return (
 		<>
 			<Helmet>
-				<title>{t("home.title")} / Ягода Карпат</title>
+				<title>{t("home.title") + "/" + t("company_name")}</title>
 				<link rel="canonical" href="https://yagodakarpat.com/" />
 			</Helmet>
 			<div className="home js-home" id="home">
@@ -49,7 +49,7 @@ const Home: React.FC<HomeProps> = ({ productsData }) => {
 						playsInline
 						src={video}
 					></video>
-					<h1 className="home-container__title">ТОВ Ягода Карпат</h1>
+					<h1 className="home-container__title">{t("company_full_name")}</h1>
 					<h2 className="home-container__sec-title">{t("home.title")}</h2>
 					<h3 style={{ color: "#fff" }}>{t("home.sec_title")}</h3>
 

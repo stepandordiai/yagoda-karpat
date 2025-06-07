@@ -4,8 +4,11 @@ import { NavLink } from "react-router-dom";
 import logo from "/logo-img/yagoda-karpat-logo.svg";
 import { useEffect } from "react";
 import "./Header.scss";
+import { useTranslation } from "react-i18next";
 
 const Header = () => {
+	const { t } = useTranslation();
+
 	useEffect(() => {
 		let lastScrollTop = 0;
 
@@ -31,7 +34,7 @@ const Header = () => {
 		<header className="header">
 			<NavLink to={"/"} className="header__logo">
 				<img width={30} src={logo} alt="" />
-				<span>Ягода Карпат</span>
+				<span>{t("company_name")}</span>
 			</NavLink>
 			<LngSelect />
 			<a className="header__tel" href="tel:+380968065513">
