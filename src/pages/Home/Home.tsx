@@ -39,29 +39,31 @@ const Home: React.FC<HomeProps> = ({ productsData }) => {
 				<title>{t("home.title") + "/" + t("company_name")}</title>
 				<link rel="canonical" href="https://yagodakarpat.com/" />
 			</Helmet>
-			<div className="home js-home" id="home">
-				<div className="home-container">
-					<video
-						className="home-container__video"
-						loop
-						autoPlay
-						muted
-						playsInline
-						src={video}
-					></video>
-					<h1 className="home-container__title">{t("company_full_name")}</h1>
-					<h2 className="home-container__sec-title">{t("home.title")}</h2>
-					<h3 style={{ color: "#fff" }}>{t("home.sec_title")}</h3>
+			<main>
+				<div className="home js-home" id="home">
+					<div className="home-container">
+						<video
+							className="home-container__video"
+							loop
+							autoPlay
+							muted
+							playsInline
+							src={video}
+						></video>
+						<h1 className="home-container__title">{t("company_full_name")}</h1>
+						<h2 className="home-container__sec-title">{t("home.title")}</h2>
+						<h3 style={{ color: "#fff" }}>{t("home.sec_title")}</h3>
 
-					<HashLink className="home-container__link" smooth to={"/#contacts"}>
-						{t("contact_us")}
-					</HashLink>
+						<HashLink className="home-container__link" smooth to={"/#contacts"}>
+							{t("contact_us")}
+						</HashLink>
+					</div>
 				</div>
-			</div>
-			<AboutUs productsData={productsData} />
-			<Products productsData={productsData} />
-			<Contacts />
-			<Gallery />
+				<AboutUs productsData={productsData} />
+				<Products productsData={productsData} />
+				<Contacts />
+				<Gallery />
+			</main>
 		</>
 	);
 };
