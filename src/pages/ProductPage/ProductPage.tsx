@@ -1,5 +1,5 @@
-import { useTranslation } from "react-i18next";
 import { Helmet } from "react-helmet";
+import { useTranslation } from "react-i18next";
 import { useParams } from "react-router-dom";
 import PageNavTitle from "../../components/PageNavTitle/PageNavTitle";
 import Product from "../../components/Product/Product";
@@ -76,6 +76,16 @@ const ProductPage: React.FC<ProductPageProps> = ({ productsData }) => {
 
 	if (!productData || !productVariant) return;
 
+	const relatedProducts = productsData.filter((product) => {
+		return (
+			product.status === productData.status &&
+			product.type === productData.type &&
+			product.name !== productData.name
+		);
+	});
+
+	console.log(relatedProducts);
+
 	return (
 		<>
 			<Helmet>
@@ -118,19 +128,19 @@ const ProductPage: React.FC<ProductPageProps> = ({ productsData }) => {
 									})}
 							</div>
 							<div>
-								<p style={{ color: "rgba(0, 0, 0, 0.5)" }}>
+								<p style={{ color: "hsl(0, 0%, 50%)" }}>
 									{t("product_page.origin_title")}
 								</p>
 								<p>{productData.origin}</p>
 							</div>
 							<div>
-								<p style={{ color: "rgba(0, 0, 0, 0.5)" }}>
+								<p style={{ color: "hsl(0, 0%, 50%)" }}>
 									{t("product_page.packaging_title")}
 								</p>
 								<p>{productData.pack}</p>
 							</div>
 							<div>
-								<p style={{ color: "rgba(0, 0, 0, 0.5)" }}>
+								<p style={{ color: "hsl(0, 0%, 50%)" }}>
 									{t("product_page.desc_title")}
 								</p>
 								<p>{productData.desc && productData.desc}</p>
@@ -168,18 +178,18 @@ const ProductPage: React.FC<ProductPageProps> = ({ productsData }) => {
 						)}
 					</div>
 				</div>
-				<p className="related-products__title">{t("product_page.related")}</p>
-				{productsData
-					.filter((product) => {
-						return (
-							product.status === productData.status &&
-							product.type === productData.type &&
-							product.name !== productData.name
-						);
-					})
-					.map((product) => {
-						return <Product product={product} key={product.id} />;
-					})}
+				{relatedProducts.length > 0 && (
+					<>
+						<p className="related-products__title">
+							{t("product_page.related")}
+						</p>
+						<div className="related-products__grid">
+							{relatedProducts.map((product) => {
+								return <Product product={product} key={product.id} />;
+							})}
+						</div>
+					</>
+				)}
 			</main>
 		</>
 	);

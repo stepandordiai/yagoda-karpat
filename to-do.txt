@@ -1,5 +1,2 @@
-maybe add section for harvest with all our products
 in future i want to capture video in mountains when people will be picking up berries etc
-update productpage when no related product do not show this section
-update  productpage related products with grid the same as home
 update with iqf i dont know how yet where to put it

@@ -30,7 +30,6 @@ const LngSelect = () => {
 			) as HTMLButtonElement | null;
 			lngSelectDd?.classList.toggle("lng-select__dd--active");
 			selectBtn?.classList.toggle("lng-select__btn--active");
-			console.log(1);
 		});
 
 		langSelectOptions.forEach((option) => {

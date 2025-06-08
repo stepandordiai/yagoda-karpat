@@ -67,7 +67,7 @@ const Products: React.FC<ProductsProps> = ({ productsData }) => {
 					.filter((product) => {
 						return search.trim() === ""
 							? product
-							: product.name.toLowerCase().startsWith(search.toLowerCase());
+							: t(product.name).toLowerCase().startsWith(search.toLowerCase());
 					})
 					.map((product) => {
 						return <Product key={product.id} product={product} />;
