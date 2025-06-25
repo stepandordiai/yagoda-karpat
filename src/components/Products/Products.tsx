@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
 import { useState } from "react";
 import Product from "../Product/Product";
-import PageTitle from "../PageTitle/PageTitle";
+import SectionTitle from "../SectionTitle/SectionTitle";
 import searchIcon from "/icons/search.png";
 import closeIcon from "/icons/close.png";
 import "./Products.scss";
@@ -39,7 +39,7 @@ const Products: React.FC<ProductsProps> = ({ productsData }) => {
 
 	return (
 		<div className="js-products" id="products">
-			<PageTitle name={t("products_title")} />
+			<SectionTitle name={t("products_title")} />
 			<div>
 				<p className="filter-title">{t("products.filter")}</p>
 				<div className="search-wrapper">
@@ -55,9 +55,9 @@ const Products: React.FC<ProductsProps> = ({ productsData }) => {
 						onClick={search === "" ? undefined : clearSearch}
 					>
 						{search === "" ? (
-							<img src={searchIcon} alt="" />
+							<img src={searchIcon} width={20} height={20} alt="" />
 						) : (
-							<img src={closeIcon} alt="" />
+							<img src={closeIcon} width={20} height={20} alt="" />
 						)}
 					</button>
 				</div>

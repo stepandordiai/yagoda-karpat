@@ -6,9 +6,9 @@
 }
 
 .gallery__title {
-	font-size: 1.5rem;
-	font-weight: 500;
 	margin-bottom: 10px;
+	font-size: clamp(20px, 3vw, 30px);
+	font-weight: 500;
 }
 
 .swiper-card {

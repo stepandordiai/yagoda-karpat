@@ -34,14 +34,15 @@
 	"dec_s": "D",
 	"company_name": "Yagoda Karpat",
 	"company_full_name": "LLC Yagoda Karpat",
+	"all_rights_reserved": "All rights reserved",
 
 	"home": {
 		"title": "Manufacturer of frozen and dried foods",
-		"sec_title": "We produce frozen and dried berries, fruits, mushrooms and vegetables"
+		"sec_title": "We produce and export top-quality frozen and dried berries, fruits, mushrooms and vegetables"
 	},
 
 	"about_us": {
-		"sec_title": "We specialize in the processing and production of frozen and dried berries, fruits, mushrooms and vegetables. All our products are grown and collected exclusively in ecologically clean regions of Ukraine.",
+		"sec_title": "We are a family-run private company. We specialize in the processing, production and export of frozen and dried berries, fruits, mushrooms and vegetables since 2010. All our products are grown and collected exclusively in ecologically clean regions of Ukraine",
 		"year": "years of experience",
 		"product": "products",
 		"volume": "employees",

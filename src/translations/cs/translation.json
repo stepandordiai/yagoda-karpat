@@ -34,14 +34,15 @@
 	"dec_s": "P",
 	"company_name": "Yagoda Karpat",
 	"company_full_name": "LLC Yagoda Karpat",
+	"all_rights_reserved": "Všechna práva vyhrazena",
 
 	"home": {
 		"title": "Výrobce mražených a sušených potravin",
-		"sec_title": "Vyrábíme mražené a sušené bobuloviny, ovoce, houby a zeleninu"
+		"sec_title": "Vyrábíme a vyvážíme vysoce kvalitní mražené a sušené bobule, ovoce, houby a zeleninu"
 	},
 
 	"about_us": {
-		"sec_title": "Specializujeme se na zpracování a výrobu mražených a sušených bobulí, ovoce, hub a zeleniny. Všechny naše produkty jsou pěstovány a sbírány výhradně v ekologicky čistých oblastech Ukrajiny.",
+		"sec_title": "Jsme rodinná soukromá firma. Specializujeme se na zpracování, výrobu a export mraženého a sušeného bobulovin, ovoce, hub a zeleniny od roku 2010. Všechny naše produkty jsou pěstovány a sklízeny výhradně v ekologicky čistých oblastech Ukrajiny",
 		"year": "let zkušeností",
 		"product": "produkty",
 		"volume": "zaměstnanci",

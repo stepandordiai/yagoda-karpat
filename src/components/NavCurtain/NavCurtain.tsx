@@ -2,6 +2,7 @@ import { useTranslation } from "react-i18next";
 import { useEffect } from "react";
 import { NavLink, useLocation } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
+import plusIcon from "/icons/plus.png";
 import "./NavCurtain.scss";
 
 interface ProductsData {
@@ -157,7 +158,9 @@ const NavCurtain: React.FC<NavCurtainProps> = ({ productsData }) => {
 								{t("products_title")}
 							</HashLink>
 							<button className="products-btn" onClick={showProducts}>
-								<div className="products-btn__icon">+</div>
+								<div className="products-btn__icon">
+									<img src={plusIcon} width={25} height={25} alt="" />
+								</div>
 							</button>
 						</div>
 						<div className="nav-curtain__grid-dropdown">

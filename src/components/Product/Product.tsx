@@ -48,7 +48,13 @@ const Product: React.FC<ProductProps> = ({ product }) => {
 								loading="lazy"
 							/>
 							<div className="img-qty">
-								<img src={cameraIcon} alt="" loading="lazy" />
+								<img
+									src={cameraIcon}
+									width={15}
+									height={15}
+									alt=""
+									loading="lazy"
+								/>
 								<span>{allImages.length}</span>
 							</div>
 						</>
@@ -58,11 +64,11 @@ const Product: React.FC<ProductProps> = ({ product }) => {
 				</div>
 				<div className="product__info-container">
 					<div className="product__info-container-top">
-						<div>
-							<p className="product__lat-name">{latName}</p>
-							<h3 className="product-name">{t(name)}</h3>
+						<h3 className="product-name">{t(name)}</h3>
+						<div style={{ display: "flex", columnGap: 5 }}>
+							<p>IQF</p>
+							{isOrganic && <img src={organicLogo} alt="" />}
 						</div>
-						{isOrganic && <img src={organicLogo} alt="" />}
 					</div>
 					<NavLink to={`/product-page/${id}`} className="product__info-btn">
 						{t("products.show_more")}

@@ -1,7 +1,8 @@
 import { useTranslation } from "react-i18next";
-import PageTitle from "../PageTitle/PageTitle";
 import { useEffect } from "react";
 import worldMapImg from "../../assets/world-map.svg";
+import Gallery from "../Gallery/Gallery";
+import SectionTitle from "../SectionTitle/SectionTitle";
 import "./AboutUs.scss";
 
 interface ProductsData {
@@ -91,8 +92,8 @@ const AboutUs: React.FC<AboutUsProps> = ({ productsData }) => {
 
 	return (
 		<div className="about-us js-about-us" id="about-us">
-			<PageTitle name={t("about_us_title")} />
-			<h3 className="about-us__sec-info">{t("about_us.sec_title")}</h3>
+			<SectionTitle name={t("about_us_title")} />
+			<h3 className="about-us__sec-info">{t("about_us.sec_title")}.</h3>
 			<div className="about-us__stats">
 				<div className="stats-card">
 					<p className="counter" data-value={diffInYears}>
@@ -116,6 +117,7 @@ const AboutUs: React.FC<AboutUsProps> = ({ productsData }) => {
 					<p>{t("about_us.volume")}</p>
 				</div>
 			</div>
+			<Gallery />
 			<h3 className="world-map__title">{t("about_us.map_title")}</h3>
 			<div className="world-map__container" id="svgContainer"></div>
 		</div>

@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import PageTitle from "../PageTitle/PageTitle";
+import SectionTitle from "../SectionTitle/SectionTitle";
 import OurCertificates from "../OurCertificates/OurCertificates";
 import BusinessHours from "../BusinessHours/BusinessHours";
 import phoneIcon from "/icons/old-typical-phone.png";
@@ -11,8 +11,8 @@ const Contacts = () => {
 	const { t } = useTranslation();
 
 	return (
-		<section className="js-contacts" id="contacts">
-			<PageTitle name={t("contacts_title")} />
+		<div className="js-contacts" id="contacts">
+			<SectionTitle name={t("contacts_title")} />
 			<div className="contacts-icons-container">
 				<a href="tel:+380968065513" className="icon-container">
 					<img src={phoneIcon} alt="" />
@@ -97,7 +97,7 @@ const Contacts = () => {
 				<OurCertificates />
 				<BusinessHours />
 			</div>
-		</section>
+		</div>
 	);
 };
 export default Contacts;

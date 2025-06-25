@@ -1,10 +1,10 @@
+import { useTranslation } from "react-i18next";
 import BurgerBtn from "../BurgerBtn/BurgerBtn";
 import LngSelect from "../LngSelect/LngSelect";
 import { NavLink } from "react-router-dom";
 import logo from "/logo-img/yagoda-karpat-logo.svg";
 import { useEffect } from "react";
 import "./Header.scss";
-import { useTranslation } from "react-i18next";
 
 const Header = () => {
 	const { t } = useTranslation();

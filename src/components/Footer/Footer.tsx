@@ -2,8 +2,6 @@ import { useTranslation } from "react-i18next";
 import { useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
-// import ProductsData from "../../data/productsData";
-// import organicImg from "/assets/certificates/organic-logo.jpg";
 import upArrowIcon from "/icons/up-arrow.png";
 import plusIcon from "/icons/plus.png";
 import logo from "/logo-img/yagoda-karpat-logo.svg";
@@ -80,29 +78,13 @@ const Footer: React.FC<FooterProps> = ({ productsData }) => {
 		<footer className="footer">
 			<div className="footer-top"></div>
 			<button className="to-top-btn" onClick={scrollToTop}>
-				<img src={upArrowIcon} alt="" loading="lazy" />
+				<img src={upArrowIcon} width={25} height={25} alt="" loading="lazy" />
 			</button>
 			<div className="footer-details">
 				<NavLink className="footer-logo" to="/">
-					<img src={logo} width={50} alt="" />
+					<img src={logo} width={50} alt="Yagoda Karpat Logo" />
 					<span>{t("company_name")}</span>
 				</NavLink>
-				{/* <div>
-                    <h3 className="certificates-info">
-                        {t("footer.our_certificates")}
-                    </h3>
-                    <div className="certificates">
-                        <img
-                            width={100}
-                            loading="lazy"
-                            src={organicImg}
-                            alt="Organic Certificate"
-                        />
-                        <p style={{ fontSize: "2rem", fontWeight: "600" }}>
-                            HACCP
-                        </p>
-                    </div>
-                </div> */}
 				<div className="footer-nav">
 					<div>
 						<div className="footer-nav__title dropdown-btn js-dropdown-btn">
@@ -110,6 +92,8 @@ const Footer: React.FC<FooterProps> = ({ productsData }) => {
 							<img
 								className="dropdown-btn__icon"
 								src={plusIcon}
+								width={25}
+								height={25}
 								alt=""
 								loading="lazy"
 							/>
@@ -159,6 +143,8 @@ const Footer: React.FC<FooterProps> = ({ productsData }) => {
 							<img
 								className="dropdown-btn__icon"
 								src={plusIcon}
+								width={25}
+								height={25}
 								alt=""
 								loading="lazy"
 							/>
@@ -194,6 +180,8 @@ const Footer: React.FC<FooterProps> = ({ productsData }) => {
 							<img
 								className="dropdown-btn__icon"
 								src={plusIcon}
+								width={25}
+								height={25}
 								alt=""
 								loading="lazy"
 							/>
@@ -229,6 +217,8 @@ const Footer: React.FC<FooterProps> = ({ productsData }) => {
 							<img
 								className="dropdown-btn__icon"
 								src={plusIcon}
+								width={25}
+								height={25}
 								alt=""
 								loading="lazy"
 							/>
@@ -264,6 +254,8 @@ const Footer: React.FC<FooterProps> = ({ productsData }) => {
 							<img
 								className="dropdown-btn__icon"
 								src={plusIcon}
+								width={25}
+								height={25}
 								alt=""
 								loading="lazy"
 							/>
@@ -295,7 +287,10 @@ const Footer: React.FC<FooterProps> = ({ productsData }) => {
 					</div>
 				</div>
 				<div className="footer__bottom">
-					<p>© 2025 {t("company_full_name")}. Всі права захищені.</p>
+					<p>
+						© 2010 - {new Date().getFullYear()} {t("company_full_name")}.{" "}
+						{t("all_rights_reserved")}.
+					</p>
 					<p>
 						Made with love by{" "}
 						<a
@@ -303,7 +298,7 @@ const Footer: React.FC<FooterProps> = ({ productsData }) => {
 							href="https://stepandordiai.netlify.app/"
 							target="_blank"
 						>
-							Stepan Dordiai
+							STEPAN DORDIAI
 						</a>
 					</p>
 				</div>

@@ -3,7 +3,6 @@ import { useTranslation } from "react-i18next";
 import AboutUs from "../../components/AboutUs/AboutUs";
 import Products from "../../components/Products/Products";
 import Contacts from "../../components/Contacts/Contacts";
-import Gallery from "../../components/Gallery/Gallery";
 import { HashLink } from "react-router-hash-link";
 import video from "/video.mp4";
 import "./Home.scss";
@@ -36,7 +35,7 @@ const Home: React.FC<HomeProps> = ({ productsData }) => {
 	return (
 		<>
 			<Helmet>
-				<title>{t("home.title") + "/" + t("company_name")}</title>
+				<title>{t("home.title") + " / " + t("company_name")}</title>
 				<link rel="canonical" href="https://yagodakarpat.com/" />
 			</Helmet>
 			<main>
@@ -62,7 +61,6 @@ const Home: React.FC<HomeProps> = ({ productsData }) => {
 				<AboutUs productsData={productsData} />
 				<Products productsData={productsData} />
 				<Contacts />
-				<Gallery />
 			</main>
 		</>
 	);

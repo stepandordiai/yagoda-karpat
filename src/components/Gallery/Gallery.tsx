@@ -10,13 +10,6 @@ import "swiper/css/navigation";
 
 // import required modules
 import { Autoplay } from "swiper/modules";
-
-// Images are compressed
-import img1 from "/gallery/1.jpg";
-import img2 from "/gallery/2.jpg";
-import img3 from "/gallery/3.jpg";
-import img4 from "/gallery/4.jpg";
-import img5 from "/gallery/5.jpg";
 import styles from "./Gallery.module.scss";
 
 const Gallery = () => {
@@ -29,11 +22,11 @@ const Gallery = () => {
 
 	// Required properties
 	const galleryData: Required<GalleryDataTypes[]> = [
-		{ img: img1, date: "26/11/21" },
-		{ img: img2, date: "8/7/23" },
-		{ img: img3, date: "18/7/23" },
-		{ img: img4, date: "13/7/24" },
-		{ img: img5, date: "13/7/24" },
+		{ img: "/gallery/1.jpg", date: "26/11/21" },
+		{ img: "/gallery/2.jpg", date: "8/7/23" },
+		{ img: "/gallery/3.jpg", date: "18/7/23" },
+		{ img: "/gallery/4.jpg", date: "13/7/24" },
+		{ img: "/gallery/5.jpg", date: "13/7/24" },
 	];
 
 	return (

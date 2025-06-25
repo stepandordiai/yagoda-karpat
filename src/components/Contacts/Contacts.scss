@@ -99,28 +99,8 @@ textarea {
 	padding: 10px;
 	border-radius: 10px;
 	overflow: hidden;
-
-	// TODO: Does the submit btn has its own font weight?
 	font-weight: inherit;
-}
-
-.form-submit-btn::before {
-	content: "";
-	position: absolute;
-	z-index: -1;
-	left: 0;
-	bottom: 0;
-	width: 100%;
-	height: 100%;
-	transform: scaleX(0);
 	background: var(--accent-clr);
-	transform-origin: bottom right;
-	transition: transform 0.3s;
-}
-
-.form-submit-btn:hover::before {
-	transform: scaleX(1);
-	transform-origin: bottom left;
 }
 
 .contacts__map-wrapper {

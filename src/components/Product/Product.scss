@@ -3,7 +3,7 @@
 .product {
 	display: flex;
 	flex-direction: column;
-	row-gap: 10px;
+	row-gap: 5px;
 	background: #fff;
 	border-radius: 10px;
 	padding: 10px;
@@ -12,7 +12,7 @@
 .product-top {
 	@include flex-start-center;
 	flex-direction: row;
-	column-gap: 10px;
+	column-gap: 5px;
 	height: 120px;
 }
 
@@ -52,10 +52,6 @@
 	backdrop-filter: blur(10px);
 	opacity: 0;
 	transition: opacity 0.2s;
-
-	img {
-		width: 15px;
-	}
 }
 
 .product:hover .img-qty {
@@ -71,16 +67,13 @@
 
 .product__info-container-top {
 	@include flex-between-start;
+	flex-direction: column;
+	row-gap: 5px;
 	width: 100%;
 
 	img {
-		height: 25px;
+		height: 20px;
 	}
-}
-
-.product__lat-name {
-	color: hsl(0, 0%, 25%);
-	font-weight: 300;
 }
 
 .product-name {
@@ -98,7 +91,6 @@
 
 	&:hover::before {
 		transform: scaleX(1);
-		transform-origin: bottom left;
 	}
 }
 
@@ -112,13 +104,13 @@
 	height: 100%;
 	background: var(--accent-clr);
 	transform: scaleX(0);
-	transform-origin: bottom right;
+	transform-origin: bottom left;
 	transition: transform 0.3s;
 }
 
 .product__harvest {
 	display: flex;
-	gap: 5px;
+	column-gap: 5px;
 }
 
 .harvest-month {

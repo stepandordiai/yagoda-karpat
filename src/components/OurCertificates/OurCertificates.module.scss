@@ -17,7 +17,7 @@
 
 .our-certificates__title {
 	align-self: flex-start;
-	font-size: 1.5rem;
+	font-size: clamp(20px, 3vw, 30px);
 	font-weight: 500;
 }
 
