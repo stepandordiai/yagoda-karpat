@@ -84,13 +84,14 @@ const ProductPage: React.FC<ProductPageProps> = ({ productsData }) => {
 		);
 	});
 
-	console.log(relatedProducts);
-
 	return (
 		<>
 			<Helmet>
 				<title>{t(productData.name) + " / " + t("company_name")}</title>
-				<link rel="canonical" href={`https://yagodakarpat.com/${id}`} />
+				<link
+					rel="canonical"
+					href={`https://yagodakarpat.com/product-page/${id}`}
+				/>
 			</Helmet>
 			<main>
 				<PageNavTitle
