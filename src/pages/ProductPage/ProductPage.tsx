@@ -87,6 +87,7 @@ const ProductPage: React.FC<ProductPageProps> = ({ productsData }) => {
 	return (
 		<>
 			<Helmet>
+				<meta name="description" content={productData.desc} />
 				<title>{t(productData.name) + " / " + t("company_name")}</title>
 				<link
 					rel="canonical"

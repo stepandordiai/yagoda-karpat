@@ -35,6 +35,10 @@ const Home: React.FC<HomeProps> = ({ productsData }) => {
 	return (
 		<>
 			<Helmet>
+				<meta
+					name="description"
+					content="Заморожені та сушені ягоди, фрукти, гриби та овочі оптом. Натуральна продукція з України. Висока якість, гнучкі умови співпраці, експорт в ЄС та інші країни."
+				/>
 				<title>{t("home.title") + " / " + t("company_name")}</title>
 				<link rel="canonical" href="https://yagodakarpat.com/" />
 			</Helmet>

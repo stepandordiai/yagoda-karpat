@@ -93,6 +93,8 @@
 				"id": "plum-dried-with-stone",
 				"state": "product_page.state_5",
 				"images": [
+					"/products/plum-dried/01-c.jpg",
+					"/products/plum-dried/02-c.jpg",
 					"/products/plum-dried/1-min.jpg",
 					"/products/plum-dried/2-min.jpg",
 					"/products/plum-dried/3-min.jpg"
@@ -113,7 +115,8 @@
 		"variants": [
 			{
 				"id": "prunus-pitted",
-				"state": "product_page.state_6"
+				"state": "product_page.state_6",
+				"images": ["/products/prunus/01-c.jpg", "/products/prunus/02-c.jpg"]
 			}
 		],
 		"harvest": [8, 9]
