@@ -7,7 +7,7 @@
 	border-radius: 10px;
 }
 
-.icon-container {
+.contacts__info-container {
 	position: relative;
 	z-index: 0;
 	width: 100%;
@@ -24,7 +24,7 @@
 	}
 }
 
-.icon-container::before {
+.contacts__info-container::before {
 	content: "";
 	position: absolute;
 	width: 100%;
@@ -34,8 +34,22 @@
 	transition: height 0.5s ease;
 }
 
-.icon-container:hover::before {
+.contacts__info-container:hover::before {
 	height: 100%;
+}
+
+.contacts__info-container--active::before {
+	height: 100% !important;
+}
+
+.contacts__copy-txt {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: var(--accent-clr);
+	@include flex-center;
 }
 
 .form-map-container {
@@ -136,7 +150,7 @@ textarea {
 }
 
 @media screen and (max-width: 895px) {
-	.icon-container {
+	.contacts__info-container {
 		row-gap: 10px;
 		padding: 10px;
 
