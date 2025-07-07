@@ -19,11 +19,12 @@ i18n
 		},
 
 		fallbackLng: "uk",
+		supportedLngs: ["uk", "en"], // Add this
 
 		detection: {
-			order: ["path", "navigator"],
+			order: ["path", "localStorage", "navigator"],
 			lookupFromPathIndex: 0,
-			// caches: ["localStorage", "cookie"],
+			caches: ["localStorage", "cookie"],
 		},
 
 		interpolation: {

@@ -4,6 +4,7 @@ import "./LngSelect.scss";
 import { useParams } from "react-router-dom";
 import { useLocation } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
+import getStorage from "../../utils/getStorage";
 
 const LngSelect = () => {
 	const { lng } = useParams(); // current language from URL
@@ -11,10 +12,6 @@ const LngSelect = () => {
 	const navigate = useNavigate();
 
 	const supportedLngs = ["uk", "en"];
-
-	const getStorage = () => {
-		return localStorage.getItem("i18nextLng") || "uk";
-	};
 
 	useEffect(() => {
 		if (lng && supportedLngs.includes(lng)) {
@@ -27,7 +24,7 @@ const LngSelect = () => {
 		const handleLanguage = (lng: string) => {
 			if (!supportedLngs.includes(lng)) return;
 
-			const newPath = location.pathname.replace(/^\/(uk|en|cs)/, `/${lng}`);
+			const newPath = location.pathname.replace(/^\/(uk|en)/, `/${lng}`);
 			i18n.changeLanguage(lng);
 			localStorage.setItem("i18nextLng", lng);
 			navigate(newPath + location.search, { replace: true });

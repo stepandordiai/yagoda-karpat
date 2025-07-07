@@ -6,9 +6,9 @@ import {
 } from "react-router-dom";
 import "./i18n";
 import { useEffect } from "react";
-import productsData from "./data/products-data.json";
 import "./scss/App.scss";
 import LanguageLayout from "./LanguageLayout";
+import getStorage from "./utils/getStorage";
 
 function App() {
 	useEffect(() => {
@@ -21,12 +21,13 @@ function App() {
 		<Router>
 			<Routes>
 				{/* Redirect from / to default language */}
-				<Route path="/" element={<Navigate to="/en" replace />} />
-				{/* Wrap all routes in /:lng path */}
+				{/* TODO: */}
 				<Route
-					path="/:lng/*"
-					element={<LanguageLayout productsData={productsData} />}
+					path="/"
+					element={<Navigate to={`/${getStorage()}`} replace />}
 				/>
+				{/* Wrap all routes in /:lng path */}
+				<Route path="/:lng/*" element={<LanguageLayout />} />
 			</Routes>
 		</Router>
 	);

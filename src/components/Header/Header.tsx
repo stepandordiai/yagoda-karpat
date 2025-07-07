@@ -1,13 +1,15 @@
 import { useTranslation } from "react-i18next";
 import BurgerBtn from "../BurgerBtn/BurgerBtn";
 import LngSelect from "../LngSelect/LngSelect";
-import { NavLink } from "react-router-dom";
+import { NavLink, useParams } from "react-router-dom";
 import logo from "/logo-img/yagoda-karpat-logo.svg";
 import { useEffect } from "react";
 import "./Header.scss";
 
 const Header = () => {
 	const { t } = useTranslation();
+
+	const { lng } = useParams();
 
 	useEffect(() => {
 		let lastScrollTop = 0;
@@ -32,7 +34,7 @@ const Header = () => {
 
 	return (
 		<header className="header">
-			<NavLink to={"/"} className="header__logo">
+			<NavLink to={`/${lng}`} className="header__logo">
 				<img width={30} src={logo} alt="" />
 				<span>{t("company_name")}</span>
 			</NavLink>
