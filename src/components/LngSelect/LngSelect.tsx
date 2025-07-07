@@ -1,16 +1,36 @@
 import { useEffect } from "react";
 import i18n from "i18next";
 import "./LngSelect.scss";
+import { useParams } from "react-router-dom";
+import { useLocation } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const LngSelect = () => {
+	const { lng } = useParams(); // current language from URL
+	const location = useLocation(); // full path
+	const navigate = useNavigate();
+
+	const supportedLngs = ["uk", "en"];
+
 	const getStorage = () => {
 		return localStorage.getItem("i18nextLng") || "uk";
 	};
 
 	useEffect(() => {
-		const handleLanguage = (lng: string) => {
+		if (lng && supportedLngs.includes(lng)) {
 			i18n.changeLanguage(lng);
-			getStorage();
+			localStorage.setItem("i18nextLng", lng);
+		}
+	}, [lng]);
+
+	useEffect(() => {
+		const handleLanguage = (lng: string) => {
+			if (!supportedLngs.includes(lng)) return;
+
+			const newPath = location.pathname.replace(/^\/(uk|en|cs)/, `/${lng}`);
+			i18n.changeLanguage(lng);
+			localStorage.setItem("i18nextLng", lng);
+			navigate(newPath + location.search, { replace: true });
 		};
 
 		const selectBtn = document.querySelector(
@@ -91,9 +111,6 @@ const LngSelect = () => {
 			case "en":
 				lngSelectBtn.innerHTML = handlelngSelectBtnTxt("EN", "English");
 				break;
-			case "cs":
-				lngSelectBtn.innerHTML = handlelngSelectBtnTxt("CZ", "Čeština");
-				break;
 		}
 
 		return () => {
@@ -128,11 +145,6 @@ const LngSelect = () => {
 					<span>EN</span>
 					<span> - </span>
 					<span>English</span>
-				</li>
-				<li className="lng-select__option" data-value="cs">
-					<span>CZ</span>
-					<span> - </span>
-					<span>Čeština</span>
 				</li>
 			</ul>
 		</div>

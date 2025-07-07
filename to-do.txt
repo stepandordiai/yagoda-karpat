@@ -1,1 +1,2 @@
 in future i want to capture video in mountains when people will be picking up berries etc
+Work with and learn i18next path

@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import { NavLink } from "react-router-dom";
+import { NavLink, useParams } from "react-router-dom";
 import cameraIcon from "/icons/camera.png";
 import organicLogo from "/icons/organic-logo.jpg";
 import "./Product.scss";
@@ -28,6 +28,8 @@ interface ProductProps {
 
 const Product: React.FC<ProductProps> = ({ product }) => {
 	const { t } = useTranslation();
+
+	const { lng } = useParams();
 
 	const { id, name, variants, latName, isOrganic, harvest } = product;
 
@@ -70,7 +72,10 @@ const Product: React.FC<ProductProps> = ({ product }) => {
 							{isOrganic && <img src={organicLogo} alt="" />}
 						</div>
 					</div>
-					<NavLink to={`/product-page/${id}`} className="product__info-btn">
+					<NavLink
+						to={`/${lng}/product-page/${id}`}
+						className="product__info-btn"
+					>
 						{t("products.show_more")}
 					</NavLink>
 				</div>

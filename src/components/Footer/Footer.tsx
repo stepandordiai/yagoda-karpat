@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 import { useEffect } from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, useParams } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 import upArrowIcon from "/icons/up-arrow.png";
 import plusIcon from "/icons/plus.png";
@@ -31,6 +31,8 @@ interface FooterProps {
 
 const Footer: React.FC<FooterProps> = ({ productsData }) => {
 	const { t } = useTranslation();
+
+	const { lng } = useParams();
 
 	const scrollToTop = () => {
 		document.documentElement.scrollTo({
@@ -81,7 +83,7 @@ const Footer: React.FC<FooterProps> = ({ productsData }) => {
 				<img src={upArrowIcon} width={25} height={25} alt="" loading="lazy" />
 			</button>
 			<div className="footer-details">
-				<NavLink className="footer-logo" to="/">
+				<NavLink className="footer-logo" to={`/${lng}/`}>
 					<img src={logo} width={50} alt="Yagoda Karpat Logo" />
 					<span>{t("company_name")}</span>
 				</NavLink>
@@ -102,7 +104,11 @@ const Footer: React.FC<FooterProps> = ({ productsData }) => {
 							<div className="grid-dropdown">
 								<ul className="footer-nav__list">
 									<li>
-										<HashLink className="js-footer__link" smooth to="/#home">
+										<HashLink
+											className="js-footer__link"
+											smooth
+											to={`/${lng}/#home`}
+										>
 											{t("home_title")}
 										</HashLink>
 									</li>
@@ -110,7 +116,7 @@ const Footer: React.FC<FooterProps> = ({ productsData }) => {
 										<HashLink
 											className="js-footer__link"
 											smooth
-											to="/#about-us"
+											to={`/${lng}/#about-us`}
 										>
 											{t("about_us_title")}
 										</HashLink>
@@ -119,7 +125,7 @@ const Footer: React.FC<FooterProps> = ({ productsData }) => {
 										<HashLink
 											className="js-footer__link"
 											smooth
-											to="/#products"
+											to={`/${lng}/#products`}
 										>
 											{t("products_title")}
 										</HashLink>
@@ -128,7 +134,7 @@ const Footer: React.FC<FooterProps> = ({ productsData }) => {
 										<HashLink
 											className="js-footer__link"
 											smooth
-											to="/#contacts"
+											to={`/${lng}/#contacts`}
 										>
 											{t("contacts_title")}
 										</HashLink>
@@ -163,7 +169,7 @@ const Footer: React.FC<FooterProps> = ({ productsData }) => {
 														className={({ isActive }) =>
 															isActive ? activeFooterLink : inactiveFooterLink
 														}
-														to={`/product-page/${id}`}
+														to={`/${lng}/product-page/${id}`}
 													>
 														{t(name)}
 													</NavLink>
@@ -200,7 +206,7 @@ const Footer: React.FC<FooterProps> = ({ productsData }) => {
 														className={({ isActive }) =>
 															isActive ? activeFooterLink : inactiveFooterLink
 														}
-														to={`/product-page/${id}`}
+														to={`/${lng}/product-page/${id}`}
 													>
 														{t(name)}
 													</NavLink>
@@ -237,7 +243,7 @@ const Footer: React.FC<FooterProps> = ({ productsData }) => {
 														className={({ isActive }) =>
 															isActive ? activeFooterLink : inactiveFooterLink
 														}
-														to={`/product-page/${id}`}
+														to={`/${lng}/product-page/${id}`}
 													>
 														{t(name)}
 													</NavLink>
@@ -274,7 +280,7 @@ const Footer: React.FC<FooterProps> = ({ productsData }) => {
 														className={({ isActive }) =>
 															isActive ? activeFooterLink : inactiveFooterLink
 														}
-														to={`/product-page/${id}`}
+														to={`/${lng}/product-page/${id}`}
 													>
 														{t(name)}
 													</NavLink>

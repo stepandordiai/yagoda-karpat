@@ -1,4 +1,4 @@
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 import { useTranslation } from "react-i18next";
 import { useParams } from "react-router-dom";
 import PageNavTitle from "../../components/PageNavTitle/PageNavTitle";
@@ -41,7 +41,7 @@ interface ProductPageProps {
 const ProductPage: React.FC<ProductPageProps> = ({ productsData }) => {
 	const { t } = useTranslation();
 
-	const { id } = useParams();
+	const { id, lng } = useParams();
 
 	const productData = productsData.find((product) => product.id === id);
 
@@ -89,9 +89,28 @@ const ProductPage: React.FC<ProductPageProps> = ({ productsData }) => {
 			<Helmet>
 				<meta name="description" content={productData.desc} />
 				<title>{t(productData.name) + " / " + t("company_name")}</title>
-				<link
+				{/* <link
 					rel="canonical"
 					href={`https://yagodakarpat.com/product-page/${id}`}
+				/> */}
+				<link
+					rel="canonical"
+					href={`https://yagodakarpat.com/uk/product-page/${id}`}
+				/>
+				<link
+					rel="alternate"
+					hrefLang="uk"
+					href={`https://yagodakarpat.com/uk/product-page/${id}`}
+				/>
+				<link
+					rel="alternate"
+					hrefLang="en"
+					href={`https://yagodakarpat.com/en/product-page/${id}`}
+				/>
+				<link
+					rel="alternate"
+					hrefLang="x-default"
+					href={`https://yagodakarpat.com/uk/product-page/${id}`}
 				/>
 			</Helmet>
 			<main>
@@ -148,7 +167,11 @@ const ProductPage: React.FC<ProductPageProps> = ({ productsData }) => {
 								<p>{productData.desc && productData.desc}</p>
 							</div>
 						</div>
-						<HashLink smooth to={"/#contacts"} className={"product-page__link"}>
+						<HashLink
+							smooth
+							to={`/${lng}/#contacts`}
+							className={"product-page__link"}
+						>
 							{t("product_page.aviability_link")}
 						</HashLink>
 					</div>

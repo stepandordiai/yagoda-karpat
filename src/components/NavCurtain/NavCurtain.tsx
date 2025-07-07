@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 import { useEffect } from "react";
-import { NavLink, useLocation } from "react-router-dom";
+import { NavLink, useLocation, useParams } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 import plusIcon from "/icons/plus.png";
 import "./NavCurtain.scss";
@@ -29,6 +29,8 @@ interface NavCurtainProps {
 
 const NavCurtain: React.FC<NavCurtainProps> = ({ productsData }) => {
 	const { t } = useTranslation();
+
+	const { lng } = useParams();
 
 	const { pathname } = useLocation();
 
@@ -142,19 +144,23 @@ const NavCurtain: React.FC<NavCurtainProps> = ({ productsData }) => {
 						<HashLink
 							className="link js-link link--active"
 							smooth
-							to={"/#home"}
+							to={`/${lng}/#home`}
 						>
 							{t("home_title")}
 						</HashLink>
 					</li>
 					<li>
-						<HashLink className="link js-link" smooth to={"/#about-us"}>
+						<HashLink className="link js-link" smooth to={`/${lng}/#about-us`}>
 							{t("about_us_title")}
 						</HashLink>
 					</li>
 					<li>
 						<div className="nav-curtain__products-link">
-							<HashLink className="link js-link" smooth to={"/#products"}>
+							<HashLink
+								className="link js-link"
+								smooth
+								to={`/${lng}/#products`}
+							>
 								{t("products_title")}
 							</HashLink>
 							<button className="products-btn" onClick={showProducts}>
@@ -180,7 +186,7 @@ const NavCurtain: React.FC<NavCurtainProps> = ({ productsData }) => {
 																className={({ isActive }) =>
 																	isActive ? activeLink : inactiveLink
 																}
-																to={`/product-page/${id}`}
+																to={`/${lng}/product-page/${id}`}
 															>
 																{t(name)}
 															</NavLink>
@@ -203,7 +209,7 @@ const NavCurtain: React.FC<NavCurtainProps> = ({ productsData }) => {
 																className={({ isActive }) =>
 																	isActive ? activeLink : inactiveLink
 																}
-																to={`/product-page/${id}`}
+																to={`/${lng}/product-page/${id}`}
 															>
 																{t(name)}
 															</NavLink>
@@ -226,7 +232,7 @@ const NavCurtain: React.FC<NavCurtainProps> = ({ productsData }) => {
 																className={({ isActive }) =>
 																	isActive ? activeLink : inactiveLink
 																}
-																to={`/product-page/${id}`}
+																to={`/${lng}/product-page/${id}`}
 															>
 																{t(name)}
 															</NavLink>
@@ -249,7 +255,7 @@ const NavCurtain: React.FC<NavCurtainProps> = ({ productsData }) => {
 																className={({ isActive }) =>
 																	isActive ? activeLink : inactiveLink
 																}
-																to={`/product-page/${id}`}
+																to={`/${lng}/product-page/${id}`}
 															>
 																{t(name)}
 															</NavLink>
@@ -263,7 +269,7 @@ const NavCurtain: React.FC<NavCurtainProps> = ({ productsData }) => {
 						</div>
 					</li>
 					<li>
-						<HashLink className="link js-link" smooth to={"/#contacts"}>
+						<HashLink className="link js-link" smooth to={`/${lng}/#contacts`}>
 							{t("contacts_title")}
 						</HashLink>
 					</li>
