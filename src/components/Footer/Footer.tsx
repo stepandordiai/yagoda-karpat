@@ -14,7 +14,7 @@ interface ProductsData {
 	latName: string;
 	name: string;
 	origin: string;
-	pack: string;
+	pack: string[];
 	desc: string;
 	variants: {
 		id: string;

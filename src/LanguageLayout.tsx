@@ -10,7 +10,7 @@ import Loading from "./components/Loading/Loading";
 import { useEffect } from "react";
 import i18n from "i18next";
 import { useParams } from "react-router-dom";
-import productsData from "./data/products-data.json";
+import productsData from "./assets/data/products-data.json";
 
 // This wrapper handles language detection
 const LanguageLayout = () => {

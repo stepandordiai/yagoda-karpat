@@ -23,7 +23,7 @@ interface ProductsData {
 	latName: string;
 	name: string;
 	origin: string;
-	pack: string;
+	pack: string[];
 	desc: string;
 	variants: {
 		id: string;
@@ -152,19 +152,21 @@ const ProductPage: React.FC<ProductPageProps> = ({ productsData }) => {
 								<p style={{ color: "hsl(0, 0%, 50%)" }}>
 									{t("product_page.origin_title")}
 								</p>
-								<p>{productData.origin}</p>
+								<p>{t(productData.origin)}</p>
 							</div>
 							<div>
 								<p style={{ color: "hsl(0, 0%, 50%)" }}>
 									{t("product_page.packaging_title")}
 								</p>
-								<p>{productData.pack}</p>
+								{productData.pack.map((option, index) => (
+									<p key={index}>{t(option)}</p>
+								))}
 							</div>
 							<div>
 								<p style={{ color: "hsl(0, 0%, 50%)" }}>
 									{t("product_page.desc_title")}
 								</p>
-								<p>{productData.desc && productData.desc}</p>
+								<p>{productData.desc && t(productData.desc)}</p>
 							</div>
 						</div>
 						<HashLink

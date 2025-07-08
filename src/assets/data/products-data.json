@@ -1,0 +1,460 @@
+[
+	{
+		"id": "bilberry",
+		"type": "berry",
+		"status": "frozen",
+		"latName": "Vaccinium myrtillus",
+		"name": "products.bilberry",
+		"origin": "product_page.origin",
+		"pack": ["product_page.pack_1", "product_page.pack_2"],
+		"desc": "product_page.bilberry_desc",
+		"variants": [
+			{
+				"id": "bilberry-frozen",
+				"images": ["/products/bilberry/1-min.JPG"]
+			}
+		],
+		"isOrganic": true,
+		"harvest": [7, 8]
+	},
+	{
+		"id": "lingonberry",
+		"type": "berry",
+		"status": "frozen",
+		"latName": "Vaccinium vitis-idaea",
+		"name": "products.lingonberry",
+		"origin": "product_page.origin",
+		"pack": ["product_page.pack_1"],
+		"desc": "product_page.lingonberry_desc",
+		"variants": [
+			{
+				"id": "lingonberry-frozen",
+				"images": [
+					"/products/lingonberry/1-min.jpg",
+					"/products/lingonberry/2-min.jpg"
+				]
+			}
+		],
+		"isOrganic": true,
+		"harvest": [8, 9]
+	},
+	{
+		"id": "rosehip",
+		"type": "berry",
+		"status": "frozen",
+		"latName": "Rosa canina",
+		"name": "products.rosehip",
+		"origin": "product_page.origin",
+		"pack": ["product_page.pack_1"],
+		"desc": "product_page.rosehip_desc",
+		"variants": [
+			{
+				"id": "rosehip-frozen",
+				"images": ["/products/rosehip/1-min.JPG", "/products/rosehip/2-min.JPG"]
+			}
+		],
+		"isOrganic": true,
+		"harvest": [9, 10, 11]
+	},
+	{
+		"id": "plum-frozen",
+		"type": "fruit",
+		"status": "frozen",
+		"latName": "Prunus domestica",
+		"name": "products.plum_frozen",
+		"origin": "product_page.origin",
+		"pack": ["product_page.pack_1", "product_page.pack_2"],
+		"desc": "product_page.plum_frozen_desc",
+		"variants": [
+			{
+				"id": "plum-frozen-whole",
+				"state": "product_page.state_5",
+				"images": ["/products/plum/1-min.JPG"]
+			},
+			{
+				"id": "plum-frozen-half",
+				"state": "product_page.state_6",
+				"images": ["/products/plum-pitted/1-min.JPG"]
+			}
+		],
+		"harvest": [8, 9]
+	},
+	{
+		"id": "plum-dried",
+		"type": "fruit",
+		"status": "dried",
+		"latName": "Prunus domestica",
+		"name": "products.plum_dried",
+		"origin": "product_page.origin",
+		"pack": ["product_page.pack_1", "product_page.pack_2"],
+		"desc": "product_page.plum_dried_desc",
+		"variants": [
+			{
+				"id": "plum-dried-with-stone",
+				"state": "product_page.state_5",
+				"images": [
+					"/products/plum-dried/01-c.jpg",
+					"/products/plum-dried/02-c.jpg",
+					"/products/plum-dried/1-min.jpg",
+					"/products/plum-dried/2-min.jpg",
+					"/products/plum-dried/3-min.jpg"
+				]
+			}
+		],
+		"harvest": [8, 9]
+	},
+	{
+		"id": "prunus",
+		"type": "fruit",
+		"status": "dried",
+		"latName": "Prunus domestica",
+		"name": "products.prunus",
+		"origin": "product_page.origin",
+		"pack": ["product_page.pack_2"],
+		"desc": "product_page.prunus_desc",
+		"variants": [
+			{
+				"id": "prunus-pitted",
+				"state": "product_page.state_6",
+				"images": ["/products/prunus/01-c.jpg", "/products/prunus/02-c.jpg"]
+			}
+		],
+		"harvest": [8, 9]
+	},
+	{
+		"id": "elderberry",
+		"type": "berry",
+		"status": "frozen",
+		"latName": "Sambucus nigra",
+		"name": "products.elderberry",
+		"origin": "product_page.origin",
+		"pack": ["product_page.pack_1"],
+		"desc": "product_page.elderberry_desc",
+		"variants": [
+			{
+				"id": "elderberry-frozen",
+				"images": [
+					"/products/elderberry/1-min.jpg",
+					"/products/elderberry/2-min.jpg"
+				]
+			}
+		],
+		"isOrganic": true,
+		"harvest": [8, 9]
+	},
+	{
+		"id": "strawberry",
+		"type": "berry",
+		"status": "frozen",
+		"latName": "Fragaria",
+		"name": "products.strawberry",
+		"origin": "product_page.origin",
+		"pack": ["product_page.pack_1"],
+		"desc": "product_page.strawberry_desc",
+		"variants": [
+			{
+				"id": "strawberry-frozen",
+				"images": [
+					"/products/strawberry/1-min.jpg",
+					"/products/strawberry/2-min.jpg"
+				]
+			}
+		],
+		"harvest": [5, 6, 7]
+	},
+	{
+		"id": "raspberry",
+		"type": "berry",
+		"status": "frozen",
+		"latName": "Rubus idaeus",
+		"name": "products.raspberry",
+		"origin": "product_page.origin",
+		"pack": ["product_page.pack_2"],
+		"desc": "product_page.raspberry_desc",
+		"variants": [
+			{
+				"id": "raspberry-frozen",
+				"images": [
+					"/products/raspberry-frozen/1-min.JPG",
+					"/products/raspberry-frozen/2-min.JPG"
+				]
+			}
+		],
+		"harvest": [7, 8, 9]
+	},
+	{
+		"id": "apricot",
+		"type": "fruit",
+		"status": "frozen",
+		"latName": "Prunus armeniaca",
+		"name": "products.apricot",
+		"origin": "product_page.origin",
+		"pack": ["product_page.pack_2"],
+		"desc": "product_page.apricot_desc",
+		"variants": [
+			{
+				"id": "apricot-frozen"
+			}
+		],
+		"harvest": [7, 8]
+	},
+	{
+		"id": "sweet-pepper-red",
+		"type": "vegetable",
+		"status": "frozen",
+		"latName": "Capsicum annuum",
+		"name": "products.sweet_pepper_red",
+		"origin": "product_page.origin",
+		"pack": ["product_page.pack_2"],
+		"desc": "product_page.sweet_pepper_red_desc",
+		"variants": [
+			{
+				"id": "sweet-pepper-red-frozen-sol",
+				"state": "product_page.state_4",
+				"images": [
+					"/products/sweet-pepper-red-frozen/1-min.JPG",
+					"/products/sweet-pepper-red-frozen/2-min.JPG"
+				]
+			}
+		],
+		"harvest": [7, 8, 9]
+	},
+	{
+		"id": "sweet-pepper-green",
+		"type": "vegetable",
+		"status": "frozen",
+		"latName": "Capsicum annuum",
+		"name": "products.sweet_pepper_green",
+		"origin": "product_page.origin",
+		"pack": ["product_page.pack_2"],
+		"desc": "product_page.sweet_pepper_green_desc",
+		"variants": [
+			{
+				"id": "sweet-pepper-green-frozen-sol",
+				"state": "product_page.state_4",
+				"images": ["/products/sweet-pepper-green-frozen/1-min.JPG"]
+			}
+		],
+		"harvest": [7, 8, 9]
+	},
+	{
+		"id": "sweet-pepper-yellow",
+		"type": "vegetable",
+		"status": "frozen",
+		"latName": "Capsicum annuum",
+		"name": "products.sweet_pepper_yellow",
+		"origin": "product_page.origin",
+		"pack": ["product_page.pack_2"],
+		"desc": "product_page.sweet_pepper_yellow_desc",
+		"variants": [
+			{
+				"id": "sweet-pepper-yellow-frozen-sol",
+				"images": ["/products/sweet-pepper-yellow-frozen/1-min.JPG"]
+			}
+		],
+		"harvest": [7, 8, 9]
+	},
+	{
+		"id": "sweet-pepper",
+		"type": "vegetable",
+		"status": "frozen",
+		"latName": "Capsicum annuum",
+		"name": "products.sweet_pepper",
+		"origin": "product_page.origin",
+		"pack": ["product_page.pack_2"],
+		"desc": "product_page.sweet_pepper_desc",
+		"variants": [
+			{
+				"id": "sweet-pepper",
+				"images": [
+					"/products/sweet-pepper-frozen/1-min.jpg",
+					"/products/sweet-pepper-frozen/2-min.jpg"
+				]
+			}
+		],
+		"harvest": [7, 8, 9]
+	},
+	{
+		"id": "boletus",
+		"type": "mushroom",
+		"status": "frozen",
+		"latName": "Boletus edulis",
+		"name": "products.boletus_frozen",
+		"origin": "product_page.origin",
+		"pack": ["product_page.pack_2"],
+		"desc": "product_page.boletus_desc",
+		"variants": [
+			{
+				"id": "boletus-frozen-whole",
+				"state": "product_page.state_1",
+				"images": [
+					"/products/boletus-frozen-whole/1-min.jpg",
+					"/products/boletus-frozen-whole/2-min.jpg"
+				]
+			},
+			{
+				"id": "boletus-frozen-slice",
+				"state": "product_page.state_2",
+				"images": ["/products/boletus-frozen-sliced/1-min.jpg"]
+			},
+			{
+				"id": "boletus-frozen-cubic",
+				"state": "product_page.state_3",
+				"images": [
+					"/products/boletus-frozen-cubic/1-min.jpg",
+					"/products/boletus-frozen-cubic/2-min.jpg"
+				]
+			}
+		],
+		"harvest": [7, 8, 9]
+	},
+	{
+		"id": "boletus-dried",
+		"type": "mushroom",
+		"status": "dried",
+		"latName": "Boletus edulis",
+		"name": "products.boletus_dried",
+		"origin": "product_page.origin",
+		"pack": ["product_page.pack_2"],
+		"desc": "product_page.boletus_dried_desc",
+		"variants": [
+			{
+				"id": "boletus-frozen-whole",
+				"images": ["/products/boletus-dried/1-min.jpg"]
+			}
+		],
+		"harvest": [7, 8, 9]
+	},
+	{
+		"id": "chanterelle",
+		"type": "mushroom",
+		"status": "fresh",
+		"latName": "Cantharellus cibarius",
+		"name": "products.chanterelle_fresh",
+		"origin": "product_page.origin",
+		"pack": ["product_page.pack_3"],
+		"desc": "product_page.chanterelle_desc",
+		"variants": [
+			{
+				"id": "chanterelle-fresh",
+				"images": ["/products/chanterelle/1-min.jpg"]
+			}
+		],
+		"harvest": [7, 8, 9]
+	},
+	{
+		"id": "chanterelle-dried",
+		"type": "mushroom",
+		"status": "dried",
+		"latName": "Cantharellus cibarius",
+		"name": "products.chanterelle_dried",
+		"origin": "product_page.origin",
+		"pack": ["product_page.pack_2"],
+		"desc": "product_page.chanterelle_dried_desc",
+		"variants": [
+			{
+				"id": "chanterelle-dried"
+			}
+		],
+		"harvest": [7, 8, 9]
+	},
+	{
+		"id": "sour-cherry",
+		"type": "berry",
+		"status": "frozen",
+		"latName": "Prunus cerasus",
+		"name": "products.sour_cherry",
+		"origin": "product_page.origin",
+		"pack": ["product_page.pack_2"],
+		"desc": "product_page.sour_cherry_desc",
+		"variants": [
+			{
+				"id": "sour-cherry-fozen-pitted",
+				"state": "product_page.state_6",
+				"images": [
+					"/products/sour-cherry-frozen-pitted/1-min.jpg",
+					"/products/sour-cherry-frozen-pitted/2-min.jpg",
+					"/products/sour-cherry-frozen-pitted/3-min.jpg",
+					"/products/sour-cherry-frozen-pitted/4-min.jpg",
+					"/products/sour-cherry-frozen-pitted/5-min.JPG",
+					"/products/sour-cherry-frozen-pitted/6-min.JPG"
+				]
+			},
+			{
+				"id": "sour-cherry-frozen-with-stone",
+				"state": "product_page.state_5",
+				"images": [
+					"/products/sour-cherry-frozen/1-min.jpg",
+					"/products/sour-cherry-frozen/2-min.jpg"
+				]
+			}
+		],
+		"harvest": [5, 6]
+	},
+	{
+		"id": "honey-fungus",
+		"type": "mushroom",
+		"status": "frozen",
+		"latName": "Armillaria mellea",
+		"name": "products.honey_fungus",
+		"origin": "product_page.origin",
+		"pack": ["product_page.pack_2"],
+		"desc": "product_page.honey_fungus_desc",
+		"variants": [
+			{
+				"id": "honey-fungus-frozen",
+				"images": ["/products/honey-fungus/1-min.jpg"]
+			}
+		],
+		"harvest": [8, 9, 10]
+	},
+	{
+		"id": "blackberry",
+		"type": "berry",
+		"status": "frozen",
+		"latName": "Rubus fruticosus",
+		"name": "products.blackberry",
+		"origin": "product_page.origin",
+		"desc": "product_page.blackberry_desc",
+		"pack": ["product_page.pack_1", "product_page.pack_2"],
+		"variants": [
+			{
+				"id": "blackberry-frozen"
+			}
+		],
+		"isOrganic": true,
+		"harvest": [8, 9]
+	},
+	{
+		"id": "grape",
+		"type": "berry",
+		"status": "frozen",
+		"latName": "Vitis vinifera",
+		"name": "products.grape",
+		"origin": "product_page.origin",
+		"pack": ["product_page.pack_2"],
+		"desc": "product_page.grape_desc",
+		"variants": [
+			{
+				"id": "grape-frozen"
+			}
+		],
+		"harvest": [9, 10]
+	},
+	{
+		"id": "corn",
+		"type": "vegetable",
+		"status": "frozen",
+		"latName": "Zea mays",
+		"name": "products.corn",
+		"origin": "product_page.origin",
+		"pack": ["product_page.pack_2"],
+		"desc": "product_page.corn_desc",
+		"variants": [
+			{
+				"id": "corn-frozen"
+			}
+		],
+		"harvest": [8, 9]
+	}
+]
