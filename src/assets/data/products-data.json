@@ -125,7 +125,7 @@
 		"id": "elderberry",
 		"type": "berry",
 		"status": "frozen",
-		"latName": "Sambucus nigra",
+		"latName": "Sambucus",
 		"name": "products.elderberry",
 		"origin": "product_page.origin",
 		"pack": ["product_page.pack_1"],
