@@ -7,287 +7,335 @@
     <loc>https://yagodakarpat.com/uk/</loc>
     <xhtml:link rel="alternate" hreflang="uk" href="https://yagodakarpat.com/uk/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://yagodakarpat.com/en/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yagodakarpat.com/uk/" />
 </url>
 
 <url>
-	  <loc>https://yagodakarpat.com/en/</loc>
+	<loc>https://yagodakarpat.com/en/</loc>
     <xhtml:link rel="alternate" hreflang="uk" href="https://yagodakarpat.com/uk/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://yagodakarpat.com/en/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yagodakarpat.com/uk/" />
 </url>
 
 <!-- Bilberry -->
 <url>
-	  <loc>https://yagodakarpat.com/uk/product-page/bilberry</loc>
+	<loc>https://yagodakarpat.com/uk/product-page/bilberry</loc>
     <xhtml:link rel="alternate" hreflang="uk" href="https://yagodakarpat.com/uk/product-page/bilberry" />
     <xhtml:link rel="alternate" hreflang="en" href="https://yagodakarpat.com/en/product-page/bilberry" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yagodakarpat.com/uk/product-page/bilberry" />
 </url>
 <url>
-	  <loc>https://yagodakarpat.com/en/product-page/bilberry</loc>
+	<loc>https://yagodakarpat.com/en/product-page/bilberry</loc>
     <xhtml:link rel="alternate" hreflang="uk" href="https://yagodakarpat.com/uk/product-page/bilberry" />
     <xhtml:link rel="alternate" hreflang="en" href="https://yagodakarpat.com/en/product-page/bilberry" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yagodakarpat.com/uk/product-page/bilberry" />
 </url>
 
 <!-- Lingonberry -->
 <url>
-	  <loc>https://yagodakarpat.com/uk/product-page/lingonberry</loc>
+	<loc>https://yagodakarpat.com/uk/product-page/lingonberry</loc>
     <xhtml:link rel="alternate" hreflang="uk" href="https://yagodakarpat.com/uk/product-page/lingonberry" />
     <xhtml:link rel="alternate" hreflang="en" href="https://yagodakarpat.com/en/product-page/lingonberry" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yagodakarpat.com/uk/product-page/lingonberry" />
 </url>
 <url>
-	  <loc>https://yagodakarpat.com/en/product-page/lingonberry</loc>
+	<loc>https://yagodakarpat.com/en/product-page/lingonberry</loc>
     <xhtml:link rel="alternate" hreflang="uk" href="https://yagodakarpat.com/uk/product-page/lingonberry" />
     <xhtml:link rel="alternate" hreflang="en" href="https://yagodakarpat.com/en/product-page/lingonberry" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yagodakarpat.com/uk/product-page/lingonberry" />
 </url>
 
 <!-- Rosehip -->
 <url>
-	  <loc>https://yagodakarpat.com/uk/product-page/rosehip</loc>
+	<loc>https://yagodakarpat.com/uk/product-page/rosehip</loc>
     <xhtml:link rel="alternate" hreflang="uk" href="https://yagodakarpat.com/uk/product-page/rosehip" />
     <xhtml:link rel="alternate" hreflang="en" href="https://yagodakarpat.com/en/product-page/rosehip" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yagodakarpat.com/uk/product-page/rosehip" />
 </url>
 <url>
-	  <loc>https://yagodakarpat.com/en/product-page/rosehip</loc>
+	<loc>https://yagodakarpat.com/en/product-page/rosehip</loc>
     <xhtml:link rel="alternate" hreflang="uk" href="https://yagodakarpat.com/uk/product-page/rosehip" />
     <xhtml:link rel="alternate" hreflang="en" href="https://yagodakarpat.com/en/product-page/rosehip" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yagodakarpat.com/uk/product-page/rosehip" />
 </url>
 
 <!-- Plum frozen -->
 <url>
-	  <loc>https://yagodakarpat.com/uk/product-page/plum-frozen</loc>
+	<loc>https://yagodakarpat.com/uk/product-page/plum-frozen</loc>
     <xhtml:link rel="alternate" hreflang="uk" href="https://yagodakarpat.com/uk/product-page/plum-frozen" />
     <xhtml:link rel="alternate" hreflang="en" href="https://yagodakarpat.com/en/product-page/plum-frozen" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yagodakarpat.com/uk/product-page/plum-frozen" />
 </url>
 <url>
-	  <loc>https://yagodakarpat.com/en/product-page/plum-frozen</loc>
+	<loc>https://yagodakarpat.com/en/product-page/plum-frozen</loc>
     <xhtml:link rel="alternate" hreflang="uk" href="https://yagodakarpat.com/uk/product-page/plum-frozen" />
     <xhtml:link rel="alternate" hreflang="en" href="https://yagodakarpat.com/en/product-page/plum-frozen" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yagodakarpat.com/uk/product-page/plum-frozen" />
 </url>
 
 <!-- Plum dried -->
 <url>
-	  <loc>https://yagodakarpat.com/uk/product-page/plum-dried</loc>
+	<loc>https://yagodakarpat.com/uk/product-page/plum-dried</loc>
     <xhtml:link rel="alternate" hreflang="uk" href="https://yagodakarpat.com/uk/product-page/plum-dried" />
     <xhtml:link rel="alternate" hreflang="en" href="https://yagodakarpat.com/en/product-page/plum-dried" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yagodakarpat.com/uk/product-page/plum-dried" />
 </url>
 <url>
-	  <loc>https://yagodakarpat.com/en/product-page/plum-dried</loc>
+	<loc>https://yagodakarpat.com/en/product-page/plum-dried</loc>
     <xhtml:link rel="alternate" hreflang="uk" href="https://yagodakarpat.com/uk/product-page/plum-dried" />
     <xhtml:link rel="alternate" hreflang="en" href="https://yagodakarpat.com/en/product-page/plum-dried" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yagodakarpat.com/uk/product-page/plum-dried" />
 </url>
 
 <!-- Prune -->
 <url>
-	  <loc>https://yagodakarpat.com/uk/product-page/prune</loc>
+	<loc>https://yagodakarpat.com/uk/product-page/prune</loc>
     <xhtml:link rel="alternate" hreflang="uk" href="https://yagodakarpat.com/uk/product-page/prune" />
     <xhtml:link rel="alternate" hreflang="en" href="https://yagodakarpat.com/en/product-page/prune" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yagodakarpat.com/uk/product-page/prune" />
 </url>
 <url>
-	  <loc>https://yagodakarpat.com/en/product-page/prunus</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://yagodakarpat.com/uk/product-page/prunus" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://yagodakarpat.com/en/product-page/prunus" />
+	<loc>https://yagodakarpat.com/en/product-page/prune</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yagodakarpat.com/uk/product-page/prune" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://yagodakarpat.com/en/product-page/prune" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yagodakarpat.com/uk/product-page/prune" />
 </url>
 
 <!-- Elderberry -->
 <url>
-	  <loc>https://yagodakarpat.com/uk/product-page/elderberry</loc>
+	<loc>https://yagodakarpat.com/uk/product-page/elderberry</loc>
     <xhtml:link rel="alternate" hreflang="uk" href="https://yagodakarpat.com/uk/product-page/elderberry" />
     <xhtml:link rel="alternate" hreflang="en" href="https://yagodakarpat.com/en/product-page/elderberry" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yagodakarpat.com/uk/product-page/elderberry" />
 </url>
 <url>
-	  <loc>https://yagodakarpat.com/en/product-page/elderberry</loc>
+	<loc>https://yagodakarpat.com/en/product-page/elderberry</loc>
     <xhtml:link rel="alternate" hreflang="uk" href="https://yagodakarpat.com/uk/product-page/elderberry" />
     <xhtml:link rel="alternate" hreflang="en" href="https://yagodakarpat.com/en/product-page/elderberry" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yagodakarpat.com/uk/product-page/elderberry" />
 </url>
 
 <!-- Strawberry -->
 <url>
-	  <loc>https://yagodakarpat.com/uk/product-page/strawberry</loc>
+	<loc>https://yagodakarpat.com/uk/product-page/strawberry</loc>
     <xhtml:link rel="alternate" hreflang="uk" href="https://yagodakarpat.com/uk/product-page/strawberry" />
     <xhtml:link rel="alternate" hreflang="en" href="https://yagodakarpat.com/en/product-page/strawberry" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yagodakarpat.com/uk/product-page/strawberry" />
 </url>
 <url>
-	  <loc>https://yagodakarpat.com/en/product-page/strawberry</loc>
+	<loc>https://yagodakarpat.com/en/product-page/strawberry</loc>
     <xhtml:link rel="alternate" hreflang="uk" href="https://yagodakarpat.com/uk/product-page/strawberry" />
     <xhtml:link rel="alternate" hreflang="en" href="https://yagodakarpat.com/en/product-page/strawberry" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yagodakarpat.com/uk/product-page/strawberry" />
 </url>
 
 <!-- Raspberry -->
 <url>
-	  <loc>https://yagodakarpat.com/uk/product-page/raspberry</loc>
+	<loc>https://yagodakarpat.com/uk/product-page/raspberry</loc>
     <xhtml:link rel="alternate" hreflang="uk" href="https://yagodakarpat.com/uk/product-page/raspberry" />
     <xhtml:link rel="alternate" hreflang="en" href="https://yagodakarpat.com/en/product-page/raspberry" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yagodakarpat.com/uk/product-page/raspberry" />
 </url>
 <url>
-	  <loc>https://yagodakarpat.com/en/product-page/raspberry</loc>
+	<loc>https://yagodakarpat.com/en/product-page/raspberry</loc>
     <xhtml:link rel="alternate" hreflang="uk" href="https://yagodakarpat.com/uk/product-page/raspberry" />
     <xhtml:link rel="alternate" hreflang="en" href="https://yagodakarpat.com/en/product-page/raspberry" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yagodakarpat.com/uk/product-page/raspberry" />
 </url>
 
 <!-- Apricot -->
 <url>
-	  <loc>https://yagodakarpat.com/uk/product-page/apricot</loc>
+	<loc>https://yagodakarpat.com/uk/product-page/apricot</loc>
     <xhtml:link rel="alternate" hreflang="uk" href="https://yagodakarpat.com/uk/product-page/apricot" />
     <xhtml:link rel="alternate" hreflang="en" href="https://yagodakarpat.com/en/product-page/apricot" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yagodakarpat.com/uk/product-page/apricot" />
 </url>
 <url>
-	  <loc>https://yagodakarpat.com/en/product-page/apricot</loc>
+	<loc>https://yagodakarpat.com/en/product-page/apricot</loc>
     <xhtml:link rel="alternate" hreflang="uk" href="https://yagodakarpat.com/uk/product-page/apricot" />
     <xhtml:link rel="alternate" hreflang="en" href="https://yagodakarpat.com/en/product-page/apricot" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yagodakarpat.com/uk/product-page/apricot" />
 </url>
 
 <!-- Sweet pepper red -->
 <url>
-	  <loc>https://yagodakarpat.com/uk/product-page/sweet-pepper-red</loc>
+	<loc>https://yagodakarpat.com/uk/product-page/sweet-pepper-red</loc>
     <xhtml:link rel="alternate" hreflang="uk" href="https://yagodakarpat.com/uk/product-page/sweet-pepper-red" />
     <xhtml:link rel="alternate" hreflang="en" href="https://yagodakarpat.com/en/product-page/sweet-pepper-red" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yagodakarpat.com/uk/product-page/sweet-pepper-red" />
 </url>
 <url>
-	  <loc>https://yagodakarpat.com/en/product-page/sweet-pepper-red</loc>
+	<loc>https://yagodakarpat.com/en/product-page/sweet-pepper-red</loc>
     <xhtml:link rel="alternate" hreflang="uk" href="https://yagodakarpat.com/uk/product-page/sweet-pepper-red" />
     <xhtml:link rel="alternate" hreflang="en" href="https://yagodakarpat.com/en/product-page/sweet-pepper-red" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yagodakarpat.com/uk/product-page/sweet-pepper-red" />
 </url>
 
 <!-- Sweet pepper green -->
 <url>
-	  <loc>https://yagodakarpat.com/uk/product-page/sweet-pepper-green</loc>
+	<loc>https://yagodakarpat.com/uk/product-page/sweet-pepper-green</loc>
     <xhtml:link rel="alternate" hreflang="uk" href="https://yagodakarpat.com/uk/product-page/sweet-pepper-green" />
     <xhtml:link rel="alternate" hreflang="en" href="https://yagodakarpat.com/en/product-page/sweet-pepper-green" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yagodakarpat.com/uk/product-page/sweet-pepper-green" />
 </url>
 <url>
-	  <loc>https://yagodakarpat.com/en/product-page/sweet-pepper-green</loc>
+	<loc>https://yagodakarpat.com/en/product-page/sweet-pepper-green</loc>
     <xhtml:link rel="alternate" hreflang="uk" href="https://yagodakarpat.com/uk/product-page/sweet-pepper-green" />
     <xhtml:link rel="alternate" hreflang="en" href="https://yagodakarpat.com/en/product-page/sweet-pepper-green" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yagodakarpat.com/uk/product-page/sweet-pepper-green" />
 </url>
 
 <!-- Sweet pepper yellow -->
 <url>
-	  <loc>https://yagodakarpat.com/uk/product-page/sweet-pepper-yellow</loc>
+	<loc>https://yagodakarpat.com/uk/product-page/sweet-pepper-yellow</loc>
     <xhtml:link rel="alternate" hreflang="uk" href="https://yagodakarpat.com/uk/product-page/sweet-pepper-yellow" />
     <xhtml:link rel="alternate" hreflang="en" href="https://yagodakarpat.com/en/product-page/sweet-pepper-yellow" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yagodakarpat.com/uk/product-page/sweet-pepper-yellow" />
 </url>
 <url>
-	  <loc>https://yagodakarpat.com/en/product-page/sweet-pepper-yellow</loc>
+	<loc>https://yagodakarpat.com/en/product-page/sweet-pepper-yellow</loc>
     <xhtml:link rel="alternate" hreflang="uk" href="https://yagodakarpat.com/uk/product-page/sweet-pepper-yellow" />
     <xhtml:link rel="alternate" hreflang="en" href="https://yagodakarpat.com/en/product-page/sweet-pepper-yellow" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yagodakarpat.com/uk/product-page/sweet-pepper-yellow" />
 </url>
 
 <!-- Sweet pepper -->
 <url>
-	  <loc>https://yagodakarpat.com/uk/product-page/sweet-pepper</loc>
+	<loc>https://yagodakarpat.com/uk/product-page/sweet-pepper</loc>
     <xhtml:link rel="alternate" hreflang="uk" href="https://yagodakarpat.com/uk/product-page/sweet-pepper" />
     <xhtml:link rel="alternate" hreflang="en" href="https://yagodakarpat.com/en/product-page/sweet-pepper" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yagodakarpat.com/uk/product-page/sweet-pepper" />
 </url>
 <url>
-	  <loc>https://yagodakarpat.com/en/product-page/sweet-pepper</loc>
+	<loc>https://yagodakarpat.com/en/product-page/sweet-pepper</loc>
     <xhtml:link rel="alternate" hreflang="uk" href="https://yagodakarpat.com/uk/product-page/sweet-pepper" />
     <xhtml:link rel="alternate" hreflang="en" href="https://yagodakarpat.com/en/product-page/sweet-pepper" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yagodakarpat.com/uk/product-page/sweet-pepper" />
 </url>
 
 <!-- Boletus -->
 <url>
-	  <loc>https://yagodakarpat.com/uk/product-page/boletus</loc>
+	<loc>https://yagodakarpat.com/uk/product-page/boletus</loc>
     <xhtml:link rel="alternate" hreflang="uk" href="https://yagodakarpat.com/uk/product-page/boletus" />
     <xhtml:link rel="alternate" hreflang="en" href="https://yagodakarpat.com/en/product-page/boletus" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yagodakarpat.com/uk/product-page/boletus" />
 </url>
 <url>
-	  <loc>https://yagodakarpat.com/en/product-page/boletus</loc>
+	<loc>https://yagodakarpat.com/en/product-page/boletus</loc>
     <xhtml:link rel="alternate" hreflang="uk" href="https://yagodakarpat.com/uk/product-page/boletus" />
     <xhtml:link rel="alternate" hreflang="en" href="https://yagodakarpat.com/en/product-page/boletus" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yagodakarpat.com/uk/product-page/boletus" />
 </url>
 
 <!-- Boletus dried -->
 <url>
-	  <loc>https://yagodakarpat.com/uk/product-page/boletus-dried</loc>
+	<loc>https://yagodakarpat.com/uk/product-page/boletus-dried</loc>
     <xhtml:link rel="alternate" hreflang="uk" href="https://yagodakarpat.com/uk/product-page/boletus-dried" />
     <xhtml:link rel="alternate" hreflang="en" href="https://yagodakarpat.com/en/product-page/boletus-dried" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yagodakarpat.com/uk/product-page/boletus-dried" />
 </url>
 <url>
-	  <loc>https://yagodakarpat.com/en/product-page/boletus-dried</loc>
+	<loc>https://yagodakarpat.com/en/product-page/boletus-dried</loc>
     <xhtml:link rel="alternate" hreflang="uk" href="https://yagodakarpat.com/uk/product-page/boletus-dried" />
     <xhtml:link rel="alternate" hreflang="en" href="https://yagodakarpat.com/en/product-page/boletus-dried" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yagodakarpat.com/uk/product-page/boletus-dried" />
 </url>
 
 <!-- Chanterelle -->
 <url>
-	  <loc>https://yagodakarpat.com/uk/product-page/chanterelle</loc>
+	<loc>https://yagodakarpat.com/uk/product-page/chanterelle</loc>
     <xhtml:link rel="alternate" hreflang="uk" href="https://yagodakarpat.com/uk/product-page/chanterelle" />
     <xhtml:link rel="alternate" hreflang="en" href="https://yagodakarpat.com/en/product-page/chanterelle" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yagodakarpat.com/uk/product-page/chanterelle" />
 </url>
 <url>
-	  <loc>https://yagodakarpat.com/en/product-page/chanterelle</loc>
+	<loc>https://yagodakarpat.com/en/product-page/chanterelle</loc>
     <xhtml:link rel="alternate" hreflang="uk" href="https://yagodakarpat.com/uk/product-page/chanterelle" />
     <xhtml:link rel="alternate" hreflang="en" href="https://yagodakarpat.com/en/product-page/chanterelle" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yagodakarpat.com/uk/product-page/chanterelle" />
 </url>
 
 <!-- Chanterelle dried -->
 <url>
-	  <loc>https://yagodakarpat.com/uk/product-page/chanterelle-dried</loc>
+	<loc>https://yagodakarpat.com/uk/product-page/chanterelle-dried</loc>
     <xhtml:link rel="alternate" hreflang="uk" href="https://yagodakarpat.com/uk/product-page/chanterelle-dried" />
     <xhtml:link rel="alternate" hreflang="en" href="https://yagodakarpat.com/en/product-page/chanterelle-dried" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yagodakarpat.com/uk/product-page/chanterelle-dried" />
 </url>
 <url>
-	  <loc>https://yagodakarpat.com/en/product-page/chanterelle-dried</loc>
+	<loc>https://yagodakarpat.com/en/product-page/chanterelle-dried</loc>
     <xhtml:link rel="alternate" hreflang="uk" href="https://yagodakarpat.com/uk/product-page/chanterelle-dried" />
     <xhtml:link rel="alternate" hreflang="en" href="https://yagodakarpat.com/en/product-page/chanterelle-dried" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yagodakarpat.com/uk/product-page/chanterelle-dried" />
 </url>
 
 <!-- Sour cherry -->
 <url>
-	  <loc>https://yagodakarpat.com/uk/product-page/sour-cherry</loc>
+	<loc>https://yagodakarpat.com/uk/product-page/sour-cherry</loc>
     <xhtml:link rel="alternate" hreflang="uk" href="https://yagodakarpat.com/uk/product-page/sour-cherry" />
     <xhtml:link rel="alternate" hreflang="en" href="https://yagodakarpat.com/en/product-page/sour-cherry" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yagodakarpat.com/uk/product-page/sour-cherry" />
 </url>
 <url>
-	  <loc>https://yagodakarpat.com/en/product-page/sour-cherry</loc>
+	<loc>https://yagodakarpat.com/en/product-page/sour-cherry</loc>
     <xhtml:link rel="alternate" hreflang="uk" href="https://yagodakarpat.com/uk/product-page/sour-cherry" />
     <xhtml:link rel="alternate" hreflang="en" href="https://yagodakarpat.com/en/product-page/sour-cherry" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yagodakarpat.com/uk/product-page/sour-cherry" />
 </url>
 
 <!-- Honey fungus -->
 <url>
-	  <loc>https://yagodakarpat.com/uk/product-page/honey-fungus</loc>
+	<loc>https://yagodakarpat.com/uk/product-page/honey-fungus</loc>
     <xhtml:link rel="alternate" hreflang="uk" href="https://yagodakarpat.com/uk/product-page/honey-fungus" />
     <xhtml:link rel="alternate" hreflang="en" href="https://yagodakarpat.com/en/product-page/honey-fungus" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yagodakarpat.com/uk/product-page/honey-fungus" />
 </url>
 <url>
-	  <loc>https://yagodakarpat.com/en/product-page/honey-fungus</loc>
+	<loc>https://yagodakarpat.com/en/product-page/honey-fungus</loc>
     <xhtml:link rel="alternate" hreflang="uk" href="https://yagodakarpat.com/uk/product-page/honey-fungus" />
     <xhtml:link rel="alternate" hreflang="en" href="https://yagodakarpat.com/en/product-page/honey-fungus" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yagodakarpat.com/uk/product-page/honey-fungus" />
 </url>
 
 <!-- Blackberry -->
 <url>
-	  <loc>https://yagodakarpat.com/uk/product-page/blackberry</loc>
+	<loc>https://yagodakarpat.com/uk/product-page/blackberry</loc>
     <xhtml:link rel="alternate" hreflang="uk" href="https://yagodakarpat.com/uk/product-page/blackberry" />
     <xhtml:link rel="alternate" hreflang="en" href="https://yagodakarpat.com/en/product-page/blackberry" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yagodakarpat.com/uk/product-page/blackberry" />
 </url>
 <url>
-	  <loc>https://yagodakarpat.com/en/product-page/blackberry</loc>
+	<loc>https://yagodakarpat.com/en/product-page/blackberry</loc>
     <xhtml:link rel="alternate" hreflang="uk" href="https://yagodakarpat.com/uk/product-page/blackberry" />
     <xhtml:link rel="alternate" hreflang="en" href="https://yagodakarpat.com/en/product-page/blackberry" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yagodakarpat.com/uk/product-page/blackberry" />
 </url>
 
 <!-- Grape -->
 <url>
-	  <loc>https://yagodakarpat.com/uk/product-page/grape</loc>
+	<loc>https://yagodakarpat.com/uk/product-page/grape</loc>
     <xhtml:link rel="alternate" hreflang="uk" href="https://yagodakarpat.com/uk/product-page/grape" />
     <xhtml:link rel="alternate" hreflang="en" href="https://yagodakarpat.com/en/product-page/grape" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yagodakarpat.com/uk/product-page/grape" />
 </url>
 <url>
-	  <loc>https://yagodakarpat.com/en/product-page/grape</loc>
+	<loc>https://yagodakarpat.com/en/product-page/grape</loc>
     <xhtml:link rel="alternate" hreflang="uk" href="https://yagodakarpat.com/uk/product-page/grape" />
     <xhtml:link rel="alternate" hreflang="en" href="https://yagodakarpat.com/en/product-page/grape" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yagodakarpat.com/uk/product-page/grape" />
 </url>
 
 <!-- Corn -->
 <url>
-	  <loc>https://yagodakarpat.com/uk/product-page/corn</loc>
+	<loc>https://yagodakarpat.com/uk/product-page/corn</loc>
     <xhtml:link rel="alternate" hreflang="uk" href="https://yagodakarpat.com/uk/product-page/corn" />
     <xhtml:link rel="alternate" hreflang="en" href="https://yagodakarpat.com/en/product-page/corn" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yagodakarpat.com/uk/product-page/corn" />
 </url>
 <url>
-	  <loc>https://yagodakarpat.com/en/product-page/corn</loc>
+	<loc>https://yagodakarpat.com/en/product-page/corn</loc>
     <xhtml:link rel="alternate" hreflang="uk" href="https://yagodakarpat.com/uk/product-page/corn" />
     <xhtml:link rel="alternate" hreflang="en" href="https://yagodakarpat.com/en/product-page/corn" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yagodakarpat.com/uk/product-page/corn" />
 </url>
 </urlset>
