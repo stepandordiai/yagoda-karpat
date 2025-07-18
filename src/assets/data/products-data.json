@@ -109,19 +109,19 @@
 		"descSEO": "High-quality dried plums with rich flavor and natural sweetness. Perfect for retail, bulk, or industrial use in healthy food and snack products."
 	},
 	{
-		"id": "prunus",
+		"id": "prune",
 		"type": "fruit",
 		"status": "dried",
 		"latName": "Prunus domestica",
-		"name": "products.prunus",
+		"name": "products.prune",
 		"origin": "product_page.origin",
 		"pack": ["product_page.pack_2"],
 		"desc": "product_page.prunus_desc",
 		"variants": [
 			{
-				"id": "prunus-pitted",
+				"id": "prune-pitted",
 				"state": "product_page.state_6",
-				"images": ["/products/prunus/01-c.jpg", "/products/prunus/02-c.jpg"]
+				"images": ["/products/prune/01-c.jpg", "/products/prune/02-c.jpg"]
 			}
 		],
 		"harvest": [8, 9],
