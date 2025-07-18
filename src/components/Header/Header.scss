@@ -16,9 +16,9 @@
 	transition: transform 0.3s;
 }
 
-.header--hide {
-	transform: translateY(calc(-100% - 25px));
-}
+// .header--hide {
+// 	transform: translateY(calc(-100% - 25px));
+// }
 
 .header__logo {
 	margin-right: auto;
@@ -60,9 +60,9 @@
 		left: 10px;
 	}
 
-	.header--hide {
-		transform: translateY(calc(-100% - 10px));
-	}
+	// .header--hide {
+	// 	transform: translateY(calc(-100% - 10px));
+	// }
 }
 
 @media (max-width: 600px) {
