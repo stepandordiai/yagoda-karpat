@@ -84,6 +84,14 @@ const ProductPage: React.FC<ProductPageProps> = ({ productsData }) => {
 		);
 	});
 
+	// TODO:
+	// function truncateForSEO(str: string, maxLength: number = 160) {
+	// 	if (str.length <= maxLength) return str;
+	// 	const trimmed = str.slice(0, maxLength);
+	// 	const lastSpace = trimmed.lastIndexOf(" ");
+	// 	return trimmed.slice(0, lastSpace);
+	// }
+
 	return (
 		<>
 			<Helmet>
@@ -149,23 +157,23 @@ const ProductPage: React.FC<ProductPageProps> = ({ productsData }) => {
 									})}
 							</div>
 							<div>
-								<p style={{ color: "hsl(0, 0%, 50%)" }}>
+								<span style={{ color: "hsl(0, 0%, 50%)" }}>
 									{t("product_page.origin_title")}
-								</p>
+								</span>
 								<p>{t(productData.origin)}</p>
 							</div>
 							<div>
-								<p style={{ color: "hsl(0, 0%, 50%)" }}>
+								<span style={{ color: "hsl(0, 0%, 50%)" }}>
 									{t("product_page.packaging_title")}
-								</p>
+								</span>
 								{productData.pack.map((option, index) => (
 									<p key={index}>{t(option)}</p>
 								))}
 							</div>
 							<div>
-								<p style={{ color: "hsl(0, 0%, 50%)" }}>
+								<span style={{ color: "hsl(0, 0%, 50%)" }}>
 									{t("product_page.desc_title")}
-								</p>
+								</span>
 								<p>{productData.desc && t(productData.desc)}</p>
 							</div>
 						</div>
