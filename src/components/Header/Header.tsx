@@ -3,7 +3,7 @@ import BurgerBtn from "../BurgerBtn/BurgerBtn";
 import LngSelect from "../LngSelect/LngSelect";
 import { NavLink, useParams } from "react-router-dom";
 import logo from "/logo-img/yagoda-karpat-logo.svg";
-import { useEffect } from "react";
+// import { useEffect } from "react";
 import "./Header.scss";
 
 const Header = () => {

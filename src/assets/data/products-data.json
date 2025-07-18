@@ -16,7 +16,7 @@
 		],
 		"isOrganic": true,
 		"harvest": [7, 8],
-		"descSEO": "Premium IQF frozen bilberries — fresh taste, rich in antioxidants. Ideal for smoothies, baking, and food production. 100% natural, EU quality."
+		"descSEO": "product_page.bilberry_desc_seo"
 	},
 	{
 		"id": "lingonberry",
@@ -38,7 +38,7 @@
 		],
 		"isOrganic": true,
 		"harvest": [8, 9],
-		"descSEO": "IQF frozen lingonberries — tart, wild flavor and vibrant color. Perfect for sauces, jams, beverages, and food production. 100% natural quality."
+		"descSEO": "product_page.lingonberry_desc_seo"
 	},
 	{
 		"id": "rosehip",
@@ -57,7 +57,7 @@
 		],
 		"isOrganic": true,
 		"harvest": [9, 10, 11],
-		"descSEO": "IQF frozen rosehips — rich in vitamin C, natural color, and flavor. Ideal for teas, jams, supplements, and health food production. 100% natural."
+		"descSEO": "product_page.rosehip_desc_seo"
 	},
 	{
 		"id": "plum-frozen",
@@ -81,7 +81,7 @@
 			}
 		],
 		"harvest": [8, 9],
-		"descSEO": "IQF frozen plums — ripe, juicy, and naturally sweet. Perfect for baking, desserts, jams, and food manufacturing. 100% natural and preservative-free."
+		"descSEO": "product_page.plum_frozen_desc_seo"
 	},
 	{
 		"id": "plum-dried",
@@ -106,7 +106,7 @@
 			}
 		],
 		"harvest": [8, 9],
-		"descSEO": "High-quality dried plums with rich flavor and natural sweetness. Perfect for retail, bulk, or industrial use in healthy food and snack products."
+		"descSEO": "product_page.plum_dried_desc_seo"
 	},
 	{
 		"id": "prune",
@@ -116,7 +116,7 @@
 		"name": "products.prune",
 		"origin": "product_page.origin",
 		"pack": ["product_page.pack_2"],
-		"desc": "product_page.prunus_desc",
+		"desc": "product_page.prune_desc",
 		"variants": [
 			{
 				"id": "prune-pitted",
@@ -125,7 +125,7 @@
 			}
 		],
 		"harvest": [8, 9],
-		"descSEO": "High-quality prunes for industrial use — pitted, moist, and preservative-free. Perfect for snacks, bakery, and food manufacturing."
+		"descSEO": "product_page.prune_desc_seo"
 	},
 	{
 		"id": "elderberry",
@@ -147,7 +147,7 @@
 		],
 		"isOrganic": true,
 		"harvest": [8, 9],
-		"descSEO": "IQF frozen elderberries — wild-harvested, rich in antioxidants and vitamin C. Perfect for juices, syrups, supplements, and food production."
+		"descSEO": "product_page.elderberry_desc_seo"
 	},
 	{
 		"id": "strawberry",
@@ -168,7 +168,7 @@
 			}
 		],
 		"harvest": [5, 6, 7],
-		"descSEO": "IQF frozen strawberries — sweet, juicy, and full of flavor. Perfect for smoothies, desserts, baking, and food production. 100% natural, no additives."
+		"descSEO": "product_page.strawberry_desc_seo"
 	},
 	{
 		"id": "raspberry",
@@ -189,7 +189,7 @@
 			}
 		],
 		"harvest": [7, 8, 9],
-		"descSEO": "IQF frozen raspberries — vibrant, sweet-tart flavor and rich in antioxidants. Perfect for desserts, smoothies, sauces, and food production. 100% natural."
+		"descSEO": "product_page.raspberry_desc_seo"
 	},
 	{
 		"id": "apricot",
@@ -206,7 +206,7 @@
 			}
 		],
 		"harvest": [7, 8],
-		"descSEO": "Frozen IQF apricots — flash-frozen at peak ripeness to preserve flavor and nutrients. Perfect for baking, snacks, and beverages."
+		"descSEO": "product_page.apricot_desc_seo"
 	},
 	{
 		"id": "sweet-pepper-red",
@@ -228,7 +228,7 @@
 			}
 		],
 		"harvest": [7, 8, 9],
-		"descSEO": "IQF frozen red sweet peppers — vibrant color, sweet flavor, and rich in vitamins. Ideal for cooking, soups, sauces, and food production. 100% natural."
+		"descSEO": "product_page.sweet_pepper_red_desc_seo"
 	},
 	{
 		"id": "sweet-pepper-green",
@@ -247,7 +247,7 @@
 			}
 		],
 		"harvest": [7, 8, 9],
-		"descSEO": "IQF frozen green sweet peppers — crisp, vibrant, and full of flavor. Perfect for cooking, stir-fries, sauces, and food production. 100% natural."
+		"descSEO": "product_page.sweet_pepper_green_desc_seo"
 	},
 	{
 		"id": "sweet-pepper-yellow",
@@ -265,7 +265,7 @@
 			}
 		],
 		"harvest": [7, 8, 9],
-		"descSEO": "IQF frozen yellow sweet peppers — vibrant color, sweet flavor, and rich in vitamins. Ideal for cooking, stir-fries, sauces, and food production. 100% natural."
+		"descSEO": "product_page.sweet_pepper_yellow_desc_seo"
 	},
 	{
 		"id": "sweet-pepper",
@@ -286,7 +286,7 @@
 			}
 		],
 		"harvest": [7, 8, 9],
-		"descSEO": "IQF frozen sweet peppers — available in red, green, and yellow. Sweet, crisp, and full of flavor. Perfect for cooking, stir-fries, sauces, and food production. 100% natural."
+		"descSEO": "product_page.sweet_pepper_desc_seo"
 	},
 	{
 		"id": "boletus",
@@ -321,7 +321,7 @@
 			}
 		],
 		"harvest": [7, 8, 9],
-		"descSEO": "IQF frozen boletus mushrooms — rich in flavor and texture, perfect for soups, sauces, risottos, and food production. 100% natural, no preservatives."
+		"descSEO": "product_page.boletus_desc_seo"
 	},
 	{
 		"id": "boletus-dried",
@@ -339,7 +339,7 @@
 			}
 		],
 		"harvest": [7, 8, 9],
-		"descSEO": "Dried IQF boletus mushrooms — rich, earthy flavor and ideal texture. Perfect for soups, sauces, risottos, and gourmet food production. 100% natural."
+		"descSEO": "product_page.boletus_dried_desc_seo"
 	},
 	{
 		"id": "chanterelle",
@@ -357,7 +357,7 @@
 			}
 		],
 		"harvest": [7, 8, 9],
-		"descSEO": "Fresh chanterelle mushrooms — wild-harvested, aromatic, and full of flavor. Ideal for gourmet cooking, sauces, pastas, and fine dining. 100% natural."
+		"descSEO": "product_page.chanterelle_desc_seo"
 	},
 	{
 		"id": "chanterelle-dried",
@@ -374,7 +374,7 @@
 			}
 		],
 		"harvest": [7, 8, 9],
-		"descSEO": "Dried chanterelle mushrooms — rich aroma, earthy flavor, and long shelf life. Perfect for gourmet dishes, sauces, soups, and premium food production."
+		"descSEO": "product_page.chanterelle_dried_desc_seo"
 	},
 	{
 		"id": "sour-cherry",
@@ -408,7 +408,7 @@
 			}
 		],
 		"harvest": [5, 6],
-		"descSEO": "IQF frozen sour cherries — tangy, juicy, and full of flavor. Perfect for pies, jams, juices, and food production. 100% natural, pitted and ready to use."
+		"descSEO": "product_page.sour_cherry_desc_seo"
 	},
 	{
 		"id": "honey-fungus",
@@ -426,7 +426,7 @@
 			}
 		],
 		"harvest": [8, 9, 10],
-		"descSEO": "IQF frozen honey fungus — wild-harvested, flavorful, and ready to cook. Perfect for soups, stews, sauces, and gourmet food production. 100% natural."
+		"descSEO": "product_page.honey_fungus_desc_seo"
 	},
 	{
 		"id": "blackberry",
@@ -444,7 +444,7 @@
 		],
 		"isOrganic": true,
 		"harvest": [8, 9],
-		"descSEO": "IQF frozen blackberries — juicy, flavorful, and rich in antioxidants. Perfect for smoothies, desserts, jams, and food production. 100% natural."
+		"descSEO": "product_page.blackberry_desc_seo"
 	},
 	{
 		"id": "grape",
@@ -461,7 +461,7 @@
 			}
 		],
 		"harvest": [9, 10],
-		"descSEO": "Frozen IQF grapes — whole, seedless, and naturally sweet. Great for food processing, smoothies, retail packs, and functional foods."
+		"descSEO": "product_page.grape_desc_seo"
 	},
 	{
 		"id": "corn",
@@ -478,6 +478,6 @@
 			}
 		],
 		"harvest": [8, 9],
-		"descSEO": "Frozen IQF sweet corn — vibrant color and fresh flavor. Great for cooking, canning, freezing mixes, and processed food products."
+		"descSEO": "product_page.corn_desc_seo"
 	}
 ]

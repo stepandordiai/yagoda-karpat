@@ -32,6 +32,7 @@ interface ProductsData {
 	}[];
 	isOrganic?: boolean;
 	harvest: number[];
+	descSEO: string;
 }
 
 interface ProductPageProps {
@@ -95,12 +96,8 @@ const ProductPage: React.FC<ProductPageProps> = ({ productsData }) => {
 	return (
 		<>
 			<Helmet>
-				<meta name="description" content={productData.desc} />
+				<meta name="description" content={t(productData.descSEO)} />
 				<title>{t(productData.name) + " / " + t("company_name")}</title>
-				{/* <link
-					rel="canonical"
-					href={`https://yagodakarpat.com/product-page/${id}`}
-				/> */}
 				<link
 					rel="canonical"
 					href={`https://yagodakarpat.com/uk/product-page/${id}`}

@@ -6,9 +6,9 @@ import {
 } from "react-router-dom";
 import "./i18n";
 import { useEffect } from "react";
-import "./scss/App.scss";
 import LanguageLayout from "./LanguageLayout";
 import getStorage from "./utils/getStorage";
+import "./scss/App.scss";
 
 function App() {
 	useEffect(() => {

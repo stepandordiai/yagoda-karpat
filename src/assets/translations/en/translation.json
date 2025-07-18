@@ -39,7 +39,8 @@
 
 	"home": {
 		"title": "Manufacturer of frozen and dried foods",
-		"sec_title": "We produce and export top-quality frozen and dried berries, fruits, mushrooms and vegetables"
+		"sec_title": "We produce and export top-quality frozen and dried berries, fruits, mushrooms and vegetables",
+		"desc_seo": "Wholesale frozen and dried berries, fruits, mushrooms, and veggies from Ukraine. High-quality natural products. Export to the EU and worldwide."
 	},
 
 	"about_us": {
@@ -111,7 +112,7 @@
 		"rosehip_desc": "Collected on the verge of Indian summer, when the berry has already absorbed all the softness of the autumn sun, but has not yet lost the freshness of wild nature. Shock freezing allows you to preserve not only its unique taste, but also its natural richness - a record amount of vitamin C, minerals and healing essential oils. This is not just a berry - it is an elixir of health, turning tea into a healing infusion, jam into a home treasure, and desserts into a real autumn fairy tale. Rosehip for those who appreciate the real",
 		"plum_frozen_desc": "Sweet with a slight sourness, fragrant and juicy, this plum is not just a fruit, but a memory of warm evenings when the trees still sigh in the August air. We freeze it at the very moment when the plum reaches its peak - ripe, soft, but still elastic. It has everything: for pies with a crispy crust, aromatic sauces for meat, delicate compotes or just the cozy taste of childhood. This is a berry that combines simplicity and depth. A plum that knows how to touch the heart",
 		"plum_dried_desc": "Picked in the height of summer and dried slowly, with love - so that not a single hint of caramel aftertaste disappears. Each fruit has the warmth of the sun, depth of flavor and a light smoky note, like a memory of grandma's oven. These are not just sweets - they are an ingredient with meaning: for exquisite meat dishes, homemade desserts or morning energy in porridge. Natural, rich, real - a plum that speaks without words",
-		"prunus_desc": "Ripe plums, carefully dried to perfect softness, turn into a true natural delight, giving an unforgettable taste of summer and autumn in every bite. Their delicate texture and natural sweetness are revealed gradually, leaving behind a light smoky shade and memories of warm evenings under the starry sky. Prunes are not just a snack, but a source of energy for the body and soul, a wonderful companion for fragrant dishes, pastries or as an ingredient in desserts, imbued with natural taste and health. This is a berry that speaks the language of time",
+		"prune_desc": "Ripe plums, carefully dried to perfect softness, turn into a true natural delight, giving an unforgettable taste of summer and autumn in every bite. Their delicate texture and natural sweetness are revealed gradually, leaving behind a light smoky shade and memories of warm evenings under the starry sky. Prunes are not just a snack, but a source of energy for the body and soul, a wonderful companion for fragrant dishes, pastries or as an ingredient in desserts, imbued with natural taste and health. This is a berry that speaks the language of time",
 		"elderberry_desc": "Charming and mysterious, elderberry gives not only its unique taste, but also the aroma of the forest, living in the shade of old trees. Frozen at the peak of its ripeness, it retains all the power of natural antioxidants and vitamins, ready to reveal its secrets in your tea, dessert or jam. Its bittersweet taste adds depth not only to pastries or sauces, but also to homemade drinks. It brings the spirit of the wild to every dish, inspiring and energizing",
 		"strawberry_desc": "Sweet, juicy, with the aroma of a sunny morning, these strawberries seem to embody the very essence of summer. Picked at the moment of full ripeness, they are frozen in such a way as to preserve not only their bright color, but also all their natural energy. Each berry, like a small vitamin bomb, gives fresh taste and benefits at any time of the year. These strawberries are perfect for desserts, cocktails, smoothies or just as a refreshing snack. Their taste is not only a memory of summer, but also an opportunity to feel this carefreeness on any day",
 		"raspberry_desc": "Picked in the heart of summer when they reach their peak ripeness, raspberries are frozen instantly to preserve all their bright colors and juicy flavor. The light taste of sour freshness, flowing into sweetness, gives a feeling of summer, even when it's cold outside. These raspberries will be a great addition to desserts, smoothies or even tea infusions, giving not only an unrivaled taste, but also the natural benefits that each berry brings with it. They give health and a feeling of freshness from the forest in every bite",
@@ -132,6 +133,29 @@
 		"origin": "Ukraine",
 		"pack_1": "paper bag 25 kg",
 		"pack_2": "carton box 10 kg",
-		"pack_3": "wooden container"
+		"pack_3": "wooden container",
+		"bilberry_desc_seo": "Premium IQF frozen bilberries — fresh taste, rich in antioxidants. Ideal for smoothies, baking, and food production. 100% natural, EU quality.",
+		"lingonberry_desc_seo": "IQF frozen lingonberries — tart, wild flavor and vibrant color. Perfect for sauces, jams, beverages, and food production. 100% natural quality.",
+		"rosehip_desc_seo": "IQF frozen rosehips — rich in vitamin C, natural color, and flavor. Ideal for teas, jams, supplements, and health food production. 100% natural.",
+		"plum_frozen_desc_seo": "IQF frozen plums — ripe, juicy, and naturally sweet. Perfect for baking, desserts, jams, and food manufacturing. 100% natural and preservative-free.",
+		"plum_dried_desc_seo": "High-quality dried plums with rich flavor and natural sweetness. Perfect for retail, bulk, or industrial use in healthy food and snack products.",
+		"prune_desc_seo": "High-quality prunes for industrial use — pitted, moist, and preservative-free. Perfect for snacks, bakery, and food manufacturing.",
+		"elderberry_desc_seo": "IQF frozen elderberries — wild-harvested, rich in antioxidants and vitamin C. Perfect for juices, syrups, supplements, and food production.",
+		"strawberry_desc_seo": "IQF frozen strawberries — sweet, juicy, and full of flavor. Perfect for smoothies, desserts, baking, and food production. 100% natural, no additives.",
+		"raspberry_desc_seo": "IQF frozen raspberries — vibrant, sweet-tart flavor and rich in antioxidants. Perfect for desserts, smoothies, sauces, and food production. 100% natural.",
+		"apricot_desc_seo": "Frozen IQF apricots — flash-frozen at peak ripeness to preserve flavor and nutrients. Perfect for baking, snacks, and beverages.",
+		"sweet_pepper_red_desc_seo": "IQF frozen red sweet peppers — vibrant color, sweet flavor, and rich in vitamins. Ideal for cooking, soups, sauces, and food production. 100% natural.",
+		"sweet_pepper_green_desc_seo": "IQF frozen green sweet peppers — crisp, vibrant, and full of flavor. Perfect for cooking, stir-fries, sauces, and food production. 100% natural.",
+		"sweet_pepper_yellow_desc_seo": "IQF frozen yellow sweet peppers — vibrant color, sweet flavor, and rich in vitamins. Ideal for cooking, stir-fries, sauces, and food production. 100% natural.",
+		"sweet_pepper_desc_seo": "IQF frozen sweet peppers — available in red, green, and yellow. Sweet, crisp, and full of flavor. Perfect for cooking, stir-fries, sauces, and food production. 100% natural.",
+		"boletus_desc_seo": "IQF frozen boletus mushrooms — rich in flavor and texture, perfect for soups, sauces, risottos, and food production. 100% natural, no preservatives.",
+		"boletus_dried_desc_seo": "Dried IQF boletus mushrooms — rich, earthy flavor and ideal texture. Perfect for soups, sauces, risottos, and gourmet food production. 100% natural.",
+		"chanterelle_desc_seo": "Fresh chanterelle mushrooms — wild-harvested, aromatic, and full of flavor. Ideal for gourmet cooking, sauces, pastas, and fine dining. 100% natural.",
+		"chanterelle_dried_desc_seo": "Dried chanterelle mushrooms — rich aroma, earthy flavor, and long shelf life. Perfect for gourmet dishes, sauces, soups, and premium food production.",
+		"sour_cherry_desc_seo": "IQF frozen sour cherries — tangy, juicy, and full of flavor. Perfect for pies, jams, juices, and food production. 100% natural, pitted and ready to use.",
+		"honey_fungus_desc_seo": "IQF frozen honey fungus — wild-harvested, flavorful, and ready to cook. Perfect for soups, stews, sauces, and gourmet food production. 100% natural.",
+		"blackberry_desc_seo": "IQF frozen blackberries — juicy, flavorful, and rich in antioxidants. Perfect for smoothies, desserts, jams, and food production. 100% natural.",
+		"grape_desc_seo": "Frozen IQF grapes — whole, seedless, and naturally sweet. Great for food processing, smoothies, retail packs, and functional foods.",
+		"corn_desc_seo": "Frozen IQF sweet corn — vibrant color and fresh flavor. Great for cooking, canning, freezing mixes, and processed food products."
 	}
 }
