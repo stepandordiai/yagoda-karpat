@@ -479,5 +479,23 @@
 		],
 		"harvest": [8, 9],
 		"descSEO": "product_page.corn_desc_seo"
+	},
+	{
+		"id": "black-currant",
+		"type": "berry",
+		"status": "frozen",
+		"latName": "Ribes nigrum",
+		"name": "products.black_currant",
+		"origin": "product_page.origin",
+		"pack": ["product_page.pack_2"],
+		"desc": "product_page.black_currant_desc",
+		"variants": [
+			{
+				"id": "black-currant-frozen",
+				"images": ["/products/black-currant/1-c.jpg"]
+			}
+		],
+		"harvest": [7, 8],
+		"descSEO": "product_page.black_currant_desc_seo"
 	}
 ]

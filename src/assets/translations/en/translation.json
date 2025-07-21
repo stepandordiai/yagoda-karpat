@@ -77,6 +77,7 @@
 		"blackberry": "Blackberry frozen",
 		"grape": "Grape frozen",
 		"corn": "Corn frozen",
+		"black_currant": "Black currant frozen",
 		"show_more": "Show more"
 	},
 
@@ -130,6 +131,7 @@
 		"blackberry_desc": "Harvested in the height of summer, when their flavor reaches its deepest depths, blackberries offer a sweet tartness and forest aroma that evokes memories of quiet walks in the wild. Shock freezing preserves all their beneficial properties, allowing you to enjoy the freshness of the berries even in the cold season. These blackberries will be a great addition to desserts, smoothies, yogurts, or simply as a refreshing snack. Their deep flavor and bright color add sophistication and natural pleasure to any recipe",
 		"grape_desc": "Harvested at the moment of full ripeness, when each berry acquires its best taste and aroma, the grapes are flash-frozen to preserve all their natural juices, bright color and tart sweet taste. These grapes are a real treat for those who appreciate the unique freshness and natural taste of berries. These grapes are perfect for refreshing smoothies, desserts or as a light snack on hot days. Light, juicy and incredibly refreshing, they give a feeling of summer and give dishes a special lightness and energy",
 		"corn_desc": "Harvested at its peak ripeness, when the kernels are juicy and sweet, the corn is flash-frozen to preserve all its natural aromas and flavors. Its sweet taste and delicate texture give a real feeling of summer, even in the coldest months. This corn is a versatile ingredient for soups, salads, baked dishes or side dishes. Its golden color and natural sweetness make it a wonderful addition to any dish, filling it with bright colors and delicious notes of nature",
+		"black_currant_desc": "Premium-grade individually quick frozen (IQF) black currants, carefully selected and processed to preserve their natural flavor, color, and nutritional value. Ideal for industrial use, baking, smoothies, jams, and desserts. 100% natural, with no added sugar or preservatives. Packed and frozen in accordance with EU quality standards.",
 		"origin": "Ukraine",
 		"pack_1": "paper bag 25 kg",
 		"pack_2": "carton box 10 kg",
@@ -156,6 +158,7 @@
 		"honey_fungus_desc_seo": "IQF frozen honey fungus — wild-harvested, flavorful, and ready to cook. Perfect for soups, stews, sauces, and gourmet food production. 100% natural.",
 		"blackberry_desc_seo": "IQF frozen blackberries — juicy, flavorful, and rich in antioxidants. Perfect for smoothies, desserts, jams, and food production. 100% natural.",
 		"grape_desc_seo": "Frozen IQF grapes — whole, seedless, and naturally sweet. Great for food processing, smoothies, retail packs, and functional foods.",
-		"corn_desc_seo": "Frozen IQF sweet corn — vibrant color and fresh flavor. Great for cooking, canning, freezing mixes, and processed food products."
+		"corn_desc_seo": "Frozen IQF sweet corn — vibrant color and fresh flavor. Great for cooking, canning, freezing mixes, and processed food products.",
+		"black_currant_desc_seo": "IQF frozen black currants. 100% natural, no sugar added. Perfect for baking, jams, smoothies. EU quality, ideal for export and industrial use."
 	}
 }
