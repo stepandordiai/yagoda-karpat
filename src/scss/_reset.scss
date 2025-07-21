@@ -1,30 +1,30 @@
 /* Reset and base styles  */
 * {
-    padding: 0px;
-    margin: 0px;
-    border: none;
+	padding: 0px;
+	margin: 0px;
+	border: none;
 }
 
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 /* Links */
 
 a {
-    color: inherit;
+	color: inherit;
 }
 
 a,
 a:link,
 a:visited {
-    text-decoration: none;
+	text-decoration: none;
 }
 
 a:hover {
-    text-decoration: none;
+	text-decoration: none;
 }
 
 /* Common */
@@ -35,7 +35,7 @@ footer,
 header,
 section,
 main {
-    display: block;
+	display: block;
 }
 
 h1,
@@ -45,27 +45,27 @@ h4,
 h5,
 h6,
 p {
-    font-size: inherit;
-    font-weight: inherit;
+	font-size: inherit;
+	font-weight: inherit;
 }
 
 ul,
 ul li {
-    list-style: none;
+	list-style: none;
 }
 
 img {
-    vertical-align: top;
+	vertical-align: top;
 }
 
 img,
 svg {
-    max-width: 100%;
-    height: auto;
+	max-width: 100%;
+	height: auto;
 }
 
 address {
-    font-style: normal;
+	font-style: normal;
 }
 
 /* Form */
@@ -74,45 +74,45 @@ input,
 textarea,
 button,
 select {
-    font-family: inherit;
-    font-size: inherit;
-    color: inherit;
-    background-color: transparent;
+	font-family: inherit;
+	font-size: inherit;
+	color: inherit;
+	background-color: transparent;
 }
 
 input::-ms-clear {
-    display: none;
+	display: none;
 }
 
 button,
 input[type="submit"] {
-    display: inline-block;
-    box-shadow: none;
-    background-color: transparent;
-    background: none;
-    cursor: pointer;
+	display: inline-block;
+	box-shadow: none;
+	background-color: transparent;
+	background: none;
+	cursor: pointer;
 }
 
 input:focus,
 input:active,
 button:focus,
 button:active {
-    outline: none;
+	outline: none;
 }
 
 button::-moz-focus-inner {
-    padding: 0;
-    border: 0;
+	padding: 0;
+	border: 0;
 }
 
 label {
-    cursor: pointer;
+	cursor: pointer;
 }
 
 legend {
-    display: block;
+	display: block;
 }
 
 ::placeholder {
-    opacity: 0.5;
+	color: hsl(0, 0%, 50%);
 }

@@ -67,7 +67,9 @@ const Products: React.FC<ProductsProps> = ({ productsData }) => {
 					.filter((product) => {
 						return search.trim() === ""
 							? product
-							: t(product.name).toLowerCase().startsWith(search.toLowerCase());
+							: // I used startsWith method here, but i think includes method is much better here.
+							  // For example with 'black currant', if i use startsWith, i have to start with black to find this product.
+							  t(product.name).toLowerCase().includes(search.toLowerCase());
 					})
 					.map((product) => {
 						return <Product key={product.id} product={product} />;
