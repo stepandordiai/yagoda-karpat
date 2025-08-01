@@ -4,8 +4,8 @@ import AboutUs from "../../components/AboutUs/AboutUs";
 import Products from "../../components/Products/Products";
 import Contacts from "../../components/Contacts/Contacts";
 import { HashLink } from "react-router-hash-link";
-import video from "/video.mp4";
 import { useParams } from "react-router-dom";
+import video from "/video-c.mp4";
 import "./Home.scss";
 
 interface ProductsData {
@@ -54,7 +54,7 @@ const Home: React.FC<HomeProps> = ({ productsData }) => {
 				<link
 					rel="alternate"
 					hrefLang="x-default"
-					href="https://yourdomain.com/uk/"
+					href="https://yagodakarpat.com/uk/"
 				/>
 			</Helmet>
 			<main>
@@ -66,12 +66,21 @@ const Home: React.FC<HomeProps> = ({ productsData }) => {
 							autoPlay
 							muted
 							playsInline
-							src={video}
-						></video>
+							preload="metadata"
+						>
+							<source src={video} type="video/mp4" />
+							Your browser does not support the video tag.
+						</video>
+						<a
+							className="home-container__video-author"
+							href="https://www.pexels.com/@ksnblog/"
+							target="_blank"
+						>
+							Sergey k
+						</a>
 						<h1 className="home-container__title">{t("company_full_name")}</h1>
 						<h2 className="home-container__sec-title">{t("home.title")}</h2>
 						<h3 style={{ color: "#fff" }}>{t("home.sec_title")}</h3>
-
 						<HashLink
 							className="home-container__link"
 							smooth

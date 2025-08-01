@@ -20,16 +20,20 @@
 
 .home-container__video {
 	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: center;
 	z-index: -1;
-	opacity: 0;
-	transition: all 1s;
 }
 
-.home-container__video {
-	opacity: 1;
+.home-container__video-author {
+	position: absolute;
+	right: 25px;
+	bottom: 25px;
+	color: #fff;
+	font-size: 0.5rem;
 }
 
 .home-container__title {
@@ -58,5 +62,10 @@
 		height: calc(100svh - 100px);
 		padding: 10px;
 		row-gap: 10px;
+	}
+
+	.home-container__video-author {
+		right: 10px;
+		bottom: 10px;
 	}
 }
