@@ -191,6 +191,7 @@ const ProductPage: React.FC<ProductPageProps> = ({ productsData }) => {
 										delay: 3000,
 										disableOnInteraction: false,
 									}}
+									speed={500}
 									loop={true}
 									pagination={{
 										type: "fraction",
