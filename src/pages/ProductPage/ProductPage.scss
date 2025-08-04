@@ -4,7 +4,7 @@
 	background: #fff;
 	padding: 10px;
 	border-radius: 10px;
-	margin-top: 25px;
+	margin: 25px 0;
 }
 
 .product-page__details {
@@ -101,6 +101,15 @@
 	backdrop-filter: blur(10px);
 }
 
+.product-page__contacts {
+	display: flex;
+	column-gap: 25px;
+
+	div {
+		width: 100%;
+	}
+}
+
 .related-products__title {
 	font-size: clamp(1.25rem, 4vw, 2rem);
 	font-weight: 500;
@@ -114,11 +123,18 @@
 	gap: 25px;
 }
 
+@media screen and (max-width: 895px) {
+	.product-page__contacts {
+		flex-direction: column;
+		row-gap: 10px;
+	}
+}
+
 @media (max-width: 807px) {
 	.product-page {
 		display: flex;
 		flex-direction: column-reverse;
-		margin-top: 10px;
+		margin: 10px 0;
 	}
 
 	.swiper-wrapper {
@@ -127,7 +143,6 @@
 
 	.product-page__details {
 		width: 100%;
-		aspect-ratio: 1/1;
 	}
 
 	.related-products__grid {

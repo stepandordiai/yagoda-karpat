@@ -31,8 +31,9 @@ const Product: React.FC<ProductProps> = ({ product }) => {
 
 	const { lng } = useParams();
 
-	const { id, name, variants, latName, isOrganic, harvest } = product;
+	const { id, name, variants, isOrganic, harvest } = product;
 
+	// TODO:
 	const allImages = variants.flatMap((variant) =>
 		variant.images ? variant.images : []
 	);
@@ -46,7 +47,7 @@ const Product: React.FC<ProductProps> = ({ product }) => {
 							<img
 								className="product__img"
 								src={allImages[0]}
-								alt=""
+								alt={t(name)}
 								loading="lazy"
 							/>
 							<div className="img-qty">
@@ -69,7 +70,13 @@ const Product: React.FC<ProductProps> = ({ product }) => {
 						<h3 className="product-name">{t(name)}</h3>
 						<div style={{ display: "flex", columnGap: 5 }}>
 							<p>IQF</p>
-							{isOrganic && <img src={organicLogo} alt="" />}
+							{isOrganic && (
+								<img
+									src={organicLogo}
+									alt="Organic Standard Logo"
+									loading="lazy"
+								/>
+							)}
 						</div>
 					</div>
 					<NavLink

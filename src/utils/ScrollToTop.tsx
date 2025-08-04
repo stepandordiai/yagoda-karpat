@@ -8,7 +8,7 @@ export default function ScrollToTop() {
 		if (pathname && !hash) {
 			window.scrollTo({
 				top: 0,
-				behavior: "smooth",
+				// behavior: "smooth",
 			});
 		}
 	}, [pathname]);

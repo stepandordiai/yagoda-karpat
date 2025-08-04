@@ -15,6 +15,8 @@ import "swiper/css/pagination";
 
 import { Autoplay, Pagination } from "swiper/modules";
 import "./ProductPage.scss";
+import ContactForm from "../../components/ContactForm/ContactForm";
+import ContactDetails from "../../components/ContactDetails/ContactDetails";
 
 interface ProductsData {
 	id: string;
@@ -174,13 +176,9 @@ const ProductPage: React.FC<ProductPageProps> = ({ productsData }) => {
 								<p>{productData.desc && t(productData.desc)}</p>
 							</div>
 						</div>
-						<HashLink
-							smooth
-							to={`/${lng}/#contacts`}
-							className={"product-page__link"}
-						>
+						<a href="tel:+380968065513" className="product-page__link">
 							{t("product_page.aviability_link")}
-						</HashLink>
+						</a>
 					</div>
 					<div className="swiper-wrapper">
 						{productVariant.images && (
@@ -209,6 +207,14 @@ const ProductPage: React.FC<ProductPageProps> = ({ productsData }) => {
 								</Swiper>
 							</>
 						)}
+					</div>
+				</div>
+				<div className="product-page__contacts">
+					<div>
+						<ContactForm />
+					</div>
+					<div>
+						<ContactDetails />
 					</div>
 				</div>
 				{relatedProducts.length > 0 && (
