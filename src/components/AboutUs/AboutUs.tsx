@@ -93,7 +93,7 @@ const AboutUs: React.FC<AboutUsProps> = ({ productsData }) => {
 	return (
 		<div className="about-us js-about-us" id="about-us">
 			<SectionTitle name={t("about_us_title")} />
-			<h3 className="about-us__sec-info">{t("about_us.sec_title")}.</h3>
+			<h3 className="about-us__sec-info">{t("about_us.title")}.</h3>
 			<div className="about-us__stats">
 				<div className="stats-card">
 					<p className="counter" data-value={diffInYears}>
