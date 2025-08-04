@@ -90,7 +90,7 @@ const Product: React.FC<ProductProps> = ({ product }) => {
 			<p style={{ fontWeight: 500 }}>{t("harvest_calendar")}</p>
 			<div className="product__harvest">
 				<div
-					title="January"
+					title={t("jan")}
 					className={
 						harvest.includes(1)
 							? "harvest-month month--active"
@@ -100,7 +100,7 @@ const Product: React.FC<ProductProps> = ({ product }) => {
 					{t("jan_s")}
 				</div>
 				<div
-					title="February"
+					title={t("feb")}
 					className={
 						harvest.includes(2)
 							? "harvest-month month--active"
@@ -110,7 +110,7 @@ const Product: React.FC<ProductProps> = ({ product }) => {
 					{t("feb_s")}
 				</div>
 				<div
-					title="March"
+					title={t("mar")}
 					className={
 						harvest.includes(3)
 							? "harvest-month month--active"
@@ -120,7 +120,7 @@ const Product: React.FC<ProductProps> = ({ product }) => {
 					{t("mar_s")}
 				</div>
 				<div
-					title="April"
+					title={t("apr")}
 					className={
 						harvest.includes(4)
 							? "harvest-month month--active"
@@ -130,7 +130,7 @@ const Product: React.FC<ProductProps> = ({ product }) => {
 					{t("apr_s")}
 				</div>
 				<div
-					title="May"
+					title={t("may")}
 					className={
 						harvest.includes(5)
 							? "harvest-month month--active"
@@ -140,7 +140,7 @@ const Product: React.FC<ProductProps> = ({ product }) => {
 					{t("may_s")}
 				</div>
 				<div
-					title="June"
+					title={t("jun")}
 					className={
 						harvest.includes(6)
 							? "harvest-month month--active"
@@ -150,7 +150,7 @@ const Product: React.FC<ProductProps> = ({ product }) => {
 					{t("jun_s")}
 				</div>
 				<div
-					title="July"
+					title={t("jul")}
 					className={
 						harvest.includes(7)
 							? "harvest-month month--active"
@@ -160,7 +160,7 @@ const Product: React.FC<ProductProps> = ({ product }) => {
 					{t("jul_s")}
 				</div>
 				<div
-					title="August"
+					title={t("aug")}
 					className={
 						harvest.includes(8)
 							? "harvest-month month--active"
@@ -170,7 +170,7 @@ const Product: React.FC<ProductProps> = ({ product }) => {
 					{t("aug_s")}
 				</div>
 				<div
-					title="September"
+					title={t("sep")}
 					className={
 						harvest.includes(9)
 							? "harvest-month month--active"
@@ -180,7 +180,7 @@ const Product: React.FC<ProductProps> = ({ product }) => {
 					{t("sep_s")}
 				</div>
 				<div
-					title="October"
+					title={t("oct")}
 					className={
 						harvest.includes(10)
 							? "harvest-month month--active"
@@ -190,7 +190,7 @@ const Product: React.FC<ProductProps> = ({ product }) => {
 					{t("oct_s")}
 				</div>
 				<div
-					title="November"
+					title={t("nov")}
 					className={
 						harvest.includes(11)
 							? "harvest-month month--active"
@@ -200,7 +200,7 @@ const Product: React.FC<ProductProps> = ({ product }) => {
 					{t("nov_s")}
 				</div>
 				<div
-					title="December"
+					title={t("dec")}
 					className={
 						harvest.includes(12)
 							? "harvest-month month--active"

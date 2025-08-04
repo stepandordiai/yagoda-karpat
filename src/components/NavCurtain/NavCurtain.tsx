@@ -274,6 +274,14 @@ const NavCurtain: React.FC<NavCurtainProps> = ({ productsData }) => {
 						</HashLink>
 					</li>
 				</ul>
+				<div className="menu__footer">
+					<a className="menu__footer-link" href="tel:+380968065513">
+						+38 (096) 806 55 13
+					</a>
+					<a className="menu__footer-link" href="mailto:info@yagodakarpat.com">
+						info@yagodakarpat.com
+					</a>
+				</div>
 			</div>
 		</>
 	);
