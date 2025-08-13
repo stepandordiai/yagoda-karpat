@@ -11,6 +11,7 @@ import { useEffect } from "react";
 import i18n from "i18next";
 import { useParams } from "react-router-dom";
 import productsData from "./assets/data/products-data.json";
+import NotFound from "./pages/NotFound/NotFound";
 
 // This wrapper handles language detection
 const LanguageLayout = () => {
@@ -34,6 +35,7 @@ const LanguageLayout = () => {
 					path="/product-page/:id"
 					element={<ProductPage productsData={productsData} />}
 				/>
+				<Route path="*" element={<NotFound />} />
 			</Routes>
 			<Footer productsData={productsData} />
 		</>
