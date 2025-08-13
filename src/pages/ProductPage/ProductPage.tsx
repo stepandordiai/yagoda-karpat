@@ -131,9 +131,9 @@ const ProductPage: React.FC<ProductPageProps> = ({ productsData }) => {
 						<div className="product-page__details-inner">
 							<div>
 								<p className="product-page__lat-name">{productData.latName}</p>
-								<p className="product-page__name">{`${t(productData.name)} 
+								<h1 className="product-page__name">{`${t(productData.name)} 
 								${productVariant.state ? t(productVariant.state) : ""}
-							`}</p>
+							`}</h1>
 							</div>
 							<div className="product-page__variants">
 								{productData.variants &&
