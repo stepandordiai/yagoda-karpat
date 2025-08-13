@@ -11,6 +11,7 @@
 		"variants": [
 			{
 				"id": "bilberry-frozen",
+				"state": "product_page.state_7",
 				"images": ["/products/bilberry/1-min.JPG"]
 			}
 		],
