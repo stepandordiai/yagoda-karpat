@@ -24,7 +24,13 @@
 	border-radius: 1px;
 	background: #000;
 	transform: translateY(-10px);
-	transition: transform 0.3s 0.3s, rotate 0.3s;
+	transition: transform 0.5s 0.5s, rotate 0.5s;
+}
+
+.burger-btn--active::before {
+	transform: translateY(0);
+	rotate: 45deg;
+	transition: transform 0.5s, rotate 0.5s 0.5s;
 }
 
 .burger-btn::after {
@@ -35,7 +41,13 @@
 	border-radius: 1px;
 	background: #000;
 	transform: translateY(10px);
-	transition: transform 0.3s 0.3s, rotate 0.3s;
+	transition: transform 0.5s 0.5s, rotate 0.5s;
+}
+
+.burger-btn--active::after {
+	transform: translateY(0);
+	rotate: -45deg;
+	transition: transform 0.5s, rotate 0.5s 0.5s;
 }
 
 .burger-btn__center-line {
@@ -44,21 +56,9 @@
 	border-radius: 1px;
 	background: #000;
 	opacity: 1;
-	transition: opacity 0s 0.3s;
+	transition: opacity 0s 0.5s;
 }
 
 .burger-btn__center-line--active {
 	opacity: 0;
-}
-
-.burger-btn--active::before {
-	transform: translateY(0);
-	rotate: 45deg;
-	transition: transform 0.3s, rotate 0.3s 0.3s;
-}
-
-.burger-btn--active::after {
-	transform: translateY(0);
-	rotate: -45deg;
-	transition: transform 0.3s, rotate 0.3s 0.3s;
 }
