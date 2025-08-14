@@ -1,10 +1,15 @@
 .not-found {
-	min-height: 100dvh;
+	height: 100svh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	gap: 10px;
 	flex-direction: column;
+}
+
+.not-found__title {
+	font-size: clamp(2rem, 6vw, 3rem);
+	font-weight: 600;
 }
 
 .not-found__link {
