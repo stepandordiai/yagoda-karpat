@@ -124,12 +124,18 @@
 	color: var(--accent-clr);
 }
 
+.dropdown-btn {
+	pointer-events: none;
+}
+
 .dropdown-btn__icon {
 	display: none;
 }
 
 .footer__bottom {
-	@include flex-between-center;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
 }
 
 .creator-link {
@@ -138,10 +144,6 @@
 	&:hover {
 		color: var(--accent-clr);
 	}
-}
-
-.dropdown-btn {
-	pointer-events: none;
 }
 
 @media screen and (max-width: 900px) {
@@ -221,5 +223,6 @@
 	.footer__bottom {
 		flex-direction: column;
 		text-align: center;
+		align-items: center;
 	}
 }

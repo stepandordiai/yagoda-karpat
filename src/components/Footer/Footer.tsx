@@ -97,7 +97,6 @@ const Footer: React.FC<FooterProps> = ({ productsData }) => {
 								width={25}
 								height={25}
 								alt=""
-								loading="lazy"
 							/>
 						</div>
 						<div className="grid-dropdown__wrapper">
@@ -152,7 +151,6 @@ const Footer: React.FC<FooterProps> = ({ productsData }) => {
 								width={25}
 								height={25}
 								alt=""
-								loading="lazy"
 							/>
 						</div>
 						<div className="grid-dropdown__wrapper">
@@ -189,7 +187,6 @@ const Footer: React.FC<FooterProps> = ({ productsData }) => {
 								width={25}
 								height={25}
 								alt=""
-								loading="lazy"
 							/>
 						</div>
 						<div className="grid-dropdown__wrapper">
@@ -226,7 +223,6 @@ const Footer: React.FC<FooterProps> = ({ productsData }) => {
 								width={25}
 								height={25}
 								alt=""
-								loading="lazy"
 							/>
 						</div>
 						<div className="grid-dropdown__wrapper">
@@ -263,7 +259,6 @@ const Footer: React.FC<FooterProps> = ({ productsData }) => {
 								width={25}
 								height={25}
 								alt=""
-								loading="lazy"
 							/>
 						</div>
 						<div className="grid-dropdown__wrapper">
@@ -293,10 +288,12 @@ const Footer: React.FC<FooterProps> = ({ productsData }) => {
 					</div>
 				</div>
 				<div className="footer__bottom">
-					<p>
-						© 2010 - {new Date().getFullYear()} {t("company_full_name")}.{" "}
-						{t("all_rights_reserved")}.
-					</p>
+					<div>
+						<p>
+							© 2010 - {new Date().getFullYear()} {t("company_full_name")}.
+						</p>
+						<p>{t("all_rights_reserved")}.</p>
+					</div>
 					<p>
 						Made with love by{" "}
 						<a
