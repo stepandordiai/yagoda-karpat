@@ -9,7 +9,9 @@ const ContactDetails = () => {
 
 	let isCopyTxt = false;
 
-	const handleCopyBtn = (e: React.MouseEvent<HTMLButtonElement>): void => {
+	const handleCopyBtn = (
+		e: React.MouseEvent<HTMLButtonElement> | React.TouchEvent<HTMLButtonElement>
+	): void => {
 		const target = e.currentTarget;
 		const targetValue = e.currentTarget.dataset.value;
 
@@ -19,14 +21,12 @@ const ContactDetails = () => {
 			copyTxt.classList.add("contacts__copy-txt");
 			target.appendChild(copyTxt);
 			copyTxt.textContent = t("copied");
-			isCopyTxt = true;
 			target.classList.add("contacts__info-container--active");
+			isCopyTxt = true;
 
 			setTimeout(() => {
 				copyTxt.remove();
-				if (target) {
-					target.classList.remove("contacts__info-container--active");
-				}
+				target.classList.remove("contacts__info-container--active");
 				isCopyTxt = false;
 			}, 3000);
 		}

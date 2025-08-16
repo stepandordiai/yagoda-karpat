@@ -53,13 +53,18 @@
 	@include flex-center;
 }
 
-@media screen and (max-width: 895px) {
+@media screen and (max-width: 808px) {
 	.contacts__info-container {
 		row-gap: 10px;
-		padding: 10px;
 
 		img {
 			width: 30px;
 		}
+	}
+}
+
+@media screen and (max-width: 807px) {
+	.contacts__info-container {
+		padding: 10px;
 	}
 }
