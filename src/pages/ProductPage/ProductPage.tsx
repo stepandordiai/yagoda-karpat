@@ -1,9 +1,8 @@
-import { Helmet } from "react-helmet-async";
 import { useTranslation } from "react-i18next";
+import { Helmet } from "react-helmet-async";
 import { useParams } from "react-router-dom";
 import PageNavTitle from "../../components/PageNavTitle/PageNavTitle";
 import Product from "../../components/Product/Product";
-import { HashLink } from "react-router-hash-link";
 import { useEffect, useState } from "react";
 
 // Swiper
@@ -14,9 +13,9 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 import { Autoplay, Pagination } from "swiper/modules";
-import "./ProductPage.scss";
 import ContactForm from "../../components/ContactForm/ContactForm";
 import ContactDetails from "../../components/ContactDetails/ContactDetails";
+import "./ProductPage.scss";
 
 interface ProductsData {
 	id: string;
@@ -135,26 +134,25 @@ const ProductPage: React.FC<ProductPageProps> = ({ productsData }) => {
 								${productVariant.state ? t(productVariant.state) : ""}
 							`}</h1>
 							</div>
-							<div className="product-page__variants">
-								{productData.variants &&
-									productData.variants.map((variant, index) => {
-										if (variant.state) {
-											return (
-												<button
-													key={index}
-													onClick={() => handleVariantId(variant.id)}
-													className={
-														variant.id === activeVariantId
-															? "variant-btn variant-btn--active"
-															: "variant-btn"
-													}
-												>
-													{t(variant.state)}
-												</button>
-											);
-										}
+							{productData.variants.some((variant) => variant.state) && (
+								<div className="product-page__variants">
+									{productData?.variants.map((variant) => {
+										return (
+											<button
+												key={variant.id}
+												onClick={() => handleVariantId(variant.id)}
+												className={
+													variant.id === activeVariantId
+														? "variant-btn variant-btn--active"
+														: "variant-btn"
+												}
+											>
+												{t(variant.state!)}
+											</button>
+										);
 									})}
-							</div>
+								</div>
+							)}
 							<div>
 								<span style={{ color: "hsl(0, 0%, 50%)" }}>
 									{t("product_page.origin_title")}

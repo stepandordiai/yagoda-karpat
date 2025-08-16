@@ -30,11 +30,14 @@
 		"desc": "product_page.lingonberry_desc",
 		"variants": [
 			{
-				"id": "lingonberry-frozen",
-				"images": [
-					"/products/lingonberry/1-min.jpg",
-					"/products/lingonberry/2-min.jpg"
-				]
+				"id": "lingonberry-frozen-cleaned",
+				"state": "product_page.state_9",
+				"images": ["/products/lingonberry/1-min.jpg"]
+			},
+			{
+				"id": "lingonberry-frozen-uncleaned",
+				"state": "product_page.state_7",
+				"images": ["/products/lingonberry/2-min.jpg"]
 			}
 		],
 		"isOrganic": true,
@@ -140,6 +143,7 @@
 		"variants": [
 			{
 				"id": "elderberry-frozen",
+				"state": "product_page.state_9",
 				"images": [
 					"/products/elderberry/1-min.jpg",
 					"/products/elderberry/2-min.jpg"
@@ -220,7 +224,7 @@
 		"desc": "product_page.sweet_pepper_red_desc",
 		"variants": [
 			{
-				"id": "sweet-pepper-red-frozen-sol",
+				"id": "sweet-pepper-red-frozen-strawed",
 				"state": "product_page.state_4",
 				"images": [
 					"/products/sweet-pepper-red-frozen/1-min.JPG",
@@ -242,7 +246,7 @@
 		"desc": "product_page.sweet_pepper_green_desc",
 		"variants": [
 			{
-				"id": "sweet-pepper-green-frozen-sol",
+				"id": "sweet-pepper-green-frozen-strawed",
 				"state": "product_page.state_4",
 				"images": ["/products/sweet-pepper-green-frozen/1-min.JPG"]
 			}
@@ -261,7 +265,8 @@
 		"desc": "product_page.sweet_pepper_yellow_desc",
 		"variants": [
 			{
-				"id": "sweet-pepper-yellow-frozen-sol",
+				"id": "sweet-pepper-yellow-frozen-strawed",
+				"state": "product_page.state_4",
 				"images": ["/products/sweet-pepper-yellow-frozen/1-min.JPG"]
 			}
 		],
@@ -279,7 +284,8 @@
 		"desc": "product_page.sweet_pepper_desc",
 		"variants": [
 			{
-				"id": "sweet-pepper",
+				"id": "sweet-pepper-strawed",
+				"state": "product_page.state_4",
 				"images": [
 					"/products/sweet-pepper-frozen/1-min.jpg",
 					"/products/sweet-pepper-frozen/2-min.jpg"
@@ -335,7 +341,7 @@
 		"desc": "product_page.boletus_dried_desc",
 		"variants": [
 			{
-				"id": "boletus-frozen-whole",
+				"id": "boletus-dried",
 				"images": ["/products/boletus-dried/1-min.jpg"]
 			}
 		],
