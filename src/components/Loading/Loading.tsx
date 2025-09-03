@@ -1,19 +1,19 @@
-import styles from "./Loading.module.scss";
+import "./Loading.scss";
 
 const Loading = () => {
 	return (
-		<div className={styles["loading"]}>
-			<div className={styles["element-container"]}>
-				<div className={styles["element1"]}></div>
-				<div className={styles["element2"]}></div>
-				<div className={styles["element3"]}></div>
-				<div className={styles["element4"]}></div>
-				<div className={styles["element5"]}></div>
-				<div className={styles["element6"]}></div>
-				<div className={styles["element7"]}></div>
+		<div className="loading">
+			<div className="element-container">
+				<div className="element1"></div>
+				<div className="element2"></div>
+				<div className="element3"></div>
+				<div className="element4"></div>
+				<div className="element5"></div>
+				<div className="element6"></div>
+				<div className="element7"></div>
 			</div>
-			<div className={styles["curtain1"]}></div>
-			<div className={styles["curtain2"]}></div>
+			<div className="curtain1"></div>
+			<div className="curtain2"></div>
 		</div>
 	);
 };

@@ -21,8 +21,9 @@
 	position: absolute;
 	width: 150px;
 	height: 150px;
-	right: 25px;
-	bottom: 25px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 
 .element1 {
@@ -42,7 +43,6 @@
 	top: 82%;
 	left: 50%;
 	transform: translate(-50%, -50%) scale(0);
-
 	width: 40px;
 	aspect-ratio: 1/1;
 	background: var(--accent-clr-logo);
@@ -55,7 +55,6 @@
 	top: 30%;
 	left: 25%;
 	transform: translate(-50%, -50%) scale(0);
-
 	width: 40px;
 	aspect-ratio: 1/1;
 	background: var(--accent-clr-logo);
@@ -68,7 +67,6 @@
 	top: 30%;
 	left: 75%;
 	transform: translate(-50%, -50%) scale(0);
-
 	width: 40px;
 	aspect-ratio: 1/1;
 	background: var(--accent-clr-logo);
@@ -81,7 +79,6 @@
 	top: 62%;
 	left: 25%;
 	transform: translate(-50%, -50%) scale(0);
-
 	width: 30px;
 	aspect-ratio: 1/1;
 	background: var(--accent-clr-logo);
@@ -94,7 +91,6 @@
 	top: 62%;
 	left: 75%;
 	transform: translate(-50%, -50%) scale(0);
-
 	width: 30px;
 	aspect-ratio: 1/1;
 	background: var(--accent-clr-logo);
@@ -107,7 +103,6 @@
 	top: 15%;
 	left: 50%;
 	transform: translate(-50%, -50%) scale(0);
-
 	width: 30px;
 	aspect-ratio: 1/1;
 	background: var(--accent-clr-logo);
@@ -130,7 +125,6 @@
 	transform: scaleY(0);
 	transform-origin: top;
 	background: var(--accent-clr);
-
 	animation: animateCurtain 1s 1s forwards;
 }
 
@@ -143,7 +137,6 @@
 	transform: scaleY(0);
 	transform-origin: top;
 	background: var(--accent-clr-logo);
-
 	animation: animateCurtain 1s 1.25s forwards;
 }
 
