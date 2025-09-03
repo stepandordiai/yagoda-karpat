@@ -36,12 +36,13 @@
 	font-size: 0.5rem;
 }
 
-.home-container__title {
-	font-size: 1.5rem;
+.home-container__desc {
+	font-size: clamp(1.25rem, 2vw, 1.5rem);
+	font-weight: 500;
 	color: #fff;
 }
 
-.home-container__sec-title {
+.home-container__title {
 	color: #fff;
 	font-weight: 600;
 	font-size: clamp(2rem, 4vw, 3rem);
