@@ -1,7 +1,7 @@
 [
 	{
 		"id": "bilberry",
-		"type": "berry",
+		"type": "berries_title",
 		"status": "frozen",
 		"latName": "Vaccinium myrtillus",
 		"name": "products.bilberry",
@@ -21,7 +21,7 @@
 	},
 	{
 		"id": "lingonberry",
-		"type": "berry",
+		"type": "berries_title",
 		"status": "frozen",
 		"latName": "Vaccinium vitis-idaea",
 		"name": "products.lingonberry",
@@ -46,7 +46,7 @@
 	},
 	{
 		"id": "rosehip",
-		"type": "berry",
+		"type": "berries_title",
 		"status": "frozen",
 		"latName": "Rosa canina",
 		"name": "products.rosehip",
@@ -65,7 +65,7 @@
 	},
 	{
 		"id": "plum-frozen",
-		"type": "fruit",
+		"type": "fruits_title",
 		"status": "frozen",
 		"latName": "Prunus domestica",
 		"name": "products.plum_frozen",
@@ -89,7 +89,7 @@
 	},
 	{
 		"id": "plum-dried",
-		"type": "fruit",
+		"type": "fruits_title",
 		"status": "dried",
 		"latName": "Prunus domestica",
 		"name": "products.plum_dried",
@@ -114,7 +114,7 @@
 	},
 	{
 		"id": "prune",
-		"type": "fruit",
+		"type": "fruits_title",
 		"status": "dried",
 		"latName": "Prunus domestica",
 		"name": "products.prune",
@@ -133,7 +133,7 @@
 	},
 	{
 		"id": "elderberry",
-		"type": "berry",
+		"type": "berries_title",
 		"status": "frozen",
 		"latName": "Sambucus",
 		"name": "products.elderberry",
@@ -156,7 +156,7 @@
 	},
 	{
 		"id": "strawberry",
-		"type": "berry",
+		"type": "berries_title",
 		"status": "frozen",
 		"latName": "Fragaria",
 		"name": "products.strawberry",
@@ -177,7 +177,7 @@
 	},
 	{
 		"id": "raspberry",
-		"type": "berry",
+		"type": "berries_title",
 		"status": "frozen",
 		"latName": "Rubus idaeus",
 		"name": "products.raspberry",
@@ -198,7 +198,7 @@
 	},
 	{
 		"id": "apricot",
-		"type": "fruit",
+		"type": "fruits_title",
 		"status": "frozen",
 		"latName": "Prunus armeniaca",
 		"name": "products.apricot",
@@ -215,7 +215,7 @@
 	},
 	{
 		"id": "sweet-pepper-red",
-		"type": "vegetable",
+		"type": "vegetables_title",
 		"status": "frozen",
 		"latName": "Capsicum annuum",
 		"name": "products.sweet_pepper_red",
@@ -237,7 +237,7 @@
 	},
 	{
 		"id": "sweet-pepper-green",
-		"type": "vegetable",
+		"type": "vegetables_title",
 		"status": "frozen",
 		"latName": "Capsicum annuum",
 		"name": "products.sweet_pepper_green",
@@ -256,7 +256,7 @@
 	},
 	{
 		"id": "sweet-pepper-yellow",
-		"type": "vegetable",
+		"type": "vegetables_title",
 		"status": "frozen",
 		"latName": "Capsicum annuum",
 		"name": "products.sweet_pepper_yellow",
@@ -275,7 +275,7 @@
 	},
 	{
 		"id": "sweet-pepper",
-		"type": "vegetable",
+		"type": "vegetables_title",
 		"status": "frozen",
 		"latName": "Capsicum annuum",
 		"name": "products.sweet_pepper",
@@ -297,7 +297,7 @@
 	},
 	{
 		"id": "boletus",
-		"type": "mushroom",
+		"type": "mushrooms_title",
 		"status": "frozen",
 		"latName": "Boletus edulis",
 		"name": "products.boletus_frozen",
@@ -332,7 +332,7 @@
 	},
 	{
 		"id": "boletus-dried",
-		"type": "mushroom",
+		"type": "mushrooms_title",
 		"status": "dried",
 		"latName": "Boletus edulis",
 		"name": "products.boletus_dried",
@@ -350,7 +350,7 @@
 	},
 	{
 		"id": "chanterelle",
-		"type": "mushroom",
+		"type": "mushrooms_title",
 		"status": "fresh",
 		"latName": "Cantharellus cibarius",
 		"name": "products.chanterelle_fresh",
@@ -368,7 +368,7 @@
 	},
 	{
 		"id": "chanterelle-dried",
-		"type": "mushroom",
+		"type": "mushrooms_title",
 		"status": "dried",
 		"latName": "Cantharellus cibarius",
 		"name": "products.chanterelle_dried",
@@ -385,7 +385,7 @@
 	},
 	{
 		"id": "sour-cherry",
-		"type": "berry",
+		"type": "berries_title",
 		"status": "frozen",
 		"latName": "Prunus cerasus",
 		"name": "products.sour_cherry",
@@ -419,7 +419,7 @@
 	},
 	{
 		"id": "honey-fungus",
-		"type": "mushroom",
+		"type": "mushrooms_title",
 		"status": "frozen",
 		"latName": "Armillaria mellea",
 		"name": "products.honey_fungus",
@@ -437,7 +437,7 @@
 	},
 	{
 		"id": "blackberry",
-		"type": "berry",
+		"type": "berries_title",
 		"status": "frozen",
 		"latName": "Rubus fruticosus",
 		"name": "products.blackberry",
@@ -455,7 +455,7 @@
 	},
 	{
 		"id": "grape",
-		"type": "berry",
+		"type": "berries_title",
 		"status": "frozen",
 		"latName": "Vitis vinifera",
 		"name": "products.grape",
@@ -472,7 +472,7 @@
 	},
 	{
 		"id": "corn",
-		"type": "vegetable",
+		"type": "vegetables_title",
 		"status": "frozen",
 		"latName": "Zea mays",
 		"name": "products.corn",
@@ -489,7 +489,7 @@
 	},
 	{
 		"id": "black-currant",
-		"type": "berry",
+		"type": "berries_title",
 		"status": "frozen",
 		"latName": "Ribes nigrum",
 		"name": "products.black_currant",
