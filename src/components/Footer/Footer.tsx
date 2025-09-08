@@ -73,6 +73,10 @@ const Footer: React.FC<FooterProps> = ({ productsData }) => {
 		});
 	}, []);
 
+	const uniqueProductTypes = [
+		...new Set(productsData.map((product) => product.type)),
+	];
+
 	const inactiveFooterLink = "js-footer__link";
 	const activeFooterLink = "js-footer__link footer__product-link--active";
 
@@ -80,7 +84,7 @@ const Footer: React.FC<FooterProps> = ({ productsData }) => {
 		<footer className="footer">
 			<div className="footer-top"></div>
 			<button className="to-top-btn" onClick={scrollToTop}>
-				<img src={upArrowIcon} width={25} height={25} alt="" loading="lazy" />
+				<img src={upArrowIcon} width={25} height={25} alt="" />
 			</button>
 			<div className="footer-details">
 				<NavLink className="footer-logo" to={`/${lng}/`}>
@@ -89,8 +93,8 @@ const Footer: React.FC<FooterProps> = ({ productsData }) => {
 				</NavLink>
 				<div className="footer-nav">
 					<div>
-						<div className="footer-nav__title dropdown-btn js-dropdown-btn">
-							<p>{t("footer.navigation")}</p>
+						<button className="footer-nav__title dropdown-btn js-dropdown-btn">
+							<span>{t("footer.navigation")}</span>
 							<img
 								className="dropdown-btn__icon"
 								src={plusIcon}
@@ -98,7 +102,7 @@ const Footer: React.FC<FooterProps> = ({ productsData }) => {
 								height={25}
 								alt=""
 							/>
-						</div>
+						</button>
 						<div className="grid-dropdown__wrapper">
 							<div className="grid-dropdown">
 								<ul className="footer-nav__list">
@@ -142,150 +146,48 @@ const Footer: React.FC<FooterProps> = ({ productsData }) => {
 							</div>
 						</div>
 					</div>
-					<div>
-						<div className="footer-nav__title dropdown-btn js-dropdown-btn">
-							<p>{t("berries_title")}</p>
-							<img
-								className="dropdown-btn__icon"
-								src={plusIcon}
-								width={25}
-								height={25}
-								alt=""
-							/>
-						</div>
-						<div className="grid-dropdown__wrapper">
-							<div className="grid-dropdown">
-								<ul className="footer-nav__list">
-									{productsData
-										.filter((product) => {
-											return product.type === "berry";
-										})
-										.map(({ id, name }) => {
-											return (
-												<li key={id}>
-													<NavLink
-														className={({ isActive }) =>
-															isActive ? activeFooterLink : inactiveFooterLink
-														}
-														to={`/${lng}/product-page/${id}`}
-													>
-														{t(name)}
-													</NavLink>
-												</li>
-											);
-										})}
-								</ul>
+					{uniqueProductTypes.map((productType) => {
+						return (
+							<div key={productType}>
+								<button className="footer-nav__title dropdown-btn js-dropdown-btn">
+									<span>{t(productType)}</span>
+									<img
+										className="dropdown-btn__icon"
+										src={plusIcon}
+										width={25}
+										height={25}
+										alt=""
+									/>
+								</button>
+								<div className="grid-dropdown__wrapper">
+									<div className="grid-dropdown">
+										<ul className="footer-nav__list">
+											{productsData
+												.filter((product) => {
+													return product.type === productType;
+												})
+												.map(({ id, name }) => {
+													return (
+														<li key={id}>
+															<NavLink
+																className={({ isActive }) =>
+																	isActive
+																		? activeFooterLink
+																		: inactiveFooterLink
+																}
+																to={`/${lng}/product-page/${id}`}
+															>
+																{t(name)}
+															</NavLink>
+														</li>
+													);
+												})}
+										</ul>
+									</div>
+								</div>
 							</div>
-						</div>
-					</div>
-					<div>
-						<div className="footer-nav__title dropdown-btn js-dropdown-btn">
-							<p>{t("fruits_title")}</p>
-							<img
-								className="dropdown-btn__icon"
-								src={plusIcon}
-								width={25}
-								height={25}
-								alt=""
-							/>
-						</div>
-						<div className="grid-dropdown__wrapper">
-							<div className="grid-dropdown">
-								<ul className="footer-nav__list">
-									{productsData
-										.filter((product) => {
-											return product.type === "fruit";
-										})
-										.map(({ id, name }) => {
-											return (
-												<li key={id}>
-													<NavLink
-														className={({ isActive }) =>
-															isActive ? activeFooterLink : inactiveFooterLink
-														}
-														to={`/${lng}/product-page/${id}`}
-													>
-														{t(name)}
-													</NavLink>
-												</li>
-											);
-										})}
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div>
-						<div className="footer-nav__title dropdown-btn js-dropdown-btn">
-							<p>{t("mushrooms_title")}</p>
-							<img
-								className="dropdown-btn__icon"
-								src={plusIcon}
-								width={25}
-								height={25}
-								alt=""
-							/>
-						</div>
-						<div className="grid-dropdown__wrapper">
-							<div className="grid-dropdown">
-								<ul className="footer-nav__list">
-									{productsData
-										.filter((product) => {
-											return product.type === "mushroom";
-										})
-										.map(({ id, name }) => {
-											return (
-												<li key={id}>
-													<NavLink
-														className={({ isActive }) =>
-															isActive ? activeFooterLink : inactiveFooterLink
-														}
-														to={`/${lng}/product-page/${id}`}
-													>
-														{t(name)}
-													</NavLink>
-												</li>
-											);
-										})}
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div>
-						<div className="footer-nav__title dropdown-btn js-dropdown-btn">
-							<p>{t("vegetables_title")}</p>
-							<img
-								className="dropdown-btn__icon"
-								src={plusIcon}
-								width={25}
-								height={25}
-								alt=""
-							/>
-						</div>
-						<div className="grid-dropdown__wrapper">
-							<div className="grid-dropdown">
-								<ul className="footer-nav__list">
-									{productsData
-										.filter((product) => {
-											return product.type === "vegetable";
-										})
-										.map(({ id, name }) => {
-											return (
-												<li key={id}>
-													<NavLink
-														className={({ isActive }) =>
-															isActive ? activeFooterLink : inactiveFooterLink
-														}
-														to={`/${lng}/product-page/${id}`}
-													>
-														{t(name)}
-													</NavLink>
-												</li>
-											);
-										})}
-								</ul>
-							</div>
-						</div>
-					</div>
+						);
+					})}
 				</div>
 				<div className="footer__bottom">
 					<div>
