@@ -197,7 +197,7 @@ const Footer: React.FC<FooterProps> = ({ productsData }) => {
 						<p>{t("all_rights_reserved")}.</p>
 					</div>
 					<p>
-						Made with love by{" "}
+						{t("creator")}{" "}
 						<a
 							className="creator-link"
 							href="https://stepandordiai.netlify.app/"
