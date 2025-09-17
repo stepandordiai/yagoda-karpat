@@ -18,12 +18,11 @@ const LanguageLayout = () => {
 
 	const supportedLanguages = ["uk", "en"];
 
-	if (!supportedLanguages.includes(lng as string)) {
-		return <NotFound />;
-	}
+	// TODO:
+	const isValidLng = lng && supportedLanguages.includes(lng);
 
 	useEffect(() => {
-		if (lng && i18n.language !== lng) {
+		if (isValidLng && i18n.language !== lng) {
 			i18n.changeLanguage(lng);
 		}
 	}, [lng]);

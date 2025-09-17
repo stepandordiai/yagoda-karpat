@@ -1,10 +1,11 @@
 import { Helmet } from "react-helmet-async";
 import { NavLink } from "react-router-dom";
-import { useParams } from "react-router-dom";
+import getStorage from "../../utils/getStorage";
 import "./NotFound.scss";
 
 const NotFound = () => {
-	const { lng } = useParams();
+	// TODO: the nullish coalescing operator
+	const lng = getStorage() ?? "uk";
 
 	return (
 		<>
