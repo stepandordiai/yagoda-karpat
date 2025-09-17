@@ -11,11 +11,16 @@ import i18n from "i18next";
 import { useParams } from "react-router-dom";
 import productsData from "./assets/data/products-data.json";
 import NotFound from "./pages/NotFound/NotFound";
-import getStorage from "./utils/getStorage";
 
 // This wrapper handles language detection
 const LanguageLayout = () => {
 	const { lng } = useParams();
+
+	const supportedLanguages = ["uk", "en"];
+
+	if (!supportedLanguages.includes(lng as string)) {
+		return <NotFound />;
+	}
 
 	useEffect(() => {
 		if (lng && i18n.language !== lng) {
@@ -32,10 +37,6 @@ const LanguageLayout = () => {
 				<Route path="/" element={<Home productsData={productsData} />} />
 				<Route
 					path="/product-page/:id"
-					element={<ProductPage productsData={productsData} />}
-				/>
-				<Route
-					path={`/${getStorage()}/product-page/:id`}
 					element={<ProductPage productsData={productsData} />}
 				/>
 				<Route path="*" element={<NotFound />} />
