@@ -16,6 +16,7 @@ import { Autoplay, Pagination } from "swiper/modules";
 import ContactForm from "../../components/ContactForm/ContactForm";
 import ContactDetails from "../../components/ContactDetails/ContactDetails";
 import "./ProductPage.scss";
+import NotFound from "../NotFound/NotFound";
 
 interface ProductsData {
 	id: string;
@@ -43,12 +44,12 @@ interface ProductPageProps {
 const ProductPage: React.FC<ProductPageProps> = ({ productsData }) => {
 	const { t } = useTranslation();
 
-	const { id, lng } = useParams();
+	const { id } = useParams();
 
-	const productData = productsData.find((product) => product.id === id);
+	const product = productsData.find((product) => product.id === id);
 
 	const [activeVariantId, setActiveVariantId] = useState(
-		productData?.variants[0].id
+		product?.variants[0].id
 	);
 
 	function handleVariantId(props: string) {
@@ -58,7 +59,7 @@ const ProductPage: React.FC<ProductPageProps> = ({ productsData }) => {
 
 	useEffect(() => {
 		if (activeVariantId) {
-			setActiveVariantId(productData?.variants[0].id);
+			setActiveVariantId(product?.variants[0].id);
 		}
 	}, [id]);
 
@@ -72,17 +73,19 @@ const ProductPage: React.FC<ProductPageProps> = ({ productsData }) => {
 	}
 
 	const productVariant: ProductVariant | null =
-		productData?.variants.find((variant) => variant.id === activeVariantId) ??
-		productData?.variants[0] ??
+		product?.variants.find((variant) => variant.id === activeVariantId) ??
+		product?.variants[0] ??
 		null;
 
-	if (!productData || !productVariant) return;
+	if (!product || !productVariant) {
+		return <NotFound />;
+	}
 
 	const relatedProducts = productsData.filter((product) => {
 		return (
-			product.status === productData.status &&
-			product.type === productData.type &&
-			product.name !== productData.name
+			product.status === product.status &&
+			product.type === product.type &&
+			product.name !== product.name
 		);
 	});
 
@@ -97,8 +100,8 @@ const ProductPage: React.FC<ProductPageProps> = ({ productsData }) => {
 	return (
 		<>
 			<Helmet>
-				<meta name="description" content={t(productData.descSEO)} />
-				<title>{t(productData.name) + " / " + t("company_name")}</title>
+				<meta name="description" content={t(product.descSEO)} />
+				<title>{t(product.name) + " / " + t("company_name")}</title>
 				<link
 					rel="canonical"
 					href={`https://yagodakarpat.com/uk/product-page/${id}`}
@@ -121,7 +124,7 @@ const ProductPage: React.FC<ProductPageProps> = ({ productsData }) => {
 			</Helmet>
 			<main>
 				<PageNavTitle
-					title={productData.name}
+					title={product.name}
 					previousTitle={t("products_title")}
 					homeTitle={t("home_title")}
 				/>
@@ -129,14 +132,14 @@ const ProductPage: React.FC<ProductPageProps> = ({ productsData }) => {
 					<div className="product-page__details">
 						<div className="product-page__details-inner">
 							<div>
-								<p className="product-page__lat-name">{productData.latName}</p>
-								<h1 className="product-page__name">{`${t(productData.name)} 
+								<p className="product-page__lat-name">{product.latName}</p>
+								<h1 className="product-page__name">{`${t(product.name)} 
 								${productVariant.state ? t(productVariant.state) : ""}
 							`}</h1>
 							</div>
-							{productData.variants.some((variant) => variant.state) && (
+							{product.variants.some((variant) => variant.state) && (
 								<div className="product-page__variants">
-									{productData?.variants.map((variant) => {
+									{product?.variants.map((variant) => {
 										return (
 											<button
 												key={variant.id}
@@ -157,13 +160,13 @@ const ProductPage: React.FC<ProductPageProps> = ({ productsData }) => {
 								<span style={{ color: "hsl(0, 0%, 50%)" }}>
 									{t("product_page.origin_title")}
 								</span>
-								<p>{t(productData.origin)}</p>
+								<p>{t(product.origin)}</p>
 							</div>
 							<div>
 								<span style={{ color: "hsl(0, 0%, 50%)" }}>
 									{t("product_page.packaging_title")}
 								</span>
-								{productData.pack.map((option, index) => (
+								{product.pack.map((option, index) => (
 									<p key={index}>{t(option)}</p>
 								))}
 							</div>
@@ -171,7 +174,7 @@ const ProductPage: React.FC<ProductPageProps> = ({ productsData }) => {
 								<span style={{ color: "hsl(0, 0%, 50%)" }}>
 									{t("product_page.desc_title")}
 								</span>
-								<p>{productData.desc && t(productData.desc)}</p>
+								<p>{product.desc && t(product.desc)}</p>
 							</div>
 						</div>
 						<a href="tel:+380968065513" className="product-page__link">
