@@ -3,6 +3,7 @@ import LngSelect from "../LngSelect/LngSelect";
 import { NavLink, useParams, useLocation } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { HashLink } from "react-router-hash-link";
+import Container from "../Container/Container";
 import logo from "/logo-img/yagoda-karpat-logo.svg";
 import plusIcon from "/icons/plus.png";
 import "./Header.scss";
@@ -137,34 +138,38 @@ const Header: React.FC<HeaderProps> = ({ productsData }) => {
 	return (
 		<>
 			<header className="header">
-				<NavLink to={`/${lng}`} className="header__logo">
-					<img width={30} src={logo} alt="Yagoda Karpat Logo" />
-					<span>{t("company_name")}</span>
-				</NavLink>
-				<LngSelect />
-				<a className="header__tel" href="tel:+380968065513">
-					+38 096 806 55 13
-				</a>
+				<Container>
+					<div className="header-inner">
+						<NavLink to={`/${lng}`} className="header__logo">
+							<img width={30} src={logo} alt="Yagoda Karpat Logo" />
+							<span>{t("company_name")}</span>
+						</NavLink>
+						<LngSelect />
+						<a className="header__tel" href="tel:+380968065513">
+							+38 096 806 55 13
+						</a>
 
-				{/* burger-btn */}
+						{/* burger-btn */}
 
-				<button onClick={toggleBurgerBtn} className="burger-btn">
-					<span
-						className={
-							isActive
-								? "burger-btn-inner burger-btn-inner--active"
-								: "burger-btn-inner"
-						}
-					>
-						<span
-							className={
-								isActive
-									? "burger-btn-inner__center-line burger-btn-inner__center-line--active"
-									: "burger-btn-inner__center-line"
-							}
-						></span>
-					</span>
-				</button>
+						<button onClick={toggleBurgerBtn} className="burger-btn">
+							<span
+								className={
+									isActive
+										? "burger-btn-inner burger-btn-inner--active"
+										: "burger-btn-inner"
+								}
+							>
+								<span
+									className={
+										isActive
+											? "burger-btn-inner__center-line burger-btn-inner__center-line--active"
+											: "burger-btn-inner__center-line"
+									}
+								></span>
+							</span>
+						</button>
+					</div>
+				</Container>
 			</header>
 
 			{/* menu */}

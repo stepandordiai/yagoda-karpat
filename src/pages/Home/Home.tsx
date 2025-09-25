@@ -7,6 +7,7 @@ import { HashLink } from "react-router-hash-link";
 import { useParams } from "react-router-dom";
 import video from "/video-c.mp4";
 import "./Home.scss";
+import Container from "../../components/Container/Container";
 
 interface ProductsData {
 	id: string;
@@ -58,41 +59,43 @@ const Home: React.FC<HomeProps> = ({ productsData }) => {
 				/>
 			</Helmet>
 			<main>
-				<div className="home js-home" id="home">
-					<div className="home-container">
-						<video
-							className="home-container__video"
-							loop
-							autoPlay
-							muted
-							playsInline
-							preload="metadata"
-						>
-							<source src={video} type="video/mp4" />
-							Your browser does not support the video tag.
-						</video>
-						<a
-							className="home-container__video-author"
-							href="https://www.pexels.com/@ksnblog/"
-							target="_blank"
-						>
-							Sergey k
-						</a>
-						<p className="home-container__desc">{t("company_full_name")}</p>
-						<h1 className="home-container__title">{t("home.title")}</h1>
-						<h2 className="home-container__desc">{t("home.sec_title")}</h2>
-						<HashLink
-							className="home-container__link"
-							smooth
-							to={`/${lng}/#contacts`}
-						>
-							{t("contact_us")}
-						</HashLink>
+				<Container>
+					<div className="home js-home" id="home">
+						<div className="home-container">
+							<video
+								className="home-container__video"
+								loop
+								autoPlay
+								muted
+								playsInline
+								preload="metadata"
+							>
+								<source src={video} type="video/mp4" />
+								Your browser does not support the video tag.
+							</video>
+							<a
+								className="home-container__video-author"
+								href="https://www.pexels.com/@ksnblog/"
+								target="_blank"
+							>
+								Sergey k
+							</a>
+							<p className="home-container__desc">{t("company_full_name")}</p>
+							<h1 className="home-container__title">{t("home.title")}</h1>
+							<h2 className="home-container__desc">{t("home.sec_title")}</h2>
+							<HashLink
+								className="home-container__link"
+								smooth
+								to={`/${lng}/#contacts`}
+							>
+								{t("contact_us")}
+							</HashLink>
+						</div>
 					</div>
-				</div>
-				<AboutUs productsData={productsData} />
-				<Products productsData={productsData} />
-				<Contacts />
+					<AboutUs productsData={productsData} />
+					<Products productsData={productsData} />
+					<Contacts />
+				</Container>
 			</main>
 		</>
 	);

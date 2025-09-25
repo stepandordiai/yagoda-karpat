@@ -15,8 +15,9 @@ import "swiper/css/pagination";
 import { Autoplay, Pagination } from "swiper/modules";
 import ContactForm from "../../components/ContactForm/ContactForm";
 import ContactDetails from "../../components/ContactDetails/ContactDetails";
-import "./ProductPage.scss";
 import NotFound from "../NotFound/NotFound";
+import Container from "../../components/Container/Container";
+import "./ProductPage.scss";
 
 interface ProductsData {
 	id: string;
@@ -123,113 +124,115 @@ const ProductPage: React.FC<ProductPageProps> = ({ productsData }) => {
 				/>
 			</Helmet>
 			<main>
-				<PageNavTitle
-					title={product.name}
-					previousTitle={t("products_title")}
-					homeTitle={t("home_title")}
-				/>
-				<div className="product-page">
-					<div className="product-page__details">
-						<div className="product-page__details-inner">
-							<div>
-								<p className="product-page__lat-name">{product.latName}</p>
-								<h1 className="product-page__name">{`${t(product.name)} 
+				<Container>
+					<PageNavTitle
+						title={product.name}
+						previousTitle={t("products_title")}
+						homeTitle={t("home_title")}
+					/>
+					<div className="product-page">
+						<div className="product-page__details">
+							<div className="product-page__details-inner">
+								<div>
+									<p className="product-page__lat-name">{product.latName}</p>
+									<h1 className="product-page__name">{`${t(product.name)} 
 								${productVariant.state ? t(productVariant.state) : ""}
 							`}</h1>
-							</div>
-							{product.variants.some((variant) => variant.state) && (
-								<div className="product-page__variants">
-									{product?.variants.map((variant) => {
-										return (
-											<button
-												key={variant.id}
-												onClick={() => handleVariantId(variant.id)}
-												className={
-													variant.id === activeVariantId
-														? "variant-btn variant-btn--active"
-														: "variant-btn"
-												}
-											>
-												{t(variant.state!)}
-											</button>
-										);
-									})}
 								</div>
+								{product.variants.some((variant) => variant.state) && (
+									<div className="product-page__variants">
+										{product?.variants.map((variant) => {
+											return (
+												<button
+													key={variant.id}
+													onClick={() => handleVariantId(variant.id)}
+													className={
+														variant.id === activeVariantId
+															? "variant-btn variant-btn--active"
+															: "variant-btn"
+													}
+												>
+													{t(variant.state!)}
+												</button>
+											);
+										})}
+									</div>
+								)}
+								<div>
+									<span style={{ color: "hsl(0, 0%, 50%)" }}>
+										{t("product_page.origin_title")}
+									</span>
+									<p>{t(product.origin)}</p>
+								</div>
+								<div>
+									<span style={{ color: "hsl(0, 0%, 50%)" }}>
+										{t("product_page.packaging_title")}
+									</span>
+									{product.pack.map((option, index) => (
+										<p key={index}>{t(option)}</p>
+									))}
+								</div>
+								<div>
+									<span style={{ color: "hsl(0, 0%, 50%)" }}>
+										{t("product_page.desc_title")}
+									</span>
+									<p>{product.desc && t(product.desc)}</p>
+								</div>
+							</div>
+							<a href="tel:+380968065513" className="product-page__link">
+								{t("product_page.aviability_link")}
+							</a>
+						</div>
+						<div className="swiper-wrapper">
+							{productVariant.images && (
+								<>
+									<Swiper
+										spaceBetween={25}
+										autoplay={{
+											delay: 3000,
+											disableOnInteraction: false,
+										}}
+										speed={500}
+										loop={true}
+										pagination={{
+											type: "fraction",
+										}}
+										modules={[Autoplay, Pagination]}
+										className="swiper"
+									>
+										{productVariant.images.map((img, index) => {
+											return (
+												<SwiperSlide key={index}>
+													<img className="swiper-img" src={img} alt="" />
+												</SwiperSlide>
+											);
+										})}
+									</Swiper>
+								</>
 							)}
-							<div>
-								<span style={{ color: "hsl(0, 0%, 50%)" }}>
-									{t("product_page.origin_title")}
-								</span>
-								<p>{t(product.origin)}</p>
-							</div>
-							<div>
-								<span style={{ color: "hsl(0, 0%, 50%)" }}>
-									{t("product_page.packaging_title")}
-								</span>
-								{product.pack.map((option, index) => (
-									<p key={index}>{t(option)}</p>
-								))}
-							</div>
-							<div>
-								<span style={{ color: "hsl(0, 0%, 50%)" }}>
-									{t("product_page.desc_title")}
-								</span>
-								<p>{product.desc && t(product.desc)}</p>
-							</div>
 						</div>
-						<a href="tel:+380968065513" className="product-page__link">
-							{t("product_page.aviability_link")}
-						</a>
 					</div>
-					<div className="swiper-wrapper">
-						{productVariant.images && (
-							<>
-								<Swiper
-									spaceBetween={25}
-									autoplay={{
-										delay: 3000,
-										disableOnInteraction: false,
-									}}
-									speed={500}
-									loop={true}
-									pagination={{
-										type: "fraction",
-									}}
-									modules={[Autoplay, Pagination]}
-									className="swiper"
-								>
-									{productVariant.images.map((img, index) => {
-										return (
-											<SwiperSlide key={index}>
-												<img className="swiper-img" src={img} alt="" />
-											</SwiperSlide>
-										);
-									})}
-								</Swiper>
-							</>
-						)}
-					</div>
-				</div>
-				<div className="product-page__contacts">
-					<div>
-						<ContactForm />
-					</div>
-					<div>
-						<ContactDetails />
-					</div>
-				</div>
-				{relatedProducts.length > 0 && (
-					<>
-						<p className="related-products__title">
-							{t("product_page.related")}
-						</p>
-						<div className="related-products__grid">
-							{relatedProducts.map((product) => {
-								return <Product product={product} key={product.id} />;
-							})}
+					<div className="product-page__contacts">
+						<div>
+							<ContactForm />
 						</div>
-					</>
-				)}
+						<div>
+							<ContactDetails />
+						</div>
+					</div>
+					{relatedProducts.length > 0 && (
+						<>
+							<p className="related-products__title">
+								{t("product_page.related")}
+							</p>
+							<div className="related-products__grid">
+								{relatedProducts.map((product) => {
+									return <Product product={product} key={product.id} />;
+								})}
+							</div>
+						</>
+					)}
+				</Container>
 			</main>
 		</>
 	);

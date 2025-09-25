@@ -30,7 +30,7 @@
 	transition: transform 0.3s;
 }
 
-.product:hover .product__img {
+.product__img-wrapper:hover .product__img {
 	transform: scale(1.1);
 }
 
@@ -59,7 +59,7 @@
 	transition: opacity 0.3s;
 }
 
-.product:hover .img-qty {
+.product__img-wrapper:hover .img-qty {
 	opacity: 1;
 }
 

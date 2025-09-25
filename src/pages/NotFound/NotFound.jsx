@@ -1,6 +1,7 @@
 import { Helmet } from "react-helmet-async";
 import { NavLink } from "react-router-dom";
 import getStorage from "../../utils/getStorage";
+import Container from "../../components/Container/Container";
 import "./NotFound.scss";
 
 const NotFound = () => {
@@ -12,12 +13,16 @@ const NotFound = () => {
 			<Helmet>
 				<title>404</title>
 			</Helmet>
-			<main className="not-found">
-				<p className="not-found__title">404</p>
-				<p>Page Not Found</p>
-				<NavLink className="not-found__link" to={`/${lng}`}>
-					Go Back Home
-				</NavLink>
+			<main>
+				<Container>
+					<div className="not-found-inner">
+						<p className="not-found__title">404</p>
+						<p>Page Not Found</p>
+						<NavLink className="not-found__link" to={`/${lng}`}>
+							Go Back Home
+						</NavLink>
+					</div>
+				</Container>
 			</main>
 		</>
 	);
