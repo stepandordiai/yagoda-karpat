@@ -43,6 +43,9 @@ const Header: React.FC<HeaderProps> = ({ productsData }) => {
 		...new Set(productsData.map((product) => product.type)),
 	];
 
+	const inactiveLink = "js-link";
+	const activeLink = "js-link product-link--active";
+
 	// useEffect(() => {
 	// 	let lastScrollTop = 0;
 
@@ -131,9 +134,6 @@ const Header: React.FC<HeaderProps> = ({ productsData }) => {
 			});
 		});
 	}, []);
-
-	const inactiveLink = "js-link";
-	const activeLink = "js-link product-link--active";
 
 	return (
 		<>
