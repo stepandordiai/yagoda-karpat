@@ -17,6 +17,20 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://yagodakarpat.com/uk/" />
 </url>
 
+<!-- Boletus fresh -->
+<url>
+	<loc>https://yagodakarpat.com/uk/product-page/boletus-fresh</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yagodakarpat.com/uk/product-page/boletus-fresh" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://yagodakarpat.com/en/product-page/boletus-fresh" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yagodakarpat.com/uk/product-page/boletus-fresh" />
+</url>
+<url>
+	<loc>https://yagodakarpat.com/en/product-page/boletus-fresh</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yagodakarpat.com/uk/product-page/boletus-fresh" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://yagodakarpat.com/en/product-page/boletus-fresh" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yagodakarpat.com/uk/product-page/boletus-fresh" />
+</url>
+
 <!-- Bilberry -->
 <url>
 	<loc>https://yagodakarpat.com/uk/product-page/bilberry</loc>
@@ -213,18 +227,18 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://yagodakarpat.com/uk/product-page/sweet-pepper" />
 </url>
 
-<!-- Boletus -->
+<!-- Boletus frozen -->
 <url>
-	<loc>https://yagodakarpat.com/uk/product-page/boletus</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://yagodakarpat.com/uk/product-page/boletus" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://yagodakarpat.com/en/product-page/boletus" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://yagodakarpat.com/uk/product-page/boletus" />
+	<loc>https://yagodakarpat.com/uk/product-page/boletus-frozen</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yagodakarpat.com/uk/product-page/boletus-frozen" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://yagodakarpat.com/en/product-page/boletus-frozen" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yagodakarpat.com/uk/product-page/boletus-frozen" />
 </url>
 <url>
-	<loc>https://yagodakarpat.com/en/product-page/boletus</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://yagodakarpat.com/uk/product-page/boletus" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://yagodakarpat.com/en/product-page/boletus" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://yagodakarpat.com/uk/product-page/boletus" />
+	<loc>https://yagodakarpat.com/en/product-page/boletus-frozen</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://yagodakarpat.com/uk/product-page/boletus-frozen" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://yagodakarpat.com/en/product-page/boletus-frozen" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yagodakarpat.com/uk/product-page/boletus-frozen" />
 </url>
 
 <!-- Boletus dried -->

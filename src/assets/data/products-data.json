@@ -1,5 +1,23 @@
 [
 	{
+		"id": "boletus-fresh",
+		"type": "mushrooms_title",
+		"status": "fresh",
+		"latName": "Boletus edulis",
+		"name": "products.boletus_fresh",
+		"origin": "product_page.origin",
+		"pack": ["product_page.pack_3"],
+		"desc": "product_page.boletus_desc",
+		"variants": [
+			{
+				"id": "boletus-fresh-whole",
+				"images": ["/products/boletus-fresh/1-c.jpg"]
+			}
+		],
+		"harvest": [7, 8, 9],
+		"descSEO": "product_page.boletus_desc_seo"
+	},
+	{
 		"id": "bilberry",
 		"type": "berries_title",
 		"status": "frozen",
@@ -297,7 +315,7 @@
 		"descSEO": "product_page.sweet_pepper_desc_seo"
 	},
 	{
-		"id": "boletus",
+		"id": "boletus-frozen",
 		"type": "mushrooms_title",
 		"status": "frozen",
 		"latName": "Boletus edulis",
