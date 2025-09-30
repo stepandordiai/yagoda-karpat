@@ -2,11 +2,11 @@ import { useTranslation } from "react-i18next";
 import { useEffect } from "react";
 import { NavLink, useParams } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
+import Container from "../Container/Container";
 import upArrowIcon from "/icons/up-arrow.png";
 import plusIcon from "/icons/plus.png";
 import logo from "/logo-img/yagoda-karpat-logo.svg";
 import "./Footer.scss";
-import Container from "../Container/Container";
 
 interface ProductsData {
 	id: string;

@@ -175,6 +175,7 @@
 		overflow: hidden;
 		pointer-events: all;
 		cursor: pointer;
+		background: var(--bg-clr);
 	}
 
 	.dropdown-btn::before {

@@ -1,5 +1,6 @@
 import { useTranslation } from "react-i18next";
 import { HashLink } from "react-router-hash-link";
+import { NavLink } from "react-router-dom";
 import "./PageNavTitle.scss";
 
 interface PageNavTitleProps {
@@ -17,11 +18,11 @@ const PageNavTitle = ({
 
 	return (
 		<div className="page-nav-title">
-			<HashLink className="page-nav-title__link" smooth to={"/#home"}>
+			<NavLink className="page-nav-title__link" to="/">
 				{homeTitle}
-			</HashLink>
+			</NavLink>
 			<span>/</span>
-			<HashLink className="page-nav-title__link" smooth to={"/#products"}>
+			<HashLink className="page-nav-title__link" smooth to="/#products">
 				{previousTitle}
 			</HashLink>
 			<span>/</span>

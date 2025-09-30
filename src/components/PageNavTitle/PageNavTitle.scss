@@ -4,17 +4,17 @@
 	background: #fff;
 	border-radius: 10px;
 	display: flex;
+	justify-content: flex-start;
 	align-items: center;
+	gap: 10px;
 	padding: 10px;
 	flex-wrap: wrap;
 
-	span {
-		padding: 0 10px;
-	}
-
 	span:nth-last-child(1) {
-		color: rgba(0, 0, 0, 0.5);
 		padding: 10px;
+		background: var(--bg-clr);
+		border-radius: 10px;
+		opacity: 0.5;
 	}
 }
 
@@ -24,6 +24,7 @@
 	padding: 10px;
 	border-radius: 10px;
 	overflow: hidden;
+	background: var(--bg-clr);
 }
 
 .page-nav-title__link::before {
