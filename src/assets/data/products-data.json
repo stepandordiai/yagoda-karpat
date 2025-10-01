@@ -45,7 +45,7 @@
 		"latName": "Vaccinium vitis-idaea",
 		"name": "products.lingonberry",
 		"origin": "product_page.origin",
-		"pack": ["product_page.pack_1"],
+		"pack": ["product_page.pack_1", "product_page.pack_2"],
 		"desc": "product_page.lingonberry_desc",
 		"variants": [
 			{
@@ -160,7 +160,7 @@
 		"latName": "Sambucus",
 		"name": "products.elderberry",
 		"origin": "product_page.origin",
-		"pack": ["product_page.pack_1"],
+		"pack": ["product_page.pack_1", "product_page.pack_2"],
 		"desc": "product_page.elderberry_desc",
 		"variants": [
 			{
@@ -185,7 +185,7 @@
 		"latName": "Fragaria",
 		"name": "products.strawberry",
 		"origin": "product_page.origin",
-		"pack": ["product_page.pack_1"],
+		"pack": ["product_page.pack_1", "product_page.pack_2"],
 		"desc": "product_page.strawberry_desc",
 		"variants": [
 			{
@@ -229,7 +229,7 @@
 		"latName": "Prunus armeniaca",
 		"name": "products.apricot",
 		"origin": "product_page.origin",
-		"pack": ["product_page.pack_2"],
+		"pack": ["product_page.pack_1", "product_page.pack_2"],
 		"desc": "product_page.apricot_desc",
 		"variants": [
 			{
@@ -422,7 +422,7 @@
 		"latName": "Prunus cerasus",
 		"name": "products.sour_cherry",
 		"origin": "product_page.origin",
-		"pack": ["product_page.pack_2"],
+		"pack": ["product_page.pack_2", "product_page.pack_2"],
 		"desc": "product_page.sour_cherry_desc",
 		"variants": [
 			{
@@ -495,7 +495,7 @@
 		"latName": "Vitis vinifera",
 		"name": "products.grape",
 		"origin": "product_page.origin",
-		"pack": ["product_page.pack_2"],
+		"pack": ["product_page.pack_1", "product_page.pack_2"],
 		"desc": "product_page.grape_desc",
 		"variants": [
 			{
@@ -513,7 +513,7 @@
 		"latName": "Zea mays",
 		"name": "products.corn",
 		"origin": "product_page.origin",
-		"pack": ["product_page.pack_2"],
+		"pack": ["product_page.pack_1", "product_page.pack_2"],
 		"desc": "product_page.corn_desc",
 		"variants": [
 			{
@@ -531,7 +531,7 @@
 		"latName": "Ribes nigrum",
 		"name": "products.black_currant",
 		"origin": "product_page.origin",
-		"pack": ["product_page.pack_2"],
+		"pack": ["product_page.pack_1", "product_page.pack_2"],
 		"desc": "product_page.black_currant_desc",
 		"variants": [
 			{
