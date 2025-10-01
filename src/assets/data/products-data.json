@@ -33,9 +33,10 @@
 				"images": ["/products/bilberry/1-min.JPG"]
 			}
 		],
-		"isOrganic": true,
 		"harvest": [7, 8],
-		"descSEO": "product_page.bilberry_desc_seo"
+		"descSEO": "product_page.bilberry_desc_seo",
+		"isOrganic": true,
+		"isIQF": true
 	},
 	{
 		"id": "lingonberry",
@@ -58,9 +59,10 @@
 				"images": ["/products/lingonberry/2-min.jpg"]
 			}
 		],
-		"isOrganic": true,
 		"harvest": [8, 9],
-		"descSEO": "product_page.lingonberry_desc_seo"
+		"descSEO": "product_page.lingonberry_desc_seo",
+		"isOrganic": true,
+		"isIQF": true
 	},
 	{
 		"id": "rosehip",
@@ -77,9 +79,10 @@
 				"images": ["/products/rosehip/1-min.JPG", "/products/rosehip/2-min.JPG"]
 			}
 		],
-		"isOrganic": true,
 		"harvest": [9, 10, 11],
-		"descSEO": "product_page.rosehip_desc_seo"
+		"descSEO": "product_page.rosehip_desc_seo",
+		"isOrganic": true,
+		"isIQF": true
 	},
 	{
 		"id": "plum-frozen",
@@ -103,7 +106,8 @@
 			}
 		],
 		"harvest": [8, 9],
-		"descSEO": "product_page.plum_frozen_desc_seo"
+		"descSEO": "product_page.plum_frozen_desc_seo",
+		"isIQF": true
 	},
 	{
 		"id": "plum-dried",
@@ -171,7 +175,8 @@
 		],
 		"isOrganic": true,
 		"harvest": [8, 9],
-		"descSEO": "product_page.elderberry_desc_seo"
+		"descSEO": "product_page.elderberry_desc_seo",
+		"isIQF": true
 	},
 	{
 		"id": "strawberry",
@@ -192,7 +197,8 @@
 			}
 		],
 		"harvest": [5, 6, 7],
-		"descSEO": "product_page.strawberry_desc_seo"
+		"descSEO": "product_page.strawberry_desc_seo",
+		"isIQF": true
 	},
 	{
 		"id": "raspberry",
@@ -213,7 +219,8 @@
 			}
 		],
 		"harvest": [7, 8, 9],
-		"descSEO": "product_page.raspberry_desc_seo"
+		"descSEO": "product_page.raspberry_desc_seo",
+		"isIQF": true
 	},
 	{
 		"id": "apricot",
@@ -230,7 +237,8 @@
 			}
 		],
 		"harvest": [7, 8],
-		"descSEO": "product_page.apricot_desc_seo"
+		"descSEO": "product_page.apricot_desc_seo",
+		"isIQF": true
 	},
 	{
 		"id": "sweet-pepper-red",
@@ -252,7 +260,8 @@
 			}
 		],
 		"harvest": [7, 8, 9],
-		"descSEO": "product_page.sweet_pepper_red_desc_seo"
+		"descSEO": "product_page.sweet_pepper_red_desc_seo",
+		"isIQF": true
 	},
 	{
 		"id": "sweet-pepper-green",
@@ -271,7 +280,8 @@
 			}
 		],
 		"harvest": [7, 8, 9],
-		"descSEO": "product_page.sweet_pepper_green_desc_seo"
+		"descSEO": "product_page.sweet_pepper_green_desc_seo",
+		"isIQF": true
 	},
 	{
 		"id": "sweet-pepper-yellow",
@@ -290,7 +300,8 @@
 			}
 		],
 		"harvest": [7, 8, 9],
-		"descSEO": "product_page.sweet_pepper_yellow_desc_seo"
+		"descSEO": "product_page.sweet_pepper_yellow_desc_seo",
+		"isIQF": true
 	},
 	{
 		"id": "sweet-pepper",
@@ -312,7 +323,8 @@
 			}
 		],
 		"harvest": [7, 8, 9],
-		"descSEO": "product_page.sweet_pepper_desc_seo"
+		"descSEO": "product_page.sweet_pepper_desc_seo",
+		"isIQF": true
 	},
 	{
 		"id": "boletus-frozen",
@@ -347,7 +359,8 @@
 			}
 		],
 		"harvest": [7, 8, 9],
-		"descSEO": "product_page.boletus_desc_seo"
+		"descSEO": "product_page.boletus_desc_seo",
+		"isIQF": true
 	},
 	{
 		"id": "boletus-dried",
@@ -434,7 +447,8 @@
 			}
 		],
 		"harvest": [5, 6],
-		"descSEO": "product_page.sour_cherry_desc_seo"
+		"descSEO": "product_page.sour_cherry_desc_seo",
+		"isIQF": true
 	},
 	{
 		"id": "honey-fungus",
@@ -452,7 +466,8 @@
 			}
 		],
 		"harvest": [8, 9, 10],
-		"descSEO": "product_page.honey_fungus_desc_seo"
+		"descSEO": "product_page.honey_fungus_desc_seo",
+		"isIQF": true
 	},
 	{
 		"id": "blackberry",
@@ -470,7 +485,8 @@
 		],
 		"isOrganic": true,
 		"harvest": [8, 9],
-		"descSEO": "product_page.blackberry_desc_seo"
+		"descSEO": "product_page.blackberry_desc_seo",
+		"isIQF": true
 	},
 	{
 		"id": "grape",
@@ -487,7 +503,8 @@
 			}
 		],
 		"harvest": [9, 10],
-		"descSEO": "product_page.grape_desc_seo"
+		"descSEO": "product_page.grape_desc_seo",
+		"isIQF": true
 	},
 	{
 		"id": "corn",
@@ -504,7 +521,8 @@
 			}
 		],
 		"harvest": [8, 9],
-		"descSEO": "product_page.corn_desc_seo"
+		"descSEO": "product_page.corn_desc_seo",
+		"isIQF": true
 	},
 	{
 		"id": "black-currant",
@@ -522,6 +540,7 @@
 			}
 		],
 		"harvest": [7, 8],
-		"descSEO": "product_page.black_currant_desc_seo"
+		"descSEO": "product_page.black_currant_desc_seo",
+		"isIQF": true
 	}
 ]

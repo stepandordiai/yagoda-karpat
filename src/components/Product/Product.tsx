@@ -19,6 +19,7 @@ interface ProductsData {
 		state?: string;
 	}[];
 	isOrganic?: boolean;
+	isIQF?: boolean;
 	harvest: number[];
 }
 
@@ -31,7 +32,7 @@ const Product: React.FC<ProductProps> = ({ product }) => {
 
 	const { lng } = useParams();
 
-	const { id, name, variants, isOrganic, harvest } = product;
+	const { id, name, variants, isOrganic, harvest, isIQF } = product;
 
 	// TODO:
 	const allImages = variants.flatMap((variant) =>
@@ -69,7 +70,7 @@ const Product: React.FC<ProductProps> = ({ product }) => {
 					<div className="product__info-container-top">
 						<h3 className="product-name">{t(name)}</h3>
 						<div style={{ display: "flex", columnGap: 5 }}>
-							<p>IQF</p>
+							{isIQF && <p>IQF</p>}
 							{isOrganic && (
 								<img
 									src={organicLogo}
