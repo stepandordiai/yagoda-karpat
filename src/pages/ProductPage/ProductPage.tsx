@@ -6,13 +6,11 @@ import Product from "../../components/Product/Product";
 import { useEffect, useState } from "react";
 
 // Swiper
-// Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-
 import "swiper/css";
 import "swiper/css/pagination";
-
 import { Autoplay, Pagination } from "swiper/modules";
+
 import ContactForm from "../../components/ContactForm/ContactForm";
 import ContactDetails from "../../components/ContactDetails/ContactDetails";
 import NotFound from "../NotFound/NotFound";
@@ -105,22 +103,22 @@ const ProductPage: React.FC<ProductPageProps> = ({ productsData }) => {
 				<title>{t(product.name) + " / " + t("company_name")}</title>
 				<link
 					rel="canonical"
-					href={`https://yagodakarpat.com/uk/product-page/${id}`}
+					href={`https://www.yagodakarpat.com/uk/product-page/${id}`}
 				/>
 				<link
 					rel="alternate"
 					hrefLang="uk"
-					href={`https://yagodakarpat.com/uk/product-page/${id}`}
+					href={`https://www.yagodakarpat.com/uk/product-page/${id}`}
 				/>
 				<link
 					rel="alternate"
 					hrefLang="en"
-					href={`https://yagodakarpat.com/en/product-page/${id}`}
+					href={`https://www.yagodakarpat.com/en/product-page/${id}`}
 				/>
 				<link
 					rel="alternate"
 					hrefLang="x-default"
-					href={`https://yagodakarpat.com/uk/product-page/${id}`}
+					href={`https://www.yagodakarpat.com/uk/product-page/${id}`}
 				/>
 			</Helmet>
 			<main>

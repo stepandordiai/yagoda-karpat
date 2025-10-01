@@ -1,13 +1,13 @@
-import { Helmet } from "react-helmet-async";
 import { useTranslation } from "react-i18next";
+import { Helmet } from "react-helmet-async";
 import AboutUs from "../../components/AboutUs/AboutUs";
 import Products from "../../components/Products/Products";
 import Contacts from "../../components/Contacts/Contacts";
 import { HashLink } from "react-router-hash-link";
 import { useParams } from "react-router-dom";
+import Container from "../../components/Container/Container";
 import video from "/video-c.mp4";
 import "./Home.scss";
-import Container from "../../components/Container/Container";
 
 interface ProductsData {
 	id: string;
@@ -41,21 +41,21 @@ const Home: React.FC<HomeProps> = ({ productsData }) => {
 			<Helmet>
 				<meta name="description" content={t("home.desc_seo")} />
 				<title>{t("home.title") + " / " + t("company_name")}</title>
-				<link rel="canonical" href="https://yagodakarpat.com/uk/" />
+				<link rel="canonical" href="https://www.yagodakarpat.com/uk/" />
 				<link
 					rel="alternate"
 					hrefLang="uk"
-					href="https://yagodakarpat.com/uk/"
+					href="https://www.yagodakarpat.com/uk/"
 				/>
 				<link
 					rel="alternate"
 					hrefLang="en"
-					href="https://yagodakarpat.com/en/"
+					href="https://www.yagodakarpat.com/en/"
 				/>
 				<link
 					rel="alternate"
 					hrefLang="x-default"
-					href="https://yagodakarpat.com/uk/"
+					href="https://www.yagodakarpat.com/uk/"
 				/>
 			</Helmet>
 			<main>
