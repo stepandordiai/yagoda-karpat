@@ -7,7 +7,7 @@
 	font-size: 16px;
 	background: #fff;
 	border-radius: 10px;
-	height: 100%;
+	flex-grow: 1;
 }
 
 .form__title {
@@ -39,12 +39,12 @@ textarea {
 	padding: 10px 5px;
 	border-radius: 10px;
 	font-size: 1rem;
+	height: 100%;
 	background: var(--bg-clr) !important;
 }
 
 textarea {
 	resize: none;
-	flex-grow: 1;
 
 	&:focus {
 		outline: none;

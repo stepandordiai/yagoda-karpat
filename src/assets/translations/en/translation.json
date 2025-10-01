@@ -101,8 +101,8 @@
 		"address": "Central street, 34B, Vilkhivtsi village, Tyachiv district, Transcarpathian region, Ukraine, 90542",
 		"contact_us_title": "Contact us",
 		"first_name": "First name",
-		"last_name": "Last name",
 		"tel": "Phone number",
+		"email": "Email",
 		"message": "Message",
 		"submit": "Send",
 		"map_title": "Where to find us"

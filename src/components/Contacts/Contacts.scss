@@ -23,7 +23,7 @@
 
 .contacts__map {
 	border-radius: inherit;
-	height: 100%;
+	aspect-ratio: 1/1;
 }
 
 .contacts-container {
@@ -51,10 +51,6 @@
 
 	.contacts__map-wrapper {
 		padding: 10px;
-	}
-
-	.contacts__map {
-		height: 500px;
 	}
 
 	.contacts-container {
