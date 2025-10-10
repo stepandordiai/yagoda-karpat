@@ -133,9 +133,7 @@ const ProductPage: React.FC<ProductPageProps> = ({ productsData }) => {
 							<div className="product-page__details-inner">
 								<div>
 									<p className="product-page__lat-name">{product.latName}</p>
-									<h1 className="product-page__name">{`${t(product.name)} 
-								${productVariant.state ? t(productVariant.state) : ""}
-							`}</h1>
+									<h1 className="product-page__name">{t(product.name)}</h1>
 								</div>
 								{product.variants.some((variant) => variant.state) && (
 									<div className="product-page__variants">
