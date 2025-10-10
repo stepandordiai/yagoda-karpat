@@ -36,9 +36,9 @@ interface ProductsData {
 	descSEO: string;
 }
 
-interface ProductPageProps {
+type ProductPageProps = {
 	productsData: ProductsData[];
-}
+};
 
 const ProductPage: React.FC<ProductPageProps> = ({ productsData }) => {
 	const { t } = useTranslation();

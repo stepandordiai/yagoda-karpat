@@ -26,9 +26,9 @@ interface HeaderData {
 	harvest: number[];
 }
 
-interface HeaderProps {
+type HeaderProps = {
 	productsData: HeaderData[];
-}
+};
 
 const Header: React.FC<HeaderProps> = ({ productsData }) => {
 	const { t } = useTranslation();

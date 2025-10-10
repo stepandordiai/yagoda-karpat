@@ -23,9 +23,9 @@ interface ProductsData {
 	harvest: number[];
 }
 
-interface AboutUsProps {
+type AboutUsProps = {
 	productsData: ProductsData[];
-}
+};
 
 const AboutUs: React.FC<AboutUsProps> = ({ productsData }) => {
 	const { t } = useTranslation();

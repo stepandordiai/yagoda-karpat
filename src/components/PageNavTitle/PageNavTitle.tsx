@@ -3,11 +3,11 @@ import { HashLink } from "react-router-hash-link";
 import { NavLink } from "react-router-dom";
 import "./PageNavTitle.scss";
 
-interface PageNavTitleProps {
+type PageNavTitleProps = {
 	title: string;
 	previousTitle: string;
 	homeTitle: string;
-}
+};
 
 const PageNavTitle = ({
 	title,

@@ -26,9 +26,9 @@ interface ProductsData {
 	harvest: number[];
 }
 
-interface FooterProps {
+type FooterProps = {
 	productsData: ProductsData[];
-}
+};
 
 const Footer: React.FC<FooterProps> = ({ productsData }) => {
 	const { t } = useTranslation();
