@@ -1,31 +1,14 @@
 import { useTranslation } from "react-i18next";
 import { useState } from "react";
-import Product from "../Product/Product";
+import ProductCard from "../ProductCard/ProductCard";
 import SectionTitle from "../SectionTitle/SectionTitle";
 import searchIcon from "/icons/search.png";
 import closeIcon from "/icons/close.png";
+import { Product } from "../../interfaces/Product";
 import "./Products.scss";
 
-interface ProductsData {
-	id: string;
-	type: string;
-	status: string;
-	latName: string;
-	name: string;
-	origin: string;
-	pack: string[];
-	desc: string;
-	variants: {
-		id: string;
-		images?: string[];
-		state?: string;
-	}[];
-	isOrganic?: boolean;
-	harvest: number[];
-}
-
 type ProductsProps = {
-	productsData: ProductsData[];
+	productsData: Product[];
 };
 
 const Products: React.FC<ProductsProps> = ({ productsData }) => {
@@ -114,7 +97,7 @@ const Products: React.FC<ProductsProps> = ({ productsData }) => {
 			</div>
 			<div className="products-container">
 				{filteredProducts.map((product) => {
-					return <Product key={product.id} product={product} />;
+					return <ProductCard key={product.id} product={product} />;
 				})}
 			</div>
 		</div>

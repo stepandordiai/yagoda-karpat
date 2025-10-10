@@ -2,8 +2,9 @@ import { useTranslation } from "react-i18next";
 import { Helmet } from "react-helmet-async";
 import { useParams } from "react-router-dom";
 import PageNavTitle from "../../components/PageNavTitle/PageNavTitle";
-import Product from "../../components/Product/Product";
+import ProductCard from "../../components/ProductCard/ProductCard";
 import { useEffect, useState } from "react";
+import { Product } from "../../interfaces/Product";
 
 // Swiper
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -17,27 +18,8 @@ import NotFound from "../NotFound/NotFound";
 import Container from "../../components/Container/Container";
 import "./ProductPage.scss";
 
-interface ProductsData {
-	id: string;
-	type: string;
-	status: string;
-	latName: string;
-	name: string;
-	origin: string;
-	pack: string[];
-	desc: string;
-	variants: {
-		id: string;
-		images?: string[];
-		state?: string;
-	}[];
-	isOrganic?: boolean;
-	harvest: number[];
-	descSEO: string;
-}
-
 type ProductPageProps = {
-	productsData: ProductsData[];
+	productsData: Product[];
 };
 
 const ProductPage: React.FC<ProductPageProps> = ({ productsData }) => {
@@ -223,7 +205,7 @@ const ProductPage: React.FC<ProductPageProps> = ({ productsData }) => {
 							</p>
 							<div className="related-products__grid">
 								{relatedProducts.map((product) => {
-									return <Product product={product} key={product.id} />;
+									return <ProductCard product={product} key={product.id} />;
 								})}
 							</div>
 						</>

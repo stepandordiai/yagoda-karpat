@@ -2,32 +2,14 @@ import { useTranslation } from "react-i18next";
 import { NavLink, useParams } from "react-router-dom";
 import cameraIcon from "/icons/camera.png";
 import organicLogo from "/icons/organic-logo.jpg";
-import "./Product.scss";
-
-interface ProductsData {
-	id: string;
-	type: string;
-	status: string;
-	latName: string;
-	name: string;
-	origin: string;
-	pack: string[];
-	desc: string;
-	variants: {
-		id: string;
-		images?: string[];
-		state?: string;
-	}[];
-	isOrganic?: boolean;
-	isIQF?: boolean;
-	harvest: number[];
-}
+import { Product } from "../../interfaces/Product";
+import "./ProductCard.scss";
 
 type ProductProps = {
-	product: ProductsData;
+	product: Product;
 };
 
-const Product: React.FC<ProductProps> = ({ product }) => {
+const ProductCard: React.FC<ProductProps> = ({ product }) => {
 	const { t } = useTranslation();
 
 	const { lng } = useParams();
@@ -215,4 +197,4 @@ const Product: React.FC<ProductProps> = ({ product }) => {
 	);
 };
 
-export default Product;
+export default ProductCard;

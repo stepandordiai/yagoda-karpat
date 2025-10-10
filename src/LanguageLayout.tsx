@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import Home from "./pages/Home/Home";
@@ -11,6 +11,7 @@ import i18n from "i18next";
 import { useParams } from "react-router-dom";
 import productsData from "./assets/data/products-data.json";
 import NotFound from "./pages/NotFound/NotFound";
+import { Product } from "./interfaces/Product";
 
 // This wrapper handles language detection
 const LanguageLayout = () => {
@@ -27,6 +28,8 @@ const LanguageLayout = () => {
 		}
 	}, [lng]);
 
+	// TODO:
+	const productsDataTyped: Product[] = productsData as Product[];
 	return (
 		<>
 			<Loading />
@@ -34,10 +37,10 @@ const LanguageLayout = () => {
 			<Header productsData={productsData} />
 			{isValidLng ? (
 				<Routes>
-					<Route path="/" element={<Home productsData={productsData} />} />
+					<Route path="/" element={<Home productsData={productsDataTyped} />} />
 					<Route
 						path="/product-page/:id"
-						element={<ProductPage productsData={productsData} />}
+						element={<ProductPage productsData={productsDataTyped} />}
 					/>
 					<Route path="*" element={<NotFound />} />
 				</Routes>

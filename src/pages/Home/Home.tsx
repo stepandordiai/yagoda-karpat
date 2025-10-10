@@ -7,28 +7,11 @@ import { HashLink } from "react-router-hash-link";
 import { useParams } from "react-router-dom";
 import Container from "../../components/Container/Container";
 import video from "/video-c.mp4";
+import { Product } from "../../interfaces/Product";
 import "./Home.scss";
 
-interface ProductsData {
-	id: string;
-	type: string;
-	status: string;
-	latName: string;
-	name: string;
-	origin: string;
-	pack: string[];
-	desc: string;
-	variants: {
-		id: string;
-		images?: string[];
-		state?: string;
-	}[];
-	isOrganic?: boolean;
-	harvest: number[];
-}
-
 type HomeProps = {
-	productsData: ProductsData[];
+	productsData: Product[];
 };
 
 const Home: React.FC<HomeProps> = ({ productsData }) => {
