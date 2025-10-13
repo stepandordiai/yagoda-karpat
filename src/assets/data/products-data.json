@@ -499,7 +499,8 @@
 		"desc": "product_page.grape_desc",
 		"variants": [
 			{
-				"id": "grape-frozen"
+				"id": "grape-frozen",
+				"images": ["/products/grape/01-c.jpg", "/products/grape/02-c.jpg"]
 			}
 		],
 		"harvest": [9, 10],
