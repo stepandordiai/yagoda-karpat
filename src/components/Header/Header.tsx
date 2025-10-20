@@ -38,47 +38,28 @@ const Header: React.FC<HeaderProps> = ({ productsData }) => {
 	const [isActive, setIsActive] = useState(false);
 	const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
-	// TODO:
 	const uniqueProductTypes = [
 		...new Set(productsData.map((product) => product.type)),
 	];
-
-	const inactiveLink = "js-link";
-	const activeLink = "js-link product-link--active";
-
-	// useEffect(() => {
-	// 	let lastScrollTop = 0;
-
-	// 	function handleHeaderOnScroll(): void {
-	// 		const header = document.querySelector(".header") as HTMLElement | null;
-	// 		let scrollTop = document.documentElement.scrollTop;
-	// 		if (scrollTop > lastScrollTop && scrollTop > window.innerHeight) {
-	// 			header?.classList.add("header--hide");
-	// 		} else {
-	// 			header?.classList.remove("header--hide");
-	// 		}
-	// 		lastScrollTop = scrollTop;
-	// 	}
-
-	// 	document.addEventListener("scroll", handleHeaderOnScroll);
-
-	// 	return () => {
-	// 		document.removeEventListener("scroll", handleHeaderOnScroll);
-	// 	};
-	// }, []);
 
 	function toggleBurgerBtn(): void {
 		setIsActive((prev) => !prev);
 
 		// hide list of products in menu by clicking menu btn
-		setIsDropdownOpen(false);
+		setIsDropdownOpen((prev) => (prev ? false : prev));
 	}
+
+	const closeMenu = () => {
+		setIsActive(false);
+		setIsDropdownOpen((prev) => (prev ? false : prev));
+	};
 
 	useEffect(() => {
 		document.body.classList.toggle("body--hidden", isActive);
 	}, [isActive]);
 
 	// menu
+
 	function toggleDropdownBtn(): void {
 		setIsDropdownOpen((prev) => !prev);
 	}
@@ -127,12 +108,17 @@ const Header: React.FC<HeaderProps> = ({ productsData }) => {
 	}, [pathname]);
 
 	useEffect(() => {
-		document.querySelectorAll(".js-link").forEach((link) => {
-			link.addEventListener("click", () => {
-				setIsDropdownOpen(false);
-				setIsActive(false);
-			});
-		});
+		const closeMenuOnEsc = (e: KeyboardEvent) => {
+			if (e.key === "Escape") {
+				closeMenu();
+			}
+		};
+
+		document.addEventListener("keydown", closeMenuOnEsc);
+
+		return () => {
+			document.removeEventListener("keydown", closeMenuOnEsc);
+		};
 	}, []);
 
 	return (
@@ -141,7 +127,7 @@ const Header: React.FC<HeaderProps> = ({ productsData }) => {
 				<Container>
 					<div className="header-inner">
 						<NavLink to={`/${lng}`} className="header__logo">
-							<img width={30} src={logo} alt="Yagoda Karpat Logo" />
+							<img width={30} src={logo} alt="Yagoda Karpat logo" />
 							<span>{t("company_name")}</span>
 						</NavLink>
 						<LngSelect />
@@ -153,18 +139,14 @@ const Header: React.FC<HeaderProps> = ({ productsData }) => {
 
 						<button onClick={toggleBurgerBtn} className="burger-btn">
 							<span
-								className={
-									isActive
-										? "burger-btn-inner burger-btn-inner--active"
-										: "burger-btn-inner"
-								}
+								className={`burger-btn-inner ${
+									isActive ? "burger-btn-inner--active" : ""
+								}`}
 							>
 								<span
-									className={
-										isActive
-											? "burger-btn-inner__center-line burger-btn-inner__center-line--active"
-											: "burger-btn-inner__center-line"
-									}
+									className={`burger-btn-inner__center-line ${
+										isActive ? "burger-btn-inner__center-line--active" : ""
+									}`}
 								></span>
 							</span>
 						</button>
@@ -174,11 +156,12 @@ const Header: React.FC<HeaderProps> = ({ productsData }) => {
 
 			{/* menu */}
 
-			<div className={isActive ? "menu menu--active" : "menu"}>
+			<div className={`menu ${isActive ? "menu--active" : ""}`}>
 				<ul className="menu__list">
 					<li>
 						<HashLink
-							className="link js-link link--active"
+							onClick={closeMenu}
+							className="link link--active"
 							smooth
 							to={`/${lng}/#home`}
 						>
@@ -186,44 +169,44 @@ const Header: React.FC<HeaderProps> = ({ productsData }) => {
 						</HashLink>
 					</li>
 					<li>
-						<HashLink className="link js-link" smooth to={`/${lng}/#about-us`}>
+						<HashLink
+							onClick={closeMenu}
+							className="link"
+							smooth
+							to={`/${lng}/#about-us`}
+						>
 							{t("about_us_title")}
 						</HashLink>
 					</li>
 					<li>
 						<div className="menu__products-link">
 							<HashLink
-								className="link js-link"
+								onClick={closeMenu}
+								className="link"
 								smooth
 								to={`/${lng}/#products`}
 							>
 								{t("products_title")}
 							</HashLink>
 							<button
-								className={
-									isDropdownOpen
-										? "products-btn products-btn--active"
-										: "products-btn"
-								}
+								className={`products-btn ${
+									isDropdownOpen ? "products-btn--active" : ""
+								}`}
 								onClick={toggleDropdownBtn}
 							>
 								<span
-									className={
-										isDropdownOpen
-											? "products-btn__icon products-btn__icon--active"
-											: "products-btn__icon"
-									}
+									className={`products-btn__icon ${
+										isDropdownOpen ? "products-btn__icon--active" : ""
+									}`}
 								>
 									<img src={plusIcon} width={25} height={25} alt="" />
 								</span>
 							</button>
 						</div>
 						<div
-							className={
-								isDropdownOpen
-									? "menu__grid-dropdown menu__grid-dropdown--active"
-									: "menu__grid-dropdown"
-							}
+							className={`menu__grid-dropdown ${
+								isDropdownOpen ? "menu__grid-dropdown--active" : ""
+							}`}
 						>
 							<div className="menu__dropdown">
 								<div className="menu__inner-dd">
@@ -238,8 +221,9 @@ const Header: React.FC<HeaderProps> = ({ productsData }) => {
 															return (
 																<li key={id}>
 																	<NavLink
+																		onClick={closeMenu}
 																		className={({ isActive }) =>
-																			isActive ? activeLink : inactiveLink
+																			isActive ? "product-link--active" : ""
 																		}
 																		to={`/${lng}/product-page/${id}`}
 																	>
@@ -257,7 +241,12 @@ const Header: React.FC<HeaderProps> = ({ productsData }) => {
 						</div>
 					</li>
 					<li>
-						<HashLink className="link js-link" smooth to={`/${lng}/#contacts`}>
+						<HashLink
+							onClick={closeMenu}
+							className="link"
+							smooth
+							to={`/${lng}/#contacts`}
+						>
 							{t("contacts_title")}
 						</HashLink>
 					</li>
@@ -275,9 +264,7 @@ const Header: React.FC<HeaderProps> = ({ productsData }) => {
 			{/* menu-curtain */}
 
 			<div
-				className={
-					isActive ? "menu-curtain menu-curtain--active" : "menu-curtain"
-				}
+				className={`menu-curtain ${isActive ? "menu-curtain--active" : ""}`}
 			></div>
 		</>
 	);
