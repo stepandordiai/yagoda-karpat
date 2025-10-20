@@ -6,28 +6,11 @@ import { HashLink } from "react-router-hash-link";
 import Container from "../Container/Container";
 import logo from "/logo-img/yagoda-karpat-logo.svg";
 import plusIcon from "/icons/plus.png";
+import { Product } from "../../interfaces/Product";
 import "./Header.scss";
 
-interface HeaderData {
-	id: string;
-	type: string;
-	status: string;
-	latName: string;
-	name: string;
-	origin: string;
-	pack: string[];
-	desc: string;
-	variants: {
-		id: string;
-		images?: string[];
-		state?: string;
-	}[];
-	isOrganic?: boolean;
-	harvest: number[];
-}
-
 type HeaderProps = {
-	productsData: HeaderData[];
+	productsData: Product[];
 };
 
 const Header: React.FC<HeaderProps> = ({ productsData }) => {

@@ -4,39 +4,55 @@ import styles from "./BusinessHours.module.scss";
 const BusinessHours = () => {
 	const { t } = useTranslation();
 
-	const date = new Date();
+	const dayNow = new Date().getDay();
+	const correctDayNow = dayNow === 0 ? 6 : dayNow - 1;
 
-	const dayNow = date.getDay();
-
-	const activeDay = styles["day--active"];
+	const businessHoursData = [
+		{
+			name: "mon",
+			hours: "8:00 - 19:00",
+		},
+		{
+			name: "tue",
+			hours: "8:00 - 19:00",
+		},
+		{
+			name: "wed",
+			hours: "8:00 - 19:00",
+		},
+		{
+			name: "thu",
+			hours: "8:00 - 19:00",
+		},
+		{
+			name: "fri",
+			hours: "8:00 - 19:00",
+		},
+		{
+			name: "sat",
+			hours: "8:00 - 19:00",
+		},
+		{
+			name: "sun",
+			hours: "closed",
+		},
+	];
 
 	return (
 		<div className={styles["business-hours"]}>
-			<h2 className={styles["business-hours__title"]}>
+			<h3 className={styles["business-hours__title"]}>
 				{t("business_hours_title")}
-			</h2>
+			</h3>
 			<ul className={styles["business-hours__list"]}>
-				<li className={dayNow == 1 ? activeDay : ""}>
-					<span>{t("mon")}:</span> <span>8:00 - 19:00</span>
-				</li>
-				<li className={dayNow == 2 ? activeDay : ""}>
-					<span>{t("tue")}:</span> <span>8:00 - 19:00</span>
-				</li>
-				<li className={dayNow == 3 ? activeDay : ""}>
-					<span>{t("wed")}:</span> <span>8:00 - 19:00</span>
-				</li>
-				<li className={dayNow == 4 ? activeDay : ""}>
-					<span>{t("thu")}:</span> <span>8:00 - 19:00</span>
-				</li>
-				<li className={dayNow == 5 ? activeDay : ""}>
-					<span>{t("fri")}:</span> <span>8:00 - 19:00</span>
-				</li>
-				<li className={dayNow == 6 ? activeDay : ""}>
-					<span>{t("sat")}:</span> <span>8:00 - 19:00</span>
-				</li>
-				<li className={dayNow == 0 ? activeDay : ""}>
-					<span>{t("sun")}:</span> <span>{t("closed")}</span>
-				</li>
+				{businessHoursData.map((day, index) => {
+					return (
+						<li
+							className={correctDayNow === index ? styles["day--active"] : ""}
+						>
+							<span>{t(day.name)}:</span> <span>{t(day.hours)}</span>
+						</li>
+					);
+				})}
 			</ul>
 		</div>
 	);

@@ -1,30 +1,13 @@
 import { useTranslation } from "react-i18next";
 import { useEffect } from "react";
-import worldMapImg from "../../assets/world-map.svg";
 import Gallery from "../Gallery/Gallery";
 import SectionTitle from "../SectionTitle/SectionTitle";
+import { Product } from "../../interfaces/Product";
+import worldMapImg from "../../assets/world-map.svg";
 import "./AboutUs.scss";
 
-interface ProductsData {
-	id: string;
-	type: string;
-	status: string;
-	latName: string;
-	name: string;
-	origin: string;
-	pack: string[];
-	desc: string;
-	variants: {
-		id: string;
-		images?: string[];
-		state?: string;
-	}[];
-	isOrganic?: boolean;
-	harvest: number[];
-}
-
 type AboutUsProps = {
-	productsData: ProductsData[];
+	productsData: Product[];
 };
 
 const AboutUs: React.FC<AboutUsProps> = ({ productsData }) => {
