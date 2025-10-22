@@ -1,9 +1,9 @@
 import { useTranslation } from "react-i18next";
-import { Helmet } from "react-helmet-async";
+import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 import PageNavTitle from "../../components/PageNavTitle/PageNavTitle";
 import ProductCard from "../../components/ProductCard/ProductCard";
-import { useEffect, useState } from "react";
 import { Product } from "../../interfaces/Product";
 
 // Swiper

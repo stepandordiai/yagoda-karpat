@@ -18,11 +18,20 @@ const Footer: React.FC<FooterProps> = ({ productsData }) => {
 
 	const { lng } = useParams();
 
+	const linksData = [
+		{ id: 1, name: "home_title", path: `/${lng}/#home` },
+		{ id: 2, name: "about_us_title", path: `/${lng}/#about-us` },
+		{ id: 3, name: "products_title", path: `/${lng}/#products` },
+		{ id: 4, name: "contacts_title", path: `/${lng}/#contacts` },
+	];
+
 	const uniqueProductTypes = [
 		...new Set(productsData.map((product) => product.type)),
 	];
 
 	const [footerNavDropdownActive, setFooterNavDropdownActive] = useState(false);
+
+	// TODO:
 	const [footerDropdownActive, setFooterDropdownActive] = useState<boolean[]>(
 		() => new Array(uniqueProductTypes.length).fill(false)
 	);
@@ -94,42 +103,19 @@ const Footer: React.FC<FooterProps> = ({ productsData }) => {
 								>
 									<div className="grid-dropdown">
 										<ul className="footer-nav__list">
-											<li>
-												<HashLink
-													onClick={closeFooterDropdown}
-													smooth
-													to={`/${lng}/#home`}
-												>
-													{t("home_title")}
-												</HashLink>
-											</li>
-											<li>
-												<HashLink
-													onClick={closeFooterDropdown}
-													smooth
-													to={`/${lng}/#about-us`}
-												>
-													{t("about_us_title")}
-												</HashLink>
-											</li>
-											<li>
-												<HashLink
-													onClick={closeFooterDropdown}
-													smooth
-													to={`/${lng}/#products`}
-												>
-													{t("products_title")}
-												</HashLink>
-											</li>
-											<li>
-												<HashLink
-													onClick={closeFooterDropdown}
-													smooth
-													to={`/${lng}/#contacts`}
-												>
-													{t("contacts_title")}
-												</HashLink>
-											</li>
+											{linksData.map((link) => {
+												return (
+													<li key={link.id}>
+														<HashLink
+															onClick={closeFooterDropdown}
+															smooth
+															to={link.path}
+														>
+															{t(link.name)}
+														</HashLink>
+													</li>
+												);
+											})}
 										</ul>
 									</div>
 								</div>

@@ -52,11 +52,9 @@ const Products: React.FC<ProductsProps> = ({ productsData }) => {
 				<div className="products__btn-container">
 					<button
 						onClick={() => handleProductType("all")}
-						className={
-							productType === "all"
-								? "products__btn products__btn--active"
-								: "products__btn"
-						}
+						className={`products__btn ${
+							productType === "all" ? "products__btn--active" : ""
+						}`}
 					>
 						{t("all")}
 					</button>
@@ -64,11 +62,9 @@ const Products: React.FC<ProductsProps> = ({ productsData }) => {
 						return (
 							<button
 								onClick={() => handleProductType(type)}
-								className={
-									productType === type
-										? "products__btn products__btn--active"
-										: "products__btn"
-								}
+								className={`products__btn ${
+									productType === type ? "products__btn--active" : ""
+								}`}
 							>
 								{t(type)}
 							</button>

@@ -1,12 +1,12 @@
 import { useTranslation } from "react-i18next";
-import LngSelect from "../LngSelect/LngSelect";
-import { NavLink, useParams, useLocation } from "react-router-dom";
 import { useState, useEffect } from "react";
+import { NavLink, useParams, useLocation } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
+import LngSelect from "../LngSelect/LngSelect";
 import Container from "../Container/Container";
+import { Product } from "../../interfaces/Product";
 import logo from "/logo-img/yagoda-karpat-logo.svg";
 import plusIcon from "/icons/plus.png";
-import { Product } from "../../interfaces/Product";
 import "./Header.scss";
 
 type HeaderProps = {
@@ -63,6 +63,7 @@ const Header: React.FC<HeaderProps> = ({ productsData }) => {
 		});
 	}
 
+	// FIXME:
 	useEffect(() => {
 		const links = document.querySelectorAll(".link") as NodeListOf<HTMLElement>;
 		const sections = [
@@ -90,6 +91,7 @@ const Header: React.FC<HeaderProps> = ({ productsData }) => {
 		};
 	}, [pathname]);
 
+	// Close menu on Esc
 	useEffect(() => {
 		const closeMenuOnEsc = (e: KeyboardEvent) => {
 			if (e.key === "Escape") {
@@ -99,9 +101,7 @@ const Header: React.FC<HeaderProps> = ({ productsData }) => {
 
 		document.addEventListener("keydown", closeMenuOnEsc);
 
-		return () => {
-			document.removeEventListener("keydown", closeMenuOnEsc);
-		};
+		return () => document.removeEventListener("keydown", closeMenuOnEsc);
 	}, []);
 
 	return (

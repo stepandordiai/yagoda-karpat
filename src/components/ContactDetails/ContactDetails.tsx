@@ -7,6 +7,7 @@ import "./ContactDetails.scss";
 const ContactDetails = () => {
 	const { t } = useTranslation();
 
+	// FIXME:
 	let isCopyTxt = false;
 
 	const handleCopyBtn = (

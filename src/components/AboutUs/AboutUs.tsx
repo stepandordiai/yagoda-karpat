@@ -1,9 +1,9 @@
 import { useTranslation } from "react-i18next";
 import { useEffect } from "react";
+import worldMapImg from "../../assets/world-map.svg";
 import Gallery from "../Gallery/Gallery";
 import SectionTitle from "../SectionTitle/SectionTitle";
 import { Product } from "../../interfaces/Product";
-import worldMapImg from "../../assets/world-map.svg";
 import "./AboutUs.scss";
 
 type AboutUsProps = {
@@ -15,7 +15,6 @@ const AboutUs: React.FC<AboutUsProps> = ({ productsData }) => {
 
 	const dateNow = new Date();
 	const companyEstablishedDate = new Date("2010-01-01");
-
 	const diffInYears =
 		dateNow.getFullYear() - companyEstablishedDate.getFullYear();
 
@@ -33,6 +32,7 @@ const AboutUs: React.FC<AboutUsProps> = ({ productsData }) => {
 
 		loadSVG();
 
+		// FIXME:
 		const statsCards = document.querySelectorAll(
 			".stats-card"
 		) as NodeListOf<HTMLDivElement>;
@@ -68,9 +68,7 @@ const AboutUs: React.FC<AboutUsProps> = ({ productsData }) => {
 
 		document.addEventListener("scroll", handleCounter);
 
-		return () => {
-			document.removeEventListener("scroll", handleCounter);
-		};
+		return () => document.removeEventListener("scroll", handleCounter);
 	}, []);
 
 	return (

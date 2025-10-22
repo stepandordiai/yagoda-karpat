@@ -1,10 +1,10 @@
 import { useEffect } from "react";
 import i18n from "i18next";
-import "./LngSelect.scss";
 import { useParams } from "react-router-dom";
 import { useLocation } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import getStorage from "../../utils/getStorage";
+import "./LngSelect.scss";
 
 const LngSelect = () => {
 	const { lng } = useParams(); // current language from URL
@@ -20,6 +20,7 @@ const LngSelect = () => {
 		}
 	}, [lng]);
 
+	// FIXME:
 	useEffect(() => {
 		const handleLanguage = (lng: string) => {
 			if (!supportedLngs.includes(lng)) return;

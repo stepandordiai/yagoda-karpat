@@ -21,6 +21,21 @@ const ProductCard: React.FC<ProductProps> = ({ product }) => {
 		variant.images ? variant.images : []
 	);
 
+	const harvestData = [
+		{ id: 1, title: t("jan"), name: t("jan_s") },
+		{ id: 2, title: t("feb"), name: t("feb_s") },
+		{ id: 3, title: t("mar"), name: t("mar_s") },
+		{ id: 4, title: t("apr"), name: t("apr_s") },
+		{ id: 5, title: t("may"), name: t("may_s") },
+		{ id: 6, title: t("jun"), name: t("jun_s") },
+		{ id: 7, title: t("jul"), name: t("jul_s") },
+		{ id: 8, title: t("aug"), name: t("aug_s") },
+		{ id: 9, title: t("sep"), name: t("sep_s") },
+		{ id: 10, title: t("oct"), name: t("oct_s") },
+		{ id: 11, title: t("nov"), name: t("nov_s") },
+		{ id: 12, title: t("dec"), name: t("dec_s") },
+	];
+
 	return (
 		<div className="product">
 			<div className="product-top">
@@ -72,126 +87,18 @@ const ProductCard: React.FC<ProductProps> = ({ product }) => {
 			</div>
 			<p style={{ fontWeight: 500 }}>{t("harvest_calendar")}</p>
 			<div className="product__harvest">
-				<div
-					title={t("jan")}
-					className={
-						harvest.includes(1)
-							? "harvest-month month--active"
-							: "harvest-month"
-					}
-				>
-					{t("jan_s")}
-				</div>
-				<div
-					title={t("feb")}
-					className={
-						harvest.includes(2)
-							? "harvest-month month--active"
-							: "harvest-month"
-					}
-				>
-					{t("feb_s")}
-				</div>
-				<div
-					title={t("mar")}
-					className={
-						harvest.includes(3)
-							? "harvest-month month--active"
-							: "harvest-month"
-					}
-				>
-					{t("mar_s")}
-				</div>
-				<div
-					title={t("apr")}
-					className={
-						harvest.includes(4)
-							? "harvest-month month--active"
-							: "harvest-month"
-					}
-				>
-					{t("apr_s")}
-				</div>
-				<div
-					title={t("may")}
-					className={
-						harvest.includes(5)
-							? "harvest-month month--active"
-							: "harvest-month"
-					}
-				>
-					{t("may_s")}
-				</div>
-				<div
-					title={t("jun")}
-					className={
-						harvest.includes(6)
-							? "harvest-month month--active"
-							: "harvest-month"
-					}
-				>
-					{t("jun_s")}
-				</div>
-				<div
-					title={t("jul")}
-					className={
-						harvest.includes(7)
-							? "harvest-month month--active"
-							: "harvest-month"
-					}
-				>
-					{t("jul_s")}
-				</div>
-				<div
-					title={t("aug")}
-					className={
-						harvest.includes(8)
-							? "harvest-month month--active"
-							: "harvest-month"
-					}
-				>
-					{t("aug_s")}
-				</div>
-				<div
-					title={t("sep")}
-					className={
-						harvest.includes(9)
-							? "harvest-month month--active"
-							: "harvest-month"
-					}
-				>
-					{t("sep_s")}
-				</div>
-				<div
-					title={t("oct")}
-					className={
-						harvest.includes(10)
-							? "harvest-month month--active"
-							: "harvest-month"
-					}
-				>
-					{t("oct_s")}
-				</div>
-				<div
-					title={t("nov")}
-					className={
-						harvest.includes(11)
-							? "harvest-month month--active"
-							: "harvest-month"
-					}
-				>
-					{t("nov_s")}
-				</div>
-				<div
-					title={t("dec")}
-					className={
-						harvest.includes(12)
-							? "harvest-month month--active"
-							: "harvest-month"
-					}
-				>
-					{t("dec_s")}
-				</div>
+				{harvestData.map((month) => {
+					return (
+						<div
+							title={month.title}
+							className={`harvest-month ${
+								harvest.includes(month.id) ? "month--active" : ""
+							}`}
+						>
+							{month.name}
+						</div>
+					);
+				})}
 			</div>
 		</div>
 	);

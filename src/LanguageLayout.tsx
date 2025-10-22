@@ -34,7 +34,7 @@ const LanguageLayout = () => {
 		<>
 			<Loading />
 			<ScrollToTop />
-			<Header productsData={productsData} />
+			<Header productsData={productsDataTyped} />
 			{isValidLng ? (
 				<Routes>
 					<Route path="/" element={<Home productsData={productsDataTyped} />} />
@@ -48,7 +48,7 @@ const LanguageLayout = () => {
 				<NotFound />
 			)}
 
-			<Footer productsData={productsData} />
+			<Footer productsData={productsDataTyped} />
 		</>
 	);
 };
