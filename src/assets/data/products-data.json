@@ -10,7 +10,7 @@
 		"desc": "product_page.boletus_desc",
 		"variants": [
 			{
-				"id": "boletus-fresh-whole",
+				"id": 1,
 				"images": ["/products/boletus-fresh/1-c.jpg"]
 			}
 		],
@@ -28,9 +28,21 @@
 		"desc": "product_page.bilberry_desc",
 		"variants": [
 			{
-				"id": "bilberry-frozen",
-				"state": "product_page.state_7",
-				"images": ["/products/bilberry/1-min.JPG"]
+				"id": 1,
+				"state": "product_page.uncleaned_1",
+				"images": [
+					"/products/bilberry/1-min.JPG",
+					"/products/bilberry/4-min.jpg",
+					"/products/bilberry/5-min.jpg"
+				]
+			},
+			{
+				"id": 2,
+				"state": "product_page.cleaned_1",
+				"images": [
+					"/products/bilberry/2-min.jpg",
+					"/products/bilberry/3-min.jpg"
+				]
 			}
 		],
 		"harvest": [7, 8],
@@ -49,13 +61,13 @@
 		"desc": "product_page.lingonberry_desc",
 		"variants": [
 			{
-				"id": "lingonberry-frozen-cleaned",
-				"state": "product_page.state_9",
+				"id": 1,
+				"state": "product_page.cleaned_1",
 				"images": ["/products/lingonberry/1-min.jpg"]
 			},
 			{
-				"id": "lingonberry-frozen-uncleaned",
-				"state": "product_page.state_7",
+				"id": 2,
+				"state": "product_page.uncleaned_1",
 				"images": ["/products/lingonberry/2-min.jpg"]
 			}
 		],
@@ -75,7 +87,7 @@
 		"desc": "product_page.rosehip_desc",
 		"variants": [
 			{
-				"id": "rosehip-frozen",
+				"id": 1,
 				"images": ["/products/rosehip/1-min.JPG", "/products/rosehip/2-min.JPG"]
 			}
 		],
@@ -95,14 +107,17 @@
 		"desc": "product_page.plum_frozen_desc",
 		"variants": [
 			{
-				"id": "plum-frozen-whole",
-				"state": "product_page.state_5",
+				"id": 1,
+				"state": "product_page.with_stone",
 				"images": ["/products/plum/1-min.JPG"]
 			},
 			{
-				"id": "plum-frozen-half",
-				"state": "product_page.state_6",
-				"images": ["/products/plum-pitted/1-min.JPG"]
+				"id": 2,
+				"state": "product_page.pitted",
+				"images": [
+					"/products/plum-pitted/1-min.JPG",
+					"/products/plum-pitted/2-min.jpg"
+				]
 			}
 		],
 		"harvest": [8, 9],
@@ -120,8 +135,8 @@
 		"desc": "product_page.plum_dried_desc",
 		"variants": [
 			{
-				"id": "plum-dried-with-stone",
-				"state": "product_page.state_5",
+				"id": 1,
+				"state": "product_page.with_stone",
 				"images": [
 					"/products/plum-dried/01-c.jpg",
 					"/products/plum-dried/02-c.jpg",
@@ -145,8 +160,8 @@
 		"desc": "product_page.prune_desc",
 		"variants": [
 			{
-				"id": "prune-pitted",
-				"state": "product_page.state_6",
+				"id": 1,
+				"state": "product_page.pitted",
 				"images": ["/products/prune/01-c.jpg", "/products/prune/02-c.jpg"]
 			}
 		],
@@ -164,8 +179,8 @@
 		"desc": "product_page.elderberry_desc",
 		"variants": [
 			{
-				"id": "elderberry-frozen",
-				"state": "product_page.state_9",
+				"id": 1,
+				"state": "product_page.cleaned_1",
 				"images": [
 					"/products/elderberry/1-c.jpg",
 					"/products/elderberry/2-c.jpg",
@@ -189,7 +204,7 @@
 		"desc": "product_page.strawberry_desc",
 		"variants": [
 			{
-				"id": "strawberry-frozen",
+				"id": 1,
 				"images": [
 					"/products/strawberry/1-min.jpg",
 					"/products/strawberry/2-min.jpg"
@@ -211,7 +226,7 @@
 		"desc": "product_page.raspberry_desc",
 		"variants": [
 			{
-				"id": "raspberry-frozen",
+				"id": 1,
 				"images": [
 					"/products/raspberry-frozen/1-min.JPG",
 					"/products/raspberry-frozen/2-min.JPG"
@@ -233,7 +248,7 @@
 		"desc": "product_page.apricot_desc",
 		"variants": [
 			{
-				"id": "apricot-frozen"
+				"id": 1
 			}
 		],
 		"harvest": [7, 8],
@@ -251,8 +266,8 @@
 		"desc": "product_page.sweet_pepper_red_desc",
 		"variants": [
 			{
-				"id": "sweet-pepper-red-frozen-strawed",
-				"state": "product_page.state_4",
+				"id": 1,
+				"state": "product_page.strawed",
 				"images": [
 					"/products/sweet-pepper-red-frozen/1-min.JPG",
 					"/products/sweet-pepper-red-frozen/2-min.JPG"
@@ -274,8 +289,8 @@
 		"desc": "product_page.sweet_pepper_green_desc",
 		"variants": [
 			{
-				"id": "sweet-pepper-green-frozen-strawed",
-				"state": "product_page.state_4",
+				"id": 1,
+				"state": "product_page.strawed",
 				"images": ["/products/sweet-pepper-green-frozen/1-min.JPG"]
 			}
 		],
@@ -294,8 +309,8 @@
 		"desc": "product_page.sweet_pepper_yellow_desc",
 		"variants": [
 			{
-				"id": "sweet-pepper-yellow-frozen-strawed",
-				"state": "product_page.state_4",
+				"id": 1,
+				"state": "product_page.strawed",
 				"images": ["/products/sweet-pepper-yellow-frozen/1-min.JPG"]
 			}
 		],
@@ -314,8 +329,8 @@
 		"desc": "product_page.sweet_pepper_desc",
 		"variants": [
 			{
-				"id": "sweet-pepper-strawed",
-				"state": "product_page.state_4",
+				"id": 1,
+				"state": "product_page.strawed",
 				"images": [
 					"/products/sweet-pepper-frozen/1-min.jpg",
 					"/products/sweet-pepper-frozen/2-min.jpg"
@@ -337,21 +352,21 @@
 		"desc": "product_page.boletus_desc",
 		"variants": [
 			{
-				"id": "boletus-frozen-whole",
-				"state": "product_page.state_1",
+				"id": 1,
+				"state": "product_page.whole",
 				"images": [
 					"/products/boletus-frozen-whole/1-min.jpg",
 					"/products/boletus-frozen-whole/2-min.jpg"
 				]
 			},
 			{
-				"id": "boletus-frozen-slice",
-				"state": "product_page.state_2",
+				"id": 2,
+				"state": "product_page.sliced",
 				"images": ["/products/boletus-frozen-sliced/1-min.jpg"]
 			},
 			{
-				"id": "boletus-frozen-cubic",
-				"state": "product_page.state_3",
+				"id": 3,
+				"state": "product_page.cubic",
 				"images": [
 					"/products/boletus-frozen-cubic/1-min.jpg",
 					"/products/boletus-frozen-cubic/2-min.jpg"
@@ -373,7 +388,7 @@
 		"desc": "product_page.boletus_dried_desc",
 		"variants": [
 			{
-				"id": "boletus-dried",
+				"id": 1,
 				"images": ["/products/boletus-dried/1-min.jpg"]
 			}
 		],
@@ -391,7 +406,7 @@
 		"desc": "product_page.chanterelle_desc",
 		"variants": [
 			{
-				"id": "chanterelle-fresh",
+				"id": 1,
 				"images": ["/products/chanterelle/1-min.jpg"]
 			}
 		],
@@ -409,7 +424,7 @@
 		"desc": "product_page.chanterelle_dried_desc",
 		"variants": [
 			{
-				"id": "chanterelle-dried"
+				"id": 1
 			}
 		],
 		"harvest": [7, 8, 9],
@@ -426,8 +441,8 @@
 		"desc": "product_page.sour_cherry_desc",
 		"variants": [
 			{
-				"id": "sour-cherry-fozen-pitted",
-				"state": "product_page.state_6",
+				"id": 1,
+				"state": "product_page.pitted",
 				"images": [
 					"/products/sour-cherry-frozen-pitted/1-min.jpg",
 					"/products/sour-cherry-frozen-pitted/2-min.jpg",
@@ -438,8 +453,8 @@
 				]
 			},
 			{
-				"id": "sour-cherry-frozen-with-stone",
-				"state": "product_page.state_5",
+				"id": 2,
+				"state": "product_page.with_stone",
 				"images": [
 					"/products/sour-cherry-frozen/1-min.jpg",
 					"/products/sour-cherry-frozen/2-min.jpg"
@@ -461,7 +476,7 @@
 		"desc": "product_page.honey_fungus_desc",
 		"variants": [
 			{
-				"id": "honey-fungus-frozen",
+				"id": 1,
 				"images": ["/products/honey-fungus/1-min.jpg"]
 			}
 		],
@@ -480,7 +495,7 @@
 		"pack": ["product_page.pack_1", "product_page.pack_2"],
 		"variants": [
 			{
-				"id": "blackberry-frozen"
+				"id": 1
 			}
 		],
 		"isOrganic": true,
@@ -499,7 +514,7 @@
 		"desc": "product_page.grape_desc",
 		"variants": [
 			{
-				"id": "grape-frozen",
+				"id": 1,
 				"images": ["/products/grape/01-c.jpg", "/products/grape/02-c.jpg"]
 			}
 		],
@@ -518,7 +533,7 @@
 		"desc": "product_page.corn_desc",
 		"variants": [
 			{
-				"id": "corn-frozen"
+				"id": 1
 			}
 		],
 		"harvest": [8, 9],
@@ -536,7 +551,7 @@
 		"desc": "product_page.black_currant_desc",
 		"variants": [
 			{
-				"id": "black-currant-frozen",
+				"id": 1,
 				"images": ["/products/black-currant/1-c.jpg"]
 			}
 		],

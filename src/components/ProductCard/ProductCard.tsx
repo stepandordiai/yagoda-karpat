@@ -1,8 +1,9 @@
 import { useTranslation } from "react-i18next";
 import { NavLink, useParams } from "react-router-dom";
+import harvestData from "./../../assets/data/harvest-data.json";
+import { Product } from "../../interfaces/Product";
 import cameraIcon from "/icons/camera.png";
 import organicLogo from "/icons/organic-logo.jpg";
-import { Product } from "../../interfaces/Product";
 import "./ProductCard.scss";
 
 type ProductProps = {
@@ -20,21 +21,6 @@ const ProductCard: React.FC<ProductProps> = ({ product }) => {
 	const allImages = variants.flatMap((variant) =>
 		variant.images ? variant.images : []
 	);
-
-	const harvestData = [
-		{ id: 1, title: t("jan"), name: t("jan_s") },
-		{ id: 2, title: t("feb"), name: t("feb_s") },
-		{ id: 3, title: t("mar"), name: t("mar_s") },
-		{ id: 4, title: t("apr"), name: t("apr_s") },
-		{ id: 5, title: t("may"), name: t("may_s") },
-		{ id: 6, title: t("jun"), name: t("jun_s") },
-		{ id: 7, title: t("jul"), name: t("jul_s") },
-		{ id: 8, title: t("aug"), name: t("aug_s") },
-		{ id: 9, title: t("sep"), name: t("sep_s") },
-		{ id: 10, title: t("oct"), name: t("oct_s") },
-		{ id: 11, title: t("nov"), name: t("nov_s") },
-		{ id: 12, title: t("dec"), name: t("dec_s") },
-	];
 
 	return (
 		<div className="product">
@@ -87,15 +73,15 @@ const ProductCard: React.FC<ProductProps> = ({ product }) => {
 			</div>
 			<p style={{ fontWeight: 500 }}>{t("harvest_calendar")}</p>
 			<div className="product__harvest">
-				{harvestData.map((month) => {
+				{harvestData.map(({ id, month }) => {
 					return (
 						<div
-							title={month.title}
+							title={t(month)}
 							className={`harvest-month ${
-								harvest.includes(month.id) ? "month--active" : ""
+								harvest.includes(id) ? "month--active" : ""
 							}`}
 						>
-							{month.name}
+							{t(month)[0]}
 						</div>
 					);
 				})}

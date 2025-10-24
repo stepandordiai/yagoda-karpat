@@ -33,7 +33,7 @@ const ProductPage: React.FC<ProductPageProps> = ({ productsData }) => {
 		product?.variants[0].id
 	);
 
-	function handleVariantId(props: string) {
+	function handleVariantId(props: number) {
 		if (!props) return;
 		setActiveVariantId(props);
 	}
@@ -48,7 +48,7 @@ const ProductPage: React.FC<ProductPageProps> = ({ productsData }) => {
 	// TODO:
 
 	interface ProductVariant {
-		id: string;
+		id: number;
 		images?: string[];
 		state?: string;
 	}
@@ -58,15 +58,16 @@ const ProductPage: React.FC<ProductPageProps> = ({ productsData }) => {
 		product?.variants[0] ??
 		null;
 
+	// FIXME:
 	if (!product || !productVariant) {
 		return <NotFound />;
 	}
 
-	const relatedProducts = productsData.filter((product) => {
+	const relatedProducts = productsData.filter((el) => {
 		return (
-			product.status === product.status &&
-			product.type === product.type &&
-			product.name !== product.name
+			el.status === product.status &&
+			el.type === product.type &&
+			el.name !== product.name
 		);
 	});
 

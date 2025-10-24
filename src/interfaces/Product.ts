@@ -8,7 +8,7 @@ export interface Product {
 	pack: string[];
 	desc: string;
 	variants: {
-		id: string;
+		id: number;
 		images?: string[];
 		state?: string;
 	}[];
