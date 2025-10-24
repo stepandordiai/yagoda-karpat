@@ -1,39 +1,31 @@
 import { useTranslation } from "react-i18next";
 
-// Import Swiper React components
-// import { Swiper, SwiperSlide } from "swiper/react";
+// Swiper
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+import { Autoplay } from "swiper/modules";
 
-// Import Swiper styles
-// import "swiper/css";
-// import "swiper/css/pagination";
-// import "swiper/css/navigation";
-
-// import required modules
-// import { Autoplay } from "swiper/modules";
 import "./Gallery.scss";
+
+interface GalleryDataTypes {
+	img: string;
+	date: string;
+}
+
+const galleryData: Required<GalleryDataTypes[]> = [
+	{ img: "/gallery/01-c.jpg", date: "26/11/24" },
+	{ img: "/gallery/02-c.jpg", date: "8/7/24" },
+];
 
 const Gallery = () => {
 	const { t } = useTranslation();
 
-	// interface GalleryDataTypes {
-	// 	img: string;
-	// 	date: string;
-	// }
-
-	// Required properties
-	// const galleryData: Required<GalleryDataTypes[]> = [
-	// { img: "/gallery/1.jpg", date: "26/11/21" },
-	// { img: "/gallery/2.jpg", date: "8/7/23" },
-	// { img: "/gallery/3.jpg", date: "18/7/23" },
-	// { img: "/gallery/4.jpg", date: "13/7/24" },
-	// { img: "/gallery/5.jpg", date: "13/7/24" },
-	// ];
-
 	return (
 		<div className="gallery">
 			<h2 className="gallery__title">{t("gallery_title")}</h2>
-			<p>{t("coming_soon")}</p>
-			{/* <Swiper
+			<Swiper
 				breakpoints={{
 					900: {
 						slidesPerView: 4,
@@ -49,20 +41,16 @@ const Gallery = () => {
 				speed={1000}
 				loop={true}
 				modules={[Autoplay]}
-				className={styles["mySwiper"]}
+				className="mySwiper"
 			>
 				{galleryData.map(({ img, date }, index) => {
 					return (
-						<SwiperSlide
-							key={index}
-							className={styles["swiper-card"]}
-							data-date={date}
-						>
+						<SwiperSlide key={index} className="swiper-card" data-date={date}>
 							<img src={img} alt="" loading="lazy" />
 						</SwiperSlide>
 					);
 				})}
-			</Swiper> */}
+			</Swiper>
 		</div>
 	);
 };
