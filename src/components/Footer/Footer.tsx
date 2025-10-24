@@ -4,6 +4,7 @@ import { NavLink, useParams } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 import Container from "../Container/Container";
 import { Product } from "../../interfaces/Product";
+import linksData from "./../../assets/data/links-data.json";
 import upArrowIcon from "/icons/up-arrow.png";
 import plusIcon from "/icons/plus.png";
 import logo from "/logo-img/yagoda-karpat-logo.svg";
@@ -17,13 +18,6 @@ const Footer: React.FC<FooterProps> = ({ productsData }) => {
 	const { t } = useTranslation();
 
 	const { lng } = useParams();
-
-	const linksData = [
-		{ id: 1, name: "home_title", path: `/${lng}/#home` },
-		{ id: 2, name: "about_us_title", path: `/${lng}/#about-us` },
-		{ id: 3, name: "products_title", path: `/${lng}/#products` },
-		{ id: 4, name: "contacts_title", path: `/${lng}/#contacts` },
-	];
 
 	const uniqueProductTypes = [
 		...new Set(productsData.map((product) => product.type)),
@@ -109,7 +103,7 @@ const Footer: React.FC<FooterProps> = ({ productsData }) => {
 														<HashLink
 															onClick={closeFooterDropdown}
 															smooth
-															to={link.path}
+															to={`/${lng}${link.path}`}
 														>
 															{t(link.name)}
 														</HashLink>
