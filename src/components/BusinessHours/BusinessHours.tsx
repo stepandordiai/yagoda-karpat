@@ -1,42 +1,42 @@
 import { useTranslation } from "react-i18next";
 import styles from "./BusinessHours.module.scss";
 
+const businessHoursData = [
+	{
+		name: "mon",
+		hours: "8:00 - 19:00",
+	},
+	{
+		name: "tue",
+		hours: "8:00 - 19:00",
+	},
+	{
+		name: "wed",
+		hours: "8:00 - 19:00",
+	},
+	{
+		name: "thu",
+		hours: "8:00 - 19:00",
+	},
+	{
+		name: "fri",
+		hours: "8:00 - 19:00",
+	},
+	{
+		name: "sat",
+		hours: "8:00 - 19:00",
+	},
+	{
+		name: "sun",
+		hours: "closed",
+	},
+];
+
 const BusinessHours = () => {
 	const { t } = useTranslation();
 
 	const dayNow = new Date().getDay();
 	const correctDayNow = dayNow === 0 ? 6 : dayNow - 1;
-
-	const businessHoursData = [
-		{
-			name: "mon",
-			hours: "8:00 - 19:00",
-		},
-		{
-			name: "tue",
-			hours: "8:00 - 19:00",
-		},
-		{
-			name: "wed",
-			hours: "8:00 - 19:00",
-		},
-		{
-			name: "thu",
-			hours: "8:00 - 19:00",
-		},
-		{
-			name: "fri",
-			hours: "8:00 - 19:00",
-		},
-		{
-			name: "sat",
-			hours: "8:00 - 19:00",
-		},
-		{
-			name: "sun",
-			hours: "closed",
-		},
-	];
 
 	return (
 		<div className={styles["business-hours"]}>
