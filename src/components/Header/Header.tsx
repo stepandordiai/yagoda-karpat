@@ -1,10 +1,10 @@
+import { Product } from "../../interfaces/Product";
 import { useTranslation } from "react-i18next";
 import { useState, useEffect } from "react";
 import { NavLink, useParams, useLocation } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 import LngSelect from "../LngSelect/LngSelect";
 import Container from "../Container/Container";
-import { Product } from "../../interfaces/Product";
 import logo from "/logo-img/yagoda-karpat-logo.svg";
 import plusIcon from "/icons/plus.png";
 import "./Header.scss";
@@ -27,8 +27,6 @@ const Header: React.FC<HeaderProps> = ({ productsData }) => {
 
 	function toggleBurgerBtn(): void {
 		setIsActive((prev) => !prev);
-
-		// hide list of products in menu by clicking menu btn
 		setIsDropdownOpen((prev) => (prev ? false : prev));
 	}
 
@@ -42,11 +40,11 @@ const Header: React.FC<HeaderProps> = ({ productsData }) => {
 	}, [isActive]);
 
 	// menu
-
 	function toggleDropdownBtn(): void {
 		setIsDropdownOpen((prev) => !prev);
 	}
 
+	// FIXME:
 	function handleNavIndicator(
 		sections: (HTMLElement | null)[],
 		links: NodeListOf<HTMLElement>

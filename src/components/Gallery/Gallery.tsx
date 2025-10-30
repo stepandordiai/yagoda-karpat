@@ -9,12 +9,7 @@ import { Autoplay } from "swiper/modules";
 
 import "./Gallery.scss";
 
-interface GalleryDataTypes {
-	img: string;
-	date: string;
-}
-
-const galleryData: Required<GalleryDataTypes[]> = [
+const galleryData = [
 	{ img: "/gallery/01-c.jpg", date: "26/11/24" },
 	{ img: "/gallery/02-c.jpg", date: "8/7/24" },
 ];
@@ -24,7 +19,7 @@ const Gallery = () => {
 
 	return (
 		<div className="gallery">
-			<h2 className="gallery__title">{t("gallery_title")}</h2>
+			<h3 className="gallery__title">{t("gallery_title")}</h3>
 			<Swiper
 				breakpoints={{
 					900: {

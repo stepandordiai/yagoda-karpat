@@ -1,10 +1,10 @@
+import { Product } from "../../interfaces/Product";
 import { useTranslation } from "react-i18next";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import PageNavTitle from "../../components/PageNavTitle/PageNavTitle";
 import ProductCard from "../../components/ProductCard/ProductCard";
-import { Product } from "../../interfaces/Product";
 
 // Swiper
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -34,7 +34,6 @@ const ProductPage: React.FC<ProductPageProps> = ({ productsData }) => {
 	);
 
 	function handleVariantId(props: number) {
-		if (!props) return;
 		setActiveVariantId(props);
 	}
 
@@ -44,21 +43,18 @@ const ProductPage: React.FC<ProductPageProps> = ({ productsData }) => {
 		}
 	}, [id]);
 
-	// I find value or and omit undefinded
-	// TODO:
-
 	interface ProductVariant {
 		id: number;
 		images?: string[];
 		state?: string;
 	}
 
+	// TODO:
 	const productVariant: ProductVariant | null =
 		product?.variants.find((variant) => variant.id === activeVariantId) ??
 		product?.variants[0] ??
 		null;
 
-	// FIXME:
 	if (!product || !productVariant) {
 		return <NotFound />;
 	}

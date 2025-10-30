@@ -1,9 +1,9 @@
+import { Product } from "../../interfaces/Product";
 import { useTranslation } from "react-i18next";
 import { useState } from "react";
 import { NavLink, useParams } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 import Container from "../Container/Container";
-import { Product } from "../../interfaces/Product";
 import linksData from "./../../assets/data/links-data.json";
 import upArrowIcon from "/icons/up-arrow.png";
 import plusIcon from "/icons/plus.png";
@@ -34,6 +34,7 @@ const Footer: React.FC<FooterProps> = ({ productsData }) => {
 		setFooterNavDropdownActive((prev) => !prev);
 	};
 
+	// TODO:
 	const toggleFooterDropdown = (index: number) => {
 		setFooterDropdownActive((prev) => {
 			const updated = [...prev];
@@ -43,7 +44,7 @@ const Footer: React.FC<FooterProps> = ({ productsData }) => {
 	};
 
 	const closeFooterDropdown = () => {
-		setFooterNavDropdownActive((prev) => (prev ? false : prev));
+		setFooterNavDropdownActive(false);
 		setFooterDropdownActive((prev) => prev.map(() => false));
 	};
 

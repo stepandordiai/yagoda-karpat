@@ -1,7 +1,7 @@
+import { Product } from "../../interfaces/Product";
 import { useTranslation } from "react-i18next";
 import { NavLink, useParams } from "react-router-dom";
 import harvestData from "./../../assets/data/harvest-data.json";
-import { Product } from "../../interfaces/Product";
 import cameraIcon from "/icons/camera.png";
 import organicLogo from "/icons/organic-logo.jpg";
 import "./ProductCard.scss";
@@ -12,7 +12,6 @@ type ProductProps = {
 
 const ProductCard: React.FC<ProductProps> = ({ product }) => {
 	const { t } = useTranslation();
-
 	const { lng } = useParams();
 
 	const { id, name, variants, isOrganic, harvest, isIQF } = product;

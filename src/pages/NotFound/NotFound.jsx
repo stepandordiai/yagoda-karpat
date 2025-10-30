@@ -5,9 +5,6 @@ import Container from "../../components/Container/Container";
 import "./NotFound.scss";
 
 const NotFound = () => {
-	// TODO: the nullish coalescing operator
-	const lng = getStorage() ?? "uk";
-
 	return (
 		<>
 			<Helmet>
@@ -18,7 +15,7 @@ const NotFound = () => {
 					<div className="not-found-inner">
 						<p className="not-found__title">404</p>
 						<p>Page Not Found</p>
-						<NavLink className="not-found__link" to={`/${lng}`}>
+						<NavLink className="not-found__link" to={`/${getStorage()}`}>
 							Go Back Home
 						</NavLink>
 					</div>

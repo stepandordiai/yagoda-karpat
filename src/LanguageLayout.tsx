@@ -21,8 +21,8 @@ const LanguageLayout = () => {
 	const productsDataTyped: Product[] = productsData as Product[];
 	return (
 		<>
-			<Loading />
 			<ScrollToTop />
+			<Loading />
 			<Header productsData={productsDataTyped} />
 			{isValidLng ? (
 				<Routes>

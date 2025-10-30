@@ -1,3 +1,4 @@
+import { Product } from "../../interfaces/Product";
 import { useTranslation } from "react-i18next";
 import { Helmet } from "react-helmet-async";
 import AboutUs from "../../components/AboutUs/AboutUs";
@@ -7,7 +8,6 @@ import { HashLink } from "react-router-hash-link";
 import { useParams } from "react-router-dom";
 import Container from "../../components/Container/Container";
 import video from "/video-c.mp4";
-import { Product } from "../../interfaces/Product";
 import "./Home.scss";
 
 type HomeProps = {
@@ -16,7 +16,6 @@ type HomeProps = {
 
 const Home: React.FC<HomeProps> = ({ productsData }) => {
 	const { t } = useTranslation();
-
 	const { lng } = useParams();
 
 	return (

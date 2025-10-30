@@ -1,10 +1,10 @@
+import { Product } from "../../interfaces/Product";
 import { useTranslation } from "react-i18next";
 import { useState } from "react";
 import ProductCard from "../ProductCard/ProductCard";
 import SectionTitle from "../SectionTitle/SectionTitle";
 import searchIcon from "/icons/search.png";
 import closeIcon from "/icons/close.png";
-import { Product } from "../../interfaces/Product";
 import "./Products.scss";
 
 type ProductsProps = {
@@ -23,18 +23,7 @@ const Products: React.FC<ProductsProps> = ({ productsData }) => {
 
 	const uniqueTypes = [...new Set(productsData.map((product) => product.type))];
 
-	const handleProductType = (props: string) => {
-		setProductType((prev) => (prev = props));
-	};
-
-	// TODO:
 	const filteredProducts = productsData.filter((product) => {
-		// const matchesSearch = search.trim() === ""
-		// 					? product
-		// 					: // I used startsWith method here, but i think includes method is much better here.
-		// 					  // For example with 'black currant', if i use startsWith, i have to start with black to find this product.
-		// 					  t(product.name).toLowerCase().includes(search.toLowerCase());
-
 		const matchesSearch =
 			search.trim() === "" ||
 			t(product.name).toLowerCase().includes(search.toLowerCase());
@@ -51,7 +40,7 @@ const Products: React.FC<ProductsProps> = ({ productsData }) => {
 				<p className="filter-title">{t("products.filter")}</p>
 				<div className="products__btn-container">
 					<button
-						onClick={() => handleProductType("all")}
+						onClick={() => setProductType("all")}
 						className={`products__btn ${
 							productType === "all" ? "products__btn--active" : ""
 						}`}
@@ -61,7 +50,7 @@ const Products: React.FC<ProductsProps> = ({ productsData }) => {
 					{uniqueTypes.map((type) => {
 						return (
 							<button
-								onClick={() => handleProductType(type)}
+								onClick={() => setProductType(type)}
 								className={`products__btn ${
 									productType === type ? "products__btn--active" : ""
 								}`}
