@@ -24,7 +24,7 @@ const PageNavTitle = ({
 				{homeTitle}
 			</NavLink>
 			<span>/</span>
-			<HashLink className="page-nav-title__link" smooth to={`${lng}/#products`}>
+			<HashLink className="page-nav-title__link" to={`/${lng}/#products`}>
 				{previousTitle}
 			</HashLink>
 			<span>/</span>
