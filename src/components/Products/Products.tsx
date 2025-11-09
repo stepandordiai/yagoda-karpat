@@ -37,28 +37,24 @@ const Products: React.FC<ProductsProps> = ({ productsData }) => {
 		<div className="js-products" id="products">
 			<SectionTitle name={t("products_title")} />
 			<div>
-				<p className="filter-title">{t("products.filter")}</p>
-				<div className="products__btn-container">
-					<button
-						onClick={() => setProductType("all")}
-						className={`products__btn ${
-							productType === "all" ? "products__btn--active" : ""
-						}`}
-					>
-						{t("all")}
-					</button>
-					{uniqueTypes.map((type) => {
-						return (
-							<button
-								onClick={() => setProductType(type)}
-								className={`products__btn ${
-									productType === type ? "products__btn--active" : ""
-								}`}
-							>
-								{t(type)}
-							</button>
-						);
-					})}
+				<div className="products__filter-container">
+					<p style={{ marginBottom: 5, fontWeight: 500 }}>
+						{t("products.filter")}
+					</p>
+					<div className="products__btn-container">
+						{["all", ...uniqueTypes].map((type) => {
+							return (
+								<button
+									onClick={() => setProductType(type)}
+									className={`products__btn ${
+										productType === type ? "products__btn--active" : ""
+									}`}
+								>
+									{t(type)}
+								</button>
+							);
+						})}
+					</div>
 				</div>
 				<div className="search-wrapper">
 					<input

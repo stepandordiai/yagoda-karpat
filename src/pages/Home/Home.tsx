@@ -1,11 +1,11 @@
 import { Product } from "../../interfaces/Product";
 import { useTranslation } from "react-i18next";
+import { useParams } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import AboutUs from "../../components/AboutUs/AboutUs";
 import Products from "../../components/Products/Products";
 import Contacts from "../../components/Contacts/Contacts";
 import { HashLink } from "react-router-hash-link";
-import { useParams } from "react-router-dom";
 import Container from "../../components/Container/Container";
 import video from "/video-c.mp4";
 import "./Home.scss";
