@@ -36,45 +36,43 @@ const Products: React.FC<ProductsProps> = ({ productsData }) => {
 	return (
 		<div className="js-products" id="products">
 			<SectionTitle name={t("products_title")} />
-			<div>
-				<div className="products__filter-container">
-					<p style={{ marginBottom: 5, fontWeight: 500 }}>
-						{t("products.filter")}
-					</p>
-					<div className="products__btn-container">
-						{["all", ...uniqueTypes].map((type) => {
-							return (
-								<button
-									onClick={() => setProductType(type)}
-									className={`products__btn ${
-										productType === type ? "products__btn--active" : ""
-									}`}
-								>
-									{t(type)}
-								</button>
-							);
-						})}
-					</div>
+			<div className="products__filter-container">
+				<p style={{ marginBottom: 5, fontWeight: 500 }}>
+					{t("products.filter")}
+				</p>
+				<div className="products__btn-container">
+					{["all", ...uniqueTypes].map((type) => {
+						return (
+							<button
+								onClick={() => setProductType(type)}
+								className={`products__btn ${
+									productType === type ? "products__btn--active" : ""
+								}`}
+							>
+								{t(type)}
+							</button>
+						);
+					})}
 				</div>
-				<div className="search-wrapper">
-					<input
-						className="search-input"
-						type="text"
-						value={search}
-						placeholder={t("products.filter_placeholder")}
-						onChange={(e) => setSearch(e.target.value)}
-					/>
-					<button
-						className="search-icon"
-						onClick={search === "" ? undefined : clearSearch}
-					>
-						{search === "" ? (
-							<img src={searchIcon} width={20} height={20} alt="" />
-						) : (
-							<img src={closeIcon} width={20} height={20} alt="" />
-						)}
-					</button>
-				</div>
+			</div>
+			<div className="search-wrapper">
+				<input
+					className="search-input"
+					type="text"
+					value={search}
+					placeholder={t("products.filter_placeholder")}
+					onChange={(e) => setSearch(e.target.value)}
+				/>
+				<button
+					className="search-icon"
+					onClick={search === "" ? undefined : clearSearch}
+				>
+					{search === "" ? (
+						<img src={searchIcon} width={20} height={20} alt="" />
+					) : (
+						<img src={closeIcon} width={20} height={20} alt="" />
+					)}
+				</button>
 			</div>
 			<div className="products-container">
 				{filteredProducts.map((product) => {
