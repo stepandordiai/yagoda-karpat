@@ -38,19 +38,34 @@
 	border-radius: 10px;
 	padding: 25px;
 	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 #svgContainer path {
-	fill: var(--bg-clr);
+	fill: var(--bg-clr-darker);
+	stroke-width: 1px;
+	stroke: #fff;
+}
+
+// FIXME:
+#UA {
+	fill: var(--accent-clr) !important;
+	cursor: pointer;
+	transition: all 0.3s;
+
+	&:hover {
+		opacity: 0.5;
+	}
 }
 
 // Countries where we supply our products
-#UA,
+#SK,
 #CZ,
 #PL,
 #LT,
 #RO {
-	position: relative;
 	fill: var(--accent-clr-logo) !important;
 	cursor: pointer;
 	transition: all 0.3s;

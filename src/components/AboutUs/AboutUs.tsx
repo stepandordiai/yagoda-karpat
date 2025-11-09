@@ -1,7 +1,7 @@
 import { Product } from "../../interfaces/Product";
 import { useTranslation } from "react-i18next";
 import { useEffect } from "react";
-import worldMapImg from "../../assets/world-map.svg";
+import worldMapImg from "../../assets/eu-map.svg";
 import Gallery from "../Gallery/Gallery";
 import SectionTitle from "../SectionTitle/SectionTitle";
 import "./AboutUs.scss";
@@ -10,13 +10,13 @@ type AboutUsProps = {
 	productsData: Product[];
 };
 
+const dateNow = new Date();
+const companyEstablishedDate = new Date("2010-01-01");
+const diffInYears =
+	dateNow.getFullYear() - companyEstablishedDate.getFullYear();
+
 const AboutUs: React.FC<AboutUsProps> = ({ productsData }) => {
 	const { t } = useTranslation();
-
-	const dateNow = new Date();
-	const companyEstablishedDate = new Date("2010-01-01");
-	const diffInYears =
-		dateNow.getFullYear() - companyEstablishedDate.getFullYear();
 
 	// FIXME:
 	useEffect(() => {
