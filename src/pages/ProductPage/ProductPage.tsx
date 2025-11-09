@@ -5,6 +5,10 @@ import { useParams } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import PageNavTitle from "../../components/PageNavTitle/PageNavTitle";
 import ProductCard from "../../components/ProductCard/ProductCard";
+import ContactForm from "../../components/ContactForm/ContactForm";
+import ContactDetails from "../../components/ContactDetails/ContactDetails";
+import NotFound from "../NotFound/NotFound";
+import Container from "../../components/Container/Container";
 
 // Swiper
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -12,10 +16,6 @@ import "swiper/css";
 import "swiper/css/pagination";
 import { Autoplay, Pagination } from "swiper/modules";
 
-import ContactForm from "../../components/ContactForm/ContactForm";
-import ContactDetails from "../../components/ContactDetails/ContactDetails";
-import NotFound from "../NotFound/NotFound";
-import Container from "../../components/Container/Container";
 import "./ProductPage.scss";
 
 type ProductPageProps = {
@@ -134,23 +134,23 @@ const ProductPage: React.FC<ProductPageProps> = ({ productsData }) => {
 									</div>
 								)}
 								<div>
-									<span style={{ color: "hsl(0, 0%, 50%)" }}>
+									<h2 style={{ color: "hsl(0, 0%, 50%)" }}>
 										{t("product_page.origin_title")}
-									</span>
+									</h2>
 									<p>{t(product.origin)}</p>
 								</div>
 								<div>
-									<span style={{ color: "hsl(0, 0%, 50%)" }}>
+									<h2 style={{ color: "hsl(0, 0%, 50%)" }}>
 										{t("product_page.packaging_title")}
-									</span>
+									</h2>
 									{product.pack.map((option, index) => (
 										<p key={index}>{t(option)}</p>
 									))}
 								</div>
 								<div>
-									<span style={{ color: "hsl(0, 0%, 50%)" }}>
+									<h2 style={{ color: "hsl(0, 0%, 50%)" }}>
 										{t("product_page.desc_title")}
-									</span>
+									</h2>
 									<p>{product.desc && t(product.desc)}</p>
 								</div>
 							</div>
