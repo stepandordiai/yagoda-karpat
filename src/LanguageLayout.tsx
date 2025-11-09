@@ -1,4 +1,4 @@
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import Home from "./pages/Home/Home";
@@ -31,7 +31,9 @@ const LanguageLayout = () => {
 						path="/product-page/:id"
 						element={<ProductPage productsData={productsDataTyped} />}
 					/>
-					<Route path="*" element={<NotFound />} />
+					{/* TODO: */}
+					<Route path="*" element={<Navigate to={"/404"} />} />
+					<Route path="/404" element={<NotFound />} />
 				</Routes>
 			) : (
 				<NotFound />
