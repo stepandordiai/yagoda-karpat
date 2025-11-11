@@ -1,28 +1,10 @@
 [
 	{
-		"id": "boletus-fresh",
-		"type": "mushrooms_title",
-		"status": "fresh",
-		"latName": "Boletus edulis",
-		"name": "products.boletus_fresh",
-		"origin": "product_page.origin",
-		"pack": ["product_page.pack_3"],
-		"desc": "product_page.boletus_desc",
-		"variants": [
-			{
-				"id": 1,
-				"images": ["/products/boletus-fresh/1-c.jpg"]
-			}
-		],
-		"harvest": [7, 8, 9],
-		"descSEO": "product_page.boletus_desc_seo"
-	},
-	{
 		"id": "bilberry",
 		"type": "berries_title",
 		"status": "frozen",
 		"latName": "Vaccinium myrtillus",
-		"name": "products.bilberry",
+		"name": "products.frozenBilberries",
 		"origin": "product_page.origin",
 		"pack": ["product_page.pack_1", "product_page.pack_2"],
 		"desc": "product_page.bilberry_desc",
@@ -47,15 +29,14 @@
 		],
 		"harvest": [7, 8],
 		"descSEO": "product_page.bilberry_desc_seo",
-		"isOrganic": true,
-		"isIQF": true
+		"isOrganic": true
 	},
 	{
 		"id": "lingonberry",
 		"type": "berries_title",
 		"status": "frozen",
 		"latName": "Vaccinium vitis-idaea",
-		"name": "products.lingonberry",
+		"name": "products.frozenLingonberries",
 		"origin": "product_page.origin",
 		"pack": ["product_page.pack_1", "product_page.pack_2"],
 		"desc": "product_page.lingonberry_desc",
@@ -73,15 +54,14 @@
 		],
 		"harvest": [8, 9],
 		"descSEO": "product_page.lingonberry_desc_seo",
-		"isOrganic": true,
-		"isIQF": true
+		"isOrganic": true
 	},
 	{
 		"id": "rosehip",
 		"type": "berries_title",
 		"status": "frozen",
 		"latName": "Rosa canina",
-		"name": "products.rosehip",
+		"name": "products.frozenRosehips",
 		"origin": "product_page.origin",
 		"pack": ["product_page.pack_1"],
 		"desc": "product_page.rosehip_desc",
@@ -93,15 +73,14 @@
 		],
 		"harvest": [9, 10, 11],
 		"descSEO": "product_page.rosehip_desc_seo",
-		"isOrganic": true,
-		"isIQF": true
+		"isOrganic": true
 	},
 	{
 		"id": "plum-frozen",
 		"type": "fruits_title",
 		"status": "frozen",
 		"latName": "Prunus domestica",
-		"name": "products.plum_frozen",
+		"name": "products.frozenPlums",
 		"origin": "product_page.origin",
 		"pack": ["product_page.pack_1", "product_page.pack_2"],
 		"desc": "product_page.plum_frozen_desc",
@@ -121,15 +100,14 @@
 			}
 		],
 		"harvest": [8, 9],
-		"descSEO": "product_page.plum_frozen_desc_seo",
-		"isIQF": true
+		"descSEO": "product_page.plum_frozen_desc_seo"
 	},
 	{
 		"id": "plum-dried",
 		"type": "fruits_title",
 		"status": "dried",
 		"latName": "Prunus domestica",
-		"name": "products.plum_dried",
+		"name": "products.driedPlums",
 		"origin": "product_page.origin",
 		"pack": ["product_page.pack_1", "product_page.pack_2"],
 		"desc": "product_page.plum_dried_desc",
@@ -154,7 +132,7 @@
 		"type": "fruits_title",
 		"status": "dried",
 		"latName": "Prunus domestica",
-		"name": "products.prune",
+		"name": "products.prunes",
 		"origin": "product_page.origin",
 		"pack": ["product_page.pack_2"],
 		"desc": "product_page.prune_desc",
@@ -173,7 +151,7 @@
 		"type": "berries_title",
 		"status": "frozen",
 		"latName": "Sambucus",
-		"name": "products.elderberry",
+		"name": "products.frozenElderberries",
 		"origin": "product_page.origin",
 		"pack": ["product_page.pack_1", "product_page.pack_2"],
 		"desc": "product_page.elderberry_desc",
@@ -190,15 +168,14 @@
 		],
 		"isOrganic": true,
 		"harvest": [8, 9],
-		"descSEO": "product_page.elderberry_desc_seo",
-		"isIQF": true
+		"descSEO": "product_page.elderberry_desc_seo"
 	},
 	{
 		"id": "strawberry",
 		"type": "berries_title",
 		"status": "frozen",
 		"latName": "Fragaria",
-		"name": "products.strawberry",
+		"name": "products.frozenStrawberries",
 		"origin": "product_page.origin",
 		"pack": ["product_page.pack_1", "product_page.pack_2"],
 		"desc": "product_page.strawberry_desc",
@@ -212,15 +189,14 @@
 			}
 		],
 		"harvest": [5, 6, 7],
-		"descSEO": "product_page.strawberry_desc_seo",
-		"isIQF": true
+		"descSEO": "product_page.strawberry_desc_seo"
 	},
 	{
 		"id": "raspberry",
 		"type": "berries_title",
 		"status": "frozen",
 		"latName": "Rubus idaeus",
-		"name": "products.raspberry",
+		"name": "products.frozenRaspberries",
 		"origin": "product_page.origin",
 		"pack": ["product_page.pack_2"],
 		"desc": "product_page.raspberry_desc",
@@ -234,15 +210,14 @@
 			}
 		],
 		"harvest": [7, 8, 9],
-		"descSEO": "product_page.raspberry_desc_seo",
-		"isIQF": true
+		"descSEO": "product_page.raspberry_desc_seo"
 	},
 	{
 		"id": "apricot",
 		"type": "fruits_title",
 		"status": "frozen",
 		"latName": "Prunus armeniaca",
-		"name": "products.apricot",
+		"name": "products.frozenApricots",
 		"origin": "product_page.origin",
 		"pack": ["product_page.pack_1", "product_page.pack_2"],
 		"desc": "product_page.apricot_desc",
@@ -252,15 +227,14 @@
 			}
 		],
 		"harvest": [7, 8],
-		"descSEO": "product_page.apricot_desc_seo",
-		"isIQF": true
+		"descSEO": "product_page.apricot_desc_seo"
 	},
 	{
 		"id": "sweet-pepper-red",
 		"type": "vegetables_title",
 		"status": "frozen",
 		"latName": "Capsicum annuum",
-		"name": "products.sweet_pepper_red",
+		"name": "products.frozenRedSweetPeppers",
 		"origin": "product_page.origin",
 		"pack": ["product_page.pack_2"],
 		"desc": "product_page.sweet_pepper_red_desc",
@@ -275,15 +249,14 @@
 			}
 		],
 		"harvest": [7, 8, 9],
-		"descSEO": "product_page.sweet_pepper_red_desc_seo",
-		"isIQF": true
+		"descSEO": "product_page.sweet_pepper_red_desc_seo"
 	},
 	{
 		"id": "sweet-pepper-green",
 		"type": "vegetables_title",
 		"status": "frozen",
 		"latName": "Capsicum annuum",
-		"name": "products.sweet_pepper_green",
+		"name": "products.frozenGreenSweetPeppers",
 		"origin": "product_page.origin",
 		"pack": ["product_page.pack_2"],
 		"desc": "product_page.sweet_pepper_green_desc",
@@ -295,15 +268,14 @@
 			}
 		],
 		"harvest": [7, 8, 9],
-		"descSEO": "product_page.sweet_pepper_green_desc_seo",
-		"isIQF": true
+		"descSEO": "product_page.sweet_pepper_green_desc_seo"
 	},
 	{
 		"id": "sweet-pepper-yellow",
 		"type": "vegetables_title",
 		"status": "frozen",
 		"latName": "Capsicum annuum",
-		"name": "products.sweet_pepper_yellow",
+		"name": "products.frozenYellowSweetPeppers",
 		"origin": "product_page.origin",
 		"pack": ["product_page.pack_2"],
 		"desc": "product_page.sweet_pepper_yellow_desc",
@@ -315,15 +287,14 @@
 			}
 		],
 		"harvest": [7, 8, 9],
-		"descSEO": "product_page.sweet_pepper_yellow_desc_seo",
-		"isIQF": true
+		"descSEO": "product_page.sweet_pepper_yellow_desc_seo"
 	},
 	{
 		"id": "sweet-pepper",
 		"type": "vegetables_title",
 		"status": "frozen",
 		"latName": "Capsicum annuum",
-		"name": "products.sweet_pepper",
+		"name": "products.frozenMixedPeppers",
 		"origin": "product_page.origin",
 		"pack": ["product_page.pack_2"],
 		"desc": "product_page.sweet_pepper_desc",
@@ -338,15 +309,14 @@
 			}
 		],
 		"harvest": [7, 8, 9],
-		"descSEO": "product_page.sweet_pepper_desc_seo",
-		"isIQF": true
+		"descSEO": "product_page.sweet_pepper_desc_seo"
 	},
 	{
 		"id": "boletus-frozen",
 		"type": "mushrooms_title",
 		"status": "frozen",
 		"latName": "Boletus edulis",
-		"name": "products.boletus_frozen",
+		"name": "products.frozenPorciniMushrooms",
 		"origin": "product_page.origin",
 		"pack": ["product_page.pack_2"],
 		"desc": "product_page.boletus_desc",
@@ -374,15 +344,32 @@
 			}
 		],
 		"harvest": [7, 8, 9],
-		"descSEO": "product_page.boletus_desc_seo",
-		"isIQF": true
+		"descSEO": "product_page.boletus_desc_seo"
+	},
+	{
+		"id": "boletus-fresh",
+		"type": "mushrooms_title",
+		"status": "fresh",
+		"latName": "Boletus edulis",
+		"name": "products.freshPorciniMushrooms",
+		"origin": "product_page.origin",
+		"pack": ["product_page.pack_3"],
+		"desc": "product_page.boletus_desc",
+		"variants": [
+			{
+				"id": 1,
+				"images": ["/products/boletus-fresh/1-c.jpg"]
+			}
+		],
+		"harvest": [7, 8, 9],
+		"descSEO": "product_page.boletus_desc_seo"
 	},
 	{
 		"id": "boletus-dried",
 		"type": "mushrooms_title",
 		"status": "dried",
 		"latName": "Boletus edulis",
-		"name": "products.boletus_dried",
+		"name": "products.driedPorciniMushrooms",
 		"origin": "product_page.origin",
 		"pack": ["product_page.pack_2"],
 		"desc": "product_page.boletus_dried_desc",
@@ -400,7 +387,7 @@
 		"type": "mushrooms_title",
 		"status": "fresh",
 		"latName": "Cantharellus cibarius",
-		"name": "products.chanterelle_fresh",
+		"name": "products.freshChanterelles",
 		"origin": "product_page.origin",
 		"pack": ["product_page.pack_3"],
 		"desc": "product_page.chanterelle_desc",
@@ -418,7 +405,7 @@
 		"type": "mushrooms_title",
 		"status": "dried",
 		"latName": "Cantharellus cibarius",
-		"name": "products.chanterelle_dried",
+		"name": "products.driedChanterelles",
 		"origin": "product_page.origin",
 		"pack": ["product_page.pack_2"],
 		"desc": "product_page.chanterelle_dried_desc",
@@ -435,7 +422,7 @@
 		"type": "berries_title",
 		"status": "frozen",
 		"latName": "Prunus cerasus",
-		"name": "products.sour_cherry",
+		"name": "products.frozenSourCherries",
 		"origin": "product_page.origin",
 		"pack": ["product_page.pack_2", "product_page.pack_2"],
 		"desc": "product_page.sour_cherry_desc",
@@ -462,15 +449,14 @@
 			}
 		],
 		"harvest": [5, 6],
-		"descSEO": "product_page.sour_cherry_desc_seo",
-		"isIQF": true
+		"descSEO": "product_page.sour_cherry_desc_seo"
 	},
 	{
 		"id": "honey-fungus",
 		"type": "mushrooms_title",
 		"status": "frozen",
 		"latName": "Armillaria mellea",
-		"name": "products.honey_fungus",
+		"name": "products.frozenHoneyMushrooms",
 		"origin": "product_page.origin",
 		"pack": ["product_page.pack_2"],
 		"desc": "product_page.honey_fungus_desc",
@@ -481,15 +467,14 @@
 			}
 		],
 		"harvest": [8, 9, 10],
-		"descSEO": "product_page.honey_fungus_desc_seo",
-		"isIQF": true
+		"descSEO": "product_page.honey_fungus_desc_seo"
 	},
 	{
 		"id": "blackberry",
 		"type": "berries_title",
 		"status": "frozen",
 		"latName": "Rubus fruticosus",
-		"name": "products.blackberry",
+		"name": "products.frozenBlackberries",
 		"origin": "product_page.origin",
 		"desc": "product_page.blackberry_desc",
 		"pack": ["product_page.pack_1", "product_page.pack_2"],
@@ -500,15 +485,14 @@
 		],
 		"isOrganic": true,
 		"harvest": [8, 9],
-		"descSEO": "product_page.blackberry_desc_seo",
-		"isIQF": true
+		"descSEO": "product_page.blackberry_desc_seo"
 	},
 	{
 		"id": "grape",
 		"type": "berries_title",
 		"status": "frozen",
 		"latName": "Vitis vinifera",
-		"name": "products.grape",
+		"name": "products.frozenGrapes",
 		"origin": "product_page.origin",
 		"pack": ["product_page.pack_1", "product_page.pack_2"],
 		"desc": "product_page.grape_desc",
@@ -519,15 +503,14 @@
 			}
 		],
 		"harvest": [9, 10],
-		"descSEO": "product_page.grape_desc_seo",
-		"isIQF": true
+		"descSEO": "product_page.grape_desc_seo"
 	},
 	{
 		"id": "corn",
 		"type": "vegetables_title",
 		"status": "frozen",
 		"latName": "Zea mays",
-		"name": "products.corn",
+		"name": "products.frozenCorn",
 		"origin": "product_page.origin",
 		"pack": ["product_page.pack_1", "product_page.pack_2"],
 		"desc": "product_page.corn_desc",
@@ -537,15 +520,14 @@
 			}
 		],
 		"harvest": [8, 9],
-		"descSEO": "product_page.corn_desc_seo",
-		"isIQF": true
+		"descSEO": "product_page.corn_desc_seo"
 	},
 	{
 		"id": "black-currant",
 		"type": "berries_title",
 		"status": "frozen",
 		"latName": "Ribes nigrum",
-		"name": "products.black_currant",
+		"name": "products.frozenBlackCurrants",
 		"origin": "product_page.origin",
 		"pack": ["product_page.pack_1", "product_page.pack_2"],
 		"desc": "product_page.black_currant_desc",
@@ -556,7 +538,6 @@
 			}
 		],
 		"harvest": [7, 8],
-		"descSEO": "product_page.black_currant_desc_seo",
-		"isIQF": true
+		"descSEO": "product_page.black_currant_desc_seo"
 	}
 ]

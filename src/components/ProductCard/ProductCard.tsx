@@ -14,7 +14,7 @@ const ProductCard: React.FC<ProductProps> = ({ product }) => {
 	const { t } = useTranslation();
 	const { lng } = useParams();
 
-	const { id, name, variants, isOrganic, harvest, isIQF } = product;
+	const { id, name, variants, isOrganic, harvest } = product;
 
 	// TODO:
 	const allImages = variants.flatMap((variant) =>
@@ -52,7 +52,6 @@ const ProductCard: React.FC<ProductProps> = ({ product }) => {
 					<div className="product__info-container-top">
 						<h3 className="product-name">{t(name)}</h3>
 						<div style={{ display: "flex", columnGap: 5 }}>
-							{isIQF && <p>IQF</p>}
 							{isOrganic && (
 								<img
 									src={organicLogo}
