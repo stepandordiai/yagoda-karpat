@@ -9,7 +9,6 @@ const NotFound = () => {
 		<>
 			<Helmet>
 				<title>404</title>
-				{/* TODO: */}
 				<meta name="robots" content="noindex, nofollow" />
 			</Helmet>
 			<main>
