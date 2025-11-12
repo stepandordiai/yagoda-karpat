@@ -7,7 +7,7 @@
 		"name": "products.frozenBilberries",
 		"origin": "product_page.origin",
 		"pack": ["product_page.pack_1", "product_page.pack_2"],
-		"desc": "product_page.bilberry_desc",
+		"desc": "product_page.frozenBilberriesDesc",
 		"variants": [
 			{
 				"id": 1,
@@ -28,7 +28,6 @@
 			}
 		],
 		"harvest": [7, 8],
-		"descSEO": "product_page.bilberry_desc_seo",
 		"isOrganic": true
 	},
 	{
@@ -39,7 +38,7 @@
 		"name": "products.frozenLingonberries",
 		"origin": "product_page.origin",
 		"pack": ["product_page.pack_1", "product_page.pack_2"],
-		"desc": "product_page.lingonberry_desc",
+		"desc": "product_page.frozenLingonberriesDesc",
 		"variants": [
 			{
 				"id": 1,
@@ -53,7 +52,6 @@
 			}
 		],
 		"harvest": [8, 9],
-		"descSEO": "product_page.lingonberry_desc_seo",
 		"isOrganic": true
 	},
 	{
@@ -64,7 +62,7 @@
 		"name": "products.frozenRosehips",
 		"origin": "product_page.origin",
 		"pack": ["product_page.pack_1"],
-		"desc": "product_page.rosehip_desc",
+		"desc": "product_page.frozenRosehipsDesc",
 		"variants": [
 			{
 				"id": 1,
@@ -72,7 +70,6 @@
 			}
 		],
 		"harvest": [9, 10, 11],
-		"descSEO": "product_page.rosehip_desc_seo",
 		"isOrganic": true
 	},
 	{
@@ -83,7 +80,7 @@
 		"name": "products.frozenPlums",
 		"origin": "product_page.origin",
 		"pack": ["product_page.pack_1", "product_page.pack_2"],
-		"desc": "product_page.plum_frozen_desc",
+		"desc": "product_page.frozenPlumsDesc",
 		"variants": [
 			{
 				"id": 1,
@@ -99,8 +96,7 @@
 				]
 			}
 		],
-		"harvest": [8, 9],
-		"descSEO": "product_page.plum_frozen_desc_seo"
+		"harvest": [8, 9]
 	},
 	{
 		"id": "plum-dried",
@@ -110,7 +106,7 @@
 		"name": "products.driedPlums",
 		"origin": "product_page.origin",
 		"pack": ["product_page.pack_1", "product_page.pack_2"],
-		"desc": "product_page.plum_dried_desc",
+		"desc": "product_page.driedPlumsDesc",
 		"variants": [
 			{
 				"id": 1,
@@ -124,8 +120,7 @@
 				]
 			}
 		],
-		"harvest": [8, 9],
-		"descSEO": "product_page.plum_dried_desc_seo"
+		"harvest": [8, 9]
 	},
 	{
 		"id": "prune",
@@ -135,7 +130,7 @@
 		"name": "products.prunes",
 		"origin": "product_page.origin",
 		"pack": ["product_page.pack_2"],
-		"desc": "product_page.prune_desc",
+		"desc": "product_page.prunesDesc",
 		"variants": [
 			{
 				"id": 1,
@@ -143,8 +138,7 @@
 				"images": ["/products/prune/01-c.jpg", "/products/prune/02-c.jpg"]
 			}
 		],
-		"harvest": [8, 9],
-		"descSEO": "product_page.prune_desc_seo"
+		"harvest": [8, 9]
 	},
 	{
 		"id": "elderberry",
@@ -154,7 +148,7 @@
 		"name": "products.frozenElderberries",
 		"origin": "product_page.origin",
 		"pack": ["product_page.pack_1", "product_page.pack_2"],
-		"desc": "product_page.elderberry_desc",
+		"desc": "product_page.frozenElderberriesDesc",
 		"variants": [
 			{
 				"id": 1,
@@ -167,8 +161,7 @@
 			}
 		],
 		"isOrganic": true,
-		"harvest": [8, 9],
-		"descSEO": "product_page.elderberry_desc_seo"
+		"harvest": [8, 9]
 	},
 	{
 		"id": "strawberry",
@@ -178,7 +171,7 @@
 		"name": "products.frozenStrawberries",
 		"origin": "product_page.origin",
 		"pack": ["product_page.pack_1", "product_page.pack_2"],
-		"desc": "product_page.strawberry_desc",
+		"desc": "product_page.frozenStrawberryDesc",
 		"variants": [
 			{
 				"id": 1,
@@ -188,8 +181,7 @@
 				]
 			}
 		],
-		"harvest": [5, 6, 7],
-		"descSEO": "product_page.strawberry_desc_seo"
+		"harvest": [5, 6, 7]
 	},
 	{
 		"id": "raspberry",
@@ -199,7 +191,7 @@
 		"name": "products.frozenRaspberries",
 		"origin": "product_page.origin",
 		"pack": ["product_page.pack_2"],
-		"desc": "product_page.raspberry_desc",
+		"desc": "product_page.frozenRaspberryDesc",
 		"variants": [
 			{
 				"id": 1,
@@ -209,8 +201,7 @@
 				]
 			}
 		],
-		"harvest": [7, 8, 9],
-		"descSEO": "product_page.raspberry_desc_seo"
+		"harvest": [7, 8, 9]
 	},
 	{
 		"id": "apricot",
@@ -220,14 +211,13 @@
 		"name": "products.frozenApricots",
 		"origin": "product_page.origin",
 		"pack": ["product_page.pack_1", "product_page.pack_2"],
-		"desc": "product_page.apricot_desc",
+		"desc": "product_page.frozenApricotDesc",
 		"variants": [
 			{
 				"id": 1
 			}
 		],
-		"harvest": [7, 8],
-		"descSEO": "product_page.apricot_desc_seo"
+		"harvest": [7, 8]
 	},
 	{
 		"id": "sweet-pepper-red",
@@ -237,7 +227,7 @@
 		"name": "products.frozenRedSweetPeppers",
 		"origin": "product_page.origin",
 		"pack": ["product_page.pack_2"],
-		"desc": "product_page.sweet_pepper_red_desc",
+		"desc": "product_page.frozenRedSweetPeppersDesc",
 		"variants": [
 			{
 				"id": 1,
@@ -248,8 +238,7 @@
 				]
 			}
 		],
-		"harvest": [7, 8, 9],
-		"descSEO": "product_page.sweet_pepper_red_desc_seo"
+		"harvest": [7, 8, 9]
 	},
 	{
 		"id": "sweet-pepper-green",
@@ -259,7 +248,7 @@
 		"name": "products.frozenGreenSweetPeppers",
 		"origin": "product_page.origin",
 		"pack": ["product_page.pack_2"],
-		"desc": "product_page.sweet_pepper_green_desc",
+		"desc": "product_page.frozenGreenSweetPeppersDesc",
 		"variants": [
 			{
 				"id": 1,
@@ -267,8 +256,7 @@
 				"images": ["/products/sweet-pepper-green-frozen/1-min.JPG"]
 			}
 		],
-		"harvest": [7, 8, 9],
-		"descSEO": "product_page.sweet_pepper_green_desc_seo"
+		"harvest": [7, 8, 9]
 	},
 	{
 		"id": "sweet-pepper-yellow",
@@ -278,7 +266,7 @@
 		"name": "products.frozenYellowSweetPeppers",
 		"origin": "product_page.origin",
 		"pack": ["product_page.pack_2"],
-		"desc": "product_page.sweet_pepper_yellow_desc",
+		"desc": "product_page.frozenYellowSweetPeppersDesc",
 		"variants": [
 			{
 				"id": 1,
@@ -286,18 +274,17 @@
 				"images": ["/products/sweet-pepper-yellow-frozen/1-min.JPG"]
 			}
 		],
-		"harvest": [7, 8, 9],
-		"descSEO": "product_page.sweet_pepper_yellow_desc_seo"
+		"harvest": [7, 8, 9]
 	},
 	{
 		"id": "sweet-pepper",
 		"type": "vegetables_title",
 		"status": "frozen",
 		"latName": "Capsicum annuum",
-		"name": "products.frozenMixedPeppers",
+		"name": "products.frozenMixedSweetPeppers",
 		"origin": "product_page.origin",
 		"pack": ["product_page.pack_2"],
-		"desc": "product_page.sweet_pepper_desc",
+		"desc": "product_page.frozenMixedSweetPeppersDesc",
 		"variants": [
 			{
 				"id": 1,
@@ -308,8 +295,7 @@
 				]
 			}
 		],
-		"harvest": [7, 8, 9],
-		"descSEO": "product_page.sweet_pepper_desc_seo"
+		"harvest": [7, 8, 9]
 	},
 	{
 		"id": "boletus-frozen",
@@ -319,7 +305,7 @@
 		"name": "products.frozenPorciniMushrooms",
 		"origin": "product_page.origin",
 		"pack": ["product_page.pack_2"],
-		"desc": "product_page.boletus_desc",
+		"desc": "product_page.frozenPorciniMushroomsDesc",
 		"variants": [
 			{
 				"id": 1,
@@ -343,8 +329,7 @@
 				]
 			}
 		],
-		"harvest": [7, 8, 9],
-		"descSEO": "product_page.boletus_desc_seo"
+		"harvest": [7, 8, 9]
 	},
 	{
 		"id": "boletus-fresh",
@@ -354,15 +339,14 @@
 		"name": "products.freshPorciniMushrooms",
 		"origin": "product_page.origin",
 		"pack": ["product_page.pack_3"],
-		"desc": "product_page.boletus_desc",
+		"desc": "product_page.freshPorciniMushroomsDesc",
 		"variants": [
 			{
 				"id": 1,
 				"images": ["/products/boletus-fresh/1-c.jpg"]
 			}
 		],
-		"harvest": [7, 8, 9],
-		"descSEO": "product_page.boletus_desc_seo"
+		"harvest": [7, 8, 9]
 	},
 	{
 		"id": "boletus-dried",
@@ -372,15 +356,14 @@
 		"name": "products.driedPorciniMushrooms",
 		"origin": "product_page.origin",
 		"pack": ["product_page.pack_2"],
-		"desc": "product_page.boletus_dried_desc",
+		"desc": "product_page.driedPorciniMushroomsDesc",
 		"variants": [
 			{
 				"id": 1,
 				"images": ["/products/boletus-dried/1-min.jpg"]
 			}
 		],
-		"harvest": [7, 8, 9],
-		"descSEO": "product_page.boletus_dried_desc_seo"
+		"harvest": [7, 8, 9]
 	},
 	{
 		"id": "chanterelle",
@@ -390,15 +373,14 @@
 		"name": "products.freshChanterelles",
 		"origin": "product_page.origin",
 		"pack": ["product_page.pack_3"],
-		"desc": "product_page.chanterelle_desc",
+		"desc": "product_page.freshChanterellesDesc",
 		"variants": [
 			{
 				"id": 1,
 				"images": ["/products/chanterelle/1-min.jpg"]
 			}
 		],
-		"harvest": [7, 8, 9],
-		"descSEO": "product_page.chanterelle_desc_seo"
+		"harvest": [7, 8, 9]
 	},
 	{
 		"id": "chanterelle-dried",
@@ -408,14 +390,13 @@
 		"name": "products.driedChanterelles",
 		"origin": "product_page.origin",
 		"pack": ["product_page.pack_2"],
-		"desc": "product_page.chanterelle_dried_desc",
+		"desc": "product_page.driedChanterellesDesc",
 		"variants": [
 			{
 				"id": 1
 			}
 		],
-		"harvest": [7, 8, 9],
-		"descSEO": "product_page.chanterelle_dried_desc_seo"
+		"harvest": [7, 8, 9]
 	},
 	{
 		"id": "sour-cherry",
@@ -425,7 +406,7 @@
 		"name": "products.frozenSourCherries",
 		"origin": "product_page.origin",
 		"pack": ["product_page.pack_2", "product_page.pack_2"],
-		"desc": "product_page.sour_cherry_desc",
+		"desc": "product_page.frozenSourCherriesDesc",
 		"variants": [
 			{
 				"id": 1,
@@ -448,8 +429,7 @@
 				]
 			}
 		],
-		"harvest": [5, 6],
-		"descSEO": "product_page.sour_cherry_desc_seo"
+		"harvest": [5, 6]
 	},
 	{
 		"id": "honey-fungus",
@@ -459,15 +439,14 @@
 		"name": "products.frozenHoneyMushrooms",
 		"origin": "product_page.origin",
 		"pack": ["product_page.pack_2"],
-		"desc": "product_page.honey_fungus_desc",
+		"desc": "product_page.frozenHoneyMushroomsDesc",
 		"variants": [
 			{
 				"id": 1,
 				"images": ["/products/honey-fungus/1-min.jpg"]
 			}
 		],
-		"harvest": [8, 9, 10],
-		"descSEO": "product_page.honey_fungus_desc_seo"
+		"harvest": [8, 9, 10]
 	},
 	{
 		"id": "blackberry",
@@ -476,7 +455,7 @@
 		"latName": "Rubus fruticosus",
 		"name": "products.frozenBlackberries",
 		"origin": "product_page.origin",
-		"desc": "product_page.blackberry_desc",
+		"desc": "product_page.frozenBlackberriesDesc",
 		"pack": ["product_page.pack_1", "product_page.pack_2"],
 		"variants": [
 			{
@@ -484,8 +463,7 @@
 			}
 		],
 		"isOrganic": true,
-		"harvest": [8, 9],
-		"descSEO": "product_page.blackberry_desc_seo"
+		"harvest": [8, 9]
 	},
 	{
 		"id": "grape",
@@ -495,15 +473,14 @@
 		"name": "products.frozenGrapes",
 		"origin": "product_page.origin",
 		"pack": ["product_page.pack_1", "product_page.pack_2"],
-		"desc": "product_page.grape_desc",
+		"desc": "product_page.frozenGrapesDesc",
 		"variants": [
 			{
 				"id": 1,
 				"images": ["/products/grape/01-c.jpg", "/products/grape/02-c.jpg"]
 			}
 		],
-		"harvest": [9, 10],
-		"descSEO": "product_page.grape_desc_seo"
+		"harvest": [9, 10]
 	},
 	{
 		"id": "corn",
@@ -513,14 +490,13 @@
 		"name": "products.frozenCorn",
 		"origin": "product_page.origin",
 		"pack": ["product_page.pack_1", "product_page.pack_2"],
-		"desc": "product_page.corn_desc",
+		"desc": "product_page.frozenCornDesc",
 		"variants": [
 			{
 				"id": 1
 			}
 		],
-		"harvest": [8, 9],
-		"descSEO": "product_page.corn_desc_seo"
+		"harvest": [8, 9]
 	},
 	{
 		"id": "black-currant",
@@ -530,14 +506,13 @@
 		"name": "products.frozenBlackCurrants",
 		"origin": "product_page.origin",
 		"pack": ["product_page.pack_1", "product_page.pack_2"],
-		"desc": "product_page.black_currant_desc",
+		"desc": "product_page.frozenBlackCurrantsDesc",
 		"variants": [
 			{
 				"id": 1,
 				"images": ["/products/black-currant/1-c.jpg"]
 			}
 		],
-		"harvest": [7, 8],
-		"descSEO": "product_page.black_currant_desc_seo"
+		"harvest": [7, 8]
 	}
 ]
