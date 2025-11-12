@@ -1,6 +1,6 @@
 @use "./../../scss/mixins" as *;
 
-.home {
+.home-hero {
 	position: relative;
 	padding-top: 120px;
 }
@@ -55,7 +55,7 @@
 }
 
 @media (max-width: 900px) {
-	.home {
+	.home-hero {
 		padding-top: 90px;
 	}
 

@@ -42,7 +42,7 @@ const Home: React.FC<HomeProps> = ({ productsData }) => {
 			</Helmet>
 			<main>
 				<Container>
-					<div className="home js-home" id="home">
+					<section className="home-hero" id="home">
 						<div className="home-container">
 							<video
 								className="home-container__video"
@@ -73,7 +73,7 @@ const Home: React.FC<HomeProps> = ({ productsData }) => {
 								{t("contact_us")}
 							</HashLink>
 						</div>
-					</div>
+					</section>
 					<AboutUs productsData={productsData} />
 					<Products productsData={productsData} />
 					<Contacts />
