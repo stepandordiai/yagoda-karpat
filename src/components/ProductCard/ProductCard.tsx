@@ -59,6 +59,7 @@ const ProductCard: React.FC<ProductProps> = ({ product }) => {
 									loading="lazy"
 								/>
 							)}
+							<span>HACCP</span>
 						</div>
 					</div>
 					<NavLink
