@@ -9,6 +9,7 @@ import { HashLink } from "react-router-hash-link";
 import Container from "../../components/Container/Container";
 import video from "/video-c.mp4";
 import "./Home.scss";
+import { useState } from "react";
 
 type HomeProps = {
 	productsData: Product[];
@@ -17,6 +18,9 @@ type HomeProps = {
 const Home: React.FC<HomeProps> = ({ productsData }) => {
 	const { t } = useTranslation();
 	const { lng } = useParams();
+	const [isLoaded, setIsLoaded] = useState(false);
+
+	const handleVideo = () => setIsLoaded(true);
 
 	return (
 		<>
@@ -45,7 +49,9 @@ const Home: React.FC<HomeProps> = ({ productsData }) => {
 					<section className="home-hero" id="home">
 						<div className="home-container">
 							<video
-								className="home-container__video"
+								// TODO: LEARN THIS
+								onLoadedData={handleVideo}
+								className={`home-container__video ${isLoaded ? "loaded" : ""}`}
 								loop
 								autoPlay
 								muted
