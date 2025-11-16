@@ -1,6 +1,6 @@
 [
 	{
-		"id": "bilberry",
+		"id": "frozen-bilberries",
 		"type": "berries_title",
 		"status": "frozen",
 		"latName": "Vaccinium myrtillus",
@@ -31,7 +31,7 @@
 		"isOrganic": true
 	},
 	{
-		"id": "lingonberry",
+		"id": "frozen-lingonberries",
 		"type": "berries_title",
 		"status": "frozen",
 		"latName": "Vaccinium vitis-idaea",
@@ -55,7 +55,7 @@
 		"isOrganic": true
 	},
 	{
-		"id": "rosehip",
+		"id": "frozen-rosehips",
 		"type": "berries_title",
 		"status": "frozen",
 		"latName": "Rosa canina",
@@ -76,7 +76,7 @@
 		"isOrganic": true
 	},
 	{
-		"id": "plum-frozen",
+		"id": "frozen-plums",
 		"type": "fruits_title",
 		"status": "frozen",
 		"latName": "Prunus domestica",
@@ -102,7 +102,7 @@
 		"harvest": [8, 9]
 	},
 	{
-		"id": "plum-dried",
+		"id": "dried-plums",
 		"type": "fruits_title",
 		"status": "dried",
 		"latName": "Prunus domestica",
@@ -126,7 +126,7 @@
 		"harvest": [8, 9]
 	},
 	{
-		"id": "prune",
+		"id": "prunes",
 		"type": "fruits_title",
 		"status": "dried",
 		"latName": "Prunus domestica",
@@ -139,15 +139,15 @@
 				"id": 1,
 				"state": "product_page.pitted",
 				"images": [
-					"/products/prune/prunes-01-c.jpg",
-					"/products/prune/prunes-02-c.jpg"
+					"/products/prune/prunes-pitted-01-c.jpg",
+					"/products/prune/prunes-pitted-02-c.jpg"
 				]
 			}
 		],
 		"harvest": [8, 9]
 	},
 	{
-		"id": "elderberry",
+		"id": "frozen-elderberries",
 		"type": "berries_title",
 		"status": "frozen",
 		"latName": "Sambucus",
@@ -170,7 +170,7 @@
 		"harvest": [8, 9]
 	},
 	{
-		"id": "strawberry",
+		"id": "frozen-strawberries",
 		"type": "berries_title",
 		"status": "frozen",
 		"latName": "Fragaria",
@@ -190,7 +190,7 @@
 		"harvest": [5, 6, 7]
 	},
 	{
-		"id": "raspberry",
+		"id": "frozen-raspberries",
 		"type": "berries_title",
 		"status": "frozen",
 		"latName": "Rubus idaeus",
@@ -210,7 +210,7 @@
 		"harvest": [7, 8, 9]
 	},
 	{
-		"id": "apricot",
+		"id": "frozen-apricots",
 		"type": "fruits_title",
 		"status": "frozen",
 		"latName": "Prunus armeniaca",
@@ -226,7 +226,7 @@
 		"harvest": [7, 8]
 	},
 	{
-		"id": "sweet-pepper-red",
+		"id": "frozen-red-sweet-peppers",
 		"type": "vegetables_title",
 		"status": "frozen",
 		"latName": "Capsicum annuum",
@@ -247,7 +247,7 @@
 		"harvest": [7, 8, 9]
 	},
 	{
-		"id": "sweet-pepper-green",
+		"id": "frozen-green-sweet-peppers",
 		"type": "vegetables_title",
 		"status": "frozen",
 		"latName": "Capsicum annuum",
@@ -267,7 +267,7 @@
 		"harvest": [7, 8, 9]
 	},
 	{
-		"id": "sweet-pepper-yellow",
+		"id": "frozen-yellow-sweet-peppers",
 		"type": "vegetables_title",
 		"status": "frozen",
 		"latName": "Capsicum annuum",
@@ -287,7 +287,7 @@
 		"harvest": [7, 8, 9]
 	},
 	{
-		"id": "sweet-pepper",
+		"id": "frozen-mixed-sweet-peppers",
 		"type": "vegetables_title",
 		"status": "frozen",
 		"latName": "Capsicum annuum",
@@ -308,7 +308,7 @@
 		"harvest": [7, 8, 9]
 	},
 	{
-		"id": "boletus-frozen",
+		"id": "frozen-porcini-mushrooms",
 		"type": "mushrooms_title",
 		"status": "frozen",
 		"latName": "Boletus edulis",
@@ -344,7 +344,7 @@
 		"harvest": [7, 8, 9]
 	},
 	{
-		"id": "boletus-fresh",
+		"id": "fresh-porcini-mushrooms",
 		"type": "mushrooms_title",
 		"status": "fresh",
 		"latName": "Boletus edulis",
@@ -361,7 +361,7 @@
 		"harvest": [7, 8, 9]
 	},
 	{
-		"id": "boletus-dried",
+		"id": "dried-porcini-mushrooms",
 		"type": "mushrooms_title",
 		"status": "dried",
 		"latName": "Boletus edulis",
@@ -378,7 +378,7 @@
 		"harvest": [7, 8, 9]
 	},
 	{
-		"id": "chanterelle",
+		"id": "fresh-chanterelles",
 		"type": "mushrooms_title",
 		"status": "fresh",
 		"latName": "Cantharellus cibarius",
@@ -395,7 +395,7 @@
 		"harvest": [7, 8, 9]
 	},
 	{
-		"id": "chanterelle-dried",
+		"id": "dried-chanterelles",
 		"type": "mushrooms_title",
 		"status": "dried",
 		"latName": "Cantharellus cibarius",
@@ -411,7 +411,7 @@
 		"harvest": [7, 8, 9]
 	},
 	{
-		"id": "sour-cherry",
+		"id": "frozen-sour-cherries",
 		"type": "berries_title",
 		"status": "frozen",
 		"latName": "Prunus cerasus",
@@ -444,7 +444,7 @@
 		"harvest": [5, 6]
 	},
 	{
-		"id": "honey-fungus",
+		"id": "frozen-honey-mushrooms",
 		"type": "mushrooms_title",
 		"status": "frozen",
 		"latName": "Armillaria mellea",
@@ -463,7 +463,7 @@
 		"harvest": [8, 9, 10]
 	},
 	{
-		"id": "blackberry",
+		"id": "frozen-blackberries",
 		"type": "berries_title",
 		"status": "frozen",
 		"latName": "Rubus fruticosus",
@@ -480,7 +480,7 @@
 		"harvest": [8, 9]
 	},
 	{
-		"id": "grape",
+		"id": "frozen-grapes",
 		"type": "berries_title",
 		"status": "frozen",
 		"latName": "Vitis vinifera",
@@ -500,7 +500,7 @@
 		"harvest": [9, 10]
 	},
 	{
-		"id": "corn",
+		"id": "frozen-sweet-corn",
 		"type": "vegetables_title",
 		"status": "frozen",
 		"latName": "Zea mays",
@@ -516,7 +516,7 @@
 		"harvest": [8, 9]
 	},
 	{
-		"id": "black-currant",
+		"id": "frozen-black-currants",
 		"type": "berries_title",
 		"status": "frozen",
 		"latName": "Ribes nigrum",
