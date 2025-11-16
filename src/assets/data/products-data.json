@@ -13,17 +13,17 @@
 				"id": 1,
 				"state": "product_page.uncleaned_1",
 				"images": [
-					"/products/bilberry/iqf-frozen-bilberries-1-min.JPG",
-					"/products/bilberry/iqf-frozen-bilberries-4-min.jpg",
-					"/products/bilberry/iqf-frozen-bilberries-5-min.jpg"
+					"/products/frozen-bilberries/iqf-frozen-bilberries-1-min.JPG",
+					"/products/frozen-bilberries/iqf-frozen-bilberries-4-min.jpg",
+					"/products/frozen-bilberries/iqf-frozen-bilberries-5-min.jpg"
 				]
 			},
 			{
 				"id": 2,
 				"state": "product_page.cleaned_1",
 				"images": [
-					"/products/bilberry/iqf-frozen-bilberries-2-min.jpg",
-					"/products/bilberry/iqf-frozen-bilberries-3-min.jpg"
+					"/products/frozen-bilberries/iqf-frozen-bilberries-2-min.jpg",
+					"/products/frozen-bilberries/iqf-frozen-bilberries-3-min.jpg"
 				]
 			}
 		],
@@ -43,12 +43,16 @@
 			{
 				"id": 1,
 				"state": "product_page.cleaned_1",
-				"images": ["/products/lingonberry/iqf-frozen-lingonberries-1-min.jpg"]
+				"images": [
+					"/products/frozen-lingonberries/iqf-frozen-lingonberries-1-min.jpg"
+				]
 			},
 			{
 				"id": 2,
 				"state": "product_page.uncleaned_1",
-				"images": ["/products/lingonberry/iqf-frozen-lingonberries-2-min.jpg"]
+				"images": [
+					"/products/frozen-lingonberries/iqf-frozen-lingonberries-2-min.jpg"
+				]
 			}
 		],
 		"harvest": [8, 9],
@@ -67,8 +71,8 @@
 			{
 				"id": 1,
 				"images": [
-					"/products/rosehip/iqf-frozen-rosehips-1-min.JPG",
-					"/products/rosehip/iqf-frozen-rosehips-2-min.JPG"
+					"/products/frozen-rosehips/iqf-frozen-rosehips-1-min.JPG",
+					"/products/frozen-rosehips/iqf-frozen-rosehips-2-min.JPG"
 				]
 			}
 		],
@@ -88,14 +92,16 @@
 			{
 				"id": 1,
 				"state": "product_page.with_stone",
-				"images": ["/products/plum/iqf-frozen-plums-with-stone-1-min.JPG"]
+				"images": [
+					"/products/frozen-plums-with-stone/iqf-frozen-plums-with-stone-1-min.JPG"
+				]
 			},
 			{
 				"id": 2,
 				"state": "product_page.pitted",
 				"images": [
-					"/products/plum-pitted/iqf-frozen-plums-pitted-1-min.JPG",
-					"/products/plum-pitted/iqf-frozen-plums-pitted-2-min.jpg"
+					"/products/frozen-plums-pitted/iqf-frozen-plums-pitted-1-min.JPG",
+					"/products/frozen-plums-pitted/iqf-frozen-plums-pitted-2-min.jpg"
 				]
 			}
 		],
@@ -115,11 +121,11 @@
 				"id": 1,
 				"state": "product_page.with_stone",
 				"images": [
-					"/products/plum-dried/dried-plums-with-stone-1-c.jpg",
-					"/products/plum-dried/dried-plums-with-stone-2-c.jpg",
-					"/products/plum-dried/dried-plums-with-stone-3-c.jpg",
-					"/products/plum-dried/dried-plums-with-stone-4-c.jpg",
-					"/products/plum-dried/dried-plums-with-stone-5-c.jpg"
+					"/products/dried-plums-with-stone/dried-plums-with-stone-1-c.jpg",
+					"/products/dried-plums-with-stone/dried-plums-with-stone-2-c.jpg",
+					"/products/dried-plums-with-stone/dried-plums-with-stone-3-c.jpg",
+					"/products/dried-plums-with-stone/dried-plums-with-stone-4-c.jpg",
+					"/products/dried-plums-with-stone/dried-plums-with-stone-5-c.jpg"
 				]
 			}
 		],
@@ -139,8 +145,8 @@
 				"id": 1,
 				"state": "product_page.pitted",
 				"images": [
-					"/products/prune/prunes-pitted-01-c.jpg",
-					"/products/prune/prunes-pitted-02-c.jpg"
+					"/products/prunes-pitted/prunes-pitted-01-c.jpg",
+					"/products/prunes-pitted/prunes-pitted-02-c.jpg"
 				]
 			}
 		],
@@ -160,9 +166,9 @@
 				"id": 1,
 				"state": "product_page.cleaned_1",
 				"images": [
-					"/products/elderberry/iqf-frozen-elderberries-1-c.jpg",
-					"/products/elderberry/iqf-frozen-elderberries-2-c.jpg",
-					"/products/elderberry/iqf-frozen-elderberries-3-c.jpg"
+					"/products/frozen-elderberries/iqf-frozen-elderberries-1-c.jpg",
+					"/products/frozen-elderberries/iqf-frozen-elderberries-2-c.jpg",
+					"/products/frozen-elderberries/iqf-frozen-elderberries-3-c.jpg"
 				]
 			}
 		],
@@ -182,8 +188,8 @@
 			{
 				"id": 1,
 				"images": [
-					"/products/strawberry/iqf-frozen-strawberries-1-min.jpg",
-					"/products/strawberry/iqf-frozen-strawberries-2-min.jpg"
+					"/products/frozen-strawberries/iqf-frozen-strawberries-1-min.jpg",
+					"/products/frozen-strawberries/iqf-frozen-strawberries-2-min.jpg"
 				]
 			}
 		],
@@ -202,8 +208,8 @@
 			{
 				"id": 1,
 				"images": [
-					"/products/raspberry-frozen/iqf-frozen-raspberries-1-min.JPG",
-					"/products/raspberry-frozen/iqf-frozen-raspberries-2-min.JPG"
+					"/products/frozen-raspberries/iqf-frozen-raspberries-1-min.JPG",
+					"/products/frozen-raspberries/iqf-frozen-raspberries-2-min.JPG"
 				]
 			}
 		],
@@ -239,8 +245,8 @@
 				"id": 1,
 				"state": "product_page.strawed",
 				"images": [
-					"/products/sweet-pepper-red-frozen/iqf-frozen-red-sweet-peppers-1-min.JPG",
-					"/products/sweet-pepper-red-frozen/iqf-frozen-red-sweet-peppers-2-min.JPG"
+					"/products/frozen-red-sweet-peppers/iqf-frozen-red-sweet-peppers-1-min.JPG",
+					"/products/frozen-red-sweet-peppers/iqf-frozen-red-sweet-peppers-2-min.JPG"
 				]
 			}
 		],
@@ -260,7 +266,7 @@
 				"id": 1,
 				"state": "product_page.strawed",
 				"images": [
-					"/products/sweet-pepper-green-frozen/iqf-frozen-green-sweet-peppers-1-min.JPG"
+					"/products/frozen-green-sweet-peppers/iqf-frozen-green-sweet-peppers-1-min.JPG"
 				]
 			}
 		],
@@ -280,7 +286,7 @@
 				"id": 1,
 				"state": "product_page.strawed",
 				"images": [
-					"/products/sweet-pepper-yellow-frozen/iqf-frozen-yellow-sweet-peppers-1-min.JPG"
+					"/products/frozen-yellow-sweet-peppers/iqf-frozen-yellow-sweet-peppers-1-min.JPG"
 				]
 			}
 		],
@@ -300,8 +306,8 @@
 				"id": 1,
 				"state": "product_page.strawed",
 				"images": [
-					"/products/sweet-pepper-frozen/iqf-frozen-mixed-sweet-peppers-1-min.jpg",
-					"/products/sweet-pepper-frozen/iqf-frozen-mixed-sweet-peppers-2-min.jpg"
+					"/products/frozen-mixed-sweet-peppers/iqf-frozen-mixed-sweet-peppers-1-min.jpg",
+					"/products/frozen-mixed-sweet-peppers/iqf-frozen-mixed-sweet-peppers-2-min.jpg"
 				]
 			}
 		],
@@ -321,23 +327,23 @@
 				"id": 1,
 				"state": "product_page.whole",
 				"images": [
-					"/products/boletus-frozen-whole/iqf-frozen-porcini-mushrooms-whole-1-min.jpg",
-					"/products/boletus-frozen-whole/iqf-frozen-porcini-mushrooms-whole-2-min.jpg"
+					"/products/frozen-porcini-mushrooms-whole/iqf-frozen-porcini-mushrooms-whole-1-min.jpg",
+					"/products/frozen-porcini-mushrooms-whole/iqf-frozen-porcini-mushrooms-whole-2-min.jpg"
 				]
 			},
 			{
 				"id": 2,
 				"state": "product_page.sliced",
 				"images": [
-					"/products/boletus-frozen-sliced/iqf-frozen-porcini-mushrooms-sliced-1-min.jpg"
+					"/products/frozen-porcini-mushrooms-sliced/iqf-frozen-porcini-mushrooms-sliced-1-min.jpg"
 				]
 			},
 			{
 				"id": 3,
 				"state": "product_page.cubic",
 				"images": [
-					"/products/boletus-frozen-cubic/iqf-frozen-porcini-mushrooms-cubic-1-min.jpg",
-					"/products/boletus-frozen-cubic/iqf-frozen-porcini-mushrooms-cubic-2-min.jpg"
+					"/products/frozen-porcini-mushrooms-cubic/iqf-frozen-porcini-mushrooms-cubic-1-min.jpg",
+					"/products/frozen-porcini-mushrooms-cubic/iqf-frozen-porcini-mushrooms-cubic-2-min.jpg"
 				]
 			}
 		],
@@ -355,7 +361,9 @@
 		"variants": [
 			{
 				"id": 1,
-				"images": ["/products/boletus-fresh/fresh-porcini-mushrooms-1-c.jpg"]
+				"images": [
+					"/products/fresh-porcini-mushrooms/fresh-porcini-mushrooms-1-c.jpg"
+				]
 			}
 		],
 		"harvest": [7, 8, 9]
@@ -372,7 +380,9 @@
 		"variants": [
 			{
 				"id": 1,
-				"images": ["/products/boletus-dried/dried-porcini-mushrooms-1-min.jpg"]
+				"images": [
+					"/products/dried-porcini-mushrooms/dried-porcini-mushrooms-1-min.jpg"
+				]
 			}
 		],
 		"harvest": [7, 8, 9]
@@ -389,7 +399,7 @@
 		"variants": [
 			{
 				"id": 1,
-				"images": ["/products/chanterelle/fresh-chanterelles-1-min.jpg"]
+				"images": ["/products/fresh-chanterelles/fresh-chanterelles-1-min.jpg"]
 			}
 		],
 		"harvest": [7, 8, 9]
@@ -424,20 +434,20 @@
 				"id": 1,
 				"state": "product_page.pitted",
 				"images": [
-					"/products/sour-cherry-frozen-pitted/iqf-frozen-sour-cherries-pitted-1-min.jpg",
-					"/products/sour-cherry-frozen-pitted/iqf-frozen-sour-cherries-pitted-2-min.jpg",
-					"/products/sour-cherry-frozen-pitted/iqf-frozen-sour-cherries-pitted-3-min.jpg",
-					"/products/sour-cherry-frozen-pitted/iqf-frozen-sour-cherries-pitted-4-min.jpg",
-					"/products/sour-cherry-frozen-pitted/iqf-frozen-sour-cherries-pitted-5-min.JPG",
-					"/products/sour-cherry-frozen-pitted/iqf-frozen-sour-cherries-pitted-6-min.JPG"
+					"/products/frozen-sour-cherries-pitted/iqf-frozen-sour-cherries-pitted-1-min.jpg",
+					"/products/frozen-sour-cherries-pitted/iqf-frozen-sour-cherries-pitted-2-min.jpg",
+					"/products/frozen-sour-cherries-pitted/iqf-frozen-sour-cherries-pitted-3-min.jpg",
+					"/products/frozen-sour-cherries-pitted/iqf-frozen-sour-cherries-pitted-4-min.jpg",
+					"/products/frozen-sour-cherries-pitted/iqf-frozen-sour-cherries-pitted-5-min.JPG",
+					"/products/frozen-sour-cherries-pitted/iqf-frozen-sour-cherries-pitted-6-min.JPG"
 				]
 			},
 			{
 				"id": 2,
 				"state": "product_page.with_stone",
 				"images": [
-					"/products/sour-cherry-frozen/iqf-frozen-sour-cherries-with-stone-1-min.jpg",
-					"/products/sour-cherry-frozen/iqf-frozen-sour-cherries-with-stone-2-min.jpg"
+					"/products/frozen-sour-cherries-with-stone/iqf-frozen-sour-cherries-with-stone-1-min.jpg",
+					"/products/frozen-sour-cherries-with-stone/iqf-frozen-sour-cherries-with-stone-2-min.jpg"
 				]
 			}
 		],
@@ -456,7 +466,7 @@
 			{
 				"id": 1,
 				"images": [
-					"/products/honey-fungus/iqf-frozen-honey-mushrooms-1-min.jpg"
+					"/products/frozen-honey-mushrooms/iqf-frozen-honey-mushrooms-1-min.jpg"
 				]
 			}
 		],
@@ -492,8 +502,8 @@
 			{
 				"id": 1,
 				"images": [
-					"/products/grape/iqf-frozen-grapes-01-c.jpg",
-					"/products/grape/iqf-frozen-grapes-02-c.jpg"
+					"/products/frozen-grapes/iqf-frozen-grapes-01-c.jpg",
+					"/products/frozen-grapes/iqf-frozen-grapes-02-c.jpg"
 				]
 			}
 		],
@@ -527,7 +537,9 @@
 		"variants": [
 			{
 				"id": 1,
-				"images": ["/products/black-currant/iqf-frozen-black-currants-1-c.jpg"]
+				"images": [
+					"/products/frozen-black-currants/iqf-frozen-black-currants-1-c.jpg"
+				]
 			}
 		],
 		"harvest": [7, 8]
