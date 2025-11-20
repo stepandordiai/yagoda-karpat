@@ -75,9 +75,39 @@ const ProductPage: React.FC<ProductPageProps> = ({ productsData }) => {
 	// 	return trimmed.slice(0, lastSpace);
 	// }
 
+	// FIXME:
+	const allImages = product.variants.flatMap((variant) =>
+		variant.images ? variant.images : []
+	);
+
 	return (
 		<>
 			<Helmet>
+				{/* TODO: */}
+				<script type="application/ld+json">
+					{`
+      					{
+        					"@context": "https://schema.org",
+        					"@type": "Product",
+        					"name": "${t(product.name)}",
+       						"image": "${allImages[0]}",
+        					"description": "${t(product.desc)}"
+      					}
+    				`}
+				</script>
+				{/* TODO: */}
+				<meta property="og:title" content={t(product.name)} />
+				<meta property="og:description" content={t(product.desc)} />
+				<meta
+					property="og:image"
+					content={`https://www.yagodakarpat.com${allImages[0]}`}
+				/>
+				<meta
+					property="og:url"
+					content={`https://www.yagodakarpat.com/en/product-page/${id}`}
+				/>
+				<meta property="og:type" content="product" />
+				<meta property="og:site_name" content="Yagoda Karpat" />
 				<meta name="description" content={t(product.desc)} />
 				<title>{t(product.name) + " / " + t("company_name")}</title>
 				<link
