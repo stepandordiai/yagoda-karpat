@@ -226,7 +226,8 @@
 		"desc": "product_page.frozenApricotDesc",
 		"variants": [
 			{
-				"id": 1
+				"id": 1,
+				"images": ["/products/frozen-apricots/iqf-frozen-apricots-1-c.jpg"]
 			}
 		],
 		"harvest": [7, 8]
@@ -415,7 +416,8 @@
 		"desc": "product_page.driedChanterellesDesc",
 		"variants": [
 			{
-				"id": 1
+				"id": 1,
+				"images": ["/products/dried-chanterelles/dried-chanterelles-1-c.jpg"]
 			}
 		],
 		"harvest": [7, 8, 9]
@@ -483,7 +485,10 @@
 		"pack": ["product_page.pack_1", "product_page.pack_2"],
 		"variants": [
 			{
-				"id": 1
+				"id": 1,
+				"images": [
+					"/products/frozen-blackberries/iqf-frozen-blackberries-1-c.jpeg"
+				]
 			}
 		],
 		"isOrganic": true,
@@ -520,7 +525,8 @@
 		"desc": "product_page.frozenCornDesc",
 		"variants": [
 			{
-				"id": 1
+				"id": 1,
+				"images": ["/products/frozen-sweet-corn/iqf-frozen-sweet-corn-1-c.jpeg"]
 			}
 		],
 		"harvest": [8, 9]
