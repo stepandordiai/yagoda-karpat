@@ -3,8 +3,8 @@ import { useTranslation } from "react-i18next";
 import { useState } from "react";
 import ProductCard from "../ProductCard/ProductCard";
 import SectionTitle from "../SectionTitle/SectionTitle";
-import searchIcon from "/icons/search.png";
-import closeIcon from "/icons/close.png";
+import searchIcon from "/icons/search.svg";
+import xIcon from "/icons/x-lg.svg";
 import "./Products.scss";
 
 type ProductsProps = {
@@ -70,7 +70,7 @@ const Products: React.FC<ProductsProps> = ({ productsData }) => {
 					{search === "" ? (
 						<img src={searchIcon} width={20} height={20} alt="" />
 					) : (
-						<img src={closeIcon} width={20} height={20} alt="" />
+						<img src={xIcon} width={20} height={20} alt="" />
 					)}
 				</button>
 			</div>
