@@ -5,8 +5,8 @@ import { NavLink, useParams } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 import Container from "../Container/Container";
 import linksData from "./../../assets/data/links-data.json";
-import upArrowIcon from "/icons/up-arrow.png";
-import plusIcon from "/icons/plus.png";
+import arrowUpIcon from "/icons/arrow-up.svg";
+import plusIcon from "/icons/plus-lg.svg";
 import logo from "/logo-img/yagoda-karpat-logo.svg";
 import facebookLogo from "/icons/facebook.svg";
 import linkedinLogo from "/icons/linkedin.svg";
@@ -82,7 +82,7 @@ const Footer: React.FC<FooterProps> = ({ productsData }) => {
 				<div className="footer-inner">
 					<div className="footer-top"></div>
 					<button className="to-top-btn" onClick={scrollToTop}>
-						<img src={upArrowIcon} width={25} height={25} alt="" />
+						<img src={arrowUpIcon} width={25} height={25} alt="" />
 					</button>
 					<div className="footer-details">
 						<NavLink className="footer-logo" to={`/${lng}/`}>
