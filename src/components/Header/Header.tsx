@@ -6,7 +6,7 @@ import { HashLink } from "react-router-hash-link";
 import LngSelect from "../LngSelect/LngSelect";
 import Container from "../Container/Container";
 import logo from "/logo-img/yagoda-karpat-logo.svg";
-import plusIcon from "/icons/plus.png";
+import plusIcon from "/icons/plus-lg.svg";
 import "./Header.scss";
 
 type HeaderProps = {
