@@ -75,17 +75,37 @@
 	row-gap: 5px;
 }
 
-.certificates-info {
-	text-align: center;
-	font-size: 1.25rem;
-	margin-bottom: 25px;
-	font-weight: 500;
-}
+.footer__socials {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
 
-.certificates {
-	@include flex-center;
-	gap: 25px;
-	flex-wrap: wrap;
+	a {
+		position: relative;
+		background: var(--bg-clr);
+		padding: 10px;
+		border-radius: 10px;
+		z-index: 0;
+
+		&:before {
+			content: "";
+			position: absolute;
+			top: 0;
+			left: 0;
+			z-index: -1;
+			background: var(--accent-clr);
+			width: 100%;
+			height: 100%;
+			border-radius: 10px;
+			transform: scale(0);
+			transition: transform 0.3s;
+		}
+
+		&:hover::before {
+			transform: scale(1);
+		}
+	}
 }
 
 .footer-nav {

@@ -8,7 +8,28 @@ import linksData from "./../../assets/data/links-data.json";
 import upArrowIcon from "/icons/up-arrow.png";
 import plusIcon from "/icons/plus.png";
 import logo from "/logo-img/yagoda-karpat-logo.svg";
+import facebookLogo from "/icons/facebook.svg";
+import linkedinLogo from "/icons/linkedin.svg";
 import "./Footer.scss";
+
+interface Social {
+	title: string;
+	url: string;
+	img: string;
+}
+
+const socialsData: Social[] = [
+	{
+		title: "Facebook",
+		url: "https://www.facebook.com/profile.php?id=61584019674019",
+		img: facebookLogo,
+	},
+	{
+		title: "Facebook",
+		url: "https://www.linkedin.com/company/yagoda-karpat",
+		img: linkedinLogo,
+	},
+];
 
 type FooterProps = {
 	productsData: Product[];
@@ -68,6 +89,15 @@ const Footer: React.FC<FooterProps> = ({ productsData }) => {
 							<img src={logo} width={50} alt="Yagoda Karpat logo" />
 							<span>{t("company_name")}</span>
 						</NavLink>
+						<div className="footer__socials">
+							{socialsData.map(({ title, url, img }) => {
+								return (
+									<a href={url} target="_blank" title={title}>
+										<img src={img} width={24} height={24} alt="" />
+									</a>
+								);
+							})}
+						</div>
 						<div className="footer-nav">
 							<div>
 								<button
