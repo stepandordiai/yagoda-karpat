@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
-import phoneIcon from "/icons/old-typical-phone.png";
-import mailIcon from "/icons/email.png";
-import pinIcon from "/icons/pin.png";
+import telIcon from "/icons/telephone.svg";
+import envelopeIcon from "/icons/envelope.svg";
+import pinIcon from "/icons/geo.svg";
 import "./ContactDetails.scss";
 
 const ContactDetails = () => {
@@ -36,14 +36,14 @@ const ContactDetails = () => {
 	return (
 		<div className="contacts-icons-container">
 			<a href="tel:+380968065513" className="contacts__info-container">
-				<img src={phoneIcon} alt="" />
+				<img src={telIcon} alt="" />
 				<span>+38 (096) 806 55 13</span>
 			</a>
 			<a
 				href="mailto:info@yagodakarpat.com"
 				className="contacts__info-container"
 			>
-				<img src={mailIcon} alt="" />
+				<img src={envelopeIcon} alt="" />
 				<span>info@yagodakarpat.com</span>
 			</a>
 			<a
