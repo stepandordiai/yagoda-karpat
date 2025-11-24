@@ -41,9 +41,10 @@ const Products: React.FC<ProductsProps> = ({ productsData }) => {
 					{t("products.filter")}
 				</p>
 				<div className="products__btn-container">
-					{["all", ...uniqueTypes].map((type) => {
+					{["all", ...uniqueTypes].map((type, i) => {
 						return (
 							<button
+								key={i}
 								onClick={() => setProductType(type)}
 								className={`products__btn ${
 									productType === type ? "products__btn--active" : ""

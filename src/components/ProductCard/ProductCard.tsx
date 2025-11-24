@@ -79,6 +79,7 @@ const ProductCard: React.FC<ProductProps> = ({ product }) => {
 				{harvestData.map(({ id, month }) => {
 					return (
 						<div
+							key={id}
 							title={t(month)}
 							className={`harvest-month ${
 								harvest.includes(id) ? "month--active" : ""

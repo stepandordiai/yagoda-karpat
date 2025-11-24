@@ -90,9 +90,9 @@ const Footer: React.FC<FooterProps> = ({ productsData }) => {
 							<span>{t("company_name")}</span>
 						</NavLink>
 						<div className="footer__socials">
-							{socialsData.map(({ title, url, img }) => {
+							{socialsData.map(({ title, url, img }, i) => {
 								return (
-									<a href={url} target="_blank" title={title}>
+									<a key={i} href={url} target="_blank" title={title}>
 										<img src={img} width={24} height={24} alt="" />
 									</a>
 								);

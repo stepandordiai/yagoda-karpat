@@ -47,6 +47,7 @@ const BusinessHours = () => {
 				{businessHoursData.map((day, index) => {
 					return (
 						<li
+							key={index}
 							className={correctDayNow === index ? styles["day--active"] : ""}
 						>
 							<span>{t(day.name)}:</span> <span>{t(day.hours)}</span>
