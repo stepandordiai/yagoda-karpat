@@ -84,7 +84,7 @@ const ProductPage: React.FC<ProductPageProps> = ({ productsData }) => {
 		<>
 			<Helmet>
 				{/* TODO: */}
-				<script type="application/ld+json">
+				{/* <script type="application/ld+json">
 					{`
       					{
         					"@context": "https://schema.org",
@@ -94,7 +94,7 @@ const ProductPage: React.FC<ProductPageProps> = ({ productsData }) => {
         					"description": "${t(product.desc)}"
       					}
     				`}
-				</script>
+				</script> */}
 				{/* TODO: */}
 				<meta property="og:title" content={t(product.name)} />
 				<meta property="og:description" content={t(product.desc)} />
