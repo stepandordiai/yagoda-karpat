@@ -8,8 +8,8 @@ import Contacts from "../../components/Contacts/Contacts";
 import { HashLink } from "react-router-hash-link";
 import Container from "../../components/Container/Container";
 import video from "/video-c.mp4";
-import "./Home.scss";
 import { useState } from "react";
+import "./Home.scss";
 
 type HomeProps = {
 	productsData: Product[];
