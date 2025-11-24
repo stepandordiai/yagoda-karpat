@@ -107,24 +107,7 @@
 	transition: transform 0.3s;
 }
 
-.product__harvest {
-	display: flex;
-	column-gap: 5px;
-}
-
-.harvest-month {
-	width: 100%;
-	height: 25px;
-	border: 1px solid var(--accent-clr);
-	border-radius: 5px;
-	@include grid-center;
-	font-size: 0.8rem;
-}
-
-.month--active {
-	background: var(--accent-clr);
-}
-
+// FIXME:
 .variant-btn {
 	position: relative;
 	background: var(--bg-clr);

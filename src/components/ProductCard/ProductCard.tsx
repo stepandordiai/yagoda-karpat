@@ -1,10 +1,9 @@
 import { Product } from "../../interfaces/Product";
 import { useTranslation } from "react-i18next";
+import { useState } from "react";
 import { NavLink, useParams } from "react-router-dom";
-import harvestData from "./../../assets/data/harvest-data.json";
 import organicLogo from "/icons/organic-logo.jpg";
 import "./ProductCard.scss";
-import { useState } from "react";
 
 type ProductProps = {
 	product: Product;
@@ -74,8 +73,6 @@ const ProductCard: React.FC<ProductProps> = ({ product }) => {
 					</NavLink>
 				</div>
 			</div>
-			{/* <p style={{ fontWeight: 500 }}>{t("harvest_calendar")}</p> */}
-			{/* <div className="product__harvest"> */}
 			{variants.some((variant) => variant.state) && (
 				<div style={{ display: "flex", columnGap: 5 }}>
 					{variants.map((variant) => {
@@ -89,27 +86,12 @@ const ProductCard: React.FC<ProductProps> = ({ product }) => {
 										: "variant-btn"
 								}
 							>
-								{t(String(variant.state))}
+								{variant ? t(variant.state) : ""}
 							</button>
 						);
 					})}
 				</div>
 			)}
-
-			{/* {harvestData.map(({ id, month }) => {
-					return (
-						<div
-							key={id}
-							title={t(month)}
-							className={`harvest-month ${
-								harvest.includes(id) ? "month--active" : ""
-							}`}
-						>
-							{t(month)[0]}
-						</div>
-					);
-				})} */}
-			{/* </div> */}
 		</div>
 	);
 };

@@ -8,6 +8,7 @@ import ProductCard from "../../components/ProductCard/ProductCard";
 import ContactForm from "../../components/ContactForm/ContactForm";
 import ContactDetails from "../../components/ContactDetails/ContactDetails";
 import NotFound from "../NotFound/NotFound";
+import harvestData from "./../../assets/data/harvest-data.json";
 import Container from "../../components/Container/Container";
 
 // Swiper
@@ -164,13 +165,13 @@ const ProductPage: React.FC<ProductPageProps> = ({ productsData }) => {
 									</div>
 								)}
 								<div>
-									<h2 style={{ color: "hsl(0, 0%, 50%)" }}>
+									<h2 style={{ color: "hsl(0, 0%, 50%)", marginBottom: 5 }}>
 										{t("product_page.origin_title")}
 									</h2>
 									<p>{t(product.origin)}</p>
 								</div>
 								<div>
-									<h2 style={{ color: "hsl(0, 0%, 50%)" }}>
+									<h2 style={{ color: "hsl(0, 0%, 50%)", marginBottom: 5 }}>
 										{t("product_page.packaging_title")}
 									</h2>
 									{product.pack.map((option, index) => (
@@ -178,10 +179,32 @@ const ProductPage: React.FC<ProductPageProps> = ({ productsData }) => {
 									))}
 								</div>
 								<div>
-									<h2 style={{ color: "hsl(0, 0%, 50%)" }}>
+									<h2 style={{ color: "hsl(0, 0%, 50%)", marginBottom: 5 }}>
 										{t("product_page.desc_title")}
 									</h2>
-									<p>{product.desc && t(product.desc)}</p>
+									<p style={{ textAlign: "justify" }}>
+										{product.desc && t(product.desc)}
+									</p>
+								</div>
+								<div>
+									<h2 style={{ color: "hsl(0, 0%, 50%)", marginBottom: 5 }}>
+										{t("harvest_calendar")}
+									</h2>
+									<div style={{ display: "flex", columnGap: 5 }}>
+										{harvestData.map(({ id, month }) => {
+											return (
+												<div
+													key={id}
+													title={t(month)}
+													className={`harvest-month ${
+														product.harvest.includes(id) ? "month--active" : ""
+													}`}
+												>
+													{t(month)[0]}
+												</div>
+											);
+										})}
+									</div>
 								</div>
 							</div>
 							<a href="tel:+380968065513" className="product-page__link">
