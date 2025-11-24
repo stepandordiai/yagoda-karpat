@@ -8,7 +8,12 @@ const OurCertificates = () => {
 	return (
 		<div className="our-certificates">
 			<h3 className="our-certificates__title">{t("certificates_title")}</h3>
-			<img src={organicStandardImg} alt="" loading="lazy" />
+			<p>{t("ourCertificates.desc")}</p>
+			<img
+				src={organicStandardImg}
+				alt="Organic Standard Certificate"
+				loading="lazy"
+			/>
 		</div>
 	);
 };

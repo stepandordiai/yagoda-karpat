@@ -94,6 +94,10 @@
 		"map_title": "Where to find us"
 	},
 
+	"ourCertificates": {
+		"desc": "We adhere to the highest safety and quality standards, confirmed by our HACCP and Organic certificates. Our products are made from carefully selected raw materials and undergo multi-stage control at every stage of production. These international certifications ensure that our berries, fruits, and vegetables are natural, safe, and fully compliant with the requirements of organic production."
+	},
+
 	"footer": {
 		"navigation": "Navigation"
 	},
