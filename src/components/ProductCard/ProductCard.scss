@@ -13,6 +13,7 @@
 	@include flex-start-center;
 	flex-direction: row;
 	column-gap: 5px;
+	//
 	height: 120px;
 }
 
@@ -32,14 +33,6 @@
 
 .product__img-wrapper:hover .product__img {
 	transform: scale(1.1);
-}
-
-.img--none {
-	height: 100%;
-	//
-	width: 160px;
-	//
-	background: var(--bg-clr);
 }
 
 .img-qty {
@@ -81,8 +74,8 @@
 	}
 }
 
-.product-name {
-	font-size: clamp(1rem, 2vw, 1.5rem);
+.product__name {
+	font-size: clamp(1rem, 2vw, 1.25rem);
 	font-weight: 500;
 }
 
@@ -130,4 +123,35 @@
 
 .month--active {
 	background: var(--accent-clr);
+}
+
+.variant-btn {
+	position: relative;
+	background: var(--bg-clr);
+	padding: 10px;
+	border-radius: 10px;
+	z-index: 0;
+
+	&:before {
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: -1;
+		border-radius: inherit;
+		width: 100%;
+		height: 100%;
+		background: var(--accent-clr);
+		transform: scale(0);
+		transform-origin: center center;
+		transition: transform 0.3s;
+	}
+
+	&:hover::before {
+		transform: scale(1);
+	}
+}
+
+.variant-btn--active::before {
+	transform: scale(1);
 }

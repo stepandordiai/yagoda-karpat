@@ -9,7 +9,7 @@ export interface Product {
 	desc: string;
 	variants: {
 		id: number;
-		images?: string[];
+		images: string[];
 		state?: string;
 	}[];
 	isOrganic?: boolean;
