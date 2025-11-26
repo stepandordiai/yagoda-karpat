@@ -38,15 +38,9 @@ const ProductPage: React.FC<ProductPageProps> = ({ productsData }) => {
 		setActiveVariantId(props);
 	}
 
-	useEffect(() => {
-		if (activeVariantId) {
-			setActiveVariantId(product?.variants[0].id);
-		}
-	}, [id]);
-
 	interface ProductVariant {
 		id: number;
-		images?: string[];
+		images: string[];
 		state?: string;
 	}
 
@@ -84,7 +78,7 @@ const ProductPage: React.FC<ProductPageProps> = ({ productsData }) => {
 	return (
 		<>
 			<Helmet>
-				{/* TODO: */}
+				{/* TODO: ld json */}
 				{/* <script type="application/ld+json">
 					{`
       					{
@@ -96,7 +90,7 @@ const ProductPage: React.FC<ProductPageProps> = ({ productsData }) => {
       					}
     				`}
 				</script> */}
-				{/* TODO: */}
+				{/* TODO: og */}
 				<meta property="og:title" content={t(product.name)} />
 				<meta property="og:description" content={t(product.desc)} />
 				<meta
@@ -213,30 +207,30 @@ const ProductPage: React.FC<ProductPageProps> = ({ productsData }) => {
 						</div>
 						<div className="swiper-wrapper">
 							{productVariant.images && (
-								<>
-									<Swiper
-										spaceBetween={25}
-										autoplay={{
-											delay: 3000,
-											disableOnInteraction: false,
-										}}
-										speed={500}
-										loop={true}
-										pagination={{
-											type: "fraction",
-										}}
-										modules={[Autoplay, Pagination]}
-										className="swiper"
-									>
-										{productVariant.images.map((img, index) => {
-											return (
-												<SwiperSlide key={index}>
-													<img className="swiper-img" src={img} alt="" />
-												</SwiperSlide>
-											);
-										})}
-									</Swiper>
-								</>
+								<Swiper
+									// TODO: LEARN THIS
+									key={activeVariantId}
+									spaceBetween={25}
+									autoplay={{
+										delay: 3000,
+										disableOnInteraction: false,
+									}}
+									speed={500}
+									loop={true}
+									pagination={{
+										type: "fraction",
+									}}
+									modules={[Autoplay, Pagination]}
+									className="swiper"
+								>
+									{productVariant.images.map((img, index) => {
+										return (
+											<SwiperSlide key={index}>
+												<img className="swiper-img" src={img} alt="" />
+											</SwiperSlide>
+										);
+									})}
+								</Swiper>
 							)}
 						</div>
 					</div>
