@@ -8,7 +8,7 @@ const OurCertificates = () => {
 	return (
 		<div className="our-certificates">
 			<h3 className="our-certificates__title">{t("certificates_title")}</h3>
-			<p>{t("ourCertificates.desc")}</p>
+			<p style={{ textAlign: "justify" }}>{t("ourCertificates.desc")}</p>
 			<img
 				src={organicStandardImg}
 				alt="Organic Standard Certificate"
