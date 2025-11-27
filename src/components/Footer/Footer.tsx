@@ -25,7 +25,7 @@ const socialsData: Social[] = [
 		img: facebookLogo,
 	},
 	{
-		title: "Facebook",
+		title: "LinkedIn",
 		url: "https://www.linkedin.com/company/yagoda-karpat",
 		img: linkedinLogo,
 	},
@@ -69,7 +69,7 @@ const Footer: React.FC<FooterProps> = ({ productsData }) => {
 		setFooterDropdownActive((prev) => prev.map(() => false));
 	};
 
-	const scrollToTop = () => {
+	const handleScrollToTop = () => {
 		document.documentElement.scrollTo({
 			top: 0,
 			behavior: "smooth",
@@ -81,8 +81,12 @@ const Footer: React.FC<FooterProps> = ({ productsData }) => {
 			<Container>
 				<div className="footer-inner">
 					<div className="footer-top"></div>
-					<button className="to-top-btn" onClick={scrollToTop}>
-						<img src={arrowUpIcon} width={25} height={25} alt="" />
+					<button
+						className="to-top-btn"
+						onClick={handleScrollToTop}
+						aria-label={t("footer.scrollToTop")}
+					>
+						<img src={arrowUpIcon} width={26} height={26} alt="" />
 					</button>
 					<div className="footer-details">
 						<NavLink className="footer-logo" to={`/${lng}/`}>
@@ -114,8 +118,8 @@ const Footer: React.FC<FooterProps> = ({ productsData }) => {
 												: ""
 										}`}
 										src={plusIcon}
-										width={25}
-										height={25}
+										width={26}
+										height={26}
 										alt=""
 									/>
 								</button>
@@ -164,8 +168,8 @@ const Footer: React.FC<FooterProps> = ({ productsData }) => {
 														: ""
 												}`}
 												src={plusIcon}
-												width={25}
-												height={25}
+												width={26}
+												height={26}
 												alt=""
 											/>
 										</button>

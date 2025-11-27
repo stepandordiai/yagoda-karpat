@@ -104,7 +104,8 @@
 	},
 
 	"footer": {
-		"navigation": "Navigation"
+		"navigation": "Navigation",
+		"scrollToTop": "Scroll to top"
 	},
 
 	"product_page": {

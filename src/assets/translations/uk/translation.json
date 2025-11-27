@@ -105,7 +105,8 @@
 	},
 
 	"footer": {
-		"navigation": "Навігація"
+		"navigation": "Навігація",
+		"scrollToTop": "Прокрутити нагору"
 	},
 
 	"product_page": {
