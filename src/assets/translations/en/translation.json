@@ -38,6 +38,11 @@
 	"all": "All",
 	"all_rights_reserved": "All rights reserved",
 
+	"header": {
+		"openMenu": "Open menu",
+		"closeMenu": "Close menu"
+	},
+
 	"home": {
 		"title": "Manufacturer and exporter of frozen and dried products",
 		"sec_title": "We produce and export high-quality frozen and dried berries, fruits, mushrooms and vegetables",

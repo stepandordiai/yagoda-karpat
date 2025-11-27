@@ -118,7 +118,13 @@ const Header: React.FC<HeaderProps> = ({ productsData }) => {
 
 						{/* burger-btn */}
 
-						<button onClick={toggleBurgerBtn} className="burger-btn">
+						<button
+							onClick={toggleBurgerBtn}
+							className="burger-btn"
+							aria-label={
+								isActive ? t("header.closeMenu") : t("header.openMenu")
+							}
+						>
 							<span
 								className={`burger-btn-inner ${
 									isActive ? "burger-btn-inner--active" : ""
