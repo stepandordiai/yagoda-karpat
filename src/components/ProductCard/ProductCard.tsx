@@ -13,7 +13,7 @@ const ProductCard: React.FC<ProductProps> = ({ product }) => {
 	const { t } = useTranslation();
 	const { lng } = useParams();
 
-	const { id, name, variants, isOrganic, harvest } = product;
+	const { id, name, variants, isOrganic } = product;
 
 	const [productStateId, setProductStateId] = useState(variants[0].id);
 
@@ -86,7 +86,8 @@ const ProductCard: React.FC<ProductProps> = ({ product }) => {
 										: "variant-btn"
 								}
 							>
-								{variant ? t(variant.state) : ""}
+								{/* TODO: */}
+								{variant ? t(String(variant.state)) : ""}
 							</button>
 						);
 					})}
