@@ -233,82 +233,82 @@
 		"harvest": [7, 8]
 	},
 	{
-		"id": "frozen-red-sweet-peppers",
+		"id": "frozen-red-bell-peppers",
 		"type": "vegetables_title",
 		"status": "frozen",
 		"latName": "Capsicum annuum",
-		"name": "products.frozenRedSweetPeppers",
+		"name": "products.frozenRedBellPeppers",
 		"origin": "product_page.origin",
 		"pack": ["product_page.pack_2"],
-		"desc": "product_page.frozenRedSweetPeppersDesc",
+		"desc": "product_page.frozenRedBellPeppersDesc",
 		"variants": [
 			{
 				"id": 1,
-				"state": "product_page.strawed",
+				"state": "product_page.strips",
 				"images": [
-					"/products/frozen-red-sweet-peppers/iqf-frozen-red-sweet-peppers-1-min.JPG",
-					"/products/frozen-red-sweet-peppers/iqf-frozen-red-sweet-peppers-2-min.JPG"
+					"/products/frozen-red-bell-peppers/iqf-frozen-red-bell-peppers-1-min.JPG",
+					"/products/frozen-red-bell-peppers/iqf-frozen-red-bell-peppers-2-min.JPG"
 				]
 			}
 		],
 		"harvest": [7, 8, 9]
 	},
 	{
-		"id": "frozen-green-sweet-peppers",
+		"id": "frozen-green-bell-peppers",
 		"type": "vegetables_title",
 		"status": "frozen",
 		"latName": "Capsicum annuum",
-		"name": "products.frozenGreenSweetPeppers",
+		"name": "products.frozenGreenBellPeppers",
 		"origin": "product_page.origin",
 		"pack": ["product_page.pack_2"],
-		"desc": "product_page.frozenGreenSweetPeppersDesc",
+		"desc": "product_page.frozenGreenBellPeppersDesc",
 		"variants": [
 			{
 				"id": 1,
-				"state": "product_page.strawed",
+				"state": "product_page.strips",
 				"images": [
-					"/products/frozen-green-sweet-peppers/iqf-frozen-green-sweet-peppers-1-min.JPG"
+					"/products/frozen-green-bell-peppers/iqf-frozen-green-bell-peppers-1-min.JPG"
 				]
 			}
 		],
 		"harvest": [7, 8, 9]
 	},
 	{
-		"id": "frozen-yellow-sweet-peppers",
+		"id": "frozen-yellow-bell-peppers",
 		"type": "vegetables_title",
 		"status": "frozen",
 		"latName": "Capsicum annuum",
-		"name": "products.frozenYellowSweetPeppers",
+		"name": "products.frozenYellowBellPeppers",
 		"origin": "product_page.origin",
 		"pack": ["product_page.pack_2"],
-		"desc": "product_page.frozenYellowSweetPeppersDesc",
+		"desc": "product_page.frozenYellowBellPeppersDesc",
 		"variants": [
 			{
 				"id": 1,
-				"state": "product_page.strawed",
+				"state": "product_page.strips",
 				"images": [
-					"/products/frozen-yellow-sweet-peppers/iqf-frozen-yellow-sweet-peppers-1-min.JPG"
+					"/products/frozen-yellow-bell-peppers/iqf-frozen-yellow-bell-peppers-1-min.JPG"
 				]
 			}
 		],
 		"harvest": [7, 8, 9]
 	},
 	{
-		"id": "frozen-mixed-sweet-peppers",
+		"id": "frozen-mixed-bell-peppers",
 		"type": "vegetables_title",
 		"status": "frozen",
 		"latName": "Capsicum annuum",
-		"name": "products.frozenMixedSweetPeppers",
+		"name": "products.frozenMixedBellPeppers",
 		"origin": "product_page.origin",
 		"pack": ["product_page.pack_2"],
-		"desc": "product_page.frozenMixedSweetPeppersDesc",
+		"desc": "product_page.frozenMixedBellPeppersDesc",
 		"variants": [
 			{
 				"id": 1,
-				"state": "product_page.strawed",
+				"state": "product_page.strips",
 				"images": [
-					"/products/frozen-mixed-sweet-peppers/iqf-frozen-mixed-sweet-peppers-1-min.jpg",
-					"/products/frozen-mixed-sweet-peppers/iqf-frozen-mixed-sweet-peppers-2-min.jpg"
+					"/products/frozen-mixed-bell-peppers/iqf-frozen-mixed-bell-peppers-1-min.jpg",
+					"/products/frozen-mixed-bell-peppers/iqf-frozen-mixed-bell-peppers-2-min.jpg"
 				]
 			}
 		],

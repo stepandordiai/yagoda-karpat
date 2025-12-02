@@ -170,61 +170,53 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.yagodakarpat.com/en/product-page/frozen-apricots" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yagodakarpat.com/uk/product-page/frozen-apricots" />
 </url>
-
-<!-- Sweet pepper red -->
 <url>
-	<loc>https://www.yagodakarpat.com/uk/product-page/frozen-red-sweet-peppers</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://www.yagodakarpat.com/uk/product-page/frozen-red-sweet-peppers" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.yagodakarpat.com/en/product-page/frozen-red-sweet-peppers" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yagodakarpat.com/uk/product-page/frozen-red-sweet-peppers" />
+	<loc>https://www.yagodakarpat.com/uk/product-page/frozen-red-bell-peppers</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.yagodakarpat.com/uk/product-page/frozen-red-bell-peppers" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.yagodakarpat.com/en/product-page/frozen-red-bell-peppers" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yagodakarpat.com/uk/product-page/frozen-red-bell-peppers" />
 </url>
 <url>
-	<loc>https://www.yagodakarpat.com/en/product-page/frozen-red-sweet-peppers</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://www.yagodakarpat.com/uk/product-page/frozen-red-sweet-peppers" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.yagodakarpat.com/en/product-page/frozen-red-sweet-peppers" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yagodakarpat.com/uk/product-page/frozen-red-sweet-peppers" />
-</url>
-
-<!-- Sweet pepper green -->
-<url>
-	<loc>https://www.yagodakarpat.com/uk/product-page/frozen-green-sweet-peppers</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://www.yagodakarpat.com/uk/product-page/frozen-green-sweet-peppers" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.yagodakarpat.com/en/product-page/frozen-green-sweet-peppers" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yagodakarpat.com/uk/product-page/frozen-green-sweet-peppers" />
+	<loc>https://www.yagodakarpat.com/en/product-page/frozen-red-bell-peppers</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.yagodakarpat.com/uk/product-page/frozen-red-bell-peppers" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.yagodakarpat.com/en/product-page/frozen-red-bell-peppers" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yagodakarpat.com/uk/product-page/frozen-red-bell-peppers" />
 </url>
 <url>
-	<loc>https://www.yagodakarpat.com/en/product-page/frozen-green-sweet-peppers</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://www.yagodakarpat.com/uk/product-page/frozen-green-sweet-peppers" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.yagodakarpat.com/en/product-page/frozen-green-sweet-peppers" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yagodakarpat.com/uk/product-page/frozen-green-sweet-peppers" />
-</url>
-
-<!-- Sweet pepper yellow -->
-<url>
-	<loc>https://www.yagodakarpat.com/uk/product-page/frozen-yellow-sweet-peppers</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://www.yagodakarpat.com/uk/product-page/frozen-yellow-sweet-peppers" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.yagodakarpat.com/en/product-page/frozen-yellow-sweet-peppers" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yagodakarpat.com/uk/product-page/frozen-yellow-sweet-peppers" />
+	<loc>https://www.yagodakarpat.com/uk/product-page/frozen-green-bell-peppers</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.yagodakarpat.com/uk/product-page/frozen-green-bell-peppers" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.yagodakarpat.com/en/product-page/frozen-green-bell-peppers" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yagodakarpat.com/uk/product-page/frozen-green-bell-peppers" />
 </url>
 <url>
-	<loc>https://www.yagodakarpat.com/en/product-page/frozen-yellow-sweet-peppers</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://www.yagodakarpat.com/uk/product-page/frozen-yellow-sweet-peppers" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.yagodakarpat.com/en/product-page/frozen-yellow-sweet-peppers" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yagodakarpat.com/uk/product-page/frozen-yellow-sweet-peppers" />
-</url>
-
-<!-- Sweet pepper -->
-<url>
-	<loc>https://www.yagodakarpat.com/uk/product-page/frozen-mixed-sweet-peppers</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://www.yagodakarpat.com/uk/product-page/frozen-mixed-sweet-peppers" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.yagodakarpat.com/en/product-page/frozen-mixed-sweet-peppers" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yagodakarpat.com/uk/product-page/frozen-mixed-sweet-peppers" />
+	<loc>https://www.yagodakarpat.com/en/product-page/frozen-green-bell-peppers</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.yagodakarpat.com/uk/product-page/frozen-green-bell-peppers" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.yagodakarpat.com/en/product-page/frozen-green-bell-peppers" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yagodakarpat.com/uk/product-page/frozen-green-bell-peppers" />
 </url>
 <url>
-	<loc>https://www.yagodakarpat.com/en/product-page/frozen-mixed-sweet-peppers</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://www.yagodakarpat.com/uk/product-page/frozen-mixed-sweet-peppers" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.yagodakarpat.com/en/product-page/frozen-mixed-sweet-peppers" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yagodakarpat.com/uk/product-page/frozen-mixed-sweet-peppers" />
+	<loc>https://www.yagodakarpat.com/uk/product-page/frozen-yellow-bell-peppers</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.yagodakarpat.com/uk/product-page/frozen-yellow-bell-peppers" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.yagodakarpat.com/en/product-page/frozen-yellow-bell-peppers" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yagodakarpat.com/uk/product-page/frozen-yellow-bell-peppers" />
+</url>
+<url>
+	<loc>https://www.yagodakarpat.com/en/product-page/frozen-yellow-bell-peppers</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.yagodakarpat.com/uk/product-page/frozen-yellow-bell-peppers" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.yagodakarpat.com/en/product-page/frozen-yellow-bell-peppers" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yagodakarpat.com/uk/product-page/frozen-yellow-bell-peppers" />
+</url>
+<url>
+	<loc>https://www.yagodakarpat.com/uk/product-page/frozen-mixed-bell-peppers</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.yagodakarpat.com/uk/product-page/frozen-mixed-bell-peppers" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.yagodakarpat.com/en/product-page/frozen-mixed-bell-peppers" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yagodakarpat.com/uk/product-page/frozen-mixed-bell-peppers" />
+</url>
+<url>
+	<loc>https://www.yagodakarpat.com/en/product-page/frozen-mixed-bell-peppers</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.yagodakarpat.com/uk/product-page/frozen-mixed-bell-peppers" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.yagodakarpat.com/en/product-page/frozen-mixed-bell-peppers" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yagodakarpat.com/uk/product-page/frozen-mixed-bell-peppers" />
 </url>
 
 <!-- Boletus frozen -->
