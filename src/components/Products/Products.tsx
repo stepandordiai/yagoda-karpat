@@ -3,6 +3,7 @@ import { useTranslation } from "react-i18next";
 import { useState } from "react";
 import ProductCard from "../ProductCard/ProductCard";
 import SectionTitle from "../SectionTitle/SectionTitle";
+import classNames from "classnames";
 import searchIcon from "/icons/search.svg";
 import xIcon from "/icons/x-lg.svg";
 import "./Products.scss";
@@ -46,9 +47,9 @@ const Products: React.FC<ProductsProps> = ({ productsData }) => {
 							<button
 								key={i}
 								onClick={() => setProductType(type)}
-								className={`products__btn ${
-									productType === type ? "products__btn--active" : ""
-								}`}
+								className={classNames("products__btn", {
+									"products__btn--active": productType === type,
+								})}
 							>
 								{t(type)}
 							</button>

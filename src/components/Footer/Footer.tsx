@@ -5,6 +5,7 @@ import { NavLink, useParams } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 import Container from "../Container/Container";
 import linksData from "./../../assets/data/links-data.json";
+import classNames from "classnames";
 import arrowUpIcon from "/icons/arrow-up.svg";
 import plusIcon from "/icons/plus-lg.svg";
 import logo from "/logo-img/yagoda-karpat-logo.svg";
@@ -106,17 +107,15 @@ const Footer: React.FC<FooterProps> = ({ productsData }) => {
 							<div>
 								<button
 									onClick={toggleFooterNavDropdown}
-									className={`footer-nav__title dropdown-btn ${
-										footerNavDropdownActive ? "dropdown-btn--active" : ""
-									}`}
+									className={classNames("footer-nav__title", "dropdown-btn", {
+										"dropdown-btn--active": footerNavDropdownActive,
+									})}
 								>
 									<span>{t("footer.navigation")}</span>
 									<img
-										className={`dropdown-btn__icon ${
-											footerNavDropdownActive
-												? "dropdown-btn__icon--active"
-												: ""
-										}`}
+										className={classNames("dropdown-btn__icon", {
+											"dropdown-btn__icon--active": footerNavDropdownActive,
+										})}
 										src={plusIcon}
 										width={26}
 										height={26}
@@ -124,11 +123,9 @@ const Footer: React.FC<FooterProps> = ({ productsData }) => {
 									/>
 								</button>
 								<div
-									className={`grid-dropdown__wrapper ${
-										footerNavDropdownActive
-											? "grid-dropdown__wrapper--active"
-											: ""
-									}`}
+									className={classNames("grid-dropdown__wrapper", {
+										"grid-dropdown__wrapper--active": footerNavDropdownActive,
+									})}
 								>
 									<div className="grid-dropdown">
 										<ul className="footer-nav__list">
@@ -154,19 +151,20 @@ const Footer: React.FC<FooterProps> = ({ productsData }) => {
 									<div key={productType}>
 										<button
 											onClick={() => toggleFooterDropdown(index)}
-											className={`footer-nav__title dropdown-btn ${
-												footerDropdownActive[index]
-													? "dropdown-btn--active"
-													: ""
-											}`}
+											className={classNames(
+												"footer-nav__title",
+												"dropdown-btn",
+												{
+													"dropdown-btn--active": footerDropdownActive[index],
+												}
+											)}
 										>
 											<span>{t(productType)}</span>
 											<img
-												className={`dropdown-btn__icon ${
-													footerDropdownActive[index]
-														? "dropdown-btn__icon--active"
-														: ""
-												}`}
+												className={classNames("dropdown-btn__icon", {
+													"dropdown-btn__icon--active":
+														footerDropdownActive[index],
+												})}
 												src={plusIcon}
 												width={26}
 												height={26}
@@ -174,11 +172,10 @@ const Footer: React.FC<FooterProps> = ({ productsData }) => {
 											/>
 										</button>
 										<div
-											className={`grid-dropdown__wrapper ${
-												footerDropdownActive[index]
-													? "grid-dropdown__wrapper--active"
-													: ""
-											}`}
+											className={classNames("grid-dropdown__wrapper", {
+												"grid-dropdown__wrapper--active":
+													footerDropdownActive[index],
+											})}
 										>
 											<div className="grid-dropdown">
 												<ul className="footer-nav__list">
@@ -192,9 +189,10 @@ const Footer: React.FC<FooterProps> = ({ productsData }) => {
 																	<NavLink
 																		onClick={closeFooterDropdown}
 																		className={({ isActive }) =>
-																			isActive
-																				? "footer__product-link--active"
-																				: ""
+																			classNames("footer__product-link", {
+																				"footer__product-link--active":
+																					isActive,
+																			})
 																		}
 																		to={`/${lng}/product-page/${id}`}
 																	>

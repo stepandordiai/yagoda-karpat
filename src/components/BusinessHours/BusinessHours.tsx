@@ -1,4 +1,5 @@
 import { useTranslation } from "react-i18next";
+import classNames from "classnames";
 import styles from "./BusinessHours.module.scss";
 
 const businessHoursData = [
@@ -48,7 +49,9 @@ const BusinessHours = () => {
 					return (
 						<li
 							key={index}
-							className={correctDayNow === index ? styles["day--active"] : ""}
+							className={classNames({
+								[styles["day--active"]]: correctDayNow === index,
+							})}
 						>
 							<span>{t(day.name)}:</span> <span>{t(day.hours)}</span>
 						</li>

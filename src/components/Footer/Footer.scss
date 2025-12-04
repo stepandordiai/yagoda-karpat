@@ -130,15 +130,13 @@
 	display: flex;
 	flex-direction: column;
 	row-gap: 5px;
+}
 
-	li {
-		a {
-			transition: color 0.15s;
+.footer__product-link {
+	transition: color 0.15s;
 
-			&:hover {
-				color: var(--accent-clr);
-			}
-		}
+	&:hover {
+		color: var(--accent-clr);
 	}
 }
 

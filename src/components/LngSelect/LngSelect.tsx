@@ -1,9 +1,9 @@
 import { useEffect, useRef, useState } from "react";
 import i18n from "i18next";
-import { useLocation } from "react-router-dom";
-import { useNavigate } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import lngData from "./../../assets/data/lng-data.json";
 import getStorage from "../../utils/getStorage";
+import classNames from "classnames";
 import "./LngSelect.scss";
 
 const LngSelect = () => {
@@ -57,27 +57,27 @@ const LngSelect = () => {
 		<div ref={lngSelect} className="lng-select">
 			<button
 				onClick={handleLngSelectBtn}
-				className={`lng-select__btn ${
-					lngSelectBtn ? "lng-select__btn--active" : ""
-				}`}
+				className={classNames("lng-select__btn", {
+					"lng-select__btn--active": lngSelectBtn,
+				})}
 			>
 				<span>{lngSelectName}</span>
 				<span> - </span>
 				<span>{lngSelectFullname}</span>
 			</button>
 			<ul
-				className={`lng-select__dd ${
-					lngSelectBtn ? "lng-select__dd--active" : ""
-				}`}
+				className={classNames("lng-select__dd", {
+					"lng-select__dd--active": lngSelectBtn,
+				})}
 			>
 				{lngData.map((lng) => {
 					return (
 						<li
 							key={lng.code}
 							onClick={() => handleLngSelectOption(lng.code)}
-							className={`lng-select__option ${
-								lngSelectOption === lng.code ? "lng-select__option--active" : ""
-							}`}
+							className={classNames("lng-select__option", {
+								"lng-select__option--active": lngSelectOption === lng.code,
+							})}
 						>
 							<span>{lng.name}</span>
 							<span> - </span>

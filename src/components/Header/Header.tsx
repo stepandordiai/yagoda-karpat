@@ -5,6 +5,7 @@ import { NavLink, useParams, useLocation } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 import LngSelect from "../LngSelect/LngSelect";
 import Container from "../Container/Container";
+import classNames from "classnames";
 import logo from "/logo-img/yagoda-karpat-logo.svg";
 import plusIcon from "/icons/plus-lg.svg";
 import "./Header.scss";
@@ -126,14 +127,14 @@ const Header: React.FC<HeaderProps> = ({ productsData }) => {
 							}
 						>
 							<span
-								className={`burger-btn-inner ${
-									isActive ? "burger-btn-inner--active" : ""
-								}`}
+								className={classNames("", {
+									"burger-btn-inner--active": isActive,
+								})}
 							>
 								<span
-									className={`burger-btn-inner__center-line ${
-										isActive ? "burger-btn-inner__center-line--active" : ""
-									}`}
+									className={classNames("burger-btn-inner__center-line", {
+										"burger-btn-inner__center-line--active": isActive,
+									})}
 								></span>
 							</span>
 						</button>
@@ -143,7 +144,11 @@ const Header: React.FC<HeaderProps> = ({ productsData }) => {
 
 			{/* menu */}
 
-			<div className={`menu ${isActive ? "menu--active" : ""}`}>
+			<div
+				className={classNames("menu", {
+					"menu--active": isActive,
+				})}
+			>
 				<ul className="menu__list">
 					<li>
 						<HashLink
@@ -176,24 +181,24 @@ const Header: React.FC<HeaderProps> = ({ productsData }) => {
 								{t("products_title")}
 							</HashLink>
 							<button
-								className={`products-btn ${
-									isDropdownOpen ? "products-btn--active" : ""
-								}`}
+								className={classNames("products-btn", {
+									"products-btn--active": isDropdownOpen,
+								})}
 								onClick={toggleDropdownBtn}
 							>
 								<span
-									className={`products-btn__icon ${
-										isDropdownOpen ? "products-btn__icon--active" : ""
-									}`}
+									className={classNames("products-btn__icon", {
+										"products-btn__icon--active": isDropdownOpen,
+									})}
 								>
 									<img src={plusIcon} width={25} height={25} alt="" />
 								</span>
 							</button>
 						</div>
 						<div
-							className={`menu__grid-dropdown ${
-								isDropdownOpen ? "menu__grid-dropdown--active" : ""
-							}`}
+							className={classNames("menu__grid-dropdown", {
+								"menu__grid-dropdown--active": isDropdownOpen,
+							})}
 						>
 							<div className="menu__dropdown">
 								<div className="menu__inner-dd">
@@ -210,7 +215,9 @@ const Header: React.FC<HeaderProps> = ({ productsData }) => {
 																	<NavLink
 																		onClick={closeMenu}
 																		className={({ isActive }) =>
-																			isActive ? "product-link--active" : ""
+																			classNames({
+																				"product-link--active": isActive,
+																			})
 																		}
 																		to={`/${lng}/product-page/${id}`}
 																	>
@@ -251,7 +258,9 @@ const Header: React.FC<HeaderProps> = ({ productsData }) => {
 			{/* menu-curtain */}
 
 			<div
-				className={`menu-curtain ${isActive ? "menu-curtain--active" : ""}`}
+				className={classNames("menu-curtain", {
+					"menu-curtain--active": isActive,
+				})}
 			></div>
 		</>
 	);

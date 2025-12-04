@@ -2,6 +2,7 @@ import { Product } from "../../interfaces/Product";
 import { useTranslation } from "react-i18next";
 import { useState } from "react";
 import { NavLink, useParams } from "react-router-dom";
+import classNames from "classnames";
 import organicLogo from "/icons/organic-logo.jpg";
 import "./ProductCard.scss";
 
@@ -80,11 +81,9 @@ const ProductCard: React.FC<ProductProps> = ({ product }) => {
 							<button
 								key={variant.id}
 								onClick={() => setProductStateId(variant.id)}
-								className={
-									variant.id === productStateId
-										? "variant-btn variant-btn--active"
-										: "variant-btn"
-								}
+								className={classNames("variant-btn", {
+									"variant-btn--active": variant.id === productStateId,
+								})}
 							>
 								{/* TODO: */}
 								{variant ? t(String(variant.state)) : ""}

@@ -1,6 +1,6 @@
 import { Product } from "../../interfaces/Product";
 import { useTranslation } from "react-i18next";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { useParams } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import PageNavTitle from "../../components/PageNavTitle/PageNavTitle";
@@ -10,6 +10,7 @@ import ContactDetails from "../../components/ContactDetails/ContactDetails";
 import NotFound from "../NotFound/NotFound";
 import harvestData from "./../../assets/data/harvest-data.json";
 import Container from "../../components/Container/Container";
+import classNames from "classnames";
 
 // Swiper
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -146,11 +147,10 @@ const ProductPage: React.FC<ProductPageProps> = ({ productsData }) => {
 												<button
 													key={variant.id}
 													onClick={() => handleVariantId(variant.id)}
-													className={
-														variant.id === activeVariantId
-															? "variant-btn variant-btn--active"
-															: "variant-btn"
-													}
+													className={classNames("variant-btn", {
+														"variant-btn--active":
+															variant.id === activeVariantId,
+													})}
 												>
 													{t(variant.state!)}
 												</button>
@@ -190,9 +190,9 @@ const ProductPage: React.FC<ProductPageProps> = ({ productsData }) => {
 												<div
 													key={id}
 													title={t(month)}
-													className={`harvest-month ${
-														product.harvest.includes(id) ? "month--active" : ""
-													}`}
+													className={classNames("harvest-month", {
+														"month--active": product.harvest.includes(id),
+													})}
 												>
 													{t(month)[0]}
 												</div>
