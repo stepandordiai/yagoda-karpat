@@ -127,7 +127,7 @@ const Header: React.FC<HeaderProps> = ({ productsData }) => {
 							}
 						>
 							<span
-								className={classNames("", {
+								className={classNames("burger-btn-inner", {
 									"burger-btn-inner--active": isActive,
 								})}
 							>
