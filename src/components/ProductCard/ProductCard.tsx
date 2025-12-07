@@ -34,7 +34,7 @@ const ProductCard: React.FC<ProductProps> = ({ product }) => {
 					<img
 						className="product__img"
 						src={productState?.images[0]}
-						alt={t(name)}
+						alt={`${t(name)} ${t(productState?.state ?? "")}`.trimEnd()}
 						loading="lazy"
 					/>
 					<div className="img-qty">
