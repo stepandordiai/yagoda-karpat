@@ -226,7 +226,13 @@ const ProductPage: React.FC<ProductPageProps> = ({ productsData }) => {
 									{productVariant.images.map((img, index) => {
 										return (
 											<SwiperSlide key={index}>
-												<img className="swiper-img" src={img} alt="" />
+												<img
+													className="swiper-img"
+													src={img}
+													alt={`${t(product.name)} ${t(
+														productVariant.state ?? ""
+													)}`.trimEnd()}
+												/>
 											</SwiperSlide>
 										);
 									})}
