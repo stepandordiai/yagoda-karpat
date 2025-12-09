@@ -47,7 +47,7 @@ const Footer: React.FC<FooterProps> = ({ productsData }) => {
 
 	const [footerNavDropdownActive, setFooterNavDropdownActive] = useState(false);
 
-	// TODO:
+	// TODO: learn this
 	const [footerDropdownActive, setFooterDropdownActive] = useState<boolean[]>(
 		() => new Array(uniqueProductTypes.length).fill(false)
 	);
@@ -56,7 +56,7 @@ const Footer: React.FC<FooterProps> = ({ productsData }) => {
 		setFooterNavDropdownActive((prev) => !prev);
 	};
 
-	// TODO:
+	// TODO: learn this
 	const toggleFooterDropdown = (index: number) => {
 		setFooterDropdownActive((prev) => {
 			const updated = [...prev];
@@ -70,8 +70,8 @@ const Footer: React.FC<FooterProps> = ({ productsData }) => {
 		setFooterDropdownActive((prev) => prev.map(() => false));
 	};
 
-	const handleScrollToTop = () => {
-		document.documentElement.scrollTo({
+	const scrollToTopOnClick = () => {
+		window.scrollTo({
 			top: 0,
 			behavior: "smooth",
 		});
@@ -84,7 +84,7 @@ const Footer: React.FC<FooterProps> = ({ productsData }) => {
 					<div className="footer-top"></div>
 					<button
 						className="to-top-btn"
-						onClick={handleScrollToTop}
+						onClick={scrollToTopOnClick}
 						aria-label={t("footer.scrollToTop")}
 					>
 						<img src={arrowUpIcon} width={26} height={26} alt="" />

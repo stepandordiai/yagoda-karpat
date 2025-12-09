@@ -191,8 +191,7 @@
 		padding: 0 10px;
 		border-radius: 10px;
 		overflow: hidden;
-		pointer-events: all;
-		cursor: pointer;
+		pointer-events: auto;
 		background: var(--bg-clr);
 	}
 
