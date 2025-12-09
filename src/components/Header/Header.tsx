@@ -19,26 +19,26 @@ const Header: React.FC<HeaderProps> = ({ productsData }) => {
 	const { lng } = useParams();
 	const { pathname } = useLocation();
 
-	const [isActive, setIsActive] = useState(false);
+	const [isMenuVisible, setIsMenuVisible] = useState(false);
 	const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
 	const uniqueProductTypes = [
 		...new Set(productsData.map((product) => product.type)),
 	];
 
-	function toggleBurgerBtn(): void {
-		setIsActive((prev) => !prev);
+	function toggleMenu(): void {
+		setIsMenuVisible((prev) => !prev);
 		setIsDropdownOpen((prev) => (prev ? false : prev));
 	}
 
 	const closeMenu = () => {
-		setIsActive(false);
-		setIsDropdownOpen((prev) => (prev ? false : prev));
+		setIsMenuVisible(false);
+		setIsDropdownOpen(false);
 	};
 
 	useEffect(() => {
-		document.body.classList.toggle("body--hidden", isActive);
-	}, [isActive]);
+		document.body.classList.toggle("body--hidden", isMenuVisible);
+	}, [isMenuVisible]);
 
 	// menu
 	function toggleDropdownBtn(): void {
@@ -116,24 +116,24 @@ const Header: React.FC<HeaderProps> = ({ productsData }) => {
 						<a className="header__tel" href="tel:+380968065513">
 							+38 096 806 55 13
 						</a>
-
-						{/* burger-btn */}
-
+						{/* menu-btn */}
 						<button
-							onClick={toggleBurgerBtn}
+							onClick={toggleMenu}
 							className="burger-btn"
 							aria-label={
-								isActive ? t("header.closeMenu") : t("header.openMenu")
+								isMenuVisible ? t("header.closeMenu") : t("header.openMenu")
 							}
+							aria-expanded={isMenuVisible}
+							aria-controls="menu"
 						>
 							<span
 								className={classNames("burger-btn-inner", {
-									"burger-btn-inner--active": isActive,
+									"burger-btn-inner--active": isMenuVisible,
 								})}
 							>
 								<span
 									className={classNames("burger-btn-inner__center-line", {
-										"burger-btn-inner__center-line--active": isActive,
+										"burger-btn-inner__center-line--active": isMenuVisible,
 									})}
 								></span>
 							</span>
@@ -141,13 +141,13 @@ const Header: React.FC<HeaderProps> = ({ productsData }) => {
 					</div>
 				</Container>
 			</header>
-
 			{/* menu */}
-
-			<div
+			<nav
 				className={classNames("menu", {
-					"menu--active": isActive,
+					"menu--active": isMenuVisible,
 				})}
+				id="menu"
+				hidden={!isMenuVisible}
 			>
 				<ul className="menu__list">
 					<li>
@@ -253,13 +253,11 @@ const Header: React.FC<HeaderProps> = ({ productsData }) => {
 						info@yagodakarpat.com
 					</a>
 				</div>
-			</div>
-
+			</nav>
 			{/* menu-curtain */}
-
 			<div
 				className={classNames("menu-curtain", {
-					"menu-curtain--active": isActive,
+					"menu-curtain--active": isMenuVisible,
 				})}
 			></div>
 		</>
