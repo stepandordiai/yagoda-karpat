@@ -12,7 +12,7 @@ const LngSelect = () => {
 
 	const lngSelect = useRef<HTMLDivElement | null>(null);
 
-	const [lngSelectBtn, setLngSelectBtn] = useState(false);
+	const [lngSelectVisible, setLngSelectVisible] = useState(false);
 	const [lngSelectOption, setLngSelectOption] = useState(getStorage());
 	const [lngSelectName, setLngSelectName] = useState("UA");
 	const [lngSelectFullname, setLngSelectFullname] = useState("Українська");
@@ -24,7 +24,7 @@ const LngSelect = () => {
 		setLngSelectName(foundLng ? foundLng.name : lngData[0].name);
 		setLngSelectFullname(foundLng ? foundLng.fullName : lngData[0].fullName);
 
-		// TODO:
+		// TODO: learn this
 		const newPath = location.pathname.replace(/^\/(uk|en)/, `/${storedLng}`);
 		navigate(newPath + location.search, { replace: true });
 	}, [getStorage()]);
@@ -33,7 +33,7 @@ const LngSelect = () => {
 		const handleClickNotOnLngSelect = (e: MouseEvent | TouchEvent) => {
 			const targetElement = e.target as Node;
 			if (lngSelect.current && !lngSelect.current.contains(targetElement)) {
-				setLngSelectBtn(false);
+				setLngSelectVisible(false);
 			}
 		};
 
@@ -43,23 +43,24 @@ const LngSelect = () => {
 			document.removeEventListener("click", handleClickNotOnLngSelect);
 	}, []);
 
-	const handleLngSelectBtn = () => {
-		setLngSelectBtn((prev) => !prev);
-	};
+	const toggleLngSelect = (): void =>
+		setLngSelectVisible((prev: boolean) => !prev);
 
 	const handleLngSelectOption = (code: string) => {
 		i18n.changeLanguage(code);
-		setLngSelectBtn(false);
+		setLngSelectVisible(false);
 		setLngSelectOption(code);
 	};
 
 	return (
 		<div ref={lngSelect} className="lng-select">
 			<button
-				onClick={handleLngSelectBtn}
+				onClick={toggleLngSelect}
 				className={classNames("lng-select__btn", {
-					"lng-select__btn--active": lngSelectBtn,
+					"lng-select__btn--active": lngSelectVisible,
 				})}
+				aria-expanded={lngSelectVisible}
+				aria-controls="lng-select-list"
 			>
 				<span>{lngSelectName}</span>
 				<span> - </span>
@@ -67,8 +68,10 @@ const LngSelect = () => {
 			</button>
 			<ul
 				className={classNames("lng-select__dd", {
-					"lng-select__dd--active": lngSelectBtn,
+					"lng-select__dd--active": lngSelectVisible,
 				})}
+				id="lng-select-list"
+				hidden={!lngSelectVisible}
 			>
 				{lngData.map((lng) => {
 					return (
