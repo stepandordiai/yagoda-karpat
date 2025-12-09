@@ -185,6 +185,8 @@ const Header: React.FC<HeaderProps> = ({ productsData }) => {
 									"products-btn--active": isDropdownOpen,
 								})}
 								onClick={toggleDropdownBtn}
+								aria-expanded={isDropdownOpen}
+								aria-controls="menu-dropdown"
 							>
 								<span
 									className={classNames("products-btn__icon", {
@@ -199,6 +201,8 @@ const Header: React.FC<HeaderProps> = ({ productsData }) => {
 							className={classNames("menu__grid-dropdown", {
 								"menu__grid-dropdown--active": isDropdownOpen,
 							})}
+							id="menu-dropdown"
+							hidden={!isDropdownOpen}
 						>
 							<div className="menu__dropdown">
 								<div className="menu__inner-dd">
