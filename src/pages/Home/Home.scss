@@ -54,10 +54,19 @@
 	font-size: clamp(2rem, 4vw, 3rem);
 }
 
-.home-container__link {
-	background: var(--accent-clr);
+// TODO:
+.link--basic {
 	padding: 10px;
 	border-radius: 10px;
+}
+
+.home-container__link {
+	@extend .link--basic;
+	background: var(--accent-clr);
+
+	&:nth-of-type(1) {
+		background: rgba(255, 255, 255, 0.75);
+	}
 }
 
 @media (max-width: 900px) {

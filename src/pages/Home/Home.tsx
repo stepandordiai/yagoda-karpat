@@ -74,13 +74,22 @@ const Home: React.FC<HomeProps> = ({ productsData }) => {
 							<p className="home-container__desc">{t("company_full_name")}</p>
 							<h1 className="home-container__title">{t("home.title")}</h1>
 							<h2 className="home-container__desc">{t("home.sec_title")}</h2>
-							<HashLink
-								className="home-container__link"
-								smooth
-								to={`/${lng}/#contacts`}
-							>
-								{t("contact_us")}
-							</HashLink>
+							<div style={{ display: "flex", flexWrap: "wrap", gap: 10 }}>
+								<HashLink
+									className="home-container__link"
+									smooth
+									to={`/${lng}/#products`}
+								>
+									{t("home.viewProducts")}
+								</HashLink>
+								<HashLink
+									className="home-container__link"
+									smooth
+									to={`/${lng}/#contacts`}
+								>
+									{t("home.requestPriceList")}
+								</HashLink>
+							</div>
 						</div>
 					</section>
 					<AboutUs productsData={productsData} />
