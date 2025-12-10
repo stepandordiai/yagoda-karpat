@@ -10,7 +10,7 @@ const Contacts = () => {
 	const { t } = useTranslation();
 
 	return (
-		<div className="js-contacts" id="contacts">
+		<section className="js-contacts" id="contacts">
 			<SectionTitle name={t("contacts_title")} />
 			<ContactDetails />
 			<div className="form-map-container">
@@ -29,7 +29,7 @@ const Contacts = () => {
 				<OurCertificates />
 				<BusinessHours />
 			</div>
-		</div>
+		</section>
 	);
 };
 export default Contacts;

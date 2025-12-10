@@ -35,7 +35,7 @@ const Products: React.FC<ProductsProps> = ({ productsData }) => {
 	});
 
 	return (
-		<div className="js-products" id="products">
+		<section className="js-products" id="products">
 			<SectionTitle name={t("products_title")} />
 			<div className="products__filter-container">
 				<p style={{ marginBottom: 5, fontWeight: 500 }}>
@@ -81,7 +81,7 @@ const Products: React.FC<ProductsProps> = ({ productsData }) => {
 					return <ProductCard key={product.id} product={product} />;
 				})}
 			</div>
-		</div>
+		</section>
 	);
 };
 

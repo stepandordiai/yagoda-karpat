@@ -72,7 +72,7 @@ const AboutUs: React.FC<AboutUsProps> = ({ productsData }) => {
 	}, []);
 
 	return (
-		<div className="about-us js-about-us" id="about-us">
+		<section className="about-us js-about-us" id="about-us">
 			<SectionTitle name={t("about_us_title")} />
 			<h3 className="about-us__sec-info">{t("about_us.title")}.</h3>
 			<div className="about-us__stats">
@@ -101,7 +101,7 @@ const AboutUs: React.FC<AboutUsProps> = ({ productsData }) => {
 			<Gallery />
 			<h3 className="world-map__title">{t("about_us.map_title")}</h3>
 			<div className="world-map__container" id="svgContainer"></div>
-		</div>
+		</section>
 	);
 };
 
