@@ -10,8 +10,8 @@
 	flex-direction: column;
 	row-gap: 10px;
 
-	img {
-		width: 300px;
+	&:hover .pdf-link {
+		opacity: 1;
 	}
 }
 
@@ -19,6 +19,26 @@
 	align-self: flex-start;
 	font-size: clamp(20px, 3vw, 30px);
 	font-weight: 500;
+}
+
+.pdf-link {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 5px;
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+	background: rgba(255, 255, 255, 0.75);
+	padding: 10px;
+	border-radius: 10px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	opacity: 0;
+	transition: opacity 0.15s;
+
+	&:hover {
+		border: 1px solid var(--accent-clr);
+	}
 }
 
 @media screen and (max-width: 895px) {

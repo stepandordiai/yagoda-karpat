@@ -18,6 +18,7 @@
 		"react-dom": "^18.3.1",
 		"react-helmet-async": "^2.0.5",
 		"react-i18next": "^15.4.1",
+		"react-pdf": "^10.2.0",
 		"react-router-dom": "^7.3.0",
 		"react-router-hash-link": "^2.4.3",
 		"swiper": "^11.1.12",
