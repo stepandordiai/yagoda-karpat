@@ -9,6 +9,7 @@ import Contacts from "../../components/Contacts/Contacts";
 import { HashLink } from "react-router-hash-link";
 import Container from "../../components/Container/Container";
 import classNames from "classnames";
+import OurCertificates from "../../components/OurCertificates/OurCertificates";
 import video from "/video-c.mp4";
 import "./Home.scss";
 
@@ -50,7 +51,7 @@ const Home: React.FC<HomeProps> = ({ productsData }) => {
 					<section className="home-hero" id="home">
 						<div className="home-container">
 							<video
-								// TODO: LEARN THIS
+								// TODO: learn this
 								onLoadedData={handleVideo}
 								className={classNames("home-container__video", {
 									loaded: isLoaded,
@@ -94,6 +95,7 @@ const Home: React.FC<HomeProps> = ({ productsData }) => {
 					</section>
 					<AboutUs productsData={productsData} />
 					<Products productsData={productsData} />
+					<OurCertificates />
 					<Contacts />
 				</Container>
 			</main>

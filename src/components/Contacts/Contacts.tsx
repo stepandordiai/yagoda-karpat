@@ -1,6 +1,5 @@
 import { useTranslation } from "react-i18next";
 import SectionTitle from "../SectionTitle/SectionTitle";
-import OurCertificates from "../OurCertificates/OurCertificates";
 import BusinessHours from "../BusinessHours/BusinessHours";
 import ContactForm from "../ContactForm/ContactForm";
 import ContactDetails from "../ContactDetails/ContactDetails";
@@ -12,9 +11,15 @@ const Contacts = () => {
 	return (
 		<section className="js-contacts" id="contacts">
 			<SectionTitle name={t("contacts_title")} />
-			<ContactDetails />
-			<div className="form-map-container">
-				<ContactForm />
+			<div className="contacts-wrapper">
+				<div>
+					<ContactForm />
+				</div>
+				<div>
+					<ContactDetails />
+				</div>
+			</div>
+			<div className="contacts-wrapper">
 				<div className="contacts__map-wrapper">
 					<h3 className="contacts__map-title">{t("contacts.map_title")}</h3>
 					<iframe
@@ -24,9 +29,6 @@ const Contacts = () => {
 						loading="lazy"
 					></iframe>
 				</div>
-			</div>
-			<div className="contacts-container">
-				<OurCertificates />
 				<BusinessHours />
 			</div>
 		</section>
