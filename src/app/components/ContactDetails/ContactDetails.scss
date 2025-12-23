@@ -1,0 +1,71 @@
+@use "./../../scss/mixins" as *;
+
+.contacts-icons-container {
+	@include flex-center;
+	flex-direction: column;
+	background: #fff;
+	border-radius: 10px;
+	width: 100%;
+}
+
+.contacts__info-container {
+	position: relative;
+	z-index: 0;
+	width: 100%;
+	@include flex-center;
+	flex-direction: column;
+	row-gap: 25px;
+	text-align: center;
+	padding: 25px;
+	border-radius: 10px;
+	overflow: hidden;
+
+	img {
+		width: 40px;
+	}
+}
+
+.contacts__info-container::before {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: var(--accent-clr);
+	z-index: -1;
+	transform: scaleY(0);
+	transition: transform 0.5s ease;
+}
+
+.contacts__info-container:hover::before {
+	transform: scaleY(1);
+}
+
+.contacts__info-container--active::before {
+	transform: scaleY(1);
+}
+
+.contacts__copy-txt {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: var(--accent-clr);
+	@include flex-center;
+}
+
+@media screen and (max-width: 808px) {
+	.contacts__info-container {
+		row-gap: 10px;
+
+		img {
+			width: 30px;
+		}
+	}
+}
+
+@media screen and (max-width: 807px) {
+	.contacts__info-container {
+		padding: 10px;
+	}
+}

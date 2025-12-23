@@ -1,0 +1,49 @@
+.gallery {
+	background: #fff;
+	padding: 25px;
+	margin-top: 25px;
+	border-radius: 10px;
+}
+
+.gallery__title {
+	margin-bottom: 10px;
+	font-size: clamp(20px, 3vw, 30px);
+	font-weight: 500;
+}
+
+.swiper-card {
+	position: relative;
+	border-radius: 10px;
+	overflow: hidden;
+	cursor: grab;
+
+	&:active {
+		cursor: grabbing;
+	}
+}
+
+.swiper-card::before {
+	content: attr(data-date);
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+	padding: 10px;
+	border-radius: 10px;
+	background: rgba(0, 0, 0, 0.25);
+	-webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(10px);
+	color: #fff;
+	opacity: 0;
+	transition: opacity 0.2s;
+}
+
+.swiper-card:hover::before {
+	opacity: 1;
+}
+
+@media screen and (max-width: 900px) {
+	.gallery {
+		padding: 10px;
+		margin-top: 10px;
+	}
+}

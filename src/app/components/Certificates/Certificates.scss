@@ -1,0 +1,74 @@
+@use "./../../scss/mixins" as *;
+
+.certificates {
+	position: relative;
+	background: #fff;
+	border-radius: 10px;
+	padding: 25px;
+	display: flex;
+	gap: 25px;
+	margin-top: 25px;
+
+	&:hover .pdf-link {
+		opacity: 1;
+	}
+
+	div {
+		width: 100%;
+
+		&:nth-last-of-type(1) {
+			@include flex-center;
+		}
+	}
+}
+
+.certificates__title {
+	align-self: flex-start;
+	font-size: clamp(20px, 3vw, 30px);
+	font-weight: 500;
+	margin-bottom: 10px;
+}
+
+.pdf-link {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 5px;
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+	background: rgba(255, 255, 255, 0.75);
+	padding: 10px;
+	border-radius: 10px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	opacity: 0;
+	transition: opacity 0.15s;
+
+	&:hover {
+		border: 1px solid var(--accent-clr);
+	}
+}
+
+@media screen and (max-width: 895px) {
+	.certificates {
+		padding: 10px;
+		margin-top: 10px;
+	}
+}
+
+@media screen and (max-width: 807px) {
+	.certificates {
+		padding: 10px;
+		margin-top: 10px;
+		flex-direction: column;
+		gap: 10px;
+
+		div {
+			width: 100%;
+
+			&:nth-last-of-type(1) {
+				@include flex-center;
+			}
+		}
+	}
+}

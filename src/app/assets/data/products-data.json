@@ -1,0 +1,564 @@
+[
+	{
+		"id": "frozen-bilberries",
+		"type": "berries_title",
+		"status": "frozen",
+		"latName": "Vaccinium myrtillus",
+		"name": "products.frozenBilberries",
+		"origin": "product_page.origin",
+		"pack": [
+			"product_page.pack_1",
+			"product_page.pack_2",
+			"product_page.pack_4"
+		],
+		"desc": "product_page.frozenBilberriesDesc",
+		"variants": [
+			{
+				"id": 1,
+				"state": "product_page.uncleaned_1",
+				"images": [
+					"/products/frozen-bilberries/iqf-frozen-bilberries-1-min.JPG",
+					"/products/frozen-bilberries/iqf-frozen-bilberries-4-min.jpg",
+					"/products/frozen-bilberries/iqf-frozen-bilberries-5-min.jpg"
+				]
+			},
+			{
+				"id": 2,
+				"state": "product_page.cleaned_1",
+				"images": [
+					"/products/frozen-bilberries/iqf-frozen-bilberries-2-min.jpg",
+					"/products/frozen-bilberries/iqf-frozen-bilberries-3-min.jpg"
+				]
+			}
+		],
+		"harvest": [7, 8],
+		"isOrganic": true
+	},
+	{
+		"id": "frozen-lingonberries",
+		"type": "berries_title",
+		"status": "frozen",
+		"latName": "Vaccinium vitis-idaea",
+		"name": "products.frozenLingonberries",
+		"origin": "product_page.origin",
+		"pack": [
+			"product_page.pack_1",
+			"product_page.pack_2",
+			"product_page.pack_4"
+		],
+		"desc": "product_page.frozenLingonberriesDesc",
+		"variants": [
+			{
+				"id": 1,
+				"state": "product_page.cleaned_1",
+				"images": [
+					"/products/frozen-lingonberries/iqf-frozen-lingonberries-1-min.jpg"
+				]
+			},
+			{
+				"id": 2,
+				"state": "product_page.uncleaned_1",
+				"images": [
+					"/products/frozen-lingonberries/iqf-frozen-lingonberries-2-min.jpg"
+				]
+			}
+		],
+		"harvest": [8, 9],
+		"isOrganic": true
+	},
+	{
+		"id": "frozen-rosehips",
+		"type": "berries_title",
+		"status": "frozen",
+		"latName": "Rosa canina",
+		"name": "products.frozenRosehips",
+		"origin": "product_page.origin",
+		"pack": ["product_page.pack_1"],
+		"desc": "product_page.frozenRosehipsDesc",
+		"variants": [
+			{
+				"id": 1,
+				"images": [
+					"/products/frozen-rosehips/iqf-frozen-rosehips-1-min.JPG",
+					"/products/frozen-rosehips/iqf-frozen-rosehips-2-min.JPG"
+				]
+			}
+		],
+		"harvest": [9, 10, 11],
+		"isOrganic": true
+	},
+	{
+		"id": "frozen-plums",
+		"type": "fruits_title",
+		"status": "frozen",
+		"latName": "Prunus domestica",
+		"name": "products.frozenPlums",
+		"origin": "product_page.origin",
+		"pack": ["product_page.pack_1", "product_page.pack_2"],
+		"desc": "product_page.frozenPlumsDesc",
+		"variants": [
+			{
+				"id": 1,
+				"state": "product_page.with_stone",
+				"images": [
+					"/products/frozen-plums-with-stone/iqf-frozen-plums-with-stone-1-min.JPG"
+				]
+			},
+			{
+				"id": 2,
+				"state": "product_page.pitted",
+				"images": [
+					"/products/frozen-plums-pitted/iqf-frozen-plums-pitted-1-min.JPG",
+					"/products/frozen-plums-pitted/iqf-frozen-plums-pitted-2-min.jpg"
+				]
+			}
+		],
+		"harvest": [8, 9]
+	},
+	{
+		"id": "dried-plums",
+		"type": "fruits_title",
+		"status": "dried",
+		"latName": "Prunus domestica",
+		"name": "products.driedPlums",
+		"origin": "product_page.origin",
+		"pack": ["product_page.pack_1", "product_page.pack_2"],
+		"desc": "product_page.driedPlumsDesc",
+		"variants": [
+			{
+				"id": 1,
+				"state": "product_page.with_stone",
+				"images": [
+					"/products/dried-plums-with-stone/dried-plums-with-stone-1-c.jpg",
+					"/products/dried-plums-with-stone/dried-plums-with-stone-2-c.jpg",
+					"/products/dried-plums-with-stone/dried-plums-with-stone-3-c.jpg",
+					"/products/dried-plums-with-stone/dried-plums-with-stone-4-c.jpg",
+					"/products/dried-plums-with-stone/dried-plums-with-stone-5-c.jpg"
+				]
+			}
+		],
+		"harvest": [8, 9]
+	},
+	{
+		"id": "prunes",
+		"type": "fruits_title",
+		"status": "dried",
+		"latName": "Prunus domestica",
+		"name": "products.prunes",
+		"origin": "product_page.origin",
+		"pack": ["product_page.pack_2"],
+		"desc": "product_page.prunesDesc",
+		"variants": [
+			{
+				"id": 1,
+				"state": "product_page.pitted",
+				"images": [
+					"/products/prunes-pitted/prunes-pitted-01-c.jpg",
+					"/products/prunes-pitted/prunes-pitted-02-c.jpg"
+				]
+			}
+		],
+		"harvest": [8, 9]
+	},
+	{
+		"id": "frozen-elderberries",
+		"type": "berries_title",
+		"status": "frozen",
+		"latName": "Sambucus",
+		"name": "products.frozenElderberries",
+		"origin": "product_page.origin",
+		"pack": [
+			"product_page.pack_1",
+			"product_page.pack_2",
+			"product_page.pack_4"
+		],
+		"desc": "product_page.frozenElderberriesDesc",
+		"variants": [
+			{
+				"id": 1,
+				"state": "product_page.cleaned_1",
+				"images": [
+					"/products/frozen-elderberries/iqf-frozen-elderberries-1-c.jpg",
+					"/products/frozen-elderberries/iqf-frozen-elderberries-2-c.jpg",
+					"/products/frozen-elderberries/iqf-frozen-elderberries-3-c.jpg"
+				]
+			}
+		],
+		"isOrganic": true,
+		"harvest": [8, 9]
+	},
+	{
+		"id": "frozen-strawberries",
+		"type": "berries_title",
+		"status": "frozen",
+		"latName": "Fragaria",
+		"name": "products.frozenStrawberries",
+		"origin": "product_page.origin",
+		"pack": ["product_page.pack_1", "product_page.pack_2"],
+		"desc": "product_page.frozenStrawberryDesc",
+		"variants": [
+			{
+				"id": 1,
+				"images": [
+					"/products/frozen-strawberries/iqf-frozen-strawberries-1-min.jpg",
+					"/products/frozen-strawberries/iqf-frozen-strawberries-2-min.jpg"
+				]
+			}
+		],
+		"harvest": [5, 6, 7]
+	},
+	{
+		"id": "frozen-raspberries",
+		"type": "berries_title",
+		"status": "frozen",
+		"latName": "Rubus idaeus",
+		"name": "products.frozenRaspberries",
+		"origin": "product_page.origin",
+		"pack": ["product_page.pack_2"],
+		"desc": "product_page.frozenRaspberryDesc",
+		"variants": [
+			{
+				"id": 1,
+				"images": [
+					"/products/frozen-raspberries/iqf-frozen-raspberries-1-min.JPG",
+					"/products/frozen-raspberries/iqf-frozen-raspberries-2-min.JPG"
+				]
+			}
+		],
+		"harvest": [7, 8, 9]
+	},
+	{
+		"id": "frozen-apricots",
+		"type": "fruits_title",
+		"status": "frozen",
+		"latName": "Prunus armeniaca",
+		"name": "products.frozenApricots",
+		"origin": "product_page.origin",
+		"pack": ["product_page.pack_1", "product_page.pack_2"],
+		"desc": "product_page.frozenApricotDesc",
+		"variants": [
+			{
+				"id": 1,
+				"images": ["/products/frozen-apricots/iqf-frozen-apricots-1-c.jpg"]
+			}
+		],
+		"harvest": [7, 8]
+	},
+	{
+		"id": "frozen-red-bell-peppers",
+		"type": "vegetables_title",
+		"status": "frozen",
+		"latName": "Capsicum annuum",
+		"name": "products.frozenRedBellPeppers",
+		"origin": "product_page.origin",
+		"pack": ["product_page.pack_2"],
+		"desc": "product_page.frozenRedBellPeppersDesc",
+		"variants": [
+			{
+				"id": 1,
+				"state": "product_page.strips",
+				"images": [
+					"/products/frozen-red-bell-peppers/iqf-frozen-red-bell-peppers-1-min.JPG",
+					"/products/frozen-red-bell-peppers/iqf-frozen-red-bell-peppers-2-min.JPG"
+				]
+			}
+		],
+		"harvest": [7, 8, 9]
+	},
+	{
+		"id": "frozen-green-bell-peppers",
+		"type": "vegetables_title",
+		"status": "frozen",
+		"latName": "Capsicum annuum",
+		"name": "products.frozenGreenBellPeppers",
+		"origin": "product_page.origin",
+		"pack": ["product_page.pack_2"],
+		"desc": "product_page.frozenGreenBellPeppersDesc",
+		"variants": [
+			{
+				"id": 1,
+				"state": "product_page.strips",
+				"images": [
+					"/products/frozen-green-bell-peppers/iqf-frozen-green-bell-peppers-1-min.JPG"
+				]
+			}
+		],
+		"harvest": [7, 8, 9]
+	},
+	{
+		"id": "frozen-yellow-bell-peppers",
+		"type": "vegetables_title",
+		"status": "frozen",
+		"latName": "Capsicum annuum",
+		"name": "products.frozenYellowBellPeppers",
+		"origin": "product_page.origin",
+		"pack": ["product_page.pack_2"],
+		"desc": "product_page.frozenYellowBellPeppersDesc",
+		"variants": [
+			{
+				"id": 1,
+				"state": "product_page.strips",
+				"images": [
+					"/products/frozen-yellow-bell-peppers/iqf-frozen-yellow-bell-peppers-1-min.JPG"
+				]
+			}
+		],
+		"harvest": [7, 8, 9]
+	},
+	{
+		"id": "frozen-mixed-bell-peppers",
+		"type": "vegetables_title",
+		"status": "frozen",
+		"latName": "Capsicum annuum",
+		"name": "products.frozenMixedBellPeppers",
+		"origin": "product_page.origin",
+		"pack": ["product_page.pack_2"],
+		"desc": "product_page.frozenMixedBellPeppersDesc",
+		"variants": [
+			{
+				"id": 1,
+				"state": "product_page.strips",
+				"images": [
+					"/products/frozen-mixed-bell-peppers/iqf-frozen-mixed-bell-peppers-1-min.jpg",
+					"/products/frozen-mixed-bell-peppers/iqf-frozen-mixed-bell-peppers-2-min.jpg"
+				]
+			}
+		],
+		"harvest": [7, 8, 9]
+	},
+	{
+		"id": "frozen-porcini-mushrooms",
+		"type": "mushrooms_title",
+		"status": "frozen",
+		"latName": "Boletus edulis",
+		"name": "products.frozenPorciniMushrooms",
+		"origin": "product_page.origin",
+		"pack": ["product_page.pack_2"],
+		"desc": "product_page.frozenPorciniMushroomsDesc",
+		"variants": [
+			{
+				"id": 1,
+				"state": "product_page.whole",
+				"images": [
+					"/products/frozen-porcini-mushrooms-whole/iqf-frozen-porcini-mushrooms-whole-1-min.jpg",
+					"/products/frozen-porcini-mushrooms-whole/iqf-frozen-porcini-mushrooms-whole-2-min.jpg"
+				]
+			},
+			{
+				"id": 2,
+				"state": "product_page.sliced",
+				"images": [
+					"/products/frozen-porcini-mushrooms-sliced/iqf-frozen-porcini-mushrooms-sliced-1-min.jpg"
+				]
+			},
+			{
+				"id": 3,
+				"state": "product_page.cubic",
+				"images": [
+					"/products/frozen-porcini-mushrooms-cubic/iqf-frozen-porcini-mushrooms-cubic-1-min.jpg",
+					"/products/frozen-porcini-mushrooms-cubic/iqf-frozen-porcini-mushrooms-cubic-2-min.jpg"
+				]
+			}
+		],
+		"harvest": [7, 8, 9]
+	},
+	{
+		"id": "fresh-porcini-mushrooms",
+		"type": "mushrooms_title",
+		"status": "fresh",
+		"latName": "Boletus edulis",
+		"name": "products.freshPorciniMushrooms",
+		"origin": "product_page.origin",
+		"pack": ["product_page.pack_3"],
+		"desc": "product_page.freshPorciniMushroomsDesc",
+		"variants": [
+			{
+				"id": 1,
+				"images": [
+					"/products/fresh-porcini-mushrooms/fresh-porcini-mushrooms-1-c.jpg"
+				]
+			}
+		],
+		"harvest": [7, 8, 9]
+	},
+	{
+		"id": "dried-porcini-mushrooms",
+		"type": "mushrooms_title",
+		"status": "dried",
+		"latName": "Boletus edulis",
+		"name": "products.driedPorciniMushrooms",
+		"origin": "product_page.origin",
+		"pack": ["product_page.pack_2"],
+		"desc": "product_page.driedPorciniMushroomsDesc",
+		"variants": [
+			{
+				"id": 1,
+				"images": [
+					"/products/dried-porcini-mushrooms/dried-porcini-mushrooms-1-min.jpg"
+				]
+			}
+		],
+		"harvest": [7, 8, 9]
+	},
+	{
+		"id": "fresh-chanterelles",
+		"type": "mushrooms_title",
+		"status": "fresh",
+		"latName": "Cantharellus cibarius",
+		"name": "products.freshChanterelles",
+		"origin": "product_page.origin",
+		"pack": ["product_page.pack_3"],
+		"desc": "product_page.freshChanterellesDesc",
+		"variants": [
+			{
+				"id": 1,
+				"images": ["/products/fresh-chanterelles/fresh-chanterelles-1-min.jpg"]
+			}
+		],
+		"harvest": [7, 8, 9]
+	},
+	{
+		"id": "dried-chanterelles",
+		"type": "mushrooms_title",
+		"status": "dried",
+		"latName": "Cantharellus cibarius",
+		"name": "products.driedChanterelles",
+		"origin": "product_page.origin",
+		"pack": ["product_page.pack_2"],
+		"desc": "product_page.driedChanterellesDesc",
+		"variants": [
+			{
+				"id": 1,
+				"images": ["/products/dried-chanterelles/dried-chanterelles-1-c.jpg"]
+			}
+		],
+		"harvest": [7, 8, 9]
+	},
+	{
+		"id": "frozen-sour-cherries",
+		"type": "berries_title",
+		"status": "frozen",
+		"latName": "Prunus cerasus",
+		"name": "products.frozenSourCherries",
+		"origin": "product_page.origin",
+		"pack": ["product_page.pack_1", "product_page.pack_2"],
+		"desc": "product_page.frozenSourCherriesDesc",
+		"variants": [
+			{
+				"id": 1,
+				"state": "product_page.pitted",
+				"images": [
+					"/products/frozen-sour-cherries-pitted/iqf-frozen-sour-cherries-pitted-1-min.jpg",
+					"/products/frozen-sour-cherries-pitted/iqf-frozen-sour-cherries-pitted-2-min.jpg",
+					"/products/frozen-sour-cherries-pitted/iqf-frozen-sour-cherries-pitted-3-min.jpg",
+					"/products/frozen-sour-cherries-pitted/iqf-frozen-sour-cherries-pitted-4-min.JPG",
+					"/products/frozen-sour-cherries-pitted/iqf-frozen-sour-cherries-pitted-5-min.JPG"
+				]
+			},
+			{
+				"id": 2,
+				"state": "product_page.with_stone",
+				"images": [
+					"/products/frozen-sour-cherries-with-stone/iqf-frozen-sour-cherries-with-stone-1-min.jpg",
+					"/products/frozen-sour-cherries-with-stone/iqf-frozen-sour-cherries-with-stone-2-min.jpg"
+				]
+			}
+		],
+		"harvest": [5, 6]
+	},
+	{
+		"id": "frozen-honey-mushrooms",
+		"type": "mushrooms_title",
+		"status": "frozen",
+		"latName": "Armillaria mellea",
+		"name": "products.frozenHoneyMushrooms",
+		"origin": "product_page.origin",
+		"pack": ["product_page.pack_2"],
+		"desc": "product_page.frozenHoneyMushroomsDesc",
+		"variants": [
+			{
+				"id": 1,
+				"images": [
+					"/products/frozen-honey-mushrooms/iqf-frozen-honey-mushrooms-1-min.jpg"
+				]
+			}
+		],
+		"harvest": [8, 9, 10]
+	},
+	{
+		"id": "frozen-blackberries",
+		"type": "berries_title",
+		"status": "frozen",
+		"latName": "Rubus fruticosus",
+		"name": "products.frozenBlackberries",
+		"origin": "product_page.origin",
+		"desc": "product_page.frozenBlackberriesDesc",
+		"pack": ["product_page.pack_1", "product_page.pack_2"],
+		"variants": [
+			{
+				"id": 1,
+				"images": [
+					"/products/frozen-blackberries/iqf-frozen-blackberries-1-c.jpeg"
+				]
+			}
+		],
+		"isOrganic": true,
+		"harvest": [8, 9]
+	},
+	{
+		"id": "frozen-grapes",
+		"type": "berries_title",
+		"status": "frozen",
+		"latName": "Vitis vinifera",
+		"name": "products.frozenGrapes",
+		"origin": "product_page.origin",
+		"pack": ["product_page.pack_1", "product_page.pack_2"],
+		"desc": "product_page.frozenGrapesDesc",
+		"variants": [
+			{
+				"id": 1,
+				"images": [
+					"/products/frozen-grapes/iqf-frozen-grapes-01-c.jpg",
+					"/products/frozen-grapes/iqf-frozen-grapes-02-c.jpg"
+				]
+			}
+		],
+		"harvest": [9, 10]
+	},
+	{
+		"id": "frozen-sweet-corn",
+		"type": "vegetables_title",
+		"status": "frozen",
+		"latName": "Zea mays",
+		"name": "products.frozenCorn",
+		"origin": "product_page.origin",
+		"pack": ["product_page.pack_1", "product_page.pack_2"],
+		"desc": "product_page.frozenCornDesc",
+		"variants": [
+			{
+				"id": 1,
+				"images": ["/products/frozen-sweet-corn/iqf-frozen-sweet-corn-1-c.jpeg"]
+			}
+		],
+		"harvest": [8, 9]
+	},
+	{
+		"id": "frozen-black-currants",
+		"type": "berries_title",
+		"status": "frozen",
+		"latName": "Ribes nigrum",
+		"name": "products.frozenBlackCurrants",
+		"origin": "product_page.origin",
+		"pack": ["product_page.pack_1", "product_page.pack_2"],
+		"desc": "product_page.frozenBlackCurrantsDesc",
+		"variants": [
+			{
+				"id": 1,
+				"images": [
+					"/products/frozen-black-currants/iqf-frozen-black-currants-1-c.jpg"
+				]
+			}
+		],
+		"harvest": [7, 8]
+	}
+]

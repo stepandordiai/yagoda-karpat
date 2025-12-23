@@ -1,0 +1,89 @@
+@use "./../../scss/mixins" as *;
+
+.lng-select {
+	position: relative;
+}
+
+.lng-select__btn {
+	height: 50px;
+	min-width: 50px;
+	padding: 0 10px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+
+	span {
+		pointer-events: none;
+	}
+}
+
+.lng-select__btn--active {
+	border: 1px solid var(--accent-clr);
+}
+
+.lng-select__dd {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	display: flex;
+	flex-direction: column;
+	row-gap: 10px;
+	min-width: 50px;
+	background: var(--bg-clr);
+	border-radius: 10px;
+	padding: 10px;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+	opacity: 0;
+	pointer-events: none;
+}
+
+.lng-select__dd--active {
+	opacity: 1;
+	pointer-events: all;
+}
+
+.lng-select__option {
+	position: relative;
+	z-index: 0;
+	height: 50px;
+	min-width: 50px;
+	@include flex-center;
+	column-gap: 5px;
+	background: #fff;
+	border-radius: inherit;
+	padding: inherit;
+	cursor: pointer;
+}
+
+.lng-select__option::before {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	z-index: -1;
+	transform: translate(-50%, -50%);
+	border-radius: 10px;
+	background: var(--accent-clr);
+	width: 0;
+	height: 0;
+	transition: all 0.3s;
+}
+
+.lng-select__option:hover::before {
+	width: 100%;
+	height: 100%;
+}
+
+.lng-select__option--active::before {
+	width: 100%;
+	height: 100%;
+}
+
+@media (max-width: 700px) {
+	.lng-select__btn,
+	.lng-select__option {
+		span:nth-of-type(2),
+		span:nth-of-type(3) {
+			display: none;
+		}
+	}
+}

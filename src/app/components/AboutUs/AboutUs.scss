@@ -1,0 +1,103 @@
+.about-us__sec-info {
+	text-align: justify;
+}
+
+.about-us__stats {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 25px;
+	margin-top: 10px;
+}
+
+.stats-card {
+	padding: 25px;
+	background: var(--accent-clr);
+	border-radius: 10px;
+
+	p:nth-child(1) {
+		font-size: 3rem;
+		font-weight: 600;
+		text-align: left;
+	}
+
+	p:nth-child(2) {
+		text-align: left;
+	}
+}
+
+.world-map__title {
+	margin-top: 25px;
+	margin-bottom: 10px;
+	font-size: clamp(20px, 3vw, 30px);
+	font-weight: 500;
+}
+
+// svg world-map
+.world-map__container {
+	background: #fff;
+	border-radius: 10px;
+	padding: 25px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#svgContainer path {
+	fill: var(--bg-clr-darker);
+	stroke-width: 1px;
+	stroke: #fff;
+}
+
+// FIXME:
+#UA {
+	fill: var(--accent-clr) !important;
+	cursor: pointer;
+	transition: all 0.3s;
+
+	&:hover {
+		opacity: 0.5;
+	}
+}
+
+// Countries where we supply our products
+#SK,
+#CZ,
+#PL,
+#LT,
+#RO {
+	fill: var(--accent-clr-logo) !important;
+	cursor: pointer;
+	transition: all 0.3s;
+
+	&:hover {
+		opacity: 0.5;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	.about-us__stats {
+		grid-template-columns: repeat(2, 1fr);
+		gap: 10px;
+		margin-top: 10px;
+	}
+
+	.stats-card {
+		padding: 10px;
+	}
+
+	.world-map__title {
+		margin-top: 10px;
+	}
+
+	.world-map__container {
+		padding: 10px;
+		margin-top: 10px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.about-us__stats {
+		grid-template-columns: repeat(1, 1fr);
+	}
+}

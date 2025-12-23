@@ -1,0 +1,146 @@
+@use "./../../scss/mixins" as *;
+
+.product {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	row-gap: 5px;
+	background: #fff;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.product-top {
+	@include flex-start;
+	flex-direction: row;
+	column-gap: 5px;
+	height: max-content;
+}
+
+.product__img-wrapper {
+	position: relative;
+	width: 100%;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.product__img {
+	transition: scale 0.3s;
+}
+
+.product__img-wrapper:hover .product__img {
+	scale: 1.1;
+}
+
+.img-qty {
+	position: absolute;
+	left: 5px;
+	bottom: 5px;
+	@include flex-center;
+	column-gap: 2.5px;
+	padding: 5px;
+	border-radius: 5px;
+	font-size: 0.8rem;
+	color: #fff;
+	background: rgba(0, 0, 0, 0.25);
+	-webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(10px);
+	opacity: 0;
+	transition: opacity 0.3s;
+}
+
+.product__img-wrapper:hover .img-qty {
+	opacity: 1;
+}
+
+.product__info-container {
+	width: 100%;
+	@include flex-between-start;
+	flex-direction: column;
+}
+
+.product__info-container-top {
+	@include flex-between-start;
+	flex-direction: column;
+	row-gap: 5px;
+	width: 100%;
+
+	img {
+		height: 20px;
+	}
+}
+
+.product__name {
+	font-size: clamp(1rem, 2vw, 1.25rem);
+	font-weight: 500;
+}
+
+.product__info-btn {
+	position: relative;
+	z-index: 0;
+	display: inline-block;
+	align-self: flex-end;
+	margin-left: auto;
+	padding: 10px;
+	border-radius: 10px;
+	overflow: hidden;
+	background: var(--bg-clr);
+	flex-shrink: 0;
+
+	&:hover::before {
+		transform: scaleX(1);
+	}
+}
+
+.product__info-btn::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+	background: var(--accent-clr);
+	transform: scaleX(0);
+	transform-origin: bottom left;
+	transition: transform 0.3s;
+}
+
+// FIXME:
+.variant-btn {
+	position: relative;
+	background: var(--bg-clr);
+	padding: 10px;
+	border-radius: 10px;
+	z-index: 0;
+
+	&:before {
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: -1;
+		border-radius: inherit;
+		width: 100%;
+		height: 100%;
+		background: var(--accent-clr);
+		transform: scale(0);
+		transform-origin: center center;
+		transition: transform 0.3s;
+	}
+
+	&:hover::before {
+		transform: scale(1);
+	}
+}
+
+.variant-btn--active::before {
+	transform: scale(1);
+}
+
+@media screen and (width <= 500px) {
+	.product-top {
+		flex-direction: column;
+		gap: 5px;
+	}
+}

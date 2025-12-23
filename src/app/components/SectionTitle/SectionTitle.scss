@@ -1,0 +1,11 @@
+.section-title {
+	padding: 120px 0 25px;
+	font-size: clamp(2rem, 6vw, 3rem);
+	font-weight: 600;
+}
+
+@media screen and (max-width: 900px) {
+	.section-title {
+		padding: 90px 0 10px;
+	}
+}

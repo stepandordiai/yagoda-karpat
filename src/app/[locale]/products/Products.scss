@@ -1,0 +1,102 @@
+@use "./../../scss/mixins" as *;
+
+.products__title {
+	font-size: clamp(1.25rem, 4vw, 2rem);
+	font-weight: 500;
+	margin: 25px 0;
+}
+
+.products__filter-container {
+	background: #fff;
+	margin-bottom: 25px;
+	border-radius: 10px;
+	padding: 10px;
+	width: calc(50% - 12.5px);
+}
+
+.products__btn-container {
+	display: flex;
+	gap: 10px;
+	flex-wrap: wrap;
+}
+
+.products__btn {
+	position: relative;
+	background: var(--bg-clr);
+	padding: 10px;
+	border-radius: 10px;
+	z-index: 0;
+
+	&:before {
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: -1;
+		border-radius: inherit;
+		width: 100%;
+		height: 100%;
+		background: var(--accent-clr);
+		transform: scale(0);
+		transform-origin: center center;
+		transition: transform 0.3s;
+	}
+
+	&:hover::before {
+		transform: scale(1);
+	}
+}
+
+.products__btn--active::before {
+	transform: scale(1);
+}
+
+.search-wrapper {
+	height: 50px;
+	background: #fff;
+	@include flex-between-center;
+	border-radius: 10px;
+	margin-bottom: 25px;
+	width: calc(50% - 12.5px);
+	overflow: hidden;
+}
+
+.search-input {
+	flex-grow: 1;
+	font-size: 1rem;
+	padding: 0 10px;
+	height: 100%;
+}
+
+.search-icon {
+	width: 50px;
+	aspect-ratio: 1/1;
+}
+
+.products-container {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 25px;
+}
+
+@media (max-width: 900px) {
+	.products__filter-container {
+		margin-bottom: 10px;
+		padding: 5px;
+		width: 100%;
+	}
+
+	.products__btn-container {
+		gap: 5px;
+	}
+
+	.search-wrapper {
+		margin-bottom: 10px;
+		width: 100%;
+	}
+
+	.products-container {
+		grid-template-columns: repeat(1, 1fr);
+		gap: 10px;
+	}
+}

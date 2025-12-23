@@ -1,0 +1,247 @@
+@use "./../../scss/mixins" as *;
+
+.footer {
+	margin-top: 25px;
+}
+
+.footer-inner {
+	position: relative;
+}
+
+.footer-top {
+	position: relative;
+	width: calc(100% - 60px);
+	height: 60px;
+	background: #fff;
+	border-radius: 10px 10px 0 0;
+}
+
+.footer-top::after {
+	content: "";
+	position: absolute;
+	width: 60px;
+	aspect-ratio: 1/1;
+	background: transparent;
+	right: -60px;
+	top: 0px;
+	border-bottom-left-radius: 10px;
+	box-shadow: -10px 10px #fff;
+}
+
+.to-top-btn {
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 0;
+	width: 50px;
+	aspect-ratio: 1/1;
+	background: #fff;
+	border-radius: 10px;
+}
+
+.to-top-btn::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	background: var(--accent-clr);
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+	transform: scale(0);
+	transition: transform 0.3s;
+}
+
+.to-top-btn:hover::before {
+	transform: scale(1);
+}
+
+.footer-details {
+	display: flex;
+	flex-direction: column;
+	row-gap: 50px;
+	background: #fff;
+	border-radius: 0 10px 10px 10px;
+	padding: 25px;
+}
+
+.footer-logo {
+	align-self: center;
+	font-size: clamp(26px, 3vw, 36px);
+	@include flex-center;
+	flex-direction: column;
+	row-gap: 5px;
+}
+
+.footer__socials {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+
+	a {
+		position: relative;
+		background: var(--bg-clr);
+		padding: 10px;
+		border-radius: 10px;
+		z-index: 0;
+
+		&:before {
+			content: "";
+			position: absolute;
+			top: 0;
+			left: 0;
+			z-index: -1;
+			background: var(--accent-clr);
+			width: 100%;
+			height: 100%;
+			border-radius: 10px;
+			transform: scale(0);
+			transition: transform 0.3s;
+		}
+
+		&:hover::before {
+			transform: scale(1);
+		}
+	}
+}
+
+.footer-nav {
+	display: flex;
+	justify-content: space-between;
+	gap: 25px;
+	flex-wrap: wrap;
+}
+
+.footer-nav__title {
+	display: flex;
+	// I use space between because of btn icon that will be visible on mobile
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	height: 50px;
+	font-weight: 500;
+	font-size: 1.25rem;
+}
+
+.footer-nav__list {
+	display: flex;
+	flex-direction: column;
+	row-gap: 5px;
+}
+
+.footer__product-link {
+	transition: color 0.15s;
+
+	&:hover {
+		color: var(--accent-clr);
+	}
+}
+
+.footer__product-link--active {
+	color: var(--accent-clr);
+}
+
+.dropdown-btn {
+	pointer-events: none;
+}
+
+.dropdown-btn__icon {
+	display: none;
+}
+
+.footer__bottom {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+.creator-link {
+	transition: color 0.15s;
+
+	&:hover {
+		color: var(--accent-clr);
+	}
+}
+
+@media screen and (max-width: 900px) {
+	.footer {
+		margin-top: 10px;
+	}
+
+	.footer-details {
+		padding: 10px;
+	}
+
+	.footer-nav {
+		gap: 10px;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.footer-nav {
+		flex-direction: column;
+	}
+
+	.dropdown-btn {
+		position: relative;
+		z-index: 1;
+		padding: 0 10px;
+		border-radius: 10px;
+		overflow: hidden;
+		pointer-events: auto;
+		background: var(--bg-clr);
+	}
+
+	.dropdown-btn::before {
+		content: "";
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		z-index: -1;
+		width: 100%;
+		height: 100%;
+		transform: scaleX(0);
+		transform-origin: bottom left;
+		background: var(--accent-clr);
+		transition: transform 0.6s;
+	}
+
+	.dropdown-btn--active::before {
+		transform: scaleX(1);
+	}
+
+	.dropdown-btn__icon {
+		display: initial;
+		transition: transform 0.3s;
+	}
+
+	.dropdown-btn__icon--active {
+		transform: rotate(45deg);
+	}
+
+	.grid-dropdown__wrapper {
+		display: grid;
+		grid-template-rows: 0fr;
+		transition: grid-template-rows 0.3s;
+	}
+
+	.grid-dropdown__wrapper--active {
+		grid-template-rows: 1fr;
+	}
+
+	.grid-dropdown {
+		overflow: hidden;
+	}
+
+	.footer-nav__list {
+		padding: 10px 10px 0 10px;
+	}
+
+	.footer__bottom {
+		flex-direction: column;
+		text-align: center;
+		align-items: center;
+	}
+}

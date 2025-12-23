@@ -1,0 +1,36 @@
+@use "./reset" as *;
+@use "./fonts" as *;
+@use "./variables" as *;
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: "Montserrat", serif;
+	background: rgb(245, 245, 245) !important;
+	min-height: 100svh;
+	color: #000 !important;
+	padding: 0 25px 25px;
+}
+
+.body--hidden {
+	overflow: hidden !important;
+}
+
+.wrapper {
+	display: none;
+}
+
+::-moz-selection {
+	background: var(--accent-clr);
+}
+::selection {
+	background: var(--accent-clr);
+}
+
+@media (max-width: 900px) {
+	body {
+		padding: 0 10px 10px;
+	}
+}

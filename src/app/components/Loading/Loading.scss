@@ -1,0 +1,147 @@
+.loading {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: #fff;
+	z-index: 100;
+	transform: scaleY(1);
+	transform-origin: bottom;
+	animation: hideLoading 1s 2.25s forwards;
+}
+
+@keyframes hideLoading {
+	to {
+		transform: scaleY(0);
+	}
+}
+
+.element-container {
+	position: absolute;
+	width: 150px;
+	height: 150px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.element1 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%) scale(0);
+	width: 40px;
+	aspect-ratio: 1/1;
+	background: var(--accent-clr-logo);
+	border-radius: 50%;
+	animation: animateLogo 0.5s forwards;
+}
+
+.element2 {
+	position: absolute;
+	top: 82%;
+	left: 50%;
+	transform: translate(-50%, -50%) scale(0);
+	width: 40px;
+	aspect-ratio: 1/1;
+	background: var(--accent-clr-logo);
+	border-radius: 50%;
+	animation: animateLogo 0.5s 0.25s forwards;
+}
+
+.element3 {
+	position: absolute;
+	top: 30%;
+	left: 25%;
+	transform: translate(-50%, -50%) scale(0);
+	width: 40px;
+	aspect-ratio: 1/1;
+	background: var(--accent-clr-logo);
+	border-radius: 50%;
+	animation: animateLogo 0.5s 0.25s forwards;
+}
+
+.element4 {
+	position: absolute;
+	top: 30%;
+	left: 75%;
+	transform: translate(-50%, -50%) scale(0);
+	width: 40px;
+	aspect-ratio: 1/1;
+	background: var(--accent-clr-logo);
+	border-radius: 50%;
+	animation: animateLogo 0.5s 0.25s forwards;
+}
+
+.element5 {
+	position: absolute;
+	top: 62%;
+	left: 25%;
+	transform: translate(-50%, -50%) scale(0);
+	width: 30px;
+	aspect-ratio: 1/1;
+	background: var(--accent-clr-logo);
+	border-radius: 50%;
+	animation: animateLogo 0.5s 0.5s forwards;
+}
+
+.element6 {
+	position: absolute;
+	top: 62%;
+	left: 75%;
+	transform: translate(-50%, -50%) scale(0);
+	width: 30px;
+	aspect-ratio: 1/1;
+	background: var(--accent-clr-logo);
+	border-radius: 50%;
+	animation: animateLogo 0.5s 0.5s forwards;
+}
+
+.element7 {
+	position: absolute;
+	top: 15%;
+	left: 50%;
+	transform: translate(-50%, -50%) scale(0);
+	width: 30px;
+	aspect-ratio: 1/1;
+	background: var(--accent-clr-logo);
+	border-radius: 50%;
+	animation: animateLogo 0.5s 0.5s forwards;
+}
+
+@keyframes animateLogo {
+	to {
+		transform: translate(-50%, -50%) scale(1);
+	}
+}
+
+.curtain1 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	transform: scaleY(0);
+	transform-origin: top;
+	background: var(--accent-clr);
+	animation: animateCurtain 1s 1s forwards;
+}
+
+.curtain2 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	transform: scaleY(0);
+	transform-origin: top;
+	background: var(--accent-clr-logo);
+	animation: animateCurtain 1s 1.25s forwards;
+}
+
+@keyframes animateCurtain {
+	to {
+		transform: scale(1);
+	}
+}

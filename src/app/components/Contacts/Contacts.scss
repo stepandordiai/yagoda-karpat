@@ -1,0 +1,66 @@
+@use "./../../scss/mixins" as *;
+
+.contacts-wrapper {
+	display: flex;
+	gap: 25px;
+
+	&:nth-of-type(1) {
+		margin-bottom: 25px;
+	}
+
+	div {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+.contacts__map-wrapper {
+	display: flex;
+	flex-direction: column;
+	row-gap: 10px;
+	width: 100%;
+	padding: 25px;
+	background: #fff;
+	border-radius: 10px;
+}
+
+.contacts__map-title {
+	font-size: clamp(20px, 3vw, 30px);
+	font-weight: 500;
+}
+
+.contacts__map {
+	border-radius: inherit;
+	flex-grow: 1;
+}
+
+.column-container {
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
+}
+
+@media screen and (max-width: 895px) {
+	.contacts-wrapper {
+		gap: 10px;
+
+		&:nth-of-type(1) {
+			margin-bottom: 10px;
+		}
+	}
+
+	.contacts__map-wrapper {
+		padding: 10px;
+	}
+}
+
+@media screen and (width < 807px) {
+	.contacts-wrapper {
+		flex-direction: column;
+	}
+
+	.contacts__map {
+		aspect-ratio: 1.5/1;
+	}
+}
