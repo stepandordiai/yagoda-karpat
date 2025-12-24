@@ -5,7 +5,7 @@ import { useTranslations } from "next-intl";
 import classNames from "classnames";
 import { useState } from "react";
 import ProductCard from "@/app/components/ProductCard/ProductCard";
-import productsData from "./../../assets/data/products-data.json";
+import productsData from "@/lib/data/products-data.json";
 import "./Products.scss";
 
 export default function ProductsClient() {

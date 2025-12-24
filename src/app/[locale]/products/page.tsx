@@ -1,6 +1,4 @@
-import { Product } from "../../interfaces/Product";
 import PageNavTitle from "../../components/PageNavTitle/PageNavTitle";
-import productsData from "../../assets/data/products-data.json";
 import ProductsClient from "./Products.client";
 import type { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
@@ -28,12 +26,6 @@ export async function generateMetadata(): Promise<Metadata> {
 
 export default async function Products() {
 	const t = await getTranslations();
-
-	const productsDataTyped = productsData as Product[];
-
-	const uniqueTypes = [
-		...new Set(productsDataTyped.map((product) => product.type)),
-	];
 
 	return (
 		<main className="js-products">

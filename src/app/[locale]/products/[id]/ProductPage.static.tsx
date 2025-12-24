@@ -1,15 +1,9 @@
 "use client";
 
 import { useState } from "react";
-import { useParams } from "next/navigation";
 import PageNavTitle from "@/app/components/PageNavTitle/PageNavTitle";
-import ProductCard from "@/app/components/ProductCard/ProductCard";
 import ContactDetails from "@/app/components/ContactDetails/ContactDetails";
-import harvestData from "../../../assets/data/harvest-data.json";
-import Container from "@/app/components/Container/Container";
 import classNames from "classnames";
-import { notFound } from "next/navigation";
-import productsData from "./../../../assets/data/products-data.json";
 
 // Swiper
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -18,7 +12,6 @@ import "swiper/css/pagination";
 import { Autoplay, Pagination } from "swiper/modules";
 
 import "./ProductPage.scss";
-import { Link } from "@/i18n/navigation";
 import { useTranslations } from "next-intl";
 import { Product } from "@/app/interfaces/Product";
 
@@ -34,7 +27,7 @@ export default function ProductPageStatic({
 	const t = useTranslations();
 
 	const [activeVariantId, setActiveVariantId] = useState(
-		product?.variants[0].id
+		product?.variants[0].id ?? null
 	);
 
 	function handleVariantId(props: number) {
@@ -52,18 +45,6 @@ export default function ProductPageStatic({
 		product?.variants.find((variant) => variant.id === activeVariantId) ??
 		product?.variants[0] ??
 		null;
-
-	if (!product || !productVariant) {
-		notFound();
-	}
-
-	const relatedProducts = productsData.filter((el) => {
-		return (
-			el.status === product.status &&
-			el.type === product.type &&
-			el.name !== product.name
-		);
-	});
 
 	return (
 		<>
@@ -137,8 +118,8 @@ export default function ProductPageStatic({
 							<h2 style={{ color: "hsl(0, 0%, 50%)", marginBottom: 5 }}>
 								{t("harvest_calendar")}
 							</h2>
-							<div style={{ display: "flex", columnGap: 5 }}>
-								{harvestData.map(({ id, month }) => {
+							{/* <div style={{ display: "flex", columnGap: 5 }}> */}
+							{/* {harvestData.map(({ id, month }) => {
 									return (
 										<div
 											key={id}
@@ -151,7 +132,7 @@ export default function ProductPageStatic({
 										</div>
 									);
 								})}
-							</div>
+							</div> */}
 						</div>
 					</div>
 					<a
@@ -293,16 +274,6 @@ export default function ProductPageStatic({
 					<ContactDetails />
 				</div>
 			</div>
-			{relatedProducts.length > 0 && (
-				<>
-					<p className="related-products__title">{t("product_page.related")}</p>
-					<div className="related-products__grid">
-						{relatedProducts.map((product) => {
-							return <ProductCard product={product} key={product.id} />;
-						})}
-					</div>
-				</>
-			)}
 		</>
 	);
 }

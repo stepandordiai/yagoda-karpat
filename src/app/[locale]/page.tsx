@@ -5,7 +5,7 @@ import { getTranslations } from "next-intl/server";
 // import HomeClient from "./Home.client";
 import type { Metadata } from "next";
 import HomeClient from "./Home.client";
-import productsData from "./../assets/data/products-data.json";
+import productsData from "@/lib/data/products-data.json";
 import "./Home.scss";
 
 export async function generateMetadata(): Promise<Metadata> {

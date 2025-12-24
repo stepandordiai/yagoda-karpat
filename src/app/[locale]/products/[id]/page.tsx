@@ -1,20 +1,34 @@
 import Container from "@/app/components/Container/Container";
 import { notFound } from "next/navigation";
-import productsData from "./../../../assets/data/products-data.json";
+import productsData from "@/lib/data/products-data.json";
 import ProductPageStatic from "./ProductPage.static";
 import "./ProductPage.scss";
-import { getTranslations } from "next-intl/server";
 import type { Metadata } from "next";
+// import harvestData from "../../../assets/data/harvest-data.json";
+import ProductCard from "@/app/components/ProductCard/ProductCard";
+import { getTranslations } from "next-intl/server";
+import { Product } from "@/app/interfaces/Product";
 
 type ProductPageProps = {
 	params: Promise<{ id: string }>;
 };
 
+const productsDataTyped = productsData as Product[];
+function getProductsData() {
+	return productsData as Product[];
+}
+
 // TODO: LEARN THIS
 export async function generateStaticParams() {
-	return productsData.map((product) => ({
-		id: product.id,
-	}));
+	const products = getProductsData();
+	const locales = ["en", "uk"]; // Add your supported locales
+
+	return locales.flatMap((locale) =>
+		products.map((product) => ({
+			locale,
+			id: String(product.id),
+		}))
+	);
 }
 
 export async function generateMetadata({
@@ -23,8 +37,7 @@ export async function generateMetadata({
 	params: Promise<{ id: string }>;
 }): Promise<Metadata> {
 	const { id } = await params;
-	const products = productsData;
-	const product = products.find((p) => p.id === id);
+	const product = productsDataTyped.find((p) => p.id === id);
 	const t = await getTranslations();
 
 	return {
@@ -35,21 +48,29 @@ export async function generateMetadata({
 			"company_name"
 		)}`,
 		description: t(product!.desc),
-		robots: {
-			index: false,
-			follow: false,
-		},
 	};
 }
 
 export default async function ProductPage({ params }: ProductPageProps) {
 	const { id } = await params;
 
-	const product = productsData.find((product) => product.id === id);
+	const t = await getTranslations();
+
+	const product = productsDataTyped.find(
+		(product) => String(product.id) === id
+	);
 
 	if (!product) {
 		notFound();
 	}
+
+	const relatedProducts = productsDataTyped.filter((el) => {
+		return (
+			el.status === product.status &&
+			el.type === product.type &&
+			el.name !== product.name
+		);
+	});
 
 	// TODO:
 	// function truncateForSEO(str: string, maxLength: number = 160) {
@@ -95,6 +116,18 @@ export default async function ProductPage({ params }: ProductPageProps) {
 			<main>
 				<Container>
 					<ProductPageStatic product={product} id={id} />
+					{relatedProducts.length > 0 && (
+						<>
+							<p className="related-products__title">
+								{t("product_page.related")}
+							</p>
+							<div className="related-products__grid">
+								{relatedProducts.map((product) => {
+									return <ProductCard product={product} key={product.id} />;
+								})}
+							</div>
+						</>
+					)}
 				</Container>
 			</main>
 		</>

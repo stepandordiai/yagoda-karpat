@@ -6,7 +6,7 @@ import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { routing } from "@/i18n/routing";
 import { notFound } from "next/navigation";
 import Header from "../components/Header/Header";
-import productsData from "./../assets/data/products-data.json";
+import productsData from "@/lib/data/products-data.json";
 import { Product } from "../interfaces/Product";
 import Footer from "../components/Footer/Footer";
 
