@@ -1,5 +1,6 @@
-// import { useTranslations } from "next-intl";
-import { getTranslations } from "next-intl/server";
+"use client";
+
+import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import "./PageNavTitle.scss";
 
@@ -9,12 +10,12 @@ type PageNavTitleProps = {
 	title: string;
 };
 
-export default async function PageNavTitle({
+export default function PageNavTitle({
 	homeTitle,
 	previousTitle,
 	title,
 }: PageNavTitleProps) {
-	const t = await getTranslations();
+	const t = useTranslations();
 
 	return (
 		<div className="page-nav-title">
