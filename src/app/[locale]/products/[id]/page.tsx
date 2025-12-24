@@ -11,9 +11,10 @@ type ProductPageProps = {
 };
 
 // TODO: LEARN THIS
-export async function generateStaticParams(): Promise<{ id: string }[]> {
-	const productData = productsData;
-	return productData.map((product) => ({ id: product.id }));
+export async function generateStaticParams() {
+	return productsData.map((product) => ({
+		id: product.id,
+	}));
 }
 
 export async function generateMetadata({
