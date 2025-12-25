@@ -3,10 +3,10 @@
 import { useTranslations } from "next-intl";
 import { Product } from "../../interfaces/Product";
 import { useState } from "react";
-import { useParams } from "next/navigation";
+import { usePathname } from "@/i18n/navigation";
 import Container from "../Container/Container";
 import classNames from "classnames";
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 import "./Footer.scss";
 
 interface Social {
@@ -32,10 +32,9 @@ type FooterProps = {
 	productsData: Product[];
 };
 
-const Footer: React.FC<FooterProps> = ({ productsData }) => {
+export default function Footer({ productsData }: FooterProps) {
 	const t = useTranslations();
-
-	const { lng } = useParams();
+	const pathname = usePathname();
 
 	const uniqueProductTypes = [
 		...new Set(productsData.map((product) => product.type)),
@@ -86,7 +85,7 @@ const Footer: React.FC<FooterProps> = ({ productsData }) => {
 						<img src="/icons/arrow-up.svg" width={26} height={26} alt="" />
 					</button>
 					<div className="footer-details">
-						<Link className="footer-logo" href={`/${lng}/`}>
+						<Link className="footer-logo" href="/">
 							<img
 								src="/logo-img/yagoda-karpat-logo.svg"
 								width={50}
@@ -130,34 +129,22 @@ const Footer: React.FC<FooterProps> = ({ productsData }) => {
 									<div className="grid-dropdown">
 										<ul className="footer-nav__list">
 											<li>
-												<Link
-													onClick={closeFooterDropdown}
-													href={`/${lng}/#home`}
-												>
+												<Link onClick={closeFooterDropdown} href="/">
 													{t("home_title")}
 												</Link>
 											</li>
 											<li>
-												<Link
-													onClick={closeFooterDropdown}
-													href={`/${lng}/#about-us`}
-												>
+												<Link onClick={closeFooterDropdown} href="/#about-us">
 													{t("about_us_title")}
 												</Link>
 											</li>
 											<li>
-												<Link
-													onClick={closeFooterDropdown}
-													href={`/${lng}/products`}
-												>
+												<Link onClick={closeFooterDropdown} href="/products">
 													{t("products_title")}
 												</Link>
 											</li>
 											<li>
-												<Link
-													onClick={closeFooterDropdown}
-													href={`/${lng}/#contacts`}
-												>
+												<Link onClick={closeFooterDropdown} href="/#contacts">
 													{t("contacts_title")}
 												</Link>
 											</li>
@@ -207,13 +194,14 @@ const Footer: React.FC<FooterProps> = ({ productsData }) => {
 																<li key={id}>
 																	<Link
 																		onClick={closeFooterDropdown}
-																		// className={({ isActive }) =>
-																		// 	classNames("footer__product-link", {
-																		// 		"footer__product-link--active":
-																		// 			isActive,
-																		// 	})
-																		// }
-																		href={`/${lng}/products/${id}`}
+																		className={classNames(
+																			"footer__product-link",
+																			{
+																				"footer__product-link--active":
+																					pathname === `/products/${id}`,
+																			}
+																		)}
+																		href={`/products/${id}`}
 																	>
 																		{t(name)}
 																	</Link>
@@ -250,6 +238,4 @@ const Footer: React.FC<FooterProps> = ({ productsData }) => {
 			</Container>
 		</footer>
 	);
-};
-
-export default Footer;
+}
