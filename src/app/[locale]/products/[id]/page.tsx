@@ -4,7 +4,6 @@ import productsData from "@/lib/data/products-data.json";
 import ProductPageStatic from "./ProductPage.static";
 import "./ProductPage.scss";
 import type { Metadata } from "next";
-// import harvestData from "../../../assets/data/harvest-data.json";
 import ProductCard from "@/app/components/ProductCard/ProductCard";
 import { getTranslations } from "next-intl/server";
 import { Product } from "@/app/interfaces/Product";

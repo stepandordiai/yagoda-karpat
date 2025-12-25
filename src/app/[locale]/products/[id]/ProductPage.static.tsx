@@ -4,6 +4,8 @@ import { useState } from "react";
 import PageNavTitle from "@/app/components/PageNavTitle/PageNavTitle";
 import ContactDetails from "@/app/components/ContactDetails/ContactDetails";
 import classNames from "classnames";
+import Image from "next/image";
+import harvestData from "@/lib/data/harvest-data.json";
 
 // Swiper
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -14,6 +16,11 @@ import { Autoplay, Pagination } from "swiper/modules";
 import "./ProductPage.scss";
 import { useTranslations } from "next-intl";
 import { Product } from "@/app/interfaces/Product";
+
+interface Harvest {
+	id: number;
+	month: string;
+}
 
 type ProductPageStaticProps = {
 	product: Product;
@@ -118,8 +125,8 @@ export default function ProductPageStatic({
 							<h2 style={{ color: "hsl(0, 0%, 50%)", marginBottom: 5 }}>
 								{t("harvest_calendar")}
 							</h2>
-							{/* <div style={{ display: "flex", columnGap: 5 }}> */}
-							{/* {harvestData.map(({ id, month }) => {
+							<div style={{ display: "flex", columnGap: 5 }}>
+								{harvestData.map(({ id, month }: Harvest) => {
 									return (
 										<div
 											key={id}
@@ -132,7 +139,7 @@ export default function ProductPageStatic({
 										</div>
 									);
 								})}
-							</div> */}
+							</div>
 						</div>
 					</div>
 					<a
@@ -170,12 +177,16 @@ export default function ProductPageStatic({
 							{productVariant.images.map((img, index) => {
 								return (
 									<SwiperSlide key={index}>
-										<img
+										<Image
 											className="swiper-img"
 											src={img}
+											width={1600}
+											height={1200}
 											alt={`${t(product.name)} ${t(
 												productVariant.state ?? ""
 											)}`.trimEnd()}
+											// TODO: LEARN THIS
+											priority={index === 0}
 										/>
 									</SwiperSlide>
 								);
