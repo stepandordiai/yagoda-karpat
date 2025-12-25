@@ -6,15 +6,17 @@ import LngSelect from "../LngSelect/LngSelect";
 import Container from "../Container/Container";
 import classNames from "classnames";
 import { Link } from "@/i18n/navigation";
-import "./Header.scss";
 import { useTranslations } from "next-intl";
+import { usePathname } from "@/i18n/navigation";
+import "./Header.scss";
 
 type HeaderProps = {
 	productsData: Product[];
 };
 
-const Header: React.FC<HeaderProps> = ({ productsData }) => {
+export default function Header({ productsData }: HeaderProps) {
 	const t = useTranslations();
+	const pathname = usePathname();
 
 	const [isMenuVisible, setIsMenuVisible] = useState(false);
 	const [isDropdownOpen, setIsDropdownOpen] = useState(false);
@@ -152,18 +154,30 @@ const Header: React.FC<HeaderProps> = ({ productsData }) => {
 			>
 				<ul className="menu__list">
 					<li>
-						<a onClick={closeMenu} className="link link--active" href="/">
+						<Link
+							onClick={closeMenu}
+							className={classNames("link", {
+								"link--active": pathname === "/",
+							})}
+							href="/"
+						>
 							{t("home_title")}
-						</a>
+						</Link>
 					</li>
 					<li>
-						<a onClick={closeMenu} className="link" href="#about-us">
+						<Link onClick={closeMenu} className="link" href="/#about-us">
 							{t("about_us_title")}
-						</a>
+						</Link>
 					</li>
 					<li>
 						<div className="menu__products-link">
-							<Link onClick={closeMenu} className="link" href="/products">
+							<Link
+								onClick={closeMenu}
+								className={classNames("link", {
+									"link--active": pathname === "/products",
+								})}
+								href="/products"
+							>
 								{t("products_title")}
 							</Link>
 							<button
@@ -204,11 +218,10 @@ const Header: React.FC<HeaderProps> = ({ productsData }) => {
 																<li key={id}>
 																	<Link
 																		onClick={closeMenu}
-																		// className={({ isActive }) =>
-																		// 	classNames({
-																		// 		"product-link--active": isActive,
-																		// 	})
-																		// }
+																		className={classNames({
+																			"product-link--active":
+																				pathname === `/products/${id}`,
+																		})}
 																		href={`/products/${id}`}
 																	>
 																		{t(name)}
@@ -225,9 +238,9 @@ const Header: React.FC<HeaderProps> = ({ productsData }) => {
 						</div>
 					</li>
 					<li>
-						<a onClick={closeMenu} className="link" href="#contacts">
+						<Link onClick={closeMenu} className="link" href="/#contacts">
 							{t("contacts_title")}
-						</a>
+						</Link>
 					</li>
 				</ul>
 				<div className="menu__footer">
@@ -247,6 +260,4 @@ const Header: React.FC<HeaderProps> = ({ productsData }) => {
 			></div>
 		</>
 	);
-};
-
-export default Header;
+}

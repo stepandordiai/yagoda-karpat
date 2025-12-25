@@ -2,10 +2,6 @@
 @use "./fonts" as *;
 @use "./variables" as *;
 
-html {
-	scroll-behavior: smooth;
-}
-
 body {
 	font-family: "Montserrat", serif;
 	background: rgb(245, 245, 245) !important;

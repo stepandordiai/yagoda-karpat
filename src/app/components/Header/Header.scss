@@ -82,7 +82,7 @@
 }
 
 .burger-btn-inner--active::before {
-	transform: translateY(0);
+	transform: translateY(0) !important;
 	rotate: 45deg;
 	transition: transform 0.5s, rotate 0.5s 0.5s;
 }
@@ -99,7 +99,7 @@
 }
 
 .burger-btn-inner--active::after {
-	transform: translateY(0);
+	transform: translateY(0) !important;
 	rotate: -45deg;
 	transition: transform 0.5s, rotate 0.5s 0.5s;
 }
