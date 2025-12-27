@@ -4,6 +4,7 @@ import { useTranslations } from "next-intl";
 import { Product } from "../../interfaces/Product";
 import { useState } from "react";
 import { Link } from "@/i18n/navigation";
+import Image from "next/image";
 import classNames from "classnames";
 import "./ProductCard.scss";
 
@@ -31,14 +32,17 @@ export default function ProductCard({ product }: ProductProps) {
 		<div className="product">
 			<div className="product-top">
 				<div className="product__img-wrapper">
-					<img
-						className="product__img"
-						src={productState?.images[0]}
-						alt={`${t(name)} ${
-							productState?.state ? t(productState.state) : ""
-						}`.trimEnd()}
-						loading="lazy"
-					/>
+					{productState?.images[0] && (
+						<Image
+							className="product__img"
+							src={productState.images[0]}
+							width={1600}
+							height={1200}
+							alt={`${t(name)} ${
+								productState?.state ? t(productState.state) : ""
+							}`.trimEnd()}
+						/>
+					)}
 					<div className="img-qty">
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
