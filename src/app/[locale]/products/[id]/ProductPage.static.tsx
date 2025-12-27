@@ -1,21 +1,20 @@
 "use client";
 
+import { useTranslations } from "next-intl";
+import { Product } from "@/app/interfaces/Product";
 import { useState } from "react";
 import PageNavTitle from "@/app/components/PageNavTitle/PageNavTitle";
 import ContactDetails from "@/app/components/ContactDetails/ContactDetails";
-import classNames from "classnames";
 import Image from "next/image";
 import harvestData from "@/lib/data/harvest-data.json";
+import classNames from "classnames";
+import "./ProductPage.scss";
 
 // Swiper
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
-import { Autoplay, Pagination } from "swiper/modules";
-
-import "./ProductPage.scss";
-import { useTranslations } from "next-intl";
-import { Product } from "@/app/interfaces/Product";
 
 interface Harvest {
 	id: number;
@@ -24,13 +23,9 @@ interface Harvest {
 
 type ProductPageStaticProps = {
 	product: Product;
-	id: string;
 };
 
-export default function ProductPageStatic({
-	product,
-	id,
-}: ProductPageStaticProps) {
+export default function ProductPageStatic({ product }: ProductPageStaticProps) {
 	const t = useTranslations();
 
 	const [activeVariantId, setActiveVariantId] = useState(
@@ -47,7 +42,6 @@ export default function ProductPageStatic({
 		state?: string;
 	}
 
-	// TODO:
 	const productVariant: ProductVariant | null =
 		product?.variants.find((variant) => variant.id === activeVariantId) ??
 		product?.variants[0] ??
@@ -56,7 +50,7 @@ export default function ProductPageStatic({
 	return (
 		<>
 			<PageNavTitle
-				title={product.name}
+				title={t(product.name)}
 				previousTitle={t("products_title")}
 				homeTitle={t("home_title")}
 			/>
@@ -142,19 +136,9 @@ export default function ProductPageStatic({
 							</div>
 						</div>
 					</div>
-					<a
-						className="product-page__link"
-						// Додаємо / перед #
-						href="#products-page__contacts"
-					>
+					<a className="product-page__link" href="#products-page__contacts">
 						{t("requestPrice")}
 					</a>
-					{/* <Link
-						href={`/products/${id}/#products-page__contacts`}
-						className="product-page__link"
-					>
-						{t("requestPrice")}
-					</Link> */}
 				</div>
 				<div className="swiper-wrapper">
 					{productVariant.images && (
@@ -256,8 +240,6 @@ export default function ProductPageStatic({
 									productVariant.state ? t(productVariant.state) : ""
 								}`.trimEnd()}
 								readOnly
-								// TODO: learn this
-								aria-readonly="true"
 							/>
 						</div>
 						<div className="input-container textarea-container">

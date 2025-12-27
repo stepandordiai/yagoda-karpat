@@ -1,20 +1,41 @@
+import { getTranslations } from "next-intl/server";
 import Container from "@/app/components/Container/Container";
 import { notFound } from "next/navigation";
 import productsData from "@/lib/data/products-data.json";
 import ProductPageStatic from "./ProductPage.static";
-import "./ProductPage.scss";
 import type { Metadata } from "next";
 import ProductCard from "@/app/components/ProductCard/ProductCard";
-import { getTranslations } from "next-intl/server";
 import { Product } from "@/app/interfaces/Product";
+import "./ProductPage.scss";
 
 type ProductPageProps = {
 	params: Promise<{ id: string }>;
 };
 
-const productsDataTyped = productsData as Product[];
+const products = productsData as Product[];
+
 function getProductsData() {
 	return productsData as Product[];
+}
+
+export async function generateMetadata({
+	params,
+}: {
+	params: Promise<{ id: string }>;
+}): Promise<Metadata> {
+	const { id } = await params;
+	const product = products.find((p) => p.id === id);
+	const t = await getTranslations();
+
+	return {
+		title: `${t(product!.name)
+			.split(" ")
+			.map((word: string) => word[0].toUpperCase() + word.slice(1))
+			.join(" ")} | ${t("product_page.wholesaleSupplier")} | ${t(
+			"company_name"
+		)}`,
+		description: t(product!.desc),
+	};
 }
 
 // TODO: LEARN THIS
@@ -30,40 +51,18 @@ export async function generateStaticParams() {
 	);
 }
 
-export async function generateMetadata({
-	params,
-}: {
-	params: Promise<{ id: string }>;
-}): Promise<Metadata> {
-	const { id } = await params;
-	const product = productsDataTyped.find((p) => p.id === id);
-	const t = await getTranslations();
-
-	return {
-		title: `${t(product!.name)
-			.split(" ")
-			.map((word: string) => word[0].toUpperCase() + word.slice(1))
-			.join(" ")} | ${t("product_page.wholesaleSupplier")} | ${t(
-			"company_name"
-		)}`,
-		description: t(product!.desc),
-	};
-}
-
 export default async function ProductPage({ params }: ProductPageProps) {
 	const { id } = await params;
 
 	const t = await getTranslations();
 
-	const product = productsDataTyped.find(
-		(product) => String(product.id) === id
-	);
+	const product = products.find((product) => product.id === id);
 
 	if (!product) {
 		notFound();
 	}
 
-	const relatedProducts = productsDataTyped.filter((el) => {
+	const relatedProducts = products.filter((el) => {
 		return (
 			el.status === product.status &&
 			el.type === product.type &&
@@ -114,7 +113,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
 
 			<main>
 				<Container>
-					<ProductPageStatic product={product} id={id} />
+					<ProductPageStatic product={product} />
 					{relatedProducts.length > 0 && (
 						<>
 							<p className="related-products__title">
