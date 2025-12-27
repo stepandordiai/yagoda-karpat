@@ -1,25 +1,37 @@
+import { getTranslations } from "next-intl/server";
 import type { Metadata } from "next";
 import { Montserrat } from "next/font/google";
-// import "./../scss/globals.scss";
-import "./../scss/globals.scss";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { routing } from "@/i18n/routing";
 import { notFound } from "next/navigation";
-import Header from "../components/Header/Header";
 import productsData from "@/lib/data/products-data.json";
-import { Product } from "../interfaces/Product";
+import Loading from "../components/Loading/Loading";
+import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
+import "./../scss/globals.scss";
+
+export async function generateMetadata(): Promise<Metadata> {
+	const t = await getTranslations();
+
+	return {
+		title: `${t("home.title")} | ${t("company_name")}`,
+		description: t("home.desc_seo"),
+		alternates: {
+			canonical: "https://www.yagodakarpat.com/uk/",
+			languages: {
+				uk: "https://www.yagodakarpat.com/uk/",
+				en: "https://www.yagodakarpat.com/en/",
+				"x-default": "https://www.yagodakarpat.com/uk/",
+			},
+		},
+	};
+}
 
 const montserrat = Montserrat({
-	subsets: ["latin", "cyrillic"], // Обов'язково додаємо cyrillic для української мови
-	weight: ["300", "400", "500", "700"], // Оберіть потрібну товщину
-	variable: "--font-montserrat", // Створюємо CSS-змінну
+	subsets: ["latin", "cyrillic"],
+	weight: ["300", "400", "500", "700"],
+	variable: "--font-montserrat",
 });
-
-export const metadata: Metadata = {
-	title: "Pixelflower Studio | Цифрові запрошення",
-	description: "Створюємо унікальні міні-сайти для ваших подій",
-};
 
 interface RootLayoutProps {
 	children: React.ReactNode;
@@ -35,16 +47,15 @@ export default async function LocaleLayout({
 		notFound();
 	}
 
-	const productsDataTyped = productsData as Product[];
-
 	return (
-		<html>
+		<html lang={locale}>
 			<body className={montserrat.className}>
-				{/* 3. Обов'язково передаємо messages у провайдер */}
 				<NextIntlClientProvider>
-					<Header productsData={productsDataTyped} />
+					{/* TODO: */}
+					<Loading />
+					<Header productsData={productsData} />
 					{children}
-					<Footer productsData={productsDataTyped} />
+					<Footer productsData={productsData} />
 				</NextIntlClientProvider>
 			</body>
 		</html>
