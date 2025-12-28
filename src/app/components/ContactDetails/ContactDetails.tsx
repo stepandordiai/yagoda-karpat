@@ -58,7 +58,7 @@ const ContactDetails = () => {
 				className="contacts__info-container"
 				data-value="41042911"
 			>
-				<span style={{ fontWeight: 600 }}>ЄДРПОУ</span>
+				<span style={{ fontWeight: 600 }}>{t("companyCode")}</span>
 				<span>41042911</span>
 			</button>
 		</div>
