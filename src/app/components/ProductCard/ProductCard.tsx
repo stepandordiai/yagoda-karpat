@@ -94,24 +94,31 @@ export default function ProductCard({ product }: ProductProps) {
 			<div
 				style={{
 					display: "flex",
+					flexDirection: "column",
+					gap: 5,
 				}}
 			>
 				{variants.some((variant) => variant.state) && (
-					<div style={{ display: "flex", gap: 5, flexWrap: "wrap" }}>
-						{variants.map((variant) => {
-							return (
-								<button
-									key={variant.id}
-									onClick={() => setProductStateId(variant.id)}
-									className={classNames("variant-btn", {
-										"variant-btn--active": variant.id === productStateId,
-									})}
-								>
-									{/* TODO: learn this */}
-									{variant ? t(String(variant.state)) : ""}
-								</button>
-							);
-						})}
+					<div>
+						<h4 style={{ color: "hsl(0, 0%, 50%)", marginBottom: 5 }}>
+							Status
+						</h4>
+						<div style={{ display: "flex", gap: 5, flexWrap: "wrap" }}>
+							{variants.map((variant) => {
+								return (
+									<button
+										key={variant.id}
+										onClick={() => setProductStateId(variant.id)}
+										className={classNames("variant-btn", {
+											"variant-btn--active": variant.id === productStateId,
+										})}
+									>
+										{/* TODO: learn this */}
+										{variant ? t(String(variant.state)) : ""}
+									</button>
+								);
+							})}
+						</div>
 					</div>
 				)}
 				<Link href={`/products/${id}`} className="product__info-btn">
