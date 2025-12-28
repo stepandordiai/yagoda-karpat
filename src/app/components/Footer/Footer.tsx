@@ -7,24 +7,27 @@ import { usePathname } from "@/i18n/navigation";
 import Container from "../Container/Container";
 import classNames from "classnames";
 import { Link } from "@/i18n/navigation";
+import FacebookIcon from "@/app/icons/FacebookIcon";
+import LinkedinIcon from "@/app/icons/LinkedinIcon";
 import "./Footer.scss";
 
 interface Social {
 	title: string;
 	url: string;
-	img: string;
+	// TODO: LEARN THIS
+	img: React.ReactNode;
 }
 
 const socialsData: Social[] = [
 	{
 		title: "Facebook",
 		url: "https://www.facebook.com/profile.php?id=61584019674019",
-		img: "/icons/facebook.svg",
+		img: <FacebookIcon size={24} />,
 	},
 	{
 		title: "LinkedIn",
 		url: "https://www.linkedin.com/company/yagoda-karpat",
-		img: "/icons/linkedin.svg",
+		img: <LinkedinIcon size={24} />,
 	},
 ];
 
@@ -97,7 +100,7 @@ export default function Footer({ productsData }: FooterProps) {
 							{socialsData.map(({ title, url, img }, i) => {
 								return (
 									<a key={i} href={url} target="_blank" title={title}>
-										<img src={img} width={24} height={24} alt="" />
+										{img}
 									</a>
 								);
 							})}

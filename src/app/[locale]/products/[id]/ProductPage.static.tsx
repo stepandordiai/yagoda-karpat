@@ -33,6 +33,7 @@ type ProductPageStaticProps = {
 interface Social {
 	title: string;
 	url: string;
+	// TODO: LEARN THIS
 	img: JSX.Element;
 }
 

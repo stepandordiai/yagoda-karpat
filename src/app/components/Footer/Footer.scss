@@ -82,6 +82,9 @@
 
 	a {
 		position: relative;
+		display: flex;
+		justify-content: center;
+		align-items: center;
 		background: var(--bg-clr);
 		padding: 10px;
 		border-radius: 10px;
