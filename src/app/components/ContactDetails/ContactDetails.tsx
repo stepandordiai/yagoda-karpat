@@ -1,7 +1,10 @@
 "use client";
 
 import { useTranslations } from "next-intl";
+import TelIcon from "@/app/icons/TelIcon";
+import EmailIcon from "@/app/icons/EmailIcon";
 import "./ContactDetails.scss";
+import PinIcon from "@/app/icons/PinIcon";
 
 const ContactDetails = () => {
 	const t = useTranslations();
@@ -35,14 +38,14 @@ const ContactDetails = () => {
 	return (
 		<div className="contacts-icons-container">
 			<a href="tel:+380968065513" className="contacts__info-container">
-				<img src="/icons/telephone.svg" alt="" />
+				<TelIcon size={40} />
 				<span>+38 (096) 806 55 13</span>
 			</a>
 			<a
 				href="mailto:info@yagodakarpat.com"
 				className="contacts__info-container"
 			>
-				<img src="/icons/envelope.svg" alt="" />
+				<EmailIcon size={40} />
 				<span>info@yagodakarpat.com</span>
 			</a>
 			<a
@@ -50,7 +53,7 @@ const ContactDetails = () => {
 				href="https://maps.app.goo.gl/ti6CzhjdpFoS8ytz7"
 				target="_blank"
 			>
-				<img src="/icons/geo.svg" alt="" />
+				<PinIcon size={40} />
 				<span>{t("contacts.address")}</span>
 			</a>
 			<button

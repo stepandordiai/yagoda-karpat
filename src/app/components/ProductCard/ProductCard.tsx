@@ -101,7 +101,7 @@ export default function ProductCard({ product }: ProductProps) {
 				{variants.some((variant) => variant.state) && (
 					<div>
 						<h4 style={{ color: "hsl(0, 0%, 50%)", marginBottom: 5 }}>
-							Status
+							{t("product_page.status")}
 						</h4>
 						<div style={{ display: "flex", gap: 5, flexWrap: "wrap" }}>
 							{variants.map((variant) => {

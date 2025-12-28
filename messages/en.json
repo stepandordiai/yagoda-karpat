@@ -117,7 +117,10 @@
 	"product_page": {
 		"origin_title": "Origin",
 		"packaging_title": "Packaging",
+		"delivery": "Delivery",
+		"deliveryByVehicle": "Delivery by vehicle",
 		"desc_title": "Description",
+		"status": "Status",
 		"whole": "whole",
 		"sliced": "sliced",
 		"cubic": "cubic",

@@ -19,10 +19,6 @@
 	padding: 25px;
 	border-radius: 10px;
 	overflow: hidden;
-
-	img {
-		width: 40px;
-	}
 }
 
 .contacts__info-container::before {
@@ -57,10 +53,6 @@
 @media screen and (max-width: 808px) {
 	.contacts__info-container {
 		row-gap: 10px;
-
-		img {
-			width: 30px;
-		}
 	}
 }
 

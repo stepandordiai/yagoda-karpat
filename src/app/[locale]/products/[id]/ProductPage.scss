@@ -158,6 +158,26 @@
 	margin: 25px 0;
 }
 
+.product-page-section {
+	background: #fff;
+	padding: 25px;
+	border-radius: 10px;
+	width: 100%;
+	margin-top: 25px;
+
+	h3 {
+		font-size: clamp(1.25rem, 4vw, 1.75rem);
+		font-weight: 500;
+	}
+}
+
+.product-page-pic {
+	width: 128px;
+	aspect-ratio: 1/1;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
 .product-page-form__title {
 	scroll-margin-top: 120px;
 }
@@ -209,6 +229,11 @@
 }
 
 @media screen and (max-width: 895px) {
+	.product-page-section {
+		padding: 10px;
+		margin-top: 10px;
+	}
+
 	.product-page-form {
 		padding: 10px;
 	}

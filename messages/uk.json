@@ -118,7 +118,10 @@
 	"product_page": {
 		"origin_title": "Походження",
 		"packaging_title": "Пакування",
+		"delivery": "Доставка",
+		"deliveryByVehicle": "Доставка транспортом",
 		"desc_title": "Опис",
+		"status": "Статус",
 		"whole": "цілий",
 		"sliced": "полоска",
 		"cubic": "кубик",

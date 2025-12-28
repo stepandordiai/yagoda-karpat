@@ -2,12 +2,17 @@
 
 import { useTranslations } from "next-intl";
 import { Product } from "@/app/interfaces/Product";
-import { useState } from "react";
+import { JSX, useState } from "react";
 import PageNavTitle from "@/app/components/PageNavTitle/PageNavTitle";
 import ContactDetails from "@/app/components/ContactDetails/ContactDetails";
 import Image from "next/image";
 import harvestData from "@/lib/data/harvest-data.json";
+import LinkIcon from "@/app/components/LinkIcon/LinkIcon";
 import classNames from "classnames";
+import WhatsappIcon from "@/app/icons/WhatsappIcon";
+import ViberIcon from "@/app/icons/ViberIcon";
+import TelIcon from "@/app/icons/TelIcon";
+import EmailIcon from "@/app/icons/EmailIcon";
 import "./ProductPage.scss";
 
 // Swiper
@@ -24,6 +29,35 @@ interface Harvest {
 type ProductPageStaticProps = {
 	product: Product;
 };
+
+interface Social {
+	title: string;
+	url: string;
+	img: JSX.Element;
+}
+
+const socialsData: Social[] = [
+	{
+		title: "Email",
+		url: "mailto:info@yagodakarpat.com",
+		img: <EmailIcon size={24} />,
+	},
+	{
+		title: "Phone number",
+		url: "tel:+420722001016",
+		img: <TelIcon size={24} />,
+	},
+	{
+		title: "Viber",
+		url: "viber://chat?number=+420722001016",
+		img: <ViberIcon size={24} />,
+	},
+	{
+		title: "Whatsapp",
+		url: "https://wa.me/420722001016",
+		img: <WhatsappIcon size={24} />,
+	},
+];
 
 export default function ProductPageStatic({ product }: ProductPageStaticProps) {
 	const t = useTranslations();
@@ -62,24 +96,29 @@ export default function ProductPageStatic({ product }: ProductPageStaticProps) {
 							<h1 className="product-page__name">{t(product.name)}</h1>
 						</div>
 						{product.variants.some((variant) => variant.state) && (
-							<div className="product-page__variants">
-								{product?.variants.map((variant) => {
-									return (
-										<button
-											key={variant.id}
-											onClick={() => handleVariantId(variant.id)}
-											className={classNames("variant-btn", {
-												"variant-btn--active": variant.id === activeVariantId,
-											})}
-										>
-											{t(variant.state!)}
-										</button>
-									);
-								})}
+							<div>
+								<h2 style={{ color: "hsl(0, 0%, 50%)", marginBottom: 5 }}>
+									{t("product_page.status")}
+								</h2>
+								<div className="product-page__variants">
+									{product?.variants.map((variant) => {
+										return (
+											<button
+												key={variant.id}
+												onClick={() => handleVariantId(variant.id)}
+												className={classNames("variant-btn", {
+													"variant-btn--active": variant.id === activeVariantId,
+												})}
+											>
+												{t(variant.state!)}
+											</button>
+										);
+									})}
+								</div>
 							</div>
 						)}
 						<div>
-							<h2 style={{ color: "hsl(0, 0%, 50%)" }}>
+							<h2 style={{ color: "hsl(0, 0%, 50%)", marginBottom: 5 }}>
 								{t("certificates_title")}
 							</h2>
 							<div style={{ display: "flex", columnGap: 5 }}>
@@ -106,6 +145,12 @@ export default function ProductPageStatic({ product }: ProductPageStaticProps) {
 							{product.pack.map((option, index) => (
 								<p key={index}>{t(option)}</p>
 							))}
+						</div>
+						<div>
+							<h2 style={{ color: "hsl(0, 0%, 50%)", marginBottom: 5 }}>
+								{t("product_page.delivery")}
+							</h2>
+							<p>{t("product_page.deliveryByVehicle")}</p>
 						</div>
 						<div>
 							<h2 style={{ color: "hsl(0, 0%, 50%)", marginBottom: 5 }}>
@@ -179,6 +224,42 @@ export default function ProductPageStatic({ product }: ProductPageStaticProps) {
 					)}
 				</div>
 			</div>
+			<div className="product-page-section">
+				<h3>Your personal sales manager</h3>
+				<p style={{ marginBottom: 10 }}>
+					Take a look at the product list above and let me know which items
+					you’re interested in and the quantities. I’ll prepare a personalized
+					offer for you.
+				</p>
+				<div style={{ display: "flex", gap: 5 }}>
+					<div className="product-page-pic">
+						<Image
+							src="/sales-manager.jpg"
+							width={128}
+							height={128}
+							alt="Picture of the sales manager"
+						/>
+					</div>
+					<div
+						style={{
+							display: "flex",
+							justifyContent: "space-between",
+							flexDirection: "column",
+							gap: 5,
+						}}
+					>
+						<div>
+							<p>Stepan Dordiai</p>
+							<p>Sales Manager</p>
+						</div>
+						<div style={{ display: "flex", gap: 5, flexWrap: "wrap" }}>
+							{socialsData.map(({ title, url, img }, i) => {
+								return <LinkIcon key={i} url={url} title={title} icon={img} />;
+							})}
+						</div>
+					</div>
+				</div>
+			</div>
 			<h3 className="product-page-form__title" id="products-page__contacts">
 				{t("product_page.requestQuotation")}
 			</h3>
@@ -237,7 +318,9 @@ export default function ProductPageStatic({ product }: ProductPageStaticProps) {
 								name="product"
 								type="text"
 								value={`${t(product.name)} ${
-									productVariant.state ? t(productVariant.state) : ""
+									productVariant.state
+										? "(" + t(productVariant.state) + ")"
+										: ""
 								}`.trimEnd()}
 								readOnly
 							/>
