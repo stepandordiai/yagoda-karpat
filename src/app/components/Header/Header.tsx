@@ -9,6 +9,8 @@ import { Link } from "@/i18n/navigation";
 import { useTranslations } from "next-intl";
 import { usePathname } from "@/i18n/navigation";
 import "./Header.scss";
+import TelIcon from "@/app/icons/TelIcon";
+import EmailIcon from "@/app/icons/EmailIcon";
 
 type HeaderProps = {
 	productsData: Product[];
@@ -39,7 +41,6 @@ export default function Header({ productsData }: HeaderProps) {
 		document.body.classList.toggle("body--hidden", isMenuVisible);
 	}, [isMenuVisible]);
 
-	// menu
 	function toggleDropdownBtn(): void {
 		setIsDropdownOpen((prev) => !prev);
 	}
@@ -193,7 +194,7 @@ export default function Header({ productsData }: HeaderProps) {
 										"products-btn__icon--active": isDropdownOpen,
 									})}
 								>
-									<img src="/icons/plus-lg.svg" width={25} height={25} alt="" />
+									<img src="/icons/plus-lg.svg" width={24} height={24} alt="" />
 								</span>
 							</button>
 						</div>
@@ -245,10 +246,12 @@ export default function Header({ productsData }: HeaderProps) {
 				</ul>
 				<div className="menu__footer">
 					<a className="menu__footer-link" href="tel:+380968065513">
-						+38 (096) 806 55 13
+						<TelIcon size={24} />
+						<span>+38 (096) 806 55 13</span>
 					</a>
 					<a className="menu__footer-link" href="mailto:info@yagodakarpat.com">
-						info@yagodakarpat.com
+						<EmailIcon size={24} />
+						<span>info@yagodakarpat.com</span>
 					</a>
 				</div>
 			</nav>
