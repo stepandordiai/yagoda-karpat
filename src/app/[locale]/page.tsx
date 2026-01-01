@@ -34,7 +34,7 @@ export default async function Home() {
 		<main>
 			<Container>
 				<section className="home-hero" id="home">
-					<div className="home-container">
+					<div className="home-hero-inner">
 						<video
 							className="home-container__video"
 							loop
