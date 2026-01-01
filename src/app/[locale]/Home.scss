@@ -8,8 +8,7 @@
 .home-hero-inner {
 	position: relative;
 	z-index: 0;
-	// TODO: My new way to calc hero section
-	height: minmax(min-content, calc(100svh - 145px));
+	height: calc(100svh - 145px);
 	@include flex-center-start;
 	flex-direction: column;
 	row-gap: 25px;
@@ -110,7 +109,7 @@
 	}
 
 	.home-hero-inner {
-		height: minmax(min-content, calc(100svh - 100px));
+		height: calc(100svh - 100px);
 		padding: 10px;
 		row-gap: 10px;
 	}
