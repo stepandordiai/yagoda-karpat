@@ -221,7 +221,7 @@ export default function Footer({ productsData }: FooterProps) {
 						<div className="footer__bottom">
 							<div>
 								<p>
-									© 2010 - {new Date().getFullYear()} {t("company_full_name")}.
+									© 2010-{new Date().getFullYear()} {t("companyFullName")}
 								</p>
 								<p>{t("all_rights_reserved")}.</p>
 							</div>
