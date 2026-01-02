@@ -52,7 +52,7 @@ export default async function Home() {
 						>
 							Sergey k
 						</a>
-						<p className="home-container__desc">{t("company_full_name")}</p>
+						<p className="home-container__desc">{t("companyFullName")}</p>
 						<h1 className="home-container__title">{t("home.title")}</h1>
 						<h2 className="home-container__desc">{t("home.sec_title")}</h2>
 						<div style={{ display: "flex", flexWrap: "wrap", gap: 10 }}>
