@@ -8,9 +8,10 @@ import classNames from "classnames";
 import { Link } from "@/i18n/navigation";
 import { useTranslations } from "next-intl";
 import { usePathname } from "@/i18n/navigation";
-import "./Header.scss";
 import TelIcon from "@/app/icons/TelIcon";
 import EmailIcon from "@/app/icons/EmailIcon";
+import PdfIcon from "@/app/icons/PdfIcon";
+import "./Header.scss";
 
 type HeaderProps = {
 	productsData: Product[];
@@ -116,9 +117,28 @@ export default function Header({ productsData }: HeaderProps) {
 							/>
 							<span>{t("company_name")}</span>
 						</Link>
+						<a
+							className="header__catalog"
+							href="/pdf/yagoda-karpat-catalog.pdf"
+							target="_blank"
+						>
+							<span>Catalog</span>
+							<span
+								style={{
+									display: "flex",
+									justifyContent: "center",
+									alignItems: "center",
+								}}
+							>
+								<PdfIcon />
+							</span>
+						</a>
 						<LngSelect />
 						<a className="header__tel" href="tel:+380968065513">
-							+38 096 806 55 13
+							<span>+38 096 806 55 13</span>
+							<span>
+								<TelIcon />
+							</span>
 						</a>
 						{/* menu-btn */}
 						<button
