@@ -21,6 +21,7 @@ export async function generateMetadata(): Promise<Metadata> {
 			languages: {
 				uk: "https://www.yagodakarpat.com/uk/",
 				en: "https://www.yagodakarpat.com/en/",
+				cs: "https://www.yagodakarpat.com/cs/",
 				"x-default": "https://www.yagodakarpat.com/uk/",
 			},
 		},
@@ -51,7 +52,6 @@ export default async function LocaleLayout({
 		<html lang={locale}>
 			<body className={montserrat.className}>
 				<NextIntlClientProvider>
-					{/* TODO: */}
 					<Loading />
 					<Header productsData={productsData} />
 					{children}

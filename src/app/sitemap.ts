@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 
 // TODO: LEARN THIS
 const BASE_URL = "https://www.yagodakarpat.com";
-const locales = ["uk", "en"] as const;
+const locales = ["uk", "en", "cs"] as const;
 
 const staticPages = ["", "/products"];
 

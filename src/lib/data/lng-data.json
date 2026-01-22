@@ -1,4 +1,5 @@
 [
 	{ "code": "uk", "name": "UA", "fullName": "Українська" },
-	{ "code": "en", "name": "EN", "fullName": "English" }
+	{ "code": "en", "name": "EN", "fullName": "English" },
+	{ "code": "cs", "name": "CZ", "fullName": "Čeština" }
 ]

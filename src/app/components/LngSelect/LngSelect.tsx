@@ -2,15 +2,10 @@
 
 import { useRef, useState, useEffect } from "react";
 import { useLocale } from "next-intl";
-import { useRouter, usePathname, Link } from "@/i18n/navigation"; // Використовуйте ваш файл routing
+import { useRouter, usePathname } from "@/i18n/navigation"; // Використовуйте ваш файл routing
 import classNames from "classnames";
+import lngData from "./../../../lib/data/lng-data.json";
 import "./LngSelect.scss";
-
-// Дані можна тримати тут або в окремому файлі config
-const lngData = [
-	{ code: "uk", name: "UA", fullName: "Українська" },
-	{ code: "en", name: "EN", fullName: "English" },
-];
 
 const LngSelect = () => {
 	const locale = useLocale(); // Отримуємо поточну мову (uk або en)

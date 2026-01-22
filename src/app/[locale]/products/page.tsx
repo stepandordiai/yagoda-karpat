@@ -1,7 +1,7 @@
-import PageNavTitle from "../../components/PageNavTitle/PageNavTitle";
-import ProductsClient from "./Products.client";
 import type { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
+import PageNavTitle from "../../components/PageNavTitle/PageNavTitle";
+import ProductsClient from "./Products.client";
 import "./Products.scss";
 
 export async function generateMetadata(): Promise<Metadata> {
@@ -18,6 +18,7 @@ export async function generateMetadata(): Promise<Metadata> {
 			languages: {
 				uk: "https://www.yagodakarpat.com/uk/products",
 				en: "https://www.yagodakarpat.com/en/products",
+				cs: "https://www.yagodakarpat.com/cs/products",
 				"x-default": "https://www.yagodakarpat.com/uk/products",
 			},
 		},

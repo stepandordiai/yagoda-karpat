@@ -21,6 +21,7 @@ export async function generateMetadata(): Promise<Metadata> {
 			languages: {
 				uk: "https://www.yagodakarpat.com/uk/",
 				en: "https://www.yagodakarpat.com/en/",
+				cs: "https://www.yagodakarpat.com/cs/",
 				"x-default": "https://www.yagodakarpat.com/uk/",
 			},
 		},
@@ -69,7 +70,6 @@ export default async function Home() {
 				<section className="home-products" id="products">
 					<SectionTitle name={t("products_title")} />
 					<div className="products-container">
-						{/* TODO: slice() method returns new array */}
 						{productsData.slice(0, 6).map((product) => {
 							return <ProductCard key={product.id} product={product} />;
 						})}

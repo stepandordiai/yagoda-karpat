@@ -2,6 +2,7 @@
 
 import { useEffect } from "react";
 
+// FIXME:
 const Error = ({ error }: { error: Error }) => {
 	useEffect(() => {
 		console.log(error);
