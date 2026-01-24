@@ -66,6 +66,7 @@
 		"title": "Всі продукти",
 		"filter": "Фільтер",
 		"filter_placeholder": "Який продукт ви шукаєте?",
+		"productNotFound": "Продукт не знайдено",
 		"frozenBilberries": "Заморожена чорниця",
 		"frozenLingonberries": "Заморожена брусниця",
 		"frozenRosehips": "Заморожені шипшини",

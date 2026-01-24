@@ -66,6 +66,7 @@
 		"title": "All products",
 		"filter": "Filter",
 		"filter_placeholder": "Which product are you searching?",
+		"productNotFound": "Product not found",
 		"frozenBilberries": "IQF frozen bilberries",
 		"frozenLingonberries": "IQF frozen lingonberries",
 		"frozenRosehips": "IQF frozen rose hips",

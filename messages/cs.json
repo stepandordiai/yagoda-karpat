@@ -66,6 +66,7 @@
 		"title": "Všechny produkty",
 		"filter": "Filtrovat",
 		"filter_placeholder": "Jaký produkt hledáte?",
+		"productNotFound": "Produkt nebyl nalezen",
 		"frozenBilberries": "IQF mražené borůvky",
 		"frozenLingonberries": "IQF mražené brusinky",
 		"frozenRosehips": "IQF mražené šípky",

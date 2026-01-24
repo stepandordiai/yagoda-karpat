@@ -76,9 +76,13 @@ export default function ProductsClient() {
 				</button>
 			</div>
 			<div className="products-container">
-				{filteredProducts.map((product) => {
-					return <ProductCard key={product.id} product={product} />;
-				})}
+				{filteredProducts.length > 0 ? (
+					filteredProducts.map((product) => {
+						return <ProductCard key={product.id} product={product} />;
+					})
+				) : (
+					<p>{t("products.productNotFound")}</p>
+				)}
 			</div>
 		</>
 	);
