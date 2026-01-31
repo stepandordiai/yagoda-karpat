@@ -1,12 +1,14 @@
-.about-us__sec-info {
+.about-us-container {
 	text-align: justify;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
 }
 
 .about-us__stats {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	gap: 25px;
-	margin-top: 10px;
 }
 
 .stats-card {

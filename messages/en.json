@@ -55,7 +55,9 @@
 	},
 
 	"about_us": {
-		"title": "We are a family-owned private company specializing in the processing, production, and export of frozen and dried berries, fruits, mushrooms, and vegetables since 2010. All our products are grown and harvested exclusively in the environmentally clean regions of Ukraine",
+		"paragraph1": "We are a family-owned private company with over a decade of experience in the industrial processing and export of frozen and dried berries, fruits, mushrooms, and vegetables. Since 2010, we have built our operations around one core principle: delivering consistent, certified quality at scale for international B2B partners. From hand-picked raw materials to advanced processing technologies, every stage of our production is designed to meet the expectations of demanding European markets.",
+		"paragraph2": "All our products are grown and harvested exclusively in environmentally clean regions of Ukraine, where favorable climatic conditions and long-standing agricultural traditions ensure high-quality raw materials. We work closely with trusted farmers and carefully control the harvesting process to preserve the natural taste, color, and nutritional value of our products. Depending on the type of product and customer requirements, we use IQF freezing, sun drying, or drying in specialized drying chambers.",
+		"paragraph3": "Quality and food safety are the foundation of our business. Our facilities operate in full compliance with international standards, including HACCP, ISO, and Organic certifications. This commitment allows us to act not just as a supplier, but as a reliable long-term partner for EU buyers seeking transparency, flexibility, and dependable volumes. We combine family ownership with industrial precision - delivering natural products you can trust, season after season.",
 		"year": "years of experience",
 		"product": "natural products",
 		"volume": "employees",
