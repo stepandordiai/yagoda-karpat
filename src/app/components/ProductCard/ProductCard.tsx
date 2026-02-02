@@ -20,7 +20,7 @@ export default function ProductCard({ product }: ProductProps) {
 	const [productStateId, setProductStateId] = useState(variants[0].id);
 
 	const productState = variants.find(
-		(variant) => variant.id === productStateId
+		(variant) => variant.id === productStateId,
 	);
 
 	// TODO:

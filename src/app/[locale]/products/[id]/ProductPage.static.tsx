@@ -2,8 +2,7 @@
 
 import { useTranslations } from "next-intl";
 import { Product } from "@/app/interfaces/Product";
-import { JSX, useState } from "react";
-import PageNavTitle from "@/app/components/PageNavTitle/PageNavTitle";
+import { JSX, useState, useLayoutEffect } from "react";
 import ContactDetails from "@/app/components/ContactDetails/ContactDetails";
 import Image from "next/image";
 import harvestData from "@/lib/data/harvest-data.json";
@@ -63,8 +62,17 @@ const socialsData: Social[] = [
 export default function ProductPageStatic({ product }: ProductPageStaticProps) {
 	const t = useTranslations();
 
+	// TODO: LEARN THIS
+	useLayoutEffect(() => {
+		window.scrollTo({
+			top: 0,
+			left: 0,
+			behavior: "instant",
+		});
+	}, []);
+
 	const [activeVariantId, setActiveVariantId] = useState(
-		product?.variants[0].id ?? null
+		product?.variants[0].id ?? null,
 	);
 
 	function handleVariantId(props: number) {
@@ -84,11 +92,6 @@ export default function ProductPageStatic({ product }: ProductPageStaticProps) {
 
 	return (
 		<>
-			<PageNavTitle
-				title={t(product.name)}
-				previousTitle={t("products_title")}
-				homeTitle={t("home_title")}
-			/>
 			<div className="product-page">
 				<div className="product-page__details">
 					<div className="product-page__details-inner">
@@ -213,7 +216,7 @@ export default function ProductPageStatic({ product }: ProductPageStaticProps) {
 											width={1600}
 											height={1200}
 											alt={`${t(product.name)} ${t(
-												productVariant.state ?? ""
+												productVariant.state ?? "",
 											)}`.trimEnd()}
 											// TODO: LEARN THIS
 											priority={index === 0}

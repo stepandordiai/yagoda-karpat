@@ -6,6 +6,7 @@ import ProductPageStatic from "./ProductPage.static";
 import type { Metadata } from "next";
 import ProductCard from "@/app/components/ProductCard/ProductCard";
 import { Product } from "@/app/interfaces/Product";
+import PageNavTitle from "@/app/components/PageNavTitle/PageNavTitle";
 import "./ProductPage.scss";
 
 const products = productsData as Product[];
@@ -96,6 +97,11 @@ export default async function ProductPage({ params }: ProductPageProps) {
 	return (
 		<main>
 			<Container>
+				<PageNavTitle
+					title={t(product.name)}
+					previousTitle={t("products_title")}
+					homeTitle={t("home_title")}
+				/>
 				<ProductPageStatic product={product} />
 				{relatedProducts.length > 0 && (
 					<>
