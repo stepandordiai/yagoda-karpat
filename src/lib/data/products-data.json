@@ -5,7 +5,6 @@
 		"status": "frozen",
 		"latName": "Vaccinium myrtillus",
 		"name": "products.frozenBilberries",
-		"origin": "product_page.origin",
 		"pack": [
 			"product_page.pack_1",
 			"product_page.pack_2",
@@ -40,7 +39,6 @@
 		"status": "frozen",
 		"latName": "Vaccinium vitis-idaea",
 		"name": "products.frozenLingonberries",
-		"origin": "product_page.origin",
 		"pack": [
 			"product_page.pack_1",
 			"product_page.pack_2",
@@ -72,7 +70,6 @@
 		"status": "frozen",
 		"latName": "Rosa canina",
 		"name": "products.frozenRosehips",
-		"origin": "product_page.origin",
 		"pack": ["product_page.pack_1"],
 		"desc": "product_page.frozenRosehipsDesc",
 		"variants": [
@@ -93,7 +90,6 @@
 		"status": "frozen",
 		"latName": "Prunus domestica",
 		"name": "products.frozenPlums",
-		"origin": "product_page.origin",
 		"pack": ["product_page.pack_1", "product_page.pack_2"],
 		"desc": "product_page.frozenPlumsDesc",
 		"variants": [
@@ -121,7 +117,6 @@
 		"status": "dried",
 		"latName": "Prunus domestica",
 		"name": "products.driedPlums",
-		"origin": "product_page.origin",
 		"pack": ["product_page.pack_1", "product_page.pack_2"],
 		"desc": "product_page.driedPlumsDesc",
 		"variants": [
@@ -145,7 +140,6 @@
 		"status": "dried",
 		"latName": "Prunus domestica",
 		"name": "products.prunes",
-		"origin": "product_page.origin",
 		"pack": ["product_page.pack_2"],
 		"desc": "product_page.prunesDesc",
 		"variants": [
@@ -166,7 +160,6 @@
 		"status": "frozen",
 		"latName": "Sambucus",
 		"name": "products.frozenElderberries",
-		"origin": "product_page.origin",
 		"pack": [
 			"product_page.pack_1",
 			"product_page.pack_2",
@@ -193,7 +186,6 @@
 		"status": "frozen",
 		"latName": "Fragaria",
 		"name": "products.frozenStrawberries",
-		"origin": "product_page.origin",
 		"pack": ["product_page.pack_1", "product_page.pack_2"],
 		"desc": "product_page.frozenStrawberryDesc",
 		"variants": [
@@ -213,7 +205,6 @@
 		"status": "frozen",
 		"latName": "Rubus idaeus",
 		"name": "products.frozenRaspberries",
-		"origin": "product_page.origin",
 		"pack": ["product_page.pack_2"],
 		"desc": "product_page.frozenRaspberryDesc",
 		"variants": [
@@ -233,7 +224,6 @@
 		"status": "frozen",
 		"latName": "Prunus armeniaca",
 		"name": "products.frozenApricots",
-		"origin": "product_page.origin",
 		"pack": ["product_page.pack_1", "product_page.pack_2"],
 		"desc": "product_page.frozenApricotDesc",
 		"variants": [
@@ -250,7 +240,6 @@
 		"status": "frozen",
 		"latName": "Capsicum annuum",
 		"name": "products.frozenRedBellPeppers",
-		"origin": "product_page.origin",
 		"pack": ["product_page.pack_2"],
 		"desc": "product_page.frozenRedBellPeppersDesc",
 		"variants": [
@@ -271,7 +260,6 @@
 		"status": "frozen",
 		"latName": "Capsicum annuum",
 		"name": "products.frozenGreenBellPeppers",
-		"origin": "product_page.origin",
 		"pack": ["product_page.pack_2"],
 		"desc": "product_page.frozenGreenBellPeppersDesc",
 		"variants": [
@@ -291,7 +279,6 @@
 		"status": "frozen",
 		"latName": "Capsicum annuum",
 		"name": "products.frozenYellowBellPeppers",
-		"origin": "product_page.origin",
 		"pack": ["product_page.pack_2"],
 		"desc": "product_page.frozenYellowBellPeppersDesc",
 		"variants": [
@@ -311,7 +298,6 @@
 		"status": "frozen",
 		"latName": "Capsicum annuum",
 		"name": "products.frozenMixedBellPeppers",
-		"origin": "product_page.origin",
 		"pack": ["product_page.pack_2"],
 		"desc": "product_page.frozenMixedBellPeppersDesc",
 		"variants": [
@@ -332,7 +318,6 @@
 		"status": "frozen",
 		"latName": "Boletus edulis",
 		"name": "products.frozenPorciniMushrooms",
-		"origin": "product_page.origin",
 		"pack": ["product_page.pack_2"],
 		"desc": "product_page.frozenPorciniMushroomsDesc",
 		"variants": [
@@ -368,7 +353,6 @@
 		"status": "fresh",
 		"latName": "Boletus edulis",
 		"name": "products.freshPorciniMushrooms",
-		"origin": "product_page.origin",
 		"pack": ["product_page.pack_3"],
 		"desc": "product_page.freshPorciniMushroomsDesc",
 		"variants": [
@@ -387,7 +371,6 @@
 		"status": "dried",
 		"latName": "Boletus edulis",
 		"name": "products.driedPorciniMushrooms",
-		"origin": "product_page.origin",
 		"pack": ["product_page.pack_2"],
 		"desc": "product_page.driedPorciniMushroomsDesc",
 		"variants": [
@@ -406,7 +389,6 @@
 		"status": "fresh",
 		"latName": "Cantharellus cibarius",
 		"name": "products.freshChanterelles",
-		"origin": "product_page.origin",
 		"pack": ["product_page.pack_3"],
 		"desc": "product_page.freshChanterellesDesc",
 		"variants": [
@@ -423,7 +405,6 @@
 		"status": "dried",
 		"latName": "Cantharellus cibarius",
 		"name": "products.driedChanterelles",
-		"origin": "product_page.origin",
 		"pack": ["product_page.pack_2"],
 		"desc": "product_page.driedChanterellesDesc",
 		"variants": [
@@ -440,7 +421,6 @@
 		"status": "frozen",
 		"latName": "Prunus cerasus",
 		"name": "products.frozenSourCherries",
-		"origin": "product_page.origin",
 		"pack": ["product_page.pack_1", "product_page.pack_2"],
 		"desc": "product_page.frozenSourCherriesDesc",
 		"variants": [
@@ -472,7 +452,6 @@
 		"status": "frozen",
 		"latName": "Armillaria mellea",
 		"name": "products.frozenHoneyMushrooms",
-		"origin": "product_page.origin",
 		"pack": ["product_page.pack_2"],
 		"desc": "product_page.frozenHoneyMushroomsDesc",
 		"variants": [
@@ -491,7 +470,6 @@
 		"status": "frozen",
 		"latName": "Rubus fruticosus",
 		"name": "products.frozenBlackberries",
-		"origin": "product_page.origin",
 		"desc": "product_page.frozenBlackberriesDesc",
 		"pack": ["product_page.pack_1", "product_page.pack_2"],
 		"variants": [
@@ -511,7 +489,6 @@
 		"status": "frozen",
 		"latName": "Vitis vinifera",
 		"name": "products.frozenGrapes",
-		"origin": "product_page.origin",
 		"pack": ["product_page.pack_1", "product_page.pack_2"],
 		"desc": "product_page.frozenGrapesDesc",
 		"variants": [
@@ -531,7 +508,6 @@
 		"status": "frozen",
 		"latName": "Zea mays",
 		"name": "products.frozenCorn",
-		"origin": "product_page.origin",
 		"pack": ["product_page.pack_1", "product_page.pack_2"],
 		"desc": "product_page.frozenCornDesc",
 		"variants": [
@@ -548,7 +524,6 @@
 		"status": "frozen",
 		"latName": "Ribes nigrum",
 		"name": "products.frozenBlackCurrants",
-		"origin": "product_page.origin",
 		"pack": ["product_page.pack_1", "product_page.pack_2"],
 		"desc": "product_page.frozenBlackCurrantsDesc",
 		"variants": [

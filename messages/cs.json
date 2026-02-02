@@ -160,7 +160,16 @@
 		"frozenGrapesDesc": "IQF mražené hrozny pro průmyslové zpracování a export. Bezsemenné hrozny se zachovanou sladkostí, pevnou strukturou a jasnou barvou.",
 		"frozenCornDesc": "IQF mražená sladká kukuřice pro průmyslové zpracování a export. Jemná zrna se zachovanou barvou, sladkostí a pevnou strukturou.",
 		"frozenBlackCurrantsDesc": "IQF mražený černý rybíz pro průmyslové zpracování a export. Lesní bobule s bohatou barvou, trpkou chutí a vysokým obsahem vitamínu C.",
-		"origin": "Ukrajina",
+		"origin": {
+			"region": {
+				"title": "Ukrajina (Karpatská oblast): ",
+				"desc": "Sběr ve volné přírodě nebo ekologicky pěstované plody v oblastech bez znečištění."
+			},
+			"traceability": {
+				"title": "Úplná sledovatelnost: ",
+				"desc": "Monitorujeme každý krok, od sběru v lese až po finální zpracování technologií IQF."
+			}
+		},
 		"pack_1": "Papírový pytel (25 kg)",
 		"pack_2": "Kartonová krabice (10 kg)",
 		"pack_3": "Dřevěný kontejner",

@@ -140,7 +140,18 @@ export default function ProductPageStatic({ product }: ProductPageStaticProps) {
 							<h2 style={{ color: "hsl(0, 0%, 50%)", marginBottom: 5 }}>
 								{t("product_page.origin_title")}
 							</h2>
-							<p>{t(product.origin)}</p>
+							<p>
+								<span style={{ fontWeight: 500 }}>
+									{t("product_page.origin.region.title")}
+								</span>
+								{t("product_page.origin.region.desc")}
+							</p>
+							<p>
+								<span style={{ fontWeight: 500 }}>
+									{t("product_page.origin.traceability.title")}
+								</span>
+								{t("product_page.origin.traceability.desc")}
+							</p>
 						</div>
 						<div>
 							<h2 style={{ color: "hsl(0, 0%, 50%)", marginBottom: 5 }}>

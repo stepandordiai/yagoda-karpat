@@ -4,7 +4,6 @@ export interface Product {
 	status: string;
 	latName: string;
 	name: string;
-	origin: string;
 	pack: string[];
 	desc: string;
 	variants: {

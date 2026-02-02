@@ -74,20 +74,12 @@ export default function ProductCard({ product }: ProductProps) {
 							)}
 							<span>HACCP</span>
 						</div>
-						<div>
-							<h4 style={{ color: "hsl(0, 0%, 50%)", marginBottom: 5 }}>
-								{t("product_page.origin_title")}
-							</h4>
-							<p>{t(product.origin)}</p>
-						</div>
-						<div>
-							<h4 style={{ color: "hsl(0, 0%, 50%)", marginBottom: 5 }}>
-								{t("product_page.packaging_title")}
-							</h4>
-							{product.pack.map((option, index) => (
-								<p key={index}>{t(option)}</p>
-							))}
-						</div>
+						<h4 style={{ color: "hsl(0, 0%, 50%)" }}>
+							{t("product_page.packaging_title")}
+						</h4>
+						{product.pack.map((option, index) => (
+							<p key={index}>{t(option)}</p>
+						))}
 					</div>
 				</div>
 			</div>

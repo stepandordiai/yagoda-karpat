@@ -160,7 +160,16 @@
 		"frozenGrapesDesc": "IQF frozen grapes for industrial processing and export. Seedless grapes with preserved sweetness, firm texture, and bright color.",
 		"frozenCornDesc": "IQF frozen sweet corn for industrial processing and export. Tender kernels with preserved color, sweetness, and firm texture.",
 		"frozenBlackCurrantsDesc": "IQF frozen black currants for industrial processing and export. Wild berries with rich color, tart flavor, and high vitamin C content.",
-		"origin": "Ukraine",
+		"origin": {
+			"region": {
+				"title": "Ukraine (Carpathian region): ",
+				"desc": "Wild-harvested or ecologically cultivated in pollution-free environments."
+			},
+			"traceability": {
+				"title": "Full Traceability: ",
+				"desc": "We monitor every step from harvesting in the forest to the final IQF processing."
+			}
+		},
 		"pack_1": "Paper bag (25 kg)",
 		"pack_2": "Carton box (10 kg)",
 		"pack_3": "Wooden container",
