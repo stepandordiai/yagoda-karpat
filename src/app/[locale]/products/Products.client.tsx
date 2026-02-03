@@ -3,13 +3,21 @@
 import { Product } from "@/app/interfaces/Product";
 import { useTranslations } from "next-intl";
 import classNames from "classnames";
-import { useState } from "react";
+import { useState, useLayoutEffect } from "react";
 import ProductCard from "@/app/components/ProductCard/ProductCard";
 import productsData from "@/lib/data/products-data.json";
 import "./Products.scss";
 
 export default function ProductsClient() {
 	const t = useTranslations();
+
+	useLayoutEffect(() => {
+		window.scrollTo({
+			top: 0,
+			left: 0,
+			behavior: "instant",
+		});
+	}, []);
 
 	const [search, setSearch] = useState("");
 	const [productType, setProductType] = useState("all");
