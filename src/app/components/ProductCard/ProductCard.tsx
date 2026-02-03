@@ -6,6 +6,7 @@ import { useState } from "react";
 import { Link } from "@/i18n/navigation";
 import Image from "next/image";
 import classNames from "classnames";
+import CameraIcon from "@/app/icons/CameraIcon";
 import "./ProductCard.scss";
 
 type ProductProps = {
@@ -44,17 +45,7 @@ export default function ProductCard({ product }: ProductProps) {
 						/>
 					)}
 					<div className="img-qty">
-						<svg
-							xmlns="http://www.w3.org/2000/svg"
-							width="16"
-							height="16"
-							fill="currentColor"
-							className="bi bi-camera"
-							viewBox="0 0 16 16"
-						>
-							<path d="M15 12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h1.172a3 3 0 0 0 2.12-.879l.83-.828A1 1 0 0 1 6.827 3h2.344a1 1 0 0 1 .707.293l.828.828A3 3 0 0 0 12.828 5H14a1 1 0 0 1 1 1zM2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4z" />
-							<path d="M8 11a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5m0 1a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7M3 6.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0" />
-						</svg>
+						<CameraIcon />
 						<span>{productState?.images.length}</span>
 					</div>
 				</div>
@@ -75,11 +66,21 @@ export default function ProductCard({ product }: ProductProps) {
 							<span>HACCP</span>
 						</div>
 						<h4 style={{ color: "hsl(0, 0%, 50%)" }}>
+							{t("product_page.origin_title")}
+						</h4>
+						<p>{t("product_page.origin.region.title")}</p>
+						<h4 style={{ color: "hsl(0, 0%, 50%)" }}>
 							{t("product_page.packaging_title")}
 						</h4>
-						{product.pack.map((option, index) => (
-							<p key={index}>{t(option)}</p>
-						))}
+						{product.packaging.paperBag && (
+							<p>{t(product.packaging.paperBag.title)}</p>
+						)}
+						{product.packaging.cartonBox && (
+							<p>{t(product.packaging.cartonBox.title)}</p>
+						)}
+						{product.packaging.octabin && (
+							<p>{t(product.packaging.octabin.title)}</p>
+						)}
 					</div>
 				</div>
 			</div>

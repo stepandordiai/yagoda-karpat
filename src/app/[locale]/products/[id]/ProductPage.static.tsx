@@ -142,14 +142,14 @@ export default function ProductPageStatic({ product }: ProductPageStaticProps) {
 							</h2>
 							<p>
 								<span style={{ fontWeight: 500 }}>
-									{t("product_page.origin.region.title")}
-								</span>
+									{t("product_page.origin.region.title")}:
+								</span>{" "}
 								{t("product_page.origin.region.desc")}
 							</p>
 							<p>
 								<span style={{ fontWeight: 500 }}>
-									{t("product_page.origin.traceability.title")}
-								</span>
+									{t("product_page.origin.traceability.title")}:
+								</span>{" "}
 								{t("product_page.origin.traceability.desc")}
 							</p>
 						</div>
@@ -157,9 +157,30 @@ export default function ProductPageStatic({ product }: ProductPageStaticProps) {
 							<h2 style={{ color: "hsl(0, 0%, 50%)", marginBottom: 5 }}>
 								{t("product_page.packaging_title")}
 							</h2>
-							{product.pack.map((option, index) => (
-								<p key={index}>{t(option)}</p>
-							))}
+							{product.packaging.paperBag && (
+								<p>
+									<span style={{ fontWeight: 500 }}>
+										{t(product.packaging.paperBag.title)}:
+									</span>{" "}
+									{t(product.packaging.paperBag.desc)}
+								</p>
+							)}
+							{product.packaging.cartonBox && (
+								<p>
+									<span style={{ fontWeight: 500 }}>
+										{t(product.packaging.cartonBox.title)}:
+									</span>{" "}
+									{t(product.packaging.cartonBox.desc)}
+								</p>
+							)}
+							{product.packaging.octabin && (
+								<p>
+									<span style={{ fontWeight: 500 }}>
+										{t(product.packaging.octabin.title)}:
+									</span>{" "}
+									{t(product.packaging.octabin.desc)}
+								</p>
+							)}
 						</div>
 						<div>
 							<h2 style={{ color: "hsl(0, 0%, 50%)", marginBottom: 5 }}>

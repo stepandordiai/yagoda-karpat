@@ -4,7 +4,20 @@ export interface Product {
 	status: string;
 	latName: string;
 	name: string;
-	pack: string[];
+	packaging: {
+		paperBag?: {
+			title: string;
+			desc: string;
+		};
+		cartonBox?: {
+			title: string;
+			desc: string;
+		};
+		octabin?: {
+			title: string;
+			desc: string;
+		};
+	};
 	desc: string;
 	variants: {
 		id: number;

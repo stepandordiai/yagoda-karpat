@@ -162,12 +162,26 @@
 		"frozenBlackCurrantsDesc": "IQF mražený černý rybíz pro průmyslové zpracování a export. Lesní bobule s bohatou barvou, trpkou chutí a vysokým obsahem vitamínu C.",
 		"origin": {
 			"region": {
-				"title": "Ukrajina (Karpatská oblast): ",
+				"title": "Ukrajina (Karpatská oblast)",
 				"desc": "Sběr ve volné přírodě nebo ekologicky pěstované plody v oblastech bez znečištění."
 			},
 			"traceability": {
-				"title": "Úplná sledovatelnost: ",
+				"title": "Úplná sledovatelnost",
 				"desc": "Monitorujeme každý krok, od sběru v lese až po finální zpracování technologií IQF."
+			}
+		},
+		"packaging": {
+			"paperBag": {
+				"title": "Vícevrstvé papírové pytle (25 kg)",
+				"desc": "Vysoce odolné papírové pytle s potravinářským atestem a polyethylenovou vložkou, která zabraňuje ztrátě vlhkosti a vzniku mrazových spálenin."
+			},
+			"cartonBox": {
+				"title": "Krabice z vlnité lepenky (10 kg)",
+				"desc": "Ideální pro menší velkoobchodní objednávky nebo profesionální kuchyně; snadno stohovatelné a vhodné pro paletizaci."
+			},
+			"octabin": {
+				"title": "Průmyslové oktabíny (400 kg)",
+				"desc": "Nejvhodnější pro velkokapacitní výrobní provozy; optimalizováno pro efektivní logistiku a hromadné zpracování."
 			}
 		},
 		"pack_1": "Papírový pytel (25 kg)",
