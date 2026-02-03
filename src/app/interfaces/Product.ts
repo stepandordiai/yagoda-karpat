@@ -17,6 +17,10 @@ export interface Product {
 			title: string;
 			desc: string;
 		};
+		woodenContainer?: {
+			title: string;
+			desc: string;
+		};
 	};
 	desc: string;
 	variants: {

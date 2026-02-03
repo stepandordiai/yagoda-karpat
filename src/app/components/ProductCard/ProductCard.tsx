@@ -81,6 +81,9 @@ export default function ProductCard({ product }: ProductProps) {
 						{product.packaging.octabin && (
 							<p>{t(product.packaging.octabin.title)}</p>
 						)}
+						{product.packaging.woodenContainer && (
+							<p>{t(product.packaging.woodenContainer.title)}</p>
+						)}
 					</div>
 				</div>
 			</div>

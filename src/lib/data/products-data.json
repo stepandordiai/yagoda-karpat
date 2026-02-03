@@ -10,11 +10,6 @@
 				"title": "product_page.packaging.paperBag.title",
 				"desc": "product_page.packaging.paperBag.desc"
 			},
-			"cartonBox": {
-				"title": "product_page.packaging.cartonBox.title",
-				"desc": "product_page.packaging.cartonBox.desc"
-			},
-
 			"octabin": {
 				"title": "product_page.packaging.octabin.title",
 				"desc": "product_page.packaging.octabin.desc"
@@ -54,11 +49,6 @@
 				"title": "product_page.packaging.paperBag.title",
 				"desc": "product_page.packaging.paperBag.desc"
 			},
-			"cartonBox": {
-				"title": "product_page.packaging.cartonBox.title",
-				"desc": "product_page.packaging.cartonBox.desc"
-			},
-
 			"octabin": {
 				"title": "product_page.packaging.octabin.title",
 				"desc": "product_page.packaging.octabin.desc"
@@ -95,11 +85,6 @@
 				"title": "product_page.packaging.paperBag.title",
 				"desc": "product_page.packaging.paperBag.desc"
 			},
-			"cartonBox": {
-				"title": "product_page.packaging.cartonBox.title",
-				"desc": "product_page.packaging.cartonBox.desc"
-			},
-
 			"octabin": {
 				"title": "product_page.packaging.octabin.title",
 				"desc": "product_page.packaging.octabin.desc"
@@ -129,11 +114,6 @@
 				"title": "product_page.packaging.paperBag.title",
 				"desc": "product_page.packaging.paperBag.desc"
 			},
-			"cartonBox": {
-				"title": "product_page.packaging.cartonBox.title",
-				"desc": "product_page.packaging.cartonBox.desc"
-			},
-
 			"octabin": {
 				"title": "product_page.packaging.octabin.title",
 				"desc": "product_page.packaging.octabin.desc"
@@ -169,15 +149,6 @@
 			"paperBag": {
 				"title": "product_page.packaging.paperBag.title",
 				"desc": "product_page.packaging.paperBag.desc"
-			},
-			"cartonBox": {
-				"title": "product_page.packaging.cartonBox.title",
-				"desc": "product_page.packaging.cartonBox.desc"
-			},
-
-			"octabin": {
-				"title": "product_page.packaging.octabin.title",
-				"desc": "product_page.packaging.octabin.desc"
 			}
 		},
 		"desc": "product_page.driedPlumsDesc",
@@ -203,18 +174,9 @@
 		"latName": "Prunus domestica",
 		"name": "products.prunes",
 		"packaging": {
-			"paperBag": {
-				"title": "product_page.packaging.paperBag.title",
-				"desc": "product_page.packaging.paperBag.desc"
-			},
 			"cartonBox": {
 				"title": "product_page.packaging.cartonBox.title",
 				"desc": "product_page.packaging.cartonBox.desc"
-			},
-
-			"octabin": {
-				"title": "product_page.packaging.octabin.title",
-				"desc": "product_page.packaging.octabin.desc"
 			}
 		},
 		"desc": "product_page.prunesDesc",
@@ -241,11 +203,6 @@
 				"title": "product_page.packaging.paperBag.title",
 				"desc": "product_page.packaging.paperBag.desc"
 			},
-			"cartonBox": {
-				"title": "product_page.packaging.cartonBox.title",
-				"desc": "product_page.packaging.cartonBox.desc"
-			},
-
 			"octabin": {
 				"title": "product_page.packaging.octabin.title",
 				"desc": "product_page.packaging.octabin.desc"
@@ -277,11 +234,6 @@
 				"title": "product_page.packaging.paperBag.title",
 				"desc": "product_page.packaging.paperBag.desc"
 			},
-			"cartonBox": {
-				"title": "product_page.packaging.cartonBox.title",
-				"desc": "product_page.packaging.cartonBox.desc"
-			},
-
 			"octabin": {
 				"title": "product_page.packaging.octabin.title",
 				"desc": "product_page.packaging.octabin.desc"
@@ -306,18 +258,9 @@
 		"latName": "Rubus idaeus",
 		"name": "products.frozenRaspberries",
 		"packaging": {
-			"paperBag": {
-				"title": "product_page.packaging.paperBag.title",
-				"desc": "product_page.packaging.paperBag.desc"
-			},
 			"cartonBox": {
 				"title": "product_page.packaging.cartonBox.title",
 				"desc": "product_page.packaging.cartonBox.desc"
-			},
-
-			"octabin": {
-				"title": "product_page.packaging.octabin.title",
-				"desc": "product_page.packaging.octabin.desc"
 			}
 		},
 		"desc": "product_page.frozenRaspberryDesc",
@@ -339,18 +282,9 @@
 		"latName": "Prunus armeniaca",
 		"name": "products.frozenApricots",
 		"packaging": {
-			"paperBag": {
-				"title": "product_page.packaging.paperBag.title",
-				"desc": "product_page.packaging.paperBag.desc"
-			},
 			"cartonBox": {
 				"title": "product_page.packaging.cartonBox.title",
 				"desc": "product_page.packaging.cartonBox.desc"
-			},
-
-			"octabin": {
-				"title": "product_page.packaging.octabin.title",
-				"desc": "product_page.packaging.octabin.desc"
 			}
 		},
 		"desc": "product_page.frozenApricotDesc",
@@ -369,18 +303,9 @@
 		"latName": "Capsicum annuum",
 		"name": "products.frozenRedBellPeppers",
 		"packaging": {
-			"paperBag": {
-				"title": "product_page.packaging.paperBag.title",
-				"desc": "product_page.packaging.paperBag.desc"
-			},
 			"cartonBox": {
 				"title": "product_page.packaging.cartonBox.title",
 				"desc": "product_page.packaging.cartonBox.desc"
-			},
-
-			"octabin": {
-				"title": "product_page.packaging.octabin.title",
-				"desc": "product_page.packaging.octabin.desc"
 			}
 		},
 		"desc": "product_page.frozenRedBellPeppersDesc",
@@ -403,18 +328,9 @@
 		"latName": "Capsicum annuum",
 		"name": "products.frozenGreenBellPeppers",
 		"packaging": {
-			"paperBag": {
-				"title": "product_page.packaging.paperBag.title",
-				"desc": "product_page.packaging.paperBag.desc"
-			},
 			"cartonBox": {
 				"title": "product_page.packaging.cartonBox.title",
 				"desc": "product_page.packaging.cartonBox.desc"
-			},
-
-			"octabin": {
-				"title": "product_page.packaging.octabin.title",
-				"desc": "product_page.packaging.octabin.desc"
 			}
 		},
 		"desc": "product_page.frozenGreenBellPeppersDesc",
@@ -436,18 +352,9 @@
 		"latName": "Capsicum annuum",
 		"name": "products.frozenYellowBellPeppers",
 		"packaging": {
-			"paperBag": {
-				"title": "product_page.packaging.paperBag.title",
-				"desc": "product_page.packaging.paperBag.desc"
-			},
 			"cartonBox": {
 				"title": "product_page.packaging.cartonBox.title",
 				"desc": "product_page.packaging.cartonBox.desc"
-			},
-
-			"octabin": {
-				"title": "product_page.packaging.octabin.title",
-				"desc": "product_page.packaging.octabin.desc"
 			}
 		},
 		"desc": "product_page.frozenYellowBellPeppersDesc",
@@ -469,18 +376,9 @@
 		"latName": "Capsicum annuum",
 		"name": "products.frozenMixedBellPeppers",
 		"packaging": {
-			"paperBag": {
-				"title": "product_page.packaging.paperBag.title",
-				"desc": "product_page.packaging.paperBag.desc"
-			},
 			"cartonBox": {
 				"title": "product_page.packaging.cartonBox.title",
 				"desc": "product_page.packaging.cartonBox.desc"
-			},
-
-			"octabin": {
-				"title": "product_page.packaging.octabin.title",
-				"desc": "product_page.packaging.octabin.desc"
 			}
 		},
 		"desc": "product_page.frozenMixedBellPeppersDesc",
@@ -503,18 +401,9 @@
 		"latName": "Boletus edulis",
 		"name": "products.frozenPorciniMushrooms",
 		"packaging": {
-			"paperBag": {
-				"title": "product_page.packaging.paperBag.title",
-				"desc": "product_page.packaging.paperBag.desc"
-			},
 			"cartonBox": {
 				"title": "product_page.packaging.cartonBox.title",
 				"desc": "product_page.packaging.cartonBox.desc"
-			},
-
-			"octabin": {
-				"title": "product_page.packaging.octabin.title",
-				"desc": "product_page.packaging.octabin.desc"
 			}
 		},
 		"desc": "product_page.frozenPorciniMushroomsDesc",
@@ -552,18 +441,9 @@
 		"latName": "Boletus edulis",
 		"name": "products.freshPorciniMushrooms",
 		"packaging": {
-			"paperBag": {
-				"title": "product_page.packaging.paperBag.title",
-				"desc": "product_page.packaging.paperBag.desc"
-			},
-			"cartonBox": {
-				"title": "product_page.packaging.cartonBox.title",
-				"desc": "product_page.packaging.cartonBox.desc"
-			},
-
-			"octabin": {
-				"title": "product_page.packaging.octabin.title",
-				"desc": "product_page.packaging.octabin.desc"
+			"woodenContainer": {
+				"title": "product_page.packaging.woodenContainer.title",
+				"desc": "product_page.packaging.woodenContainer.desc"
 			}
 		},
 		"desc": "product_page.freshPorciniMushroomsDesc",
@@ -584,18 +464,9 @@
 		"latName": "Boletus edulis",
 		"name": "products.driedPorciniMushrooms",
 		"packaging": {
-			"paperBag": {
-				"title": "product_page.packaging.paperBag.title",
-				"desc": "product_page.packaging.paperBag.desc"
-			},
 			"cartonBox": {
 				"title": "product_page.packaging.cartonBox.title",
 				"desc": "product_page.packaging.cartonBox.desc"
-			},
-
-			"octabin": {
-				"title": "product_page.packaging.octabin.title",
-				"desc": "product_page.packaging.octabin.desc"
 			}
 		},
 		"desc": "product_page.driedPorciniMushroomsDesc",
@@ -616,18 +487,9 @@
 		"latName": "Cantharellus cibarius",
 		"name": "products.freshChanterelles",
 		"packaging": {
-			"paperBag": {
-				"title": "product_page.packaging.paperBag.title",
-				"desc": "product_page.packaging.paperBag.desc"
-			},
-			"cartonBox": {
-				"title": "product_page.packaging.cartonBox.title",
-				"desc": "product_page.packaging.cartonBox.desc"
-			},
-
-			"octabin": {
-				"title": "product_page.packaging.octabin.title",
-				"desc": "product_page.packaging.octabin.desc"
+			"woodenContainer": {
+				"title": "product_page.packaging.woodenContainer.title",
+				"desc": "product_page.packaging.woodenContainer.desc"
 			}
 		},
 		"desc": "product_page.freshChanterellesDesc",
@@ -646,18 +508,9 @@
 		"latName": "Cantharellus cibarius",
 		"name": "products.driedChanterelles",
 		"packaging": {
-			"paperBag": {
-				"title": "product_page.packaging.paperBag.title",
-				"desc": "product_page.packaging.paperBag.desc"
-			},
 			"cartonBox": {
 				"title": "product_page.packaging.cartonBox.title",
 				"desc": "product_page.packaging.cartonBox.desc"
-			},
-
-			"octabin": {
-				"title": "product_page.packaging.octabin.title",
-				"desc": "product_page.packaging.octabin.desc"
 			}
 		},
 		"desc": "product_page.driedChanterellesDesc",
@@ -676,18 +529,9 @@
 		"latName": "Prunus cerasus",
 		"name": "products.frozenSourCherries",
 		"packaging": {
-			"paperBag": {
-				"title": "product_page.packaging.paperBag.title",
-				"desc": "product_page.packaging.paperBag.desc"
-			},
 			"cartonBox": {
 				"title": "product_page.packaging.cartonBox.title",
 				"desc": "product_page.packaging.cartonBox.desc"
-			},
-
-			"octabin": {
-				"title": "product_page.packaging.octabin.title",
-				"desc": "product_page.packaging.octabin.desc"
 			}
 		},
 		"desc": "product_page.frozenSourCherriesDesc",
@@ -721,18 +565,9 @@
 		"latName": "Armillaria mellea",
 		"name": "products.frozenHoneyMushrooms",
 		"packaging": {
-			"paperBag": {
-				"title": "product_page.packaging.paperBag.title",
-				"desc": "product_page.packaging.paperBag.desc"
-			},
 			"cartonBox": {
 				"title": "product_page.packaging.cartonBox.title",
 				"desc": "product_page.packaging.cartonBox.desc"
-			},
-
-			"octabin": {
-				"title": "product_page.packaging.octabin.title",
-				"desc": "product_page.packaging.octabin.desc"
 			}
 		},
 		"desc": "product_page.frozenHoneyMushroomsDesc",
@@ -753,18 +588,9 @@
 		"latName": "Rubus fruticosus",
 		"name": "products.frozenBlackberries",
 		"packaging": {
-			"paperBag": {
-				"title": "product_page.packaging.paperBag.title",
-				"desc": "product_page.packaging.paperBag.desc"
-			},
 			"cartonBox": {
 				"title": "product_page.packaging.cartonBox.title",
 				"desc": "product_page.packaging.cartonBox.desc"
-			},
-
-			"octabin": {
-				"title": "product_page.packaging.octabin.title",
-				"desc": "product_page.packaging.octabin.desc"
 			}
 		},
 		"desc": "product_page.frozenBlackberriesDesc",
@@ -786,18 +612,9 @@
 		"latName": "Vitis vinifera",
 		"name": "products.frozenGrapes",
 		"packaging": {
-			"paperBag": {
-				"title": "product_page.packaging.paperBag.title",
-				"desc": "product_page.packaging.paperBag.desc"
-			},
 			"cartonBox": {
 				"title": "product_page.packaging.cartonBox.title",
 				"desc": "product_page.packaging.cartonBox.desc"
-			},
-
-			"octabin": {
-				"title": "product_page.packaging.octabin.title",
-				"desc": "product_page.packaging.octabin.desc"
 			}
 		},
 		"desc": "product_page.frozenGrapesDesc",
@@ -819,18 +636,9 @@
 		"latName": "Zea mays",
 		"name": "products.frozenCorn",
 		"packaging": {
-			"paperBag": {
-				"title": "product_page.packaging.paperBag.title",
-				"desc": "product_page.packaging.paperBag.desc"
-			},
 			"cartonBox": {
 				"title": "product_page.packaging.cartonBox.title",
 				"desc": "product_page.packaging.cartonBox.desc"
-			},
-
-			"octabin": {
-				"title": "product_page.packaging.octabin.title",
-				"desc": "product_page.packaging.octabin.desc"
 			}
 		},
 		"desc": "product_page.frozenCornDesc",
@@ -849,18 +657,9 @@
 		"latName": "Ribes nigrum",
 		"name": "products.frozenBlackCurrants",
 		"packaging": {
-			"paperBag": {
-				"title": "product_page.packaging.paperBag.title",
-				"desc": "product_page.packaging.paperBag.desc"
-			},
 			"cartonBox": {
 				"title": "product_page.packaging.cartonBox.title",
 				"desc": "product_page.packaging.cartonBox.desc"
-			},
-
-			"octabin": {
-				"title": "product_page.packaging.octabin.title",
-				"desc": "product_page.packaging.octabin.desc"
 			}
 		},
 		"desc": "product_page.frozenBlackCurrantsDesc",

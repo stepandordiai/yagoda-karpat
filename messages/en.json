@@ -182,6 +182,10 @@
 			"octabin": {
 				"title": "Industrial Octabins (400 kg)",
 				"desc": "Best for large-scale production facilities; optimized for efficient logistics and bulk processing."
+			},
+			"woodenContainer": {
+				"title": "Wooden Shipping Crates",
+				"desc": "Heavy-duty wooden crates engineered for maximum protection during long-distance transit and intensive handling."
 			}
 		},
 		"pack_1": "Paper bag (25 kg)",

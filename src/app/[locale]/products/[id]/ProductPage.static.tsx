@@ -181,6 +181,14 @@ export default function ProductPageStatic({ product }: ProductPageStaticProps) {
 									{t(product.packaging.octabin.desc)}
 								</p>
 							)}
+							{product.packaging.woodenContainer && (
+								<p>
+									<span style={{ fontWeight: 500 }}>
+										{t(product.packaging.woodenContainer.title)}:
+									</span>{" "}
+									{t(product.packaging.woodenContainer.desc)}
+								</p>
+							)}
 						</div>
 						<div>
 							<h2 style={{ color: "hsl(0, 0%, 50%)", marginBottom: 5 }}>
@@ -247,9 +255,7 @@ export default function ProductPageStatic({ product }: ProductPageStaticProps) {
 											src={img}
 											width={1600}
 											height={1200}
-											alt={`${t(product.name)} ${t(
-												productVariant.state ?? "",
-											)}`.trimEnd()}
+											alt={`${t(product.name)} ${productVariant.state ? t(productVariant.state) : ""}`.trimEnd()}
 											// TODO: LEARN THIS
 											priority={index === 0}
 										/>

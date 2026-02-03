@@ -182,6 +182,10 @@
 			"octabin": {
 				"title": "Průmyslové oktabíny (400 kg)",
 				"desc": "Nejvhodnější pro velkokapacitní výrobní provozy; optimalizováno pro efektivní logistiku a hromadné zpracování."
+			},
+			"woodenContainer": {
+				"title": "Dřevěné přepravní bedny",
+				"desc": "Robustní dřevěné bedny navržené pro maximální ochranu během dlouhodobé přepravy a intenzivní manipulace."
 			}
 		},
 		"pack_1": "Papírový pytel (25 kg)",
