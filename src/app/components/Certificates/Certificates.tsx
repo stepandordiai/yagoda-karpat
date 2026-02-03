@@ -25,7 +25,7 @@ const Certificates = () => {
 					href="/pdf/yagoda-karpat-organic-certificate.pdf"
 					download={true}
 				>
-					<span>Download certificate</span>
+					<span>{t("downloadCertificate")}</span>
 					<PdfIcon />
 				</a>
 			</div>
