@@ -130,9 +130,9 @@
 .swiper-pagination-fraction {
 	position: absolute;
 	bottom: 10px;
-	left: 10px;
-	color: #fff;
-	width: max-content;
+	left: 10px !important;
+	color: #fff !important;
+	width: max-content !important;
 	padding: 10px;
 	border-radius: 10px;
 	background: rgba(0, 0, 0, 0.25);
