@@ -1,10 +1,10 @@
 "use client";
 
-import { Product } from "../../interfaces/Product";
+import { Product } from "@/app/interfaces/Product";
 import { useTranslations } from "next-intl";
 import { useEffect } from "react";
-import Gallery from "../Gallery/Gallery";
-import SectionTitle from "../SectionTitle/SectionTitle";
+import Gallery from "../../Gallery/Gallery";
+import SectionTitle from "../../SectionTitle/SectionTitle";
 import "./AboutUs.scss";
 
 type AboutUsProps = {

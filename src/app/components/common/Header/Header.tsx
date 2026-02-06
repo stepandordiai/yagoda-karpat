@@ -1,9 +1,9 @@
 "use client";
 
-import { Product } from "../../interfaces/Product";
+import { Product } from "@/app/interfaces/Product";
 import { useState, useEffect } from "react";
-import LngSelect from "../LngSelect/LngSelect";
-import Container from "../Container/Container";
+import LngSelect from "../../LngSelect/LngSelect";
+import Container from "../../Container/Container";
 import classNames from "classnames";
 import { Link } from "@/i18n/navigation";
 import { useTranslations } from "next-intl";

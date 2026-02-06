@@ -1,10 +1,10 @@
 "use client";
 
 import { useTranslations } from "next-intl";
-import { Product } from "../../interfaces/Product";
+import { Product } from "@/app/interfaces/Product";
 import { useState } from "react";
 import { usePathname } from "@/i18n/navigation";
-import Container from "../Container/Container";
+import Container from "../../Container/Container";
 import classNames from "classnames";
 import { Link } from "@/i18n/navigation";
 import FacebookIcon from "@/app/icons/FacebookIcon";
@@ -47,7 +47,7 @@ export default function Footer({ productsData }: FooterProps) {
 
 	// TODO: learn this
 	const [footerDropdownActive, setFooterDropdownActive] = useState<boolean[]>(
-		() => new Array(uniqueProductTypes.length).fill(false)
+		() => new Array(uniqueProductTypes.length).fill(false),
 	);
 
 	const toggleFooterNavDropdown = () => {
@@ -165,7 +165,7 @@ export default function Footer({ productsData }: FooterProps) {
 												"dropdown-btn",
 												{
 													"dropdown-btn--active": footerDropdownActive[index],
-												}
+												},
 											)}
 										>
 											<span>{t(productType)}</span>
@@ -202,7 +202,7 @@ export default function Footer({ productsData }: FooterProps) {
 																			{
 																				"footer__product-link--active":
 																					pathname === `/products/${id}`,
-																			}
+																			},
 																		)}
 																		href={`/products/${id}`}
 																	>

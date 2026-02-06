@@ -1,14 +1,14 @@
 "use client";
 
 import { useTranslations } from "next-intl";
-import PdfIcon from "../../icons/PdfIcon";
+import PdfIcon from "@/app/icons/PdfIcon";
 import "./Certificates.scss";
 
 const Certificates = () => {
 	const t = useTranslations();
 
 	return (
-		<div className="certificates">
+		<section className="certificates">
 			<div>
 				<h3 className="certificates__title">{t("certificates_title")}</h3>
 				<p style={{ textAlign: "justify" }}>{t("ourCertificates.desc")}</p>
@@ -29,7 +29,7 @@ const Certificates = () => {
 					<PdfIcon />
 				</a>
 			</div>
-		</div>
+		</section>
 	);
 };
 

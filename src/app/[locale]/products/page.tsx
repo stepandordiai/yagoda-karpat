@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
-import PageNavTitle from "../../components/PageNavTitle/PageNavTitle";
+import Breadcrumbs from "@/app/components/common/Breadcrumbs/Breadcrumbs";
 import ProductsClient from "./Products.client";
 import "./Products.scss";
 
@@ -30,7 +30,7 @@ export default async function Products() {
 
 	return (
 		<main className="js-products">
-			<PageNavTitle homeTitle={t("home_title")} title={t("products_title")} />
+			<Breadcrumbs homeTitle={t("home_title")} title={t("products_title")} />
 			<h1 className="products__title">{t("products.title")}</h1>
 
 			<ProductsClient />

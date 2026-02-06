@@ -1,4 +1,4 @@
-.page-nav-title {
+.breadcrumbs {
 	margin-top: 120px;
 	min-height: 70px;
 	background: #fff;
@@ -18,7 +18,7 @@
 	}
 }
 
-.page-nav-title__link {
+.breadcrumbs__link {
 	position: relative;
 	z-index: 0;
 	padding: 10px;
@@ -27,7 +27,7 @@
 	background: var(--bg-clr);
 }
 
-.page-nav-title__link::before {
+.breadcrumbs__link::before {
 	content: "";
 	position: absolute;
 	left: 0;
@@ -41,12 +41,12 @@
 	transition: transform 0.3s;
 }
 
-.page-nav-title__link:hover::before {
+.breadcrumbs__link:hover::before {
 	transform: scaleX(1);
 }
 
 @media (max-width: 900px) {
-	.page-nav-title {
+	.breadcrumbs {
 		margin-top: 90px;
 	}
 }

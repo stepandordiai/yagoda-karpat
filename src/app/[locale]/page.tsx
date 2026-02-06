@@ -1,12 +1,12 @@
 import { getTranslations } from "next-intl/server";
 import type { Metadata } from "next";
 import productsData from "@/lib/data/products-data.json";
-import AboutUs from "../components/AboutUs/AboutUs";
-import Contacts from "../components/Contacts/Contacts";
+import AboutUs from "../components/home/AboutUs/AboutUs";
+import Contacts from "../components/home/Contacts/Contacts";
 import Container from "../components/Container/Container";
 import ProductCard from "../components/ProductCard/ProductCard";
 import SectionTitle from "../components/SectionTitle/SectionTitle";
-import Certificates from "../components/Certificates/Certificates";
+import Certificates from "../components/home/Certificates/Certificates";
 import { Link } from "@/i18n/navigation";
 import "./Home.scss";
 
