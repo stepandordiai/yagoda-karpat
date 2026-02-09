@@ -4,7 +4,7 @@ import { useRef, useState, useEffect } from "react";
 import { useLocale } from "next-intl";
 import { useRouter, usePathname } from "@/i18n/navigation"; // Використовуйте ваш файл routing
 import classNames from "classnames";
-import lngData from "./../../../lib/data/lng-data.json";
+import lngData from "@/lib/data/lng-data.json";
 import "./LngSelect.scss";
 
 const LngSelect = () => {

@@ -6,8 +6,8 @@ import { routing } from "@/i18n/routing";
 import { notFound } from "next/navigation";
 import productsData from "@/lib/data/products-data.json";
 import Loading from "../components/Loading/Loading";
-import Header from "../components/common/Header/Header";
-import Footer from "../components/common/Footer/Footer";
+import Header from "../components/layout/Header/Header";
+import Footer from "../components/layout/Footer/Footer";
 import "./../scss/globals.scss";
 
 export async function generateMetadata(): Promise<Metadata> {

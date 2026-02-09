@@ -2,7 +2,7 @@
 
 import { Product } from "@/app/interfaces/Product";
 import { useState, useEffect } from "react";
-import LngSelect from "../../LngSelect/LngSelect";
+import LngSelect from "../../common/LngSelect/LngSelect";
 import Container from "../../Container/Container";
 import classNames from "classnames";
 import { Link } from "@/i18n/navigation";
