@@ -4,8 +4,14 @@ import Breadcrumbs from "@/app/components/common/Breadcrumbs/Breadcrumbs";
 import ProductsClient from "./Products.client";
 import "./Products.scss";
 
-export async function generateMetadata(): Promise<Metadata> {
-	const t = await getTranslations();
+export async function generateMetadata({
+	params,
+}: {
+	params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+	const { locale } = await params;
+	const t = await getTranslations({ locale });
+	const baseUrl = "https://www.yagodakarpat.com";
 
 	return {
 		title: `${t("products.title")
@@ -14,12 +20,12 @@ export async function generateMetadata(): Promise<Metadata> {
 			.join(" ")} | ${t("company_name")}`,
 		description: t("home.desc_seo"),
 		alternates: {
-			canonical: "https://www.yagodakarpat.com/uk/products",
+			canonical: `${baseUrl}/${locale}/products`,
 			languages: {
-				uk: "https://www.yagodakarpat.com/uk/products",
-				en: "https://www.yagodakarpat.com/en/products",
-				cs: "https://www.yagodakarpat.com/cs/products",
-				"x-default": "https://www.yagodakarpat.com/uk/products",
+				uk: `${baseUrl}/uk/products`,
+				en: `${baseUrl}/en/products`,
+				cs: `${baseUrl}/cs/products`,
+				"x-default": `${baseUrl}/uk/products`,
 			},
 		},
 	};
