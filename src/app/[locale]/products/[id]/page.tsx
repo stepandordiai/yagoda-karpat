@@ -15,15 +15,16 @@ function getProductsData() {
 	return productsData as Product[];
 }
 
-// TODO: LEARN THIS
+// TODO: learn this
 export async function generateMetadata({
 	params,
 }: {
-	params: Promise<{ id: string }>;
+	params: Promise<{ id: string; locale: string }>;
 }): Promise<Metadata> {
-	const { id } = await params;
+	const { id, locale } = await params;
 	const product = products.find((p) => p.id === id);
-	const t = await getTranslations();
+	const t = await getTranslations({ locale });
+	const baseUrl = "https://www.yagodakarpat.com";
 
 	return {
 		title: `${t(product!.name)
@@ -34,12 +35,12 @@ export async function generateMetadata({
 		)}`,
 		description: t(product!.desc),
 		alternates: {
-			canonical: `https://www.yagodakarpat.com/uk/${product!.id}`,
+			canonical: `${baseUrl}/${locale}/${product!.id}`,
 			languages: {
-				uk: `https://www.yagodakarpat.com/uk/${product!.id}`,
-				en: `https://www.yagodakarpat.com/en/${product!.id}`,
-				cs: `https://www.yagodakarpat.com/cs/${product!.id}`,
-				"x-default": `https://www.yagodakarpat.com/uk/${product!.id}`,
+				uk: `${baseUrl}/uk/${product!.id}`,
+				en: `${baseUrl}/en/${product!.id}`,
+				cs: `${baseUrl}/cs/${product!.id}`,
+				"x-default": `${baseUrl}/uk/${product!.id}`,
 			},
 		},
 	};
