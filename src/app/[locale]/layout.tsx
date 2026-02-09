@@ -1,5 +1,3 @@
-import { getTranslations } from "next-intl/server";
-import type { Metadata } from "next";
 import { Montserrat } from "next/font/google";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { routing } from "@/i18n/routing";
@@ -9,24 +7,6 @@ import Loading from "../components/Loading/Loading";
 import Header from "../components/layout/Header/Header";
 import Footer from "../components/layout/Footer/Footer";
 import "./../scss/globals.scss";
-
-export async function generateMetadata(): Promise<Metadata> {
-	const t = await getTranslations();
-
-	return {
-		title: `${t("home.title")} | ${t("company_name")}`,
-		description: t("home.desc_seo"),
-		alternates: {
-			canonical: "https://www.yagodakarpat.com/uk/",
-			languages: {
-				uk: "https://www.yagodakarpat.com/uk/",
-				en: "https://www.yagodakarpat.com/en/",
-				cs: "https://www.yagodakarpat.com/cs/",
-				"x-default": "https://www.yagodakarpat.com/uk/",
-			},
-		},
-	};
-}
 
 const montserrat = Montserrat({
 	subsets: ["latin", "cyrillic"],

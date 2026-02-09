@@ -10,19 +10,26 @@ import Certificates from "../components/home/Certificates/Certificates";
 import { Link } from "@/i18n/navigation";
 import "./Home.scss";
 
-export async function generateMetadata(): Promise<Metadata> {
-	const t = await getTranslations();
+// TODO: learn this
+export async function generateMetadata({
+	params,
+}: {
+	params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+	const { locale } = await params;
+	const t = await getTranslations({ locale });
+	const baseUrl = "https://www.yagodakarpat.com";
 
 	return {
 		title: `${t("home.title")} | ${t("company_name")}`,
 		description: t("home.desc_seo"),
 		alternates: {
-			canonical: "https://www.yagodakarpat.com/uk/",
+			canonical: `${baseUrl}/${locale}`,
 			languages: {
-				uk: "https://www.yagodakarpat.com/uk/",
-				en: "https://www.yagodakarpat.com/en/",
-				cs: "https://www.yagodakarpat.com/cs/",
-				"x-default": "https://www.yagodakarpat.com/uk/",
+				uk: `${baseUrl}/uk`,
+				en: `${baseUrl}/en`,
+				cs: `${baseUrl}/cs`,
+				"x-default": `${baseUrl}/uk`,
 			},
 		},
 	};
