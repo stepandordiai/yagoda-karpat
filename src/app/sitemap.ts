@@ -1,38 +1,9 @@
 import type { MetadataRoute } from "next";
+import productsData from "@/lib/data/products-data.json";
 
-// TODO: LEARN THIS
 const BASE_URL = "https://www.yagodakarpat.com";
 const locales = ["uk", "en", "cs"] as const;
-
 const staticPages = ["", "/products"];
-
-const productIds = [
-	"frozen-bilberries",
-	"frozen-lingonberries",
-	"frozen-rosehips",
-	"frozen-plums",
-	"dried-plums",
-	"prunes",
-	"frozen-elderberries",
-	"frozen-strawberries",
-	"frozen-raspberries",
-	"frozen-apricots",
-	"frozen-red-bell-peppers",
-	"frozen-green-bell-peppers",
-	"frozen-yellow-bell-peppers",
-	"frozen-mixed-bell-peppers",
-	"frozen-porcini-mushrooms",
-	"fresh-porcini-mushrooms",
-	"dried-porcini-mushrooms",
-	"fresh-chanterelles",
-	"dried-chanterelles",
-	"frozen-sour-cherries",
-	"frozen-honey-mushrooms",
-	"frozen-blackberries",
-	"frozen-grapes",
-	"frozen-sweet-corn",
-	"frozen-black-currants",
-];
 
 export default function sitemap(): MetadataRoute.Sitemap {
 	const urls: MetadataRoute.Sitemap = [];
@@ -51,6 +22,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
 			urls.push({
 				url: `${BASE_URL}/${locale}${page}`,
 				lastModified: now,
+				changeFrequency: "monthly",
+				priority: page === "" ? 1 : 0.9,
 				alternates: {
 					languages: alternates,
 				},
@@ -58,25 +31,22 @@ export default function sitemap(): MetadataRoute.Sitemap {
 		}
 	}
 
-	for (const page of productIds) {
-		const alternates: Record<string, string> = {};
-
-		for (const locale of locales) {
-			alternates[locale] = `${BASE_URL}/${locale}/products/${page}`;
-		}
-
-		alternates["x-default"] = `${BASE_URL}/uk/products/${page}`;
-
-		for (const locale of locales) {
-			urls.push({
-				url: `${BASE_URL}/${locale}/products/${page}`,
-				lastModified: now,
-				alternates: {
-					languages: alternates,
+	const productUrls = locales.flatMap((locale) =>
+		productsData.map((page) => ({
+			url: `${BASE_URL}/${locale}/products/${page}`,
+			lastModified: now,
+			changeFrequency: "monthly" as const,
+			priority: 0.8,
+			alternates: {
+				languages: {
+					uk: `${BASE_URL}/uk/products/${page}`,
+					en: `${BASE_URL}/en/products/${page}`,
+					cs: `${BASE_URL}/cs/products/${page}`,
+					"x-default": `${BASE_URL}/uk/products/${page}`,
 				},
-			});
-		}
-	}
+			},
+		})),
+	);
 
-	return urls;
+	return [...urls, ...productUrls];
 }
