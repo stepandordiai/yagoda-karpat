@@ -36,7 +36,8 @@
 			}
 		],
 		"harvest": [7, 8],
-		"isOrganic": true
+		"isOrganic": true,
+		"isFeatured": true
 	},
 	{
 		"id": "frozen-lingonberries",
@@ -72,7 +73,8 @@
 			}
 		],
 		"harvest": [8, 9],
-		"isOrganic": true
+		"isOrganic": true,
+		"isFeatured": true
 	},
 	{
 		"id": "frozen-rosehips",
@@ -101,7 +103,8 @@
 			}
 		],
 		"harvest": [9, 10, 11],
-		"isOrganic": true
+		"isOrganic": true,
+		"isFeatured": true
 	},
 	{
 		"id": "frozen-plums",
@@ -137,7 +140,8 @@
 				]
 			}
 		],
-		"harvest": [8, 9]
+		"harvest": [8, 9],
+		"isFeatured": true
 	},
 	{
 		"id": "dried-plums",
@@ -221,7 +225,8 @@
 			}
 		],
 		"isOrganic": true,
-		"harvest": [8, 9]
+		"harvest": [8, 9],
+		"isFeatured": true
 	},
 	{
 		"id": "frozen-strawberries",
@@ -556,7 +561,8 @@
 				]
 			}
 		],
-		"harvest": [5, 6]
+		"harvest": [5, 6],
+		"isFeatured": true
 	},
 	{
 		"id": "frozen-honey-mushrooms",

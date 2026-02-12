@@ -77,9 +77,11 @@ export default async function Home() {
 				<section className="home-products" id="products">
 					<SectionTitle name={t("products_title")} />
 					<div className="products-container">
-						{productsData.slice(0, 6).map((product) => {
-							return <ProductCard key={product.id} product={product} />;
-						})}
+						{productsData
+							.filter((product) => product.isFeatured)
+							.map((product) => {
+								return <ProductCard key={product.id} product={product} />;
+							})}
 					</div>
 					<Link className="home-products__link" href="/products">
 						{t("home.viewAllProducts")}

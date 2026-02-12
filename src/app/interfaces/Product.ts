@@ -32,4 +32,5 @@ export interface Product {
 	harvest: number[];
 	descSEO?: string;
 	isIQF?: boolean;
+	isFeatured?: boolean;
 }
