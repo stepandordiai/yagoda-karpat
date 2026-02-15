@@ -64,10 +64,16 @@ export default async function Home() {
 						<h1 className="home-container__title">{t("home.title")}</h1>
 						<h2 className="home-container__desc">{t("home.sec_title")}</h2>
 						<div style={{ display: "flex", flexWrap: "wrap", gap: 10 }}>
-							<Link className="home-container__link" href="/#products">
+							<Link
+								className="home-container__link btn--bold"
+								href="/#products"
+							>
 								{t("home.viewProducts")}
 							</Link>
-							<Link className="home-container__link" href="/#contacts">
+							<Link
+								className="home-container__link btn--bold"
+								href="/#contacts"
+							>
 								{t("home.requestPriceList")}
 							</Link>
 						</div>
@@ -83,7 +89,7 @@ export default async function Home() {
 								return <ProductCard key={product.id} product={product} />;
 							})}
 					</div>
-					<Link className="home-products__link" href="/products">
+					<Link className="home-products__link btn--bold" href="/products">
 						{t("home.viewAllProducts")}
 					</Link>
 				</section>

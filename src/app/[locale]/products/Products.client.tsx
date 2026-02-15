@@ -54,7 +54,7 @@ export default function ProductsClient() {
 							<button
 								key={i}
 								onClick={() => setProductType(type)}
-								className={classNames("products__btn", {
+								className={classNames("products__btn btn--bold", {
 									"products__btn--active": productType === type,
 								})}
 							>

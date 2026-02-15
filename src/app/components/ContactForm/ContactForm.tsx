@@ -63,7 +63,7 @@ const ContactForm = () => {
 						placeholder={t("product_page.messagePlaceholder")}
 					></textarea>
 				</div>
-				<button className="form-submit-btn" type="submit">
+				<button className="form-submit-btn btn--bold" type="submit">
 					{t("contacts.submit")}
 				</button>
 			</form>

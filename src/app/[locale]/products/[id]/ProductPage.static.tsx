@@ -110,7 +110,7 @@ export default function ProductPageStatic({ product }: ProductPageStaticProps) {
 											<button
 												key={variant.id}
 												onClick={() => handleVariantId(variant.id)}
-												className={classNames("variant-btn", {
+												className={classNames("variant-btn btn--bold", {
 													"variant-btn--active": variant.id === activeVariantId,
 												})}
 											>
@@ -225,7 +225,10 @@ export default function ProductPageStatic({ product }: ProductPageStaticProps) {
 							</div>
 						</div>
 					</div>
-					<a className="product-page__link" href="#products-page__contacts">
+					<a
+						className="product-page__link btn--bold"
+						href="#products-page__contacts"
+					>
 						{t("requestPrice")}
 					</a>
 				</div>
@@ -379,7 +382,7 @@ export default function ProductPageStatic({ product }: ProductPageStaticProps) {
 							></textarea>
 						</div>
 						<div>
-							<button className="form-submit-btn" type="submit">
+							<button className="form-submit-btn btn--bold" type="submit">
 								{t("requestPrice")}
 							</button>
 							<p style={{ marginTop: 10 }}>

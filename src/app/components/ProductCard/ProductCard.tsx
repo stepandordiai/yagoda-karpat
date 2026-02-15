@@ -105,7 +105,7 @@ export default function ProductCard({ product }: ProductProps) {
 									<button
 										key={variant.id}
 										onClick={() => setProductStateId(variant.id)}
-										className={classNames("variant-btn", {
+										className={classNames("variant-btn btn--bold", {
 											"variant-btn--active": variant.id === productStateId,
 										})}
 									>
@@ -117,7 +117,7 @@ export default function ProductCard({ product }: ProductProps) {
 						</div>
 					</div>
 				)}
-				<Link href={`/products/${id}`} className="product__info-btn">
+				<Link href={`/products/${id}`} className="product__info-btn btn--bold">
 					{t("products.productDetails")}
 				</Link>
 			</div>
