@@ -121,13 +121,36 @@
 	"product_page": {
 		"origin_title": "Země původu",
 		"packaging_title": "Balení",
-		"delivery": "Doprava",
+		"delivery": {
+			"title": "Doprava",
+			"refrigeratedTransport": {
+				"title": "Chladírenská doprava",
+				"desc": {
+					"frozen": "–18 °C, chladicí řetězec",
+					"fresh": "5 °C, chladicí řetězec",
+					"dried": "pokojová teplota"
+				}
+			},
+			"internationalLogistics": {
+				"title": "Mezinárodní logistika",
+				"desc": "Pravidelné zásilky do EU a dalších světových trhů."
+			},
+			"deliveryTerms": {
+				"title": "Dodací podmínky",
+				"desc": "FCA, DAP nebo DDP - podle požadavků zákazníka."
+			},
+			"exportDocumentation": {
+				"title": "Exportní dokumentace",
+				"desc": "Kompletní sada dokumentů pro hladké celní odbavení."
+			}
+		},
 		"deliveryByVehicle": "Doprava vozidlem",
 		"desc_title": "Popis",
 		"status": "Stav",
 		"whole": "celé",
-		"sliced": "krájené",
-		"cubic": "na kostičky",
+		"sliced": "plátky",
+		"cubed": "kostky",
+		"piccolo": "malé kousky",
 		"strips": "na proužky",
 		"with_stone": "s peckou",
 		"pitted": "bez pecky",

@@ -122,13 +122,36 @@
 	"product_page": {
 		"origin_title": "Країна походження",
 		"packaging_title": "Пакування",
-		"delivery": "Доставка",
+		"delivery": {
+			"title": "Доставка",
+			"refrigeratedTransport": {
+				"title": "Рефрижераторний транспорт",
+				"desc": {
+					"frozen": "–18 °C, холодовий ланцюг",
+					"fresh": "5 °C, холодовий ланцюг",
+					"dried": "кімнатна температура"
+				}
+			},
+			"internationalLogistics": {
+				"title": "Міжнародна логістика",
+				"desc": "регулярні відвантаження до ЄС та інших ринків."
+			},
+			"deliveryTerms": {
+				"title": "Умови поставки",
+				"desc": "FCA, DAP або DDP - відповідно до потреб покупця."
+			},
+			"exportDocumentation": {
+				"title": "Експортні документи",
+				"desc": "повний пакет для митного оформлення."
+			}
+		},
 		"deliveryByVehicle": "Доставка транспортом",
 		"desc_title": "Опис",
 		"status": "Статус",
-		"whole": "цілий",
-		"sliced": "полоска",
-		"cubic": "кубик",
+		"whole": "цілі",
+		"sliced": "слайси",
+		"cubed": "кубики",
+		"piccolo": "дрібні шматочки",
 		"strips": "соломка",
 		"with_stone": "з кісткою",
 		"pitted": "без кістки",

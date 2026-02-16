@@ -417,8 +417,8 @@
 				"id": 1,
 				"state": "product_page.whole",
 				"images": [
-					"/products/frozen-porcini-mushrooms-whole/iqf-frozen-porcini-mushrooms-whole-1-min.jpg",
-					"/products/frozen-porcini-mushrooms-whole/iqf-frozen-porcini-mushrooms-whole-2-min.jpg"
+					"/products/frozen-porcini-mushrooms-whole/iqf-frozen-porcini-mushrooms-whole-01-c.jpg",
+					"/products/frozen-porcini-mushrooms-whole/iqf-frozen-porcini-mushrooms-whole-02-c.jpg"
 				]
 			},
 			{
@@ -430,10 +430,18 @@
 			},
 			{
 				"id": 3,
-				"state": "product_page.cubic",
+				"state": "product_page.cubed",
 				"images": [
-					"/products/frozen-porcini-mushrooms-cubic/iqf-frozen-porcini-mushrooms-cubic-1-min.jpg",
-					"/products/frozen-porcini-mushrooms-cubic/iqf-frozen-porcini-mushrooms-cubic-2-min.jpg"
+					"/products/frozen-porcini-mushrooms-cubed/iqf-frozen-porcini-mushrooms-cubed-01-c.jpg",
+					"/products/frozen-porcini-mushrooms-cubed/iqf-frozen-porcini-mushrooms-cubed-02-c.jpg"
+				]
+			},
+			{
+				"id": 4,
+				"state": "product_page.piccolo",
+				"images": [
+					"/products/frozen-porcini-mushrooms-piccolo/iqf-frozen-porcini-mushrooms-piccolo-01-c.jpg",
+					"/products/frozen-porcini-mushrooms-piccolo/iqf-frozen-porcini-mushrooms-piccolo-02-c.jpg"
 				]
 			}
 		],

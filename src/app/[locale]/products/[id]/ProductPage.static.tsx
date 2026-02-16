@@ -192,9 +192,37 @@ export default function ProductPageStatic({ product }: ProductPageStaticProps) {
 						</div>
 						<div>
 							<h2 style={{ color: "hsl(0, 0%, 50%)", marginBottom: 5 }}>
-								{t("product_page.delivery")}
+								{t("product_page.delivery.title")}
 							</h2>
-							<p>{t("product_page.deliveryByVehicle")}</p>
+							<ul>
+								<li>
+									<span style={{ fontWeight: 500 }}>
+										{t("product_page.delivery.refrigeratedTransport.title")}:
+									</span>{" "}
+									{t(
+										`product_page.delivery.refrigeratedTransport.desc.${product.status}`,
+									)}
+								</li>
+								<li>
+									<span style={{ fontWeight: 500 }}>
+										{t("product_page.delivery.internationalLogistics.title")}:
+									</span>{" "}
+									{t("product_page.delivery.internationalLogistics.desc")}
+								</li>
+								<li>
+									<span style={{ fontWeight: 500 }}>
+										{t("product_page.delivery.deliveryTerms.title")}{" "}
+										(Incoterms):
+									</span>{" "}
+									{t("product_page.delivery.deliveryTerms.desc")}
+								</li>
+								<li>
+									<span style={{ fontWeight: 500 }}>
+										{t("product_page.delivery.exportDocumentation.title")}:
+									</span>{" "}
+									{t("product_page.delivery.exportDocumentation.desc")}
+								</li>
+							</ul>
 						</div>
 						<div>
 							<h2 style={{ color: "hsl(0, 0%, 50%)", marginBottom: 5 }}>

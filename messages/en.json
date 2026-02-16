@@ -121,13 +121,36 @@
 	"product_page": {
 		"origin_title": "Country of origin",
 		"packaging_title": "Packaging",
-		"delivery": "Delivery",
+		"delivery": {
+			"title": "Delivery",
+			"refrigeratedTransport": {
+				"title": "Refrigerated Transport",
+				"desc": {
+					"frozen": "–18 °C, cold chain",
+					"fresh": "5 °C, cold chain",
+					"dried": "ambient"
+				}
+			},
+			"internationalLogistics": {
+				"title": "International Logistics",
+				"desc": "Regular shipments to the EU and other global markets."
+			},
+			"deliveryTerms": {
+				"title": "Delivery Terms",
+				"desc": "FCA, DAP, or DDP - tailored to customer requirements."
+			},
+			"exportDocumentation": {
+				"title": "Export Documentation",
+				"desc": "Full set of documents for smooth customs clearance."
+			}
+		},
 		"deliveryByVehicle": "Delivery by vehicle",
 		"desc_title": "Description",
 		"status": "Status",
 		"whole": "whole",
 		"sliced": "sliced",
-		"cubic": "cubic",
+		"cubed": "cubed",
+		"piccolo": "piccolo",
 		"strips": "strips",
 		"with_stone": "with stone",
 		"pitted": "pitted",
