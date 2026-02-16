@@ -2,19 +2,10 @@
 
 .product {
 	display: flex;
-	justify-content: space-between;
-	flex-direction: column;
-	row-gap: 5px;
+	gap: 5px;
 	background: #fff;
 	border-radius: 10px;
 	padding: 10px;
-}
-
-.product-top {
-	@include flex-start;
-	flex-direction: row;
-	column-gap: 5px;
-	height: max-content;
 }
 
 .product__img-wrapper {
@@ -22,6 +13,7 @@
 	width: 100%;
 	border-radius: 10px;
 	overflow: hidden;
+	align-self: flex-start;
 }
 
 .product__img {
@@ -55,8 +47,10 @@
 
 .product__info-container {
 	width: 100%;
-	@include flex-between-start;
+	display: flex;
+	justify-content: space-between;
 	flex-direction: column;
+	gap: 5px;
 }
 
 .product__info-container-top {
@@ -73,37 +67,6 @@
 .product__name {
 	font-size: clamp(1rem, 2vw, 1.25rem);
 	font-weight: 500;
-}
-
-.product__info-btn {
-	position: relative;
-	z-index: 0;
-	display: inline-block;
-	align-self: flex-end;
-	margin-left: auto;
-	padding: 10px;
-	border-radius: 10px;
-	overflow: hidden;
-	background: var(--bg-clr);
-	flex-shrink: 0;
-
-	&:hover::before {
-		transform: scaleX(1);
-	}
-}
-
-.product__info-btn::before {
-	content: "";
-	position: absolute;
-	left: 0;
-	bottom: 0;
-	z-index: -1;
-	width: 100%;
-	height: 100%;
-	background: var(--accent-clr);
-	transform: scaleX(0);
-	transform-origin: bottom left;
-	transition: transform 0.3s;
 }
 
 // FIXME:
@@ -138,9 +101,39 @@
 	transform: scale(1);
 }
 
+.product__info-btn {
+	position: relative;
+	z-index: 0;
+	display: inline-block;
+	align-self: flex-end;
+	margin-top: auto;
+	padding: 10px;
+	border-radius: 10px;
+	overflow: hidden;
+	background: var(--bg-clr);
+	flex-shrink: 0;
+
+	&:hover::before {
+		transform: scaleX(1);
+	}
+}
+
+.product__info-btn::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+	background: var(--accent-clr);
+	transform: scaleX(0);
+	transform-origin: bottom left;
+	transition: transform 0.3s;
+}
+
 @media screen and (width <= 500px) {
-	.product-top {
+	.product {
 		flex-direction: column;
-		gap: 5px;
 	}
 }
