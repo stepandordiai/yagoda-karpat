@@ -1,5 +1,5 @@
-import { getTranslations } from "next-intl/server";
 import type { Metadata } from "next";
+import { getTranslations } from "next-intl/server";
 import productsData from "@/lib/data/products-data.json";
 import AboutUs from "../components/home/AboutUs/AboutUs";
 import Contacts from "../components/home/Contacts/Contacts";
@@ -10,7 +10,6 @@ import Certificates from "../components/home/Certificates/Certificates";
 import { Link } from "@/i18n/navigation";
 import "./Home.scss";
 
-// TODO: learn this
 export async function generateMetadata({
 	params,
 }: {
@@ -18,18 +17,18 @@ export async function generateMetadata({
 }): Promise<Metadata> {
 	const { locale } = await params;
 	const t = await getTranslations({ locale });
-	const baseUrl = "https://www.yagodakarpat.com";
+
+	const locales = ["uk", "en", "cs"];
+	const alternates = Object.fromEntries(locales.map((l) => [l, `/${l}`]));
 
 	return {
 		title: `${t("home.title")} | ${t("company_name")}`,
 		description: t("home.desc_seo"),
 		alternates: {
-			canonical: `${baseUrl}/${locale}`,
+			canonical: `/${locale}`,
 			languages: {
-				uk: `${baseUrl}/uk`,
-				en: `${baseUrl}/en`,
-				cs: `${baseUrl}/cs`,
-				"x-default": `${baseUrl}/uk`,
+				...alternates,
+				"x-default": "/uk",
 			},
 		},
 	};

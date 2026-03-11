@@ -11,7 +11,11 @@ export async function generateMetadata({
 }): Promise<Metadata> {
 	const { locale } = await params;
 	const t = await getTranslations({ locale });
-	const baseUrl = "https://www.yagodakarpat.com";
+
+	const locales = ["uk", "en", "cs"];
+	const alternates = Object.fromEntries(
+		locales.map((l) => [l, `/${l}/products`]),
+	);
 
 	return {
 		title: `${t("products.title")
@@ -20,12 +24,10 @@ export async function generateMetadata({
 			.join(" ")} | ${t("company_name")}`,
 		description: t("home.desc_seo"),
 		alternates: {
-			canonical: `${baseUrl}/${locale}/products`,
+			canonical: `/${locale}/products`,
 			languages: {
-				uk: `${baseUrl}/uk/products`,
-				en: `${baseUrl}/en/products`,
-				cs: `${baseUrl}/cs/products`,
-				"x-default": `${baseUrl}/uk/products`,
+				...alternates,
+				"x-default": `/uk/products`,
 			},
 		},
 	};
@@ -38,7 +40,6 @@ export default async function Products() {
 		<main className="js-products">
 			<Breadcrumbs homeTitle={t("home_title")} title={t("products_title")} />
 			<h1 className="products__title">{t("products.title")}</h1>
-
 			<ProductsClient />
 		</main>
 	);

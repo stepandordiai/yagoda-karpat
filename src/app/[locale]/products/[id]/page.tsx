@@ -1,9 +1,9 @@
+import type { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 import Container from "@/app/components/Container/Container";
 import { notFound } from "next/navigation";
 import productsData from "@/lib/data/products-data.json";
 import ProductPageStatic from "./ProductPage.static";
-import type { Metadata } from "next";
 import ProductCard from "@/app/components/ProductCard/ProductCard";
 import { Product } from "@/app/interfaces/Product";
 import Breadcrumbs from "@/app/components/common/Breadcrumbs/Breadcrumbs";
@@ -15,46 +15,53 @@ function getProductsData() {
 	return productsData as Product[];
 }
 
-// TODO: learn this
+const locales = ["uk", "en", "cs"];
+
 export async function generateMetadata({
 	params,
 }: {
 	params: Promise<{ id: string; locale: string }>;
 }): Promise<Metadata> {
 	const { id, locale } = await params;
-	const product = products.find((p) => p.id === id);
 	const t = await getTranslations({ locale });
-	const baseUrl = "https://www.yagodakarpat.com";
+	const product = products.find((p) => p.id === id);
+
+	if (!product) {
+		return {
+			title: "404",
+		};
+	}
+
+	const alternates = Object.fromEntries(
+		locales.map((l) => [l, `/${l}/products/${product.id}`]),
+	);
 
 	return {
-		title: `${t(product!.name)
+		title: `${t(product.name)
 			.split(" ")
 			.map((word: string) => word.charAt(0).toUpperCase() + word.slice(1))
 			.join(" ")} | ${t("product_page.wholesaleSupplier")} | ${t(
 			"company_name",
 		)}`,
-		description: t(product!.desc),
+		description: t(product.desc),
 		alternates: {
-			canonical: `${baseUrl}/${locale}/${product!.id}`,
+			canonical: `/${locale}/products/${product.id}`,
 			languages: {
-				uk: `${baseUrl}/uk/${product!.id}`,
-				en: `${baseUrl}/en/${product!.id}`,
-				cs: `${baseUrl}/cs/${product!.id}`,
-				"x-default": `${baseUrl}/uk/${product!.id}`,
+				...alternates,
+				"x-default": `/uk/products/${product.id}`,
 			},
 		},
 	};
 }
 
-// TODO: LEARN THIS
+// TODO: learn this
 export async function generateStaticParams() {
 	const products = getProductsData();
-	const locales = ["en", "uk", "cs"]; // Add your supported locales
 
 	return locales.flatMap((locale) =>
 		products.map((product) => ({
 			locale,
-			id: String(product.id),
+			id: product.id,
 		})),
 	);
 }
