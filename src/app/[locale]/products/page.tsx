@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
+import { routing } from "@/i18n/routing";
 import Breadcrumbs from "@/app/components/common/Breadcrumbs/Breadcrumbs";
 import ProductsClient from "./Products.client";
 import "./Products.scss";
@@ -11,23 +12,19 @@ export async function generateMetadata({
 }): Promise<Metadata> {
 	const { locale } = await params;
 	const t = await getTranslations({ locale });
-
-	const locales = ["uk", "en", "cs"];
-	const alternates = Object.fromEntries(
-		locales.map((l) => [l, `/${l}/products`]),
+	const page = "products";
+	const languages = Object.fromEntries(
+		routing.locales.map((l) => [l, `/${l}/${page}`]),
 	);
 
 	return {
-		title: `${t("products.title")
-			.split(" ")
-			.map((word) => word[0].toUpperCase() + word.slice(1))
-			.join(" ")} | ${t("company_name")}`,
-		description: t("home.desc_seo"),
+		title: `${t("products.meta.title")} | ${t("company_name")}`,
+		description: t("products.meta.description"),
 		alternates: {
-			canonical: `/${locale}/products`,
+			canonical: `/${locale}/${page}`,
 			languages: {
-				...alternates,
-				"x-default": `/uk/products`,
+				...languages,
+				"x-default": `/${routing.defaultLocale}/${page}`,
 			},
 		},
 	};

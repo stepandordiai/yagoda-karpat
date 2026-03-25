@@ -47,9 +47,13 @@
 	},
 
 	"home": {
+		"meta": {
+			"title": "Manufacturer and exporter of frozen and dried products",
+			"description": "Wholesale frozen and dried berries, fruits, mushrooms, and veggies from Ukraine. High-quality natural products. Export to the EU and worldwide."
+		},
+
 		"title": "Manufacturer and exporter of frozen and dried products",
 		"sec_title": "We produce and export high-quality frozen and dried berries, fruits, mushrooms and vegetables",
-		"desc_seo": "Wholesale frozen and dried berries, fruits, mushrooms, and veggies from Ukraine. High-quality natural products. Export to the EU and worldwide.",
 		"viewProducts": "View products",
 		"requestPriceList": "Request price list",
 		"viewAllProducts": "View all products"
@@ -66,6 +70,11 @@
 	},
 
 	"products": {
+		"meta": {
+			"title": "All Products",
+			"description": "Wholesale frozen and dried berries, fruits, mushrooms, and veggies from Ukraine. High-quality natural products. Export to the EU and worldwide."
+		},
+
 		"title": "All products",
 		"filter": "Filter",
 		"filter_placeholder": "Which product are you searching?",

@@ -1,21 +1,13 @@
 import type { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
+import { routing } from "@/i18n/routing";
 import Container from "@/app/components/Container/Container";
 import { notFound } from "next/navigation";
-import productsData from "@/lib/data/products-data.json";
+import products from "@/lib/data/products-data.json";
 import ProductPageStatic from "./ProductPage.static";
 import ProductCard from "@/app/components/ProductCard/ProductCard";
-import { Product } from "@/app/interfaces/Product";
 import Breadcrumbs from "@/app/components/common/Breadcrumbs/Breadcrumbs";
 import "./ProductPage.scss";
-
-const products = productsData as Product[];
-
-function getProductsData() {
-	return productsData as Product[];
-}
-
-const locales = ["uk", "en", "cs"];
 
 export async function generateMetadata({
 	params,
@@ -25,6 +17,7 @@ export async function generateMetadata({
 	const { id, locale } = await params;
 	const t = await getTranslations({ locale });
 	const product = products.find((p) => p.id === id);
+	const prevPage = "products";
 
 	if (!product) {
 		return {
@@ -32,8 +25,8 @@ export async function generateMetadata({
 		};
 	}
 
-	const alternates = Object.fromEntries(
-		locales.map((l) => [l, `/${l}/products/${product.id}`]),
+	const languages = Object.fromEntries(
+		routing.locales.map((l) => [l, `/${l}/${prevPage}/${product.id}`]),
 	);
 
 	return {
@@ -45,20 +38,17 @@ export async function generateMetadata({
 		)}`,
 		description: t(product.desc),
 		alternates: {
-			canonical: `/${locale}/products/${product.id}`,
+			canonical: `/${locale}/${prevPage}/${product.id}`,
 			languages: {
-				...alternates,
-				"x-default": `/uk/products/${product.id}`,
+				...languages,
+				"x-default": `/${routing.defaultLocale}/${prevPage}/${product.id}`,
 			},
 		},
 	};
 }
 
-// TODO: learn this
 export async function generateStaticParams() {
-	const products = getProductsData();
-
-	return locales.flatMap((locale) =>
+	return routing.locales.flatMap((locale) =>
 		products.map((product) => ({
 			locale,
 			id: product.id,
@@ -78,7 +68,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
 	const product = products.find((product) => product.id === id);
 
 	if (!product) {
-		notFound();
+		return notFound();
 	}
 
 	const relatedProducts = products.filter((el) => {

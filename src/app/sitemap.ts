@@ -1,8 +1,8 @@
 import type { MetadataRoute } from "next";
-import productsData from "@/lib/data/products-data.json";
+import { routing } from "@/i18n/routing";
+import products from "@/lib/data/products-data.json";
 
 const BASE_URL = "https://www.yagodakarpat.com";
-const locales = ["uk", "en", "cs"] as const;
 const staticPages = ["", "/products"];
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -12,13 +12,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
 	for (const page of staticPages) {
 		const alternates: Record<string, string> = {};
 
-		for (const locale of locales) {
+		for (const locale of routing.locales) {
 			alternates[locale] = `${BASE_URL}/${locale}${page}`;
 		}
 
 		alternates["x-default"] = `${BASE_URL}/uk${page}`;
 
-		for (const locale of locales) {
+		for (const locale of routing.locales) {
 			urls.push({
 				url: `${BASE_URL}/${locale}${page}`,
 				lastModified: now,
@@ -31,8 +31,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
 		}
 	}
 
-	const productUrls = locales.flatMap((locale) =>
-		productsData.map((page) => ({
+	const productUrls = routing.locales.flatMap((locale) =>
+		products.map((page) => ({
 			url: `${BASE_URL}/${locale}/products/${page}`,
 			lastModified: now,
 			changeFrequency: "monthly" as const,
@@ -42,7 +42,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 					uk: `${BASE_URL}/uk/products/${page}`,
 					en: `${BASE_URL}/en/products/${page}`,
 					cs: `${BASE_URL}/cs/products/${page}`,
-					"x-default": `${BASE_URL}/uk/products/${page}`,
+					"x-default": `${BASE_URL}/${routing.defaultLocale}/products/${page}`,
 				},
 			},
 		})),

@@ -53,7 +53,7 @@ export default async function LocaleLayout({
 					dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
 				/>
 			</head>
-			<body className={montserrat.className}>
+			<body className={montserrat.variable}>
 				<NextIntlClientProvider locale={locale}>
 					<Loading />
 					<Header productsData={productsData} />

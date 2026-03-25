@@ -1,5 +1,4 @@
 @use "./reset" as *;
-@use "./fonts" as *;
 @use "./variables" as *;
 
 html {
@@ -7,7 +6,7 @@ html {
 }
 
 body {
-	font-family: "Montserrat", serif;
+	font-family: var(--font-montserrat);
 	background: rgb(245, 245, 245) !important;
 	min-height: 100svh;
 	color: #000 !important;

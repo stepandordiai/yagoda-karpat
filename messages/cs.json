@@ -47,9 +47,13 @@
 	},
 
 	"home": {
+		"meta": {
+			"title": "Výrobce a vývozce mražených a sušených produktů",
+			"description": "Velkoobchodní mražené a sušené bobule, ovoce, houby a zelenina z Ukrajiny. Vysoce kvalitní přírodní produkty. Export do EU i celého světa."
+		},
+
 		"title": "Výrobce a vývozce mražených a sušených produktů",
 		"sec_title": "Vyrábíme a exportujeme vysoce kvalitní mražené a sušené bobule, ovoce, houby a zeleninu",
-		"desc_seo": "Velkoobchodní mražené a sušené bobule, ovoce, houby a zelenina z Ukrajiny. Vysoce kvalitní přírodní produkty. Export do EU i celého světa.",
 		"viewProducts": "Zobrazit produkty",
 		"requestPriceList": "Vyžádat ceník",
 		"viewAllProducts": "Zobrazit všechny produkty"
@@ -66,6 +70,11 @@
 	},
 
 	"products": {
+		"meta": {
+			"title": "Všechny Produkty",
+			"description": "Velkoobchodní mražené a sušené bobule, ovoce, houby a zelenina z Ukrajiny. Vysoce kvalitní přírodní produkty. Export do EU i celého světa."
+		},
+
 		"title": "Všechny produkty",
 		"filter": "Filtrovat",
 		"filter_placeholder": "Jaký produkt hledáte?",
