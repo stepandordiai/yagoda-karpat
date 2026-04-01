@@ -14,10 +14,10 @@ import PdfIcon from "@/app/icons/PdfIcon";
 import "./Header.scss";
 
 type HeaderProps = {
-	productsData: Product[];
+	products: Product[];
 };
 
-export default function Header({ productsData }: HeaderProps) {
+export default function Header({ products }: HeaderProps) {
 	const t = useTranslations();
 	const pathname = usePathname();
 
@@ -25,7 +25,7 @@ export default function Header({ productsData }: HeaderProps) {
 	const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
 	const uniqueProductTypes = [
-		...new Set(productsData.map((product) => product.type)),
+		...new Set(products.map((product) => product.type)),
 	];
 
 	function toggleMenu(): void {
@@ -232,7 +232,7 @@ export default function Header({ productsData }: HeaderProps) {
 											<div key={productType}>
 												<p className="menu__sec-title">{t(productType)}</p>
 												<ul className="menu__products-list">
-													{productsData
+													{products
 														.filter((product) => product.type === productType)
 														.map(({ id, name }) => {
 															return (

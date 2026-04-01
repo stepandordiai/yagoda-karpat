@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 import { routing } from "@/i18n/routing";
-import products from "@/lib/data/products-data.json";
+import products from "@/lib/data/products.json";
 
 const BASE_URL = "https://www.yagodakarpat.com";
 const staticPages = ["", "/products"];

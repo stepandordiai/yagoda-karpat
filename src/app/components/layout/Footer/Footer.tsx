@@ -32,15 +32,15 @@ const socialsData: Social[] = [
 ];
 
 type FooterProps = {
-	productsData: Product[];
+	products: Product[];
 };
 
-export default function Footer({ productsData }: FooterProps) {
+export default function Footer({ products }: FooterProps) {
 	const t = useTranslations();
 	const pathname = usePathname();
 
 	const uniqueProductTypes = [
-		...new Set(productsData.map((product) => product.type)),
+		...new Set(products.map((product) => product.type)),
 	];
 
 	const [footerNavDropdownActive, setFooterNavDropdownActive] = useState(false);
@@ -188,7 +188,7 @@ export default function Footer({ productsData }: FooterProps) {
 										>
 											<div className="grid-dropdown">
 												<ul className="footer-nav__list">
-													{productsData
+													{products
 														.filter((product) => {
 															return product.type === productType;
 														})

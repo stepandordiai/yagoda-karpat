@@ -19,19 +19,19 @@
 		"variants": [
 			{
 				"id": 1,
+				"state": "product_page.cleaned_1",
+				"images": [
+					"/products/frozen-bilberries/iqf-frozen-bilberries-2-min.jpg",
+					"/products/frozen-bilberries/iqf-frozen-bilberries-3-min.jpg"
+				]
+			},
+			{
+				"id": 2,
 				"state": "product_page.uncleaned_1",
 				"images": [
 					"/products/frozen-bilberries/iqf-frozen-bilberries-1-min.JPG",
 					"/products/frozen-bilberries/iqf-frozen-bilberries-4-min.jpg",
 					"/products/frozen-bilberries/iqf-frozen-bilberries-5-min.jpg"
-				]
-			},
-			{
-				"id": 2,
-				"state": "product_page.cleaned_1",
-				"images": [
-					"/products/frozen-bilberries/iqf-frozen-bilberries-2-min.jpg",
-					"/products/frozen-bilberries/iqf-frozen-bilberries-3-min.jpg"
 				]
 			}
 		],
@@ -126,17 +126,17 @@
 		"variants": [
 			{
 				"id": 1,
-				"state": "product_page.with_stone",
-				"images": [
-					"/products/frozen-plums-with-stone/iqf-frozen-plums-with-stone-1-min.JPG"
-				]
-			},
-			{
-				"id": 2,
 				"state": "product_page.pitted",
 				"images": [
 					"/products/frozen-plums-pitted/iqf-frozen-plums-pitted-1-min.JPG",
 					"/products/frozen-plums-pitted/iqf-frozen-plums-pitted-2-min.jpg"
+				]
+			},
+			{
+				"id": 2,
+				"state": "product_page.with_stone",
+				"images": [
+					"/products/frozen-plums-with-stone/iqf-frozen-plums-with-stone-1-min.JPG"
 				]
 			}
 		],

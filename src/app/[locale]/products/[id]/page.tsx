@@ -3,7 +3,7 @@ import { getTranslations } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import Container from "@/app/components/Container/Container";
 import { notFound } from "next/navigation";
-import products from "@/lib/data/products-data.json";
+import products from "@/lib/data/products.json";
 import ProductPageStatic from "./ProductPage.static";
 import ProductCard from "@/app/components/ProductCard/ProductCard";
 import Breadcrumbs from "@/app/components/common/Breadcrumbs/Breadcrumbs";

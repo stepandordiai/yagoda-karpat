@@ -1,6 +1,10 @@
 import "./Container.scss";
 
-const Container = ({ children }) => {
+type ContainerProps = {
+	children: React.ReactNode;
+};
+
+const Container = ({ children }: ContainerProps) => {
 	return <div className="container">{children}</div>;
 };
 

@@ -8,7 +8,7 @@ import SectionTitle from "../../SectionTitle/SectionTitle";
 import "./AboutUs.scss";
 
 type AboutUsProps = {
-	productsData: Product[];
+	products: Product[];
 };
 
 const dateNow = new Date();
@@ -16,7 +16,7 @@ const companyEstablishedDate = new Date("2010-01-01");
 const diffInYears =
 	dateNow.getFullYear() - companyEstablishedDate.getFullYear();
 
-const AboutUs: React.FC<AboutUsProps> = ({ productsData }) => {
+const AboutUs: React.FC<AboutUsProps> = ({ products }) => {
 	const t = useTranslations();
 
 	// FIXME:
@@ -86,8 +86,8 @@ const AboutUs: React.FC<AboutUsProps> = ({ productsData }) => {
 						<p>{t("about_us.year")}</p>
 					</div>
 					<div className="stats-card">
-						<p className="counter" data-value={productsData.length}>
-							{productsData.length}
+						<p className="counter" data-value={products.length}>
+							{products.length}
 						</p>
 						<p>{t("about_us.product")}</p>
 					</div>

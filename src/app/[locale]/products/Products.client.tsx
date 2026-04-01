@@ -5,7 +5,7 @@ import { useTranslations } from "next-intl";
 import classNames from "classnames";
 import { useState, useLayoutEffect } from "react";
 import ProductCard from "@/app/components/ProductCard/ProductCard";
-import productsData from "@/lib/data/products-data.json";
+import products from "@/lib/data/products.json";
 import "./Products.scss";
 
 export default function ProductsClient() {
@@ -22,17 +22,13 @@ export default function ProductsClient() {
 	const [search, setSearch] = useState("");
 	const [productType, setProductType] = useState("all");
 
-	const productsDataTyped = productsData as Product[];
-
 	function clearSearch() {
 		setSearch("");
 	}
 
-	const uniqueTypes = [
-		...new Set(productsDataTyped.map((product) => product.type)),
-	];
+	const uniqueTypes = [...new Set(products.map((product) => product.type))];
 
-	const filteredProducts = productsDataTyped.filter((product) => {
+	const filteredProducts = products.filter((product) => {
 		const matchesSearch =
 			search.trim() === "" ||
 			t(product.name).toLowerCase().includes(search.toLowerCase());

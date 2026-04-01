@@ -4,7 +4,7 @@ import { getTranslations } from "next-intl/server";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { routing } from "@/i18n/routing";
 import { notFound } from "next/navigation";
-import productsData from "@/lib/data/products-data.json";
+import products from "@/lib/data/products.json";
 import Loading from "../components/Loading/Loading";
 import Header from "../components/layout/Header/Header";
 import Footer from "../components/layout/Footer/Footer";
@@ -20,15 +20,15 @@ export const metadata: Metadata = {
 	metadataBase: new URL("https://www.yagodakarpat.com"),
 };
 
-interface RootLayoutProps {
+type LocaleLayoutProps = {
 	children: React.ReactNode;
 	params: Promise<{ locale: string }>;
-}
+};
 
 export default async function LocaleLayout({
 	children,
 	params,
-}: RootLayoutProps) {
+}: LocaleLayoutProps) {
 	const { locale } = await params;
 
 	const t = await getTranslations({ locale });
@@ -56,9 +56,9 @@ export default async function LocaleLayout({
 			<body className={montserrat.variable}>
 				<NextIntlClientProvider locale={locale}>
 					<Loading />
-					<Header productsData={productsData} />
+					<Header products={products} />
 					{children}
-					<Footer productsData={productsData} />
+					<Footer products={products} />
 				</NextIntlClientProvider>
 			</body>
 		</html>

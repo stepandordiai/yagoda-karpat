@@ -3,8 +3,8 @@
 import { useTranslations } from "next-intl";
 import TelIcon from "@/app/icons/TelIcon";
 import EmailIcon from "@/app/icons/EmailIcon";
-import "./ContactDetails.scss";
 import PinIcon from "@/app/icons/PinIcon";
+import "./ContactDetails.scss";
 
 const ContactDetails = () => {
 	const t = useTranslations();
@@ -13,7 +13,9 @@ const ContactDetails = () => {
 	let isCopyTxt = false;
 
 	const handleCopyBtn = (
-		e: React.MouseEvent<HTMLButtonElement> | React.TouchEvent<HTMLButtonElement>
+		e:
+			| React.MouseEvent<HTMLButtonElement>
+			| React.TouchEvent<HTMLButtonElement>,
 	): void => {
 		const target = e.currentTarget;
 		const targetValue = e.currentTarget.dataset.value;

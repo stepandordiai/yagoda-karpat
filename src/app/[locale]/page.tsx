@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 import { routing } from "@/i18n/routing";
-import productsData from "@/lib/data/products-data.json";
+import products from "@/lib/data/products.json";
 import AboutUs from "../components/home/AboutUs/AboutUs";
 import Contacts from "../components/home/Contacts/Contacts";
 import Container from "../components/Container/Container";
@@ -79,11 +79,11 @@ export default async function Home() {
 						</div>
 					</div>
 				</section>
-				<AboutUs productsData={productsData} />
+				<AboutUs products={products} />
 				<section className="home-products" id="products">
 					<SectionTitle name={t("products_title")} />
 					<div className="products-container">
-						{productsData
+						{products
 							.filter((product) => product.isFeatured)
 							.map((product) => {
 								return <ProductCard key={product.id} product={product} />;
