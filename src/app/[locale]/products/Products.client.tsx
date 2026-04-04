@@ -1,11 +1,10 @@
 "use client";
 
-import { Product } from "@/app/interfaces/Product";
 import { useTranslations } from "next-intl";
 import classNames from "classnames";
 import { useState, useLayoutEffect } from "react";
-import ProductCard from "@/app/components/ProductCard/ProductCard";
-import products from "@/lib/data/products.json";
+import ProductCard from "@/components/ProductCard/ProductCard";
+import products from "@/data/products.json";
 import "./Products.scss";
 
 export default function ProductsClient() {

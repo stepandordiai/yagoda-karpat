@@ -4,11 +4,11 @@ import { getTranslations } from "next-intl/server";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { routing } from "@/i18n/routing";
 import { notFound } from "next/navigation";
-import products from "@/lib/data/products.json";
-import Loading from "../components/Loading/Loading";
-import Header from "../components/layout/Header/Header";
-import Footer from "../components/layout/Footer/Footer";
-import "./../scss/globals.scss";
+import products from "@//data/products.json";
+import Loading from "@/components/Loading/Loading";
+import Header from "@/components/layout/Header/Header";
+import Footer from "@/components/layout/Footer/Footer";
+import "@/scss/globals.scss";
 
 const montserrat = Montserrat({
 	variable: "--font-montserrat",

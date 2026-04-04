@@ -1,7 +1,7 @@
 "use client";
 
 import { useTranslations } from "next-intl";
-import PdfIcon from "@/app/icons/PdfIcon";
+import PdfIcon from "@/components/icons/PdfIcon";
 import "./Certificates.scss";
 
 const Certificates = () => {

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 import { routing } from "@/i18n/routing";
-import Breadcrumbs from "@/app/components/common/Breadcrumbs/Breadcrumbs";
+import Breadcrumbs from "@/components/common/Breadcrumbs/Breadcrumbs";
 import ProductsClient from "./Products.client";
 import "./Products.scss";
 

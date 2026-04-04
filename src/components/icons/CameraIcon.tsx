@@ -1,4 +1,4 @@
-import type { Icon } from "../interfaces/Icon";
+import type { Icon } from "@/interfaces/Icon";
 
 const CameraIcon = ({ size = 16 }) => {
 	return (

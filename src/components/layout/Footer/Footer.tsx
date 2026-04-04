@@ -1,14 +1,14 @@
 "use client";
 
 import { useTranslations } from "next-intl";
-import { Product } from "@/app/interfaces/Product";
+import { Product } from "@/interfaces/Product";
 import { useState } from "react";
 import { usePathname } from "@/i18n/navigation";
-import Container from "../../Container/Container";
+import Container from "@/components/Container/Container";
 import classNames from "classnames";
 import { Link } from "@/i18n/navigation";
-import FacebookIcon from "@/app/icons/FacebookIcon";
-import LinkedinIcon from "@/app/icons/LinkedinIcon";
+import FacebookIcon from "@/components/icons/FacebookIcon";
+import LinkedinIcon from "@/components/icons/LinkedinIcon";
 import "./Footer.scss";
 
 interface Social {

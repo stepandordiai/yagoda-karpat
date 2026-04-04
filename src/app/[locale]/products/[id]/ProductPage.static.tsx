@@ -1,17 +1,17 @@
 "use client";
 
 import { useTranslations } from "next-intl";
-import { Product } from "@/app/interfaces/Product";
+import { Product } from "@/interfaces/Product";
 import { JSX, useState, useLayoutEffect } from "react";
-import ContactDetails from "@/app/components/ContactDetails/ContactDetails";
+import ContactDetails from "@/components/ContactDetails/ContactDetails";
 import Image from "next/image";
-import harvestData from "@/lib/data/harvest-data.json";
-import LinkIcon from "@/app/components/LinkIcon/LinkIcon";
+import harvestData from "@/data/harvest-data.json";
+import LinkIcon from "@/components/LinkIcon/LinkIcon";
 import classNames from "classnames";
-import WhatsappIcon from "@/app/icons/WhatsappIcon";
-import ViberIcon from "@/app/icons/ViberIcon";
-import TelIcon from "@/app/icons/TelIcon";
-import EmailIcon from "@/app/icons/EmailIcon";
+import WhatsappIcon from "@/components/icons/WhatsappIcon";
+import ViberIcon from "@/components/icons/ViberIcon";
+import TelIcon from "@/components/icons/TelIcon";
+import EmailIcon from "@/components/icons/EmailIcon";
 import "./ProductPage.scss";
 
 // Swiper

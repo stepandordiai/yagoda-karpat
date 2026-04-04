@@ -1,12 +1,12 @@
 "use client";
 
 import { useTranslations } from "next-intl";
-import { Product } from "../../interfaces/Product";
+import { Product } from "@/interfaces/Product";
 import { useState } from "react";
 import { Link } from "@/i18n/navigation";
 import Image from "next/image";
 import classNames from "classnames";
-import CameraIcon from "@/app/icons/CameraIcon";
+import CameraIcon from "@/components/icons/CameraIcon";
 import "./ProductCard.scss";
 
 type ProductProps = {

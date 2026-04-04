@@ -1,10 +1,10 @@
 "use client";
 
 import { useTranslations } from "next-intl";
-import SectionTitle from "../../SectionTitle/SectionTitle";
-import BusinessHours from "../../BusinessHours/BusinessHours";
-import ContactForm from "../../ContactForm/ContactForm";
-import ContactDetails from "../../ContactDetails/ContactDetails";
+import SectionTitle from "@/components/SectionTitle/SectionTitle";
+import BusinessHours from "@/components/BusinessHours/BusinessHours";
+import ContactForm from "@/components/ContactForm/ContactForm";
+import ContactDetails from "@/components/ContactDetails/ContactDetails";
 import "./Contacts.scss";
 
 const Contacts = () => {

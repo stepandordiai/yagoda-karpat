@@ -1,16 +1,16 @@
 "use client";
 
-import { Product } from "@/app/interfaces/Product";
+import { Product } from "@/interfaces/Product";
 import { useState, useEffect } from "react";
-import LngSelect from "../../common/LngSelect/LngSelect";
-import Container from "../../Container/Container";
+import LngSelect from "@/components/common/LngSelect/LngSelect";
+import Container from "@/components/Container/Container";
 import classNames from "classnames";
 import { Link } from "@/i18n/navigation";
 import { useTranslations } from "next-intl";
 import { usePathname } from "@/i18n/navigation";
-import TelIcon from "@/app/icons/TelIcon";
-import EmailIcon from "@/app/icons/EmailIcon";
-import PdfIcon from "@/app/icons/PdfIcon";
+import TelIcon from "@/components/icons/TelIcon";
+import EmailIcon from "@/components/icons/EmailIcon";
+import PdfIcon from "@/components/icons/PdfIcon";
 import "./Header.scss";
 
 type HeaderProps = {

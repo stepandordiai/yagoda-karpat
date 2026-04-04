@@ -4,8 +4,13 @@ import { useRef, useState, useEffect } from "react";
 import { useLocale } from "next-intl";
 import { useRouter, usePathname } from "@/i18n/navigation"; // Використовуйте ваш файл routing
 import classNames from "classnames";
-import lngData from "@/lib/data/lng-data.json";
 import "./LngSelect.scss";
+
+const languages = [
+	{ code: "uk", name: "UA", fullName: "Українська" },
+	{ code: "en", name: "EN", fullName: "English" },
+	{ code: "cs", name: "CZ", fullName: "Čeština" },
+];
 
 const LngSelect = () => {
 	const locale = useLocale(); // Отримуємо поточну мову (uk або en)
@@ -16,7 +21,8 @@ const LngSelect = () => {
 	const [isVisible, setIsVisible] = useState(false);
 
 	// Знаходимо дані поточної мови для відображення на кнопці
-	const currentLng = lngData.find((lng) => lng.code === locale) || lngData[0];
+	const currentLng =
+		languages.find((lng) => lng.code === locale) || languages[0];
 
 	// Закриття дропдауну при кліку поза ним
 	useEffect(() => {
@@ -58,7 +64,7 @@ const LngSelect = () => {
 				})}
 				hidden={!isVisible}
 			>
-				{lngData.map((lng) => (
+				{languages.map((lng) => (
 					<li
 						key={lng.code}
 						onClick={() => handleLanguageChange(lng.code)}

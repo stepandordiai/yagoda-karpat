@@ -1,9 +1,9 @@
 "use client";
 
 import { useTranslations } from "next-intl";
-import TelIcon from "@/app/icons/TelIcon";
-import EmailIcon from "@/app/icons/EmailIcon";
-import PinIcon from "@/app/icons/PinIcon";
+import TelIcon from "@/components/icons/TelIcon";
+import EmailIcon from "@/components/icons/EmailIcon";
+import PinIcon from "@/components/icons/PinIcon";
 import "./ContactDetails.scss";
 
 const ContactDetails = () => {

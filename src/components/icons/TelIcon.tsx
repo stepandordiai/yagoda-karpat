@@ -1,4 +1,4 @@
-import { Icon } from "../interfaces/Icon";
+import { Icon } from "@/interfaces/Icon";
 
 const TelIcon = ({ size = 16 }: Icon) => {
 	return (

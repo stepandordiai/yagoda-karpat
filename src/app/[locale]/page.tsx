@@ -1,13 +1,13 @@
 import type { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 import { routing } from "@/i18n/routing";
-import products from "@/lib/data/products.json";
-import AboutUs from "../components/home/AboutUs/AboutUs";
-import Contacts from "../components/home/Contacts/Contacts";
-import Container from "../components/Container/Container";
-import ProductCard from "../components/ProductCard/ProductCard";
-import SectionTitle from "../components/SectionTitle/SectionTitle";
-import Certificates from "../components/home/Certificates/Certificates";
+import products from "@/data/products.json";
+import AboutUs from "@/components/home/AboutUs/AboutUs";
+import Contacts from "@/components/home/Contacts/Contacts";
+import Container from "@/components/Container/Container";
+import ProductCard from "@/components/ProductCard/ProductCard";
+import SectionTitle from "@/components/SectionTitle/SectionTitle";
+import Certificates from "@/components/home/Certificates/Certificates";
 import { Link } from "@/i18n/navigation";
 import "./Home.scss";
 
