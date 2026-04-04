@@ -121,6 +121,7 @@ export default function Header({ products }: HeaderProps) {
 							className="header__catalog"
 							href="/pdf/yagoda-karpat-catalog.pdf"
 							target="_blank"
+							title="Product catalog"
 						>
 							<span>Catalog</span>
 							<span
@@ -134,7 +135,11 @@ export default function Header({ products }: HeaderProps) {
 							</span>
 						</a>
 						<LngSelect />
-						<a className="header__tel" href="tel:+380968065513">
+						<a
+							className="header__tel"
+							href="tel:+380968065513"
+							title="Phone number"
+						>
 							<span>+38 096 806 55 13</span>
 							<span>
 								<TelIcon />
@@ -208,6 +213,11 @@ export default function Header({ products }: HeaderProps) {
 								onClick={toggleDropdownBtn}
 								aria-expanded={isDropdownOpen}
 								aria-controls="menu-dropdown"
+								aria-label={
+									isDropdownOpen
+										? "Collapse product list"
+										: "Expand product list"
+								}
 							>
 								<span
 									className={classNames("products-btn__icon", {
