@@ -1,29 +1,40 @@
 import type { MetadataRoute } from "next";
 import { routing } from "@/i18n/routing";
 import products from "@/data/products.json";
+import { BASE_URL } from "@/lib/constants";
 
-const BASE_URL = "https://www.yagodakarpat.com";
-const staticPages = ["", "/products"];
+const pages = [
+	{
+		path: "",
+		changeFrequency: "weekly",
+		priority: 1,
+	},
+	{
+		path: "/products",
+		changeFrequency: "monthly",
+		priority: 0.8,
+	},
+] as const;
 
 export default function sitemap(): MetadataRoute.Sitemap {
 	const urls: MetadataRoute.Sitemap = [];
 	const now = new Date();
 
-	for (const page of staticPages) {
+	for (const page of pages) {
 		const alternates: Record<string, string> = {};
 
 		for (const locale of routing.locales) {
-			alternates[locale] = `${BASE_URL}/${locale}${page}`;
+			alternates[locale] = `${BASE_URL}/${locale}${page.path}`;
 		}
 
-		alternates["x-default"] = `${BASE_URL}/uk${page}`;
+		alternates["x-default"] = `${BASE_URL}/uk${page.path}`;
 
 		for (const locale of routing.locales) {
 			urls.push({
-				url: `${BASE_URL}/${locale}${page}`,
+				url: `${BASE_URL}/${locale}${page.path}`,
 				lastModified: now,
-				changeFrequency: "monthly",
-				priority: page === "" ? 1 : 0.9,
+				changeFrequency: page.changeFrequency,
+				priority: page.priority,
 				alternates: {
 					languages: alternates,
 				},

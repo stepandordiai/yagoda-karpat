@@ -8,6 +8,7 @@ import products from "@//data/products.json";
 import Loading from "@/components/Loading/Loading";
 import Header from "@/components/layout/Header/Header";
 import Footer from "@/components/layout/Footer/Footer";
+import { BASE_URL } from "@/lib/constants";
 import "@/scss/globals.scss";
 
 const montserrat = Montserrat({
@@ -17,7 +18,7 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-	metadataBase: new URL("https://www.yagodakarpat.com"),
+	metadataBase: new URL(BASE_URL),
 };
 
 type LocaleLayoutProps = {
