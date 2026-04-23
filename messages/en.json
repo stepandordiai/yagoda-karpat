@@ -48,8 +48,8 @@
 
 	"home": {
 		"meta": {
-			"title": "Manufacturer and exporter of frozen and dried products",
-			"description": "Wholesale frozen and dried berries, fruits, mushrooms, and veggies from Ukraine. High-quality natural products. Export to the EU and worldwide."
+			"title": "IQF Frozen Berries & Vegetables Supplier Europe | B2B Export",
+			"description": "Ukrainian B2B supplier of IQF frozen berries, fruits, vegetables and mushrooms. Bulk export to Europe. Certified quality, reliable logistics, competitive prices."
 		},
 
 		"title": "Manufacturer and exporter of frozen and dried products",
@@ -71,39 +71,39 @@
 
 	"products": {
 		"meta": {
-			"title": "All Products",
-			"description": "Wholesale frozen and dried berries, fruits, mushrooms, and veggies from Ukraine. High-quality natural products. Export to the EU and worldwide."
+			"title": "IQF Frozen Products Supplier Europe | B2B Export from Ukraine",
+			"description": "Explore our range of IQF frozen berries, fruits, vegetables and mushrooms. Ukrainian B2B supplier for bulk export to Europe. Certified quality, reliable logistics."
 		},
 
 		"title": "All products",
 		"filter": "Filter",
 		"filter_placeholder": "Which product are you searching?",
 		"productNotFound": "Product not found",
-		"frozenBilberries": "IQF frozen bilberries",
-		"frozenLingonberries": "IQF frozen lingonberries",
-		"frozenRosehips": "IQF frozen rose hips",
-		"frozenPlums": "IQF frozen plums",
-		"driedPlums": "Dried plums",
+		"frozenBilberries": "IQF Frozen Bilberries",
+		"frozenLingonberries": "IQF Frozen Lingonberries",
+		"frozenRosehips": "IQF Frozen Rose Hips",
+		"frozenPlums": "IQF Frozen Plums",
+		"driedPlums": "Dried Plums",
 		"prunes": "Prunes",
-		"frozenElderberries": "IQF frozen elderberries",
-		"frozenStrawberries": "IQF frozen strawberries",
-		"frozenRaspberries": "IQF frozen raspberries",
-		"frozenApricots": "IQF frozen apricots",
-		"frozenRedBellPeppers": "IQF frozen red bell peppers",
-		"frozenGreenBellPeppers": "IQF frozen green bell peppers",
-		"frozenYellowBellPeppers": "IQF frozen yellow bell peppers",
-		"frozenMixedBellPeppers": "IQF frozen mixed bell peppers",
-		"frozenPorciniMushrooms": "IQF frozen porcini mushrooms",
-		"freshPorciniMushrooms": "Fresh porcini mushrooms",
-		"driedPorciniMushrooms": "Dried porcini mushrooms",
-		"freshChanterelles": "Fresh chanterelles",
-		"driedChanterelles": "Dried chanterelles",
-		"frozenSourCherries": "IQF frozen sour cherries",
-		"frozenHoneyMushrooms": "IQF frozen honey mushrooms",
-		"frozenBlackberries": "IQF frozen blackberries",
-		"frozenGrapes": "IQF frozen grapes",
-		"frozenCorn": "IQF frozen sweet corn",
-		"frozenBlackCurrants": "IQF frozen black currants",
+		"frozenElderberries": "IQF Frozen Elderberries",
+		"frozenStrawberries": "IQF Frozen Strawberries",
+		"frozenRaspberries": "IQF Frozen Raspberries",
+		"frozenApricots": "IQF Frozen Apricots",
+		"frozenRedBellPeppers": "IQF Frozen Red Bell Peppers",
+		"frozenGreenBellPeppers": "IQF Frozen Green Bell Peppers",
+		"frozenYellowBellPeppers": "IQF Frozen Yellow Bell Peppers",
+		"frozenMixedBellPeppers": "IQF Frozen Mixed Bell Peppers",
+		"frozenPorciniMushrooms": "IQF Frozen Porcini Mushrooms",
+		"freshPorciniMushrooms": "Fresh Porcini Mushrooms",
+		"driedPorciniMushrooms": "Dried Porcini Mushrooms",
+		"freshChanterelles": "Fresh Chanterelles",
+		"driedChanterelles": "Dried Chanterelles",
+		"frozenSourCherries": "IQF Frozen Sour Cherries",
+		"frozenHoneyMushrooms": "IQF Frozen Honey Mushrooms",
+		"frozenBlackberries": "IQF Frozen Blackberries",
+		"frozenGrapes": "IQF Frozen Grapes",
+		"frozenCorn": "IQF Frozen Sweet Corn",
+		"frozenBlackCurrants": "IQF Frozen Black Currants",
 		"productDetails": "Product details"
 	},
 
@@ -128,6 +128,11 @@
 	},
 
 	"product_page": {
+		"meta": {
+			"title": "Supplier Europe | Wholesale Export",
+			"description": "for industrial processing and B2B bulk export to Europe. Premium quality product with natural color, flavor and nutrients preserved."
+		},
+
 		"origin_title": "Country of origin",
 		"packaging_title": "Packaging",
 		"delivery": {

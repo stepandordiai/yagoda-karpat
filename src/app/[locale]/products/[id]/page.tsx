@@ -31,13 +31,8 @@ export async function generateMetadata({
 	);
 
 	return {
-		title: `${t(product.name)
-			.split(" ")
-			.map((word: string) => word.charAt(0).toUpperCase() + word.slice(1))
-			.join(" ")} | ${t("product_page.wholesaleSupplier")} | ${t(
-			"company_name",
-		)}`,
-		description: t(product.desc),
+		title: `${t(product.name)} | ${t("product_page.meta.title")}`,
+		description: `${t(product.name)} ${t("product_page.meta.description")}`,
 		alternates: {
 			canonical: `/${locale}/${prevPage}/${product.id}`,
 			languages: {

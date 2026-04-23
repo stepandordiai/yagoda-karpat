@@ -48,8 +48,8 @@
 
 	"home": {
 		"meta": {
-			"title": "Výrobce a vývozce mražených a sušených produktů",
-			"description": "Velkoobchodní mražené a sušené bobule, ovoce, houby a zelenina z Ukrajiny. Vysoce kvalitní přírodní produkty. Export do EU i celého světa."
+			"title": "Dodavatel IQF mražených bobulí a zeleniny do Evropy | B2B export",
+			"description": "Ukrajinský B2B dodavatel IQF mražených bobulí, ovoce, zeleniny a hub. Velkoobchodní export do Evropy. Certifikovaná kvalita, spolehlivá logistika, konkurenceschopné ceny."
 		},
 
 		"title": "Výrobce a vývozce mražených a sušených produktů",
@@ -71,10 +71,11 @@
 
 	"products": {
 		"meta": {
-			"title": "Všechny Produkty",
-			"description": "Velkoobchodní mražené a sušené bobule, ovoce, houby a zelenina z Ukrajiny. Vysoce kvalitní přírodní produkty. Export do EU i celého světa."
+			"title": "Dodavatel IQF mražených produktů do Evropy | B2B export z Ukrajiny",
+			"description": "Prohlédněte si naši nabídku IQF mražených bobulí, ovoce, zeleniny a hub. Ukrajinský B2B dodavatel pro velkoobchodní export do Evropy. Certifikovaná kvalita, spolehlivá logistika."
 		},
 
+		"wholesaleSupplierEurope": "Velkoobchodní dodavatel do Evropy",
 		"title": "Všechny produkty",
 		"filter": "Filtrovat",
 		"filter_placeholder": "Jaký produkt hledáte?",
@@ -128,6 +129,11 @@
 	},
 
 	"product_page": {
+		"meta": {
+			"title": "Dodavatel pro Evropu | Velkoobchodní export",
+			"description": "pro průmyslové zpracování a velkoobchodní B2B export do Evropy. Produkt prémiové kvality se zachovanou přirozenou barvou, chutí a živinami."
+		},
+
 		"origin_title": "Země původu",
 		"packaging_title": "Balení",
 		"delivery": {

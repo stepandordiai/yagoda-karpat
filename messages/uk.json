@@ -48,8 +48,8 @@
 
 	"home": {
 		"meta": {
-			"title": "Виробник та експортер замороженої та сушеної продукції",
-			"description": "Оптовий продаж заморожених та сушених ягід, фруктів, грибів та овочів з України. Високоякісні натуральні продукти. Експорт до ЄС та по всьому світу."
+			"title": "Постачальник IQF заморожених ягід та овочів у Європу | B2B експорт",
+			"description": "Український B2B постачальник IQF заморожених ягід, фруктів, овочів та грибів. Оптовий експорт до Європи. Сертифікована якість, надійна логістика, конкурентні ціни."
 		},
 
 		"title": "Виробник та експортер замороженої та сушеної продукції",
@@ -71,39 +71,39 @@
 
 	"products": {
 		"meta": {
-			"title": "Всі Продукти",
-			"description": "Оптовий продаж заморожених та сушених ягід, фруктів, грибів та овочів з України. Високоякісні натуральні продукти. Експорт до ЄС та по всьому світу."
+			"title": "Постачальник IQF замороженої продукції в Європу | B2B експорт з України",
+			"description": "Ознайомтеся з асортиментом IQF заморожених ягід, фруктів, овочів та грибів. Український B2B постачальник для оптового експорту до Європи. Сертифікована якість, надійна логістика."
 		},
 
 		"title": "Всі продукти",
 		"filter": "Фільтер",
 		"filter_placeholder": "Який продукт ви шукаєте?",
 		"productNotFound": "Продукт не знайдено",
-		"frozenBilberries": "Заморожена чорниця",
-		"frozenLingonberries": "Заморожена брусниця",
-		"frozenRosehips": "Заморожені шипшини",
-		"frozenPlums": "Заморожені сливи",
+		"frozenBilberries": "IQF заморожена чорниця",
+		"frozenLingonberries": "IQF заморожена брусниця",
+		"frozenRosehips": "IQF заморожені шипшини",
+		"frozenPlums": "IQF заморожені сливи",
 		"driedPlums": "Сушені сливи",
 		"prunes": "Чорнослив",
-		"frozenElderberries": "Заморожена бузина",
-		"frozenStrawberries": "Заморожена полуниця",
-		"frozenRaspberries": "Заморожена малина",
-		"frozenApricots": "Заморожені абрикоси",
-		"frozenRedBellPeppers": "Заморожений червоний солодкий перець",
-		"frozenGreenBellPeppers": "Заморожений зелений солодкий перець",
-		"frozenYellowBellPeppers": "Заморожений жовтий солодкий перець",
-		"frozenMixedBellPeppers": "Заморожений мікс солодкого перцю",
+		"frozenElderberries": "IQF заморожена бузина",
+		"frozenStrawberries": "IQF заморожена полуниця",
+		"frozenRaspberries": "IQF заморожена малина",
+		"frozenApricots": "IQF заморожені абрикоси",
+		"frozenRedBellPeppers": "IQF заморожений червоний солодкий перець",
+		"frozenGreenBellPeppers": "IQF заморожений зелений солодкий перець",
+		"frozenYellowBellPeppers": "IQF заморожений жовтий солодкий перець",
+		"frozenMixedBellPeppers": "IQF заморожений мікс солодкого перцю",
 		"freshPorciniMushrooms": "Свіжі білі гриби",
-		"frozenPorciniMushrooms": "Заморожені білі гриби",
+		"frozenPorciniMushrooms": "IQF заморожені білі гриби",
 		"driedPorciniMushrooms": "Сушені білі гриби",
 		"freshChanterelles": "Свіжі лисички",
 		"driedChanterelles": "Сушені лисички",
-		"frozenSourCherries": "Заморожена вишня",
-		"frozenHoneyMushrooms": "Заморожені опеньки",
-		"frozenBlackberries": "Заморожена ожина",
-		"frozenGrapes": "Заморожений виноград",
-		"frozenCorn": "Заморожена кукурудза",
-		"frozenBlackCurrants": "Заморожена чорна смородина",
+		"frozenSourCherries": "IQF заморожена вишня",
+		"frozenHoneyMushrooms": "IQF заморожені опеньки",
+		"frozenBlackberries": "IQF заморожена ожина",
+		"frozenGrapes": "IQF заморожений виноград",
+		"frozenCorn": "IQF заморожена кукурудза",
+		"frozenBlackCurrants": "IQF заморожена чорна смородина",
 		"productDetails": "Деталі продукту"
 	},
 
@@ -129,6 +129,11 @@
 	},
 
 	"product_page": {
+		"meta": {
+			"title": "Постачальник в Європу | Оптовий експорт",
+			"description": "для промислової переробки та B2B оптового експорту до Європи. Продукт преміальної якості зі збереженим природним кольором, смаком і поживними властивостями."
+		},
+
 		"origin_title": "Країна походження",
 		"packaging_title": "Пакування",
 		"delivery": {

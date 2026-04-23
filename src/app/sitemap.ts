@@ -27,7 +27,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
 			alternates[locale] = `${BASE_URL}/${locale}${page.path}`;
 		}
 
-		alternates["x-default"] = `${BASE_URL}/uk${page.path}`;
+		alternates["x-default"] =
+			`${BASE_URL}/${routing.defaultLocale}${page.path}`;
 
 		for (const locale of routing.locales) {
 			urls.push({
@@ -44,16 +45,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
 	const productUrls = routing.locales.flatMap((locale) =>
 		products.map((page) => ({
-			url: `${BASE_URL}/${locale}/products/${page}`,
+			url: `${BASE_URL}/${locale}/products/${page.id}`,
 			lastModified: now,
 			changeFrequency: "monthly" as const,
 			priority: 0.8,
 			alternates: {
 				languages: {
-					uk: `${BASE_URL}/uk/products/${page}`,
-					en: `${BASE_URL}/en/products/${page}`,
-					cs: `${BASE_URL}/cs/products/${page}`,
-					"x-default": `${BASE_URL}/${routing.defaultLocale}/products/${page}`,
+					uk: `${BASE_URL}/uk/products/${page.id}`,
+					en: `${BASE_URL}/en/products/${page.id}`,
+					cs: `${BASE_URL}/cs/products/${page.id}`,
+					"x-default": `${BASE_URL}/${routing.defaultLocale}/products/${page.id}`,
 				},
 			},
 		})),
