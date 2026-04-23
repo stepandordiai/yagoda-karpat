@@ -79,7 +79,7 @@ export default async function Home() {
 						</div>
 					</div>
 				</section>
-				<AboutUs products={products} />
+				<AboutUs productsLength={products.length} />
 				<section className="home-products" id="products">
 					<SectionTitle name={t("products_title")} />
 					<div className="products-container">
