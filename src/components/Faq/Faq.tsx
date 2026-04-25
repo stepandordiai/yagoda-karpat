@@ -20,7 +20,7 @@ export default function Faq({ faqs }: FaqProps) {
 
 	return (
 		<section className="faq">
-			<h3 className="faq__title">FAQ</h3>
+			<h3 className="faq__title">{t("faq.title")}</h3>
 			<div className="faq-container">
 				<div className="faq-questions">
 					{faqs.map((faq, i) => {

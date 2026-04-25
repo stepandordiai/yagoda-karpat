@@ -33,6 +33,7 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	gap: 10px;
 	overflow: hidden;
 	background: var(--bg-clr);
 	font-weight: 500;
@@ -58,6 +59,7 @@
 }
 
 .faq__btn-icon {
+	flex-shrink: 0;
 	display: flex;
 	justify-content: center;
 	align-items: center;
