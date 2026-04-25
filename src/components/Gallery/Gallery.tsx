@@ -1,14 +1,10 @@
 "use client";
 
 import { useTranslations } from "next-intl";
-
 // Swiper
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
-import { Autoplay } from "swiper/modules";
-
+// import { Autoplay } from "swiper/modules";
 import "./Gallery.scss";
 
 const galleryData = [
@@ -31,13 +27,13 @@ const Gallery = () => {
 				}}
 				spaceBetween={10}
 				slidesPerView={2}
-				autoplay={{
-					delay: 3000,
-					disableOnInteraction: false,
-				}}
-				speed={1000}
-				loop={true}
-				modules={[Autoplay]}
+				// autoplay={{
+				// 	delay: 3000,
+				// 	disableOnInteraction: false,
+				// }}
+				// speed={1000}
+				// loop={galleryData.length > 1}
+				// modules={[Autoplay]}
 				className="mySwiper"
 			>
 				{galleryData.map(({ img, date }, index) => {

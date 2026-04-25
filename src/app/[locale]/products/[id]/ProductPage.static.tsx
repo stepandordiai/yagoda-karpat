@@ -2,7 +2,7 @@
 
 import { useTranslations } from "next-intl";
 import { Product } from "@/interfaces/Product";
-import { JSX, useState, useLayoutEffect } from "react";
+import { JSX, useState } from "react";
 import ContactDetails from "@/components/ContactDetails/ContactDetails";
 import Image from "next/image";
 import harvestData from "@/data/harvest-data.json";
@@ -12,22 +12,17 @@ import WhatsappIcon from "@/components/icons/WhatsappIcon";
 import ViberIcon from "@/components/icons/ViberIcon";
 import TelIcon from "@/components/icons/TelIcon";
 import EmailIcon from "@/components/icons/EmailIcon";
-import "./ProductPage.scss";
-
 // Swiper
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
+import "./ProductPage.scss";
 
 interface Harvest {
 	id: number;
 	month: string;
 }
-
-type ProductPageStaticProps = {
-	product: Product;
-};
 
 interface Social {
 	title: string;
@@ -59,17 +54,12 @@ const socialsData: Social[] = [
 	},
 ];
 
+type ProductPageStaticProps = {
+	product: Product;
+};
+
 export default function ProductPageStatic({ product }: ProductPageStaticProps) {
 	const t = useTranslations();
-
-	// TODO: LEARN THIS
-	useLayoutEffect(() => {
-		window.scrollTo({
-			top: 0,
-			left: 0,
-			behavior: "instant",
-		});
-	}, []);
 
 	const [activeVariantId, setActiveVariantId] = useState(
 		product?.variants[0].id ?? null,
@@ -265,13 +255,18 @@ export default function ProductPageStatic({ product }: ProductPageStaticProps) {
 						<Swiper
 							// TODO: learn this
 							key={activeVariantId}
-							spaceBetween={25}
+							breakpoints={{
+								900: {
+									spaceBetween: 25,
+								},
+							}}
+							spaceBetween={10}
 							autoplay={{
 								delay: 3000,
 								disableOnInteraction: false,
 							}}
 							speed={500}
-							loop={true}
+							loop={productVariant.images.length > 1}
 							pagination={{
 								type: "fraction",
 							}}

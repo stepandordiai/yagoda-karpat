@@ -10,6 +10,7 @@ import Header from "@/components/layout/Header/Header";
 import Footer from "@/components/layout/Footer/Footer";
 import { BASE_URL } from "@/lib/constants";
 import "@/scss/globals.scss";
+import ScrollToTop from "@/utils/ScrollToTop";
 
 const montserrat = Montserrat({
 	variable: "--font-montserrat",
@@ -55,6 +56,7 @@ export default async function LocaleLayout({
 				/>
 			</head>
 			<body className={montserrat.variable}>
+				<ScrollToTop />
 				<NextIntlClientProvider locale={locale}>
 					<Loading />
 					<Header products={products} />
