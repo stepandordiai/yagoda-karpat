@@ -6,34 +6,14 @@ import classNames from "classnames";
 import PlusIcon from "../icons/PlusIcon";
 import "./styles.scss";
 
-const faqs = [
-	{
-		q: "faq.q.1",
-		a: "faq.a.1",
-	},
-	{
-		q: "faq.q.2",
-		a: "faq.a.2",
-	},
-	{
-		q: "faq.q.3",
-		a: "faq.a.3",
-	},
-	{
-		q: "faq.q.4",
-		a: "faq.a.4",
-	},
-	{
-		q: "faq.q.5",
-		a: "faq.a.5",
-	},
-	{
-		q: "faq.q.6",
-		a: "faq.a.6",
-	},
-];
+type FaqProps = {
+	faqs: {
+		q: string;
+		a: string;
+	}[];
+};
 
-export default function Faq() {
+export default function Faq({ faqs }: FaqProps) {
 	const t = useTranslations();
 
 	const [activeFaq, setActiveFaq] = useState(faqs[0]);

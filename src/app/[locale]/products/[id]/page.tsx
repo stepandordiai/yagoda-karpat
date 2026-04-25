@@ -8,7 +8,35 @@ import ProductPageStatic from "./ProductPage.static";
 import ProductCard from "@/components/ProductCard/ProductCard";
 import Breadcrumbs from "@/components/common/Breadcrumbs/Breadcrumbs";
 import { productJsonLd } from "@/lib/jsonld/ProductJsonLd";
+import Faq from "@/components/Faq/Faq";
 import "./ProductPage.scss";
+
+const productPageFaqs = [
+	{
+		q: "faq.productPage.q.1",
+		a: "faq.productPage.a.1",
+	},
+	{
+		q: "faq.productPage.q.2",
+		a: "faq.productPage.a.2",
+	},
+	{
+		q: "faq.productPage.q.3",
+		a: "faq.productPage.a.3",
+	},
+	{
+		q: "faq.productPage.q.4",
+		a: "faq.productPage.a.4",
+	},
+	{
+		q: "faq.productPage.q.5",
+		a: "faq.productPage.a.5",
+	},
+	{
+		q: "faq.productPage.q.6",
+		a: "faq.productPage.a.6",
+	},
+];
 
 export async function generateMetadata({
 	params,
@@ -122,6 +150,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
 							</div>
 						</>
 					)}
+					<Faq faqs={productPageFaqs} />
 				</Container>
 			</main>
 		</>

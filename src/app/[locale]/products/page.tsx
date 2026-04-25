@@ -3,7 +3,35 @@ import { getTranslations } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import Breadcrumbs from "@/components/common/Breadcrumbs/Breadcrumbs";
 import ProductsClient from "./Products.client";
+import Faq from "@/components/Faq/Faq";
 import "./Products.scss";
+
+const productsFaqs = [
+	{
+		q: "faq.products.q.1",
+		a: "faq.products.a.1",
+	},
+	{
+		q: "faq.products.q.2",
+		a: "faq.products.a.2",
+	},
+	{
+		q: "faq.products.q.3",
+		a: "faq.products.a.3",
+	},
+	{
+		q: "faq.products.q.4",
+		a: "faq.products.a.4",
+	},
+	{
+		q: "faq.products.q.5",
+		a: "faq.products.a.5",
+	},
+	{
+		q: "faq.products.q.6",
+		a: "faq.products.a.6",
+	},
+];
 
 export async function generateMetadata({
 	params,
@@ -38,6 +66,7 @@ export default async function Products() {
 			<Breadcrumbs homeTitle={t("home_title")} title={t("products_title")} />
 			<h1 className="products__title">{t("products.title")}</h1>
 			<ProductsClient />
+			<Faq faqs={productsFaqs} />
 		</main>
 	);
 }

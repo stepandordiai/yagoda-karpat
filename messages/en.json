@@ -240,21 +240,62 @@
 
 	"faq": {
 		"title": "FAQ",
-		"q": {
-			"1": "What products do you offer?",
-			"2": "Where are your products sourced?",
-			"3": "Are your products organic?",
-			"4": "Do you offer wholesale or bulk orders?",
-			"5": "How do you ensure product quality?",
-			"6": "What packaging options do you provide?"
+
+		"home": {
+			"q": {
+				"1": "What products do you offer?",
+				"2": "Where are your products sourced?",
+				"3": "Are your products organic?",
+				"4": "Do you offer wholesale or bulk orders?",
+				"5": "How do you ensure product quality?",
+				"6": "What packaging options do you provide?"
+			},
+			"a": {
+				"1": "We specialize in high-quality Carpathian berries and natural products, including fresh, frozen, and processed berries. Our ассортимент may include blueberries, raspberries, blackberries, and other forest fruits, depending on the season.",
+				"2": "All our products are sourced from the Carpathian region, known for its clean environment and rich biodiversity. We work with local farmers and trusted collectors to ensure authenticity and quality.",
+				"3": "Many of our products are naturally grown in wild or low-intervention environments. If you require certified organic products, please contact us to confirm current availability and certifications.",
+				"4": "Yes, we supply both retail and wholesale customers. We can accommodate bulk orders for businesses, distributors, and partners. Please reach out to discuss pricing and logistics.",
+				"5": "We follow strict quality control procedures at every stage—from harvesting and sorting to storage and delivery. Our products are carefully handled to maintain freshness, taste, and nutritional value.",
+				"6": "We offer flexible packaging options depending on your needs, including retail-ready packaging and bulk containers for wholesale clients."
+			}
 		},
-		"a": {
-			"1": "We specialize in high-quality Carpathian berries and natural products, including fresh, frozen, and processed berries. Our ассортимент may include blueberries, raspberries, blackberries, and other forest fruits, depending on the season.",
-			"2": "All our products are sourced from the Carpathian region, known for its clean environment and rich biodiversity. We work with local farmers and trusted collectors to ensure authenticity and quality.",
-			"3": "Many of our products are naturally grown in wild or low-intervention environments. If you require certified organic products, please contact us to confirm current availability and certifications.",
-			"4": "Yes, we supply both retail and wholesale customers. We can accommodate bulk orders for businesses, distributors, and partners. Please reach out to discuss pricing and logistics.",
-			"5": "We follow strict quality control procedures at every stage—from harvesting and sorting to storage and delivery. Our products are carefully handled to maintain freshness, taste, and nutritional value.",
-			"6": "We offer flexible packaging options depending on your needs, including retail-ready packaging and bulk containers for wholesale clients."
+
+		"products": {
+			"q": {
+				"1": "What types of berries do you offer?",
+				"2": "Are your berries available fresh or frozen?",
+				"3": "What is the harvest season for your products?",
+				"4": "Do you offer customized packaging for products?",
+				"5": "What are the storage requirements for your berries?",
+				"6": "What is the shelf life of your products?"
+			},
+			"a": {
+				"1": "We offer a variety of Carpathian berries, including blueberries, raspberries, blackberries, and other forest fruits. Availability depends on the season.",
+				"2": "Our berries are available in fresh, frozen, and processed forms, depending on the product and season. Frozen products are available year-round.",
+				"3": "Harvest seasons vary by product. Most berries are harvested between late spring and early autumn, while frozen products are available throughout the year.",
+				"4": "Yes, we provide flexible packaging options, including customized solutions for wholesale and private label clients.",
+				"5": "Fresh berries should be stored refrigerated and consumed quickly. Frozen berries must be kept at -18°C or lower to maintain quality.",
+				"6": "Shelf life depends on the product type. Fresh berries typically last a few days under refrigeration, while frozen products can last up to 12-24 months when properly stored."
+			}
+		},
+
+		"productPage": {
+			"q": {
+				"1": "What forms is this product available in?",
+				"2": "Is this product available year-round?",
+				"3": "What are the storage requirements?",
+				"4": "What is the shelf life of this product?",
+				"5": "Do you offer bulk or wholesale options?",
+				"6": "Can I request custom packaging for this product?"
+			},
+			"a": {
+				"1": "This product is available in fresh, frozen (IQF), or processed forms depending on the season and availability.",
+				"2": "Fresh products are available during the harvest season, while frozen products are typically available year-round.",
+				"3": "Fresh products should be stored refrigerated and consumed quickly. Frozen products must be stored at -18°C or lower to maintain quality.",
+				"4": "Shelf life depends on the form. Fresh products typically last a few days under refrigeration, while frozen products can last up to 12–24 months when properly stored.",
+				"5": "Yes, we offer bulk and wholesale supply options for this product. Please contact us for pricing and minimum order quantities.",
+				"6": "Yes, we provide flexible packaging options, including customized solutions and private label packaging for business clients."
+			}
 		}
 	}
 }

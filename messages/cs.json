@@ -241,21 +241,62 @@
 
 	"faq": {
 		"title": "Často kladené otázky",
-		"q": {
-			"1": "Jaké produkty nabízíte?",
-			"2": "Odkud pochází vaše produkty?",
-			"3": "Jsou vaše produkty bio?",
-			"4": "Nabízíte velkoobchod nebo objednávky ve větším množství?",
-			"5": "Jak zajišťujete kvalitu produktů?",
-			"6": "Jaké možnosti balení nabízíte?"
+
+		"home": {
+			"q": {
+				"1": "Jaké produkty nabízíte?",
+				"2": "Odkud pochází vaše produkty?",
+				"3": "Jsou vaše produkty bio?",
+				"4": "Nabízíte velkoobchod nebo objednávky ve větším množství?",
+				"5": "Jak zajišťujete kvalitu produktů?",
+				"6": "Jaké možnosti balení nabízíte?"
+			},
+			"a": {
+				"1": "Specializujeme se na vysoce kvalitní karpatské bobule a přírodní produkty, včetně čerstvých, mražených a zpracovaných plodů. V naší nabídce najdete například borůvky, maliny, ostružiny a další lesní plody v závislosti na sezóně.",
+				"2": "Veškeré naše produkty pocházejí z karpatského regionu, který je známý svou čistou přírodou a bohatou biodiverzitou. Spolupracujeme s místními farmáři a ověřenými sběrači, abychom zajistili autenticitu a kvalitu.",
+				"3": "Mnoho našich produktů pochází z přirozeného prostředí nebo je pěstováno s minimálním zásahem. Pokud požadujete certifikované bio produkty, kontaktujte nás prosím pro aktuální dostupnost a certifikace.",
+				"4": "Ano, dodáváme jak maloobchodním, tak velkoobchodním zákazníkům. Jsme schopni zajistit větší objednávky pro firmy, distributory i partnery. Pro více informací o cenách a logistice nás neváhejte kontaktovat.",
+				"5": "Dodržujeme přísné standardy kontroly kvality ve všech fázích — od sběru a třídění až po skladování a dopravu. S našimi produkty zacházíme pečlivě, abychom zachovali jejich čerstvost, chuť a nutriční hodnoty.",
+				"6": "Nabízíme flexibilní možnosti balení podle vašich potřeb, včetně maloobchodního balení i velkých obalů pro velkoobchodní zákazníky."
+			}
 		},
-		"a": {
-			"1": "Specializujeme se na vysoce kvalitní karpatské bobule a přírodní produkty, včetně čerstvých, mražených a zpracovaných plodů. V naší nabídce najdete například borůvky, maliny, ostružiny a další lesní plody v závislosti na sezóně.",
-			"2": "Veškeré naše produkty pocházejí z karpatského regionu, který je známý svou čistou přírodou a bohatou biodiverzitou. Spolupracujeme s místními farmáři a ověřenými sběrači, abychom zajistili autenticitu a kvalitu.",
-			"3": "Mnoho našich produktů pochází z přirozeného prostředí nebo je pěstováno s minimálním zásahem. Pokud požadujete certifikované bio produkty, kontaktujte nás prosím pro aktuální dostupnost a certifikace.",
-			"4": "Ano, dodáváme jak maloobchodním, tak velkoobchodním zákazníkům. Jsme schopni zajistit větší objednávky pro firmy, distributory i partnery. Pro více informací o cenách a logistice nás neváhejte kontaktovat.",
-			"5": "Dodržujeme přísné standardy kontroly kvality ve všech fázích — od sběru a třídění až po skladování a dopravu. S našimi produkty zacházíme pečlivě, abychom zachovali jejich čerstvost, chuť a nutriční hodnoty.",
-			"6": "Nabízíme flexibilní možnosti balení podle vašich potřeb, včetně maloobchodního balení i velkých obalů pro velkoobchodní zákazníky."
+
+		"products": {
+			"q": {
+				"1": "Jaké druhy bobulí nabízíte?",
+				"2": "Jsou vaše bobule dostupné čerstvé nebo mražené?",
+				"3": "Jaké je období sklizně vašich produktů?",
+				"4": "Nabízíte individuální možnosti balení?",
+				"5": "Jaké jsou podmínky skladování bobulí?",
+				"6": "Jaká je trvanlivost vašich produktů?"
+			},
+			"a": {
+				"1": "Nabízíme různé druhy karpatských bobulí, včetně borůvek, malin, ostružin a dalších lesních plodů. Dostupnost závisí na sezóně.",
+				"2": "Naše bobule jsou dostupné v čerstvé, mražené i zpracované formě v závislosti na produktu a sezóně. Mražené produkty jsou k dispozici po celý rok.",
+				"3": "Období sklizně se liší podle druhu produktu. Většina bobulí se sklízí od pozdního jara do začátku podzimu, zatímco mražené produkty jsou dostupné celoročně.",
+				"4": "Ano, nabízíme flexibilní možnosti balení, včetně individuálních řešení pro velkoobchodní zákazníky a privátní značky.",
+				"5": "Čerstvé bobule je nutné uchovávat v chladu a rychle spotřebovat. Mražené bobule je třeba skladovat při teplotě -18 °C nebo nižší pro zachování kvality.",
+				"6": "Trvanlivost závisí na typu produktu. Čerstvé bobule obvykle vydrží několik dní v chladu, zatímco mražené produkty mohou při správném skladování vydržet 12–24 měsíců."
+			}
+		},
+
+		"productPage": {
+			"q": {
+				"1": "V jakých formách je tento produkt dostupný?",
+				"2": "Je tento produkt dostupný po celý rok?",
+				"3": "Jaké jsou podmínky skladování?",
+				"4": "Jaká je trvanlivost tohoto produktu?",
+				"5": "Nabízíte velkoobchod nebo dodávky ve větším množství?",
+				"6": "Je možné objednat individuální balení pro tento produkt?"
+			},
+			"a": {
+				"1": "Tento produkt je dostupný v čerstvé, mražené (IQF) nebo zpracované formě v závislosti na sezóně a dostupnosti.",
+				"2": "Čerstvé produkty jsou dostupné během sezóny sklizně, zatímco mražené produkty jsou obvykle k dispozici po celý rok.",
+				"3": "Čerstvé produkty je nutné uchovávat v chladu a rychle spotřebovat. Mražené produkty je třeba skladovat při teplotě -18 °C nebo nižší pro zachování kvality.",
+				"4": "Trvanlivost závisí na formě produktu. Čerstvé produkty obvykle vydrží několik dní v chladu, zatímco mražené mohou při správném skladování vydržet 12–24 měsíců.",
+				"5": "Ano, nabízíme velkoobchodní i objemové dodávky tohoto produktu. Pro informace o cenách a minimálním množství nás prosím kontaktujte.",
+				"6": "Ano, nabízíme flexibilní možnosti balení, včetně individuálních řešení a privátní značky pro firemní klienty."
+			}
 		}
 	}
 }

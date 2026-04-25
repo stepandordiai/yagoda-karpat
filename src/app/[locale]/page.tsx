@@ -12,6 +12,33 @@ import { Link } from "@/i18n/navigation";
 import Faq from "@/components/Faq/Faq";
 import "./Home.scss";
 
+const faqs = [
+	{
+		q: "faq.home.q.1",
+		a: "faq.home.a.1",
+	},
+	{
+		q: "faq.home.q.2",
+		a: "faq.home.a.2",
+	},
+	{
+		q: "faq.home.q.3",
+		a: "faq.home.a.3",
+	},
+	{
+		q: "faq.home.q.4",
+		a: "faq.home.a.4",
+	},
+	{
+		q: "faq.home.q.5",
+		a: "faq.home.a.5",
+	},
+	{
+		q: "faq.home.q.6",
+		a: "faq.home.a.6",
+	},
+];
+
 export async function generateMetadata({
 	params,
 }: {
@@ -100,7 +127,7 @@ export default async function Home() {
 					</Link>
 				</section>
 				<Certificates />
-				<Faq />
+				<Faq faqs={faqs} />
 				<Contacts />
 			</Container>
 		</main>
