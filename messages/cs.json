@@ -237,5 +237,25 @@
 		"messagePlaceholder": "Uveďte prosím požadované balení, objem a cílovou zemi.",
 		"minimumOrderQuantity": "*Minimální objednávka: 500 kg",
 		"wholesaleSupplier": "Velkoobchodní dodavatel"
+	},
+
+	"faq": {
+		"title": "Často kladené otázky",
+		"q": {
+			"1": "Jaké produkty nabízíte?",
+			"2": "Odkud pochází vaše produkty?",
+			"3": "Jsou vaše produkty bio?",
+			"4": "Nabízíte velkoobchod nebo objednávky ve větším množství?",
+			"5": "Jak zajišťujete kvalitu produktů?",
+			"6": "Jaké možnosti balení nabízíte?"
+		},
+		"a": {
+			"1": "Specializujeme se na vysoce kvalitní karpatské bobule a přírodní produkty, včetně čerstvých, mražených a zpracovaných plodů. V naší nabídce najdete například borůvky, maliny, ostružiny a další lesní plody v závislosti na sezóně.",
+			"2": "Veškeré naše produkty pocházejí z karpatského regionu, který je známý svou čistou přírodou a bohatou biodiverzitou. Spolupracujeme s místními farmáři a ověřenými sběrači, abychom zajistili autenticitu a kvalitu.",
+			"3": "Mnoho našich produktů pochází z přirozeného prostředí nebo je pěstováno s minimálním zásahem. Pokud požadujete certifikované bio produkty, kontaktujte nás prosím pro aktuální dostupnost a certifikace.",
+			"4": "Ano, dodáváme jak maloobchodním, tak velkoobchodním zákazníkům. Jsme schopni zajistit větší objednávky pro firmy, distributory i partnery. Pro více informací o cenách a logistice nás neváhejte kontaktovat.",
+			"5": "Dodržujeme přísné standardy kontroly kvality ve všech fázích — od sběru a třídění až po skladování a dopravu. S našimi produkty zacházíme pečlivě, abychom zachovali jejich čerstvost, chuť a nutriční hodnoty.",
+			"6": "Nabízíme flexibilní možnosti balení podle vašich potřeb, včetně maloobchodního balení i velkých obalů pro velkoobchodní zákazníky."
+		}
 	}
 }

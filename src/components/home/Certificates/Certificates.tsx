@@ -11,7 +11,7 @@ const Certificates = () => {
 		<section className="certificates">
 			<div>
 				<h3 className="certificates__title">{t("certificates_title")}</h3>
-				<p style={{ textAlign: "justify" }}>{t("ourCertificates.desc")}</p>
+				<p>{t("ourCertificates.desc")}</p>
 			</div>
 			<div>
 				<img
