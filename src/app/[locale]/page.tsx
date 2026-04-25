@@ -49,6 +49,9 @@ export default async function Home() {
 							autoPlay
 							muted
 							playsInline
+							poster="/hero-img-c.png"
+							// TODO: This video is decorative
+							aria-hidden="true"
 						>
 							<source src="/video-c.mp4" type="video/mp4" />
 							Your browser does not support the video tag.
@@ -57,6 +60,8 @@ export default async function Home() {
 							className="home-container__video-author"
 							href="https://www.pexels.com/@ksnblog/"
 							target="_blank"
+							// TODO: learn this
+							rel="noopener noreferrer"
 						>
 							Sergey k
 						</a>
