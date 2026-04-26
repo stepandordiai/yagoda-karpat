@@ -14,9 +14,10 @@ import TelIcon from "@/components/icons/TelIcon";
 import EmailIcon from "@/components/icons/EmailIcon";
 // Swiper
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Pagination } from "swiper/modules";
+import { Navigation, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
+import "swiper/css/navigation";
 import "./ProductPage.scss";
 
 interface Harvest {
@@ -261,18 +262,52 @@ export default function ProductPageStatic({ product }: ProductPageStaticProps) {
 								},
 							}}
 							spaceBetween={10}
-							autoplay={{
-								delay: 3000,
-								disableOnInteraction: false,
+							navigation={{
+								nextEl: ".swiper-btn-next",
+								prevEl: ".swiper-btn-prev",
 							}}
-							speed={500}
-							loop={productVariant.images.length > 1}
+							// autoplay={{
+							// 	delay: 3000,
+							// 	disableOnInteraction: false,
+							// }}
+							// speed={500}
+							// loop={productVariant.images.length > 1}
 							pagination={{
 								type: "fraction",
 							}}
-							modules={[Autoplay, Pagination]}
+							modules={[Pagination, Navigation]}
 							className="swiper"
 						>
+							<button className="swiper-btn-prev">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									width="16"
+									height="16"
+									fill="currentColor"
+									className="bi bi-chevron-left"
+									viewBox="0 0 16 16"
+								>
+									<path
+										fillRule="evenodd"
+										d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0"
+									/>
+								</svg>
+							</button>
+							<button className="swiper-btn-next">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									width="16"
+									height="16"
+									fill="currentColor"
+									className="bi bi-chevron-right"
+									viewBox="0 0 16 16"
+								>
+									<path
+										fillRule="evenodd"
+										d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"
+									/>
+								</svg>
+							</button>
 							{productVariant.images.map((img, index) => {
 								return (
 									<SwiperSlide key={index}>
@@ -282,7 +317,7 @@ export default function ProductPageStatic({ product }: ProductPageStaticProps) {
 											width={1600}
 											height={1200}
 											alt={`${t(product.name)} ${productVariant.state ? t(productVariant.state) : ""}`.trimEnd()}
-											// TODO: LEARN THIS
+											// TODO: learn this
 											priority={index === 0}
 										/>
 									</SwiperSlide>

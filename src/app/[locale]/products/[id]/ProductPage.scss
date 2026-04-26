@@ -119,8 +119,59 @@
 	width: 50% !important;
 }
 
+// Swiper
+
 .swiper {
 	border-radius: 10px;
+
+	.swiper-slide {
+		cursor: grab;
+
+		&:active {
+			cursor: grabbing;
+		}
+	}
+
+	.swiper-btn-prev {
+		position: absolute;
+		z-index: 1;
+		bottom: 10px;
+		right: calc(10px + 36px + 5px);
+		@include flex-center;
+		background: rgba(0, 0, 0, 0.25);
+		@include glass-effect;
+		color: #fff;
+		padding: 10px;
+		border-radius: inherit;
+		transition: background-color 0.15s;
+
+		&:hover {
+			background: rgba(0, 0, 0, 0.5);
+		}
+	}
+
+	.swiper-btn-next {
+		position: absolute;
+		z-index: 1;
+		bottom: 10px;
+		right: 10px;
+		@include flex-center;
+		background: rgba(0, 0, 0, 0.25);
+		@include glass-effect;
+		color: #fff;
+		padding: 10px;
+		border-radius: inherit;
+		transition: background-color 0.15s;
+
+		&:hover {
+			background: rgba(0, 0, 0, 0.5);
+		}
+	}
+
+	.swiper-button-disabled {
+		opacity: 0.5;
+		background: rgba(0, 0, 0, 0.25) !important;
+	}
 }
 
 .swiper-img {
@@ -131,13 +182,14 @@
 	position: absolute;
 	bottom: 10px;
 	left: 10px !important;
+	@include flex-center;
 	color: #fff !important;
 	width: max-content !important;
-	padding: 10px;
-	border-radius: 10px;
+	height: 36px;
+	padding: 0 10px;
+	border-radius: inherit;
 	background: rgba(0, 0, 0, 0.25);
-	-webkit-backdrop-filter: blur(10px);
-	backdrop-filter: blur(10px);
+	@include glass-effect;
 }
 
 .product-page__contacts {
