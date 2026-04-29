@@ -6,6 +6,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 // import { Autoplay } from "swiper/modules";
 import "./Gallery.scss";
+import Image from "next/image";
 
 const galleryData = [
 	{ img: "/gallery/01-c.jpg", date: "26/11/24" },
@@ -39,7 +40,7 @@ const Gallery = () => {
 				{galleryData.map(({ img, date }, index) => {
 					return (
 						<SwiperSlide key={index} className="swiper-card" data-date={date}>
-							<img src={img} alt="" loading="lazy" />
+							<Image src={img} width={448.75} height={598.33} alt="" />
 						</SwiperSlide>
 					);
 				})}

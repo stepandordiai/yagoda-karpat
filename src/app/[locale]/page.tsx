@@ -11,6 +11,7 @@ import Certificates from "@/components/home/Certificates/Certificates";
 import { Link } from "@/i18n/navigation";
 import Faq from "@/components/Faq/Faq";
 import "./Home.scss";
+import Hero from "@/components/home/Hero/Hero";
 
 const faqs = [
 	{
@@ -69,49 +70,7 @@ export default async function Home() {
 	return (
 		<main>
 			<Container>
-				<section className="home-hero" id="home">
-					<div className="home-hero-inner">
-						<video
-							className="home-container__video"
-							loop
-							autoPlay
-							muted
-							playsInline
-							poster="/hero-img-c.png"
-							// TODO: This video is decorative
-							aria-hidden="true"
-						>
-							<source src="/video-c.mp4" type="video/mp4" />
-							Your browser does not support the video tag.
-						</video>
-						<a
-							className="home-container__video-author"
-							href="https://www.pexels.com/@ksnblog/"
-							target="_blank"
-							// TODO: learn this
-							rel="noopener noreferrer"
-						>
-							Sergey k
-						</a>
-						<p className="home-container__desc">{t("companyFullName")}</p>
-						<h1 className="home-container__title">{t("home.title")}</h1>
-						<h2 className="home-container__desc">{t("home.sec_title")}</h2>
-						<div style={{ display: "flex", flexWrap: "wrap", gap: 10 }}>
-							<Link
-								className="home-container__link btn--bold"
-								href="/#products"
-							>
-								{t("home.viewProducts")}
-							</Link>
-							<Link
-								className="home-container__link btn--bold"
-								href="/#contacts"
-							>
-								{t("home.requestPriceList")}
-							</Link>
-						</div>
-					</div>
-				</section>
+				<Hero />
 				<AboutUs productsLength={products.length} />
 				<section className="home-products" id="products">
 					<SectionTitle name={t("products_title")} />

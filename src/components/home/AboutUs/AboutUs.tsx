@@ -96,7 +96,6 @@ const AboutUs: React.FC<AboutUsProps> = ({ productsLength }) => {
 				</div>
 				<p>{t("about_us.paragraph3")}</p>
 			</div>
-
 			<Gallery />
 			<h3 className="world-map__title">{t("about_us.map_title")}</h3>
 			<div className="world-map__container">

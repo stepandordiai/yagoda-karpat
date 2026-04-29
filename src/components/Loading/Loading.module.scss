@@ -8,12 +8,14 @@
 	z-index: 100;
 	transform: scaleY(1);
 	transform-origin: bottom;
-	animation: hideLoading 1s 2.25s forwards;
+	animation: hideLoading 1s 1s forwards;
 }
 
 @keyframes hideLoading {
 	to {
-		transform: scaleY(0);
+		// transform: scaleY(0);
+		pointer-events: none;
+		opacity: 0;
 	}
 }
 
@@ -113,35 +115,5 @@
 @keyframes animateLogo {
 	to {
 		transform: translate(-50%, -50%) scale(1);
-	}
-}
-
-.curtain1 {
-	position: absolute;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	transform: scaleY(0);
-	transform-origin: top;
-	background: var(--accent-clr);
-	animation: animateCurtain 1s 1s forwards;
-}
-
-.curtain2 {
-	position: absolute;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	transform: scaleY(0);
-	transform-origin: top;
-	background: var(--accent-clr-logo);
-	animation: animateCurtain 1s 1.25s forwards;
-}
-
-@keyframes animateCurtain {
-	to {
-		transform: scale(1);
 	}
 }

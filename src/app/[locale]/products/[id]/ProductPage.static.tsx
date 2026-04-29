@@ -215,14 +215,36 @@ export default function ProductPageStatic({ product }: ProductPageStaticProps) {
 								</li>
 							</ul>
 						</div>
-						<div>
-							<h2 style={{ color: "hsl(0, 0%, 50%)", marginBottom: 5 }}>
-								{t("product_page.desc_title")}
-							</h2>
-							<p style={{ textAlign: "justify" }}>
-								{product.desc && t(product.desc)}
-							</p>
-						</div>
+						{product.desc && (
+							<div>
+								<h2 style={{ color: "hsl(0, 0%, 50%)", marginBottom: 5 }}>
+									{t("product_page.desc_title")}
+								</h2>
+								{t.raw(product.desc).map((d: string, index: number) => {
+									return <p key={index}>{d}</p>;
+								})}
+								{product.benefits && (
+									<>
+										<h3 style={{ fontWeight: 500 }}>Key Benefits:</h3>
+										<ul>
+											{t.raw(product.benefits).map((b: string, i: number) => {
+												return (
+													<li
+														key={i}
+														style={{
+															listStyle: "disc",
+															listStylePosition: "inside",
+														}}
+													>
+														{b}
+													</li>
+												);
+											})}
+										</ul>
+									</>
+								)}
+							</div>
+						)}
 						<div>
 							<h2 style={{ color: "hsl(0, 0%, 50%)", marginBottom: 5 }}>
 								{t("harvest_calendar")}

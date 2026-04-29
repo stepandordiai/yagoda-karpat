@@ -174,31 +174,392 @@
 		"cleaned_1": "čištěné",
 		"cleaned_2": "čištěné",
 		"related": "Související produkty",
-		"frozenBilberriesDesc": "IQF mražené borůvky pro průmyslové zpracování a export. Lesní, ručně sbírané plody se zachovanou přirozenou barvou, chutí a živinami.",
-		"frozenLingonberriesDesc": "IQF mražené brusinky pro průmyslové zpracování a export. Lesní, ručně sbírané plody se zachovanou přirozenou barvou, chutí a živinami.",
-		"frozenRosehipsDesc": "IQF mražené šípky pro průmyslové zpracování a export. Plané, ručně sbírané plody se zachovanou přirozenou barvou, chutí a živinami.",
-		"frozenPlumsDesc": "IQF mražené švestky pro průmyslové zpracování a export. Zralé, ručně vybírané plody se zachovanou přirozenou barvou, chutí a živinami.",
-		"driedPlumsDesc": "Sušené švestky pro průmyslové zpracování a export. Sladké vypeckované plody se zachovanou přirozenou chutí, vůní a nutriční hodnotou.",
-		"prunesDesc": "Prémiové sušené švestky (prunes) pro průmyslové zpracování a export. Sladké, jemné sušené plody s výraznou chutí, tmavou barvou a dlouhou trvanlivostí.",
-		"frozenElderberriesDesc": "IQF mražené bezinky pro průmyslové zpracování a export. Divoké tmavé bobule se zachovanou barvou, lehce trpkou chutí a vysokým obsahem antioxidantů.",
-		"frozenStrawberryDesc": "IQF mražené jahody pro průmyslové zpracování a export. Zralé, ručně vybírané plody se zachovanou barvou, vůní a přirozenou sladkostí.",
-		"frozenRaspberryDesc": "IQF mražené maliny pro průmyslové zpracování a export. Ručně sbírané zralé plody se sytou barvou, výraznou chutí a zachovanou ideální strukturou.",
-		"frozenApricotDesc": "IQF mražené meruňky pro průmyslové zpracování a export. Zralé vypeckované plody se zachovanou barvou, vůní a jemnou strukturou.",
-		"frozenRedBellPeppersDesc": "IQF mražená červená paprika pro průmyslové zpracování a export. Čištěná, krájená paprika se zachovanou barvou, sladkostí a pevnou strukturou.",
-		"frozenGreenBellPeppersDesc": "IQF mražená zelená paprika pro průmyslové zpracování a export. Paprika krájená na kostičky nebo plátky se zachovanou barvou, strukturou a jemnou chutí.",
-		"frozenYellowBellPeppersDesc": "IQF mražená žlutá paprika pro průmyslové zpracování a export. Krájená paprika s výraznou barvou, jemnou sladkostí a zachovanou hladkou strukturou.",
-		"frozenMixedBellPeppersDesc": "IQF mražená směs paprik pro průmyslové zpracování a export. Barevná směs paprik se zachovanou barvou, sladkostí a strukturou.",
-		"frozenPorciniMushroomsDesc": "IQF mražené hříbky pro průmyslové zpracování a export. Lesní houby s výraznou chutí, pevnou strukturou a zachovanou přirozenou vůní.",
-		"freshPorciniMushroomsDesc": "Čerstvé hříbky pro průmyslové zpracování a export. Lesní hřibovité houby s výraznou chutí, pevnou strukturou a prémiovou kvalitou.",
-		"driedPorciniMushroomsDesc": "Sušené hříbky pro průmyslové zpracování a export. Lesní houby s intenzivní vůní, bohatou chutí a dlouhou trvanlivostí.",
-		"freshChanterellesDesc": "Čerstvé lišky pro průmyslové zpracování a export. Lesní houby s jemnou vůní, pevnou strukturou a prémiovou kvalitou.",
-		"driedChanterellesDesc": "Sušené lišky pro průmyslové zpracování a export. Houby s výraznou vůní, zemitou chutí a dlouhou trvanlivostí.",
-		"frozenSourCherriesDesc": "IQF mražené višně pro průmyslové zpracování a export. Vypeckované višně s výraznou barvou, kyselkavou chutí a zachovanou šťavnatou strukturou.",
-		"frozenHoneyMushroomsDesc": "IQF mražené václavky pro průmyslové zpracování a export. Lesní houby s pevnou strukturou, přirozenou barvou a jemnou chutí.",
-		"frozenBlackberriesDesc": "IQF mražené ostružiny pro průmyslové zpracování a export. Lesní bobule se zachovanou barvou, sladkokyselou chutí a šťavnatou strukturou.",
-		"frozenGrapesDesc": "IQF mražené hrozny pro průmyslové zpracování a export. Bezsemenné hrozny se zachovanou sladkostí, pevnou strukturou a jasnou barvou.",
-		"frozenCornDesc": "IQF mražená sladká kukuřice pro průmyslové zpracování a export. Jemná zrna se zachovanou barvou, sladkostí a pevnou strukturou.",
-		"frozenBlackCurrantsDesc": "IQF mražený černý rybíz pro průmyslové zpracování a export. Lesní bobule s bohatou barvou, trpkou chutí a vysokým obsahem vitamínu C.",
+		"frozenBilberries": {
+			"desc": [
+				"Naše vysoce kvalitní mražené borůvky IQF (individuálně rychle zmrazené) jsou sbírány ve volné přírodě a pečlivě ručně vybírány v optimální zralosti pro zajištění vynikající chuti, syté barvy a vysoké nutriční hodnoty. Pocházejí z čistých evropských lesů a jsou okamžitě zmrazeny pomocí technologie IQF pro zachování přirozené čerstvosti, struktury a antioxidantů.",
+				"Ideální pro potravinářské výrobce, velkoobchodníky a exportní trhy. Naše mražené borůvky zajišťují stabilní kvalitu pro použití v džusech, marmeládách, mléčných výrobcích, pečivu, nutraceutikách a dalších aplikacích."
+			],
+			"benefits": [
+				"100% lesní borůvky (Vaccinium myrtillus)",
+				"Sytá přírodní barva a intenzivní chuť",
+				"Bohaté na antioxidanty, vitamíny a polyfenoly",
+				"IQF zpracování pro dlouhou trvanlivost a snadné dávkování",
+				"Bez aditiv, konzervantů a přidaného cukru",
+				"Plná sledovatelnost a soulad s normami EU"
+			]
+		},
+
+		"frozenLingonberries": {
+			"desc": [
+				"Naše prémiové mražené brusinky IQF (Vaccinium vitis-idaea) jsou sbírány ve volné přírodě v čistých evropských lesích a pečlivě vybírány v optimální zralosti, aby byla zajištěna výrazná barva, charakteristická kyselá chuť a vysoká kvalita. Díky technologii IQF jsou rychle zmrazeny pro zachování čerstvosti, struktury a nutriční hodnoty.",
+				"Jako spolehlivý dodavatel mražených brusinek nabízíme stabilní kvalitu pro výrobce, velkoobchodníky a exportní trhy. Vhodné pro omáčky, marmelády, džusy, pečivo a funkční potraviny."
+			],
+			"benefits": [
+				"100% lesní brusinky (Vaccinium vitis-idaea)",
+				"Přirozená chuť a výrazná barva",
+				"Bohaté na antioxidanty a vitamíny",
+				"Vhodné pro velkoobchod a potravinářský průmysl",
+				"Dlouhá trvanlivost",
+				"Bez aditiv a konzervantů",
+				"Soulad s normami EU"
+			]
+		},
+		"frozenRoseHips": {
+			"desc": [
+				"Naše prémiové mražené šípky IQF (Rosa canina) jsou sbírány ve volné přírodě v čistých evropských oblastech a pečlivě vybírány v optimální zralosti pro zajištění vysoké kvality, syté barvy a přirozeně kyselé chuti. Díky moderní technologii IQF jsou rychle zmrazeny pro zachování čerstvosti, struktury a nutriční hodnoty.",
+				"Jako spolehlivý dodavatel mražených šípků nabízíme stabilní kvalitu pro výrobce, velkoobchodníky a exportní trhy. Vhodné pro čaje, marmelády, džusy, doplňky stravy a funkční potraviny."
+			],
+			"benefits": [
+				"100% šípky (Rosa canina) z Evropy",
+				"Prémiová IQF kvalita",
+				"Vysoký obsah vitamínu C",
+				"Pro velkoobchod a průmysl",
+				"Dlouhá trvanlivost",
+				"Bez aditiv",
+				"Soulad s EU normami"
+			]
+		},
+
+		"frozenPlums": {
+			"desc": [
+				"Naše prémiové mražené švestky IQF (Prunus domestica) jsou pečlivě vybírány a sklizeny v optimální zralosti pro zachování chuti a barvy. Rychlé zmrazení zajišťuje zachování čerstvosti a nutriční hodnoty.",
+				"Vhodné pro marmelády, dezerty, pečivo a nápoje."
+			],
+			"benefits": [
+				"Kvalitní švestky",
+				"Přirozená sladkost",
+				"Bohaté na vlákninu",
+				"Pro průmysl",
+				"Dlouhá trvanlivost",
+				"Bez přidaných látek"
+			]
+		},
+
+		"driedPlums": {
+			"desc": [
+				"Naše prémiové sušené švestky (Prunus domestica), známé jako sušené švestky nebo švestky sušené, jsou šetrně sušeny pro zachování sladkosti a chuti.",
+				"Vhodné pro pečení, cereálie a zdravou výživu."
+			],
+			"benefits": [
+				"Prémiové sušené švestky",
+				"Přirozená sladkost",
+				"Bohaté na vlákninu",
+				"Pro potravinářství",
+				"Dlouhá trvanlivost",
+				"Bez aditiv"
+			]
+		},
+
+		"prunes": {
+			"desc": [
+				"Naše prémiové sušené švestky (prunes, Prunus domestica) pocházejí z vybraných sadů a jsou zpracovány šetrným sušením pro zachování chuti a textury.",
+				"Používají se v potravinářství, snackech a funkčních produktech."
+			],
+			"benefits": [
+				"Kvalitní sušené švestky",
+				"Přirozená sladkost",
+				"Bohaté na vlákninu",
+				"Podpora trávení",
+				"Pro velkoobchod",
+				"Dlouhá trvanlivost",
+				"Bez přidaných látek"
+			]
+		},
+		"frozenElderberries": {
+			"desc": [
+				"Naše prémiové mražené bezinky IQF (Sambucus nigra) jsou sbírány ve volné přírodě v čistých evropských oblastech a pečlivě vybírány v optimální zralosti pro zajištění syté barvy, bohaté chuti a maximální nutriční hodnoty. Díky moderní technologii IQF jsou rychle zmrazeny pro zachování přirozené čerstvosti, struktury a vysokého obsahu antioxidantů.",
+				"Jako spolehlivý dodavatel mražených bezinek nabízíme stabilní kvalitu pro výrobce potravin, velkoobchodníky a mezinárodní exportní trhy. Naše bezinky IQF jsou široce využívány v džusech, sirupech, marmeládách, doplňcích stravy a funkčních potravinách."
+			],
+			"benefits": [
+				"100% bezinky (Sambucus nigra) z Evropy",
+				"Prémiová IQF kvalita s výraznou barvou a chutí",
+				"Bohaté na antioxidanty, vitamíny a antokyany",
+				"Vhodné pro velkoobchod a potravinářský průmysl",
+				"Dlouhá trvanlivost a snadné skladování",
+				"Bez aditiv, konzervantů a přidaného cukru",
+				"Plná sledovatelnost a soulad s normami EU"
+			]
+		},
+
+		"frozenStrawberries": {
+			"desc": [
+				"Naše prémiové mražené jahody IQF (Fragaria × ananassa) jsou pečlivě vybírány z kvalitních farem a sklizeny v optimální zralosti pro zajištění výrazné barvy, přirozené sladkosti a bohaté chuti. Díky technologii IQF jsou rychle zmrazeny pro zachování čerstvosti, struktury a nutriční hodnoty.",
+				"Jako spolehlivý dodavatel mražených jahod nabízíme stabilní kvalitu pro výrobce, velkoobchodníky a exportní trhy. Vhodné pro smoothies, dezerty, marmelády, džusy, pečivo a mléčné výrobky."
+			],
+			"benefits": [
+				"Kvalitní jahody (Fragaria × ananassa) z Evropy",
+				"Prémiová IQF kvalita s přirozenou sladkostí",
+				"Bohaté na vitamín C a antioxidanty",
+				"Pro velkoobchod a průmysl",
+				"Dlouhá trvanlivost",
+				"Bez přidaných látek",
+				"Soulad s normami EU"
+			]
+		},
+
+		"frozenRaspberries": {
+			"desc": [
+				"Naše prémiové mražené maliny IQF (Rubus idaeus) jsou pečlivě vybírány z kvalitních farem a sklizeny v optimální zralosti pro zajištění výrazné barvy, jemné struktury a přirozené sladkokyselé chuti. Díky technologii IQF jsou rychle zmrazeny pro zachování čerstvosti a nutriční hodnoty.",
+				"Jako spolehlivý dodavatel mražených malin nabízíme stabilní kvalitu pro výrobce, velkoobchodníky a exportní trhy. Vhodné pro dezerty, smoothies, marmelády, pečivo a mléčné výrobky."
+			],
+			"benefits": [
+				"Kvalitní maliny (Rubus idaeus) z Evropy",
+				"Prémiová IQF kvalita s přirozenou chutí",
+				"Bohaté na antioxidanty a vlákninu",
+				"Pro potravinářský průmysl",
+				"Dlouhá trvanlivost",
+				"Bez aditiv",
+				"Soulad s normami EU"
+			]
+		},
+		"frozenApricots": {
+			"desc": [
+				"Naše prémiové mražené meruňky IQF (Prunus armeniaca) jsou pečlivě vybírány z kvalitních sadů a sklizeny v optimální zralosti pro zajištění výrazné barvy, přirozené sladkosti a bohaté chuti. Díky moderní technologii IQF jsou rychle zmrazeny pro zachování čerstvosti, struktury a nutriční hodnoty.",
+				"Jako spolehlivý dodavatel mražených meruněk nabízíme stabilní kvalitu pro výrobce potravin, velkoobchodníky a exportní trhy. Naše IQF meruňky jsou široce využívány v marmeládách, dezertech, pečivu, džusech a mléčných výrobcích."
+			],
+			"benefits": [
+				"Kvalitní meruňky (Prunus armeniaca) z Evropy",
+				"Prémiová IQF kvalita s přirozenou sladkostí",
+				"Bohaté na vitamíny, antioxidanty a vlákninu",
+				"Vhodné pro velkoobchod a průmysl",
+				"Dlouhá trvanlivost",
+				"Bez přidaných látek",
+				"Soulad s normami EU"
+			]
+		},
+
+		"frozenRedBellPeppers": {
+			"desc": [
+				"Naše prémiové mražené červené papriky IQF (Capsicum annuum) jsou pečlivě vybírány z kvalitních farem a sklizeny v optimální zralosti pro zajištění syté červené barvy, křupavé struktury a přirozeně sladké chuti. Díky technologii IQF jsou rychle zmrazeny pro zachování čerstvosti a nutriční hodnoty.",
+				"Jako spolehlivý dodavatel mražených paprik nabízíme stabilní kvalitu pro výrobce, velkoobchod a export. Vhodné pro hotová jídla, omáčky, polévky a zeleninové směsi."
+			],
+			"benefits": [
+				"Kvalitní červené papriky (Capsicum annuum)",
+				"Prémiová IQF kvalita s výraznou barvou",
+				"Bohaté na vitamín C",
+				"Pro potravinářský průmysl",
+				"Dlouhá trvanlivost",
+				"Bez aditiv",
+				"Soulad s EU normami"
+			]
+		},
+
+		"frozenGreenBellPeppers": {
+			"desc": [
+				"Naše prémiové mražené zelené papriky IQF (Capsicum annuum) jsou sklizeny v optimální zralosti pro zachování čerstvé chuti, pevné struktury a výrazné zelené barvy. Díky technologii IQF jsou rychle zmrazeny pro zachování kvality.",
+				"Vhodné pro hotová jídla, omáčky, polévky a zeleninové směsi."
+			],
+			"benefits": [
+				"Kvalitní zelené papriky (Capsicum annuum)",
+				"Přirozená chuť",
+				"Bohaté na vitamíny",
+				"Pro průmysl",
+				"Dlouhá trvanlivost",
+				"Bez přidaných látek",
+				"Soulad s normami EU"
+			]
+		},
+		"frozenYellowBellPeppers": {
+			"desc": [
+				"Naše prémiové mražené žluté papriky IQF (Capsicum annuum) jsou pečlivě vybírány z kvalitních farem a sklizeny v optimální zralosti pro zajištění výrazné žluté barvy, křupavé struktury a přirozeně sladké, jemné chuti. Díky moderní technologii IQF jsou rychle zmrazeny pro zachování čerstvosti, struktury a nutriční hodnoty.",
+				"Jako spolehlivý dodavatel mražených paprik nabízíme stabilní kvalitu pro výrobce potravin, velkoobchodníky a exportní trhy. Naše IQF žluté papriky jsou široce využívány v hotových jídlech, omáčkách, polévkách, zeleninových směsích a gastronomii."
+			],
+			"benefits": [
+				"Kvalitní žluté papriky (Capsicum annuum) z Evropy",
+				"Prémiová IQF kvalita s výraznou barvou a sladkou chutí",
+				"Bohaté na vitamíny a antioxidanty",
+				"Vhodné pro velkoobchod a průmysl",
+				"Dlouhá trvanlivost",
+				"Bez aditiv",
+				"Soulad s normami EU"
+			]
+		},
+
+		"frozenMixedBellPeppers": {
+			"desc": [
+				"Naše prémiová mražená směs paprik IQF (Capsicum annuum) kombinuje červené, zelené a žluté papriky sklizené v optimální zralosti pro zajištění výrazné barvy, křupavé struktury a vyvážené sladké chuti. Díky technologii IQF jsou rychle zmrazeny pro zachování čerstvosti a nutriční hodnoty.",
+				"Jako spolehlivý dodavatel zeleninových směsí nabízíme stabilní kvalitu pro výrobce, velkoobchod a export. Vhodné pro hotová jídla, stir-fry, omáčky, polévky a gastronomii."
+			],
+			"benefits": [
+				"Směs červených, zelených a žlutých paprik",
+				"Prémiová IQF kvalita s vyváženou chutí",
+				"Bohaté na vitamíny",
+				"Pro potravinářský průmysl",
+				"Dlouhá trvanlivost",
+				"Bez přidaných látek",
+				"Soulad s EU normami"
+			]
+		},
+
+		"frozenPorciniMushrooms": {
+			"desc": [
+				"Naše prémiové mražené hříbky IQF (Boletus edulis) jsou sbírány ve volné přírodě v čistých evropských lesích a pečlivě vybírány pro zajištění vysoké kvality, pevné struktury a výrazné chuti. Díky technologii IQF jsou rychle zmrazeny pro zachování přirozeného aroma a nutriční hodnoty.",
+				"Jako spolehlivý dodavatel hříbků nabízíme stabilní kvalitu pro výrobce, velkoobchod a export. Vhodné pro polévky, omáčky, rizota a gastronomii."
+			],
+			"benefits": [
+				"100% hříbky (Boletus edulis) z Evropy",
+				"Prémiová IQF kvalita s výrazným aroma",
+				"Pečlivě očištěné a tříděné",
+				"Pro potravinářský průmysl",
+				"Dlouhá trvanlivost",
+				"Bez aditiv",
+				"Soulad s normami EU"
+			]
+		},
+		"freshPorciniMushrooms": {
+			"desc": [
+				"Naše prémiové čerstvé hříbky (Boletus edulis) jsou sbírány ve volné přírodě v čistých evropských lesích a pečlivě vybírány pro zajištění výjimečné kvality, pevné struktury a bohatého přírodního aroma. Sbírané ručně v hlavní sezóně jsou zpracovávány s maximální péčí, aby si zachovaly svou čerstvost a špičkové kulinářské vlastnosti.",
+				"Jako spolehlivý dodavatel čerstvých hříbků nabízíme vysoce kvalitní produkty pro výrobce potravin, velkoobchodníky, restaurace a mezinárodní trhy. Naše hříbky jsou vysoce ceněny v gastronomii a používají se v polévkách, omáčkách, rizotu a prémiových pokrmech."
+			],
+			"benefits": [
+				"100% čerstvé lesní hříbky (Boletus edulis) z Evropy",
+				"Pevná struktura a bohaté aroma",
+				"Ručně sbírané a tříděné",
+				"Vhodné pro velkoobchod a gastronomii",
+				"Čerstvý produkt s rychlou distribucí",
+				"Bez aditiv a zpracování",
+				"Plná sledovatelnost a soulad s EU normami"
+			]
+		},
+		"driedPorciniMushrooms": {
+			"desc": [
+				"Naše prémiové sušené hříbky (Boletus edulis) jsou sbírány ve volné přírodě a pečlivě vybírány pro zajištění vysoké kvality, intenzivního aroma a výrazné chuti. Šetrně sušené řízeným procesem si zachovávají svou přirozenou chuť, vůni a nutriční hodnotu.",
+				"Jako spolehlivý dodavatel sušených hub nabízíme stabilní kvalitu pro výrobce, velkoobchod a export. Vhodné pro polévky, omáčky, rizota a hotová jídla."
+			],
+			"benefits": [
+				"100% sušené hříbky (Boletus edulis) z Evropy",
+				"Intenzivní aroma a chuť",
+				"Pečlivě čištěné a sušené",
+				"Pro potravinářský průmysl",
+				"Dlouhá trvanlivost",
+				"Bez aditiv",
+				"Soulad s EU normami"
+			]
+		},
+		"freshChanterelles": {
+			"desc": [
+				"Naše prémiové čerstvé lišky (Cantharellus cibarius) jsou sbírány ve volné přírodě v čistých evropských lesích a pečlivě vybírány pro zajištění vysoké kvality, výrazné zlaté barvy a jemného, lehce ovocného aroma. Sbírané ručně v sezóně si zachovávají svou čerstvost a kulinářskou hodnotu.",
+				"Jako spolehlivý dodavatel čerstvých lišek nabízíme kvalitní produkty pro výrobce, velkoobchod a gastronomii. Používají se v omáčkách, polévkách, rizotu a prémiových pokrmech."
+			],
+			"benefits": [
+				"100% čerstvé lesní lišky (Cantharellus cibarius)",
+				"Zlatá barva a jemné aroma",
+				"Ručně sbírané",
+				"Pro gastronomii",
+				"Čerstvý produkt",
+				"Bez přidaných látek",
+				"Soulad s EU normami"
+			]
+		},
+		"driedChanterelles": {
+			"desc": [
+				"Naše prémiové sušené lišky (Cantharellus cibarius) jsou sbírány ve volné přírodě v čistých evropských lesích a pečlivě vybírány pro zajištění vysoké kvality, výrazné barvy a jemného, lehce ovocného aroma. Šetrně sušené řízeným procesem si zachovávají svou přirozenou chuť, vůni a nutriční hodnotu.",
+				"Jako spolehlivý dodavatel sušených lišek nabízíme stabilní kvalitu pro výrobce potravin, velkoobchodníky a exportní trhy. Vhodné pro polévky, omáčky, rizota a hotová jídla."
+			],
+			"benefits": [
+				"100% sušené lišky (Cantharellus cibarius) z Evropy",
+				"Jemné aroma a lehce ovocná chuť",
+				"Pečlivě čištěné a sušené",
+				"Vhodné pro potravinářský průmysl",
+				"Dlouhá trvanlivost",
+				"Bez aditiv",
+				"Soulad s normami EU"
+			]
+		},
+
+		"frozenSourCherries": {
+			"desc": [
+				"Naše prémiové mražené višně IQF (Prunus cerasus) jsou pečlivě vybírány z kvalitních sadů a sklizeny v optimální zralosti pro zajištění syté červené barvy, šťavnaté struktury a charakteristické sladkokyselé chuti. Díky technologii IQF jsou rychle zmrazeny pro zachování čerstvosti a nutriční hodnoty.",
+				"Jako spolehlivý dodavatel mražených višní nabízíme stabilní kvalitu pro výrobce, velkoobchod a export. Vhodné pro pečivo, dezerty, marmelády, džusy a mléčné výrobky."
+			],
+			"benefits": [
+				"Kvalitní višně (Prunus cerasus) z Evropy",
+				"Prémiová IQF kvalita s vyváženou chutí",
+				"Bohaté na antioxidanty a vitamíny",
+				"Pro potravinářský průmysl",
+				"Dlouhá trvanlivost",
+				"Bez přidaných látek",
+				"Soulad s normami EU"
+			]
+		},
+
+		"frozenHoneyMushrooms": {
+			"desc": [
+				"Naše prémiové mražené václavky IQF (Armillaria mellea) jsou sbírány ve volné přírodě v čistých evropských lesích a pečlivě vybírány pro zajištění vysoké kvality, pevné struktury a jemné chuti. Díky technologii IQF jsou rychle zmrazeny pro zachování čerstvosti a nutriční hodnoty.",
+				"Jako spolehlivý dodavatel hub nabízíme stabilní kvalitu pro výrobce, velkoobchod a export. Vhodné pro polévky, omáčky a hotová jídla."
+			],
+			"benefits": [
+				"100% václavky (Armillaria mellea) z Evropy",
+				"Prémiová IQF kvalita",
+				"Pečlivě zpracované",
+				"Pro potravinářský průmysl",
+				"Dlouhá trvanlivost",
+				"Bez aditiv",
+				"Soulad s normami EU"
+			]
+		},
+		"frozenBlackberries": {
+			"desc": [
+				"Naše prémiové mražené ostružiny IQF (Rubus fruticosus) jsou pečlivě vybírány z kvalitních farem a sklizeny v optimální zralosti pro zajištění syté barvy, šťavnaté struktury a bohaté sladkokyselé chuti. Díky moderní technologii IQF jsou rychle zmrazeny pro zachování čerstvosti, struktury a nutriční hodnoty.",
+				"Jako spolehlivý dodavatel mražených ostružin nabízíme stabilní kvalitu pro výrobce potravin, velkoobchodníky a exportní trhy. Vhodné pro smoothies, marmelády, dezerty, pečivo, džusy a mléčné výrobky."
+			],
+			"benefits": [
+				"Kvalitní ostružiny (Rubus fruticosus) z Evropy",
+				"Prémiová IQF kvalita s přirozenou chutí",
+				"Bohaté na antioxidanty a vlákninu",
+				"Pro potravinářský průmysl",
+				"Dlouhá trvanlivost",
+				"Bez přidaných látek",
+				"Soulad s normami EU"
+			]
+		},
+
+		"frozenGrapes": {
+			"desc": [
+				"Naše prémiové mražené hrozny IQF (Vitis vinifera) jsou pečlivě vybírány z kvalitních vinic a sklizeny v optimální zralosti pro zajištění přirozené sladkosti, šťavnaté struktury a bohaté chuti. Díky technologii IQF jsou rychle zmrazeny pro zachování čerstvosti a nutriční hodnoty.",
+				"Jako spolehlivý dodavatel mražených hroznů nabízíme stabilní kvalitu pro výrobce, velkoobchod a export. Vhodné pro džusy, smoothies, dezerty a potravinářské aplikace."
+			],
+			"benefits": [
+				"Kvalitní hrozny (Vitis vinifera) z Evropy",
+				"Prémiová IQF kvalita",
+				"Bohaté na antioxidanty",
+				"Pro průmyslové využití",
+				"Dlouhá trvanlivost",
+				"Bez aditiv",
+				"Soulad s normami EU"
+			]
+		},
+
+		"frozenCorn": {
+			"desc": [
+				"Naše prémiová mražená kukuřice IQF (Zea mays) je pečlivě vybírána z kvalitních farem a sklizena v optimální zralosti pro zajištění přirozené sladkosti, výrazné žluté barvy a křupavé struktury. Díky technologii IQF je rychle zmrazena pro zachování čerstvosti, chuti a nutriční hodnoty.",
+				"Jako spolehlivý dodavatel kukuřice nabízíme stabilní kvalitu pro výrobce, velkoobchod a export. Vhodná pro hotová jídla, polévky, saláty a zeleninové směsi."
+			],
+			"benefits": [
+				"Kvalitní kukuřice (Zea mays) z Evropy",
+				"Přirozená sladkost a barva",
+				"Bohaté na vlákninu a vitamíny",
+				"Pro potravinářský průmysl",
+				"Dlouhá trvanlivost",
+				"Bez přidaných látek",
+				"Soulad s EU normami"
+			]
+		},
+		"frozenBlackCurrants": {
+			"desc": [
+				"Naše prémiové mražené černé rybízy IQF (Ribes nigrum) jsou pečlivě vybírány z kvalitních farem a sklizeny v optimální zralosti pro zajištění syté tmavě fialové barvy, intenzivní chuti a vysoké nutriční hodnoty. Díky moderní technologii IQF jsou rychle zmrazeny pro zachování přirozené čerstvosti, struktury a vysokého obsahu antioxidantů.",
+				"Jako spolehlivý dodavatel mraženého rybízu nabízíme stabilní kvalitu pro výrobce potravin, velkoobchodníky a exportní trhy. Naše IQF černé rybízy jsou široce využívány v džusech, marmeládách, sirupech, dezertech, pečivu a funkčních potravinách."
+			],
+			"benefits": [
+				"Kvalitní černý rybíz (Ribes nigrum) z Evropy",
+				"Prémiová IQF kvalita s intenzivní chutí",
+				"Bohaté na vitamín C, antioxidanty a polyfenoly",
+				"Vhodné pro velkoobchod a potravinářský průmysl",
+				"Dlouhá trvanlivost",
+				"Bez přidaných látek",
+				"Soulad s normami EU"
+			]
+		},
 		"origin": {
 			"region": {
 				"title": "Ukrajina (Karpatská oblast)",

@@ -3,6 +3,7 @@
 import { useTranslations } from "next-intl";
 import PdfIcon from "@/components/icons/PdfIcon";
 import "./Certificates.scss";
+import Image from "next/image";
 
 const Certificates = () => {
 	const t = useTranslations();
@@ -14,9 +15,10 @@ const Certificates = () => {
 				<p>{t("ourCertificates.desc")}</p>
 			</div>
 			<div>
-				<img
+				<Image
 					src="/yagoda-karpat-organic-certificate.jpg"
 					width={300}
+					height={424.31}
 					alt="Organic Standard certificate"
 					loading="lazy"
 				/>
