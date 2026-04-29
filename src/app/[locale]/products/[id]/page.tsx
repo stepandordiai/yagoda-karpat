@@ -99,7 +99,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
 		product,
 		locale,
 		localizedName: t(product.name),
-		localizedDesc: t(product.desc),
+		localizedDesc: `${t(product.name)} ${t("product_page.meta.description")}`,
 		localizedCategory: t(product.type),
 	});
 

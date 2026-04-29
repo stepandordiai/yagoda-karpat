@@ -24,6 +24,43 @@
 	scale: 1.1;
 }
 
+.product__img-loading-placeholder {
+	width: 100%;
+	aspect-ratio: 4/3;
+	border-radius: 8px;
+	background: linear-gradient(
+		90deg,
+		var(--bg-clr) 25%,
+		#fff 50%,
+		var(--bg-clr) 75%
+	);
+	background-size: 200% 100%;
+	animation: shimmer 3s infinite linear;
+}
+
+// TODO: learn this
+@keyframes shimmer {
+	from {
+		background-position: 200% 0;
+	}
+	to {
+		background-position: -200% 0;
+	}
+}
+
+.product__img-placeholder {
+	width: 100%;
+	aspect-ratio: 4/3;
+	background-color: var(--bg-clr);
+	border-radius: 8px;
+}
+
+// TODO: learn this
+.product__img--hidden {
+	opacity: 0;
+	position: absolute;
+}
+
 .img-qty {
 	position: absolute;
 	left: 5px;

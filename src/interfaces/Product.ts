@@ -22,7 +22,8 @@ export interface Product {
 			desc: string;
 		};
 	};
-	desc: string;
+	desc?: string;
+	benefits?: string;
 	variants: {
 		id: number;
 		images: string[];

@@ -24,6 +24,13 @@ export default function ProductCard({ product }: ProductProps) {
 		(variant) => variant.id === productStateId,
 	);
 
+	const [imgLoaded, setImgLoaded] = useState(false);
+
+	const handleVariantChange = (id: number) => {
+		setImgLoaded(false); // reset → placeholder shows
+		setProductStateId(id);
+	};
+
 	// TODO:
 	// const allImages = variants.flatMap((variant) =>
 	// 	variant.images ? variant.images : []
@@ -32,7 +39,7 @@ export default function ProductCard({ product }: ProductProps) {
 	return (
 		<div className="product">
 			<div className="product__img-wrapper">
-				{productState?.images[0] && (
+				{/* {productState?.images[0] && (
 					<Image
 						className="product__img"
 						src={productState.images[0]}
@@ -42,6 +49,26 @@ export default function ProductCard({ product }: ProductProps) {
 							productState?.state ? t(productState.state) : ""
 						}`.trimEnd()}
 					/>
+				)} */}
+				{/* TODO: learn this */}
+				{productState?.images[0] ? (
+					<>
+						{!imgLoaded && <div className="product__img-loading-placeholder" />}
+						<Image
+							className={classNames("product__img", {
+								"product__img--hidden": !imgLoaded,
+							})}
+							src={productState.images[0]}
+							width={1600}
+							height={1200}
+							alt={`${t(name)} ${
+								productState?.state ? t(productState.state) : ""
+							}`.trimEnd()}
+							onLoad={() => setImgLoaded(true)}
+						/>
+					</>
+				) : (
+					<div className="product__img-placeholder" />
 				)}
 				<div className="img-qty">
 					<CameraIcon />
@@ -61,7 +88,7 @@ export default function ProductCard({ product }: ProductProps) {
 								return (
 									<button
 										key={variant.id}
-										onClick={() => setProductStateId(variant.id)}
+										onClick={() => handleVariantChange(variant.id)}
 										className={classNames("variant-btn btn--bold", {
 											"variant-btn--active": variant.id === productStateId,
 										})}

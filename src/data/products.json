@@ -15,7 +15,8 @@
 				"desc": "product_page.packaging.octabin.desc"
 			}
 		},
-		"desc": "product_page.frozenBilberriesDesc",
+		"desc": "product_page.frozenBilberries.desc",
+		"benefits": "product_page.frozenBilberries.benefits",
 		"variants": [
 			{
 				"id": 1,
@@ -55,7 +56,8 @@
 				"desc": "product_page.packaging.octabin.desc"
 			}
 		},
-		"desc": "product_page.frozenLingonberriesDesc",
+		"desc": "product_page.frozenLingonberries.desc",
+		"benefits": "product_page.frozenLingonberries.benefits",
 		"variants": [
 			{
 				"id": 1,
@@ -92,7 +94,8 @@
 				"desc": "product_page.packaging.octabin.desc"
 			}
 		},
-		"desc": "product_page.frozenRosehipsDesc",
+		"desc": "product_page.frozenRoseHips.desc",
+		"benefits": "product_page.frozenRoseHips.benefits",
 		"variants": [
 			{
 				"id": 1,
@@ -122,7 +125,8 @@
 				"desc": "product_page.packaging.octabin.desc"
 			}
 		},
-		"desc": "product_page.frozenPlumsDesc",
+		"desc": "product_page.frozenPlums.desc",
+		"benefits": "product_page.frozenPlums.benefits",
 		"variants": [
 			{
 				"id": 1,
@@ -155,7 +159,8 @@
 				"desc": "product_page.packaging.paperBag.desc"
 			}
 		},
-		"desc": "product_page.driedPlumsDesc",
+		"desc": "product_page.driedPlums.desc",
+		"benefits": "product_page.driedPlums.benefits",
 		"variants": [
 			{
 				"id": 1,
@@ -183,7 +188,8 @@
 				"desc": "product_page.packaging.cartonBox.desc"
 			}
 		},
-		"desc": "product_page.prunesDesc",
+		"desc": "product_page.prunes.desc",
+		"benefits": "product_page.prunes.benefits",
 		"variants": [
 			{
 				"id": 1,
@@ -212,7 +218,8 @@
 				"desc": "product_page.packaging.octabin.desc"
 			}
 		},
-		"desc": "product_page.frozenElderberriesDesc",
+		"desc": "product_page.frozenElderberries.desc",
+		"benefits": "product_page.frozenElderberries.benefits",
 		"variants": [
 			{
 				"id": 1,
@@ -244,7 +251,8 @@
 				"desc": "product_page.packaging.octabin.desc"
 			}
 		},
-		"desc": "product_page.frozenStrawberryDesc",
+		"desc": "product_page.frozenStrawberries.desc",
+		"benefits": "product_page.frozenStrawberries.benefits",
 		"variants": [
 			{
 				"id": 1,
@@ -268,7 +276,8 @@
 				"desc": "product_page.packaging.cartonBox.desc"
 			}
 		},
-		"desc": "product_page.frozenRaspberryDesc",
+		"desc": "product_page.frozenRaspberries.desc",
+		"benefits": "product_page.frozenRaspberries.benefits",
 		"variants": [
 			{
 				"id": 1,
@@ -292,7 +301,8 @@
 				"desc": "product_page.packaging.cartonBox.desc"
 			}
 		},
-		"desc": "product_page.frozenApricotDesc",
+		"desc": "product_page.frozenApricots.desc",
+		"benefits": "product_page.frozenApricots.benefits",
 		"variants": [
 			{
 				"id": 1,
@@ -313,7 +323,8 @@
 				"desc": "product_page.packaging.cartonBox.desc"
 			}
 		},
-		"desc": "product_page.frozenRedBellPeppersDesc",
+		"desc": "product_page.frozenRedBellPeppers.desc",
+		"benefits": "product_page.frozenRedBellPeppers.benefits",
 		"variants": [
 			{
 				"id": 1,
@@ -338,7 +349,8 @@
 				"desc": "product_page.packaging.cartonBox.desc"
 			}
 		},
-		"desc": "product_page.frozenGreenBellPeppersDesc",
+		"desc": "product_page.frozenGreenBellPeppers.desc",
+		"benefits": "product_page.frozenGreenBellPeppers.benefits",
 		"variants": [
 			{
 				"id": 1,
@@ -362,7 +374,8 @@
 				"desc": "product_page.packaging.cartonBox.desc"
 			}
 		},
-		"desc": "product_page.frozenYellowBellPeppersDesc",
+		"desc": "product_page.frozenYellowBellPeppers.desc",
+		"benefits": "product_page.frozenYellowBellPeppers.benefits",
 		"variants": [
 			{
 				"id": 1,
@@ -386,7 +399,8 @@
 				"desc": "product_page.packaging.cartonBox.desc"
 			}
 		},
-		"desc": "product_page.frozenMixedBellPeppersDesc",
+		"desc": "product_page.frozenMixedBellPeppers.desc",
+		"benefits": "product_page.frozenMixedBellPeppers.benefits",
 		"variants": [
 			{
 				"id": 1,
@@ -411,7 +425,8 @@
 				"desc": "product_page.packaging.cartonBox.desc"
 			}
 		},
-		"desc": "product_page.frozenPorciniMushroomsDesc",
+		"desc": "product_page.frozenPorciniMushrooms.desc",
+		"benefits": "product_page.frozenPorciniMushrooms.benefits",
 		"variants": [
 			{
 				"id": 1,
@@ -459,7 +474,8 @@
 				"desc": "product_page.packaging.woodenContainer.desc"
 			}
 		},
-		"desc": "product_page.freshPorciniMushroomsDesc",
+		"desc": "product_page.freshPorciniMushrooms.desc",
+		"benefits": "product_page.freshPorciniMushrooms.benefits",
 		"variants": [
 			{
 				"id": 1,
@@ -482,7 +498,8 @@
 				"desc": "product_page.packaging.cartonBox.desc"
 			}
 		},
-		"desc": "product_page.driedPorciniMushroomsDesc",
+		"desc": "product_page.driedPorciniMushrooms.desc",
+		"benefits": "product_page.driedPorciniMushrooms.benefits",
 		"variants": [
 			{
 				"id": 1,
@@ -505,7 +522,8 @@
 				"desc": "product_page.packaging.woodenContainer.desc"
 			}
 		},
-		"desc": "product_page.freshChanterellesDesc",
+		"desc": "product_page.freshChanterelles.desc",
+		"benefits": "product_page.freshChanterelles.benefits",
 		"variants": [
 			{
 				"id": 1,
@@ -526,7 +544,8 @@
 				"desc": "product_page.packaging.cartonBox.desc"
 			}
 		},
-		"desc": "product_page.driedChanterellesDesc",
+		"desc": "product_page.driedChanterelles.desc",
+		"benefits": "product_page.driedChanterelles.benefits",
 		"variants": [
 			{
 				"id": 1,
@@ -547,7 +566,8 @@
 				"desc": "product_page.packaging.cartonBox.desc"
 			}
 		},
-		"desc": "product_page.frozenSourCherriesDesc",
+		"desc": "product_page.frozenSourCherries.desc",
+		"benefits": "product_page.frozenSourCherries.benefits",
 		"variants": [
 			{
 				"id": 1,
@@ -584,7 +604,8 @@
 				"desc": "product_page.packaging.cartonBox.desc"
 			}
 		},
-		"desc": "product_page.frozenHoneyMushroomsDesc",
+		"desc": "product_page.frozenHoneyMushrooms.desc",
+		"benefits": "product_page.frozenHoneyMushrooms.benefits",
 		"variants": [
 			{
 				"id": 1,
@@ -607,7 +628,8 @@
 				"desc": "product_page.packaging.cartonBox.desc"
 			}
 		},
-		"desc": "product_page.frozenBlackberriesDesc",
+		"desc": "product_page.frozenBlackberries.desc",
+		"benefits": "product_page.frozenBlackberries.benefits",
 		"variants": [
 			{
 				"id": 1,
@@ -631,7 +653,8 @@
 				"desc": "product_page.packaging.cartonBox.desc"
 			}
 		},
-		"desc": "product_page.frozenGrapesDesc",
+		"desc": "product_page.frozenGrapes.desc",
+		"benefits": "product_page.frozenGrapes.benefits",
 		"variants": [
 			{
 				"id": 1,
@@ -655,7 +678,8 @@
 				"desc": "product_page.packaging.cartonBox.desc"
 			}
 		},
-		"desc": "product_page.frozenCornDesc",
+		"desc": "product_page.frozenCorn.desc",
+		"benefits": "product_page.frozenCorn.benefits",
 		"variants": [
 			{
 				"id": 1,
@@ -676,7 +700,8 @@
 				"desc": "product_page.packaging.cartonBox.desc"
 			}
 		},
-		"desc": "product_page.frozenBlackCurrantsDesc",
+		"desc": "product_page.frozenBlackCurrants.desc",
+		"benefits": "product_page.frozenBlackCurrants.benefits",
 		"variants": [
 			{
 				"id": 1,

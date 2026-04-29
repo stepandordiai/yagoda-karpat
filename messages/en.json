@@ -173,31 +173,381 @@
 		"cleaned_1": "cleaned",
 		"cleaned_2": "cleaned",
 		"related": "Related products",
-		"frozenBilberriesDesc": "IQF frozen bilberries for industrial processing and export. Wild-harvested, hand-picked berries with natural color, flavor, and nutrients preserved.",
-		"frozenLingonberriesDesc": "IQF frozen lingonberries for industrial processing and export. Wild-harvested, hand-picked berries with natural color, flavor, and nutrients preserved.",
-		"frozenRosehipsDesc": "IQF frozen rosehips for industrial processing and export. Wild-harvested, hand-picked fruits with natural color, flavor, and nutrients preserved.",
-		"frozenPlumsDesc": "IQF frozen plums for industrial processing and export. Ripe, hand-selected fruits with natural color, flavor, and nutrients preserved.",
-		"driedPlumsDesc": "Dried plums for industrial processing and export. Sweet, pitted fruits with preserved natural flavor, aroma, and nutritional value.",
-		"prunesDesc": "Premium prunes for industrial processing and export. Sweet, tender dried plums with rich flavor, dark color, and extended shelf life.",
-		"frozenElderberriesDesc": "IQF frozen elderberries for industrial processing and export. Wild dark berries with preserved color, tart flavor, and high antioxidant content.",
-		"frozenStrawberryDesc": "IQF frozen strawberries for industrial processing and export. Ripe, hand-selected berries with preserved color, aroma, and natural sweetness.",
-		"frozenRaspberryDesc": "IQF frozen raspberries for industrial processing and export. Hand-picked ripe berries with vibrant color, rich flavor, and ideal texture preserved.",
-		"frozenApricotDesc": "IQF frozen apricots for industrial processing and export. Ripe, pitted fruits with preserved color, aroma, and tender texture.",
-		"frozenRedBellPeppersDesc": "IQF frozen red bell peppers for industrial processing and export. Cleaned, sliced peppers with preserved color, sweetness, and firm texture.",
-		"frozenGreenBellPeppersDesc": "IQF frozen green bell peppers for industrial processing and export. Diced or sliced peppers with preserved color, texture, and mild flavor.",
-		"frozenYellowBellPeppersDesc": "IQF frozen yellow bell peppers for industrial processing and export. Cut peppers with vivid color, mild sweetness, and smooth texture preserved.",
-		"frozenMixedBellPeppersDesc": "IQF frozen mixed bell peppers for industrial processing and export. Colorful blend of peppers with preserved color, sweetness, and texture.",
-		"frozenPorciniMushroomsDesc": "IQF frozen porcini mushrooms for industrial processing and export. Wild mushrooms with rich flavor, firm texture, and natural aroma preserved.",
-		"freshPorciniMushroomsDesc": "Fresh porcini mushrooms for industrial processing and export. Wild boletus with rich flavor, firm texture, and premium quality.",
-		"driedPorciniMushroomsDesc": "Dried porcini mushrooms for industrial processing and export. Wild boletus with intense aroma, rich flavor, and long shelf life.",
-		"freshChanterellesDesc": "Fresh chanterelles for industrial processing and export. Wild mushrooms with delicate aroma, firm texture, and premium quality.",
-		"driedChanterellesDesc": "Dried chanterelles for industrial processing and export. Wild mushrooms with rich aroma, earthy flavor, and long shelf life.",
-		"frozenSourCherriesDesc": "IQF frozen sour cherries for industrial processing and export. Pitted cherries with rich color, tangy flavor, and juicy texture preserved.",
-		"frozenHoneyMushroomsDesc": "IQF frozen honey mushrooms for industrial processing and export. Wild mushrooms with firm texture, natural color, and mild flavor preserved.",
-		"frozenBlackberriesDesc": "IQF frozen blackberries for industrial processing and export. Wild berries with preserved color, sweet-tart flavor, and juicy texture.",
-		"frozenGrapesDesc": "IQF frozen grapes for industrial processing and export. Seedless grapes with preserved sweetness, firm texture, and bright color.",
-		"frozenCornDesc": "IQF frozen sweet corn for industrial processing and export. Tender kernels with preserved color, sweetness, and firm texture.",
-		"frozenBlackCurrantsDesc": "IQF frozen black currants for industrial processing and export. Wild berries with rich color, tart flavor, and high vitamin C content.",
+		"frozenBilberries": {
+			"desc": [
+				"Our high-quality IQF (Individually Quick Frozen) bilberries are wild-harvested and carefully hand-picked at peak ripeness to ensure superior taste, color, and nutritional value. Sourced from pristine European forests, these berries are immediately frozen using advanced IQF technology to lock in their natural freshness, texture, and antioxidants.",
+				"Ideal for food manufacturers, wholesalers, and export markets, our frozen bilberries deliver consistent quality for use in juices, jams, dairy products, bakery applications, nutraceuticals, and more."
+			],
+			"benefits": [
+				"100% wild bilberries (Vaccinium myrtillus)",
+				"Deep natural color and intense flavor profile",
+				"Rich in antioxidants, vitamins, and polyphenols",
+				"IQF processed for optimal shelf life and easy portioning",
+				"No additives, preservatives, or added sugar",
+				"Fully traceable and compliant with EU food safety standards"
+			]
+		},
+		"frozenLingonberries": {
+			"desc": [
+				"Our premium IQF frozen lingonberries (Vaccinium vitis-idaea) are wild-harvested from pristine European forests and carefully selected at peak ripeness to ensure exceptional quality, vibrant color, and naturally tart flavor. Using advanced Individually Quick Frozen (IQF) technology, the berries are rapidly frozen to preserve freshness, texture, and valuable nutrients, making them an ideal choice for industrial and commercial use.",
+				"As a trusted frozen lingonberries supplier, we provide consistent, high-quality bulk lingonberries for food manufacturers, wholesalers, and international export markets. Our IQF lingonberries are widely used in sauces, jams, juices, bakery products, dairy applications, and functional foods, delivering reliable performance and authentic wild berry taste."
+			],
+			"benefits": [
+				"100% wild lingonberries (Vaccinium vitis-idaea) sourced from Europe",
+				"Premium IQF frozen lingonberries with natural taste and color",
+				"Rich in antioxidants, vitamins, and polyphenols",
+				"Ideal for wholesale, bulk supply, and food processing industries",
+				"Long shelf life with easy handling and portion control",
+				"No additives, preservatives, or added sugar",
+				"Full traceability and compliance with EU food safety standards"
+			]
+		},
+		"frozenRoseHips": {
+			"desc": [
+				"Our premium IQF frozen rose hips (Rosa canina) are wild-harvested from unpolluted European regions and carefully selected at optimal ripeness to ensure superior quality, rich color, and naturally tangy flavor. Processed using advanced Individually Quick Frozen (IQF) technology, the rose hips are rapidly frozen to preserve their natural freshness, texture, and high nutritional value, making them ideal for industrial and commercial applications.",
+				"As a reliable frozen rose hips supplier, we offer consistent, high-quality bulk rose hips for food manufacturers, wholesalers, and export markets. Our IQF rose hips are widely used in teas, jams, juices, dietary supplements, and functional foods, providing excellent performance and a naturally high vitamin C content."
+			],
+			"benefits": [
+				"100% wild rose hips (Rosa canina) sourced from Europe",
+				"Premium IQF frozen rose hips with natural flavor and color",
+				"Exceptionally high in vitamin C, antioxidants, and bioactive compounds",
+				"Suitable for wholesale, bulk supply, and food processing industries",
+				"Extended shelf life with convenient storage and portioning",
+				"No additives, preservatives, or added sugar",
+				"Fully traceable and compliant with EU food safety standards"
+			]
+		},
+		"frozenPlums": {
+			"desc": [
+				"Our premium IQF frozen plums (Prunus domestica) are carefully selected from high-quality orchards and harvested at peak ripeness to ensure excellent flavor, natural sweetness, and rich color. Using advanced Individually Quick Frozen (IQF) technology, the plums are rapidly frozen to preserve their freshness, texture, and nutritional value, making them ideal for industrial and commercial applications.",
+				"As a trusted frozen plums supplier, we deliver consistent, high-quality bulk plums for food manufacturers, wholesalers, and international export markets. Our IQF plums are widely used in jams, desserts, bakery products, juices, and dairy applications, offering reliable performance and authentic fruit taste."
+			],
+			"benefits": [
+				"High-quality plums (Prunus domestica) sourced from Europe",
+				"Premium IQF frozen plums with natural sweetness and color",
+				"Rich in vitamins, fiber, and antioxidants",
+				"Ideal for wholesale, bulk supply, and food processing industries",
+				"Long shelf life with easy storage and portion control",
+				"No additives, preservatives, or added sugar",
+				"Fully traceable and compliant with EU food safety standards"
+			]
+		},
+		"driedPlums": {
+			"desc": [
+				"Our premium dried plums (Prunus domestica), also known as prunes, are carefully selected from high-quality orchards and gently dried to preserve their natural sweetness, rich flavor, and soft texture. Produced using controlled drying processes, our dried plums retain their nutritional value, making them a versatile ingredient for a wide range of food applications.",
+				"As a reliable dried plums supplier, we provide consistent, high-quality bulk prunes for food manufacturers, wholesalers, and export markets. Our dried plums are widely used in bakery products, cereals, snacks, confectionery, and health foods, offering excellent functionality and naturally sweet taste."
+			],
+			"benefits": [
+				"Premium dried plums (Prunus domestica) / prunes",
+				"Naturally sweet flavor with soft, chewy texture",
+				"High in dietary fiber, antioxidants, and essential nutrients",
+				"Ideal for wholesale, bulk supply, and food processing industries",
+				"Long shelf life with convenient storage and handling",
+				"No additives or preservatives (available upon request)",
+				"Fully traceable and compliant with EU food safety standards"
+			]
+		},
+		"prunes": {
+			"desc": [
+				"Our premium prunes (dried plums, Prunus domestica) are sourced from carefully selected orchards and processed using gentle drying methods to preserve their natural sweetness, rich flavor, and soft, chewy texture. Known for their high nutritional value, prunes are a popular ingredient for both food production and health-focused applications.",
+				"As a trusted prunes supplier, we offer consistent, high-quality bulk prunes for food manufacturers, wholesalers, and international export markets. Our prunes are widely used in bakery products, cereals, snacks, confectionery, and functional foods, delivering reliable quality and natural sweetness."
+			],
+			"benefits": [
+				"High-quality prunes (dried plums, Prunus domestica)",
+				"Naturally sweet taste with soft and chewy texture",
+				"Rich in dietary fiber, antioxidants, and essential nutrients",
+				"Supports digestive health and wellness applications",
+				"Ideal for wholesale, bulk supply, and food processing industries",
+				"Long shelf life with easy storage and handling",
+				"No additives, preservatives, or added sugar",
+				"Fully traceable and compliant with EU food safety standards"
+			]
+		},
+		"frozenElderberries": {
+			"desc": [
+				"Our premium IQF frozen elderberries (Sambucus nigra) are wild-harvested from clean European regions and carefully selected at peak ripeness to ensure deep color, rich flavor, and maximum nutritional value. Using advanced Individually Quick Frozen (IQF) technology, the berries are rapidly frozen to preserve their natural freshness, texture, and high antioxidant content, making them ideal for industrial and commercial applications.",
+				"As a trusted frozen elderberries supplier, we provide consistent, high-quality bulk elderberries for food manufacturers, wholesalers, and international export markets. Our IQF elderberries are widely used in juices, syrups, jams, dietary supplements, and functional foods, offering reliable performance and authentic wild berry characteristics."
+			],
+			"benefits": [
+				"100% elderberries (Sambucus nigra) sourced from Europe",
+				"Premium IQF frozen elderberries with deep color and rich flavor",
+				"High in antioxidants, vitamins, and anthocyanins",
+				"Ideal for wholesale, bulk supply, and food processing industries",
+				"Extended shelf life with easy storage and portion control",
+				"No additives, preservatives, or added sugar",
+				"Fully traceable and compliant with EU food safety standards"
+			]
+		},
+		"frozenStrawberries": {
+			"desc": [
+				"Our premium IQF frozen strawberries (Fragaria × ananassa) are carefully selected from high-quality farms and harvested at peak ripeness to ensure vibrant color, natural sweetness, and rich flavor. Using advanced Individually Quick Frozen (IQF) technology, the strawberries are rapidly frozen to preserve their freshness, texture, and nutritional value, making them ideal for industrial and commercial applications.",
+				"As a trusted frozen strawberry supplier, we offer consistent, high-quality bulk strawberries for food manufacturers, wholesalers, and international export markets. Our IQF strawberries are widely used in smoothies, desserts, jams, juices, bakery products, and dairy applications, delivering reliable performance and authentic fruit taste."
+			],
+			"benefits": [
+				"High-quality strawberries (Fragaria × ananassa) sourced from Europe",
+				"Premium IQF frozen strawberries with natural sweetness and color",
+				"Rich in vitamin C, antioxidants, and essential nutrients",
+				"Ideal for wholesale, bulk supply, and food processing industries",
+				"Long shelf life with easy storage and portion control",
+				"No additives, preservatives, or added sugar",
+				"Fully traceable and compliant with EU food safety standards"
+			]
+		},
+		"frozenRaspberries": {
+			"desc": [
+				"Our premium IQF frozen raspberries (Rubus idaeus) are carefully selected from high-quality farms and harvested at peak ripeness to ensure vibrant color, delicate texture, and naturally sweet-tart flavor. Using advanced Individually Quick Frozen (IQF) technology, the raspberries are rapidly frozen to preserve their freshness, structure, and nutritional value, making them ideal for industrial and commercial applications.",
+				"As a trusted frozen raspberries supplier, we provide consistent, high-quality bulk raspberries for food manufacturers, wholesalers, and international export markets. Our IQF raspberries are widely used in smoothies, desserts, jams, bakery products, dairy applications, and functional foods, delivering reliable performance and authentic fruit taste."
+			],
+			"benefits": [
+				"High-quality raspberries (Rubus idaeus) sourced from Europe",
+				"Premium IQF frozen raspberries with natural flavor and color",
+				"Rich in antioxidants, vitamins, and dietary fiber",
+				"Ideal for wholesale, bulk supply, and food processing industries",
+				"Long shelf life with easy storage and portion control",
+				"No additives, preservatives, or added sugar",
+				"Fully traceable and compliant with EU food safety standards"
+			]
+		},
+		"frozenApricots": {
+			"desc": [
+				"Our premium IQF frozen apricots (Prunus armeniaca) are carefully selected from high-quality orchards and harvested at peak ripeness to ensure vibrant color, natural sweetness, and rich flavor. Using advanced Individually Quick Frozen (IQF) technology, the apricots are rapidly frozen to preserve their freshness, texture, and nutritional value, making them ideal for industrial and commercial applications.",
+				"As a trusted frozen apricots supplier, we offer consistent, high-quality bulk apricots for food manufacturers, wholesalers, and international export markets. Our IQF apricots are widely used in jams, desserts, bakery products, juices, and dairy applications, delivering reliable performance and authentic fruit taste."
+			],
+			"benefits": [
+				"High-quality apricots (Prunus armeniaca) sourced from Europe",
+				"Premium IQF frozen apricots with natural sweetness and color",
+				"Rich in vitamins, antioxidants, and dietary fiber",
+				"Ideal for wholesale, bulk supply, and food processing industries",
+				"Long shelf life with easy storage and portion control",
+				"No additives, preservatives, or added sugar",
+				"Fully traceable and compliant with EU food safety standards"
+			]
+		},
+		"frozenRedBellPeppers": {
+			"desc": [
+				"Our premium IQF frozen red bell peppers (Capsicum annuum) are carefully selected from high-quality farms and harvested at peak ripeness to ensure vibrant red color, crisp texture, and naturally sweet flavor. Using advanced Individually Quick Frozen (IQF) technology, the peppers are rapidly frozen to preserve their freshness, structure, and nutritional value, making them ideal for industrial and commercial applications.",
+				"As a trusted frozen red bell peppers supplier, we provide consistent, high-quality bulk red peppers for food manufacturers, wholesalers, and international export markets. Our IQF red bell peppers are widely used in ready meals, sauces, soups, frozen vegetable mixes, and foodservice applications, delivering reliable performance and fresh vegetable taste."
+			],
+			"benefits": [
+				"High-quality red bell peppers (Capsicum annuum) sourced from Europe",
+				"Premium IQF frozen red peppers with vibrant color and sweet flavor",
+				"Rich in vitamin C, antioxidants, and essential nutrients",
+				"Ideal for wholesale, bulk supply, and food processing industries",
+				"Long shelf life with easy storage and portion control",
+				"No additives, preservatives, or added sugar",
+				"Fully traceable and compliant with EU food safety standards"
+			]
+		},
+		"frozenGreenBellPeppers": {
+			"desc": [
+				"Our premium IQF frozen green bell peppers (Capsicum annuum) are carefully selected from high-quality farms and harvested at optimal maturity to ensure fresh flavor, firm texture, and vibrant green color. Using advanced Individually Quick Frozen (IQF) technology, the peppers are rapidly frozen to preserve their natural freshness, structure, and nutritional value, making them ideal for industrial and commercial applications.",
+				"As a trusted frozen green bell peppers supplier, we provide consistent, high-quality bulk green peppers for food manufacturers, wholesalers, and international export markets. Our IQF green bell peppers are widely used in ready meals, sauces, soups, frozen vegetable mixes, and foodservice applications, offering reliable performance and authentic vegetable taste."
+			],
+			"benefits": [
+				"High-quality green bell peppers (Capsicum annuum) sourced from Europe",
+				"Premium IQF frozen green peppers with fresh flavor and vibrant color",
+				"Rich in vitamins, antioxidants, and essential nutrients",
+				"Ideal for wholesale, bulk supply, and food processing industries",
+				"Long shelf life with easy storage and portion control",
+				"No additives, preservatives, or added sugar",
+				"Fully traceable and compliant with EU food safety standards"
+			]
+		},
+		"frozenYellowBellPeppers": {
+			"desc": [
+				"Our premium IQF frozen yellow bell peppers (Capsicum annuum) are carefully selected from high-quality farms and harvested at peak ripeness to ensure bright yellow color, crisp texture, and naturally sweet, mild flavor. Using advanced Individually Quick Frozen (IQF) technology, the peppers are rapidly frozen to preserve their freshness, structure, and nutritional value, making them ideal for industrial and commercial applications.",
+				"As a trusted frozen yellow bell peppers supplier, we provide consistent, high-quality bulk yellow peppers for food manufacturers, wholesalers, and international export markets. Our IQF yellow bell peppers are widely used in ready meals, sauces, soups, frozen vegetable mixes, and foodservice applications, delivering reliable performance and vibrant visual appeal."
+			],
+			"benefits": [
+				"High-quality yellow bell peppers (Capsicum annuum) sourced from Europe",
+				"Premium IQF frozen yellow peppers with bright color and sweet flavor",
+				"Rich in vitamins, antioxidants, and essential nutrients",
+				"Ideal for wholesale, bulk supply, and food processing industries",
+				"Long shelf life with easy storage and portion control",
+				"No additives, preservatives, or added sugar",
+				"Fully traceable and compliant with EU food safety standards"
+			]
+		},
+		"frozenMixedBellPeppers": {
+			"desc": [
+				"Our premium IQF frozen mixed bell peppers (Capsicum annuum) combine carefully selected red, green, and yellow peppers harvested at peak ripeness to ensure vibrant color, crisp texture, and a balanced sweet flavor profile. Using advanced Individually Quick Frozen (IQF) technology, the peppers are rapidly frozen to preserve their natural freshness, structure, and nutritional value, making them ideal for industrial and commercial applications.",
+				"As a trusted frozen mixed bell peppers supplier, we provide consistent, high-quality bulk pepper mixes for food manufacturers, wholesalers, and international export markets. Our IQF mixed bell peppers are widely used in ready meals, stir-fries, sauces, soups, frozen vegetable blends, and foodservice applications, delivering convenience, visual appeal, and reliable performance."
+			],
+			"benefits": [
+				"Blend of red, green, and yellow bell peppers (Capsicum annuum) sourced from Europe",
+				"Premium IQF frozen mixed peppers with vibrant color and balanced flavor",
+				"Rich in vitamins, antioxidants, and essential nutrients",
+				"Ideal for wholesale, bulk supply, and food processing industries",
+				"Long shelf life with easy storage and portion control",
+				"No additives, preservatives, or added sugar",
+				"Fully traceable and compliant with EU food safety standards"
+			]
+		},
+		"frozenPorciniMushrooms": {
+			"desc": [
+				"Our premium IQF frozen porcini mushrooms (Boletus edulis) are wild-harvested from pristine European forests and carefully selected to ensure superior quality, firm texture, and rich, earthy flavor. Using advanced Individually Quick Frozen (IQF) technology, the mushrooms are rapidly frozen to preserve their natural aroma, structure, and nutritional value, making them ideal for industrial and commercial applications.",
+				"As a trusted frozen porcini mushrooms supplier, we provide consistent, high-quality bulk porcini mushrooms for food manufacturers, wholesalers, and international export markets. Our IQF porcini mushrooms are widely used in soups, sauces, risottos, ready meals, and gourmet food applications, delivering authentic taste and reliable performance."
+			],
+			"benefits": [
+				"100% porcini mushrooms (Boletus edulis) sourced from Europe",
+				"Premium IQF frozen porcini with rich aroma and earthy flavor",
+				"Carefully cleaned and processed for consistent quality",
+				"Ideal for wholesale, bulk supply, and food processing industries",
+				"Long shelf life with easy storage and portion control",
+				"No additives, preservatives, or added ingredients",
+				"Fully traceable and compliant with EU food safety standards"
+			]
+		},
+		"freshPorciniMushrooms": {
+			"desc": [
+				"Our premium fresh porcini mushrooms (Boletus edulis) are wild-harvested from pristine European forests and carefully selected to ensure exceptional quality, firm texture, and rich, earthy aroma. Hand-picked during the peak season, our fresh porcini are handled with care to preserve their natural freshness and superior culinary characteristics.",
+				"As a trusted fresh porcini mushrooms supplier, we provide high-quality bulk porcini mushrooms for food manufacturers, wholesalers, restaurants, and international markets. Our fresh porcini are highly valued in gourmet cuisine and are widely used in soups, sauces, risottos, and premium dishes, delivering authentic flavor and outstanding performance."
+			],
+			"benefits": [
+				"100% wild fresh porcini mushrooms (Boletus edulis) sourced from Europe",
+				"Firm texture with rich, earthy flavor and aroma",
+				"Carefully hand-picked and sorted for premium quality",
+				"Ideal for wholesale, foodservice, and gourmet applications",
+				"Fresh product with controlled handling and fast delivery",
+				"No additives, preservatives, or processing",
+				"Fully traceable and compliant with EU food safety standards"
+			]
+		},
+		"driedPorciniMushrooms": {
+			"desc": [
+				"Our premium dried porcini mushrooms (Boletus edulis) are wild-harvested from pristine European forests and carefully selected to ensure exceptional quality, rich aroma, and intense earthy flavor. Gently dried using controlled processes, the mushrooms retain their natural taste, fragrance, and nutritional value, making them a highly valued ingredient for culinary and industrial applications.",
+				"As a trusted dried porcini mushrooms supplier, we offer consistent, high-quality bulk porcini mushrooms for food manufacturers, wholesalers, and international export markets. Our dried porcini are widely used in soups, sauces, risottos, ready meals, and gourmet dishes, delivering concentrated flavor and excellent performance."
+			],
+			"benefits": [
+				"100% wild dried porcini mushrooms (Boletus edulis) sourced from Europe",
+				"Intense aroma and rich, concentrated earthy flavor",
+				"Carefully cleaned and dried for premium quality",
+				"Ideal for wholesale, bulk supply, and food processing industries",
+				"Extended shelf life with convenient storage and handling",
+				"No additives, preservatives, or added ingredients",
+				"Fully traceable and compliant with EU food safety standards"
+			]
+		},
+		"freshChanterelles": {
+			"desc": [
+				"Our premium fresh chanterelles (Cantharellus cibarius) are wild-harvested from pristine European forests and carefully selected to ensure exceptional quality, vibrant golden color, and delicate, slightly fruity aroma. Hand-picked during peak season, these mushrooms are handled with care to preserve their natural freshness, firm texture, and superior culinary characteristics.",
+				"As a trusted fresh chanterelles supplier, we provide high-quality bulk chanterelles for food manufacturers, wholesalers, restaurants, and international markets. Our fresh chanterelles are widely used in gourmet cuisine, including sauces, soups, risottos, and premium dishes, delivering distinctive flavor and reliable performance."
+			],
+			"benefits": [
+				"100% wild fresh chanterelles (Cantharellus cibarius) sourced from Europe",
+				"Bright golden color with delicate, fruity aroma",
+				"Carefully hand-picked and sorted for premium quality",
+				"Ideal for wholesale, foodservice, and gourmet applications",
+				"Fresh product with controlled handling and fast delivery",
+				"No additives, preservatives, or processing",
+				"Fully traceable and compliant with EU food safety standards"
+			]
+		},
+		"driedChanterelles": {
+			"desc": [
+				"Our premium dried chanterelles (Cantharellus cibarius) are wild-harvested from pristine European forests and carefully selected to ensure exceptional quality, vibrant color, and delicate, slightly fruity aroma. Gently dried using controlled processes, the mushrooms retain their natural flavor, fragrance, and nutritional value, making them a valuable ingredient for culinary and industrial applications.",
+				"As a trusted dried chanterelles supplier, we offer consistent, high-quality bulk chanterelles for food manufacturers, wholesalers, and international export markets. Our dried chanterelles are widely used in soups, sauces, risottos, ready meals, and gourmet dishes, delivering concentrated flavor and reliable performance."
+			],
+			"benefits": [
+				"100% wild dried chanterelles (Cantharellus cibarius) sourced from Europe",
+				"Delicate aroma with rich, slightly fruity flavor",
+				"Carefully cleaned and dried for premium quality",
+				"Ideal for wholesale, bulk supply, and food processing industries",
+				"Extended shelf life with convenient storage and handling",
+				"No additives, preservatives, or added ingredients",
+				"Fully traceable and compliant with EU food safety standards"
+			]
+		},
+		"frozenSourCherries": {
+			"desc": [
+				"Our premium IQF frozen sour cherries (Prunus cerasus) are carefully selected from high-quality orchards and harvested at peak ripeness to ensure deep red color, juicy texture, and a distinctive sweet-tart flavor. Using advanced Individually Quick Frozen (IQF) technology, the cherries are rapidly frozen to preserve their natural freshness, structure, and nutritional value, making them ideal for industrial and commercial applications.",
+				"As a trusted frozen sour cherries supplier, we provide consistent, high-quality bulk sour cherries for food manufacturers, wholesalers, and international export markets. Our IQF sour cherries are widely used in bakery products, desserts, jams, juices, and dairy applications, delivering reliable performance and authentic fruit taste."
+			],
+			"benefits": [
+				"High-quality sour cherries (Prunus cerasus) sourced from Europe",
+				"Premium IQF frozen sour cherries with rich color and balanced tart flavor",
+				"Rich in antioxidants, vitamins, and natural compounds",
+				"Ideal for wholesale, bulk supply, and food processing industries",
+				"Long shelf life with easy storage and portion control",
+				"No additives, preservatives, or added sugar",
+				"Fully traceable and compliant with EU food safety standards"
+			]
+		},
+		"frozenHoneyMushrooms": {
+			"desc": [
+				"Our premium IQF frozen honey mushrooms (Armillaria mellea) are wild-harvested from clean European forests and carefully selected to ensure high quality, firm texture, and mild, earthy flavor. Using advanced Individually Quick Frozen (IQF) technology, the mushrooms are rapidly frozen to preserve their natural freshness, structure, and nutritional value, making them ideal for industrial and commercial applications.",
+				"As a trusted frozen honey mushrooms supplier, we provide consistent, high-quality bulk honey mushrooms for food manufacturers, wholesalers, and international export markets. Our IQF honey mushrooms are widely used in soups, sauces, ready meals, and traditional dishes, delivering reliable performance and authentic mushroom taste."
+			],
+			"benefits": [
+				"100% honey mushrooms (Armillaria mellea) sourced from Europe",
+				"Premium IQF frozen mushrooms with firm texture and mild flavor",
+				"Carefully cleaned and processed for consistent quality",
+				"Ideal for wholesale, bulk supply, and food processing industries",
+				"Long shelf life with easy storage and portion control",
+				"No additives, preservatives, or added ingredients",
+				"Fully traceable and compliant with EU food safety standards"
+			]
+		},
+		"frozenBlackberries": {
+			"desc": [
+				"Our premium IQF frozen blackberries (Rubus fruticosus) are carefully selected from high-quality farms and harvested at peak ripeness to ensure deep color, juicy texture, and a rich sweet-tart flavor. Using advanced Individually Quick Frozen (IQF) technology, the blackberries are rapidly frozen to preserve their natural freshness, structure, and nutritional value, making them ideal for industrial and commercial applications.",
+				"As a trusted frozen blackberries supplier, we provide consistent, high-quality bulk blackberries for food manufacturers, wholesalers, and international export markets. Our IQF blackberries are widely used in smoothies, jams, desserts, bakery products, juices, and dairy applications, delivering reliable performance and authentic fruit taste."
+			],
+			"benefits": [
+				"High-quality blackberries (Rubus fruticosus) sourced from Europe",
+				"Premium IQF frozen blackberries with rich color and natural flavor",
+				"Rich in antioxidants, vitamins, and dietary fiber",
+				"Ideal for wholesale, bulk supply, and food processing industries",
+				"Long shelf life with easy storage and portion control",
+				"No additives, preservatives, or added sugar",
+				"Fully traceable and compliant with EU food safety standards"
+			]
+		},
+		"frozenGrapes": {
+			"desc": [
+				"Our premium IQF frozen grapes (Vitis vinifera) are carefully selected from high-quality vineyards and harvested at peak ripeness to ensure natural sweetness, juicy texture, and rich flavor. Using advanced Individually Quick Frozen (IQF) technology, the grapes are rapidly frozen to preserve their freshness, structure, and nutritional value, making them ideal for industrial and commercial applications.",
+				"As a trusted frozen grapes supplier, we provide consistent, high-quality bulk grapes for food manufacturers, wholesalers, and international export markets. Our IQF grapes are widely used in juices, smoothies, desserts, frozen snacks, and food processing applications, delivering reliable performance and authentic fruit taste."
+			],
+			"benefits": [
+				"High-quality grapes (Vitis vinifera) sourced from Europe",
+				"Premium IQF frozen grapes with natural sweetness and flavor",
+				"Rich in antioxidants, vitamins, and natural compounds",
+				"Ideal for wholesale, bulk supply, and food processing industries",
+				"Long shelf life with easy storage and portion control",
+				"No additives, preservatives, or added sugar",
+				"Fully traceable and compliant with EU food safety standards"
+			]
+		},
+		"frozenCorn": {
+			"desc": [
+				"Our premium IQF frozen corn (Zea mays) is carefully selected from high-quality farms and harvested at peak maturity to ensure natural sweetness, bright yellow color, and crisp texture. Using advanced Individually Quick Frozen (IQF) technology, the corn is rapidly frozen to preserve its freshness, taste, and nutritional value, making it ideal for industrial and commercial applications.",
+				"As a trusted frozen corn supplier, we provide consistent, high-quality bulk corn for food manufacturers, wholesalers, and international export markets. Our IQF corn is widely used in ready meals, soups, salads, vegetable mixes, and foodservice applications, delivering reliable performance and natural vegetable flavor."
+			],
+			"benefits": [
+				"High-quality corn (Zea mays) sourced from Europe",
+				"Premium IQF frozen corn with natural sweetness and vibrant color",
+				"Rich in fiber, vitamins, and essential nutrients",
+				"Ideal for wholesale, bulk supply, and food processing industries",
+				"Long shelf life with easy storage and portion control",
+				"No additives, preservatives, or added sugar",
+				"Fully traceable and compliant with EU food safety standards"
+			]
+		},
+		"frozenBlackCurrants": {
+			"desc": [
+				"Our premium IQF frozen black currants (Ribes nigrum) are carefully selected from high-quality farms and harvested at peak ripeness to ensure deep purple color, intense flavor, and high nutritional value. Using advanced Individually Quick Frozen (IQF) technology, the berries are rapidly frozen to preserve their natural freshness, structure, and rich antioxidant content, making them ideal for industrial and commercial applications.",
+				"As a trusted frozen black currants supplier, we provide consistent, high-quality bulk black currants for food manufacturers, wholesalers, and international export markets. Our IQF black currants are widely used in juices, jams, syrups, desserts, bakery products, and functional foods, delivering reliable performance and authentic berry taste."
+			],
+			"benefits": [
+				"High-quality black currants (Ribes nigrum) sourced from Europe",
+				"Premium IQF frozen black currants with intense flavor and color",
+				"Rich in vitamin C, antioxidants, and polyphenols",
+				"Ideal for wholesale, bulk supply, and food processing industries",
+				"Long shelf life with easy storage and portion control",
+				"No additives, preservatives, or added sugar",
+				"Fully traceable and compliant with EU food safety standards"
+			]
+		},
 		"origin": {
 			"region": {
 				"title": "Ukraine (Carpathian region)",
