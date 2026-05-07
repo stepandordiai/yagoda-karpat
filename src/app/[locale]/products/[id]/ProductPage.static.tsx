@@ -283,52 +283,64 @@ export default function ProductPageStatic({ product }: ProductPageStaticProps) {
 								},
 							}}
 							spaceBetween={10}
-							navigation={{
-								nextEl: ".swiper-btn-next",
-								prevEl: ".swiper-btn-prev",
-							}}
+							navigation={
+								productVariant.images.length > 1
+									? {
+											nextEl: ".swiper-btn-next",
+											prevEl: ".swiper-btn-prev",
+										}
+									: false
+							}
 							// autoplay={{
 							// 	delay: 3000,
 							// 	disableOnInteraction: false,
 							// }}
 							// speed={500}
 							// loop={productVariant.images.length > 1}
-							pagination={{
-								type: "fraction",
-							}}
+							pagination={
+								productVariant.images.length > 1
+									? {
+											type: "fraction",
+										}
+									: false
+							}
 							modules={[Pagination, Navigation]}
 							className="swiper"
 						>
-							<button className="swiper-btn-prev">
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									width="16"
-									height="16"
-									fill="currentColor"
-									className="bi bi-chevron-left"
-									viewBox="0 0 16 16"
-								>
-									<path
-										fillRule="evenodd"
-										d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0"
-									/>
-								</svg>
-							</button>
-							<button className="swiper-btn-next">
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									width="16"
-									height="16"
-									fill="currentColor"
-									className="bi bi-chevron-right"
-									viewBox="0 0 16 16"
-								>
-									<path
-										fillRule="evenodd"
-										d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"
-									/>
-								</svg>
-							</button>
+							{productVariant.images.length > 1 && (
+								<>
+									<button className="swiper-btn-prev">
+										<svg
+											xmlns="http://www.w3.org/2000/svg"
+											width="16"
+											height="16"
+											fill="currentColor"
+											className="bi bi-chevron-left"
+											viewBox="0 0 16 16"
+										>
+											<path
+												fillRule="evenodd"
+												d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0"
+											/>
+										</svg>
+									</button>
+									<button className="swiper-btn-next">
+										<svg
+											xmlns="http://www.w3.org/2000/svg"
+											width="16"
+											height="16"
+											fill="currentColor"
+											className="bi bi-chevron-right"
+											viewBox="0 0 16 16"
+										>
+											<path
+												fillRule="evenodd"
+												d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"
+											/>
+										</svg>
+									</button>
+								</>
+							)}
 							{productVariant.images.map((img, index) => {
 								return (
 									<SwiperSlide key={index}>
