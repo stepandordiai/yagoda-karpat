@@ -119,6 +119,19 @@
 	width: 50% !important;
 }
 
+.swiper-wrapper__btn {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	z-index: 2;
+	background: rgba(0, 0, 0, 0.25);
+	@include flex-center;
+	@include glass-effect;
+	padding: 10px;
+	border-radius: 10px;
+	color: #fff;
+}
+
 // Swiper
 
 .swiper {
@@ -400,6 +413,95 @@ textarea {
 	&:hover::before {
 		transform: scaleX(1);
 	}
+}
+
+.img-modal {
+	position: fixed;
+	inset: 0;
+	z-index: 9999;
+	background: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.img-modal__img {
+	height: calc(100% - 64px - 64px);
+	object-fit: contain;
+}
+
+.img-modal__close {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	z-index: 1;
+	padding: 10px;
+	border-radius: 10px;
+	background: var(--bg-clr);
+	@include flex-center;
+
+	&::before {
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: -1;
+		background: var(--accent-clr);
+		width: 100%;
+		height: 100%;
+		border-radius: 10px;
+		transform: scale(0);
+		transition: transform 0.3s;
+	}
+
+	&:hover::before {
+		transform: scale(1);
+	}
+}
+
+.img-modal__nav {
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+	display: flex;
+	gap: 5px;
+}
+
+.img-modal__prev,
+.img-modal__next {
+	position: relative;
+	z-index: 1;
+	padding: 10px;
+	border-radius: 10px;
+	background: var(--bg-clr);
+	@include flex-center;
+
+	&::before {
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: -1;
+		background: var(--accent-clr);
+		width: 100%;
+		height: 100%;
+		border-radius: 10px;
+		transform: scale(0);
+		transition: transform 0.3s;
+	}
+
+	&:hover::before {
+		transform: scale(1);
+	}
+}
+
+.img-modal__pag {
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+	padding: 10px;
+	border-radius: 10px;
+	background: var(--bg-clr);
 }
 
 @media screen and (max-width: 895px) {

@@ -6,8 +6,8 @@ import { useState } from "react";
 import { Link } from "@/i18n/navigation";
 import Image from "next/image";
 import classNames from "classnames";
-import CameraIcon from "@/components/icons/CameraIcon";
 import "./ProductCard.scss";
+import ImageIcon from "../icons/ImageIcon";
 
 type ProductProps = {
 	product: Product;
@@ -71,8 +71,7 @@ export default function ProductCard({ product }: ProductProps) {
 					<div className="product__img-placeholder" />
 				)}
 				<div className="img-qty">
-					<CameraIcon />
-					<span>{productState?.images.length}</span>
+					<ImageIcon /> <span>{productState?.images.length}</span>
 				</div>
 			</div>
 			<div className="product__info-container">

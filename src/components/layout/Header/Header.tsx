@@ -12,6 +12,7 @@ import TelIcon from "@/components/icons/TelIcon";
 import EmailIcon from "@/components/icons/EmailIcon";
 import PdfIcon from "@/components/icons/PdfIcon";
 import "./Header.scss";
+import PlusIcon from "@/components/icons/PlusIcon";
 
 type HeaderProps = {
 	products: Product[];
@@ -224,7 +225,7 @@ export default function Header({ products }: HeaderProps) {
 										"products-btn__icon--active": isDropdownOpen,
 									})}
 								>
-									<img src="/icons/plus-lg.svg" width={24} height={24} alt="" />
+									<PlusIcon size={24} />
 								</span>
 							</button>
 						</div>

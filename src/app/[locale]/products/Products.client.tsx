@@ -6,6 +6,8 @@ import { useState } from "react";
 import ProductCard from "@/components/ProductCard/ProductCard";
 import products from "@/data/products.json";
 import "./Products.scss";
+import SearchIcon from "@/components/icons/SearchIcon";
+import CloseIcon from "@/components/icons/CloseIcon";
 
 export default function ProductsClient() {
 	const t = useTranslations();
@@ -63,11 +65,7 @@ export default function ProductsClient() {
 					className="search-icon"
 					onClick={search === "" ? undefined : clearSearch}
 				>
-					{search === "" ? (
-						<img src="/icons/search.svg" width={20} height={20} alt="" />
-					) : (
-						<img src="/icons/x-lg.svg" width={20} height={20} alt="" />
-					)}
+					{search === "" ? <SearchIcon size={24} /> : <CloseIcon size={24} />}
 				</button>
 			</div>
 			<div className="products-container">

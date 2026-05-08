@@ -10,6 +10,8 @@ import { Link } from "@/i18n/navigation";
 import FacebookIcon from "@/components/icons/FacebookIcon";
 import LinkedinIcon from "@/components/icons/LinkedinIcon";
 import "./Footer.scss";
+import ArrowUpIcon from "@/components/icons/ArrowUpIcon";
+import PlusIcon from "@/components/icons/PlusIcon";
 
 interface Social {
 	title: string;
@@ -85,7 +87,8 @@ export default function Footer({ products }: FooterProps) {
 						onClick={scrollToTopOnClick}
 						aria-label={t("footer.scrollToTop")}
 					>
-						<img src="/icons/arrow-up.svg" width={26} height={26} alt="" />
+						{/* <img src="/icons/arrow-up.svg" width={26} height={26} alt="" /> */}
+						<ArrowUpIcon size={24} />
 					</button>
 					<div className="footer-details">
 						<Link className="footer-logo" href="/">
@@ -114,15 +117,14 @@ export default function Footer({ products }: FooterProps) {
 									})}
 								>
 									<span>{t("footer.navigation")}</span>
-									<img
+									{/* <img src="/icons/plus-lg.svg" width={26} height={26} alt="" /> */}
+									<span
 										className={classNames("dropdown-btn__icon", {
 											"dropdown-btn__icon--active": footerNavDropdownActive,
 										})}
-										src="/icons/plus-lg.svg"
-										width={26}
-										height={26}
-										alt=""
-									/>
+									>
+										<PlusIcon size={24} />
+									</span>
 								</button>
 								<div
 									className={classNames("grid-dropdown__wrapper", {
@@ -132,22 +134,38 @@ export default function Footer({ products }: FooterProps) {
 									<div className="grid-dropdown">
 										<ul className="footer-nav__list">
 											<li>
-												<Link onClick={closeFooterDropdown} href="/">
+												<Link
+													className="footer__link"
+													onClick={closeFooterDropdown}
+													href="/"
+												>
 													{t("home_title")}
 												</Link>
 											</li>
 											<li>
-												<Link onClick={closeFooterDropdown} href="/#about-us">
+												<Link
+													className="footer__link"
+													onClick={closeFooterDropdown}
+													href="/#about-us"
+												>
 													{t("about_us_title")}
 												</Link>
 											</li>
 											<li>
-												<Link onClick={closeFooterDropdown} href="/products">
+												<Link
+													className="footer__link"
+													onClick={closeFooterDropdown}
+													href="/products"
+												>
 													{t("products_title")}
 												</Link>
 											</li>
 											<li>
-												<Link onClick={closeFooterDropdown} href="/#contacts">
+												<Link
+													className="footer__link"
+													onClick={closeFooterDropdown}
+													href="/#contacts"
+												>
 													{t("contacts_title")}
 												</Link>
 											</li>
@@ -169,16 +187,14 @@ export default function Footer({ products }: FooterProps) {
 											)}
 										>
 											<span>{t(productType)}</span>
-											<img
+											<span
 												className={classNames("dropdown-btn__icon", {
 													"dropdown-btn__icon--active":
 														footerDropdownActive[index],
 												})}
-												src="/icons/plus-lg.svg"
-												width={26}
-												height={26}
-												alt=""
-											/>
+											>
+												<PlusIcon size={24} />
+											</span>
 										</button>
 										<div
 											className={classNames("grid-dropdown__wrapper", {
@@ -197,13 +213,10 @@ export default function Footer({ products }: FooterProps) {
 																<li key={id}>
 																	<Link
 																		onClick={closeFooterDropdown}
-																		className={classNames(
-																			"footer__product-link",
-																			{
-																				"footer__product-link--active":
-																					pathname === `/products/${id}`,
-																			},
-																		)}
+																		className={classNames("footer__link", {
+																			"footer__link--active":
+																				pathname === `/products/${id}`,
+																		})}
 																		href={`/products/${id}`}
 																	>
 																		{t(name)}

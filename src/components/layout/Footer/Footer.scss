@@ -134,16 +134,16 @@
 	row-gap: 5px;
 }
 
-.footer__product-link {
+.footer__link {
 	transition: color 0.15s;
 
 	&:hover {
 		color: var(--accent-clr);
 	}
-}
 
-.footer__product-link--active {
-	color: var(--accent-clr);
+	&--active {
+		color: var(--accent-clr);
+	}
 }
 
 .dropdown-btn {
@@ -216,7 +216,7 @@
 	}
 
 	.dropdown-btn__icon {
-		display: initial;
+		@include flex-center;
 		transition: transform 0.3s;
 	}
 

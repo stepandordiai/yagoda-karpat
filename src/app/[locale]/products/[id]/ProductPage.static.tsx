@@ -2,7 +2,7 @@
 
 import { useTranslations } from "next-intl";
 import { Product } from "@/interfaces/Product";
-import { JSX, useState } from "react";
+import { JSX, useEffect, useState } from "react";
 import ContactDetails from "@/components/ContactDetails/ContactDetails";
 import Image from "next/image";
 import harvestData from "@/data/harvest-data.json";
@@ -18,6 +18,10 @@ import { Navigation, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
+import SearchIcon from "@/components/icons/SearchIcon";
+import CloseIcon from "@/components/icons/CloseIcon";
+import ChevronLeftIcon from "@/components/icons/ChevronLeftIcon";
+import ChevronRightIcon from "@/components/icons/ChevronRightIcon";
 
 interface Harvest {
 	id: number;
@@ -79,6 +83,49 @@ export default function ProductPageStatic({ product }: ProductPageStaticProps) {
 		product?.variants.find((variant) => variant.id === activeVariantId) ??
 		product?.variants[0] ??
 		null;
+
+	const [swiperInstance, setSwiperInstance] = useState<any>(null);
+	const [fullScreenIndex, setFullScreenIndex] = useState<number | null>(null);
+
+	const showFullScreenImg = () => {
+		if (!swiperInstance) return;
+
+		setFullScreenIndex(swiperInstance.activeIndex);
+	};
+
+	const closeModal = () => {
+		setFullScreenIndex(null);
+	};
+
+	const showPrevImg = (e: React.MouseEvent<HTMLButtonElement>) => {
+		e.stopPropagation();
+
+		setFullScreenIndex((prev) => {
+			if (prev === null) return prev;
+			return prev === 0 ? productVariant.images.length - 1 : prev - 1;
+		});
+	};
+
+	const showNextImg = (e: React.MouseEvent<HTMLButtonElement>) => {
+		e.stopPropagation();
+
+		setFullScreenIndex((prev) => {
+			if (prev === null) return prev;
+			return prev === productVariant.images.length - 1 ? 0 : prev + 1;
+		});
+	};
+
+	useEffect(() => {
+		if (fullScreenIndex !== null) {
+			document.documentElement.style.overflow = "hidden";
+		} else {
+			document.documentElement.style.overflow = "";
+		}
+
+		return () => {
+			document.documentElement.style.overflow = "";
+		};
+	}, [fullScreenIndex]);
 
 	return (
 		<>
@@ -273,10 +320,14 @@ export default function ProductPageStatic({ product }: ProductPageStaticProps) {
 					</a>
 				</div>
 				<div className="swiper-wrapper">
+					<button onClick={showFullScreenImg} className="swiper-wrapper__btn">
+						<SearchIcon />
+					</button>
 					{productVariant.images && (
 						<Swiper
 							// TODO: learn this
 							key={activeVariantId}
+							onSwiper={setSwiperInstance}
 							breakpoints={{
 								900: {
 									spaceBetween: 25,
@@ -310,34 +361,10 @@ export default function ProductPageStatic({ product }: ProductPageStaticProps) {
 							{productVariant.images.length > 1 && (
 								<>
 									<button className="swiper-btn-prev">
-										<svg
-											xmlns="http://www.w3.org/2000/svg"
-											width="16"
-											height="16"
-											fill="currentColor"
-											className="bi bi-chevron-left"
-											viewBox="0 0 16 16"
-										>
-											<path
-												fillRule="evenodd"
-												d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0"
-											/>
-										</svg>
+										<ChevronLeftIcon />
 									</button>
 									<button className="swiper-btn-next">
-										<svg
-											xmlns="http://www.w3.org/2000/svg"
-											width="16"
-											height="16"
-											fill="currentColor"
-											className="bi bi-chevron-right"
-											viewBox="0 0 16 16"
-										>
-											<path
-												fillRule="evenodd"
-												d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"
-											/>
-										</svg>
+										<ChevronRightIcon />
 									</button>
 								</>
 							)}
@@ -486,6 +513,53 @@ export default function ProductPageStatic({ product }: ProductPageStaticProps) {
 					<ContactDetails />
 				</div>
 			</div>
+			{fullScreenIndex !== null && (
+				<div className="img-modal" onClick={closeModal}>
+					<button
+						type="button"
+						className="img-modal__close"
+						onClick={closeModal}
+					>
+						<CloseIcon size={24} />
+					</button>
+
+					<Image
+						src={productVariant.images[fullScreenIndex]}
+						width={1600}
+						height={1200}
+						alt="Full screen image"
+						className="img-modal__img"
+						onClick={(e) => e.stopPropagation()}
+					/>
+
+					{productVariant.images.length > 1 && (
+						<>
+							<div
+								className="img-modal__nav"
+								onClick={(e) => e.stopPropagation()}
+							>
+								<button
+									className="img-modal__prev"
+									type="button"
+									onClick={showPrevImg}
+								>
+									<ChevronLeftIcon size={24} />
+								</button>
+								<button
+									className="img-modal__next"
+									type="button"
+									onClick={showNextImg}
+								>
+									<ChevronRightIcon size={24} />
+								</button>
+							</div>
+							<div className="img-modal__pag">
+								{fullScreenIndex + 1}/{productVariant.images.length}
+							</div>
+						</>
+					)}
+				</div>
+			)}
 		</>
 	);
 }
