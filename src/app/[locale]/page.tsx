@@ -9,11 +9,16 @@ import ProductCard from "@/components/ProductCard/ProductCard";
 import SectionTitle from "@/components/SectionTitle/SectionTitle";
 import Certificates from "@/components/home/Certificates/Certificates";
 import { Link } from "@/i18n/navigation";
-import Faq from "@/components/Faq/Faq";
-import "./Home.scss";
 import Hero from "@/components/home/Hero/Hero";
+import Faqs from "@/components/Faqs/Faqs";
+import "./Home.scss";
 
-const faqs = [
+type Faq = {
+	q: string;
+	a: string;
+};
+
+const faqs: Faq[] = [
 	{
 		q: "faq.home.q.1",
 		a: "faq.home.a.1",
@@ -86,7 +91,7 @@ export default async function Home() {
 					</Link>
 				</section>
 				<Certificates />
-				<Faq faqs={faqs} />
+				<Faqs faqs={faqs} />
 				<Contacts />
 			</Container>
 		</main>

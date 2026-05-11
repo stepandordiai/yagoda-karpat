@@ -8,10 +8,15 @@ import ProductPageStatic from "./ProductPage.static";
 import ProductCard from "@/components/ProductCard/ProductCard";
 import Breadcrumbs from "@/components/common/Breadcrumbs/Breadcrumbs";
 import { productJsonLd } from "@/lib/jsonld/ProductJsonLd";
-import Faq from "@/components/Faq/Faq";
+import Faqs from "@/components/Faqs/Faqs";
 import "./ProductPage.scss";
 
-const productPageFaqs = [
+type Faq = {
+	q: string;
+	a: string;
+};
+
+const productPageFaqs: Faq[] = [
 	{
 		q: "faq.productPage.q.1",
 		a: "faq.productPage.a.1",
@@ -150,7 +155,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
 							</div>
 						</>
 					)}
-					<Faq faqs={productPageFaqs} />
+					<Faqs faqs={productPageFaqs} />
 				</Container>
 			</main>
 		</>
