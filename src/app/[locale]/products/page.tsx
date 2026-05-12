@@ -3,7 +3,7 @@ import { getTranslations } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import Breadcrumbs from "@/components/common/Breadcrumbs/Breadcrumbs";
 import ProductsClient from "./Products.client";
-import Faq from "@/components/Faq/Faq";
+import Faqs from "@/components/Faqs/Faqs";
 import "./Products.scss";
 
 const productsFaqs = [
@@ -66,7 +66,7 @@ export default async function Products() {
 			<Breadcrumbs homeTitle={t("home_title")} title={t("products_title")} />
 			<h1 className="products__title">{t("products.title")}</h1>
 			<ProductsClient />
-			<Faq faqs={productsFaqs} />
+			<Faqs faqs={productsFaqs} />
 		</main>
 	);
 }

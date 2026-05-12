@@ -15,14 +15,13 @@
 	background: var(--accent-clr);
 	border-radius: 10px;
 
-	p:nth-child(1) {
-		font-size: 3rem;
-		font-weight: 600;
-		text-align: left;
+	dt {
+		font-weight: 500;
 	}
 
-	p:nth-child(2) {
-		text-align: left;
+	dd {
+		font-size: 3rem;
+		font-weight: 600;
 	}
 }
 

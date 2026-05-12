@@ -6,7 +6,6 @@ import AboutUs from "@/components/home/AboutUs/AboutUs";
 import Contacts from "@/components/home/Contacts/Contacts";
 import Container from "@/components/Container/Container";
 import ProductCard from "@/components/ProductCard/ProductCard";
-import SectionTitle from "@/components/SectionTitle/SectionTitle";
 import Certificates from "@/components/home/Certificates/Certificates";
 import { Link } from "@/i18n/navigation";
 import Hero from "@/components/home/Hero/Hero";
@@ -78,7 +77,7 @@ export default async function Home() {
 				<Hero />
 				<AboutUs productsLength={products.length} />
 				<section className="home-products" id="products">
-					<SectionTitle name={t("products_title")} />
+					<h2 className="section-title">{t("products_title")}</h2>
 					<div className="products-container">
 						{products
 							.filter((product) => product.isFeatured)

@@ -1,18 +1,15 @@
-"use client";
-
-import { useTranslations } from "next-intl";
-import SectionTitle from "@/components/SectionTitle/SectionTitle";
+import { getTranslations } from "next-intl/server";
 import BusinessHours from "@/components/BusinessHours/BusinessHours";
 import ContactForm from "@/components/ContactForm/ContactForm";
 import ContactDetails from "@/components/ContactDetails/ContactDetails";
 import "./Contacts.scss";
 
-const Contacts = () => {
-	const t = useTranslations();
+export default async function Contacts() {
+	const t = await getTranslations();
 
 	return (
 		<section className="js-contacts" id="contacts">
-			<SectionTitle name={t("contacts_title")} />
+			<h2 className="section-title">{t("contacts_title")}</h2>
 			<div className="contacts-wrapper">
 				<div>
 					<ContactDetails />
@@ -35,5 +32,4 @@ const Contacts = () => {
 			</div>
 		</section>
 	);
-};
-export default Contacts;
+}

@@ -11,7 +11,7 @@ type FaqsProps = {
 	faqs: Faq[];
 };
 
-export default async function Faqs({ faqs }: FaqsProps[]) {
+export default async function Faqs({ faqs }: FaqsProps) {
 	const t = await getTranslations();
 
 	// TODO: learn this

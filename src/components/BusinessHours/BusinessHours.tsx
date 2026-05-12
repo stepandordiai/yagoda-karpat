@@ -1,6 +1,4 @@
-"use client";
-
-import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
 import classNames from "classnames";
 import styles from "./BusinessHours.module.scss";
 
@@ -35,8 +33,8 @@ const businessHoursData = [
 	},
 ];
 
-const BusinessHours = () => {
-	const t = useTranslations();
+export default async function BusinessHours() {
+	const t = await getTranslations();
 
 	const dayNow = new Date().getDay();
 	const correctDayNow = dayNow === 0 ? 6 : dayNow - 1;
@@ -56,7 +54,7 @@ const BusinessHours = () => {
 							})}
 						>
 							{/* FIXME: */}
-							<span>{t(day.name)}:</span>{" "}
+							<span>{t(day.name)}:</span>
 							<span>{day.name === "sun" ? t(day.hours) : "8:00 - 19:00"}</span>
 						</li>
 					);
@@ -64,6 +62,4 @@ const BusinessHours = () => {
 			</ul>
 		</div>
 	);
-};
-
-export default BusinessHours;
+}
