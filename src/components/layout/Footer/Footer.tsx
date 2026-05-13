@@ -9,9 +9,10 @@ import classNames from "classnames";
 import { Link } from "@/i18n/navigation";
 import FacebookIcon from "@/components/icons/FacebookIcon";
 import LinkedinIcon from "@/components/icons/LinkedinIcon";
-import "./Footer.scss";
 import ArrowUpIcon from "@/components/icons/ArrowUpIcon";
 import PlusIcon from "@/components/icons/PlusIcon";
+import YoutubeIcon from "@/components/icons/YoutubeIcon";
+import "./Footer.scss";
 
 interface Social {
 	title: string;
@@ -30,6 +31,12 @@ const socialsData: Social[] = [
 		title: "LinkedIn",
 		url: "https://www.linkedin.com/company/yagoda-karpat",
 		img: <LinkedinIcon size={24} />,
+	},
+
+	{
+		title: "YouTube",
+		url: "https://www.youtube.com/@YagodaKarpat",
+		img: <YoutubeIcon size={24} />,
 	},
 ];
 
@@ -87,7 +94,6 @@ export default function Footer({ products }: FooterProps) {
 						onClick={scrollToTopOnClick}
 						aria-label={t("footer.scrollToTop")}
 					>
-						{/* <img src="/icons/arrow-up.svg" width={26} height={26} alt="" /> */}
 						<ArrowUpIcon size={24} />
 					</button>
 					<div className="footer-details">
@@ -117,7 +123,6 @@ export default function Footer({ products }: FooterProps) {
 									})}
 								>
 									<span>{t("footer.navigation")}</span>
-									{/* <img src="/icons/plus-lg.svg" width={26} height={26} alt="" /> */}
 									<span
 										className={classNames("dropdown-btn__icon", {
 											"dropdown-btn__icon--active": footerNavDropdownActive,

@@ -40,6 +40,34 @@ body {
 	font-weight: 600;
 }
 
+// not found
+
+.not-found {
+	min-height: 100svh;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+}
+
+.not-found__title {
+	font-size: 20vw;
+	color: var(--accent-clr);
+}
+
+.not-found__description {
+	font-size: 5vw;
+}
+
+.not-found__link {
+	transition: color 0.15s;
+
+	&:hover {
+		color: var(--accent-clr);
+	}
+}
+
 @media screen and (max-width: 900px) {
 	.section-title {
 		padding: 90px 0 10px;

@@ -1,12 +1,10 @@
-"use client";
-
-import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
 import PdfIcon from "@/components/icons/PdfIcon";
-import "./Certificates.scss";
 import Image from "next/image";
+import "./Certificates.scss";
 
-const Certificates = () => {
-	const t = useTranslations();
+export default async function Certificates() {
+	const t = await getTranslations();
 
 	return (
 		<section className="certificates">
@@ -14,13 +12,21 @@ const Certificates = () => {
 				<h3 className="certificates__title">{t("certificates_title")}</h3>
 				<p>{t("ourCertificates.desc")}</p>
 			</div>
-			<div>
+			{/* FIXME: */}
+			<div className="certificates-container">
 				<Image
-					src="/yagoda-karpat-organic-certificate.jpg"
+					style={{ objectFit: "contain" }}
+					src="/yagoda-karpat-organic-certificate-1.jpg"
 					width={300}
-					height={424.31}
+					height={424}
 					alt="Organic Standard certificate"
-					loading="lazy"
+				/>
+				<Image
+					style={{ objectFit: "contain" }}
+					src="/yagoda-karpat-organic-certificate-2.jpg"
+					width={300}
+					height={424}
+					alt="Organic Standard certificate"
 				/>
 				<a
 					className="pdf-link"
@@ -33,6 +39,4 @@ const Certificates = () => {
 			</div>
 		</section>
 	);
-};
-
-export default Certificates;
+}
