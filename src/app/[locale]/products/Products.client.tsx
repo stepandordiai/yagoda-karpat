@@ -5,9 +5,9 @@ import classNames from "classnames";
 import { useState } from "react";
 import ProductCard from "@/components/ProductCard/ProductCard";
 import products from "@/data/products.json";
-import "./Products.scss";
 import SearchIcon from "@/components/icons/SearchIcon";
 import CloseIcon from "@/components/icons/CloseIcon";
+import "./Products.scss";
 
 export default function ProductsClient() {
 	const t = useTranslations();
@@ -34,11 +34,12 @@ export default function ProductsClient() {
 	return (
 		<>
 			<div className="products__filter-container">
-				<p style={{ marginBottom: 5, fontWeight: 500 }}>
-					{t("products.filter")}
-				</p>
 				<div className="products__btn-container">
 					{["all", ...uniqueTypes].map((type, i) => {
+						const filteredProductsByType = products.filter(
+							(p) => p.type === type,
+						);
+
 						return (
 							<button
 								key={i}
@@ -47,7 +48,7 @@ export default function ProductsClient() {
 									"products__btn--active": productType === type,
 								})}
 							>
-								{t(type)}
+								{t(type)} {i !== 0 && `(${filteredProductsByType.length})`}
 							</button>
 						);
 					})}

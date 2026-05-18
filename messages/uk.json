@@ -85,7 +85,6 @@
 		},
 
 		"title": "Всі продукти",
-		"filter": "Фільтер",
 		"filter_placeholder": "Який продукт ви шукаєте?",
 		"productNotFound": "Продукт не знайдено",
 		"frozenBilberries": "IQF заморожена чорниця",

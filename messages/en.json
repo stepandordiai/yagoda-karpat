@@ -85,7 +85,6 @@
 		},
 
 		"title": "All products",
-		"filter": "Filter",
 		"filter_placeholder": "Which product are you searching?",
 		"productNotFound": "Product not found",
 		"frozenBilberries": "IQF Frozen Bilberries",
