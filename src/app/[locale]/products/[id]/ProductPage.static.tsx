@@ -24,6 +24,7 @@ import SearchIcon from "@/components/icons/SearchIcon";
 import CloseIcon from "@/components/icons/CloseIcon";
 import ChevronLeftIcon from "@/components/icons/ChevronLeftIcon";
 import ChevronRightIcon from "@/components/icons/ChevronRightIcon";
+import { supabase } from "@/lib/supabase";
 
 interface Harvest {
 	id: number;
@@ -130,6 +131,42 @@ export default function ProductPageStatic({ product }: ProductPageStaticProps) {
 			document.documentElement.style.overflow = "";
 		};
 	}, [fullScreenIndex]);
+
+	const initForm = {
+		name: "",
+		company: "",
+		email: "",
+		requested_product: `${t(product.name)} ${
+			productVariant.state ? "(" + t(productVariant.state) + ")" : ""
+		}`.trimEnd(),
+		message: "",
+	};
+
+	const [error, setError] = useState<string | null>(null);
+	const [loading, setLoading] = useState(false);
+	const [success, setSuccess] = useState(false);
+	const [form, setForm] = useState(initForm);
+
+	const createContactsLead = async (e: React.FormEvent) => {
+		e.preventDefault();
+		setError(null);
+		setLoading(true);
+
+		const { error } = await supabase.from("clients").insert([form]);
+		if (error) {
+			console.error("Insert error:", error.message);
+			setError(error.message);
+			setLoading(false);
+		} else {
+			setSuccess(true);
+			setForm(initForm);
+			setLoading(false);
+		}
+	};
+
+	const handleForm = (name: string, value: string) => {
+		setForm((prev) => ({ ...prev, [name]: value }));
+	};
 
 	return (
 		<>
@@ -469,17 +506,21 @@ export default function ProductPageStatic({ product }: ProductPageStaticProps) {
 				{t("product_page.requestQuotation")}
 			</h3>
 			<div className="product-page__contacts">
-				<div>
-					<form
-						className="product-page-form"
-						action="https://formsubmit.co/info@yagodakarpat.com"
-						method="POST"
-					>
+				<div
+					style={{
+						position: "relative",
+						borderRadius: "10px",
+						overflow: "hidden",
+					}}
+				>
+					<form className="product-page-form" onSubmit={createContactsLead}>
 						<div className="input-container">
 							<label className="contact-label" htmlFor="name">
 								{t("contacts.name")}
 							</label>
 							<input
+								onChange={(e) => handleForm(e.target.name, e.target.value)}
+								value={form.name}
 								className="form__input"
 								id="name"
 								name="name"
@@ -493,6 +534,8 @@ export default function ProductPageStatic({ product }: ProductPageStaticProps) {
 								{t("product_page.company")}
 							</label>
 							<input
+								onChange={(e) => handleForm(e.target.name, e.target.value)}
+								value={form.company}
 								className="form__input"
 								id="company"
 								name="company"
@@ -505,6 +548,8 @@ export default function ProductPageStatic({ product }: ProductPageStaticProps) {
 								{t("contacts.email")}
 							</label>
 							<input
+								onChange={(e) => handleForm(e.target.name, e.target.value)}
+								value={form.email}
 								className="form__input"
 								id="email"
 								name="email"
@@ -518,16 +563,12 @@ export default function ProductPageStatic({ product }: ProductPageStaticProps) {
 								{t("product_page.productRequested")}
 							</label>
 							<input
-								className="form__input form__input--readonly"
+								onChange={(e) => handleForm(e.target.name, e.target.value)}
+								value={form.requested_product}
+								className="form__input"
 								id="product"
-								name="product"
+								name="requested_product"
 								type="text"
-								value={`${t(product.name)} ${
-									productVariant.state
-										? "(" + t(productVariant.state) + ")"
-										: ""
-								}`.trimEnd()}
-								readOnly
 							/>
 						</div>
 						<div className="input-container textarea-container">
@@ -535,6 +576,8 @@ export default function ProductPageStatic({ product }: ProductPageStaticProps) {
 								{t("contacts.message")}
 							</label>
 							<textarea
+								onChange={(e) => handleForm(e.target.name, e.target.value)}
+								value={form.message}
 								rows={3}
 								name="message"
 								id="message"
@@ -542,14 +585,28 @@ export default function ProductPageStatic({ product }: ProductPageStaticProps) {
 							></textarea>
 						</div>
 						<div>
-							<button className="form-submit-btn btn--bold" type="submit">
-								{t("requestPrice")}
+							<button
+								className={`form-submit-btn btn--bold ${loading ? "form-submit-btn--loading" : ""}`}
+								type="submit"
+							>
+								{loading ? "Sending..." : t("requestPrice")}
 							</button>
 							<p style={{ marginTop: 10 }}>
 								{t("product_page.minimumOrderQuantity")}
 							</p>
 						</div>
 					</form>
+					{success && (
+						<div className="success-modal">
+							<p>Thank you for your inquiry. We will contact you shortly.</p>
+							<button
+								onClick={() => setSuccess(false)}
+								className="success-btn btn--bold"
+							>
+								Close
+							</button>
+						</div>
+					)}
 				</div>
 				<div>
 					<ContactDetails />
