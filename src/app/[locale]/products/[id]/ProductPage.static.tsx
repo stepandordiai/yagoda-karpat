@@ -14,10 +14,12 @@ import TelIcon from "@/components/icons/TelIcon";
 import EmailIcon from "@/components/icons/EmailIcon";
 // Swiper
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination } from "swiper/modules";
+import { Navigation, Pagination, Thumbs, FreeMode } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
+import "swiper/css/free-mode";
+import "swiper/css/thumbs";
 import SearchIcon from "@/components/icons/SearchIcon";
 import CloseIcon from "@/components/icons/CloseIcon";
 import ChevronLeftIcon from "@/components/icons/ChevronLeftIcon";
@@ -70,6 +72,7 @@ export default function ProductPageStatic({ product }: ProductPageStaticProps) {
 	);
 
 	function handleVariantId(props: number) {
+		setThumbsSwiper(null);
 		setActiveVariantId(props);
 	}
 
@@ -85,6 +88,7 @@ export default function ProductPageStatic({ product }: ProductPageStaticProps) {
 		null;
 
 	const [swiperInstance, setSwiperInstance] = useState<any>(null);
+	const [thumbsSwiper, setThumbsSwiper] = useState<any>(null);
 	const [fullScreenIndex, setFullScreenIndex] = useState<number | null>(null);
 
 	const showFullScreenImg = () => {
@@ -319,55 +323,95 @@ export default function ProductPageStatic({ product }: ProductPageStaticProps) {
 						{t("requestPrice")}
 					</a>
 				</div>
-				<div className="swiper-wrapper">
-					<button onClick={showFullScreenImg} className="swiper-wrapper__btn">
-						<SearchIcon />
-					</button>
-					{productVariant.images && (
+				<div className="swipers-container">
+					<div className="swiper-wrapper">
+						<button onClick={showFullScreenImg} className="swiper-wrapper__btn">
+							<SearchIcon />
+						</button>
+
+						{productVariant.images && (
+							<Swiper
+								// TODO: learn this
+								key={activeVariantId}
+								onSwiper={setSwiperInstance}
+								breakpoints={{
+									900: {
+										spaceBetween: 25,
+									},
+								}}
+								spaceBetween={10}
+								navigation={
+									productVariant.images.length > 1
+										? {
+												nextEl: ".swiper-btn-next",
+												prevEl: ".swiper-btn-prev",
+											}
+										: false
+								}
+								// autoplay={{
+								// 	delay: 3000,
+								// 	disableOnInteraction: false,
+								// }}
+								// speed={500}
+								// loop={productVariant.images.length > 1}
+								pagination={
+									productVariant.images.length > 1
+										? {
+												type: "fraction",
+											}
+										: false
+								}
+								// TODO: learn this
+								thumbs={{
+									swiper:
+										thumbsSwiper && !thumbsSwiper.destroyed
+											? thumbsSwiper
+											: null,
+								}}
+								modules={[Pagination, Navigation, FreeMode, Thumbs]}
+								className="swiper"
+							>
+								{productVariant.images.length > 1 && (
+									<>
+										<button className="swiper-btn-prev">
+											<ChevronLeftIcon />
+										</button>
+										<button className="swiper-btn-next">
+											<ChevronRightIcon />
+										</button>
+									</>
+								)}
+								{productVariant.images.map((img, index) => {
+									return (
+										<SwiperSlide key={index}>
+											<Image
+												className="swiper-img"
+												src={img}
+												width={1600}
+												height={1200}
+												alt={`${t(product.name)} ${productVariant.state ? t(productVariant.state) : ""}`.trimEnd()}
+												// TODO: learn this
+												priority={index === 0}
+											/>
+										</SwiperSlide>
+									);
+								})}
+							</Swiper>
+						)}
+					</div>
+					<div>
 						<Swiper
 							// TODO: learn this
-							key={activeVariantId}
-							onSwiper={setSwiperInstance}
-							breakpoints={{
-								900: {
-									spaceBetween: 25,
-								},
-							}}
+							key={`thumbs-${activeVariantId}`}
+							onSwiper={setThumbsSwiper}
 							spaceBetween={10}
-							navigation={
-								productVariant.images.length > 1
-									? {
-											nextEl: ".swiper-btn-next",
-											prevEl: ".swiper-btn-prev",
-										}
-									: false
-							}
-							// autoplay={{
-							// 	delay: 3000,
-							// 	disableOnInteraction: false,
-							// }}
-							// speed={500}
-							// loop={productVariant.images.length > 1}
-							pagination={
-								productVariant.images.length > 1
-									? {
-											type: "fraction",
-										}
-									: false
-							}
-							modules={[Pagination, Navigation]}
-							className="swiper"
+							slidesPerView={4}
+							// TODO: ?
+							freeMode={true}
+							watchSlidesProgress={true}
+							modules={[FreeMode, Navigation, Thumbs]}
+							className="swiper-thumbs"
 						>
-							{productVariant.images.length > 1 && (
-								<>
-									<button className="swiper-btn-prev">
-										<ChevronLeftIcon />
-									</button>
-									<button className="swiper-btn-next">
-										<ChevronRightIcon />
-									</button>
-								</>
-							)}
 							{productVariant.images.map((img, index) => {
 								return (
 									<SwiperSlide key={index}>
@@ -377,14 +421,12 @@ export default function ProductPageStatic({ product }: ProductPageStaticProps) {
 											width={1600}
 											height={1200}
 											alt={`${t(product.name)} ${productVariant.state ? t(productVariant.state) : ""}`.trimEnd()}
-											// TODO: learn this
-											priority={index === 0}
 										/>
 									</SwiperSlide>
 								);
 							})}
 						</Swiper>
-					)}
+					</div>
 				</div>
 			</div>
 			<div className="product-page-section">
