@@ -256,6 +256,7 @@
 		"variants": [
 			{
 				"id": 1,
+				"state": "product_page.whole2",
 				"images": [
 					"/products/frozen-strawberries/iqf-frozen-strawberries-1-min.jpg",
 					"/products/frozen-strawberries/iqf-frozen-strawberries-2-min.jpg"
@@ -281,6 +282,7 @@
 		"variants": [
 			{
 				"id": 1,
+				"state": "product_page.whole2",
 				"images": [
 					"/products/frozen-raspberries/iqf-frozen-raspberries-1-min.JPG",
 					"/products/frozen-raspberries/iqf-frozen-raspberries-2-min.JPG"
@@ -306,6 +308,7 @@
 		"variants": [
 			{
 				"id": 1,
+				"state": "product_page.pitted",
 				"images": ["/products/frozen-apricots/iqf-frozen-apricots-1-c.jpg"]
 			}
 		],
@@ -479,6 +482,7 @@
 		"variants": [
 			{
 				"id": 1,
+				"state": "product_page.whole",
 				"images": [
 					"/products/fresh-porcini-mushrooms/fresh-porcini-mushrooms-1-c.jpg"
 				]
@@ -571,7 +575,7 @@
 		"variants": [
 			{
 				"id": 1,
-				"state": "product_page.pitted",
+				"state": "product_page.wholePitted",
 				"images": [
 					"/products/frozen-sour-cherries-pitted/iqf-frozen-sour-cherries-pitted-1-min.jpg",
 					"/products/frozen-sour-cherries-pitted/iqf-frozen-sour-cherries-pitted-2-min.jpg",
