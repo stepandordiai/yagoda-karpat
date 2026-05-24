@@ -25,6 +25,7 @@ import CloseIcon from "@/components/icons/CloseIcon";
 import ChevronLeftIcon from "@/components/icons/ChevronLeftIcon";
 import ChevronRightIcon from "@/components/icons/ChevronRightIcon";
 import { supabase } from "@/lib/supabase";
+import ContactForm from "@/components/ContactForm/ContactForm";
 
 interface Harvest {
 	id: number;
@@ -132,41 +133,39 @@ export default function ProductPageStatic({ product }: ProductPageStaticProps) {
 		};
 	}, [fullScreenIndex]);
 
-	const initForm = {
-		name: "",
-		company: "",
-		email: "",
-		requested_product: `${t(product.name)} ${
-			productVariant.state ? "(" + t(productVariant.state) + ")" : ""
-		}`.trimEnd(),
-		message: "",
-	};
+	// const initForm = {
+	// 	name: "",
+	// 	company: "",
+	// 	email: "",
+	// 	requested_product: ,
+	// 	message: "",
+	// };
 
 	const [error, setError] = useState<string | null>(null);
 	const [loading, setLoading] = useState(false);
 	const [success, setSuccess] = useState(false);
-	const [form, setForm] = useState(initForm);
+	// const [form, setForm] = useState(initForm);
 
-	const createContactsLead = async (e: React.FormEvent) => {
-		e.preventDefault();
-		setError(null);
-		setLoading(true);
+	// const createContactsLead = async (e: React.FormEvent) => {
+	// 	e.preventDefault();
+	// 	setError(null);
+	// 	setLoading(true);
 
-		const { error } = await supabase.from("clients").insert([form]);
-		if (error) {
-			console.error("Insert error:", error.message);
-			setError(error.message);
-			setLoading(false);
-		} else {
-			setSuccess(true);
-			setForm(initForm);
-			setLoading(false);
-		}
-	};
+	// 	const { error } = await supabase.from("clients").insert([form]);
+	// 	if (error) {
+	// 		console.error("Insert error:", error.message);
+	// 		setError(error.message);
+	// 		setLoading(false);
+	// 	} else {
+	// 		setSuccess(true);
+	// 		setForm(initForm);
+	// 		setLoading(false);
+	// 	}
+	// };
 
-	const handleForm = (name: string, value: string) => {
-		setForm((prev) => ({ ...prev, [name]: value }));
-	};
+	// const handleForm = (name: string, value: string) => {
+	// 	setForm((prev) => ({ ...prev, [name]: value }));
+	// };
 
 	return (
 		<>
@@ -502,115 +501,14 @@ export default function ProductPageStatic({ product }: ProductPageStaticProps) {
 					</div>
 				</div>
 			</div>
-			<h3 className="product-page-form__title" id="products-page__contacts">
-				{t("product_page.requestQuotation")}
-			</h3>
 			<div className="product-page__contacts">
-				<div
-					style={{
-						position: "relative",
-						borderRadius: "10px",
-						overflow: "hidden",
-					}}
-				>
-					<form className="product-page-form" onSubmit={createContactsLead}>
-						<div className="input-container">
-							<label className="contact-label" htmlFor="name">
-								{t("contacts.name")}
-							</label>
-							<input
-								onChange={(e) => handleForm(e.target.name, e.target.value)}
-								value={form.name}
-								className="form__input"
-								id="name"
-								name="name"
-								autoComplete="name"
-								type="text"
-								required
-							/>
-						</div>
-						<div className="input-container">
-							<label className="contact-label" htmlFor="company">
-								{t("product_page.company")}
-							</label>
-							<input
-								onChange={(e) => handleForm(e.target.name, e.target.value)}
-								value={form.company}
-								className="form__input"
-								id="company"
-								name="company"
-								type="text"
-								required
-							/>
-						</div>
-						<div className="input-container">
-							<label className="contact-label" htmlFor="email">
-								{t("contacts.email")}
-							</label>
-							<input
-								onChange={(e) => handleForm(e.target.name, e.target.value)}
-								value={form.email}
-								className="form__input"
-								id="email"
-								name="email"
-								autoComplete="email"
-								type="email"
-								required
-							/>
-						</div>
-						<div className="input-container">
-							<label className="contact-label" htmlFor="product">
-								{t("product_page.productRequested")}
-							</label>
-							<input
-								onChange={(e) => handleForm(e.target.name, e.target.value)}
-								value={form.requested_product}
-								className="form__input"
-								id="product"
-								name="requested_product"
-								type="text"
-							/>
-						</div>
-						<div className="input-container textarea-container">
-							<label className="contact-label" htmlFor="message">
-								{t("contacts.message")}
-							</label>
-							<textarea
-								onChange={(e) => handleForm(e.target.name, e.target.value)}
-								value={form.message}
-								rows={3}
-								name="message"
-								id="message"
-								placeholder={t("product_page.messagePlaceholder")}
-							></textarea>
-						</div>
-						<div>
-							<button
-								className={`form-submit-btn btn--bold ${loading ? "form-submit-btn--loading" : ""}`}
-								type="submit"
-							>
-								{loading ? "Sending..." : t("requestPrice")}
-							</button>
-							<p style={{ marginTop: 10 }}>
-								{t("product_page.minimumOrderQuantity")}
-							</p>
-						</div>
-					</form>
-					{success && (
-						<div className="success-modal">
-							<p>Thank you for your inquiry. We will contact you shortly.</p>
-							<button
-								onClick={() => setSuccess(false)}
-								className="success-btn btn--bold"
-							>
-								Close
-							</button>
-						</div>
-					)}
-				</div>
-				<div>
-					<ContactDetails />
-				</div>
+				<ContactForm
+					heading={t("product_page.requestQuotation")}
+					requestedProduct={`${t(product.name)} ${
+						productVariant.state ? "(" + t(productVariant.state) + ")" : ""
+					}`.trimEnd()}
+				/>
+				<ContactDetails />
 			</div>
 			{fullScreenIndex !== null && (
 				<div className="img-modal" onClick={closeModal}>

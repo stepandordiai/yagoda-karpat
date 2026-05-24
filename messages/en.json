@@ -657,5 +657,11 @@
 				"6": "Yes, we provide flexible packaging options, including customized solutions and private label packaging for business clients."
 			}
 		}
+	},
+
+	"contactForm": {
+		"close": "Close",
+		"success": "Thank you for your inquiry. We will contact you shortly.",
+		"sending": "Sending..."
 	}
 }

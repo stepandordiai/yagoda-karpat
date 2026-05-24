@@ -669,5 +669,11 @@
 				"6": "Ano, nabízíme flexibilní možnosti balení, včetně individuálních řešení a privátní značky pro firemní klienty."
 			}
 		}
+	},
+
+	"contactForm": {
+		"close": "Zavřít",
+		"success": "Děkujeme za Váš dotaz. Budeme Vás brzy kontaktovat.",
+		"sending": "Odesílání..."
 	}
 }

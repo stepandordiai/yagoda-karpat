@@ -5,15 +5,21 @@ import { useState } from "react";
 import { supabase } from "@/lib/supabase";
 import "./ContactForm.scss";
 
-const initForm = {
-	name: "",
-	company: "",
-	email: "",
-	message: "",
+type ContactFormProps = {
+	heading: string;
+	requestedProduct?: string;
 };
 
-const ContactForm = () => {
+const ContactForm = ({ heading, requestedProduct = "" }: ContactFormProps) => {
 	const t = useTranslations();
+
+	const initForm = {
+		name: "",
+		company: "",
+		email: "",
+		requested_product: requestedProduct,
+		message: "",
+	};
 
 	const [error, setError] = useState<string | null>(null);
 	const [loading, setLoading] = useState(false);
@@ -26,15 +32,16 @@ const ContactForm = () => {
 		setLoading(true);
 
 		const { error } = await supabase.from("clients").insert([form]);
+
+		// TODO: learn this
 		if (error) {
-			console.error("Insert error:", error.message);
-			setError(error.message);
-			setLoading(false);
+			if (error.code !== "23505") setError(error.message);
 		} else {
 			setSuccess(true);
 			setForm(initForm);
-			setLoading(false);
 		}
+
+		setLoading(false);
 	};
 
 	const handleForm = (name: string, value: string) => {
@@ -43,7 +50,8 @@ const ContactForm = () => {
 
 	return (
 		<div className="contact-form">
-			<h3 className="form__title">{t("contacts.contact_us_title")}</h3>
+			<h3 className="form__title">{heading}</h3>
+			{error && <span style={{ color: "red" }}>{error}</span>}
 			<form className="form" onSubmit={createContactsLead}>
 				<div className="input-container">
 					<label className="contact-label" htmlFor="name">
@@ -89,6 +97,21 @@ const ContactForm = () => {
 						required
 					/>
 				</div>
+				{requestedProduct && (
+					<div className="input-container">
+						<label className="contact-label" htmlFor="product">
+							{t("product_page.productRequested")}
+						</label>
+						<input
+							onChange={(e) => handleForm(e.target.name, e.target.value)}
+							value={form.requested_product}
+							className="form__input"
+							id="product"
+							name="requested_product"
+							type="text"
+						/>
+					</div>
+				)}
 				<div className="input-container textarea-container">
 					<label className="contact-label" htmlFor="message">
 						{t("contacts.message")}
@@ -106,17 +129,17 @@ const ContactForm = () => {
 					className={`form-submit-btn btn--bold ${loading ? "form-submit-btn--loading" : ""}`}
 					type="submit"
 				>
-					{loading ? "Sending..." : t("contacts.submit")}
+					{loading ? t("contactForm.sending") : t("contacts.submit")}
 				</button>
 			</form>
 			{success && (
 				<div className="success-modal">
-					<p>Thank you for your inquiry. We will contact you shortly.</p>
+					<p>{t("contactForm.success")}</p>
 					<button
 						onClick={() => setSuccess(false)}
 						className="success-btn btn--bold"
 					>
-						Close
+						{t("contactForm.close")}
 					</button>
 				</div>
 			)}
