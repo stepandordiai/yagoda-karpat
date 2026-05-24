@@ -9,29 +9,31 @@ export default async function Certificates() {
 	return (
 		<section className="certificates">
 			<div>
-				<h3 className="certificates__title">{t("certificates_title")}</h3>
+				<h2 className="certificates__title">{t("certificates_title")}</h2>
 				<p>{t("ourCertificates.desc")}</p>
 			</div>
-			{/* FIXME: */}
+			{/* TODO: learn this */}
 			<div className="certificates-container">
-				<Image
-					style={{ objectFit: "contain" }}
-					src="/yagoda-karpat-organic-certificate-1.jpg"
-					width={300}
-					height={424}
-					alt="Organic Standard certificate"
-				/>
-				<Image
-					style={{ objectFit: "contain" }}
-					src="/yagoda-karpat-organic-certificate-2.jpg"
-					width={300}
-					height={424}
-					alt="Organic Standard certificate"
-				/>
+				<div className="certificate-wrapper">
+					<Image
+						style={{ objectFit: "contain" }}
+						src="/yagoda-karpat-organic-certificate-1.jpg"
+						fill
+						alt="Organic Standard certificate first page"
+					/>
+				</div>
+				<div className="certificate-wrapper">
+					<Image
+						style={{ objectFit: "contain" }}
+						src="/yagoda-karpat-organic-certificate-2.jpg"
+						fill
+						alt="Organic Standard certificate second page"
+					/>
+				</div>
 				<a
 					className="pdf-link"
 					href="/pdf/yagoda-karpat-organic-certificate.pdf"
-					download={true}
+					download
 				>
 					<span>{t("downloadCertificate")}</span>
 					<PdfIcon />

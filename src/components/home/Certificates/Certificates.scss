@@ -21,8 +21,18 @@
 	}
 }
 
+// TODO: learn this
 .certificates-container {
 	display: flex;
+	gap: 10px;
+	height: 700px;
+
+	.certificate-wrapper {
+		position: relative;
+		flex: 1;
+		height: 100%;
+		width: 100%;
+	}
 }
 
 .certificates__title {
