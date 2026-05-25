@@ -36,11 +36,9 @@ export default async function Faqs({ faqs }: FaqsProps) {
 				dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
 			/>
 			<section className="faq" aria-labelledby="faq-title">
-				<header>
-					<h2 id="faq-title" className="faq__title">
-						{t("faq.title")}
-					</h2>
-				</header>
+				<h2 id="faq-title" className="faq__title">
+					{t("faq.title")}
+				</h2>
 				<FaqsClient faqs={faqs} />
 			</section>
 		</>

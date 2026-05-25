@@ -603,58 +603,58 @@
 
 		"home": {
 			"q": {
-				"1": "What products do you offer?",
-				"2": "Where are your products sourced?",
-				"3": "Are your products organic?",
-				"4": "Do you offer wholesale or bulk orders?",
-				"5": "How do you ensure product quality?",
-				"6": "What packaging options do you provide?"
+				"1": "What types of wholesale frozen berries and natural products do you offer?",
+				"2": "Where are your Carpathian berries and fruits sourced?",
+				"3": "Do you supply certified organic wholesale berries?",
+				"4": "Can I place bulk or wholesale orders for industrial food processing?",
+				"5": "How do you ensure food safety and quality control?",
+				"6": "What industrial packaging options do you provide?"
 			},
 			"a": {
-				"1": "We specialize in high-quality Carpathian berries and natural products, including fresh, frozen, and processed berries. Our ассортимент may include blueberries, raspberries, blackberries, and other forest fruits, depending on the season.",
-				"2": "All our products are sourced from the Carpathian region, known for its clean environment and rich biodiversity. We work with local farmers and trusted collectors to ensure authenticity and quality.",
-				"3": "Many of our products are naturally grown in wild or low-intervention environments. If you require certified organic products, please contact us to confirm current availability and certifications.",
-				"4": "Yes, we supply both retail and wholesale customers. We can accommodate bulk orders for businesses, distributors, and partners. Please reach out to discuss pricing and logistics.",
-				"5": "We follow strict quality control procedures at every stage—from harvesting and sorting to storage and delivery. Our products are carefully handled to maintain freshness, taste, and nutritional value.",
-				"6": "We offer flexible packaging options depending on your needs, including retail-ready packaging and bulk containers for wholesale clients."
+				"1": "We specialize in premium IQF (Individually Quick Frozen) wholesale berries and natural products sourced directly from the pristine Carpathian region. Our core product portfolio includes wild blueberries, cultivated raspberries, forest blackberries, wild cranberries, and sour cherries. Depending on your manufacturing needs, we supply our fruits in fresh, blast-frozen, or semi-processed states tailored for industrial bakeries, dairy producers, jam manufacturers, and food service distributors.",
+				"2": "All of our agricultural products are sustainably harvested and sourced from the ecologically clean Carpathian region, celebrated for its minimal industrial footprint and rich biodiversity. We partner directly with a strictly vetted network of local farmers and certified wild-craft collectors. This direct-from-source model ensures complete batch traceability, authentic geographical origin, and a transparent agricultural supply chain.",
+				"3": "Yes, we supply certified organic wholesale berries alongside our conventional natural crops. Because our fruits are harvested from high-altitude, low-intervention, and wild environments, they are inherently natural. We maintain official organic certification to comply with strict international organic farming regulations. Please contact our sales team to confirm our current organic batch volumes, seasonal availability, and to request our certification documentation.",
+				"4": "Absolutely. We are a specialized B2B supplier and wholesale distributor equipped to handle high-volume commercial contracts. We regularly supply bulk frozen fruit orders to food manufacturers, ingredient distributors, and food factories across Europe. We offer scalable pricing tiers based on contract volumes, multi-ton logistics support, and scheduled year-round supply agreements to keep your production lines moving.",
+				"5": "We implement a rigorous, multi-stage quality assurance framework backed by our official HACCP certification. Our quality control starts directly at the hand-picking phase, followed by strict sorting, mechanical cleaning, and inline metal detection. This process ensures our final bulk shipments are free from foreign bodies, comply with strict Maximum Residue Limits (MRLs), and arrive at your facility with a full Certificate of Analysis (COA) guaranteeing food safety.",
+				"6": "We specialize exclusively in high-volume B2B distribution and offer industrial packaging options designed to preserve the integrity of the cold chain during transport. We do not offer retail-ready packaging or private label services. Instead, we focus on heavy-duty bulk packaging solutions, including 10kg/25kg multi-layer industrial bags, octabins, and large bulk containers optimized for commercial food processing and automated manufacturing lines."
 			}
 		},
 
 		"products": {
 			"q": {
-				"1": "What types of berries do you offer?",
-				"2": "Are your berries available fresh or frozen?",
-				"3": "What is the harvest season for your products?",
-				"4": "Do you offer customized packaging for products?",
-				"5": "What are the storage requirements for your berries?",
-				"6": "What is the shelf life of your products?"
+				"1": "What types of wholesale Carpathian berries do you offer?",
+				"2": "Are your bulk berries available fresh or Individually Quick Frozen (IQF)?",
+				"3": "What is the seasonal harvest calendar for your Carpathian fruits?",
+				"4": "What industrial packaging configurations do you offer for bulk orders?",
+				"5": "What are the strict cold storage requirements for your frozen berries?",
+				"6": "What is the commercial shelf life of your wholesale frozen products?"
 			},
 			"a": {
-				"1": "We offer a variety of Carpathian berries, including blueberries, raspberries, blackberries, and other forest fruits. Availability depends on the season.",
-				"2": "Our berries are available in fresh, frozen, and processed forms, depending on the product and season. Frozen products are available year-round.",
-				"3": "Harvest seasons vary by product. Most berries are harvested between late spring and early autumn, while frozen products are available throughout the year.",
-				"4": "Yes, we provide flexible packaging options, including customized solutions for wholesale and private label clients.",
-				"5": "Fresh berries should be stored refrigerated and consumed quickly. Frozen berries must be kept at -18°C or lower to maintain quality.",
-				"6": "Shelf life depends on the product type. Fresh berries typically last a few days under refrigeration, while frozen products can last up to 12-24 months when properly stored."
+				"1": "We supply a premium selection of wild-harvested and cultivated Carpathian berries, specializing in wild blueberries, forest blackberries, premium raspberries, cranberries, and sour cherries. Our product inventory satisfies rigorous commercial specifications for caliber size, color sorting, and mechanical purity, ensuring absolute consistency for high-volume food manufacturers and ingredients distributors.",
+				"2": "We specialize in both fresh seasonal distributions and year-round Individually Quick Frozen (IQF) solutions. Our blast-freezing technology instantly preserves the cell structure, peak flavor, and nutritional profile of the freshly picked berries. While fresh berries are strictly volume-scheduled during harvesting cycles, our certified organic and conventional IQF frozen fruits are stocked in our cold storage facilities for reliable year-round global supply.",
+				"3": "Our primary wild-craft and agricultural harvest season extends from early summer to autumn (June through September), which is when our fresh shipping windows open. However, because we instantly process our raw yield using advanced IQF technology, our bulk frozen berries are completely decoupled from seasonal constraints and remain available for high-volume wholesale distribution 365 days a year.",
+				"4": "We provide heavy-duty industrial packaging configurations optimized for food processing plants and commercial manufacturing lines. We focus entirely on bulk B2B distribution and do not offer retail packaging or private label co-packing. Our standard wholesale options include 10kg/25kg multi-layer industrial paper bags, heavy-gauge plastic crates, and high-capacity octabins designed to protect product integrity during freight.",
+				"5": "To uphold our strict HACCP food safety standards and prevent product clustering, our IQF frozen berries must be stored constantly at an unbroken deep-freeze temperature of -18°C or lower. Maintaining an uninterrupted cold chain from our freezing facilities to your manufacturing plant is absolutely critical to preventing temperature fluctuations, preserving enzymatic stability, and halting microbial growth.",
+				"6": "When maintained continuously under proper deep-freeze conditions (-18°C or colder), our premium wholesale IQF berries possess a commercial shelf life of 12 to 24 months. Each bulk container leaves our facility stamped with accurate lot tracking codes, manufacturing dates, and clear expiration timelines, accompanied by a comprehensive Certificate of Analysis (COA) for your quality assurance records."
 			}
 		},
 
 		"productPage": {
 			"q": {
-				"1": "What forms is this product available in?",
-				"2": "Is this product available year-round?",
-				"3": "What are the storage requirements?",
-				"4": "What is the shelf life of this product?",
-				"5": "Do you offer bulk or wholesale options?",
-				"6": "Can I request custom packaging for this product?"
+				"1": "In what manufacturing forms is this ingredient available?",
+				"2": "Is this industrial fruit product available for year-round supply?",
+				"3": "What are the strict storage requirements for this product?",
+				"4": "What is the certified commercial shelf life of this batch?",
+				"5": "Do you provide high-volume bulk or wholesale options for this item?",
+				"6": "Can I request custom industrial packaging configurations for this product?"
 			},
 			"a": {
-				"1": "This product is available in fresh, frozen (IQF), or processed forms depending on the season and availability.",
-				"2": "Fresh products are available during the harvest season, while frozen products are typically available year-round.",
-				"3": "Fresh products should be stored refrigerated and consumed quickly. Frozen products must be stored at -18°C or lower to maintain quality.",
-				"4": "Shelf life depends on the form. Fresh products typically last a few days under refrigeration, while frozen products can last up to 12–24 months when properly stored.",
-				"5": "Yes, we offer bulk and wholesale supply options for this product. Please contact us for pricing and minimum order quantities.",
-				"6": "Yes, we provide flexible packaging options, including customized solutions and private label packaging for business clients."
+				"1": "This premium Carpathian ingredient is available in industrial-grade fresh forms during peak harvest, or as premium Individually Quick Frozen (IQF) selections year-round. Depending on your manufacturing specifications, we can offer the product color-sorted, calibrated by millimeter size, or semi-processed to integrate seamlessly into automated food production lines, dairy manufacturing, or industrial baking applications.",
+				"2": "Yes. While fresh, non-frozen batches are strictly tied to our seasonal harvesting calendar, our IQF (Individually Quick Frozen) fruit products are processed at peak nutritional maturity and stored in deep-freeze facilities. This advanced preservation enables us to guarantee a continuous, uninterrupted wholesale supply to our B2B partners 365 days a year, regardless of the crop's calendar season.",
+				"3": "To preserve cell structure, flavor profile, and total food safety, strict cold-chain protocols must be followed. Fresh orders require immediate humidity-controlled refrigeration and rapid processing. Our IQF deep-frozen products must be maintained continuously at a stable temperature of -18°C or lower to prevent enzymatic degradation and clustering, ensuring full compliance with international HACCP safety guidelines.",
+				"4": "The commercial shelf life depends entirely on the product form. Freshly harvested batches are highly perishable and require immediate food processing or distribution within a few days under refrigeration. Our IQF frozen items possess a robust shelf life of 12 to 24 months when held continuously at -18°C, retaining their natural color, structure, and microbiological stability.",
+				"5": "Yes, we operate exclusively as a direct agricultural B2B supplier and wholesale distributor. We specialize in contract manufacturing and large-scale, multi-ton deliveries for food factories, ingredients distributors, and industrial processing plants. Please reach out to our commercial sales office to receive a tailored quotation, specifications sheets, and current Minimum Order Quantity (MOQ) metrics.",
+				"6": "While we specialize strictly in heavy-duty wholesale distribution and do not offer retail-ready or private label packaging, we do provide flexible industrial packaging configurations. We can fulfill bulk orders in multi-layer 10kg/25kg industrial paper bags, heavy-gauge plastic crates, or high-capacity octabins tailored to match your specific manufacturing intake systems and shipping requirements."
 			}
 		}
 	},

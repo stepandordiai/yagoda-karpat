@@ -612,61 +612,58 @@
 
 	"faq": {
 		"title": "Často kladené otázky",
-
 		"home": {
 			"q": {
-				"1": "Jaké produkty nabízíte?",
-				"2": "Odkud pochází vaše produkty?",
-				"3": "Jsou vaše produkty bio?",
-				"4": "Nabízíte velkoobchod nebo objednávky ve větším množství?",
-				"5": "Jak zajišťujete kvalitu produktů?",
-				"6": "Jaké možnosti balení nabízíte?"
+				"1": "Jaké druhy velkoobchodního mraženého ovoce a přírodních produktů nabízíte?",
+				"2": "Odkud pocházejí vaše karpatské bobule a ovoce?",
+				"3": "Dodáváte certifikované organické mražené ovoce velkoobchodně?",
+				"4": "Mohu zadat hromadnou nebo velkoobchodní objednávku pro průmyslové zpracování potravin?",
+				"5": "Jak zajišťujete bezpečnost potravin a kontrolu kvality?",
+				"6": "Jaké možnosti průmyslového balení poskytujete?"
 			},
 			"a": {
-				"1": "Specializujeme se na vysoce kvalitní karpatské bobule a přírodní produkty, včetně čerstvých, mražených a zpracovaných plodů. V naší nabídce najdete například borůvky, maliny, ostružiny a další lesní plody v závislosti na sezóně.",
-				"2": "Veškeré naše produkty pocházejí z karpatského regionu, který je známý svou čistou přírodou a bohatou biodiverzitou. Spolupracujeme s místními farmáři a ověřenými sběrači, abychom zajistili autenticitu a kvalitu.",
-				"3": "Mnoho našich produktů pochází z přirozeného prostředí nebo je pěstováno s minimálním zásahem. Pokud požadujete certifikované bio produkty, kontaktujte nás prosím pro aktuální dostupnost a certifikace.",
-				"4": "Ano, dodáváme jak maloobchodním, tak velkoobchodním zákazníkům. Jsme schopni zajistit větší objednávky pro firmy, distributory i partnery. Pro více informací o cenách a logistice nás neváhejte kontaktovat.",
-				"5": "Dodržujeme přísné standardy kontroly kvality ve všech fázích — od sběru a třídění až po skladování a dopravu. S našimi produkty zacházíme pečlivě, abychom zachovali jejich čerstvost, chuť a nutriční hodnoty.",
-				"6": "Nabízíme flexibilní možnosti balení podle vašich potřeb, včetně maloobchodního balení i velkých obalů pro velkoobchodní zákazníky."
+				"1": "Specializujeme se na velkoobchodní distribuci prémiového hluboce zmrazeného ovoce (IQF) a přírodních produktů pocházejících přímo z ekologicky čisté oblasti Karpat. Naše hlavní portfolio zahrnuje lesní borůvky, pěstované maliny, divoké ostružiny, brusinky a kyselé višně. V závislosti na vašich výrobních potřebách dodáváme ovoce v čerstvém, šokově zmrazeném nebo částečně zpracovaném stavu, přizpůsobeném pro průmyslové pekárny, mlékárny, výrobce džemů a distributory potravinářských surovin.",
+				"2": "Všechny naše zemědělské produkty jsou udržitelně sklízeny a získávány z ekologicky čistého regionu Karpat, který je známý minimální průmyslovou stopou a bohatou biodiverzitou. Spolupracujeme přímo s prověřenou sítí místních farmářů a certifikovaných sběračů lesního ovoce. Tento model přímého nákupu zajišťuje kompletní sledovatelnost šarží, autentický geografický původ a transparentní dodavatelský řetězec.",
+				"3": "Ano, vedle naší konvenční přírodní produkce dodáváme také certifikované organické (BIO) ovoce velkoobchodně. Vzhledem k tomu, že naše plody jsou sklízeny ve vysokohorském divokém prostředí s minimálními zásahy člověka, jsou přirozeně čisté. Držíme oficiální ekologickou certifikaci splňující přísné mezinárodní předpisy pro ekologické zemědělství. Pro ověření aktuální dostupnosti BIO šarží a zaslání certifikace kontaktujte náš obchodní tým.",
+				"4": "Samozřejmě. Jsme specializovaný B2B dodavatel a velkoobchodní distributor vybavený pro zvládnutí velkoobjemových komerčních kontraktů. Pravidelně dodáváme hromadné objednávky mraženého ovoce potravinářským výrobcům, distributorům surovin a zpracovatelským závodům po celé Evropě. Nabízíme odstupňované ceny na základě smluvních objemů, logistickou podporu pro kamionové odběry a celoroční dodavatelské smlouvy pro zajištění plynulého chodu vašich výrobních linek.",
+				"5": "Implementujeme přísný, víceúrovňový systém kontroly kvality podložený naší oficiální certifikací HACCP. Naše kontrola kvality začíná již při ručním sběru, po kterém následuje přesné optické třídění, mechanické čištění a inline detekce kovů. Tento proces zajišťuje, že naše finální velkoobchodní zásilky jsou bez cizích těles, splňují přísné limity reziduí pesticidů (MRL) a do vašeho závodu dorazí s kompletním certifikátem analýzy (COA).",
+				"6": "Specializujeme se výhradně na velkoobjemovou B2B distribuci a nabízíme průmyslové možnosti balení navržené tak, aby zachovaly integritu chladírenského řetězce během přepravy. Nenabízíme maloobchodní balení ani služby private label. Místo toho se zaměřujeme na odolná průmyslová řešení: 10kg/25kg vícevrstvé papírové pytle, plastové přepravky a velkokapacitní oktabíny optimalizované pro automatizované výrobní linky."
 			}
 		},
-
 		"products": {
 			"q": {
-				"1": "Jaké druhy bobulí nabízíte?",
-				"2": "Jsou vaše bobule dostupné čerstvé nebo mražené?",
-				"3": "Jaké je období sklizně vašich produktů?",
-				"4": "Nabízíte individuální možnosti balení?",
-				"5": "Jaké jsou podmínky skladování bobulí?",
-				"6": "Jaká je trvanlivost vašich produktů?"
+				"1": "Jaké druhy velkoobchodního karpatského ovoce nabízíte?",
+				"2": "Je vaše ovoce dostupné čerstvé, nebo šokově zmrazené (IQF)?",
+				"3": "Jaký je sezónní kalendář sklizně pro vaše karpatské plody?",
+				"4": "Jaké průmyslové konfigurace balení nabízíte pro velkoobchodní objednávky?",
+				"5": "Jaké jsou přísné požadavky na chladírenské skladování mraženého ovoce?",
+				"6": "Jaká je komerční trvanlivost vašich velkoobchodních mražených produktů?"
 			},
 			"a": {
-				"1": "Nabízíme různé druhy karpatských bobulí, včetně borůvek, malin, ostružin a dalších lesních plodů. Dostupnost závisí na sezóně.",
-				"2": "Naše bobule jsou dostupné v čerstvé, mražené i zpracované formě v závislosti na produktu a sezóně. Mražené produkty jsou k dispozici po celý rok.",
-				"3": "Období sklizně se liší podle druhu produktu. Většina bobulí se sklízí od pozdního jara do začátku podzimu, zatímco mražené produkty jsou dostupné celoročně.",
-				"4": "Ano, nabízíme flexibilní možnosti balení, včetně individuálních řešení pro velkoobchodní zákazníky a privátní značky.",
-				"5": "Čerstvé bobule je nutné uchovávat v chladu a rychle spotřebovat. Mražené bobule je třeba skladovat při teplotě -18 °C nebo nižší pro zachování kvality.",
-				"6": "Trvanlivost závisí na typu produktu. Čerstvé bobule obvykle vydrží několik dní v chladu, zatímco mražené produkty mohou při správném skladování vydržet 12–24 měsíců."
+				"1": "Dodáváme prémiový výběr divoce rostoucích i pěstovaných karpatských bobulí, se specializací na lesní borůvky, ostružiny, výběrové maliny, brusinky a višně. Naše produktové zásoby splňují přísné komerční specifikace pro kalibraci velikosti, barevné třídění a mechanickou čistotu, což zajišťuje absolutní konzistenci pro velkoobjemové výrobce potravin a distributory surovin.",
+				"2": "Specializujeme se jak na čerstvou sezónní distribuci, так na celoroční řešení formou individuálního šokového zmrazení (IQF). Naše technologie bleskového mrazení okamžitě fixuje buněčnou strukturu, špičkovou chuť a nutriční profil čerstvě sklizených plodů. Zatímco čerstvé ovoce je dodáváno striktně podle harmonogramu sklizně, naše certifikované organické a konvenční IQF mražené ovoce je trvale skladem pro stabilní celoroční dodávky.",
+				"3": "Naše hlavní sezóna sběru lesních plodů a sklizně trvá od raného léta do podzimu (červen až září), kdy jsou otevřena okna pro expedici čerstvého ovoce. Nicméně díky tomu, že suroviny okamžitě zpracováváme pomocí pokročilé technologie IQF, je naše mražené ovoce zcela nezávislé na sezónních omezeních a zůstává dostupné pro velkoobchodní odběry 365 dní v roce.",
+				"4": "Poskytujeme vysoce odolné průmyslové konfigurace balení optimalizované pro potravinářské zpracovatelské závody a komerční výrobní linky. Zaměřujeme se výhradně na B2B distribuci a nenabízíme maloobchodní balení ani privátní značky. Naše standardní velkoobchodní možnosti zahrnují 10kg/25kg vícevrstvé průmyslové papírové pytle, pevné plastové přepravky a vysokokapacitní oktabíny chránící integritu produktu během přepravy.",
+				"5": "Abychom dodrželi naše přísné standardy bezpečnosti potravin HACCP a zabránili hrudkování produktu, musí být IQF mražené ovoce skladováno nepřetržitě při stabilní teplotě hlubokého zmrazení -18 °C nebo nižší. Udržování nepřerušeného chladírenského řetězce z našich mrazíren až do vašeho zpracovatelského závodu je naprosto klíčové pro zachování enzymatické stability a zamezení růstu mikroorganismů.",
+				"6": "Při nepřetržitém uchovávání v podmínkách hlubokého mražení (-18 °C nebo chladnějším) dosahuje naše prémiové velkoobchodní IQF ovoce komerční trvanlivosti 12 až 24 měsíců. Každé průmyslové balení opouští náš závod s přesným označením šarže pro dohledatelnost, datem výroby a expirace, spolu s kompletním certifikátem analýzy (COA) pro vaše záznamy kontroly kvality."
 			}
 		},
-
 		"productPage": {
 			"q": {
-				"1": "V jakých formách je tento produkt dostupný?",
-				"2": "Je tento produkt dostupný po celý rok?",
-				"3": "Jaké jsou podmínky skladování?",
-				"4": "Jaká je trvanlivost tohoto produktu?",
-				"5": "Nabízíte velkoobchod nebo dodávky ve větším množství?",
-				"6": "Je možné objednat individuální balení pro tento produkt?"
+				"1": "V jakých výrobních formách je tato surovina k dispozici?",
+				"2": "Je tento průmyslový ovocný produkt dostupný pro celoroční dodávky?",
+				"3": "Jaké jsou přísné požadavky na skladování tohoto produktu?",
+				"4": "Jaká je certifikovaná komerční trvanlivost této šarže?",
+				"5": "Poskytujete velkoobjemové hromadné či velkoobchodní možnosti pro tuto položku?",
+				"6": "Mohu pro tento produkt požadovat vlastní konfiguraci průmyslového balení?"
 			},
 			"a": {
-				"1": "Tento produkt je dostupný v čerstvé, mražené (IQF) nebo zpracované formě v závislosti na sezóně a dostupnosti.",
-				"2": "Čerstvé produkty jsou dostupné během sezóny sklizně, zatímco mražené produkty jsou obvykle k dispozici po celý rok.",
-				"3": "Čerstvé produkty je nutné uchovávat v chladu a rychle spotřebovat. Mražené produkty je třeba skladovat při teplotě -18 °C nebo nižší pro zachování kvality.",
-				"4": "Trvanlivost závisí na formě produktu. Čerstvé produkty obvykle vydrží několik dní v chladu, zatímco mražené mohou při správném skladování vydržet 12–24 měsíců.",
-				"5": "Ano, nabízíme velkoobchodní i objemové dodávky tohoto produktu. Pro informace o cenách a minimálním množství nás prosím kontaktujte.",
-				"6": "Ano, nabízíme flexibilní možnosti balení, včetně individuálních řešení a privátní značky pro firemní klienty."
+				"1": "Tato prémiová karpatská surovina je k dispozici v průmyslové čerstvé formě během špičky sklizně, nebo jako prémiový šokově zmrazený (IQF) výběr po celý rok. V závislosti na vaší výrobní specifikaci můžeme produkt nabídnout barevně vytříděný, kalibrovaný na milimetry nebo částečně zpracovaný pro bezproblémovou integraci do automatizovaných linek, mlékárenské výroby či průmyslového pečení.",
+				"2": "Ano. Zatímco čerstvé, nezmrazené šarže jsou striktně vázány na náš sezónní kalendář sklizně, naše IQF ovocné produkty jsou zpracovávány v optimální nutriční zralosti a uchovávány v mrazírenských skladech. Toto pokročilé uchování nám umožňuje garantovat našim B2B partnerům nepřetržité velkoobchodní dodávky 365 dní v roce, bez ohledu na aktuální roční období.",
+				"3": "Pro zachování buněčné struktury, chuťového profilu a celkové bezpečnosti potravin je nutné striktně dodržovat chladírenský řetězec. Čerstvé objednávky vyžadují okamžité chlazení s řízenou vlhkostí a rychlé zpracování. Naše IQF mražené produkty musí být udržovány trvale při stabilní teplotě -18 °C nebo nižší, aby se zabránilo enzymatické degradaci a slepování plodů, což zajišťuje plný soulad s pokyny HACCP.",
+				"4": "Komerční trvanlivost závisí zcela na formě produktu. Čerstvě sklizené šarže podléhají rychlé zkáze a vyžadují okamžité zpracování nebo distribuci během několika dnů v chlazeném stavu. Naše IQF mražené položky mají robustní trvanlivost 12 až 24 měsíců při nepřetržitém skladování při -18 °C, přičemž si zachovávají svou přirozenou barvu, strukturu a mikrobiologickou stabilitu.",
+				"5": "Ano, působíme výhradně jako přímý zemědělský B2B dodavatel a velkoobchodní distributor. Specializujeme se na smluvní výrobu a rozsáhlé, vícetunové dodávky pro potravinářské závody, distributory surovin a zpracovatelské podniky. Obraťte se prosím na naši obchodní kancelář pro vypracování nabídky na míru, zaslání produktových listů a aktuálních minimálních objednacích množství (MOQ).",
+				"6": "Vzhledem k tomu, že se specializujeme striktně na velkoobjemovou velkoobchodní distribuci a nenabízíme maloobchodní balení ani private label, poskytujeme flexibilní průmyslové konfigurace balení. Hromadné objednávky můžeme realizovat ve vícevrstvých průmyslových papírových pytlích o hmotnosti 10 kg / 25 kg, pevných plastových přepravkách nebo velkokapacitních oktabínech přizpůsobených vašim příjmovým systémům a logistice."
 			}
 		}
 	},
