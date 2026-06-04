@@ -170,6 +170,7 @@
 		"deliveryByVehicle": "Доставка транспортом",
 		"desc_title": "Опис",
 		"status": "Тип продукту",
+		"grade": "Клас якості",
 		"whole": "Цілі",
 		"whole2": "Ціла",
 		"sliced": "Слайси",

@@ -62,15 +62,27 @@
 			{
 				"id": 1,
 				"state": "product_page.cleaned_1",
-				"images": [
-					"/products/frozen-lingonberries/iqf-frozen-lingonberries-1.jpg"
+				"grades": [
+					{
+						"id": 1,
+						"class": "Grade 2",
+						"images": [
+							"/products/frozen-lingonberries/iqf-frozen-lingonberries-1.jpg"
+						]
+					}
 				]
 			},
 			{
 				"id": 2,
 				"state": "product_page.uncleaned_1",
-				"images": [
-					"/products/frozen-lingonberries/iqf-frozen-lingonberries-2.jpg"
+				"grades": [
+					{
+						"id": 1,
+						"class": "Grade 2",
+						"images": [
+							"/products/frozen-lingonberries/iqf-frozen-lingonberries-2.jpg"
+						]
+					}
 				]
 			}
 		],
@@ -131,9 +143,14 @@
 			{
 				"id": 1,
 				"state": "product_page.pitted",
-				"images": [
-					"/products/frozen-plums-pitted/iqf-frozen-plums-pitted-1.JPG",
-					"/products/frozen-plums-pitted/iqf-frozen-plums-pitted-2.jpg"
+				"grades": [
+					{
+						"id": 1,
+						"class": "Grade 2",
+						"images": [
+							"/products/frozen-plums-halves-pitted/iqf-frozen-plums-halves-pitted-1.jpg"
+						]
+					}
 				]
 			},
 			{

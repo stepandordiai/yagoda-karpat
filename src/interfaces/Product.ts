@@ -26,8 +26,13 @@ export interface Product {
 	benefits?: string;
 	variants: {
 		id: number;
-		images: string[];
 		state?: string;
+		images?: string[];
+		grades?: {
+			id: number;
+			class: string;
+			images: string[];
+		}[];
 	}[];
 	isOrganic?: boolean;
 	harvest: number[];

@@ -6,25 +6,32 @@ import { useState } from "react";
 import { Link } from "@/i18n/navigation";
 import Image from "next/image";
 import classNames from "classnames";
-import "./ProductCard.scss";
 import ImageIcon from "../icons/ImageIcon";
+import "./ProductCard.scss";
 
-type ProductProps = {
+type ProductCardProps = {
 	product: Product;
 };
 
-export default function ProductCard({ product }: ProductProps) {
+export default function ProductCard({ product }: ProductCardProps) {
 	const t = useTranslations();
 
-	const { id, name, variants, isOrganic } = product;
+	const { id, name, variants } = product;
 
 	const [productStateId, setProductStateId] = useState(variants[0].id);
+	const [productGradeId, setProductGradeId] = useState(
+		variants[0].grades?.[0].id ?? null,
+	);
+	const [imgLoaded, setImgLoaded] = useState(false);
 
-	const productState = variants.find(
-		(variant) => variant.id === productStateId,
+	const productState = variants.find((v) => v.id === productStateId);
+
+	const productGrade = productState?.grades?.find(
+		(g) => g.id === productGradeId,
 	);
 
-	const [imgLoaded, setImgLoaded] = useState(false);
+	// Resolved images — grade-level takes priority, then variant-level
+	const images = productGrade?.images ?? productState?.images ?? [];
 
 	const handleVariantChange = (id: number) => {
 		setImgLoaded(false); // reset → placeholder shows
@@ -51,14 +58,14 @@ export default function ProductCard({ product }: ProductProps) {
 					/>
 				)} */}
 				{/* TODO: learn this */}
-				{productState?.images[0] ? (
+				{images[0] ? (
 					<>
 						{!imgLoaded && <div className="product__img-loading-placeholder" />}
 						<Image
 							className={classNames("product__img", {
 								"product__img--hidden": !imgLoaded,
 							})}
-							src={productState.images[0]}
+							src={images[0]}
 							width={1600}
 							height={1200}
 							alt={`${t(name)} ${
@@ -71,15 +78,16 @@ export default function ProductCard({ product }: ProductProps) {
 					<div className="product__img-placeholder" />
 				)}
 				<div className="img-qty">
-					<ImageIcon /> <span>{productState?.images.length}</span>
+					<ImageIcon /> <span>{productGrade?.images.length}</span>
 				</div>
 			</div>
 			<div className="product__info-container">
 				<p style={{ color: "hsl(0, 0%, 50%)" }}>{product.latName}</p>
 				<h3 className="product__name">{t(name)}</h3>
+				{/* FIXME: */}
 				{variants.some((variant) => variant.state) && (
-					<div>
-						<h4 style={{ color: "hsl(0, 0%, 50%)", marginBottom: 5 }}>
+					<>
+						<h4 style={{ color: "hsl(0, 0%, 50%)" }}>
 							{t("product_page.status")}
 						</h4>
 						<div style={{ display: "flex", gap: 5, flexWrap: "wrap" }}>
@@ -98,7 +106,28 @@ export default function ProductCard({ product }: ProductProps) {
 								);
 							})}
 						</div>
-					</div>
+
+						{productState?.grades && productState.grades.length > 0 && (
+							<>
+								<h4 style={{ color: "hsl(0, 0%, 50%)" }}>
+									{t("product_page.grade")}
+								</h4>
+								<div style={{ display: "flex", gap: 5, flexWrap: "wrap" }}>
+									{productState.grades.map((grade) => (
+										<button
+											key={grade.id}
+											onClick={() => setProductGradeId(grade.id)}
+											className={classNames("variant-btn btn--bold", {
+												"variant-btn--active": grade.id === productGradeId,
+											})}
+										>
+											{grade.class}
+										</button>
+									))}
+								</div>
+							</>
+						)}
+					</>
 				)}
 				<Link href={`/products/${id}`} className="product__info-btn btn--bold">
 					{t("products.productDetails")}

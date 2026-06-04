@@ -170,6 +170,7 @@
 		"deliveryByVehicle": "Doprava vozidlem",
 		"desc_title": "Popis",
 		"status": "Typ produktu",
+		"grade": "Třída jakosti",
 		"whole": "Celé",
 		"whole2": "Celé",
 		"sliced": "Plátky",
