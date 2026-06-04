@@ -24,22 +24,9 @@ import SearchIcon from "@/components/icons/SearchIcon";
 import CloseIcon from "@/components/icons/CloseIcon";
 import ChevronLeftIcon from "@/components/icons/ChevronLeftIcon";
 import ChevronRightIcon from "@/components/icons/ChevronRightIcon";
-import { supabase } from "@/lib/supabase";
 import ContactForm from "@/components/ContactForm/ContactForm";
 
-interface Harvest {
-	id: number;
-	month: string;
-}
-
-interface Social {
-	title: string;
-	url: string;
-	// TODO: LEARN THIS
-	img: JSX.Element;
-}
-
-const socialsData: Social[] = [
+const socialsData = [
 	{
 		title: "Email",
 		url: "mailto:info@yagodakarpat.com",
@@ -70,28 +57,31 @@ export default function ProductPageStatic({ product }: ProductPageStaticProps) {
 	const t = useTranslations();
 
 	const [activeVariantId, setActiveVariantId] = useState(
-		product?.variants[0].id ?? null,
+		product.variants[0].id ?? null,
 	);
+	const [productGradeId, setProductGradeId] = useState(
+		product.variants[0].grades?.[0].id ?? null,
+	);
+	const [swiperInstance, setSwiperInstance] = useState<any>(null);
+	const [thumbsSwiper, setThumbsSwiper] = useState<any>(null);
+	const [fullScreenIndex, setFullScreenIndex] = useState<number | null>(null);
 
 	function handleVariantId(props: number) {
 		setThumbsSwiper(null);
 		setActiveVariantId(props);
 	}
 
-	interface ProductVariant {
-		id: number;
-		images: string[];
-		state?: string;
-	}
-
-	const productVariant: ProductVariant | null =
+	const productVariant =
 		product?.variants.find((variant) => variant.id === activeVariantId) ??
 		product?.variants[0] ??
 		null;
 
-	const [swiperInstance, setSwiperInstance] = useState<any>(null);
-	const [thumbsSwiper, setThumbsSwiper] = useState<any>(null);
-	const [fullScreenIndex, setFullScreenIndex] = useState<number | null>(null);
+	const productGrade = productVariant?.grades?.find(
+		(g) => g.id === productGradeId,
+	);
+
+	// Resolved images — grade-level takes priority, then variant-level
+	const images = productGrade?.images ?? productVariant?.images ?? [];
 
 	const showFullScreenImg = () => {
 		if (!swiperInstance) return;
@@ -108,7 +98,7 @@ export default function ProductPageStatic({ product }: ProductPageStaticProps) {
 
 		setFullScreenIndex((prev) => {
 			if (prev === null) return prev;
-			return prev === 0 ? productVariant.images.length - 1 : prev - 1;
+			return prev === 0 ? images.length - 1 : prev - 1;
 		});
 	};
 
@@ -117,7 +107,7 @@ export default function ProductPageStatic({ product }: ProductPageStaticProps) {
 
 		setFullScreenIndex((prev) => {
 			if (prev === null) return prev;
-			return prev === productVariant.images.length - 1 ? 0 : prev + 1;
+			return prev === images.length - 1 ? 0 : prev + 1;
 		});
 	};
 
@@ -133,40 +123,6 @@ export default function ProductPageStatic({ product }: ProductPageStaticProps) {
 		};
 	}, [fullScreenIndex]);
 
-	// const initForm = {
-	// 	name: "",
-	// 	company: "",
-	// 	email: "",
-	// 	requested_product: ,
-	// 	message: "",
-	// };
-
-	const [error, setError] = useState<string | null>(null);
-	const [loading, setLoading] = useState(false);
-	const [success, setSuccess] = useState(false);
-	// const [form, setForm] = useState(initForm);
-
-	// const createContactsLead = async (e: React.FormEvent) => {
-	// 	e.preventDefault();
-	// 	setError(null);
-	// 	setLoading(true);
-
-	// 	const { error } = await supabase.from("clients").insert([form]);
-	// 	if (error) {
-	// 		console.error("Insert error:", error.message);
-	// 		setError(error.message);
-	// 		setLoading(false);
-	// 	} else {
-	// 		setSuccess(true);
-	// 		setForm(initForm);
-	// 		setLoading(false);
-	// 	}
-	// };
-
-	// const handleForm = (name: string, value: string) => {
-	// 	setForm((prev) => ({ ...prev, [name]: value }));
-	// };
-
 	return (
 		<>
 			<div className="product-page">
@@ -177,26 +133,49 @@ export default function ProductPageStatic({ product }: ProductPageStaticProps) {
 							<h1 className="product-page__name">{t(product.name)}</h1>
 						</div>
 						{product.variants.some((variant) => variant.state) && (
-							<div>
-								<h2 style={{ color: "hsl(0, 0%, 50%)", marginBottom: 5 }}>
-									{t("product_page.status")}
-								</h2>
-								<div className="product-page__variants">
-									{product?.variants.map((variant) => {
-										return (
-											<button
-												key={variant.id}
-												onClick={() => handleVariantId(variant.id)}
-												className={classNames("variant-btn btn--bold", {
-													"variant-btn--active": variant.id === activeVariantId,
-												})}
-											>
-												{t(variant.state!)}
-											</button>
-										);
-									})}
+							<>
+								<div>
+									<h2 style={{ color: "hsl(0, 0%, 50%)", marginBottom: 5 }}>
+										{t("product_page.status")}
+									</h2>
+									<div className="product-page__variants">
+										{product?.variants.map((variant) => {
+											return (
+												<button
+													key={variant.id}
+													onClick={() => handleVariantId(variant.id)}
+													className={classNames("variant-btn btn--bold", {
+														"variant-btn--active":
+															variant.id === activeVariantId,
+													})}
+												>
+													{t(variant.state!)}
+												</button>
+											);
+										})}
+									</div>
 								</div>
-							</div>
+								{productVariant?.grades && productVariant.grades.length > 0 && (
+									<>
+										<h4 style={{ color: "hsl(0, 0%, 50%)" }}>
+											{t("product_page.grade")}
+										</h4>
+										<div style={{ display: "flex", gap: 5, flexWrap: "wrap" }}>
+											{productVariant.grades.map((grade) => (
+												<button
+													key={grade.id}
+													onClick={() => setProductGradeId(grade.id)}
+													className={classNames("variant-btn btn--bold", {
+														"variant-btn--active": grade.id === productGradeId,
+													})}
+												>
+													{grade.class}
+												</button>
+											))}
+										</div>
+									</>
+								)}
+							</>
 						)}
 						<div>
 							<h2 style={{ color: "hsl(0, 0%, 50%)", marginBottom: 5 }}>
@@ -336,7 +315,7 @@ export default function ProductPageStatic({ product }: ProductPageStaticProps) {
 								{t("harvest_calendar")}
 							</h2>
 							<div style={{ display: "flex", columnGap: 5 }}>
-								{harvestData.map(({ id, month }: Harvest) => {
+								{harvestData.map(({ id, month }) => {
 									return (
 										<div
 											key={id}
@@ -365,7 +344,7 @@ export default function ProductPageStatic({ product }: ProductPageStaticProps) {
 							<SearchIcon />
 						</button>
 
-						{productVariant.images && (
+						{images && (
 							<Swiper
 								// TODO: learn this
 								key={activeVariantId}
@@ -377,21 +356,15 @@ export default function ProductPageStatic({ product }: ProductPageStaticProps) {
 								}}
 								spaceBetween={10}
 								navigation={
-									productVariant.images.length > 1
+									images.length > 1
 										? {
 												nextEl: ".swiper-btn-next",
 												prevEl: ".swiper-btn-prev",
 											}
 										: false
 								}
-								// autoplay={{
-								// 	delay: 3000,
-								// 	disableOnInteraction: false,
-								// }}
-								// speed={500}
-								// loop={productVariant.images.length > 1}
 								pagination={
-									productVariant.images.length > 1
+									images.length > 1
 										? {
 												type: "fraction",
 											}
@@ -407,7 +380,7 @@ export default function ProductPageStatic({ product }: ProductPageStaticProps) {
 								modules={[Pagination, Navigation, FreeMode, Thumbs]}
 								className="swiper"
 							>
-								{productVariant.images.length > 1 && (
+								{images.length > 1 && (
 									<>
 										<button className="swiper-btn-prev">
 											<ChevronLeftIcon />
@@ -417,7 +390,7 @@ export default function ProductPageStatic({ product }: ProductPageStaticProps) {
 										</button>
 									</>
 								)}
-								{productVariant.images.map((img, index) => {
+								{images.map((img, index) => {
 									return (
 										<SwiperSlide key={index}>
 											<Image
@@ -435,34 +408,36 @@ export default function ProductPageStatic({ product }: ProductPageStaticProps) {
 							</Swiper>
 						)}
 					</div>
-					<div>
-						<Swiper
-							// TODO: learn this
-							key={`thumbs-${activeVariantId}`}
-							onSwiper={setThumbsSwiper}
-							spaceBetween={10}
-							slidesPerView={4}
-							// TODO: ?
-							freeMode={true}
-							watchSlidesProgress={true}
-							modules={[FreeMode, Navigation, Thumbs]}
-							className="swiper-thumbs"
-						>
-							{productVariant.images.map((img, index) => {
-								return (
-									<SwiperSlide key={index}>
-										<Image
-											className="swiper-img"
-											src={img}
-											width={1600}
-											height={1200}
-											alt={`${t(product.name)} ${productVariant.state ? t(productVariant.state) : ""}`.trimEnd()}
-										/>
-									</SwiperSlide>
-								);
-							})}
-						</Swiper>
-					</div>
+					{images && images.length > 2 && (
+						<div>
+							<Swiper
+								// TODO: learn this
+								key={`thumbs-${activeVariantId}`}
+								onSwiper={setThumbsSwiper}
+								spaceBetween={10}
+								slidesPerView={4}
+								// TODO: ?
+								freeMode={true}
+								watchSlidesProgress={true}
+								modules={[FreeMode, Navigation, Thumbs]}
+								className="swiper-thumbs"
+							>
+								{images.map((img, index) => {
+									return (
+										<SwiperSlide key={index}>
+											<Image
+												className="swiper-img"
+												src={img}
+												width={1600}
+												height={1200}
+												alt={`${t(product.name)} ${productVariant.state ? t(productVariant.state) : ""}`.trimEnd()}
+											/>
+										</SwiperSlide>
+									);
+								})}
+							</Swiper>
+						</div>
+					)}
 				</div>
 			</div>
 			<div className="product-page-section">
@@ -506,7 +481,7 @@ export default function ProductPageStatic({ product }: ProductPageStaticProps) {
 					heading={t("product_page.requestQuotation")}
 					requestedProduct={`${t(product.name)} ${
 						productVariant.state ? "(" + t(productVariant.state) + ")" : ""
-					}`.trimEnd()}
+					}${productGrade?.class ? ", " + productGrade.class : ""}`.trimEnd()}
 				/>
 				<ContactDetails />
 			</div>
@@ -521,7 +496,7 @@ export default function ProductPageStatic({ product }: ProductPageStaticProps) {
 					</button>
 
 					<Image
-						src={productVariant.images[fullScreenIndex]}
+						src={images[fullScreenIndex]}
 						width={1600}
 						height={1200}
 						alt="Full screen image"
@@ -529,7 +504,7 @@ export default function ProductPageStatic({ product }: ProductPageStaticProps) {
 						onClick={(e) => e.stopPropagation()}
 					/>
 
-					{productVariant.images.length > 1 && (
+					{images.length > 1 && (
 						<>
 							<div
 								className="img-modal__nav"
@@ -551,7 +526,7 @@ export default function ProductPageStatic({ product }: ProductPageStaticProps) {
 								</button>
 							</div>
 							<div className="img-modal__pag">
-								{fullScreenIndex + 1}/{productVariant.images.length}
+								{fullScreenIndex + 1}/{images.length}
 							</div>
 						</>
 					)}

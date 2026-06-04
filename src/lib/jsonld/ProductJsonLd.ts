@@ -24,9 +24,15 @@ export function productJsonLd({
 		name: localizedName,
 		description: localizedDesc,
 		url: pageUrl,
-		image: product.variants.flatMap((v) =>
-			v.images.map((img) => `${BASE_URL}${img}`),
-		),
+		// TODO: learn this
+		image: product.variants.flatMap((v) => {
+			if (v.grades && v.grades.length > 0) {
+				return v.grades.flatMap((g) =>
+					g.images.map((img) => `${BASE_URL}${img}`),
+				);
+			}
+			return (v.images ?? []).map((img) => `${BASE_URL}${img}`);
+		}),
 		category: localizedCategory,
 		// keywords: product.keywords.join(", "),
 		alternateName: product.latName,
