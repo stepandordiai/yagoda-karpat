@@ -6,7 +6,7 @@
 	right: 25px;
 	left: 25px;
 	z-index: 4;
-	background: rgba(255, 255, 255, 0.75);
+	background: rgba(255, 255, 255, 0.8);
 	@include glass-effect;
 	@include flex-center;
 	min-height: 70px;
@@ -23,6 +23,7 @@
 .header__logo {
 	margin-right: auto;
 	font-size: 1.5rem;
+	font-weight: 500;
 	@include flex-center;
 	column-gap: 5px;
 }

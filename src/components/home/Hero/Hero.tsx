@@ -1,8 +1,8 @@
-import { Link } from "@/i18n/navigation";
 import { getTranslations } from "next-intl/server";
+import { Link } from "@/i18n/navigation";
 import "./styles.scss";
 
-const Hero = async () => {
+export default async function Hero() {
 	const t = await getTranslations();
 
 	return (
@@ -38,9 +38,8 @@ const Hero = async () => {
 					>
 						Sergey k
 					</a>
-					<p className="home-container__desc">{t("companyFullName")}</p>
 					<h1 className="home-container__title">{t("home.title")}</h1>
-					<h2 className="home-container__desc">{t("home.sec_title")}</h2>
+					<p className="home-container__desc">{t("home.sec_title")}</p>
 					<div style={{ display: "flex", flexWrap: "wrap", gap: 10 }}>
 						<Link className="home-container__link btn--bold" href="/#products">
 							{t("home.viewProducts")}
@@ -53,6 +52,4 @@ const Hero = async () => {
 			</section>
 		</>
 	);
-};
-
-export default Hero;
+}

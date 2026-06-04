@@ -1,6 +1,6 @@
 @mixin glass-effect {
-	-webkit-backdrop-filter: blur(10px);
-	backdrop-filter: blur(10px);
+	-webkit-backdrop-filter: blur(20px);
+	backdrop-filter: blur(20px);
 }
 
 @mixin flex-center {

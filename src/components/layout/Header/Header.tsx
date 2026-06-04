@@ -11,8 +11,8 @@ import { usePathname } from "@/i18n/navigation";
 import TelIcon from "@/components/icons/TelIcon";
 import EmailIcon from "@/components/icons/EmailIcon";
 import PdfIcon from "@/components/icons/PdfIcon";
-import "./Header.scss";
 import PlusIcon from "@/components/icons/PlusIcon";
+import "./Header.scss";
 
 type HeaderProps = {
 	products: Product[];
@@ -29,7 +29,7 @@ export default function Header({ products }: HeaderProps) {
 		...new Set(products.map((product) => product.type)),
 	];
 
-	function toggleMenu(): void {
+	function toggleMenu() {
 		setIsMenuVisible((prev) => !prev);
 		setIsDropdownOpen((prev) => (prev ? false : prev));
 	}
@@ -43,54 +43,9 @@ export default function Header({ products }: HeaderProps) {
 		document.body.classList.toggle("body--hidden", isMenuVisible);
 	}, [isMenuVisible]);
 
-	function toggleDropdownBtn(): void {
+	function toggleDropdownBtn() {
 		setIsDropdownOpen((prev) => !prev);
 	}
-
-	// FIXME:
-	// function handleNavIndicator(
-	// 	sections: (HTMLElement | null)[],
-	// 	links: NodeListOf<HTMLElement>
-	// ): void {
-	// 	links.forEach((link) => link.classList.remove("link--active"));
-
-	// 	sections.forEach((section, index) => {
-	// 		if (!section) return;
-
-	// 		const rect = section.getBoundingClientRect();
-	// 		if (rect.top <= 40 && rect.bottom >= 40) {
-	// 			links[index].classList.add("link--active");
-	// 		}
-	// 	});
-	// }
-
-	// FIXME:
-	// useEffect(() => {
-	// 	const links = document.querySelectorAll(".link") as NodeListOf<HTMLElement>;
-	// 	const sections = [
-	// 		document.querySelector(".js-home") as HTMLDivElement | null,
-	// 		document.querySelector(".js-about-us") as HTMLDivElement | null,
-	// 		document.querySelector(".js-products") as HTMLDivElement | null,
-	// 		document.querySelector(".js-contacts") as HTMLDivElement | null,
-	// 	];
-
-	// 	// Remove indicators when navigate to another page
-	// 	links.forEach((link) => link.classList.remove("link--active"));
-
-	// 	if (!links.length || !sections.some(Boolean)) return;
-
-	// 	const onScroll = () => handleNavIndicator(sections, links);
-
-	// 	// Update indicator when navigate
-	// 	onScroll();
-
-	// 	document.addEventListener("scroll", onScroll);
-
-	// 	// Cleanup
-	// 	return () => {
-	// 		document.removeEventListener("scroll", onScroll);
-	// 	};
-	// }, [pathname]);
 
 	// Close menu on Esc
 	useEffect(() => {
