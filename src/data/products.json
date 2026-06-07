@@ -29,10 +29,16 @@
 			{
 				"id": 2,
 				"state": "product_page.uncleaned_1",
-				"images": [
-					"/products/frozen-bilberries/iqf-frozen-bilberries-1.JPG",
-					"/products/frozen-bilberries/iqf-frozen-bilberries-4.jpg",
-					"/products/frozen-bilberries/iqf-frozen-bilberries-5.jpg"
+				"grades": [
+					{
+						"id": 1,
+						"class": "Grade 2",
+						"images": [
+							"/products/frozen-bilberries/iqf-frozen-bilberries-1.JPG",
+							"/products/frozen-bilberries/iqf-frozen-bilberries-4.jpg",
+							"/products/frozen-bilberries/iqf-frozen-bilberries-5.jpg"
+						]
+					}
 				]
 			}
 		],
@@ -62,14 +68,9 @@
 			{
 				"id": 1,
 				"state": "product_page.cleaned_1",
-				"grades": [
-					{
-						"id": 1,
-						"class": "Grade 2",
-						"images": [
-							"/products/frozen-lingonberries/iqf-frozen-lingonberries-1.jpg"
-						]
-					}
+
+				"images": [
+					"/products/frozen-lingonberries/iqf-frozen-lingonberries-1.jpg"
 				]
 			},
 			{
@@ -162,6 +163,7 @@
 			}
 		],
 		"harvest": [8, 9],
+		"isOrganic": true,
 		"isFeatured": true
 	},
 	{
@@ -605,11 +607,13 @@
 				"id": 2,
 				"state": "product_page.with_stone",
 				"images": [
-					"/products/frozen-sour-cherries-with-stone/iqf-frozen-sour-cherries-with-stone-1.jpg",
-					"/products/frozen-sour-cherries-with-stone/iqf-frozen-sour-cherries-with-stone-2.jpg"
+					"/products/frozen-sour-cherries-whole-unpitted/iqf-frozen-sour-cherries-whole-unpitted-1.jpg",
+					"/products/frozen-sour-cherries-whole-unpitted/iqf-frozen-sour-cherries-whole-unpitted-2.jpg",
+					"/products/frozen-sour-cherries-whole-unpitted/iqf-frozen-sour-cherries-whole-unpitted-3.jpg"
 				]
 			}
 		],
+		"isOrganic": true,
 		"harvest": [5, 6],
 		"isFeatured": true
 	},

@@ -35,7 +35,9 @@ export default function ProductCard({ product }: ProductCardProps) {
 
 	const handleVariantChange = (id: number) => {
 		setImgLoaded(false); // reset → placeholder shows
+		const newState = variants.find((v) => v.id === id);
 		setProductStateId(id);
+		setProductGradeId(newState?.grades?.[0]?.id ?? null);
 	};
 
 	// TODO:
