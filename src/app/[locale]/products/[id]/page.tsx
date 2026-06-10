@@ -63,6 +63,13 @@ export async function generateMetadata({
 		routing.locales.map((l) => [l, `/${l}/${prevPage}/${product.id}`]),
 	);
 
+	// TODO: learn this
+	const firstImage = product.variants
+		.flatMap((v) =>
+			"grades" in v && v.grades ? v.grades.flatMap((g) => g.images) : v.images,
+		)
+		.at(0);
+
 	return {
 		title: `${t(product.name)} ${t("product_page.meta.title")}`,
 		description: `${t(product.name)}${t("product_page.meta.description")}`,
@@ -72,6 +79,14 @@ export async function generateMetadata({
 				...languages,
 				"x-default": `/${routing.defaultLocale}/${prevPage}/${product.id}`,
 			},
+		},
+		// TODO: learn this
+		openGraph: {
+			title: `${t(product.name)} ${t("product_page.meta.title")}`,
+			description: `${t(product.name)}${t("product_page.meta.description")}`,
+			url: `/${locale}/${prevPage}/${product.id}`,
+			type: "website",
+			images: firstImage,
 		},
 	};
 }

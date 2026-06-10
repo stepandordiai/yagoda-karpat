@@ -65,6 +65,14 @@ export async function generateMetadata({
 				"x-default": `/${routing.defaultLocale}`,
 			},
 		},
+		// TODO: learn this
+		openGraph: {
+			title: t("title"),
+			description: t("description"),
+			url: `/${locale}`,
+			type: "website",
+			images: "/yagoda-karpat-og.png",
+		},
 	};
 }
 
