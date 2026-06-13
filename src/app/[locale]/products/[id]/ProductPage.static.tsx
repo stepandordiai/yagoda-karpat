@@ -2,7 +2,7 @@
 
 import { useTranslations } from "next-intl";
 import { Product } from "@/interfaces/Product";
-import { JSX, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import ContactDetails from "@/components/ContactDetails/ContactDetails";
 import Image from "next/image";
 import harvestData from "@/data/harvest-data.json";
@@ -66,9 +66,11 @@ export default function ProductPageStatic({ product }: ProductPageStaticProps) {
 	const [thumbsSwiper, setThumbsSwiper] = useState<any>(null);
 	const [fullScreenIndex, setFullScreenIndex] = useState<number | null>(null);
 
-	function handleVariantId(props: number) {
+	function handleVariantId(id: number) {
 		setThumbsSwiper(null);
-		setActiveVariantId(props);
+		setActiveVariantId(id);
+		const newState = product.variants.find((v) => v.id === id);
+		setProductGradeId(newState?.grades?.[0]?.id ?? null);
 	}
 
 	const productVariant =
@@ -399,7 +401,6 @@ export default function ProductPageStatic({ product }: ProductPageStaticProps) {
 												width={1600}
 												height={1200}
 												alt={`${t(product.name)} ${productVariant.state ? t(productVariant.state) : ""}`.trimEnd()}
-												// TODO: learn this
 												priority={index === 0}
 											/>
 										</SwiperSlide>

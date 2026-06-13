@@ -11,9 +11,15 @@ import "./ProductCard.scss";
 
 type ProductCardProps = {
 	product: Product;
+	index?: number;
+	priorityLength?: number;
 };
 
-export default function ProductCard({ product }: ProductCardProps) {
+export default function ProductCard({
+	product,
+	index,
+	priorityLength,
+}: ProductCardProps) {
 	const t = useTranslations();
 
 	const { id, name, variants } = product;
@@ -74,13 +80,18 @@ export default function ProductCard({ product }: ProductCardProps) {
 								productState?.state ? t(productState.state) : ""
 							}`.trimEnd()}
 							onLoad={() => setImgLoaded(true)}
+							priority={
+								index !== undefined &&
+								priorityLength !== undefined &&
+								index < priorityLength
+							}
 						/>
 					</>
 				) : (
 					<div className="product__img-placeholder" />
 				)}
 				<div className="img-qty">
-					<ImageIcon /> <span>{productGrade?.images.length}</span>
+					<ImageIcon /> <span>{images.length}</span>
 				</div>
 			</div>
 			<div className="product__info-container">

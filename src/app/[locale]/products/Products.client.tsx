@@ -71,8 +71,15 @@ export default function ProductsClient() {
 			</div>
 			<div className="products-container">
 				{filteredProducts.length > 0 ? (
-					filteredProducts.map((product) => {
-						return <ProductCard key={product.id} product={product} />;
+					filteredProducts.map((product, index) => {
+						return (
+							<ProductCard
+								key={product.id}
+								product={product}
+								index={index}
+								priorityLength={2}
+							/>
+						);
 					})
 				) : (
 					<p>{t("products.productNotFound")}</p>

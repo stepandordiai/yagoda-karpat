@@ -1,0 +1,30 @@
+[
+	{
+		"name": "mon",
+		"hours": "8:00 - 19:00"
+	},
+	{
+		"name": "tue",
+		"hours": "8:00 - 19:00"
+	},
+	{
+		"name": "wed",
+		"hours": "8:00 - 19:00"
+	},
+	{
+		"name": "thu",
+		"hours": "8:00 - 19:00"
+	},
+	{
+		"name": "fri",
+		"hours": "8:00 - 19:00"
+	},
+	{
+		"name": "sat",
+		"hours": "8:00 - 19:00"
+	},
+	{
+		"name": "sun",
+		"hours": "closed"
+	}
+]
