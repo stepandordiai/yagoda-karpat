@@ -2,14 +2,10 @@
 	margin-top: 120px;
 	background: #fff;
 	border-radius: 10px;
-	display: flex;
-	justify-content: flex-start;
-	align-items: center;
-	gap: 10px;
 	padding: 10px;
-	flex-wrap: wrap;
 
 	span {
+		display: inline-block;
 		font-size: 0.875rem;
 	}
 
@@ -21,7 +17,25 @@
 	}
 }
 
+.breadcrumbs-list {
+	list-style: none;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 10px;
+	flex-wrap: wrap;
+
+	li {
+		display: flex;
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+		gap: 10px;
+	}
+}
+
 .breadcrumbs__link {
+	display: inline-block;
 	position: relative;
 	z-index: 0;
 	padding: 10px;
