@@ -65,9 +65,10 @@
 			"Veškeré naše produkty jsou pěstovány a sklizeny výhradně v ekologicky čistých regionech Ukrajiny, kde příznivé klimatické podmínky a dlouholeté zemědělské tradice zajišťují vysokou kvalitu surovin. Úzce spolupracujeme s ověřenými farmáři a pečlivě kontrolujeme proces sklizně, abychom zachovali přirozenou chuť, barvu a nutriční hodnotu produktů. V závislosti na typu produktu a požadavcích zákazníka využíváme technologie IQF mražení, sušení na slunci nebo sušení ve speciálních sušicích komorách.",
 			"Kvalita a bezpečnost potravin jsou základem našeho podnikání. Naše výrobní provozy splňují mezinárodní standardy, včetně certifikací HACCP, ISO a Organic. Díky tomu vystupujeme nejen jako dodavatel, ale jako spolehlivý dlouhodobý partner pro evropské odběratele, kteří hledají transparentnost, flexibilitu a stabilní dodávky. Spojujeme rodinné hodnoty s průmyslovou precizností - a dodáváme přírodní produkty, na které se lze dlouhodobě spolehnout."
 		],
-		"year": "let zkušeností",
-		"product": "přírodní produkty",
-		"volume": "zaměstnanců",
+		"years": "let zkušeností",
+		"products": "přírodní produkty",
+		"employees": "zaměstnanců",
+		"exportCountries": "zemí odběratelů",
 		"map_title": "Kam dodáváme naše produkty"
 	},
 

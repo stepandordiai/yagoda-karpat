@@ -2,18 +2,18 @@
 
 import { useTranslations } from "next-intl";
 import { useEffect } from "react";
+
 const dateNow = new Date();
 const companyEstablishedDate = new Date("2010-01-01");
+const diffInYears =
+	dateNow.getFullYear() - companyEstablishedDate.getFullYear();
 
 type AboutUsClientProps = {
 	productsLength: number;
 };
 
 export default function AboutUsClient({ productsLength }: AboutUsClientProps) {
-	const t = useTranslations();
-
-	const diffInYears =
-		dateNow.getFullYear() - companyEstablishedDate.getFullYear();
+	const t = useTranslations("about_us");
 
 	// FIXME:
 	useEffect(() => {
@@ -56,31 +56,34 @@ export default function AboutUsClient({ productsLength }: AboutUsClientProps) {
 	}, []);
 
 	return (
-		<>
-			{/* TODO: learn this */}
-			<dl className="about-us__stats">
-				<div className="stats-card">
-					<dt>{t("about_us.year")}</dt>
-					<dd className="counter" data-value={diffInYears}>
-						{diffInYears}
-					</dd>
-				</div>
-				<div className="stats-card">
-					<dt>{t("about_us.product")}</dt>
-					<dd className="counter" data-value={productsLength}>
-						{productsLength}
-					</dd>
-				</div>
-				<div className="stats-card">
-					<dt>{t("about_us.volume")}</dt>
-					<dd>
-						<span className="counter" data-value={50}>
-							50
-						</span>
-						<span>+</span>
-					</dd>
-				</div>
-			</dl>
-		</>
+		<dl className="about-us__stats">
+			<div className="stats-card">
+				<dt>{t("years")}</dt>
+				<dd className="counter" data-value={diffInYears}>
+					{diffInYears}
+				</dd>
+			</div>
+			<div className="stats-card">
+				<dt>{t("products")}</dt>
+				<dd className="counter" data-value={productsLength}>
+					{productsLength}
+				</dd>
+			</div>
+			<div className="stats-card">
+				<dt>{t("employees")}</dt>
+				<dd>
+					<span className="counter" data-value={50}>
+						50
+					</span>
+					<span>+</span>
+				</dd>
+			</div>
+			<div className="stats-card">
+				<dt>{t("exportCountries")}</dt>
+				<dd className="counter" data-value={5}>
+					5
+				</dd>
+			</div>
+		</dl>
 	);
 }

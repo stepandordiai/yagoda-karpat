@@ -6,7 +6,7 @@
 
 .about-us__stats {
 	display: grid;
-	grid-template-columns: repeat(3, 1fr);
+	grid-template-columns: repeat(4, 1fr);
 	gap: 25px;
 }
 
@@ -72,6 +72,12 @@
 
 	&:hover {
 		opacity: 0.5;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	.about-us__stats {
+		grid-template-columns: repeat(3, 1fr);
 	}
 }
 
