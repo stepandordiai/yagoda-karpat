@@ -12,7 +12,7 @@ import TelIcon from "@/components/icons/TelIcon";
 import EmailIcon from "@/components/icons/EmailIcon";
 import PdfIcon from "@/components/icons/PdfIcon";
 import PlusIcon from "@/components/icons/PlusIcon";
-import { reportConversion } from "@/lib/gtagReportConversion";
+import TelLink from "@/components/TelLink/TelLink";
 import "./Header.scss";
 
 type HeaderProps = {
@@ -92,19 +92,16 @@ export default function Header({ products }: HeaderProps) {
 							</span>
 						</a>
 						<LngSelect />
-						<a
-							onClick={() =>
-								reportConversion("AW-16930854291/zX4-CKSB0sAcEJOroYk_")
-							}
+						<TelLink
+							tel="+380968065513"
 							className="header__tel"
-							href="tel:+380968065513"
 							title="Phone number"
 						>
-							<span>+38 096 806 55 13</span>
+							<span>+38 (096) 806 55 13</span>
 							<span>
 								<TelIcon />
 							</span>
-						</a>
+						</TelLink>
 						{/* menu-btn */}
 						<button
 							onClick={toggleMenu}
@@ -235,16 +232,10 @@ export default function Header({ products }: HeaderProps) {
 					</li>
 				</ul>
 				<div className="menu__footer">
-					<a
-						onClick={() =>
-							reportConversion("AW-16930854291/zX4-CKSB0sAcEJOroYk_")
-						}
-						className="menu__footer-link"
-						href="tel:+380968065513"
-					>
+					<TelLink tel="+380968065513" className="menu__footer-link">
 						<TelIcon size={24} />
 						<span>+38 (096) 806 55 13</span>
-					</a>
+					</TelLink>
 					<a className="menu__footer-link" href="mailto:info@yagodakarpat.com">
 						<EmailIcon size={24} />
 						<span>info@yagodakarpat.com</span>
