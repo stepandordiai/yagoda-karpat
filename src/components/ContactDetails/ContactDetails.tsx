@@ -41,7 +41,7 @@ export default function ContactDetails() {
 	return (
 		<div className="contacts-icons-container">
 			<a
-				onClick={() => reportConversion("AW-16930854291/wB0HCJKEi8EcEJOroYk_")}
+				onClick={() => reportConversion("AW-16930854291/zX4-CKSB0sAcEJOroYk_")}
 				href="tel:+380968065513"
 				className="contacts__info-container"
 			>

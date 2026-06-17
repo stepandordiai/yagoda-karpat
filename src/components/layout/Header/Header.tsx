@@ -94,7 +94,7 @@ export default function Header({ products }: HeaderProps) {
 						<LngSelect />
 						<a
 							onClick={() =>
-								reportConversion("AW-16930854291/wB0HCJKEi8EcEJOroYk_")
+								reportConversion("AW-16930854291/zX4-CKSB0sAcEJOroYk_")
 							}
 							className="header__tel"
 							href="tel:+380968065513"
@@ -237,7 +237,7 @@ export default function Header({ products }: HeaderProps) {
 				<div className="menu__footer">
 					<a
 						onClick={() =>
-							reportConversion("AW-16930854291/wB0HCJKEi8EcEJOroYk_")
+							reportConversion("AW-16930854291/zX4-CKSB0sAcEJOroYk_")
 						}
 						className="menu__footer-link"
 						href="tel:+380968065513"
