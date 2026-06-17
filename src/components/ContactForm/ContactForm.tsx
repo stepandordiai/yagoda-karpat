@@ -3,6 +3,7 @@
 import { useTranslations } from "next-intl";
 import { useState } from "react";
 import { supabase } from "@/lib/supabase";
+import { reportConversion } from "@/lib/gtagReportConversion";
 import "./ContactForm.scss";
 
 type ContactFormProps = {
@@ -35,8 +36,14 @@ const ContactForm = ({ heading, requestedProduct = "" }: ContactFormProps) => {
 
 		// TODO: learn this
 		if (error) {
-			if (error.code !== "23505") setError(error.message);
+			if (error.code === "23505") {
+				setSuccess(true);
+				setForm(initForm);
+			} else {
+				setError(error.message);
+			}
 		} else {
+			reportConversion("AW-16930854291/aCjkCMaZisEcEJOroYk_");
 			setSuccess(true);
 			setForm(initForm);
 		}
