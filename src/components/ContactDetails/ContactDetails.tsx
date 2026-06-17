@@ -4,6 +4,7 @@ import { useTranslations } from "next-intl";
 import TelIcon from "@/components/icons/TelIcon";
 import EmailIcon from "@/components/icons/EmailIcon";
 import PinIcon from "@/components/icons/PinIcon";
+import { reportConversion } from "@/lib/gtagReportConversion";
 import "./ContactDetails.scss";
 
 export default function ContactDetails() {
@@ -39,7 +40,11 @@ export default function ContactDetails() {
 
 	return (
 		<div className="contacts-icons-container">
-			<a href="tel:+380968065513" className="contacts__info-container">
+			<a
+				onClick={() => reportConversion("AW-16930854291/wB0HCJKEi8EcEJOroYk_")}
+				href="tel:+380968065513"
+				className="contacts__info-container"
+			>
 				<TelIcon size={40} />
 				<span>+38 (096) 806 55 13</span>
 			</a>

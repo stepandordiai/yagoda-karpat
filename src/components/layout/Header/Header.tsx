@@ -12,6 +12,7 @@ import TelIcon from "@/components/icons/TelIcon";
 import EmailIcon from "@/components/icons/EmailIcon";
 import PdfIcon from "@/components/icons/PdfIcon";
 import PlusIcon from "@/components/icons/PlusIcon";
+import { reportConversion } from "@/lib/gtagReportConversion";
 import "./Header.scss";
 
 type HeaderProps = {
@@ -92,6 +93,9 @@ export default function Header({ products }: HeaderProps) {
 						</a>
 						<LngSelect />
 						<a
+							onClick={() =>
+								reportConversion("AW-16930854291/wB0HCJKEi8EcEJOroYk_")
+							}
 							className="header__tel"
 							href="tel:+380968065513"
 							title="Phone number"
@@ -231,7 +235,13 @@ export default function Header({ products }: HeaderProps) {
 					</li>
 				</ul>
 				<div className="menu__footer">
-					<a className="menu__footer-link" href="tel:+380968065513">
+					<a
+						onClick={() =>
+							reportConversion("AW-16930854291/wB0HCJKEi8EcEJOroYk_")
+						}
+						className="menu__footer-link"
+						href="tel:+380968065513"
+					>
 						<TelIcon size={24} />
 						<span>+38 (096) 806 55 13</span>
 					</a>
