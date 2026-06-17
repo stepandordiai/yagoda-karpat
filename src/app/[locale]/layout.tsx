@@ -9,8 +9,9 @@ import Loading from "@/components/Loading/Loading";
 import Header from "@/components/layout/Header/Header";
 import Footer from "@/components/layout/Footer/Footer";
 import { BASE_URL } from "@/lib/constants";
-import "@/scss/globals.scss";
+import Script from "next/script";
 import ScrollToTop from "@/utils/ScrollToTop";
+import "@/scss/globals.scss";
 
 const montserrat = Montserrat({
 	variable: "--font-montserrat",
@@ -63,6 +64,19 @@ export default async function LocaleLayout({
 					{children}
 					<Footer products={products} />
 				</NextIntlClientProvider>
+				{/* Google */}
+				<Script
+					src="https://www.googletagmanager.com/gtag/js?id=AW-16930854291"
+					strategy="afterInteractive"
+				/>
+				<Script id="google-ads" strategy="afterInteractive">
+					{`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'AW-16930854291');
+          `}
+				</Script>
 			</body>
 		</html>
 	);
