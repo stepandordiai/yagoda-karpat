@@ -10,14 +10,10 @@ import Certificates from "@/components/home/Certificates/Certificates";
 import { Link } from "@/i18n/navigation";
 import Hero from "@/components/home/Hero/Hero";
 import Faqs from "@/components/Faqs/Faqs";
+import { BASE_URL } from "@/lib/constants";
 import "./Home.scss";
 
-type Faq = {
-	q: string;
-	a: string;
-};
-
-const faqs: Faq[] = [
+const faqs = [
 	{
 		q: "faq.home.q.1",
 		a: "faq.home.a.1",
@@ -79,28 +75,85 @@ export async function generateMetadata({
 export default async function Home() {
 	const t = await getTranslations();
 
+	const jsonLd = {
+		"@context": "https://schema.org",
+		"@type": "LocalBusiness",
+		"@id": `${BASE_URL}/#organization`,
+		name: t("company_name"),
+		url: BASE_URL,
+		// TODO: ?
+		logo: `${BASE_URL}/logo-img/yagoda-karpat-logo.svg`,
+		image: `${BASE_URL}/yagoda-karpat-og.png`,
+		description: t("home.meta.description"),
+		email: "info@yagodakarpat.com",
+		telephone: "+380968065513",
+		contactPoint: {
+			"@type": "ContactPoint",
+			telephone: "+380968065513",
+			email: "info@yagodakarpat.com",
+			contactType: "sales",
+			availableLanguage: ["uk", "en", "cs"],
+		},
+		sameAs: [
+			"https://www.facebook.com/profile.php?id=61584019674019",
+			"https://www.linkedin.com/company/yagoda-karpat",
+			"https://www.youtube.com/@YagodaKarpat",
+		],
+		address: {
+			"@type": "PostalAddress",
+			streetAddress: "Central street, 34B",
+			addressLocality: "Vilkhivtsi",
+			addressRegion: "Zakarpattia",
+			postalCode: "90542",
+			addressCountry: "UA",
+		},
+		openingHoursSpecification: [
+			{
+				"@type": "OpeningHoursSpecification",
+				dayOfWeek: [
+					"Monday",
+					"Tuesday",
+					"Wednesday",
+					"Thursday",
+					"Friday",
+					"Saturday",
+				],
+				opens: "08:00",
+				closes: "19:00",
+			},
+		],
+	};
+
 	return (
-		<main>
-			<Container>
-				<Hero />
-				<AboutUs productsLength={products.length} />
-				<section className="home-products" id="products">
-					<h2 className="section-title">{t("products_title")}</h2>
-					<div className="products-container">
-						{products
-							.filter((product) => product.isFeatured)
-							.map((product) => {
-								return <ProductCard key={product.id} product={product} />;
-							})}
-					</div>
-					<Link className="home-products__link btn--bold" href="/products">
-						{t("home.viewAllProducts")}
-					</Link>
-				</section>
-				<Certificates />
-				<Faqs faqs={faqs} />
-				<Contacts />
-			</Container>
-		</main>
+		<>
+			<head>
+				<script
+					type="application/ld+json"
+					dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+				/>
+			</head>
+			<main>
+				<Container>
+					<Hero />
+					<AboutUs productsLength={products.length} />
+					<section className="home-products" id="products">
+						<h2 className="section-title">{t("products_title")}</h2>
+						<div className="products-container">
+							{products
+								.filter((product) => product.isFeatured)
+								.map((product) => {
+									return <ProductCard key={product.id} product={product} />;
+								})}
+						</div>
+						<Link className="home-products__link btn--bold" href="/products">
+							{t("home.viewAllProducts")}
+						</Link>
+					</section>
+					<Certificates />
+					<Faqs faqs={faqs} />
+					<Contacts />
+				</Container>
+			</main>
+		</>
 	);
 }

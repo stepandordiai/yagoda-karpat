@@ -40,22 +40,8 @@ export default async function LocaleLayout({
 		notFound();
 	}
 
-	const jsonLd = {
-		"@context": "https://schema.org",
-		"@type": "Organization",
-		name: t("company_name"),
-		url: `https://www.yagodakarpat.com/${locale}`,
-		description: t("home.title"),
-	};
-
 	return (
 		<html lang={locale}>
-			<head>
-				<script
-					type="application/ld+json"
-					dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-				/>
-			</head>
 			<body className={montserrat.variable}>
 				<ScrollToTop />
 				<NextIntlClientProvider locale={locale}>
