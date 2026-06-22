@@ -7,16 +7,11 @@ import products from "@/data/products.json";
 import ProductPageStatic from "./ProductPage.static";
 import ProductCard from "@/components/ProductCard/ProductCard";
 import Breadcrumbs from "@/components/common/Breadcrumbs/Breadcrumbs";
-import { productJsonLd } from "@/lib/jsonld/ProductJsonLd";
 import Faqs from "@/components/Faqs/Faqs";
+import { BASE_URL } from "@/lib/constants";
 import "./ProductPage.scss";
 
-type Faq = {
-	q: string;
-	a: string;
-};
-
-const productPageFaqs: Faq[] = [
+const productPageFaqs = [
 	{
 		q: "faq.productPage.q.1",
 		a: "faq.productPage.a.1",
@@ -115,13 +110,71 @@ export default async function ProductPage({ params }: ProductPageProps) {
 		return notFound();
 	}
 
-	const jsonLd = productJsonLd({
-		product,
-		locale,
-		localizedName: t(product.name),
-		localizedDesc: `${t(product.name)} ${t("product_page.meta.description")}`,
-		localizedCategory: t(product.type),
-	});
+	// TODO: learn this
+	const jsonLd = {
+		"@context": "https://schema.org",
+		"@type": "Product",
+		name: t(product.name),
+		description: `${t(product.name)} ${t("product_page.meta.description")}`,
+		url: `${BASE_URL}/${locale}/products/${product.id}`,
+		// TODO: learn this
+		image: product.variants.flatMap((v) => {
+			const grades = "grades" in v ? v.grades : undefined;
+			if (grades?.length) {
+				return grades.flatMap((g) =>
+					(g.images ?? []).map((img) => `${BASE_URL}${img}`),
+				);
+			}
+			return (v.images ?? []).map((img) => `${BASE_URL}${img}`);
+		}),
+		category: t(product.type),
+		alternateName: product.latName,
+		brand: { "@id": `${BASE_URL}/#organization` },
+		manufacturer: { "@id": `${BASE_URL}/#organization` },
+		countryOfOrigin: {
+			"@type": "Country",
+			name: "Ukraine",
+		},
+		hasCertification: [
+			{
+				"@type": "Certification",
+				name: "HACCP",
+				issuedBy: { "@type": "Organization", name: "HACCP Authority" },
+			},
+			...(product.isOrganic
+				? [
+						{
+							"@type": "Certification",
+							name: "Organic Standard",
+							issuedBy: { "@type": "Organization", name: "Organic Standard" },
+							url: `${BASE_URL}/pdf/yagoda-karpat-organic-certificate.pdf`,
+						},
+					]
+				: []),
+		],
+		additionalProperty: [
+			{
+				"@type": "PropertyValue",
+				name: "Minimum Order Quantity",
+				value: "500 kg",
+			},
+			{
+				"@type": "PropertyValue",
+				name: "Storage Temperature",
+				value: "-18°C",
+			},
+			{
+				"@type": "PropertyValue",
+				name: "Packaging Options",
+				value: "25 kg multi-layer paper bags; 400 kg industrial octabins",
+			},
+			{
+				"@type": "PropertyValue",
+				name: "Delivery Terms",
+				value: "FCA, DAP, DDP",
+			},
+		],
+	};
 
 	const relatedProducts = products.filter((el) => {
 		return (
@@ -130,19 +183,6 @@ export default async function ProductPage({ params }: ProductPageProps) {
 			el.name !== product.name
 		);
 	});
-
-	// TODO:
-	// function truncateForSEO(str: string, maxLength: number = 160) {
-	// 	if (str.length <= maxLength) return str;
-	// 	const trimmed = str.slice(0, maxLength);
-	// 	const lastSpace = trimmed.lastIndexOf(" ");
-	// 	return trimmed.slice(0, lastSpace);
-	// }
-
-	// FIXME:
-	// const allImages = product.variants.flatMap((variant) =>
-	// 	variant.images ? variant.images : []
-	// );
 
 	return (
 		<>
