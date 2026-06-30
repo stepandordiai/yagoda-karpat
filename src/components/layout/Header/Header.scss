@@ -6,8 +6,7 @@
 	right: 25px;
 	left: 25px;
 	z-index: 4;
-	background: rgba(255, 255, 255, 0.8);
-	@include glass-effect;
+	background: #fff;
 	@include flex-center;
 	min-height: 70px;
 	border-radius: 10px;
