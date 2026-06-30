@@ -118,12 +118,6 @@
 
 	"contacts": {
 		"address": "Central street, 34B, Vilkhivtsi village, Tyachiv district, Transcarpathian region, Ukraine, 90542",
-		"contact_us_title": "Contact us",
-		"name": "Name",
-		"tel": "Phone number",
-		"email": "Email",
-		"message": "Message",
-		"submit": "Send",
 		"map_title": "Where to find us"
 	},
 
@@ -592,11 +586,6 @@
 		"pack_2": "Carton box (10 kg)",
 		"pack_3": "Wooden container",
 		"pack_4": "Octabin (400 kg)",
-		"requestQuotation": "Request quotation",
-		"company": "Company",
-		"productRequested": "Product requested",
-		"messagePlaceholder": "Please specify required packaging, volume, and destination country.",
-		"minimumOrderQuantity": "*Minimum order quantity: 500 kg",
 		"wholesaleSupplier": "Wholesale Supplier"
 	},
 
@@ -662,8 +651,20 @@
 	},
 
 	"contactForm": {
+		"heading": "Request a Quote",
+		"subheading": "Please fill out the form below. Minimum order quantity (MOQ): 500 kg. We will get back to you within 1 business day.",
+		"name": "Contact Person",
+		"company": "Company Name",
+		"country": "Destination Country",
+		"email": "Business Email",
+		"productRequested": "Product of Interest",
+		"quantity": "Estimated Quantity (kg)",
+		"message": "Message",
+		"submit": "Request a Quote",
+		"success": "Thank you for your inquiry. We'll get back to you within 1 business day.",
+		"sending": "Sending request...",
 		"close": "Close",
-		"success": "Thank you for your inquiry. We will contact you shortly.",
-		"sending": "Sending..."
+		"error": "Something went wrong. Please try again or email us at info@yagodakarpat.com.",
+		"required": "required"
 	}
 }

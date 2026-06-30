@@ -479,7 +479,6 @@ export default function ProductPageStatic({ product }: ProductPageStaticProps) {
 			</div>
 			<div className="product-page__contacts">
 				<ContactForm
-					heading={t("product_page.requestQuotation")}
 					requestedProduct={`${t(product.name)} ${
 						productVariant.state ? "(" + t(productVariant.state) + ")" : ""
 					}${productGrade?.class ? ", " + productGrade.class : ""}`.trimEnd()}

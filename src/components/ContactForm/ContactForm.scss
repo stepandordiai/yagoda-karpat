@@ -8,6 +8,9 @@
 	border-radius: 10px;
 	flex-grow: 1;
 	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
 }
 
 .form {
@@ -18,10 +21,9 @@
 	font-size: 16px;
 }
 
-.form__title {
+.contact-form__heading {
 	font-size: clamp(20px, 3vw, 30px);
 	font-weight: 500;
-	margin-bottom: 10px;
 }
 
 .inputs__wrapper {
@@ -58,6 +60,12 @@ textarea {
 	&:focus {
 		outline: none;
 	}
+}
+
+.textarea-count-indicator {
+	font-size: 0.75rem;
+	align-self: flex-end;
+	padding: 5px 5px 0px;
 }
 
 .form-submit-btn {
@@ -98,8 +106,7 @@ textarea {
 	z-index: 9999;
 	padding: 10px;
 	text-align: center;
-	background: rgba(255, 255, 255, 0.75);
-	@include glass-effect;
+	background: #fff;
 	@include flex-center;
 
 	p {

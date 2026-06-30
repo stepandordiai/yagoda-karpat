@@ -671,8 +671,20 @@
 	},
 
 	"contactForm": {
+		"heading": "Nezávazná poptávka",
+		"subheading": "Vyplňte prosím formulář níže. Minimální objednací množství (MOQ): 500 kg. Ozveme se vám do jednoho pracovního dne.",
+		"name": "Kontaktní osoba",
+		"company": "Název společnosti",
+		"country": "Země určení",
+		"email": "Firemní e-mail",
+		"productRequested": "Produkt, o který máte zájem",
+		"quantity": "Odhadované množství (kg)",
+		"message": "Zpráva",
+		"submit": "Odeslat",
+		"success": "Děkujeme za vaši poptávku. Ozveme se vám do jednoho pracovního dne.",
+		"sending": "Odesílání poptávky...",
 		"close": "Zavřít",
-		"success": "Děkujeme za Váš dotaz. Budeme Vás brzy kontaktovat.",
-		"sending": "Odesílání..."
+		"error": "Něco se pokazilo. Zkuste to prosím znovu nebo nám napište na info@yagodakarpat.com.",
+		"required": "povinné"
 	}
 }

@@ -15,7 +15,7 @@ export default async function Contacts() {
 					<ContactDetails />
 				</div>
 				<div>
-					<ContactForm heading={t("contacts.contact_us_title")} />
+					<ContactForm />
 				</div>
 			</div>
 			<div className="contacts-wrapper">

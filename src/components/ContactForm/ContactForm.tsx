@@ -7,18 +7,19 @@ import { reportConversion } from "@/lib/gtagReportConversion";
 import "./ContactForm.scss";
 
 type ContactFormProps = {
-	heading: string;
 	requestedProduct?: string;
 };
 
-const ContactForm = ({ heading, requestedProduct = "" }: ContactFormProps) => {
-	const t = useTranslations();
+const ContactForm = ({ requestedProduct = "" }: ContactFormProps) => {
+	const t = useTranslations("contactForm");
 
 	const initForm = {
 		name: "",
 		company: "",
+		country: "",
 		email: "",
 		requested_product: requestedProduct,
+		quantity: "",
 		message: "",
 	};
 
@@ -27,20 +28,22 @@ const ContactForm = ({ heading, requestedProduct = "" }: ContactFormProps) => {
 	const [success, setSuccess] = useState(false);
 	const [form, setForm] = useState(initForm);
 
-	const createContactsLead = async (e: React.FormEvent) => {
+	const handleForm = (name: string, value: string) => {
+		setForm((prev) => ({ ...prev, [name]: value }));
+	};
+
+	// Supabase
+	const insertLead = async (e: React.FormEvent) => {
 		e.preventDefault();
 		setError(null);
 		setLoading(true);
 
-		const { error } = await supabase.from("clients").insert([form]);
+		const { error } = await supabase.from("leads").insert([form]);
 
-		// TODO: learn this
 		if (error) {
-			if (error.code === "23505") {
-				setSuccess(true);
-				setForm(initForm);
-			} else {
-				setError(error.message);
+			if (error) {
+				console.error("Lead insert failed:", error);
+				setError(t("error"));
 			}
 		} else {
 			reportConversion("AW-16930854291/aCjkCMaZisEcEJOroYk_");
@@ -51,18 +54,15 @@ const ContactForm = ({ heading, requestedProduct = "" }: ContactFormProps) => {
 		setLoading(false);
 	};
 
-	const handleForm = (name: string, value: string) => {
-		setForm((prev) => ({ ...prev, [name]: value }));
-	};
-
 	return (
 		<div className="contact-form">
-			<h3 className="form__title">{heading}</h3>
-			{error && <span style={{ color: "red" }}>{error}</span>}
-			<form className="form" onSubmit={createContactsLead}>
+			<h3 className="contact-form__heading">{t("heading")}</h3>
+			<p className="contact-form__subheading">{t("subheading")}</p>
+			{!error && <span style={{ color: "red" }}>{error}</span>}
+			<form className="form" onSubmit={insertLead}>
 				<div className="input-container">
 					<label className="contact-label" htmlFor="name">
-						{t("contacts.name")}
+						{t("name")} ({t("required")})
 					</label>
 					<input
 						onChange={(e) => handleForm(e.target.name, e.target.value)}
@@ -77,7 +77,7 @@ const ContactForm = ({ heading, requestedProduct = "" }: ContactFormProps) => {
 				</div>
 				<div className="input-container">
 					<label className="contact-label" htmlFor="company">
-						{t("product_page.company")}
+						{t("company")} ({t("required")})
 					</label>
 					<input
 						onChange={(e) => handleForm(e.target.name, e.target.value)}
@@ -90,8 +90,22 @@ const ContactForm = ({ heading, requestedProduct = "" }: ContactFormProps) => {
 					/>
 				</div>
 				<div className="input-container">
+					<label className="contact-label" htmlFor="country">
+						{t("country")} ({t("required")})
+					</label>
+					<input
+						onChange={(e) => handleForm(e.target.name, e.target.value)}
+						value={form.country}
+						className="form__input"
+						id="country"
+						name="country"
+						type="text"
+						required
+					/>
+				</div>
+				<div className="input-container">
 					<label className="contact-label" htmlFor="email">
-						{t("contacts.email")}
+						{t("email")} ({t("required")})
 					</label>
 					<input
 						onChange={(e) => handleForm(e.target.name, e.target.value)}
@@ -107,7 +121,7 @@ const ContactForm = ({ heading, requestedProduct = "" }: ContactFormProps) => {
 				{requestedProduct && (
 					<div className="input-container">
 						<label className="contact-label" htmlFor="product">
-							{t("product_page.productRequested")}
+							{t("productRequested")}
 						</label>
 						<input
 							onChange={(e) => handleForm(e.target.name, e.target.value)}
@@ -119,34 +133,53 @@ const ContactForm = ({ heading, requestedProduct = "" }: ContactFormProps) => {
 						/>
 					</div>
 				)}
+				<div className="input-container">
+					<label className="contact-label" htmlFor="quantity">
+						{t("quantity")}
+					</label>
+					<input
+						onChange={(e) => handleForm(e.target.name, e.target.value)}
+						value={form.quantity}
+						className="form__input"
+						id="quantity"
+						name="quantity"
+						autoComplete="quantity"
+						type="text"
+					/>
+				</div>
 				<div className="input-container textarea-container">
 					<label className="contact-label" htmlFor="message">
-						{t("contacts.message")}
+						{t("message")} ({t("required")})
 					</label>
 					<textarea
 						onChange={(e) => handleForm(e.target.name, e.target.value)}
 						value={form.message}
-						rows={3}
+						rows={9}
 						name="message"
 						id="message"
-						placeholder={t("product_page.messagePlaceholder")}
+						required
+						maxLength={600}
 					></textarea>
+					<span className="textarea-count-indicator">
+						{form.message.length} / 600
+					</span>
 				</div>
 				<button
 					className={`form-submit-btn btn--bold ${loading ? "form-submit-btn--loading" : ""}`}
 					type="submit"
+					disabled={loading}
 				>
-					{loading ? t("contactForm.sending") : t("contacts.submit")}
+					{loading ? t("sending") : t("submit")}
 				</button>
 			</form>
 			{success && (
 				<div className="success-modal">
-					<p>{t("contactForm.success")}</p>
+					<p>{t("success")}</p>
 					<button
 						onClick={() => setSuccess(false)}
 						className="success-btn btn--bold"
 					>
-						{t("contactForm.close")}
+						{t("close")}
 					</button>
 				</div>
 			)}
