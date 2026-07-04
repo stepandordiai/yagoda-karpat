@@ -151,7 +151,7 @@
 		"variants": [
 			{
 				"id": 1,
-				"state": "product_page.pitted",
+				"state": "product_page.halvesPitted",
 				"grades": [
 					{
 						"id": 1,
@@ -164,7 +164,7 @@
 			},
 			{
 				"id": 2,
-				"state": "product_page.with_stone",
+				"state": "product_page.unpitted",
 				"images": [
 					"/products/frozen-plums-with-stone/iqf-frozen-plums-with-stone-1.JPG"
 				]
@@ -193,7 +193,7 @@
 		"variants": [
 			{
 				"id": 1,
-				"state": "product_page.with_stone",
+				"state": "product_page.unpitted",
 				"images": [
 					"/products/dried-plums-with-stone/dried-plums-with-stone-1.jpg",
 					"/products/dried-plums-with-stone/dried-plums-with-stone-2.jpg",
@@ -347,7 +347,7 @@
 		"variants": [
 			{
 				"id": 1,
-				"state": "product_page.pitted",
+				"state": "product_page.halvesPitted",
 				"images": ["/products/frozen-apricots/iqf-frozen-apricots-1.jpg"]
 			}
 		],
@@ -634,7 +634,7 @@
 		"variants": [
 			{
 				"id": 1,
-				"state": "product_page.wholePitted",
+				"state": "product_page.pitted",
 				"images": [
 					"/products/frozen-sour-cherries-pitted/iqf-frozen-sour-cherries-pitted-1.jpg",
 					"/products/frozen-sour-cherries-pitted/iqf-frozen-sour-cherries-pitted-2.jpg",
@@ -645,7 +645,7 @@
 			},
 			{
 				"id": 2,
-				"state": "product_page.with_stone",
+				"state": "product_page.unpitted",
 				"images": [
 					"/products/frozen-sour-cherries-whole-unpitted/iqf-frozen-sour-cherries-whole-unpitted-1.jpg",
 					"/products/frozen-sour-cherries-whole-unpitted/iqf-frozen-sour-cherries-whole-unpitted-2.jpg",
