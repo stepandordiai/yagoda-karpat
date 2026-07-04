@@ -66,8 +66,8 @@ export async function generateMetadata({
 		.at(0);
 
 	return {
-		title: `${t(product.name)} ${t("product_page.meta.title")}`,
-		description: `${t(product.name)}${t("product_page.meta.description")}`,
+		title: t(product.metaTitle),
+		description: t(product.metaDescription),
 		alternates: {
 			canonical: `/${locale}/${prevPage}/${product.id}`,
 			languages: {
@@ -77,8 +77,8 @@ export async function generateMetadata({
 		},
 		// TODO: learn this
 		openGraph: {
-			title: `${t(product.name)} ${t("product_page.meta.title")}`,
-			description: `${t(product.name)}${t("product_page.meta.description")}`,
+			title: t(product.metaTitle),
+			description: t(product.metaDescription),
 			url: `/${locale}/${prevPage}/${product.id}`,
 			type: "website",
 			images: firstImage,
@@ -115,7 +115,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
 		"@context": "https://schema.org",
 		"@type": "Product",
 		name: t(product.name),
-		description: `${t(product.name)} ${t("product_page.meta.description")}`,
+		description: t(product.metaDescription),
 		url: `${BASE_URL}/${locale}/products/${product.id}`,
 		// TODO: learn this
 		image: product.variants.flatMap((v) => {

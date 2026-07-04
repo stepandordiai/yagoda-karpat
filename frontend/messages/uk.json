@@ -1,0 +1,730 @@
+{
+	"contact_us": "Зв'яжіться з нами",
+	"home_title": "Головна",
+	"about_us_title": "Про нас",
+	"products_title": "Продукти",
+	"contacts_title": "Контакти",
+	"berries_title": "Ягоди",
+	"fruits_title": "Фрукти",
+	"vegetables_title": "Овочі",
+	"mushrooms_title": "Гриби",
+	"certificates_title": "Сертифікати",
+	"business_hours_title": "Робочі години",
+	"mon": "Понеділок",
+	"tue": "Вівторок",
+	"wed": "Середа",
+	"thu": "Четвер",
+	"fri": "П'ятниця",
+	"sat": "Субота",
+	"sun": "Неділя",
+	"closed": "Зачинено",
+	"gallery_title": "Галерея",
+	"harvest_calendar": "Календар збору врожаю",
+	"jan": "Січень",
+	"feb": "Лютий",
+	"mar": "Березень",
+	"apr": "Квітень",
+	"may": "Травень",
+	"jun": "Червень",
+	"jul": "Липень",
+	"aug": "Серпень",
+	"sep": "Вересень",
+	"oct": "Жовтень",
+	"nov": "Листопад",
+	"dec": "Грудень",
+	"company_name": "Ягода Карпат",
+	"companyFullName": "ТОВ \"Ягода Карпат\"",
+	"copied": "Скопійовано",
+	"all": "Всі",
+	"all_rights_reserved": "Всі права захищені",
+	"requestPrice": "Запитати ціну",
+	"companyCode": "ЄДРПОУ",
+	"downloadCertificate": "Завантажити сертифікат",
+
+	"header": {
+		"openMenu": "Відкрити меню",
+		"closeMenu": "Закрити меню"
+	},
+
+	"home": {
+		"meta": {
+			"title": "Заморожені лісові ягоди та гриби оптом | Закарпаття, Україна",
+			"description": "Постачальник заморожених лісових ягід, грибів, фруктів та овочів із Закарпаття. IQF чорниця, ожина, малина, білі гриби та інша продукція для гуртових покупців, переробників і експорту."
+		},
+
+		"title": "Заморожені та сушені ягоди, фрукти, гриби та овочі — карпатський виробник та постачальник",
+		"sec_title": "Виробляємо та постачаємо заморожені й сушені ягоди, фрукти, гриби та овочі для бізнесу по всій Україні",
+		"viewProducts": "Переглянути продукцію",
+		"requestPriceList": "Запросити прайс-лист",
+		"viewAllProducts": "Переглянути всі продукти"
+	},
+
+	"about_us": {
+		"description": [
+			"Ми - сімейна приватна компанія з понад десятирічним досвідом у сфері промислової переробки та експорту заморожених і сушених ягід, фруктів, грибів та овочів. З 2010 року ми будуємо нашу діяльність навколо ключового принципу - стабільна, сертифікована якість у промислових обсягах для професійних B2B-партнерів. Від ручного збору сировини до сучасних технологій обробки кожен етап виробництва відповідає вимогам європейських ринків.",
+			"Уся наша продукція вирощується та збирається виключно в екологічно чистих регіонах України, де сприятливі кліматичні умови та давні аграрні традиції забезпечують високу якість сировини. Ми тісно співпрацюємо з перевіреними фермерами та ретельно контролюємо процес збору, щоб зберегти природний смак, колір і поживну цінність продуктів. Залежно від типу продукції та вимог клієнта ми застосовуємо технології IQF-заморожування, сушіння на сонці або сушіння у спеціальних сушильних камерах.",
+			"Якість і безпека харчових продуктів є основою нашого бізнесу. Наші виробничі потужності працюють відповідно до міжнародних стандартів, зокрема HACCP, ISO та Organic. Це дозволяє нам бути не лише постачальником, а надійним довгостроковим партнером для європейських покупців, які цінують прозорість, гнучкість і стабільні обсяги поставок. Ми поєднуємо сімейні цінності з промисловою точністю - постачаючи натуральну продукцію, якій можна довіряти сезон за сезоном."
+		],
+		"years": "років досвіду",
+		"products": "натуральних продуктів",
+		"employees": "працівників",
+		"exportCountries": "країн-імпортерів",
+		"map_title": "Куди ми постачаємо нашу продукцію"
+	},
+
+	"gallery": [
+		"Вантажівка, завантажена замороженою чорницею IQF у паперових мішках по 25 кг, готова до експорту",
+		"Етап очищення та сортування замороженої брусниці IQF на переробному підприємстві",
+		"Заморожена чорниця IQF, упакована в октабіни для оптового B2B експорту",
+		"Закупівля свіжої шипшини - постачання сировини для IQF переробки"
+	],
+
+	"products": {
+		"meta": {
+			"title": "IQF заморожені ягоди, фрукти, овочі та гриби оптом | Постачальник з України",
+			"description": "Асортимент IQF заморожених ягід, фруктів, овочів та грибів оптом. Чорниця, малина, полуниця, ожина, білі гриби та інша продукція. Постачання по Україні та на експорт. Сертифікована якість і надійна логістика."
+		},
+
+		"title": "Всі продукти",
+		"filter_placeholder": "Який продукт ви шукаєте?",
+		"productNotFound": "Продукт не знайдено",
+		"frozenBlackCurrants": "IQF заморожена чорна смородина",
+		"productDetails": "Деталі продукту"
+	},
+
+	"frozenBilberries": {
+		"meta": {
+			"title": "IQF Wild Bilberries (Vaccinium myrtillus) | EU B2B Supplier",
+			"description": "Wild-harvested IQF frozen bilberries (Vaccinium myrtillus) from the Ukrainian Carpathians. HACCP & Organic certified, MOQ 500 kg, FCA/DAP/DDP to the EU. Request a quote."
+		},
+		"heading": "IQF Frozen Bilberries",
+		"description": "IQF frozen wild bilberries (Vaccinium myrtillus), hand-harvested in the unpolluted forests of the Ukrainian Carpathians. Unlike cultivated blueberries, the wild bilberry is dark purple to the core — its flesh, not only its skin, is rich in anthocyanins, giving an intense flavour and natural colouring power that industrial buyers rely on. Individually quick-frozen at peak ripeness, the berries stay loose and free-flowing, with structure, colour and nutrients preserved. They are sorted, cleaned and free of stems, leaves and foreign matter — ready for direct use in production. Typical applications: bakery fillings and toppings, yoghurt and dairy, jams and preserves, juices and concentrates, and nutraceutical extracts where high anthocyanin content matters. Sourcing is fully traceable from forest to finished pallet, and processing follows HACCP standards; organic-certified lots are available on request. Packaging: 25 kg multi-layer paper bags or 400 kg industrial octabins. Storage at –18 °C. Minimum order 500 kg. Delivery across the EU on FCA, DAP or DDP terms, with full export documentation.",
+		"benefits": [
+			"Species: wild Vaccinium myrtillus (not cultivated blueberry)",
+			"Anthocyanin-rich flesh — natural colouring power",
+			"IQF, free-flowing — no clumping, easy dosing",
+			"No additives, preservatives or added sugar",
+			"Packaging: 25 kg bags / 400 kg octabins",
+			"HACCP · Organic on request · fully traceable"
+		]
+	},
+
+	"frozenLingonberries": {
+		"meta": {
+			"title": "IQF Frozen Lingonberries (Vaccinium vitis-idaea) | EU B2B Supplier",
+			"description": "Wild-harvested IQF frozen lingonberries (Vaccinium vitis-idaea) from the Ukrainian Carpathians. HACCP & Organic certified, MOQ 500 kg, FCA/DAP/DDP to the EU. Request a quote."
+		},
+		"heading": "IQF Frozen Lingonberries",
+		"description": "IQF frozen wild lingonberries (Vaccinium vitis-idaea), hand-harvested in the clean forests of the Ukrainian Carpathians. Naturally firm and glossy, lingonberries carry a distinctive tart, slightly bitter profile and a high content of natural benzoic acid, which supports an exceptionally long shelf life with minimal processing. Individually quick-frozen at peak ripeness, the berries stay loose and free-flowing, keeping their bright red colour, firm texture and nutrients intact. They are sorted, cleaned and free of stems, leaves and foreign matter — ready for direct use in production. Typical applications: sauces and condiments for the meat and game trade, jams, preserves and compotes, bakery fillings, juices and concentrates, and functional or nutraceutical products where high antioxidant content matters. Sourcing is fully traceable from forest to finished pallet, and processing follows HACCP standards; organic-certified lots are available on request. Packaging: 25 kg multi-layer paper bags or 400 kg industrial octabins. Storage at –18 °C. Minimum order 500 kg. Delivery across the EU on FCA, DAP or DDP terms, with full export documentation.",
+		"benefits": [
+			"Species: wild Vaccinium vitis-idaea, hand-harvested",
+			"Firm texture, bright red colour, tart flavour profile",
+			"Naturally high in benzoic acid — long shelf life",
+			"IQF, free-flowing — no clumping, easy dosing",
+			"No additives, preservatives or added sugar",
+			"Packaging: 25 kg bags / 400 kg octabins",
+			"HACCP · Organic on request · fully traceable"
+		]
+	},
+
+	"frozenRoseHips": {
+		"meta": {
+			"title": "IQF Frozen Rose Hips (Rosa canina) | EU B2B Supplier",
+			"description": "Wild-harvested IQF frozen rose hips (Rosa canina) from the Ukrainian Carpathians. Exceptionally high in vitamin C. HACCP & Organic certified, MOQ 500 kg, FCA/DAP/DDP to the EU. Request a quote."
+		},
+		"heading": "IQF Frozen Rose Hips",
+		"description": "IQF frozen wild rose hips (Rosa canina), hand-harvested in the clean forests and hedgerows of the Ukrainian Carpathians. Rose hips are prized as one of nature's richest plant sources of vitamin C, alongside carotenoids and flavonoids, which makes them a sought-after raw material for functional and nutraceutical production. Picked at full ripeness and individually quick-frozen, the fruit retains its deep orange-red colour, dense flesh and heat-sensitive nutrients that drying can degrade — a key advantage of the IQF format for buyers who need maximum vitamin retention. Depending on your requirements, rose hips are supplied whole or can be sourced to specification. Typical applications: herbal teas and infusions, purées and jams, fruit fillings, juices and syrups, and vitamin-C-rich extracts and supplements. Sourcing is fully traceable from forest to finished pallet, and processing follows HACCP standards; organic-certified lots are available on request. Packaging: 25 kg multi-layer paper bags or 400 kg industrial octabins. Storage at –18 °C. Minimum order 500 kg. Delivery across the EU on FCA, DAP or DDP terms, with full export documentation.",
+		"benefits": [
+			"Species: wild Rosa canina (dog rose), hand-harvested",
+			"Exceptionally high in natural vitamin C, carotenoids and flavonoids",
+			"IQF preserves heat-sensitive nutrients that drying degrades",
+			"Deep orange-red colour, dense flesh, full ripeness",
+			"Ideal for teas, purées, extracts and nutraceuticals",
+			"No additives, preservatives or added sugar",
+			"Packaging: 25 kg bags / 400 kg octabins · HACCP · Organic on request"
+		]
+	},
+
+	"frozenPlums": {
+		"meta": {
+			"title": "IQF Frozen Plums — Whole, Halved & Pitted | EU B2B Supplier",
+			"description": "IQF frozen plums from Ukrainian Carpathian orchards — whole, halved or pitted. HACCP & Organic certified, MOQ 500 kg, FCA/DAP/DDP to the EU. Request a quote."
+		},
+		"heading": "IQF Frozen Plums",
+		"description": "IQF frozen plums grown in the orchards of the Ukrainian Carpathian region, where a favourable continental climate produces fruit with a deep balance of sweetness and acidity. We work primarily with firm, freestone prune-type varieties whose amber flesh and blue-purple skin hold their shape well through freezing and further processing. Individually quick-frozen at optimal ripeness, the plums stay loose and free-flowing rather than fusing into a block, so processors can dose exactly what they need. Depending on your line, plums are supplied whole, halved or pitted to specification. Typical applications: bakery and pastry (tarts, strudels, fillings), purées, compotes and jams, baby food, yoghurt and dairy, juices, and fruit distillates and spirits. All fruit is sorted, cleaned and free of foreign matter, ready for direct industrial use. Sourcing is fully traceable from orchard to finished pallet, and processing follows HACCP standards; organic-certified lots are available on request. Packaging: 25 kg multi-layer paper bags or 400 kg industrial octabins. Storage at –18 °C. Minimum order 500 kg. Delivery across the EU on FCA, DAP or DDP terms, with full export documentation.",
+		"benefits": [
+			"Firm freestone prune-type plums, orchard-grown",
+			"Supplied whole, halved or pitted to specification",
+			"IQF, free-flowing — holds shape, no clumping",
+			"Balanced sweetness and acidity, deep blue-purple skin",
+			"Ideal for bakery, purées, baby food and distillation",
+			"No additives, preservatives or added sugar",
+			"Packaging: 25 kg bags / 400 kg octabins · HACCP · Organic on request"
+		]
+	},
+
+	"driedPlums": {
+		"meta": {
+			"title": "Naturally Dried Whole Plums (Unpitted, Untreated) | EU B2B Supplier",
+			"description": "Whole sun-dried plums from Ukrainian Carpathian orchards — unpitted, naturally dried, no additives or glycerin. HACCP & Organic certified, MOQ 500 kg, FCA/DAP/DDP to the EU. Request a quote."
+		},
+		"heading": "Naturally Dried Whole Plums",
+		"description": "Whole naturally dried plums (Prunus domestica) from the orchards of the Ukrainian Carpathian region. These are ripe plums dried whole, with the stone left in — nothing added, nothing applied. Unlike processed prunes, they are made without glycerin, sorbate, preservatives or any surface treatment, and without smoking, which makes them a clean-label raw material for buyers who want a fully natural dried fruit. Slow drying concentrates the plum's own sugars and gives a naturally dark, almost black skin, dense chewy flesh and a deep, honest plum flavour with no added sweetness. With moisture reduced to a stable level, the fruit keeps a long ambient shelf life and needs no cold chain, simplifying storage and freight. Supplied whole and unpitted. Typical applications: compotes, stewed fruit and uzvar, bakery and confectionery, snacking, breakfast cereals, and traditional meat dishes where a natural, stone-in dried plum is preferred. Naturally rich in dietary fibre, sorbitol and potassium. All fruit is sorted, cleaned and free of foreign matter. Sourcing is fully traceable from orchard to finished pallet, and processing follows HACCP standards; organic-certified lots are available on request. Packaging: carton boxes with food-grade liner, palletised for export. Store in a cool, dry place. Minimum order 500 kg. Delivery across the EU on FCA, DAP or DDP terms, with full export documentation.",
+		"benefits": [
+			"Whole plums (Prunus domestica), dried with the stone in",
+			"Naturally dried — no glycerin, sorbate, preservatives or smoking",
+			"Clean-label: no additives, no added sugar, no surface treatment",
+			"Naturally dark skin, dense chewy flesh, deep plum flavour",
+			"Naturally high in dietary fibre, sorbitol and potassium",
+			"Shelf-stable at ambient temperature — no cold chain needed",
+			"Packaging: carton boxes, palletised · HACCP · Organic on request"
+		]
+	},
+
+	"prunes": {
+		"meta": {
+			"title": "Pitted Prunes — Soft, Ready-to-Eat, Calibrated | EU B2B Supplier",
+			"description": "Pitted prunes (Prunus domestica) from Ukrainian Carpathian orchards — soft, ready-to-eat, calibrated by size. No added sugar. HACCP & Organic certified, MOQ 500 kg, FCA/DAP/DDP to the EU. Request a quote."
+		},
+		"heading": "Pitted Prunes",
+		"description": "Pitted prunes (Prunus domestica) produced from freestone prune-type plums grown in the orchards of the Ukrainian Carpathian region. The stone is removed and the fruit is prepared as a soft, ready-to-eat prune with a moist, tender texture and the rich, caramel-sweet flavour that comes from concentrating the plum's own sugars during drying. Prunes are calibrated by size (count per kg), so you receive a consistent grade matched to your line — whether for direct packing or further processing. Being pitted and uniformly soft, they feed cleanly into automated equipment, which makes them a practical raw material for high-volume production. Typical applications: bakery and confectionery, prune paste and purée, fruit fillings, snacking and gift packs, breakfast cereals and muesli, and energy or fruit bars. Naturally rich in dietary fibre, sorbitol and potassium, with no added sugar. All fruit is sorted, cleaned and free of foreign matter, with moisture held at a stable level for a long ambient shelf life and no cold-chain requirement. Sourcing is fully traceable from orchard to finished pallet, and processing follows HACCP standards; organic-certified lots are available on request. Packaging: carton boxes with food-grade liner, palletised for export. Store in a cool, dry place. Minimum order 500 kg. Delivery across the EU on FCA, DAP or DDP terms, with full export documentation.",
+		"benefits": [
+			"Pitted prunes (Prunus domestica) — stone removed",
+			"Soft, moist, ready-to-eat texture",
+			"Calibrated by size (count per kg) for consistent grading",
+			"Feeds cleanly into automated processing lines",
+			"No added sugar · naturally high in fibre, sorbitol and potassium",
+			"Shelf-stable at ambient temperature — no cold chain needed",
+			"Packaging: carton boxes, palletised · HACCP · Organic on request"
+		]
+	},
+
+	"frozenElderberries": {
+		"meta": {
+			"title": "IQF Frozen Elderberries (Sambucus nigra) | EU B2B Supplier",
+			"description": "Wild-harvested IQF frozen elderberries (Sambucus nigra) from the Ukrainian Carpathians — for syrups, extracts and natural colour. HACCP & Organic certified, MOQ 500 kg, FCA/DAP/DDP to the EU. Request a quote."
+		},
+		"heading": "IQF Frozen Elderberries",
+		"description": "IQF frozen wild elderberries (Sambucus nigra), hand-harvested in the clean forests and hedgerows of the Ukrainian Carpathians. Elderberries are among the richest natural sources of anthocyanins, valued both for their deep purple-black colouring power and for the immune-supporting reputation that drives strong demand in the nutraceutical and functional-food sectors. Because raw elderberries are not eaten fresh, this is a processing raw material: the berries are individually quick-frozen at full ripeness to lock in colour and heat-sensitive compounds until they reach your line. Carefully de-stemmed, sorted and cleaned, the fruit stays loose and free-flowing for accurate dosing. Typical applications: syrups, cordials and concentrates, dietary supplements and extracts, natural food colouring, wine and liqueurs, jams and preserves. Sourcing is fully traceable from forest to finished pallet, and processing follows HACCP standards; organic-certified lots are available on request. Packaging: 25 kg multi-layer paper bags or 400 kg industrial octabins. Storage at –18 °C. Minimum order 500 kg. Delivery across the EU on FCA, DAP or DDP terms, with full export documentation.",
+		"benefits": [
+			"Species: wild Sambucus nigra, hand-harvested and de-stemmed",
+			"Exceptionally high in anthocyanins — strong natural colour",
+			"Key raw material for syrups, extracts and supplements",
+			"IQF preserves colour and heat-sensitive compounds",
+			"Free-flowing — accurate dosing for processing lines",
+			"No additives, preservatives or added sugar",
+			"Packaging: 25 kg bags / 400 kg octabins · HACCP · Organic on request"
+		]
+	},
+
+	"frozenStrawberries": {
+		"meta": {
+			"title": "IQF Frozen Strawberries — Whole, Sliced, Diced | EU B2B Supplier",
+			"description": "IQF frozen strawberries from Ukrainian Carpathian farms — whole, calibrated, sliced, diced or purée. HACCP & Organic certified, MOQ 500 kg, FCA/DAP/DDP to the EU. Request a quote."
+		},
+		"heading": "IQF Frozen Strawberries",
+		"description": "IQF frozen strawberries (Fragaria × ananassa) grown on farms in the Ukrainian Carpathian region and processed at peak ripeness. We work with firm, deep-red varieties selected for their colour retention and structure through freezing — qualities industrial buyers depend on for a consistent end product. Individually quick-frozen, the berries stay loose and free-flowing rather than fusing into a block, so processors can dose precisely and thaw only what they need. Depending on your line, strawberries are supplied whole, calibrated by size, sliced, diced or as purée. All fruit is de-capped, sorted, cleaned and free of stems and foreign matter, ready for direct industrial use. Typical applications: bakery and pastry, yoghurt and dairy, ice cream and desserts, jams, preserves and fillings, smoothies, juices and concentrates. IQF freezing preserves the natural colour, aroma and nutrients, including a high natural vitamin C content. Sourcing is fully traceable from field to finished pallet, and processing follows HACCP standards; organic-certified lots are available on request. Packaging: 25 kg multi-layer paper bags or 400 kg industrial octabins. Storage at –18 °C. Minimum order 500 kg. Delivery across the EU on FCA, DAP or DDP terms, with full export documentation.",
+		"benefits": [
+			"Firm, deep-red varieties selected for colour retention",
+			"Supplied whole, calibrated, sliced, diced or as purée",
+			"De-capped, sorted, free of stems and foreign matter",
+			"IQF, free-flowing — precise dosing, no clumping",
+			"High in natural vitamin C · no additives or added sugar",
+			"Ideal for bakery, dairy, ice cream, jams and smoothies",
+			"Packaging: 25 kg bags / 400 kg octabins · HACCP · Organic on request"
+		]
+	},
+
+	"frozenRaspberries": {
+		"meta": {
+			"title": "IQF Frozen Raspberries — Whole, Crumble, Purée | EU B2B Supplier",
+			"description": "IQF frozen raspberries from Ukrainian Carpathian farms — whole, crumble/broken or purée. HACCP & Organic certified, MOQ 500 kg, FCA/DAP/DDP to the EU. Request a quote."
+		},
+		"heading": "IQF Frozen Raspberries",
+		"description": "IQF frozen raspberries (Rubus idaeus) grown on farms in the Ukrainian Carpathian region and processed at peak ripeness. Raspberries are a delicate, hollow-cored fruit, so careful harvesting and gentle individual quick-freezing are essential to preserve whole, intact berries with their bright red colour, aroma and structure. Frozen individually, they stay loose and free-flowing for precise dosing and controlled thawing. Depending on your requirements and price point, raspberries are supplied as whole grade, crumble (broken berries) for cost-efficient processing, or as seedless purée. All fruit is sorted, cleaned and free of leaves and foreign matter, ready for direct industrial use. Typical applications: bakery and pastry, yoghurt and dairy, ice cream and desserts, coulis and sauces, jams, preserves and fillings, smoothies, juices and concentrates. IQF freezing preserves the natural colour, intense flavour and nutrients, including natural vitamin C and ellagic acid. Sourcing is fully traceable from field to finished pallet, and processing follows HACCP standards; organic-certified lots are available on request. Packaging: 25 kg multi-layer paper bags or 400 kg industrial octabins. Storage at –18 °C. Minimum order 500 kg. Delivery across the EU on FCA, DAP or DDP terms, with full export documentation.",
+		"benefits": [
+			"Grades: whole, crumble (broken) or seedless purée",
+			"Gentle IQF preserves intact, whole delicate berries",
+			"Bright red colour, intense aroma, firm structure",
+			"Free-flowing — precise dosing, no clumping",
+			"Natural vitamin C and ellagic acid · no additives or added sugar",
+			"Ideal for bakery, dairy, coulis, jams and smoothies",
+			"Packaging: 25 kg bags / 400 kg octabins · HACCP · Organic on request"
+		]
+	},
+
+	"frozenApricots": {
+		"meta": {
+			"title": "IQF Frozen Apricots — Halved, Pitted or Diced | EU B2B Supplier",
+			"description": "IQF frozen apricots from Ukrainian Carpathian orchards — halved and pitted or diced. HACCP & Organic certified, MOQ 500 kg, FCA/DAP/DDP to the EU. Request a quote."
+		},
+		"heading": "IQF Frozen Apricots",
+		"description": "IQF frozen apricots (Prunus armeniaca) grown in the orchards of the Ukrainian Carpathian region and processed at peak ripeness, when the fruit reaches its full aroma and deep orange colour. We work with firm, freestone varieties whose flesh holds its shape through freezing and processing — important for buyers who need clean, intact halves rather than mush. Individually quick-frozen, the fruit stays loose and free-flowing for precise dosing and controlled thawing. Depending on your line, apricots are supplied halved and pitted or diced to specification. All fruit is washed, sorted, cleaned and free of foreign matter, ready for direct industrial use. Typical applications: bakery and pastry (tarts, danishes, fillings), jams, preserves and fruit spreads, purées and compotes, baby food, yoghurt and dairy, juices, nectars and desserts. IQF freezing preserves the natural colour, aroma and carotenoids that give apricots their characteristic orange hue. Sourcing is fully traceable from orchard to finished pallet, and processing follows HACCP standards; organic-certified lots are available on request. Packaging: 25 kg multi-layer paper bags or 400 kg industrial octabins. Storage at –18 °C. Minimum order 500 kg. Delivery across the EU on FCA, DAP or DDP terms, with full export documentation.",
+		"benefits": [
+			"Firm freestone varieties (Prunus armeniaca), orchard-grown",
+			"Supplied halved and pitted or diced to specification",
+			"Holds shape — clean intact halves, not mush",
+			"Deep orange colour, rich in natural carotenoids",
+			"IQF, free-flowing — precise dosing, no clumping",
+			"No additives, preservatives or added sugar",
+			"Packaging: 25 kg bags / 400 kg octabins · HACCP · Organic on request"
+		]
+	},
+
+	"frozenRedBellPeppers": {
+		"meta": {
+			"title": "IQF Frozen Red Bell Peppers — Diced & Strips | EU B2B Supplier",
+			"description": "IQF frozen red bell peppers from Ukrainian Carpathian farms — diced, strips or halves. HACCP certified, MOQ 500 kg, FCA/DAP/DDP to the EU. Request a quote."
+		},
+		"heading": "IQF Frozen Red Bell Peppers",
+		"description": "IQF frozen red bell peppers (Capsicum annuum) grown on farms in the Ukrainian Carpathian region and processed at peak ripeness, when the fruit is fully red, sweet and thick-walled. The peppers are washed, de-seeded, de-stemmed and cut, then individually quick-frozen so the pieces stay separate and free-flowing rather than freezing into a block — ready to pour straight into production with no thawing and no waste. Depending on your line, red bell peppers are supplied diced (typically 10×10 mm or to specification), as strips, or as halves. IQF freezing locks in the natural sweetness, firm texture, bright red colour and high vitamin C content of fresh peppers, available year-round independent of season. Typical applications: ready meals and convenience food, soups, sauces and stews, pizza and bakery toppings, frozen vegetable mixes, foodservice and catering. All produce is sorted, cleaned and free of foreign matter. Sourcing is fully traceable from field to finished pallet, and processing follows HACCP standards; organic-certified lots are available on request. Packaging: 25 kg multi-layer paper bags or 400 kg industrial octabins. Storage at –18 °C. Minimum order 500 kg. Delivery across the EU on FCA, DAP or DDP terms, with full export documentation.",
+		"benefits": [
+			"Red-ripe Capsicum annuum, field-grown and thick-walled",
+			"Supplied diced (10×10 mm or to spec), strips or halves",
+			"De-seeded and de-stemmed — ready to use, no prep, no waste",
+			"IQF, free-flowing — pour straight into production",
+			"High in natural vitamin C · bright red colour retained",
+			"Available year-round, independent of season",
+			"Packaging: 25 kg bags / 400 kg octabins · HACCP · Organic on request"
+		]
+	},
+
+	"frozenGreenBellPeppers": {
+		"meta": {
+			"title": "IQF Frozen Green Bell Peppers — Diced & Strips | EU B2B Supplier",
+			"description": "IQF frozen green bell peppers from Ukrainian Carpathian farms — diced, strips or halves. Crisp, savoury flavour. HACCP certified, MOQ 500 kg, FCA/DAP/DDP to the EU. Request a quote."
+		},
+		"heading": "IQF Frozen Green Bell Peppers",
+		"description": "IQF frozen green bell peppers (Capsicum annuum) grown on farms in the Ukrainian Carpathian region and harvested before full ripening, which gives them their signature crisp texture and fresh, mildly grassy, savoury flavour — less sweet and sharper than red peppers. This makes green peppers the go-to choice where a firm bite and a vegetal note matter, and where processors want green colour contrast in a mix. The peppers are washed, de-seeded, de-stemmed and cut, then individually quick-frozen so the pieces stay separate and free-flowing rather than freezing into a block — ready to pour straight into production with no thawing and no waste. Depending on your line, green bell peppers are supplied diced (typically 10×10 mm or to specification), as strips, or as halves. IQF freezing preserves the firm structure and bright green colour year-round, independent of season. Typical applications: ready meals and convenience food, stir-fry and fajita mixes, soups, sauces and stews, pizza and bakery toppings, and colour-contrast vegetable blends. All produce is sorted, cleaned and free of foreign matter. Sourcing is fully traceable from field to finished pallet, and processing follows HACCP standards; organic-certified lots are available on request. Packaging: 25 kg multi-layer paper bags or 400 kg industrial octabins. Storage at –18 °C. Minimum order 500 kg. Delivery across the EU on FCA, DAP or DDP terms, with full export documentation.",
+		"benefits": [
+			"Green Capsicum annuum, harvested before ripening — crisp and firm",
+			"Fresh, mildly grassy, savoury flavour — less sweet than red",
+			"Supplied diced (10×10 mm or to spec), strips or halves",
+			"De-seeded and de-stemmed — ready to use, no prep, no waste",
+			"IQF, free-flowing — pour straight into production",
+			"Bright green colour retained · available year-round",
+			"Packaging: 25 kg bags / 400 kg octabins · HACCP · Organic on request"
+		]
+	},
+
+	"frozenYellowBellPeppers": {
+		"meta": {
+			"title": "IQF Frozen Yellow Bell Peppers — Diced & Strips | EU B2B Supplier",
+			"description": "IQF frozen yellow bell peppers from Ukrainian Carpathian farms — diced, strips or halves. Sweet, golden colour for vegetable mixes. HACCP certified, MOQ 500 kg, FCA/DAP/DDP to the EU. Request a quote."
+		},
+		"heading": "IQF Frozen Yellow Bell Peppers",
+		"description": "IQF frozen yellow bell peppers (Capsicum annuum) grown on farms in the Ukrainian Carpathian region and harvested fully ripe, when the fruit turns golden-yellow and develops a mild, sweet, fruity flavour and thick, tender walls. Their bright golden colour is the main reason processors choose them — it holds through freezing and cooking, and is prized for adding a vivid third tone to red-yellow-green vegetable blends where visual appeal drives the sale. The peppers are washed, de-seeded, de-stemmed and cut, then individually quick-frozen so the pieces stay separate and free-flowing rather than freezing into a block — ready to pour straight into production with no thawing and no waste. Depending on your line, yellow bell peppers are supplied diced (typically 10×10 mm or to specification), as strips, or as halves. IQF freezing locks in the sweetness, tender texture and golden colour year-round, independent of season. Typical applications: three-colour pepper and vegetable mixes, ready meals and convenience food, fajita and stir-fry blends, pizza and bakery toppings, soups, sauces and salads. All produce is sorted, cleaned and free of foreign matter. Sourcing is fully traceable from field to finished pallet, and processing follows HACCP standards; organic-certified lots are available on request. Packaging: 25 kg multi-layer paper bags or 400 kg industrial octabins. Storage at –18 °C. Minimum order 500 kg. Delivery across the EU on FCA, DAP or DDP terms, with full export documentation.",
+		"benefits": [
+			"Yellow Capsicum annuum, harvested fully ripe — sweet and mild",
+			"Vivid golden colour — key tone for three-colour mixes",
+			"Supplied diced (10×10 mm or to spec), strips or halves",
+			"De-seeded and de-stemmed — ready to use, no prep, no waste",
+			"IQF, free-flowing — pour straight into production",
+			"Tender thick walls · colour retained year-round",
+			"Packaging: 25 kg bags / 400 kg octabins · HACCP · Organic on request"
+		]
+	},
+
+	"frozenMixedBellPeppers": {
+		"meta": {
+			"title": "IQF Frozen Mixed Bell Peppers — Three-Colour Diced & Strips | EU B2B Supplier",
+			"description": "IQF frozen mixed bell peppers (red, yellow, green) from Ukrainian Carpathian farms — diced or strips, blended to ratio. HACCP certified, MOQ 500 kg, FCA/DAP/DDP to the EU. Request a quote."
+		},
+		"heading": "IQF Frozen Mixed Bell Peppers",
+		"description": "IQF frozen mixed bell peppers (Capsicum annuum) — a ready three-colour blend of red, yellow and green peppers grown on farms in the Ukrainian Carpathian region. Each colour is harvested at its own optimal stage — red and yellow fully ripe and sweet, green harvested earlier for a crisp, savoury note — then washed, de-seeded, de-stemmed, cut and individually quick-frozen. Blending them into a single pack gives processors an instant colour solution: vivid red-yellow-green appeal with no need to buy, store and combine three separate SKUs. Because the pieces are IQF, they stay separate and free-flowing — ready to pour straight into production with no thawing and no waste. Supplied diced (typically 10×10 mm or to specification) or as strips, in a standard even blend or a custom colour ratio on request. Typical applications: ready meals and convenience food, fajita and stir-fry mixes, pizza and bakery toppings, omelette and egg products, soups, sauces, rice and pasta dishes, foodservice and catering. All produce is sorted, cleaned and free of foreign matter. Sourcing is fully traceable from field to finished pallet, and processing follows HACCP standards; organic-certified lots are available on request. Packaging: 25 kg multi-layer paper bags or 400 kg industrial octabins. Storage at –18 °C. Minimum order 500 kg. Delivery across the EU on FCA, DAP or DDP terms, with full export documentation.",
+		"benefits": [
+			"Ready three-colour blend: red, yellow and green peppers",
+			"One SKU instead of three — instant colour solution",
+			"Even standard blend or custom colour ratio on request",
+			"Supplied diced (10×10 mm or to spec) or as strips",
+			"De-seeded and de-stemmed — ready to use, no prep, no waste",
+			"IQF, free-flowing — pour straight into production",
+			"Packaging: 25 kg bags / 400 kg octabins · HACCP · Organic on request"
+		]
+	},
+
+	"frozenPorciniMushrooms": {
+		"meta": {
+			"title": "IQF Frozen Porcini Mushrooms (Boletus edulis) | EU B2B Supplier",
+			"description": "Wild-harvested IQF frozen porcini / cep mushrooms (Boletus edulis) from the Ukrainian Carpathians — whole or sliced. HACCP certified, MOQ 500 kg, FCA/DAP/DDP to the EU. Request a quote."
+		},
+		"heading": "IQF Frozen Porcini Mushrooms",
+		"description": "IQF frozen porcini mushrooms (Boletus edulis), also known as ceps, hand-picked in the forests of the Ukrainian Carpathians. Porcini cannot be commercially cultivated — every mushroom is genuinely wild-foraged, which is exactly what gives it the deep, nutty, umami-rich flavour and firm, meaty texture that professional kitchens and food manufacturers prize. The mushrooms are cleaned, sorted and individually quick-frozen shortly after harvest to lock in aroma, colour and structure that drying alters — preserving the fresh character of the mushroom. Depending on your requirements, porcini are supplied whole or sliced, and graded by quality. Because they are IQF, the pieces stay separate and free-flowing for precise portioning straight into the pan or process. Typical applications: soups, sauces and risotto, ready meals and convenience food, fillings and pastes, foodservice and fine dining, and premium frozen ranges. All mushrooms are sorted, cleaned and free of foreign matter. Sourcing is traceable from forest to finished pallet, and processing follows HACCP standards. Packaging: 10 kg corrugated carton boxes, palletised for export. Storage at –18 °C. Minimum order 500 kg. Delivery across the EU on FCA, DAP or DDP terms, with full export documentation.",
+		"benefits": [
+			"Species: wild Boletus edulis (porcini / cep) — never cultivated",
+			"Deep nutty, umami-rich flavour and firm, meaty texture",
+			"Supplied whole or sliced, graded by quality",
+			"IQF preserves aroma and structure that drying alters",
+			"Free-flowing — precise portioning, no clumping",
+			"Cleaned, sorted, free of foreign matter",
+			"Packaging: 10 kg carton boxes · HACCP · traceable"
+		]
+	},
+
+	"freshPorciniMushrooms": {
+		"meta": {
+			"title": "Fresh Porcini Mushrooms (Boletus edulis) — Seasonal | EU B2B Supplier",
+			"description": "Wild fresh porcini / cep mushrooms (Boletus edulis) from the Ukrainian Carpathians — seasonal, hand-picked, graded. Chilled B2B supply. MOQ on request, FCA/DAP to the EU. Request a quote."
+		},
+		"heading": "Fresh Porcini Mushrooms",
+		"description": "Fresh wild porcini mushrooms (Boletus edulis), also known as ceps, hand-picked in the forests of the Ukrainian Carpathians and supplied during the harvest season. Porcini cannot be cultivated, so availability follows nature — mushrooms are foraged, hand-selected and moved into the cold chain within hours of picking to preserve their firm, meaty texture, pale intact flesh and intense forest aroma. This is a seasonal, highly perishable product: we work to short lead times and chilled logistics so the mushrooms reach your kitchen or line at peak freshness. Depending on availability, fresh porcini are graded by size and quality — from premium whole caps for fine dining to sorting grades for further processing. Typical applications: restaurants and fine dining, fresh retail and specialist grocers, and processors making their own frozen, dried or preserved porcini. All mushrooms are hand-cleaned, sorted and checked for quality and foreign matter. Sourcing is traceable from forest to dispatch, and handling follows HACCP standards. Supplied in ventilated crates suited to fresh mushrooms, palletised and chilled for transport. Availability and minimum order are confirmed by season — please request current harvest status. Delivery to the EU on FCA or DAP terms, with full documentation.",
+		"benefits": [
+			"Species: wild Boletus edulis (porcini / cep) — never cultivated",
+			"Seasonal, hand-picked, into the cold chain within hours",
+			"Firm meaty texture, pale flesh, intense forest aroma",
+			"Graded by size — premium whole caps to processing grades",
+			"Chilled logistics and short lead times to preserve freshness",
+			"For fine dining, fresh retail and further processing",
+			"Ventilated crates, chilled · HACCP · traceable · seasonal availability"
+		]
+	},
+
+	"driedPorciniMushrooms": {
+		"meta": {
+			"title": "Dried Porcini Mushrooms (Boletus edulis) — Slices & Grades | EU B2B Supplier",
+			"description": "Wild dried porcini / cep mushrooms (Boletus edulis) from the Ukrainian Carpathians — graded slices, pieces or powder. Intense umami, shelf-stable. HACCP certified, MOQ on request, FCA/DAP/DDP to the EU. Request a quote."
+		},
+		"heading": "Dried Porcini Mushrooms",
+		"description": "Dried wild porcini mushrooms (Boletus edulis), also known as ceps, hand-picked in the forests of the Ukrainian Carpathians and carefully dried to concentrate their character. Drying does more than preserve — it deepens the mushroom's flavour, intensifying the nutty, savoury umami that makes porcini so valued as a natural flavour base. With moisture reduced to a stable level, the product is fully shelf-stable at ambient temperature and needs no cold chain, which simplifies storage and cuts freight cost per kilo of flavour compared with fresh or frozen. Porcini are graded to specification: premium whole slices with pale, intact flesh for retail and fine dining; broken pieces for the food industry; and milled powder for stocks, sauces, seasonings and ready meals. Because dried porcini is highly concentrated, a small quantity delivers strong flavour, making it a cost-efficient ingredient at scale. Typical applications: soups, sauces, stocks and risotto, seasoning blends and rubs, fillings and pâtés, and premium retail packs. All mushrooms are cleaned, sorted and free of foreign matter. Sourcing is traceable from forest to finished pallet, and processing follows HACCP standards. Packaging: food-grade cartons or bags to specification, palletised for export. Store in a cool, dry place. Minimum order confirmed on request. Delivery across the EU on FCA, DAP or DDP terms, with full export documentation.",
+		"benefits": [
+			"Species: wild Boletus edulis (porcini / cep) — never cultivated",
+			"Drying concentrates and deepens the natural umami",
+			"Grades: premium whole slices, broken pieces, or milled powder",
+			"Shelf-stable at ambient temperature — no cold chain needed",
+			"Highly concentrated — small dose, strong flavour, cost-efficient",
+			"Cleaned, sorted, free of foreign matter",
+			"Packaging: cartons or bags to spec · HACCP · traceable"
+		]
+	},
+
+	"freshChanterelles": {
+		"meta": {
+			"title": "Fresh Chanterelles / Girolles (Cantharellus cibarius) — Seasonal | EU B2B Supplier",
+			"description": "Wild fresh chanterelles / girolles (Cantharellus cibarius) from the Ukrainian Carpathians — golden, aromatic, hand-picked, graded by size. Chilled B2B supply, seasonal. Request a quote."
+		},
+		"heading": "Fresh Chanterelles",
+		"description": "Fresh wild chanterelles (Cantharellus cibarius), also known as girolles, hand-picked in the forests of the Ukrainian Carpathians during the harvest season. Instantly recognisable by their golden-yellow, trumpet-like shape and fruity, apricot-like aroma with a gentle peppery finish, chanterelles are one of the most sought-after wild mushrooms in European kitchens. Like all true wild mushrooms they cannot be cultivated, so supply follows the season. A key advantage over softer species: chanterelles are firm and resilient, holding their shape and texture in the pan without turning slimy — which is exactly why chefs prize them for whole, visible plating. Foraged and moved into the cold chain within hours, they are hand-cleaned and graded by size, from small premium girolles for fine dining to larger grades for general kitchen use and processing. This is a seasonal, perishable product supplied on short lead times with chilled logistics. Typical applications: restaurants and fine dining, fresh retail and specialist grocers, and processors making their own frozen or preserved chanterelles. All mushrooms are hand-cleaned, sorted and checked for foreign matter. Sourcing is traceable from forest to dispatch, and handling follows HACCP standards. Supplied in ventilated crates, palletised and chilled for transport. Availability and minimum order are confirmed by season — please request current harvest status. Delivery to the EU on FCA or DAP terms, with full documentation.",
+		"benefits": [
+			"Species: wild Cantharellus cibarius (chanterelle / girolle) — never cultivated",
+			"Golden trumpet shape, fruity apricot aroma, peppery finish",
+			"Firm and resilient — holds shape, never slimy, ideal for whole plating",
+			"Seasonal, hand-picked, into the cold chain within hours",
+			"Graded by size — small premium girolles to larger kitchen grades",
+			"Chilled logistics and short lead times to preserve freshness",
+			"Ventilated crates, chilled · HACCP · traceable · seasonal availability"
+		]
+	},
+
+	"driedChanterelles": {
+		"meta": {
+			"title": "Dried Chanterelles / Girolles (Cantharellus cibarius) | EU B2B Supplier",
+			"description": "Wild dried chanterelles / girolles (Cantharellus cibarius) from the Ukrainian Carpathians — whole or milled powder. Golden colour, fruity aroma, shelf-stable. HACCP certified, MOQ on request, FCA/DAP/DDP to the EU. Request a quote."
+		},
+		"heading": "Dried Chanterelles",
+		"description": "Dried wild chanterelles (Cantharellus cibarius), also known as girolles, hand-picked in the forests of the Ukrainian Carpathians and gently dried to preserve their distinctive character. Drying keeps the chanterelle's golden colour and its fruity, apricot-like aroma with a peppery note, concentrating them into a compact, shelf-stable form that needs no cold chain and travels efficiently. Unlike porcini, dried chanterelles firm up considerably and rehydrate to a pleasantly chewy bite, so they suit longer-cooked dishes — and they excel when milled into powder, where their aroma is released fully into stocks, sauces and seasonings. Graded to specification: whole dried caps for visible presentation and premium retail; broken pieces for the food industry; and milled powder as a natural mushroom seasoning base. Because dried mushrooms are highly concentrated, a small quantity delivers strong colour and aroma, making them cost-efficient at scale. Typical applications: soups, sauces, stocks and slow-cooked dishes, mushroom powders and seasoning blends, risotto and rice mixes, fillings and pâtés, and premium retail packs. All mushrooms are cleaned, sorted and free of foreign matter. Sourcing is traceable from forest to finished pallet, and processing follows HACCP standards. Packaging: food-grade cartons or bags to specification, palletised for export. Store in a cool, dry place. Minimum order confirmed on request. Delivery across the EU on FCA, DAP or DDP terms, with full export documentation.",
+		"benefits": [
+			"Species: wild Cantharellus cibarius (chanterelle / girolle) — never cultivated",
+			"Golden colour and fruity, peppery aroma preserved in drying",
+			"Firms up and rehydrates chewy — ideal for longer-cooked dishes",
+			"Grades: whole caps, broken pieces, or milled seasoning powder",
+			"Shelf-stable at ambient temperature — no cold chain needed",
+			"Highly concentrated — small dose, strong colour and aroma",
+			"Packaging: cartons or bags to spec · HACCP · traceable"
+		]
+	},
+
+	"frozenSourCherries": {
+		"meta": {
+			"title": "IQF Frozen Sour Cherries (Prunus cerasus) — Pitted | EU B2B Supplier",
+			"description": "IQF frozen sour cherries (Prunus cerasus) from Ukrainian Carpathian orchards — pitted, deep red, bright acidity. HACCP & Organic certified, MOQ 500 kg, FCA/DAP/DDP to the EU. Request a quote."
+		},
+		"heading": "IQF Frozen Sour Cherries",
+		"description": "IQF frozen sour cherries (Prunus cerasus) grown in the orchards of the Ukrainian Carpathian region and processed at peak ripeness. Unlike sweet cherries, sour (tart) cherries are a true processing fruit: their bright, balanced acidity and deep red colour intensify with cooking, which is exactly why bakers and manufacturers choose them for fillings and desserts where flavour must cut through sugar, dough and dairy. The cherries are pitted, then individually quick-frozen so they stay loose and free-flowing rather than fusing into a block — allowing precise dosing and controlled thawing with minimal juice loss. Supplied pitted as standard; whole with stone on request. All fruit is sorted, cleaned and free of stems and foreign matter, ready for direct industrial use. Typical applications: bakery and pastry (pie and strudel fillings, clafoutis, toppings), jams, preserves and compotes, yoghurt and dairy, juices, nectars and concentrates, and sour-cherry sauces for meat and desserts. IQF freezing preserves the colour, tart flavour and natural nutrients, including anthocyanins. Sourcing is fully traceable from orchard to finished pallet, and processing follows HACCP standards; organic-certified lots are available on request. Packaging: 25 kg multi-layer paper bags or 400 kg industrial octabins. Storage at –18 °C. Minimum order 500 kg. Delivery across the EU on FCA, DAP or DDP terms, with full export documentation.",
+		"benefits": [
+			"Species: sour/tart cherries (Prunus cerasus), orchard-grown",
+			"Pitted as standard — whole with stone on request",
+			"Bright balanced acidity, deep red colour that intensifies when cooked",
+			"IQF, free-flowing — precise dosing, minimal juice loss",
+			"Ideal for bakery fillings, jams, juice and dairy",
+			"No additives, preservatives or added sugar",
+			"Packaging: 25 kg bags / 400 kg octabins · HACCP · Organic on request"
+		]
+	},
+
+	"frozenHoneyMushrooms": {
+		"meta": {
+			"title": "IQF Frozen Honey Mushrooms (Armillaria mellea) | EU B2B Supplier",
+			"description": "Wild-harvested IQF frozen honey mushrooms / honey fungus (Armillaria mellea) from the Ukrainian Carpathians — whole, small-capped. HACCP certified, MOQ 500 kg, FCA/DAP/DDP to the EU. Request a quote."
+		},
+		"heading": "IQF Frozen Honey Mushrooms",
+		"description": "IQF frozen honey mushrooms (Armillaria mellea), also known as honey fungus or by their Ukrainian name opeňky, hand-picked in the forests of the Ukrainian Carpathians. These small wild mushrooms — compact caps on slender stems — are prized for staying whole and intact through freezing and cooking, giving a firm, springy bite and an attractive natural appearance that works beautifully in visible, whole-mushroom dishes. Growing in clusters and gathered by hand in season, they are cleaned, sorted and individually quick-frozen shortly after harvest, so the mushrooms stay separate and free-flowing for easy portioning straight into the pan or process. Honey mushrooms are always served cooked, never raw, which makes them a natural fit for hot processing and prepared foods. Supplied whole as standard. Typical applications: marinated and pickled products, soups and stews, sautés and fried mushroom dishes, ready meals, and mixed wild-mushroom ranges. All mushrooms are sorted, cleaned and free of foreign matter. Sourcing is traceable from forest to finished pallet, and processing follows HACCP standards. Packaging: 10 kg corrugated carton boxes, palletised for export. Storage at –18 °C. Minimum order 500 kg. Delivery across the EU on FCA, DAP or DDP terms, with full export documentation.",
+		"benefits": [
+			"Species: wild Armillaria mellea (honey mushroom / honey fungus)",
+			"Small whole caps on slender stems — stay intact when cooked",
+			"Firm, springy texture and attractive natural appearance",
+			"Ideal for marinating, pickling, soups, sautés and mixes",
+			"Always cooked, never raw — suited to hot processing",
+			"IQF, free-flowing — easy portioning, no clumping",
+			"Packaging: 10 kg carton boxes · HACCP · traceable"
+		]
+	},
+
+	"frozenBlackberries": {
+		"meta": {
+			"title": "IQF Frozen Blackberries (Rubus fruticosus) | EU B2B Supplier",
+			"description": "IQF frozen blackberries (Rubus fruticosus) from the Ukrainian Carpathians — whole grade, deep colour, firm structure. HACCP & Organic certified, MOQ 500 kg, FCA/DAP/DDP to the EU. Request a quote."
+		},
+		"heading": "IQF Frozen Blackberries",
+		"description": "IQF frozen blackberries (Rubus fruticosus) from the Ukrainian Carpathian region, processed at peak ripeness. Larger and firmer than raspberries, blackberries hold their shape well through freezing and further processing, and their intense dark purple-black colour carries strong natural anthocyanins — valued both for visual impact and for colouring power in finished products. Individually quick-frozen at full ripeness, the berries stay loose and free-flowing, so processors can dose precisely and thaw only what they need. Because the fruit is more robust, whole-grade blackberries stay attractively intact for visible use; crumble (broken) grade is available where cost efficiency matters more than appearance. All fruit is sorted, cleaned and free of leaves, calyces and foreign matter, ready for direct industrial use. Typical applications: bakery and pastry (tarts, muffins, fillings), yoghurt and dairy, ice cream and desserts, jams, preserves and coulis, juices, smoothies and concentrates, and mixed-berry ranges. IQF freezing preserves the deep colour, flavour and nutrients, including anthocyanins and vitamin C. Sourcing is fully traceable from field to finished pallet, and processing follows HACCP standards; organic-certified lots are available on request. Packaging: 25 kg multi-layer paper bags or 400 kg industrial octabins. Storage at –18 °C. Minimum order 500 kg. Delivery across the EU on FCA, DAP or DDP terms, with full export documentation.",
+		"benefits": [
+			"Species: blackberries (Rubus fruticosus)",
+			"Larger and firmer than raspberries — holds shape well",
+			"Intense dark purple-black colour, strong natural anthocyanins",
+			"Grades: whole (intact, for visible use) or crumble (broken)",
+			"IQF, free-flowing — precise dosing, no clumping",
+			"Anthocyanins and vitamin C · no additives or added sugar",
+			"Packaging: 25 kg bags / 400 kg octabins · HACCP · Organic on request"
+		]
+	},
+
+	"frozenGrapes": {
+		"meta": {
+			"title": "IQF Frozen Grapes — Seedless, Whole Berries | EU B2B Supplier",
+			"description": "IQF frozen seedless grapes from Ukrainian Carpathian vineyards — whole, de-stemmed, free-flowing. HACCP & Organic certified, MOQ 500 kg, FCA/DAP/DDP to the EU. Request a quote.",
+			"description_note": ""
+		},
+		"heading": "IQF Frozen Grapes",
+		"description": "IQF frozen grapes (Vitis vinifera) from vineyards in the Ukrainian Carpathian region, harvested ripe and frozen whole. Grapes are washed, de-stemmed and individually quick-frozen, so each berry keeps its round shape and stays loose and free-flowing rather than clumping into a block — ready to pour by the exact portion. Supplied seedless as standard, which lets them be used directly without preparation. Frozen grapes have a distinctive appeal: served straight from frozen they act as a naturally sweet, refreshing bite and a clean substitute for ice cubes in drinks, chilling without diluting — while for processors they offer year-round supply of ripe fruit for further use. All fruit is sorted, cleaned and free of stems and foreign matter. Typical applications: frozen snacking and healthy ranges, chilled and alcoholic beverages (as edible ice), fruit and smoothie mixes, desserts and garnishes, juices and concentrates, and foodservice. IQF freezing preserves the natural sweetness, colour and nutrients, including polyphenols such as resveratrol. Sourcing is fully traceable from vineyard to finished pallet, and processing follows HACCP standards; organic-certified lots are available on request. Packaging: 25 kg multi-layer paper bags or 400 kg industrial octabins. Storage at –18 °C. Minimum order 500 kg. Delivery across the EU on FCA, DAP or DDP terms, with full export documentation.",
+		"benefits": [
+			"Seedless Vitis vinifera, frozen whole and de-stemmed",
+			"Round berries stay loose and free-flowing — portion by weight",
+			"Served straight from frozen — sweet snack or edible ice in drinks",
+			"Year-round supply of ripe fruit for processing",
+			"Contains natural polyphenols including resveratrol",
+			"No additives, preservatives or added sugar",
+			"Packaging: 25 kg bags / 400 kg octabins · HACCP · Organic on request"
+		]
+	},
+
+	"frozenCorn": {
+		"meta": {
+			"title": "IQF Frozen Sweet Corn — Kernels & Cob | EU B2B Supplier",
+			"description": "IQF frozen sweet corn from Ukrainian Carpathian farms — kernels or cob, blanched, free-flowing. HACCP & Organic certified, MOQ 500 kg, FCA/DAP/DDP to the EU. Request a quote."
+		},
+		"heading": "IQF Frozen Sweet Corn",
+		"description": "IQF frozen sweet corn (Zea mays var. saccharata) grown on farms in the Ukrainian Carpathian region and processed within hours of harvest, when the kernels are at their sweetest — sugars in sweet corn begin converting to starch quickly after picking, so fast freezing is what locks in the tender, sweet character buyers expect. The corn is husked, blanched to preserve colour and texture, cut from the cob and individually quick-frozen, so the kernels stay separate and free-flowing — ready to pour straight into production with no thawing and no waste. Supplied as loose kernels as standard, or as cob and mini-cob to specification. All produce is sorted, cleaned and free of husk, silk and foreign matter. Typical applications: frozen vegetable mixes, ready meals and convenience food, soups, salads and salsas, pizza and bakery toppings, foodservice and catering. IQF freezing preserves the bright golden colour, natural sweetness and year-round availability independent of season. Sourcing is fully traceable from field to finished pallet, and processing follows HACCP standards; organic-certified lots are available on request. Packaging: 25 kg multi-layer paper bags or 400 kg industrial octabins. Storage at –18 °C. Minimum order 500 kg. Delivery across the EU on FCA, DAP or DDP terms, with full export documentation.",
+		"benefits": [
+			"Sweet corn (Zea mays var. saccharata), field-grown",
+			"Supplied as loose kernels, or cob / mini-cob to spec",
+			"Blanched — colour, sweetness and texture preserved",
+			"Frozen within hours — locks in sweetness before it turns starchy",
+			"IQF, free-flowing — pour straight into production, no waste",
+			"Bright golden colour · available year-round",
+			"Packaging: 25 kg bags / 400 kg octabins · HACCP · Organic on request"
+		]
+	},
+
+	"frozenBlackCurrants": {
+		"meta": {
+			"title": "IQF Frozen Blackcurrants (Ribes nigrum) | EU B2B Supplier",
+			"description": "IQF frozen blackcurrants (Ribes nigrum) from the Ukrainian Carpathians — very high vitamin C, deep colour, machine-harvested for juice and processing. HACCP & Organic certified, MOQ 500 kg, FCA/DAP/DDP to the EU. Request a quote."
+		},
+		"heading": "IQF Frozen Blackcurrants",
+		"description": "IQF frozen blackcurrants (Ribes nigrum) from the Ukrainian Carpathian region, processed at peak ripeness. Blackcurrants are one of the most concentrated raw materials in the berry category: exceptionally high in natural vitamin C — several times that of citrus — with intense anthocyanin colour and a sharp, aromatic tartness that make them a workhorse for the juice, concentrate and beverage industries rather than a fresh-eating fruit. Individually quick-frozen, the berries stay loose and free-flowing for precise dosing and controlled thawing, with the deep colour and nutrients locked in. Supplied de-stemmed and sorted, cleaned and free of foreign matter, ready for direct industrial use. Typical applications: juices, nectars, concentrates and syrups, jams, preserves and fruit fillings, dairy and yoghurt, dietary supplements and extracts, natural colouring, and liqueurs and beverages including cassis. IQF freezing preserves the vitamin C, anthocyanins and characteristic aroma. Sourcing is fully traceable from field to finished pallet, and processing follows HACCP standards; organic-certified lots are available on request. Packaging: 25 kg multi-layer paper bags or 400 kg industrial octabins. Storage at –18 °C. Minimum order 500 kg. Delivery across the EU on FCA, DAP or DDP terms, with full export documentation.",
+		"benefits": [
+			"Species: blackcurrants (Ribes nigrum), de-stemmed",
+			"Exceptionally high natural vitamin C — several times that of citrus",
+			"Deep anthocyanin colour and sharp aromatic tartness",
+			"Processing berry — juice, concentrate, syrup, supplements, cassis",
+			"IQF, free-flowing — precise dosing, no clumping",
+			"No additives, preservatives or added sugar",
+			"Packaging: 25 kg bags / 400 kg octabins · HACCP · Organic on request"
+		]
+	},
+
+	"contacts": {
+		"address": "вул. Центральна, 34Б, с. Вільхівці, Тячівський р-н, Закарпатська обл., Україна, 90542",
+		"contact_us_title": "Зв'яжіться з нами",
+		"name": "Ім'я",
+		"tel": "Номер телефону",
+		"email": "Електронна пошта",
+		"message": "Повідомлення",
+		"submit": "Відправити",
+		"map_title": "Де нас знайти",
+		"our_certificates": "Наші сертифікати"
+	},
+
+	"ourCertificates": {
+		"desc": "Ми дотримуємося найвищих стандартів безпеки та якості, що підтверджено сертифікатами HACCP та Organic. Наша продукція виготовляється з ретельно відібраної сировини й проходить багатоступеневий контроль на кожному етапі виробництва. Наявність цих міжнародних сертифікатів гарантує, що наші ягоди, фрукти та овочі є натуральними, безпечними та відповідають вимогам екологічного виробництва."
+	},
+
+	"footer": {
+		"navigation": "Навігація",
+		"scrollToTop": "Прокрутити нагору"
+	},
+
+	"product_page": {
+		"meta": {
+			"title": "оптом | Для виробників та переробки",
+			"description": " оптом для виробників харчових продуктів, переробних підприємств і гуртових покупців. Контроль якості, стабільні поставки та професійний B2B сервіс від постачальника з України."
+		},
+
+		"origin_title": "Країна походження",
+		"packaging_title": "Пакування",
+		"delivery": {
+			"title": "Доставка",
+			"refrigeratedTransport": {
+				"title": "Рефрижераторний транспорт",
+				"desc": {
+					"frozen": "–18 °C, холодовий ланцюг",
+					"fresh": "5 °C, холодовий ланцюг",
+					"dried": "кімнатна температура"
+				}
+			},
+			"internationalLogistics": {
+				"title": "Міжнародна логістика",
+				"desc": "регулярні відвантаження до ЄС та інших ринків."
+			},
+			"deliveryTerms": {
+				"title": "Умови поставки",
+				"desc": "FCA, DAP або DDP - відповідно до потреб покупця."
+			},
+			"exportDocumentation": {
+				"title": "Експортні документи",
+				"desc": "повний пакет для митного оформлення."
+			}
+		},
+		"deliveryByVehicle": "Доставка транспортом",
+		"desc_title": "Опис",
+		"status": "Тип продукту",
+		"grade": "Клас якості",
+		"whole": "Цілі",
+		"whole2": "Ціла",
+		"sliced": "Слайси",
+		"cubed": "Кубики",
+		"piccolo": "Дрібні шматочки",
+		"strips": "Соломка",
+		"with_stone": "Цілі / З кісточкою",
+		"pitted": "Половинки / Без кісточки",
+		"wholePitted": "Ціла / Без кісточки",
+		"uncleaned_1": "Неочищена",
+		"uncleaned_2": "Неочищений",
+		"cleaned_1": "Очищена",
+		"cleaned_2": "Очищений",
+		"related": "Схожа продукція",
+		"origin": {
+			"region": {
+				"title": "Україна (Карпатський регіон)",
+				"desc": "Дикорослі або екологічно культивовані ягоди, вирощені в зонах без промислового забруднення."
+			},
+			"traceability": {
+				"title": "Повна простежуваність",
+				"desc": "Ми контролюємо кожен етап: від збору в лісі до фінальної шокової заморозки (IQF)."
+			}
+		},
+		"packaging": {
+			"paperBag": {
+				"title": "Багатошарові паперові мішки (25 кг)",
+				"desc": "Надміцні харчові мішки з поліетиленовим вкладишем для запобігання втраті вологи та вимерзанню продукту."
+			},
+			"cartonBox": {
+				"title": "Гофрокартонні ящики (10 кг)",
+				"desc": "Ідеально підходять для невеликих оптових замовлень або професійних кухонь; зручні для штабелювання та палетування."
+			},
+			"octabin": {
+				"title": "Промислові октабіни (400 кг)",
+				"desc": "Найкращий варіант для великомасштабних виробничих потужностей; оптимізовані для ефективної логістики та масової переробки."
+			},
+			"woodenContainer": {
+				"title": "Дерев'яні контейнери",
+				"desc": "Міцні дерев'яні ящики, призначені для максимального захисту під час тривалого транспортування та інтенсивних навантажень."
+			}
+		},
+		"pack_1": "Паперовий мішок (25 кг)",
+		"pack_2": "Картонна коробка (10 кг)",
+		"pack_3": "Дерев'яна тара",
+		"pack_4": "Октабін (400 кг)",
+		"requestQuotation": "Запит комерційної пропозиції",
+		"company": "Компанія",
+		"productRequested": "Продукт запиту",
+		"messagePlaceholder": "Будь ласка, вкажіть необхідне пакування, обсяг та країну призначення.",
+		"minimumOrderQuantity": "*Мінімальне замовлення: 500 кг",
+		"wholesaleSupplier": "Оптовий Постачальник"
+	},
+
+	"faq": {
+		"title": "Поширені запитання",
+		"home": {
+			"q": {
+				"1": "Які види заморожених ягід оптом та натуральної продукції ви пропонуєте?",
+				"2": "Звідки постачаються ваші карпатські ягоди та фрукти?",
+				"3": "Чи постачаєте ви сертифіковані органічні ягоди оптом?",
+				"4": "Чи можу я зробити оптове замовлення для промислової переробки продуктів харчування?",
+				"5": "Як ви забезпечуєте безпеку харчових продуктів та контроль якості?",
+				"6": "Які варіанти промислової упаковки ви надаєте?"
+			},
+			"a": {
+				"1": "Ми спеціалізуємося на оптових поставках високоякісних ягід та натуральних продуктів індивідуального швидкого заморожування (IQF), які постачаються безпосередньо з екологічно чистого Карпатського регіону. Наш основний асортимент включає дикорослу чорницю, культивовану малину, лісову ожину, дикорослу журавлину та вишню. Залежно від ваших виробничих потреб, ми постачаємо фрукти у свіжому, шоково-замороженому або напівфабрикатному вигляді, адаптованому для промислових хлібопекарень, виробників молочної продукції, джемів, а також дистриб'юторів продуктів харчування.",
+				"2": "Вся наша сільськогосподарська продукція збирається з дотриманням принципів сталого розвитку в екологічно чистому Карпатському регіоні, відомому своєю мінімальною кількістю промислових підприємств та багатим біорізноманіттям. Ми співпрацюємо безпосередньо з перевіреною мережею місцевих фермерів та сертифікованих заготовлювачів дикорослих ягід. Ця модель прямих поставок гарантує повну простежуваність партій, автентичне географічне походження та прозорий ланцюг постачання.",
+				"3": "Так, ми постачаємо сертифіковані органічні ягоди оптом разом із нашою традиційною натуральною продукцією. Оскільки наші фрукти збираються у високогірних, диких умовах з мінімальним втручанням людини, вони є природно чистими. Ми підтримуємо офіційну органічну сертифікацію відповідно до суворих міжнародних правил органічного землеробства. Будь ласка, зв'яжіться з нашою командою продажів, щоб підтвердити поточні обсяги органічних партій, сезонну наявність та отримати сертифікаційну документацію.",
+				"4": "Безумовно. Ми є спеціалізованим B2B постачальником та оптовим дистриб'ютором, готовим до виконання великих комерційних контрактів. Ми регулярно постачаємо заморожені фрукти оптом для виробників продуктів харчування, дистриб'юторів інгредієнтів та харчових фабрик по всій Європі. Ми пропонуємо гнучкі цінові рівні залежно від обсягів контракту, логістичну підтримку багатотонних вантажів та графіки цілорічних поставок для безперебійної роботи ваших виробничих ліній.",
+				"5": "Ми впроваджуємо сувору багаторівневу систему контролю якості, підтверджену нашим офіційним сертифікатом HACCP. Наш контроль якості починається безпосередньо на етапі ручного збору, після чого слідує ретельне сортування, механічне очищення та інлайн-металодетекція. Цей процес гарантує, що наші кінцеві оптові партії не містять сторонніх предметів, відповідають суворим максимально допустимим рівням залишків пестицидів (MRL) і надходять на ваше підприємство з повним сертифікатом аналізу (COA).",
+				"6": "Ми спеціалізуємося виключно на великооптовому B2B дистриб'юторстві та пропонуємо промислові варіанти упаковки, розроблені для збереження цілісності температурного ланцюга під час транспортування. Ми не пропонуємо роздрібну упаковку або послуги private label. Замість цього ми зосереджені на міцній промисловій тарі: багатошарових паперових мішках по 10 кг / 25 кг, пластикових ящиках та містких октабінах, оптимізованих для комерційної переробки та автоматизованих ліній."
+			}
+		},
+		"products": {
+			"q": {
+				"1": "Які види карпатських ягід оптом ви пропонуєте?",
+				"2": "Ваші ягоди доступні у свіжому вигляді чи індивідуального швидкого заморожування (IQF)?",
+				"3": "Який календар сезонного збору врожаю для ваших карпатських фруктів?",
+				"4": "Які варіанти промислової упаковки ви пропонуєте для оптових замовлень?",
+				"5": "Які суворі вимоги до холодного зберігання ваших заморожених ягід?",
+				"6": "Який комерційний термін придатності ваших оптових заморожених продуктів?"
+			},
+			"a": {
+				"1": "Ми постачаємо преміальний асортимент дикорослих та культивованих карпатських ягід, спеціалізуючись на лісовій чорниці, ожині, маліні вищого сорту, журавлині та вишні. Наша продукція відповідає суворим комерційним специфікаціям щодо калібру, сортування за кольором та механічної чистоти, що забезпечує абсолютну стабільність для великих виробників продуктів харчування та дистриб'юторів інгредієнтів.",
+				"2": "Ми спеціалізуємося як на поставках свіжої сезонної продукції, так і на цілорічних рішеннях індивідуального швидкого заморожування (IQF). Наша технологія шокової заморозки миттєво зберігає клітинну структуру, насичений смак та поживні властивості свіжозібраних ягід. У той час як свіжі ягоди постачаються чітко за графіком у період збору врожаю, наші сертифіковані органічні та конвенційні заморожені фрукти IQF завжди є в наявності на наших складах.",
+				"3": "Наш основний сезон збору дикорослих та сільськогосподарських культур триває з початку літа до осені (з червня по вересень) — саме в цей період відкриваються вікна для відвантаження свіжої продукції. Однак, завдяки миттєвій переробці сировини за допомогою передової технології IQF, наші заморожені ягоди повністю незалежні від сезонних обмежень і доступні для великого опту 365 днів на рік.",
+				"4": "Ми пропонуємо міцну промислову упаковку, оптимізовану для харчових переробних підприємств та комерційних виробничих ліній. Ми повністю зосереджені на оптовому B2B сегменті та не займаємося роздрібним фасуванням чи private label. Наші стандартні оптові варіанти включають багатошарові промислові паперові мішки по 10 кг / 25 кг, міцні пластикові ящики та високомісткі октабіни для захисту цілісності продукту під час фрахту.",
+				"5": "Для дотримання наших суворих стандартів безпеки харчових продуктів HACCP та запобігання злипанню продукції, наші ягоди IQF повинні постійно зберігатися при стабільній температурі глибокої заморозки -18°C або нижче. Підтримання безперервного ланцюга холоду від наших морозильних камер до вашого заводу є критично важливим для збереження ферментативної стабільності та зупинки росту мікроорганізмів.",
+				"6": "При постійному дотриманні умов глибокого заморожування (-18°C або нижче), наші преміальні оптові ягоди IQF мають комерційний термін придатності від 12 до 24 місяців. Кожна партія залишає наше підприємство з точним маркуванням кодів відстеження, дати виробництва та термінів придатності, що супроводжується повним сертифікатом аналізу (COA) для вашої служби контролю якості."
+			}
+		},
+		"productPage": {
+			"q": {
+				"1": "У яких формах для виробництва доступний цей інгредієнт?",
+				"2": "Чи доступний цей промисловий фруктовий продукт для цілорічного постачання?",
+				"3": "Які суворі вимоги до зберігання цього продукту?",
+				"4": "Який сертифікований комерційний термін придатності цієї партії?",
+				"5": "Чи надаєте ви великі оптові варіанти для цієї позиції?",
+				"6": "Чи можу я замовити індивідуальні варіанти промислової упаковки для цього продукту?"
+			},
+			"a": {
+				"1": "Цей преміальний карпатський інгредієнт доступний у свіжому вигляді промислової якості під час піку збору врожаю або у вигляді заморожених ягід (IQF) преміум-класу протягом усього року. Відповідно до ваших виробничих специфікацій, ми можемо запропонувати продукт, сортований за кольором, калібрований за розміром у міліметрах або напівфабрикат для інтеграції в автоматизовані лінії, молочне виробництво чи промислову випічку.",
+				"2": "Так. У той час як свіжі партії суворо прив'язані до нашого сезонного календаря збору врожаю, наші фруктові продукти IQF (індивідуального швидкого заморожування) переробляються на піку зрілості та зберігаються на складах глибокої заморозки. Це дозволяє нам гарантувати безперервне цілорічне оптове постачання для наших B2B партнерів 365 днів на рік, незалежно від сезону.",
+				"3": "Для збереження клітинної структури, смакового профілю та повної безпеки харчових продуктів необхідно суворо дотримуватися температурного ланцюга. Свіжі замовлення потребують негайного охолодження з контролем вологості та швидкої переробки. Наша заморожена продукція IQF повинна постійно зберігатися при температурі -18°C або нижче для запобігання деградації ферментів та злипання, забезпечуючи відповідність вимогам HACCP.",
+				"4": "Комерційний термін придатності залежить виключно від форми продукту. Свіжозібрані партії швидко псуються і потребують негайної переробки або реалізації протягом кількох днів за умови охолодження. Наші заморожені позиції IQF мають тривалий термін придатності від 12 до 24 місяців при постійному зберіганні на рівні -18°C, зберігаючи природний колір, структуру та мікробіологічну стабільність.",
+				"5": "Так, ми працюємо виключно як прямий сільськогосподарський B2B постачальник та оптовий дистриб'ютор. Ми спеціалізуємося на контрактному виробництві та великотоннажних поставках для харчових фабрик, дистриб'юторів інгредієнтів та переробних підприємств. Будь ласка, зверніться до нашого відділу продажів, щоб отримати індивідуальну комерційну пропозицію, специфікації та актуальні дані щодо мінімального обсягу замовлення (MOQ).",
+				"6": "Оскільки ми спеціалізуємося виключно на великому опті та не пропонуємо роздрібну упаковку або private label, ми надаємо гнучкі промислові конфігурації упаковки. Ми можемо виконати великі замовлення в багатошарових промислових паперових мішках по 10 кг / 25 кг, міцних пластикових ящиках або великих октабінах відповідно до вимог вашої виробничої лінії та логістики."
+			}
+		}
+	},
+
+	"contactForm": {
+		"heading": "Запит ціни",
+		"subheading": "Будь ласка, заповніть форму нижче. Мінімальна партія замовлення (MOQ): 500 кг. Ми відповімо протягом одного робочого дня.",
+		"name": "Контактна особа",
+		"company": "Назва компанії",
+		"country": "Країна призначення",
+		"email": "Корпоративна електронна пошта",
+		"productRequested": "Продукт, що цікавить",
+		"quantity": "Орієнтовна кількість (кг)",
+		"message": "Повідомлення",
+		"submit": "Надіслати",
+		"success": "Дякуємо за ваш запит. Ми відповімо протягом одного робочого дня.",
+		"sending": "Надсилання запиту...",
+		"close": "Закрити",
+		"error": "Щось пішло не так. Спробуйте ще раз або напишіть нам на info@yagodakarpat.com.",
+		"required": "обов'язково"
+	}
+}

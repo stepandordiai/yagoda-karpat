@@ -22,8 +22,8 @@ export interface Product {
 			desc: string;
 		};
 	};
-	desc?: string;
-	benefits?: string;
+	desc: string;
+	benefits: string;
 	variants: {
 		id: number;
 		state?: string;

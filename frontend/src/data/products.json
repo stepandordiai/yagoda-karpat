@@ -1,10 +1,14 @@
 [
 	{
 		"id": "frozen-bilberries",
+		"metaTitle": "frozenBilberries.meta.title",
+		"metaDescription": "frozenBilberries.meta.description",
 		"type": "berries_title",
 		"status": "frozen",
 		"latName": "Vaccinium myrtillus",
-		"name": "products.frozenBilberries",
+		"name": "frozenBilberries.heading",
+		"desc": "frozenBilberries.description",
+		"benefits": "frozenBilberries.benefits",
 		"packaging": {
 			"paperBag": {
 				"title": "product_page.packaging.paperBag.title",
@@ -15,8 +19,6 @@
 				"desc": "product_page.packaging.octabin.desc"
 			}
 		},
-		"desc": "product_page.frozenBilberries.desc",
-		"benefits": "product_page.frozenBilberries.benefits",
 		"variants": [
 			{
 				"id": 1,
@@ -48,10 +50,14 @@
 	},
 	{
 		"id": "frozen-lingonberries",
+		"metaTitle": "frozenLingonberries.meta.title",
+		"metaDescription": "frozenLingonberries.meta.description",
 		"type": "berries_title",
 		"status": "frozen",
 		"latName": "Vaccinium vitis-idaea",
-		"name": "products.frozenLingonberries",
+		"name": "frozenLingonberries.heading",
+		"desc": "frozenLingonberries.description",
+		"benefits": "frozenLingonberries.benefits",
 		"packaging": {
 			"paperBag": {
 				"title": "product_page.packaging.paperBag.title",
@@ -62,8 +68,6 @@
 				"desc": "product_page.packaging.octabin.desc"
 			}
 		},
-		"desc": "product_page.frozenLingonberries.desc",
-		"benefits": "product_page.frozenLingonberries.benefits",
 		"variants": [
 			{
 				"id": 1,
@@ -93,10 +97,14 @@
 	},
 	{
 		"id": "frozen-rosehips",
+		"metaTitle": "frozenRoseHips.meta.title",
+		"metaDescription": "frozenRoseHips.meta.description",
 		"type": "berries_title",
 		"status": "frozen",
 		"latName": "Rosa canina",
-		"name": "products.frozenRosehips",
+		"name": "frozenRoseHips.heading",
+		"desc": "frozenRoseHips.description",
+		"benefits": "frozenRoseHips.benefits",
 		"packaging": {
 			"paperBag": {
 				"title": "product_page.packaging.paperBag.title",
@@ -107,8 +115,6 @@
 				"desc": "product_page.packaging.octabin.desc"
 			}
 		},
-		"desc": "product_page.frozenRoseHips.desc",
-		"benefits": "product_page.frozenRoseHips.benefits",
 		"variants": [
 			{
 				"id": 1,
@@ -124,10 +130,14 @@
 	},
 	{
 		"id": "frozen-plums",
+		"metaTitle": "frozenPlums.meta.title",
+		"metaDescription": "frozenPlums.meta.description",
 		"type": "fruits_title",
 		"status": "frozen",
 		"latName": "Prunus domestica",
-		"name": "products.frozenPlums",
+		"name": "frozenPlums.heading",
+		"desc": "frozenPlums.description",
+		"benefits": "frozenPlums.benefits",
 		"packaging": {
 			"paperBag": {
 				"title": "product_page.packaging.paperBag.title",
@@ -138,8 +148,6 @@
 				"desc": "product_page.packaging.octabin.desc"
 			}
 		},
-		"desc": "product_page.frozenPlums.desc",
-		"benefits": "product_page.frozenPlums.benefits",
 		"variants": [
 			{
 				"id": 1,
@@ -168,18 +176,20 @@
 	},
 	{
 		"id": "dried-plums",
+		"metaTitle": "driedPlums.meta.title",
+		"metaDescription": "driedPlums.meta.description",
 		"type": "fruits_title",
 		"status": "dried",
 		"latName": "Prunus domestica",
-		"name": "products.driedPlums",
+		"name": "driedPlums.heading",
+		"desc": "driedPlums.description",
+		"benefits": "driedPlums.benefits",
 		"packaging": {
 			"paperBag": {
 				"title": "product_page.packaging.paperBag.title",
 				"desc": "product_page.packaging.paperBag.desc"
 			}
 		},
-		"desc": "product_page.driedPlums.desc",
-		"benefits": "product_page.driedPlums.benefits",
 		"variants": [
 			{
 				"id": 1,
@@ -197,18 +207,20 @@
 	},
 	{
 		"id": "prunes",
+		"metaTitle": "prunes.meta.title",
+		"metaDescription": "prunes.meta.description",
 		"type": "fruits_title",
 		"status": "dried",
 		"latName": "Prunus domestica",
-		"name": "products.prunes",
+		"name": "prunes.heading",
+		"desc": "prunes.description",
+		"benefits": "prunes.benefits",
 		"packaging": {
 			"cartonBox": {
 				"title": "product_page.packaging.cartonBox.title",
 				"desc": "product_page.packaging.cartonBox.desc"
 			}
 		},
-		"desc": "product_page.prunes.desc",
-		"benefits": "product_page.prunes.benefits",
 		"variants": [
 			{
 				"id": 1,
@@ -223,10 +235,14 @@
 	},
 	{
 		"id": "frozen-elderberries",
+		"metaTitle": "frozenElderberries.meta.title",
+		"metaDescription": "frozenElderberries.meta.description",
 		"type": "berries_title",
 		"status": "frozen",
 		"latName": "Sambucus",
-		"name": "products.frozenElderberries",
+		"name": "frozenElderberries.heading",
+		"desc": "frozenElderberries.description",
+		"benefits": "frozenElderberries.benefits",
 		"packaging": {
 			"paperBag": {
 				"title": "product_page.packaging.paperBag.title",
@@ -237,8 +253,6 @@
 				"desc": "product_page.packaging.octabin.desc"
 			}
 		},
-		"desc": "product_page.frozenElderberries.desc",
-		"benefits": "product_page.frozenElderberries.benefits",
 		"variants": [
 			{
 				"id": 1,
@@ -256,10 +270,14 @@
 	},
 	{
 		"id": "frozen-strawberries",
+		"metaTitle": "frozenStrawberries.meta.title",
+		"metaDescription": "frozenStrawberries.meta.description",
 		"type": "berries_title",
 		"status": "frozen",
 		"latName": "Fragaria",
-		"name": "products.frozenStrawberries",
+		"name": "frozenStrawberries.heading",
+		"desc": "frozenStrawberries.description",
+		"benefits": "frozenStrawberries.benefits",
 		"packaging": {
 			"paperBag": {
 				"title": "product_page.packaging.paperBag.title",
@@ -270,8 +288,6 @@
 				"desc": "product_page.packaging.octabin.desc"
 			}
 		},
-		"desc": "product_page.frozenStrawberries.desc",
-		"benefits": "product_page.frozenStrawberries.benefits",
 		"variants": [
 			{
 				"id": 1,
@@ -286,18 +302,20 @@
 	},
 	{
 		"id": "frozen-raspberries",
+		"metaTitle": "frozenRaspberries.meta.title",
+		"metaDescription": "frozenRaspberries.meta.description",
 		"type": "berries_title",
 		"status": "frozen",
 		"latName": "Rubus idaeus",
-		"name": "products.frozenRaspberries",
+		"name": "frozenRaspberries.heading",
+		"desc": "frozenRaspberries.description",
+		"benefits": "frozenRaspberries.benefits",
 		"packaging": {
 			"cartonBox": {
 				"title": "product_page.packaging.cartonBox.title",
 				"desc": "product_page.packaging.cartonBox.desc"
 			}
 		},
-		"desc": "product_page.frozenRaspberries.desc",
-		"benefits": "product_page.frozenRaspberries.benefits",
 		"variants": [
 			{
 				"id": 1,
@@ -312,18 +330,20 @@
 	},
 	{
 		"id": "frozen-apricots",
+		"metaTitle": "frozenApricots.meta.title",
+		"metaDescription": "frozenApricots.meta.description",
 		"type": "fruits_title",
 		"status": "frozen",
 		"latName": "Prunus armeniaca",
-		"name": "products.frozenApricots",
+		"name": "frozenApricots.heading",
+		"desc": "frozenApricots.description",
+		"benefits": "frozenApricots.benefits",
 		"packaging": {
 			"cartonBox": {
 				"title": "product_page.packaging.cartonBox.title",
 				"desc": "product_page.packaging.cartonBox.desc"
 			}
 		},
-		"desc": "product_page.frozenApricots.desc",
-		"benefits": "product_page.frozenApricots.benefits",
 		"variants": [
 			{
 				"id": 1,
@@ -335,18 +355,20 @@
 	},
 	{
 		"id": "frozen-red-bell-peppers",
+		"metaTitle": "frozenRedBellPeppers.meta.title",
+		"metaDescription": "frozenRedBellPeppers.meta.description",
 		"type": "vegetables_title",
 		"status": "frozen",
 		"latName": "Capsicum annuum",
-		"name": "products.frozenRedBellPeppers",
+		"name": "frozenRedBellPeppers.heading",
+		"desc": "frozenRedBellPeppers.description",
+		"benefits": "frozenRedBellPeppers.benefits",
 		"packaging": {
 			"cartonBox": {
 				"title": "product_page.packaging.cartonBox.title",
 				"desc": "product_page.packaging.cartonBox.desc"
 			}
 		},
-		"desc": "product_page.frozenRedBellPeppers.desc",
-		"benefits": "product_page.frozenRedBellPeppers.benefits",
 		"variants": [
 			{
 				"id": 1,
@@ -361,18 +383,20 @@
 	},
 	{
 		"id": "frozen-green-bell-peppers",
+		"metaTitle": "frozenGreenBellPeppers.meta.title",
+		"metaDescription": "frozenGreenBellPeppers.meta.description",
 		"type": "vegetables_title",
 		"status": "frozen",
 		"latName": "Capsicum annuum",
-		"name": "products.frozenGreenBellPeppers",
+		"name": "frozenGreenBellPeppers.heading",
+		"desc": "frozenGreenBellPeppers.description",
+		"benefits": "frozenGreenBellPeppers.benefits",
 		"packaging": {
 			"cartonBox": {
 				"title": "product_page.packaging.cartonBox.title",
 				"desc": "product_page.packaging.cartonBox.desc"
 			}
 		},
-		"desc": "product_page.frozenGreenBellPeppers.desc",
-		"benefits": "product_page.frozenGreenBellPeppers.benefits",
 		"variants": [
 			{
 				"id": 1,
@@ -386,18 +410,20 @@
 	},
 	{
 		"id": "frozen-yellow-bell-peppers",
+		"metaTitle": "frozenYellowBellPeppers.meta.title",
+		"metaDescription": "frozenYellowBellPeppers.meta.description",
 		"type": "vegetables_title",
 		"status": "frozen",
 		"latName": "Capsicum annuum",
-		"name": "products.frozenYellowBellPeppers",
+		"name": "frozenYellowBellPeppers.heading",
+		"desc": "frozenYellowBellPeppers.description",
+		"benefits": "frozenYellowBellPeppers.benefits",
 		"packaging": {
 			"cartonBox": {
 				"title": "product_page.packaging.cartonBox.title",
 				"desc": "product_page.packaging.cartonBox.desc"
 			}
 		},
-		"desc": "product_page.frozenYellowBellPeppers.desc",
-		"benefits": "product_page.frozenYellowBellPeppers.benefits",
 		"variants": [
 			{
 				"id": 1,
@@ -411,18 +437,20 @@
 	},
 	{
 		"id": "frozen-mixed-bell-peppers",
+		"metaTitle": "frozenMixedBellPeppers.meta.title",
+		"metaDescription": "frozenMixedBellPeppers.meta.description",
 		"type": "vegetables_title",
 		"status": "frozen",
 		"latName": "Capsicum annuum",
-		"name": "products.frozenMixedBellPeppers",
+		"name": "frozenMixedBellPeppers.heading",
+		"desc": "frozenMixedBellPeppers.description",
+		"benefits": "frozenMixedBellPeppers.benefits",
 		"packaging": {
 			"cartonBox": {
 				"title": "product_page.packaging.cartonBox.title",
 				"desc": "product_page.packaging.cartonBox.desc"
 			}
 		},
-		"desc": "product_page.frozenMixedBellPeppers.desc",
-		"benefits": "product_page.frozenMixedBellPeppers.benefits",
 		"variants": [
 			{
 				"id": 1,
@@ -437,18 +465,20 @@
 	},
 	{
 		"id": "frozen-porcini-mushrooms",
+		"metaTitle": "frozenPorciniMushrooms.meta.title",
+		"metaDescription": "frozenPorciniMushrooms.meta.description",
 		"type": "mushrooms_title",
 		"status": "frozen",
 		"latName": "Boletus edulis",
-		"name": "products.frozenPorciniMushrooms",
+		"name": "frozenPorciniMushrooms.heading",
+		"desc": "frozenPorciniMushrooms.description",
+		"benefits": "frozenPorciniMushrooms.benefits",
 		"packaging": {
 			"cartonBox": {
 				"title": "product_page.packaging.cartonBox.title",
 				"desc": "product_page.packaging.cartonBox.desc"
 			}
 		},
-		"desc": "product_page.frozenPorciniMushrooms.desc",
-		"benefits": "product_page.frozenPorciniMushrooms.benefits",
 		"variants": [
 			{
 				"id": 1,
@@ -486,18 +516,20 @@
 	},
 	{
 		"id": "fresh-porcini-mushrooms",
+		"metaTitle": "freshPorciniMushrooms.meta.title",
+		"metaDescription": "freshPorciniMushrooms.meta.description",
 		"type": "mushrooms_title",
 		"status": "fresh",
 		"latName": "Boletus edulis",
-		"name": "products.freshPorciniMushrooms",
+		"name": "freshPorciniMushrooms.heading",
+		"desc": "freshPorciniMushrooms.description",
+		"benefits": "freshPorciniMushrooms.benefits",
 		"packaging": {
 			"woodenContainer": {
 				"title": "product_page.packaging.woodenContainer.title",
 				"desc": "product_page.packaging.woodenContainer.desc"
 			}
 		},
-		"desc": "product_page.freshPorciniMushrooms.desc",
-		"benefits": "product_page.freshPorciniMushrooms.benefits",
 		"variants": [
 			{
 				"id": 1,
@@ -511,18 +543,20 @@
 	},
 	{
 		"id": "dried-porcini-mushrooms",
+		"metaTitle": "driedPorciniMushrooms.meta.title",
+		"metaDescription": "driedPorciniMushrooms.meta.description",
 		"type": "mushrooms_title",
 		"status": "dried",
 		"latName": "Boletus edulis",
-		"name": "products.driedPorciniMushrooms",
+		"name": "driedPorciniMushrooms.heading",
+		"desc": "driedPorciniMushrooms.description",
+		"benefits": "driedPorciniMushrooms.benefits",
 		"packaging": {
 			"cartonBox": {
 				"title": "product_page.packaging.cartonBox.title",
 				"desc": "product_page.packaging.cartonBox.desc"
 			}
 		},
-		"desc": "product_page.driedPorciniMushrooms.desc",
-		"benefits": "product_page.driedPorciniMushrooms.benefits",
 		"variants": [
 			{
 				"id": 1,
@@ -535,18 +569,20 @@
 	},
 	{
 		"id": "fresh-chanterelles",
+		"metaTitle": "freshChanterelles.meta.title",
+		"metaDescription": "freshChanterelles.meta.description",
 		"type": "mushrooms_title",
 		"status": "fresh",
 		"latName": "Cantharellus cibarius",
-		"name": "products.freshChanterelles",
+		"name": "freshChanterelles.heading",
+		"desc": "freshChanterelles.description",
+		"benefits": "freshChanterelles.benefits",
 		"packaging": {
 			"woodenContainer": {
 				"title": "product_page.packaging.woodenContainer.title",
 				"desc": "product_page.packaging.woodenContainer.desc"
 			}
 		},
-		"desc": "product_page.freshChanterelles.desc",
-		"benefits": "product_page.freshChanterelles.benefits",
 		"variants": [
 			{
 				"id": 1,
@@ -557,18 +593,20 @@
 	},
 	{
 		"id": "dried-chanterelles",
+		"metaTitle": "driedChanterelles.meta.title",
+		"metaDescription": "driedChanterelles.meta.description",
 		"type": "mushrooms_title",
 		"status": "dried",
 		"latName": "Cantharellus cibarius",
-		"name": "products.driedChanterelles",
+		"name": "driedChanterelles.heading",
+		"desc": "driedChanterelles.description",
+		"benefits": "driedChanterelles.benefits",
 		"packaging": {
 			"cartonBox": {
 				"title": "product_page.packaging.cartonBox.title",
 				"desc": "product_page.packaging.cartonBox.desc"
 			}
 		},
-		"desc": "product_page.driedChanterelles.desc",
-		"benefits": "product_page.driedChanterelles.benefits",
 		"variants": [
 			{
 				"id": 1,
@@ -579,18 +617,20 @@
 	},
 	{
 		"id": "frozen-sour-cherries",
+		"metaTitle": "frozenSourCherries.meta.title",
+		"metaDescription": "frozenSourCherries.meta.description",
 		"type": "berries_title",
 		"status": "frozen",
 		"latName": "Prunus cerasus",
-		"name": "products.frozenSourCherries",
+		"name": "frozenSourCherries.heading",
+		"desc": "frozenSourCherries.description",
+		"benefits": "frozenSourCherries.benefits",
 		"packaging": {
 			"cartonBox": {
 				"title": "product_page.packaging.cartonBox.title",
 				"desc": "product_page.packaging.cartonBox.desc"
 			}
 		},
-		"desc": "product_page.frozenSourCherries.desc",
-		"benefits": "product_page.frozenSourCherries.benefits",
 		"variants": [
 			{
 				"id": 1,
@@ -619,18 +659,20 @@
 	},
 	{
 		"id": "frozen-honey-mushrooms",
+		"metaTitle": "frozenHoneyMushrooms.meta.title",
+		"metaDescription": "frozenHoneyMushrooms.meta.description",
 		"type": "mushrooms_title",
 		"status": "frozen",
 		"latName": "Armillaria mellea",
-		"name": "products.frozenHoneyMushrooms",
+		"name": "frozenHoneyMushrooms.heading",
+		"desc": "frozenHoneyMushrooms.description",
+		"benefits": "frozenHoneyMushrooms.benefits",
 		"packaging": {
 			"cartonBox": {
 				"title": "product_page.packaging.cartonBox.title",
 				"desc": "product_page.packaging.cartonBox.desc"
 			}
 		},
-		"desc": "product_page.frozenHoneyMushrooms.desc",
-		"benefits": "product_page.frozenHoneyMushrooms.benefits",
 		"variants": [
 			{
 				"id": 1,
@@ -643,18 +685,20 @@
 	},
 	{
 		"id": "frozen-blackberries",
+		"metaTitle": "frozenBlackberries.meta.title",
+		"metaDescription": "frozenBlackberries.meta.description",
 		"type": "berries_title",
 		"status": "frozen",
 		"latName": "Rubus fruticosus",
-		"name": "products.frozenBlackberries",
+		"name": "frozenBlackberries.heading",
+		"desc": "frozenBlackberries.description",
+		"benefits": "frozenBlackberries.benefits",
 		"packaging": {
 			"cartonBox": {
 				"title": "product_page.packaging.cartonBox.title",
 				"desc": "product_page.packaging.cartonBox.desc"
 			}
 		},
-		"desc": "product_page.frozenBlackberries.desc",
-		"benefits": "product_page.frozenBlackberries.benefits",
 		"variants": [
 			{
 				"id": 1,
@@ -668,18 +712,20 @@
 	},
 	{
 		"id": "frozen-grapes",
+		"metaTitle": "frozenGrapes.meta.title",
+		"metaDescription": "frozenGrapes.meta.description",
 		"type": "berries_title",
 		"status": "frozen",
 		"latName": "Vitis vinifera",
-		"name": "products.frozenGrapes",
+		"name": "frozenGrapes.heading",
+		"desc": "frozenGrapes.description",
+		"benefits": "frozenGrapes.benefits",
 		"packaging": {
 			"cartonBox": {
 				"title": "product_page.packaging.cartonBox.title",
 				"desc": "product_page.packaging.cartonBox.desc"
 			}
 		},
-		"desc": "product_page.frozenGrapes.desc",
-		"benefits": "product_page.frozenGrapes.benefits",
 		"variants": [
 			{
 				"id": 1,
@@ -693,18 +739,20 @@
 	},
 	{
 		"id": "frozen-sweet-corn",
+		"metaTitle": "frozenGrapes.meta.title",
+		"metaDescription": "frozenGrapes.meta.description",
 		"type": "vegetables_title",
 		"status": "frozen",
 		"latName": "Zea mays",
-		"name": "products.frozenCorn",
+		"name": "frozenCorn.heading",
+		"desc": "frozenCorn.description",
+		"benefits": "frozenCorn.benefits",
 		"packaging": {
 			"cartonBox": {
 				"title": "product_page.packaging.cartonBox.title",
 				"desc": "product_page.packaging.cartonBox.desc"
 			}
 		},
-		"desc": "product_page.frozenCorn.desc",
-		"benefits": "product_page.frozenCorn.benefits",
 		"variants": [
 			{
 				"id": 1,
@@ -715,18 +763,20 @@
 	},
 	{
 		"id": "frozen-black-currants",
+		"metaTitle": "frozenBlackCurrants.meta.title",
+		"metaDescription": "frozenBlackCurrants.meta.description",
 		"type": "berries_title",
 		"status": "frozen",
 		"latName": "Ribes nigrum",
-		"name": "products.frozenBlackCurrants",
+		"name": "frozenBlackCurrants.heading",
+		"desc": "frozenBlackCurrants.description",
+		"benefits": "frozenBlackCurrants.benefits",
 		"packaging": {
 			"cartonBox": {
 				"title": "product_page.packaging.cartonBox.title",
 				"desc": "product_page.packaging.cartonBox.desc"
 			}
 		},
-		"desc": "product_page.frozenBlackCurrants.desc",
-		"benefits": "product_page.frozenBlackCurrants.benefits",
 		"variants": [
 			{
 				"id": 1,
