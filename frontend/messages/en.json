@@ -1,4 +1,7 @@
 {
+	"nav": {
+		"blog": "Blog"
+	},
 	"contact_us": "Contact us",
 	"home_title": "Home",
 	"about_us_title": "About us",
@@ -40,6 +43,7 @@
 	"requestPrice": "Request price",
 	"companyCode": "Company code",
 	"downloadCertificate": "Download certificate",
+	"learnMore": "Learn more",
 
 	"header": {
 		"openMenu": "Open menu",
@@ -89,6 +93,52 @@
 		"filter_placeholder": "Which product are you searching?",
 		"productNotFound": "Product not found",
 		"productDetails": "Product details"
+	},
+
+	"blogSection": {
+		"heading": "From our blog",
+		"subheading": "Practical guides and product comparisons for food manufacturers sourcing frozen and dried berries, fruits and mushrooms.",
+		"viewAll": "View all articles"
+	},
+
+	"blog": {
+		"meta": {
+			"title": "Blog — Frozen & Dried Berry Sourcing Guides for B2B Buyers",
+			"description": "Guides, product comparisons and sourcing tips for food manufacturers buying IQF frozen and dried berries, fruits and wild mushrooms from the Carpathians."
+		},
+		"heading": "Insights for food manufacturers & importers",
+		"subheading": "Product comparisons, sourcing checklists and processing know-how from a Carpathian berry and mushroom supplier."
+	},
+
+	"wildBilberryVsCultivatedBlueberry": {
+		"meta": {
+			"title": "Wild Bilberry vs Cultivated Blueberry: What B2B Buyers Should Know",
+			"description": "Why the wild bilberry is dark purple to the core while cultivated blueberries are pale inside — and what it means for colour, flavour and anthocyanin content in industrial processing.",
+			"category": "Product comparisons"
+		},
+		"slug": "wild-bilberry-vs-cultivated-blueberry",
+		"readingTime": "6 min",
+		"heading": "Wild bilberry vs cultivated blueberry: why the colour goes all the way through",
+		"description": "They look similar in a punnet, but for an industrial buyer the wild bilberry and the cultivated blueberry are two different raw materials. The difference is literally more than skin deep.",
+		"body": {
+			"intro": "To a shopper, a bilberry and a blueberry look like the same small blue-purple fruit. To a food manufacturer, they behave completely differently — in colour yield, flavour intensity and cost per unit of anthocyanin. If you cut both in half, the reason becomes obvious in one second: the cultivated blueberry is pale green-white inside, while the wild bilberry is deep purple all the way to the core. This article explains why that matters for processing, and when each fruit is the right choice.",
+			"sections": {
+				"heading1": "Two different species",
+				"text1": "Despite the confusing English names, these are botanically distinct plants. The wild bilberry (Vaccinium myrtillus) grows low to the ground in northern and mountain forests and cannot be commercially cultivated at scale — it is genuinely wild-harvested. The cultivated blueberry sold in supermarkets is usually the highbush blueberry (Vaccinium corymbosum), bred for size, firmness and shelf life on managed plantations. Same genus, different fruit — and the difference shows up exactly where a processor cares about it.",
+				"heading2": "Why the colour goes all the way through",
+				"text2": "The blue you see on a cultivated blueberry lives almost entirely in the skin; the flesh underneath is pale. In a wild bilberry, the anthocyanin pigments saturate the whole berry — skin and flesh alike. That is why a crushed bilberry stains your fingers, your dough and your yoghurt a deep purple, while a crushed blueberry gives a much weaker tint. For any product where visible colour matters — fillings, dairy swirls, juices, extracts — this is the single most important practical difference between the two.",
+				"heading3": "Anthocyanin content and why buyers pay for it",
+				"text3": "Because the pigment runs through the entire fruit, wild bilberries carry substantially more anthocyanins per kilogram than most cultivated blueberries. For the nutraceutical and natural-colour industries, this is the whole point: you are buying colouring power and polyphenol content, not just fruit. A smaller quantity of bilberry delivers the colour and functional value that would take much more cultivated blueberry to match — which changes the real cost comparison well beyond the price per kilo.",
+				"heading4": "Flavour and texture",
+				"text4": "Wild bilberries are smaller, softer and more intensely flavoured — a concentrated, slightly tart wild-berry taste. Cultivated blueberries are larger, firmer and milder, with more water content. For fresh retail and whole-berry presentation, that firmness and size are advantages. For processing into fillings, purées, juices and extracts — where the fruit is broken down anyway — the bilberry's intensity is what wins.",
+				"heading5": "Which one should you source?",
+				"text5": "Choose cultivated blueberries when you need large, uniform, firm whole berries that hold their shape and look attractive on top of a product. Choose wild bilberries when colour depth, flavour intensity or anthocyanin content is what drives the end result — bakery fillings, dairy, jams, juices, concentrates and extracts. Many manufacturers use both, for different lines. The mistake is treating them as interchangeable on a spec sheet when, inside the fruit, they clearly are not."
+			},
+			"cta": {
+				"text": "We supply IQF wild bilberries (Vaccinium myrtillus), hand-harvested in the Ukrainian Carpathians — dark purple to the core, with the anthocyanin content industrial buyers rely on. HACCP & Organic certified, MOQ 500 kg, FCA/DAP/DDP across the EU.",
+				"productLinkLabel": "See IQF frozen bilberries"
+			}
+		}
 	},
 
 	"frozenBilberries": {

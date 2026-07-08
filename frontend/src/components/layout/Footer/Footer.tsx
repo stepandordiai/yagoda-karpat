@@ -169,6 +169,15 @@ export default function Footer({ products }: FooterProps) {
 												<Link
 													className="footer__link"
 													onClick={closeFooterDropdown}
+													href="/#blog"
+												>
+													{t("nav.blog")}
+												</Link>
+											</li>
+											<li>
+												<Link
+													className="footer__link"
+													onClick={closeFooterDropdown}
 													href="/#contacts"
 												>
 													{t("contacts_title")}

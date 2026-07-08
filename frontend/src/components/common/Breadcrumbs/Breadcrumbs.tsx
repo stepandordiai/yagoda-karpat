@@ -4,12 +4,14 @@ import "./Breadcrumbs.scss";
 type BreadcrumbsProps = {
 	homeTitle: string;
 	previousTitle?: string;
+	previousUrl?: string;
 	title: string;
 };
 
 export default function Breadcrumbs({
 	homeTitle,
 	previousTitle,
+	previousUrl,
 	title,
 }: BreadcrumbsProps) {
 	return (
@@ -20,10 +22,10 @@ export default function Breadcrumbs({
 						{homeTitle}
 					</Link>
 				</li>
-				{previousTitle && (
+				{previousTitle && previousUrl && (
 					<li>
 						<span>/</span>
-						<Link className="breadcrumbs__link" href="/products">
+						<Link className="breadcrumbs__link" href={previousUrl}>
 							{previousTitle}
 						</Link>
 					</li>

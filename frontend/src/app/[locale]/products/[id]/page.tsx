@@ -195,6 +195,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
 					<Breadcrumbs
 						title={t(product.name)}
 						previousTitle={t("products_title")}
+						previousUrl="/products"
 						homeTitle={t("home_title")}
 					/>
 					<ProductPageStatic product={product} />

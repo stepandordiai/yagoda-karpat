@@ -226,6 +226,11 @@ export default function Header({ products }: HeaderProps) {
 						</div>
 					</li>
 					<li>
+						<Link onClick={closeMenu} className="link" href="/#blog">
+							{t("nav.blog")}
+						</Link>
+					</li>
+					<li>
 						<Link onClick={closeMenu} className="link" href="/#contacts">
 							{t("contacts_title")}
 						</Link>

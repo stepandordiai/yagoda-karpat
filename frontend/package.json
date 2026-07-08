@@ -11,6 +11,7 @@
   "dependencies": {
     "@supabase/supabase-js": "^2.105.4",
     "classnames": "^2.5.1",
+    "date-fns": "^4.4.0",
     "next": "^16.2.4",
     "next-intl": "^4.6.1",
     "react": "19.2.3",

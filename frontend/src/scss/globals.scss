@@ -23,6 +23,12 @@ body {
 	display: none;
 }
 
+.main__heading {
+	padding: 25px 0;
+	font-size: clamp(2rem, 6vw, 3rem);
+	font-weight: 600;
+}
+
 .btn--bold {
 	font-weight: 500;
 }

@@ -1,4 +1,7 @@
 {
+	"nav": {
+		"blog": "Blog"
+	},
 	"contact_us": "Kontaktujte nás",
 	"home_title": "Domů",
 	"about_us_title": "O nás",
@@ -40,6 +43,7 @@
 	"requestPrice": "Vyžádat cenu",
 	"companyCode": "Company code",
 	"downloadCertificate": "Stáhnout certifikát",
+	"learnMore": "Číst více",
 
 	"header": {
 		"openMenu": "Otevřít menu",
@@ -90,6 +94,51 @@
 		"filter_placeholder": "Jaký produkt hledáte?",
 		"productNotFound": "Produkt nebyl nalezen",
 		"productDetails": "Detail produktu"
+	},
+
+	"blogSection": {
+		"heading": "Z našeho blogu",
+		"subheading": "Praktické průvodce a srovnání produktů pro výrobce potravin, kteří nakupují mražené a sušené plody, ovoce a houby.",
+		"viewAll": "Všechny články"
+	},
+
+	"blog": {
+		"meta": {
+			"title": "Blog — průvodci nákupem mražených a sušených plodů pro B2B",
+			"description": "Průvodci, srovnání produktů a tipy pro výrobce potravin nakupující mražené a sušené lesní plody, ovoce a houby z Karpat. Velkoobchod, export."
+		},
+		"heading": "Know-how pro výrobce potravin a dovozce",
+		"subheading": "Srovnání produktů, nákupní checklisty a zpracovatelské know-how od karpatského dodavatele plodů a hub."
+	},
+
+	"wildBilberryVsCultivatedBlueberry": {
+		"meta": {
+			"title": "Lesní borůvka vs velkoplodá borůvka: co by měl B2B odběratel vědět",
+			"description": "Proč je lesní borůvka tmavě fialová až do dřeně, zatímco velkoplodá borůvka je uvnitř světlá — a co to znamená pro barvu, chuť a obsah anthokyanů v průmyslovém zpracování.",
+			"category": "Srovnání produktů"
+		},
+		"readingTime": "6 min",
+		"heading": "Lesní borůvka vs velkoplodá borůvka: proč barva prostupuje skrz naskrz",
+		"description": "V misce vypadají podobně, ale pro průmyslového odběratele jsou lesní a velkoplodá borůvka dvě různé suroviny. Rozdíl je doslova hlubší než slupka.",
+		"body": {
+			"intro": "Pro zákazníka v obchodě vypadají lesní i velkoplodá borůvka jako stejný drobný modrofialový plod. Pro výrobce potravin se chovají zcela odlišně — ve výtěžnosti barvy, intenzitě chuti a nákladech na jednotku anthokyanů. Když obě rozříznete napůl, důvod je za vteřinu jasný: velkoplodá borůvka je uvnitř bledě zelenobílá, zatímco lesní borůvka je tmavě fialová až do dřeně. Tento článek vysvětluje, proč na tom ve zpracování záleží a kdy je který plod tou správnou volbou.",
+			"sections": {
+				"heading1": "Dva různé druhy",
+				"text1": "Navzdory matoucím názvům jde o botanicky odlišné rostliny. Lesní borůvka (Vaccinium myrtillus) roste nízko při zemi v severských a horských lesích a nelze ji průmyslově pěstovat ve velkém — je skutečně divoce sbíraná. Velkoplodá borůvka prodávaná v supermarketech je obvykle borůvka chocholičnatá (Vaccinium corymbosum), šlechtěná pro velikost, pevnost a trvanlivost na řízených plantážích. Stejný rod, jiný plod — a rozdíl se projeví přesně tam, kde na tom zpracovateli záleží.",
+				"heading2": "Proč barva prostupuje skrz naskrz",
+				"text2": "Modrá barva velkoplodé borůvky je soustředěna téměř výhradně ve slupce; dužina pod ní je světlá. U lesní borůvky anthokyanová barviva prostupují celý plod — slupku i dužinu. Proto rozdrcená lesní borůvka obarví prsty, těsto i jogurt do sytě fialova, zatímco rozdrcená velkoplodá borůvka dá mnohem slabší odstín. Pro jakýkoli produkt, kde záleží na viditelné barvě — náplně, mléčné víry, šťávy, extrakty — je to nejdůležitější praktický rozdíl mezi nimi.",
+				"heading3": "Obsah anthokyanů a proč za něj odběratelé platí",
+				"text3": "Protože barvivo prostupuje celý plod, lesní borůvky obsahují podstatně více anthokyanů na kilogram než většina velkoplodých borůvek. Pro nutraceutický a přírodně-barvicí průmysl je to podstata věci: kupujete barvicí schopnost a obsah polyfenolů, ne jen ovoce. Menší množství lesní borůvky dodá barvu a funkční hodnotu, na kterou by velkoplodé borůvky bylo potřeba mnohem více — což mění reálné porovnání nákladů daleko za cenu za kilogram.",
+				"heading4": "Chuť a struktura",
+				"text4": "Lesní borůvky jsou menší, měkčí a chuťově intenzivnější — koncentrovaná, mírně nakyslá chuť lesního plodu. Velkoplodé borůvky jsou větší, pevnější a jemnější v chuti, s vyšším obsahem vody. Pro čerstvý retail a prezentaci celého plodu jsou tato pevnost a velikost výhodou. Pro zpracování do náplní, pyré, šťáv a extraktů — kde se plod stejně rozmělní — vítězí intenzita lesní borůvky.",
+				"heading5": "Kterou zvolit pro nákup?",
+				"text5": "Zvolte velkoplodé borůvky, když potřebujete velké, jednotné, pevné celé plody, které drží tvar a hezky vypadají na povrchu produktu. Zvolte lesní borůvky, když o výsledku rozhoduje hloubka barvy, intenzita chuti nebo obsah anthokyanů — pekařské náplně, mléčné výrobky, džemy, šťávy, koncentráty a extrakty. Mnoho výrobců používá obě — pro různé linky. Chybou je považovat je za zaměnitelné ve specifikaci, když uvnitř plodu zjevně nejsou."
+			},
+			"cta": {
+				"text": "Dodáváme mražené lesní borůvky IQF (Vaccinium myrtillus), ručně sbírané v ukrajinských Karpatech — tmavě fialové až do dřeně, s obsahem anthokyanů, na který se průmysloví odběratelé spoléhají. Certifikace HACCP a Organic, MOQ 500 kg, FCA/DAP/DDP po EU.",
+				"productLinkLabel": "Zobrazit mražené borůvky IQF"
+			}
+		}
 	},
 
 	"frozenBilberries": {

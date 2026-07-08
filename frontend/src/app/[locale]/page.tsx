@@ -12,6 +12,8 @@ import Hero from "@/components/home/Hero/Hero";
 import Faqs from "@/components/Faqs/Faqs";
 import { BASE_URL } from "@/lib/constants";
 import "./Home.scss";
+import posts from "@/data/posts.json";
+import BlogCard from "@/components/BlogCard/BlogCard";
 
 const faqs = [
 	{
@@ -143,11 +145,25 @@ export default async function Home() {
 									return <ProductCard key={product.id} product={product} />;
 								})}
 						</div>
-						<Link className="home-products__link btn--bold" href="/products">
+						<Link className="products-section__link btn--bold" href="/products">
 							{t("home.viewAllProducts")}
 						</Link>
 					</section>
 					<Certificates />
+					<section id="blog">
+						<h2 className="section-title">{t("blogSection.heading")}</h2>
+						<p style={{ marginBottom: "10px" }}>
+							{t("blogSection.subheading")}
+						</p>
+						<div className="posts-grid">
+							{posts.map((p) => {
+								return <BlogCard key={p.slug} post={p} />;
+							})}
+						</div>
+						<Link className="blog-section__link" href="/blog">
+							{t("blogSection.viewAll")}
+						</Link>
+					</section>
 					<Faqs faqs={faqs} />
 					<Contacts />
 				</Container>

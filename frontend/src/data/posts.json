@@ -1,0 +1,45 @@
+[
+	{
+		"meta": {
+			"title": "wildBilberryVsCultivatedBlueberry.meta.title",
+			"description": "wildBilberryVsCultivatedBlueberry.meta.description",
+			"category": "wildBilberryVsCultivatedBlueberry.meta.category"
+		},
+		"slug": "wild-bilberry-vs-cultivated-blueberry",
+		"date": "2026-07-08",
+		"readingTime": "wildBilberryVsCultivatedBlueberry.readingTime",
+		"img": "/posts/wild-bilberry-vs-cultivated-blueberry.jpg",
+		"heading": "wildBilberryVsCultivatedBlueberry.heading",
+		"description": "wildBilberryVsCultivatedBlueberry.description",
+		"body": {
+			"intro": "wildBilberryVsCultivatedBlueberry.body.intro",
+			"sections": [
+				{
+					"heading": "wildBilberryVsCultivatedBlueberry.body.sections.heading1",
+					"text": "wildBilberryVsCultivatedBlueberry.body.sections.text1"
+				},
+				{
+					"heading": "wildBilberryVsCultivatedBlueberry.body.sections.heading2",
+					"text": "wildBilberryVsCultivatedBlueberry.body.sections.text2"
+				},
+				{
+					"heading": "wildBilberryVsCultivatedBlueberry.body.sections.heading3",
+					"text": "wildBilberryVsCultivatedBlueberry.body.sections.text3"
+				},
+				{
+					"heading": "wildBilberryVsCultivatedBlueberry.body.sections.heading4",
+					"text": "wildBilberryVsCultivatedBlueberry.body.sections.text4"
+				},
+				{
+					"heading": "wildBilberryVsCultivatedBlueberry.body.sections.heading5",
+					"text": "wildBilberryVsCultivatedBlueberry.body.sections.text5"
+				}
+			],
+			"cta": {
+				"text": "wildBilberryVsCultivatedBlueberry.body.cta.text",
+				"productLink": "/products/frozen-bilberries",
+				"productLinkLabel": "wildBilberryVsCultivatedBlueberry.body.cta.productLinkLabel"
+			}
+		}
+	}
+]

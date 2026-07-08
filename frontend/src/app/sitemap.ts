@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import { routing } from "@/i18n/routing";
 import products from "@/data/products.json";
+import posts from "@/data/posts.json";
 import { BASE_URL } from "@/lib/constants";
 
 const pages = [
@@ -11,6 +12,11 @@ const pages = [
 	},
 	{
 		path: "/products",
+		changeFrequency: "monthly",
+		priority: 0.8,
+	},
+	{
+		path: "/blog",
 		changeFrequency: "monthly",
 		priority: 0.8,
 	},
@@ -60,5 +66,22 @@ export default function sitemap(): MetadataRoute.Sitemap {
 		})),
 	);
 
-	return [...urls, ...productUrls];
+	const postUrls = routing.locales.flatMap((locale) =>
+		posts.map((post) => ({
+			url: `${BASE_URL}/${locale}/blog/${post.slug}`,
+			lastModified: post.date ? new Date(post.date) : now,
+			changeFrequency: "monthly" as const,
+			priority: 0.6,
+			alternates: {
+				languages: {
+					uk: `${BASE_URL}/uk/blog/${post.slug}`,
+					en: `${BASE_URL}/en/blog/${post.slug}`,
+					cs: `${BASE_URL}/cs/blog/${post.slug}`,
+					"x-default": `${BASE_URL}/${routing.defaultLocale}/blog/${post.slug}`,
+				},
+			},
+		})),
+	);
+
+	return [...urls, ...productUrls, ...postUrls];
 }
