@@ -8,7 +8,6 @@ import ProductPageStatic from "./ProductPage.static";
 import ProductCard from "@/components/ProductCard/ProductCard";
 import Breadcrumbs from "@/components/common/Breadcrumbs/Breadcrumbs";
 import Faqs from "@/components/Faqs/Faqs";
-import { BASE_URL } from "@/lib/constants";
 import "./ProductPage.scss";
 
 const productPageFaqs = [
@@ -102,79 +101,13 @@ type ProductPageProps = {
 export default async function ProductPage({ params }: ProductPageProps) {
 	const { id, locale } = await params;
 
-	const t = await getTranslations();
+	const t = await getTranslations({ locale });
 
 	const product = products.find((product) => product.id === id);
 
 	if (!product) {
 		return notFound();
 	}
-
-	// TODO: learn this
-	const jsonLd = {
-		"@context": "https://schema.org",
-		"@type": "Product",
-		name: t(product.name),
-		description: t(product.metaDescription),
-		url: `${BASE_URL}/${locale}/products/${product.id}`,
-		// TODO: learn this
-		image: product.variants.flatMap((v) => {
-			const grades = "grades" in v ? v.grades : undefined;
-			if (grades?.length) {
-				return grades.flatMap((g) =>
-					(g.images ?? []).map((img) => `${BASE_URL}${img}`),
-				);
-			}
-			return (v.images ?? []).map((img) => `${BASE_URL}${img}`);
-		}),
-		category: t(product.type),
-		alternateName: product.latName,
-		brand: { "@id": `${BASE_URL}/#organization` },
-		manufacturer: { "@id": `${BASE_URL}/#organization` },
-		countryOfOrigin: {
-			"@type": "Country",
-			name: "Ukraine",
-		},
-		hasCertification: [
-			{
-				"@type": "Certification",
-				name: "HACCP",
-				issuedBy: { "@type": "Organization", name: "HACCP Authority" },
-			},
-			...(product.isOrganic
-				? [
-						{
-							"@type": "Certification",
-							name: "Organic Standard",
-							issuedBy: { "@type": "Organization", name: "Organic Standard" },
-							url: `${BASE_URL}/pdf/yagoda-karpat-organic-certificate.pdf`,
-						},
-					]
-				: []),
-		],
-		additionalProperty: [
-			{
-				"@type": "PropertyValue",
-				name: "Minimum Order Quantity",
-				value: "500 kg",
-			},
-			{
-				"@type": "PropertyValue",
-				name: "Storage Temperature",
-				value: "-18°C",
-			},
-			{
-				"@type": "PropertyValue",
-				name: "Packaging Options",
-				value: "25 kg multi-layer paper bags; 400 kg industrial octabins",
-			},
-			{
-				"@type": "PropertyValue",
-				name: "Delivery Terms",
-				value: "FCA, DAP, DDP",
-			},
-		],
-	};
 
 	const relatedProducts = products.filter((el) => {
 		return (
@@ -184,36 +117,94 @@ export default async function ProductPage({ params }: ProductPageProps) {
 		);
 	});
 
+	// const jsonLd = {
+	// 	"@context": "https://schema.org",
+	// 	"@type": "Product",
+	// 	name: t(product.name),
+	// 	description: t(product.metaDescription),
+	// 	url: `${BASE_URL}/${locale}/products/${product.id}`,
+	// 	image: product.variants.flatMap((v) => {
+	// 		const grades = "grades" in v ? v.grades : undefined;
+	// 		if (grades?.length) {
+	// 			return grades.flatMap((g) =>
+	// 				(g.images ?? []).map((img) => `${BASE_URL}${img}`),
+	// 			);
+	// 		}
+	// 		return (v.images ?? []).map((img) => `${BASE_URL}${img}`);
+	// 	}),
+	// 	category: t(product.type),
+	// 	alternateName: product.latName,
+	// 	brand: { "@id": `${BASE_URL}/#organization` },
+	// 	manufacturer: { "@id": `${BASE_URL}/#organization` },
+	// 	countryOfOrigin: {
+	// 		"@type": "Country",
+	// 		name: "Ukraine",
+	// 	},
+	// 	hasCertification: [
+	// 		{
+	// 			"@type": "Certification",
+	// 			name: "HACCP",
+	// 			issuedBy: { "@type": "Organization", name: "HACCP Authority" },
+	// 		},
+	// 		...(product.isOrganic
+	// 			? [
+	// 					{
+	// 						"@type": "Certification",
+	// 						name: "Organic Standard",
+	// 						issuedBy: { "@type": "Organization", name: "Organic Standard" },
+	// 						url: `${BASE_URL}/pdf/yagoda-karpat-organic-certificate.pdf`,
+	// 					},
+	// 				]
+	// 			: []),
+	// 	],
+	// 	additionalProperty: [
+	// 		{
+	// 			"@type": "PropertyValue",
+	// 			name: "Minimum Order Quantity",
+	// 			value: "500 kg",
+	// 		},
+	// 		{
+	// 			"@type": "PropertyValue",
+	// 			name: "Storage Temperature",
+	// 			value: "-18°C",
+	// 		},
+	// 		{
+	// 			"@type": "PropertyValue",
+	// 			name: "Packaging Options",
+	// 			value: "25 kg multi-layer paper bags; 400 kg industrial octabins",
+	// 		},
+	// 		{
+	// 			"@type": "PropertyValue",
+	// 			name: "Delivery Terms",
+	// 			value: "FCA, DAP, DDP",
+	// 		},
+	// 	],
+	// };
+
 	return (
-		<>
-			<script
-				type="application/ld+json"
-				dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-			></script>
-			<main>
-				<Container>
-					<Breadcrumbs
-						title={t(product.name)}
-						previousTitle={t("products_title")}
-						previousUrl="/products"
-						homeTitle={t("home_title")}
-					/>
-					<ProductPageStatic product={product} />
-					{relatedProducts.length > 0 && (
-						<>
-							<p className="related-products__title">
-								{t("product_page.related")}
-							</p>
-							<div className="related-products__grid">
-								{relatedProducts.map((product) => {
-									return <ProductCard product={product} key={product.id} />;
-								})}
-							</div>
-						</>
-					)}
-					<Faqs faqs={productPageFaqs} />
-				</Container>
-			</main>
-		</>
+		<main>
+			<Container>
+				<Breadcrumbs
+					title={t(product.name)}
+					previousTitle={t("products_title")}
+					previousUrl="/products"
+					homeTitle={t("home_title")}
+				/>
+				<ProductPageStatic product={product} />
+				{relatedProducts.length > 0 && (
+					<>
+						<p className="related-products__title">
+							{t("product_page.related")}
+						</p>
+						<div className="related-products__grid">
+							{relatedProducts.map((product) => {
+								return <ProductCard product={product} key={product.id} />;
+							})}
+						</div>
+					</>
+				)}
+				<Faqs faqs={productPageFaqs} />
+			</Container>
+		</main>
 	);
 }
