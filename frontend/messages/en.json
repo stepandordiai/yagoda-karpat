@@ -766,7 +766,6 @@
 		"success": "Thank you for your inquiry. We'll get back to you within 1 business day.",
 		"sending": "Sending request...",
 		"close": "Close",
-		"error": "Something went wrong. Please try again or email us at info@yagodakarpat.com.",
-		"required": "required"
+		"error": "Something went wrong. Please try again or email us at info@yagodakarpat.com."
 	}
 }

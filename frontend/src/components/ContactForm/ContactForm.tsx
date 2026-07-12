@@ -41,12 +41,18 @@ const ContactForm = ({ requestedProduct = "" }: ContactFormProps) => {
 		const { error } = await supabase.from("leads").insert([form]);
 
 		if (error) {
-			if (error) {
-				console.error("Lead insert failed:", error);
-				setError(t("error"));
-			}
+			console.error("Lead insert failed:", error);
+			setError(t("error"));
 		} else {
 			reportConversion("AW-16930854291/aCjkCMaZisEcEJOroYk_");
+
+			// TODO: LEARN THIS
+			fetch("/api/notify-lead", {
+				method: "POST",
+				headers: { "Content-Type": "application/json" },
+				body: JSON.stringify(form),
+			}).catch(() => {});
+
 			setSuccess(true);
 			setForm(initForm);
 		}
@@ -62,7 +68,8 @@ const ContactForm = ({ requestedProduct = "" }: ContactFormProps) => {
 			<form className="form" onSubmit={insertLead}>
 				<div className="input-container">
 					<label className="contact-label" htmlFor="name">
-						{t("name")} ({t("required")})
+						{t("name")}
+						<span aria-hidden="true">*</span>
 					</label>
 					<input
 						onChange={(e) => handleForm(e.target.name, e.target.value)}
@@ -77,7 +84,8 @@ const ContactForm = ({ requestedProduct = "" }: ContactFormProps) => {
 				</div>
 				<div className="input-container">
 					<label className="contact-label" htmlFor="company">
-						{t("company")} ({t("required")})
+						{t("company")}
+						<span aria-hidden="true">*</span>
 					</label>
 					<input
 						onChange={(e) => handleForm(e.target.name, e.target.value)}
@@ -91,7 +99,8 @@ const ContactForm = ({ requestedProduct = "" }: ContactFormProps) => {
 				</div>
 				<div className="input-container">
 					<label className="contact-label" htmlFor="country">
-						{t("country")} ({t("required")})
+						{t("country")}
+						<span aria-hidden="true">*</span>
 					</label>
 					<input
 						onChange={(e) => handleForm(e.target.name, e.target.value)}
@@ -105,7 +114,8 @@ const ContactForm = ({ requestedProduct = "" }: ContactFormProps) => {
 				</div>
 				<div className="input-container">
 					<label className="contact-label" htmlFor="email">
-						{t("email")} ({t("required")})
+						{t("email")}
+						<span aria-hidden="true">*</span>
 					</label>
 					<input
 						onChange={(e) => handleForm(e.target.name, e.target.value)}
@@ -149,7 +159,8 @@ const ContactForm = ({ requestedProduct = "" }: ContactFormProps) => {
 				</div>
 				<div className="input-container textarea-container">
 					<label className="contact-label" htmlFor="message">
-						{t("message")} ({t("required")})
+						{t("message")}
+						<span aria-hidden="true">*</span>
 					</label>
 					<textarea
 						onChange={(e) => handleForm(e.target.name, e.target.value)}
