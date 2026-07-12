@@ -1,11 +1,7 @@
 import { getTranslations } from "next-intl/server";
 import FaqsClient from "./FaqsClient";
+import Faq from "@/interfaces/Faq";
 import "./styles.scss";
-
-type Faq = {
-	q: string;
-	a: string;
-};
 
 type FaqsProps = {
 	faqs: Faq[];
@@ -15,7 +11,8 @@ export default async function Faqs({ faqs }: FaqsProps) {
 	const t = await getTranslations();
 
 	// TODO: learn this
-	const faqSchema = {
+	// FAQPage
+	const jsonLd = {
 		"@context": "https://schema.org",
 		"@type": "FAQPage",
 		mainEntity: faqs.map((faq) => ({
@@ -30,10 +27,9 @@ export default async function Faqs({ faqs }: FaqsProps) {
 
 	return (
 		<>
-			{/* TODO: learn this */}
 			<script
 				type="application/ld+json"
-				dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+				dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
 			/>
 			<section className="faq" aria-labelledby="faq-title">
 				<h2 id="faq-title" className="faq__title">

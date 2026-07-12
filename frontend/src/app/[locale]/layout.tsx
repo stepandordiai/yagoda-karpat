@@ -1,10 +1,9 @@
 import { Montserrat } from "next/font/google";
 import type { Metadata } from "next";
-import { getTranslations } from "next-intl/server";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { routing } from "@/i18n/routing";
 import { notFound } from "next/navigation";
-import products from "@//data/products.json";
+import products from "@/data/products.json";
 import Loading from "@/components/Loading/Loading";
 import Header from "@/components/layout/Header/Header";
 import Footer from "@/components/layout/Footer/Footer";
@@ -15,7 +14,6 @@ import "@/scss/globals.scss";
 
 const montserrat = Montserrat({
 	variable: "--font-montserrat",
-	weight: ["300", "400", "500", "700"],
 	subsets: ["latin", "cyrillic"],
 });
 
@@ -34,22 +32,22 @@ export default async function LocaleLayout({
 }: LocaleLayoutProps) {
 	const { locale } = await params;
 
-	const t = await getTranslations({ locale });
-
 	if (!hasLocale(routing.locales, locale)) {
 		notFound();
 	}
 
 	return (
-		<html lang={locale}>
+		// TODO: learn this
+		<html lang={locale} suppressHydrationWarning>
 			<body className={montserrat.variable}>
 				<ScrollToTop />
+				<Loading />
 				<NextIntlClientProvider locale={locale}>
-					<Loading />
 					<Header products={products} />
 					{children}
 					<Footer products={products} />
 				</NextIntlClientProvider>
+				{/* FIXME: */}
 				{/* Google */}
 				<Script
 					src="https://www.googletagmanager.com/gtag/js?id=AW-16930854291"

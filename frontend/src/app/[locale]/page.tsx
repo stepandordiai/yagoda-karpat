@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import { type Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import products from "@/data/products.json";
@@ -11,9 +11,9 @@ import { Link } from "@/i18n/navigation";
 import Hero from "@/components/home/Hero/Hero";
 import Faqs from "@/components/Faqs/Faqs";
 import { BASE_URL } from "@/lib/constants";
-import "./Home.scss";
 import posts from "@/data/posts.json";
 import BlogCard from "@/components/BlogCard/BlogCard";
+import "./Home.scss";
 
 const faqs = [
 	{
@@ -77,13 +77,15 @@ export async function generateMetadata({
 export default async function Home() {
 	const t = await getTranslations();
 
+	// TODO: learn this
+	// Organization
 	const jsonLd = {
 		"@context": "https://schema.org",
-		"@type": "LocalBusiness",
+		"@type": "Organization",
 		"@id": `${BASE_URL}/#organization`,
 		name: t("company_name"),
 		url: BASE_URL,
-		// TODO: ?
+		// FIXME:
 		logo: `${BASE_URL}/logo-img/yagoda-karpat-logo.svg`,
 		image: `${BASE_URL}/yagoda-karpat-og.png`,
 		description: t("home.meta.description"),
@@ -109,21 +111,6 @@ export default async function Home() {
 			postalCode: "90542",
 			addressCountry: "UA",
 		},
-		openingHoursSpecification: [
-			{
-				"@type": "OpeningHoursSpecification",
-				dayOfWeek: [
-					"Monday",
-					"Tuesday",
-					"Wednesday",
-					"Thursday",
-					"Friday",
-					"Saturday",
-				],
-				opens: "08:00",
-				closes: "19:00",
-			},
-		],
 	};
 
 	return (

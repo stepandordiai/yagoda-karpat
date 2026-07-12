@@ -9,22 +9,21 @@ import SearchIcon from "@/components/icons/SearchIcon";
 import CloseIcon from "@/components/icons/CloseIcon";
 import "./Products.scss";
 
+const uniqueTypes = [
+	"all",
+	...new Set(products.map((product) => product.type)),
+];
+
 export default function ProductsClient() {
 	const t = useTranslations();
 
 	const [search, setSearch] = useState("");
 	const [productType, setProductType] = useState("all");
 
-	function clearSearch() {
-		setSearch("");
-	}
-
-	const uniqueTypes = [...new Set(products.map((product) => product.type))];
-
 	const filteredProducts = products.filter((product) => {
 		const matchesSearch =
 			search.trim() === "" ||
-			t(product.name).toLowerCase().includes(search.toLowerCase());
+			t(product.name).toLowerCase().includes(search.trim().toLowerCase());
 
 		const matchesType = productType === "all" || product.type === productType;
 
@@ -35,18 +34,19 @@ export default function ProductsClient() {
 		<>
 			<div className="products__filter-container">
 				<div className="products__btn-container">
-					{["all", ...uniqueTypes].map((type, i) => {
+					{uniqueTypes.map((type, i) => {
 						const filteredProductsByType = products.filter(
 							(p) => p.type === type,
 						);
 
 						return (
 							<button
-								key={i}
+								key={type}
 								onClick={() => setProductType(type)}
 								className={classNames("products__btn btn--bold", {
 									"products__btn--active": productType === type,
 								})}
+								type="button"
 							>
 								{t(type)} {i !== 0 && `(${filteredProductsByType.length})`}
 							</button>
@@ -64,7 +64,8 @@ export default function ProductsClient() {
 				/>
 				<button
 					className="search-icon"
-					onClick={search === "" ? undefined : clearSearch}
+					onClick={() => setSearch("")}
+					type="button"
 				>
 					{search === "" ? <SearchIcon size={24} /> : <CloseIcon size={24} />}
 				</button>
