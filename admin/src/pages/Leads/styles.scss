@@ -1,0 +1,26 @@
+.delete-modal {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 6;
+	background: rgb(253, 212, 207);
+	color: rgb(222, 92, 77);
+	padding: 25px;
+	width: min(100%, 500px);
+	border-radius: 25px;
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
+	opacity: 0;
+	pointer-events: none;
+
+	&--visible {
+		opacity: 1;
+		pointer-events: auto;
+	}
+}
+
+.leads-tr--new {
+	background: var(--sec-accent-clr-tp-2);
+}

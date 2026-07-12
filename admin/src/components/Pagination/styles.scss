@@ -1,0 +1,20 @@
+.pagination {
+	background: var(--bg-clr);
+	border-radius: 10px;
+}
+
+.pag-btn {
+	border-radius: 10px;
+	padding: 10px;
+	font-weight: 500;
+
+	&:active {
+		background: var(--accent-clr);
+		color: #000;
+	}
+
+	&--active {
+		background: var(--accent-clr);
+		color: #000;
+	}
+}
