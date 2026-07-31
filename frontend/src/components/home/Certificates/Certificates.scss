@@ -9,23 +9,12 @@
 	grid-template-columns: repeat(2, 1fr);
 	gap: 25px;
 	margin-top: 25px;
-
-	&:hover .pdf-link {
-		opacity: 1;
-	}
-
-	div {
-		&:nth-last-of-type(1) {
-			@include flex-center;
-		}
-	}
 }
 
-// TODO: learn this
 .certificates-container {
 	display: flex;
+	flex-direction: column;
 	gap: 10px;
-	height: 700px;
 
 	.certificate-wrapper {
 		position: relative;
@@ -42,24 +31,29 @@
 	margin-bottom: 10px;
 }
 
-.pdf-link {
+.certificates__link-container {
 	display: flex;
-	justify-content: center;
-	align-items: center;
 	gap: 5px;
-	position: absolute;
-	right: 10px;
-	bottom: 10px;
-	background: rgba(255, 255, 255, 0.75);
+}
+
+.certificates__link {
 	padding: 10px;
 	border-radius: 10px;
 	border: 1px solid rgba(0, 0, 0, 0.1);
-	opacity: 0;
-	transition: opacity 0.15s;
+	@include flex-center;
 
 	&:hover {
 		border: 1px solid var(--accent-clr);
 	}
+}
+
+.certificates__doc {
+	width: 100%;
+	@include flex-between-center;
+	gap: 5px;
+	padding: 5px;
+	border-radius: 10px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 @media screen and (max-width: 895px) {
