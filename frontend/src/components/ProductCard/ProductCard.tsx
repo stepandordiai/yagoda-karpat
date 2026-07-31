@@ -54,6 +54,9 @@ export default function ProductCard({
 	return (
 		<div className="product">
 			<div className="product__img-wrapper">
+				{product.isFeatured && (
+					<span className="product__available">{t("availableNow")}</span>
+				)}
 				{/* {productState?.images[0] && (
 					<Image
 						className="product__img"

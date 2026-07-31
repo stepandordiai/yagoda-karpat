@@ -334,6 +334,11 @@ export default function ProductPageStatic({ product }: ProductPageStaticProps) {
 				</div>
 				<div className="swipers-container">
 					<div className="swiper-wrapper">
+						{product.isFeatured && (
+							<span className="product-page__available">
+								{t("availableNow")}
+							</span>
+						)}
 						<button onClick={showFullScreenImg} className="swiper-wrapper__btn">
 							<SearchIcon />
 						</button>

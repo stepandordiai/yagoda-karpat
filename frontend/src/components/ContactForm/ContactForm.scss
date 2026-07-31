@@ -145,7 +145,6 @@ textarea {
 
 .contact-form__cb-container {
 	display: flex;
-	// justify-content: center;
 	align-items: center;
 	flex-direction: row !important;
 	gap: 5px;
@@ -162,6 +161,7 @@ textarea {
 	overflow: hidden;
 	align-self: flex-start;
 	flex-shrink: 0;
+	cursor: pointer;
 
 	&::before {
 		content: "✓";
