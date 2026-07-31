@@ -60,6 +60,10 @@
 		"sec_title": "We produce and supply high-quality frozen and dried berries, fruits, mushrooms and vegetables",
 		"viewProducts": "View products",
 		"requestPriceList": "Request price list",
+		"availableProducts": {
+			"heading": "Available Products",
+			"subheading": "Explore our range of premium IQF frozen berries, fruits, and vegetables available for wholesale export across Europe."
+		},
 		"viewAllProducts": "View all products"
 	},
 

@@ -124,7 +124,12 @@ export default async function Home() {
 					<Hero />
 					<AboutUs productsLength={products.length} />
 					<section className="home-products" id="products">
-						<h2 className="section-title">{t("products_title")}</h2>
+						<h2 className="section-title">
+							{t("home.availableProducts.heading")}
+						</h2>
+						<p style={{ marginBottom: "10px" }}>
+							{t("home.availableProducts.subheading")}
+						</p>
 						<div className="products-container">
 							{products
 								.filter((product) => product.isFeatured)

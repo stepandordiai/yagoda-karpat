@@ -60,6 +60,10 @@
 		"sec_title": "Vyrábíme a dodáváme vysoce kvalitní mražené a sušené bobule, ovoce, houby a zeleninu",
 		"viewProducts": "Zobrazit produkty",
 		"requestPriceList": "Vyžádat ceník",
+		"availableProducts": {
+			"heading": "Dostupné produkty",
+			"subheading": "Objevte naši nabídku prémiových rychlomražených (IQF) bobulovin, ovoce a zeleniny pro velkoobchodní export po celé Evropě."
+		},
 		"viewAllProducts": "Zobrazit všechny produkty"
 	},
 
