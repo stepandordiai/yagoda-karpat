@@ -766,6 +766,11 @@
 		"success": "Thank you for your inquiry. We'll get back to you within 1 business day.",
 		"sending": "Sending request...",
 		"close": "Close",
-		"error": "Something went wrong. Please try again or email us at info@yagodakarpat.com."
+		"error": "Something went wrong. Please try again or email us at info@yagodakarpat.com.",
+		"paymentTerms": {
+			"title": "Payment Terms",
+			"description": "The first order is supplied on a 100% prepayment basis after export customs clearance and before delivery. Flexible payment terms are available for repeat customers after successful cooperation.",
+			"cbLabel": "I have read and accept the payment terms for the first order."
+		}
 	}
 }

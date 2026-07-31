@@ -43,6 +43,7 @@
 
 .contact-label {
 	padding: 0 5px 5px;
+	font-weight: 500;
 }
 
 .form__input,
@@ -139,6 +140,43 @@ textarea {
 
 	&:hover::before {
 		transform: scaleX(1);
+	}
+}
+
+.contact-form__cb-container {
+	display: flex;
+	// justify-content: center;
+	align-items: center;
+	flex-direction: row !important;
+	gap: 5px;
+}
+
+.contact-form__cb {
+	position: relative;
+	-webkit-appearance: none;
+	appearance: none;
+	width: 30px;
+	height: 30px;
+	background: var(--bg-clr);
+	border-radius: 10px;
+	overflow: hidden;
+	align-self: flex-start;
+	flex-shrink: 0;
+
+	&::before {
+		content: "✓";
+		position: absolute;
+		inset: 0;
+		display: grid;
+		place-items: center;
+		background: var(--accent-clr);
+		border-radius: 10px;
+		transform: scale(0);
+		transition: transform 0.3s;
+	}
+
+	&:checked::before {
+		transform: scale(1);
 	}
 }
 

@@ -175,6 +175,20 @@ const ContactForm = ({ requestedProduct = "" }: ContactFormProps) => {
 						{form.message.length} / 600
 					</span>
 				</div>
+				<div style={{ display: "flex", flexDirection: "column", gap: "5px" }}>
+					<p style={{ fontWeight: "500" }}>{t("paymentTerms.title")}</p>
+					<p>{t("paymentTerms.description")}</p>
+					<div className="contact-form__cb-container">
+						<input
+							className="contact-form__cb"
+							type="checkbox"
+							name=""
+							id=""
+							required
+						/>
+						<label htmlFor="">{t("paymentTerms.cbLabel")}</label>
+					</div>
+				</div>
 				<button
 					className={`form-submit-btn btn--bold ${loading ? "form-submit-btn--loading" : ""}`}
 					type="submit"
