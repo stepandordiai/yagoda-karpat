@@ -607,7 +607,9 @@
 	},
 
 	"ourCertificates": {
-		"desc": "Dodržujeme nejvyšší standardy bezpečnosti a kvality, které potvrzují naše certifikáty HACCP a Organic. Naše produkty jsou vyráběny z pečlivě vybraných surovin a procházejí vícestupňovou kontrolou v každé fázi výroby. Tyto mezinárodní certifikace zajišťují, že naše bobule, ovoce a zelenina jsou přírodní, bezpečné a plně v souladu s požadavky ekologické produkce."
+		"desc": "Dodržujeme nejvyšší standardy bezpečnosti a kvality, které potvrzují naše certifikáty HACCP a Organic. Naše produkty jsou vyráběny z pečlivě vybraných surovin a procházejí vícestupňovou kontrolou v každé fázi výroby. Tyto mezinárodní certifikace zajišťují, že naše bobule, ovoce a zelenina jsou přírodní, bezpečné a plně v souladu s požadavky ekologické produkce.",
+		"viewCertificate": "Zobrazit certifikát",
+		"downloadCertificate": "Stáhnout certifikát"
 	},
 
 	"footer": {

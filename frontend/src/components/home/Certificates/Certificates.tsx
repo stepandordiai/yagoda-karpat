@@ -21,7 +21,8 @@ export default async function Certificates() {
 							href="/pdf/yagoda-karpat-organic-certificate.pdf"
 							target="_blank"
 							rel="noopener noreferrer"
-							title=""
+							title={t("ourCertificates.viewCertificate")}
+							aria-label={t("ourCertificates.viewCertificate")}
 						>
 							<EyeIcon />
 						</a>
@@ -29,6 +30,8 @@ export default async function Certificates() {
 							className="certificates__link"
 							href="/pdf/yagoda-karpat-organic-certificate.pdf"
 							download
+							title={t("ourCertificates.downloadCertificate")}
+							aria-label={t("ourCertificates.downloadCertificate")}
 						>
 							<DownloadIcon />
 						</a>
