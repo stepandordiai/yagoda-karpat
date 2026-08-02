@@ -10,6 +10,7 @@ import Footer from "@/components/layout/Footer/Footer";
 import { BASE_URL } from "@/lib/constants";
 import Script from "next/script";
 import ScrollToTop from "@/utils/ScrollToTop";
+import CookieBanner from "@/components/CookieBanner/CookieBanner";
 import "@/scss/globals.scss";
 
 const montserrat = Montserrat({
@@ -46,6 +47,7 @@ export default async function LocaleLayout({
 					<Header products={products} />
 					{children}
 					<Footer products={products} />
+					<CookieBanner />
 				</NextIntlClientProvider>
 				{/* FIXME: */}
 				{/* Google */}
