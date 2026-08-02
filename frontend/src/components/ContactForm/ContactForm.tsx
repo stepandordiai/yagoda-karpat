@@ -153,7 +153,6 @@ const ContactForm = ({ requestedProduct = "" }: ContactFormProps) => {
 						className="form__input"
 						id="quantity"
 						name="quantity"
-						autoComplete="quantity"
 						type="text"
 					/>
 				</div>
@@ -182,11 +181,10 @@ const ContactForm = ({ requestedProduct = "" }: ContactFormProps) => {
 						<input
 							className="contact-form__cb"
 							type="checkbox"
-							name=""
-							id=""
+							id="payment-terms"
 							required
 						/>
-						<label htmlFor="">{t("paymentTerms.cbLabel")}</label>
+						<label htmlFor="payment-terms">{t("paymentTerms.cbLabel")}</label>
 					</div>
 				</div>
 				<button
