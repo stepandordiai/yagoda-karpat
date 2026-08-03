@@ -68,6 +68,13 @@
 		"viewAllProducts": "View all products"
 	},
 
+	"cookieBanner": {
+		"title": "We use cookies",
+		"description": "We use cookies to keep this website running and to understand how visitors use it, so we can improve it. You can accept all cookies or continue with only the essential ones.",
+		"rejectAll": "Reject all",
+		"acceptAll": "Accept all"
+	},
+
 	"about_us": {
 		"description": [
 			"We are a family-owned private company with over a decade of experience in the industrial processing and export of frozen and dried berries, fruits, mushrooms, and vegetables. Since 2010, we have built our operations around one core principle: delivering consistent, certified quality at scale for international B2B partners. From hand-picked raw materials to advanced processing technologies, every stage of our production is designed to meet the expectations of demanding European markets.",

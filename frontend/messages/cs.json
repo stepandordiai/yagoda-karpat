@@ -68,6 +68,13 @@
 		"viewAllProducts": "Zobrazit všechny produkty"
 	},
 
+	"cookieBanner": {
+		"title": "Používáme cookies",
+		"description": "Používáme cookies, aby tento web správně fungoval a abychom rozuměli tomu, jak jej návštěvníci používají, a mohli jej díky tomu vylepšovat. Můžete přijmout všechny cookies nebo pokračovat pouze s nezbytnými.",
+		"rejectAll": "Odmítnout vše",
+		"acceptAll": "Přijmout vše"
+	},
+
 	"about_us": {
 		"description": [
 			"Jsme rodinná soukromá společnost s více než desetiletou zkušeností v oblasti průmyslového zpracování a exportu mražených a sušených bobulovin, ovoce, hub a zeleniny. Od roku 2010 budujeme naši činnost na jasném cíli: poskytovat stabilní, certifikovanou kvalitu ve velkých objemech pro profesionální B2B partnery na evropských trzích. Od ručně sbíraných surovin až po moderní technologie zpracování je každý krok výroby přizpůsoben požadavkům náročných mezinárodních odběratelů.",

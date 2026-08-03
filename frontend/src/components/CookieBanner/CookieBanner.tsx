@@ -1,11 +1,14 @@
 "use client";
 
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import classNames from "classnames";
 import "./styles.scss";
 
 export default function CookieBanner() {
+	const t = useTranslations();
+
 	const [cookieBannerVisible, setCookieBannerVisible] = useState(false);
 
 	useEffect(() => {
@@ -29,23 +32,19 @@ export default function CookieBanner() {
 			})}
 		>
 			<p className="cookie-banner__title">
-				<Image src="/cookie.png" width={30} height={30} alt="cookie icon" />{" "}
-				<span>We use cookies</span>
+				<Image src="/cookie.png" width={30} height={30} alt="cookie icon" />
+				<span>{t("cookieBanner.title")}</span>
 			</p>
-			<p>
-				We use cookies to keep this website running and to understand how
-				visitors use it, so we can improve it. You can accept all cookies or
-				continue with only the essential ones.
-			</p>
+			<p>{t("cookieBanner.description")}</p>
 			<div className="cookie-banner__btn-container">
 				<button onClick={handleCookieBanner} className="cookie-banner__sec-btn">
-					Reject all
+					{t("cookieBanner.rejectAll")}
 				</button>
 				<button
 					onClick={handleCookieBanner}
 					className="cookie-banner__primary-btn"
 				>
-					Accept all
+					{t("cookieBanner.acceptAll")}
 				</button>
 			</div>
 		</div>
