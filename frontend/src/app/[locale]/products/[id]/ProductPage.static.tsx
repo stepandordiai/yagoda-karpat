@@ -6,12 +6,6 @@ import { useEffect, useState } from "react";
 import ContactDetails from "@/components/ContactDetails/ContactDetails";
 import Image from "next/image";
 import harvestData from "@/data/harvest-data.json";
-import LinkIcon from "@/components/LinkIcon/LinkIcon";
-import classNames from "classnames";
-import WhatsappIcon from "@/components/icons/WhatsappIcon";
-import ViberIcon from "@/components/icons/ViberIcon";
-import TelIcon from "@/components/icons/TelIcon";
-import EmailIcon from "@/components/icons/EmailIcon";
 // Swiper
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Thumbs, FreeMode } from "swiper/modules";
@@ -25,29 +19,7 @@ import CloseIcon from "@/components/icons/CloseIcon";
 import ChevronLeftIcon from "@/components/icons/ChevronLeftIcon";
 import ChevronRightIcon from "@/components/icons/ChevronRightIcon";
 import ContactForm from "@/components/ContactForm/ContactForm";
-
-const socialsData = [
-	{
-		title: "Email",
-		url: "mailto:info@yagodakarpat.com",
-		img: <EmailIcon size={24} />,
-	},
-	{
-		title: "Phone number",
-		url: "tel:+420722001016",
-		img: <TelIcon size={24} />,
-	},
-	{
-		title: "Viber",
-		url: "viber://chat?number=+420722001016",
-		img: <ViberIcon size={24} />,
-	},
-	{
-		title: "Whatsapp",
-		url: "https://wa.me/420722001016",
-		img: <WhatsappIcon size={24} />,
-	},
-];
+import classNames from "classnames";
 
 type ProductPageStaticProps = {
 	product: Product;
@@ -436,42 +408,6 @@ export default function ProductPageStatic({ product }: ProductPageStaticProps) {
 							</Swiper>
 						</div>
 					)}
-				</div>
-			</div>
-			<div className="product-page-section">
-				<h3>Your personal sales manager</h3>
-				<p style={{ marginBottom: 10 }}>
-					Take a look at the product list above and let me know which items
-					you’re interested in and the quantities. I’ll prepare a personalized
-					offer for you.
-				</p>
-				<div style={{ display: "flex", gap: 5 }}>
-					<div className="product-page-pic">
-						<Image
-							src="/sales-manager.jpg"
-							width={128}
-							height={128}
-							alt="Picture of the sales manager"
-						/>
-					</div>
-					<div
-						style={{
-							display: "flex",
-							justifyContent: "space-between",
-							flexDirection: "column",
-							gap: 5,
-						}}
-					>
-						<div>
-							<p>Stepan Dordiai</p>
-							<p>Sales Manager</p>
-						</div>
-						<div style={{ display: "flex", gap: 5, flexWrap: "wrap" }}>
-							{socialsData.map(({ title, url, img }, i) => {
-								return <LinkIcon key={i} url={url} title={title} icon={img} />;
-							})}
-						</div>
-					</div>
 				</div>
 			</div>
 			<div className="product-page__contacts">
