@@ -58,11 +58,18 @@ export async function generateMetadata({
 	);
 
 	// TODO: learn this
-	const firstImage = product.variants
-		.flatMap((v) =>
-			"grades" in v && v.grades ? v.grades.flatMap((g) => g.images) : v.images,
-		)
-		.at(0);
+	const firstImage =
+		product.variants
+			.flatMap((v) => {
+				if ("grades" in v && v.grades) {
+					return v.grades.flatMap((g) => g.images);
+				}
+				if ("images" in v) {
+					return v.images;
+				}
+				return [];
+			})
+			.at(0) ?? "/yagoda-karpat-og.png";
 
 	return {
 		title: t(product.metaTitle),
