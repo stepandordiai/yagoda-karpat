@@ -351,7 +351,8 @@
 				"images": ["/products/frozen-apricots/iqf-frozen-apricots-1.jpg"]
 			}
 		],
-		"harvest": [7, 8]
+		"harvest": [7, 8],
+		"isFeatured": true
 	},
 	{
 		"id": "frozen-red-bell-peppers",
@@ -786,5 +787,30 @@
 			}
 		],
 		"harvest": [7, 8]
+	},
+	{
+		"id": "frozen-chokeberries",
+		"metaTitle": "frozenChokeberries.meta.title",
+		"metaDescription": "frozenChokeberries.meta.description",
+		"type": "berries_title",
+		"status": "frozen",
+		"latName": "Aronia",
+		"name": "frozenChokeberries.heading",
+		"desc": "frozenChokeberries.description",
+		"benefits": "frozenChokeberries.benefits",
+		"packaging": {
+			"cartonBox": {
+				"title": "product_page.packaging.cartonBox.title",
+				"desc": "product_page.packaging.cartonBox.desc"
+			}
+		},
+		"variants": [
+			{
+				"id": 1,
+				"state": "product_page.cleaned_1"
+			}
+		],
+		"harvest": [7, 8],
+		"isFeatured": true
 	}
 ]

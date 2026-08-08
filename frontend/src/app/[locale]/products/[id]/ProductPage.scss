@@ -114,6 +114,13 @@
 	}
 }
 
+.product-page__img-ph {
+	width: 100%;
+	aspect-ratio: 4/3;
+	background-color: var(--bg-clr);
+	border-radius: 10px;
+}
+
 .swipers-container {
 	width: 50%;
 	min-width: 0;

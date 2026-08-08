@@ -311,71 +311,78 @@ export default function ProductPageStatic({ product }: ProductPageStaticProps) {
 								{t("availableNow")}
 							</span>
 						)}
-						<button onClick={showFullScreenImg} className="swiper-wrapper__btn">
-							<SearchIcon />
-						</button>
+						{images.length > 0 ? (
+							<>
+								<button
+									onClick={showFullScreenImg}
+									className="swiper-wrapper__btn"
+								>
+									<SearchIcon />
+								</button>
 
-						{images && (
-							<Swiper
-								// TODO: learn this
-								key={activeVariantId}
-								onSwiper={setSwiperInstance}
-								breakpoints={{
-									900: {
-										spaceBetween: 25,
-									},
-								}}
-								spaceBetween={10}
-								navigation={
-									images.length > 1
-										? {
-												nextEl: ".swiper-btn-next",
-												prevEl: ".swiper-btn-prev",
-											}
-										: false
-								}
-								pagination={
-									images.length > 1
-										? {
-												type: "fraction",
-											}
-										: false
-								}
-								// TODO: learn this
-								thumbs={{
-									swiper:
-										thumbsSwiper && !thumbsSwiper.destroyed
-											? thumbsSwiper
-											: null,
-								}}
-								modules={[Pagination, Navigation, FreeMode, Thumbs]}
-								className="swiper"
-							>
-								{images.length > 1 && (
-									<>
-										<button className="swiper-btn-prev">
-											<ChevronLeftIcon />
-										</button>
-										<button className="swiper-btn-next">
-											<ChevronRightIcon />
-										</button>
-									</>
-								)}
-								{images.map((img, index) => {
-									return (
-										<SwiperSlide key={index}>
-											<Image
-												className="swiper-img"
-												src={img}
-												width={1600}
-												height={1200}
-												alt={`${t(product.name)} ${productVariant.state ? t(productVariant.state) : ""}`.trimEnd()}
-												priority={index === 0}
-											/>
-										</SwiperSlide>
-									);
-								})}
-							</Swiper>
+								<Swiper
+									// TODO: learn this
+									key={activeVariantId}
+									onSwiper={setSwiperInstance}
+									breakpoints={{
+										900: {
+											spaceBetween: 25,
+										},
+									}}
+									spaceBetween={10}
+									navigation={
+										images.length > 1
+											? {
+													nextEl: ".swiper-btn-next",
+													prevEl: ".swiper-btn-prev",
+												}
+											: false
+									}
+									pagination={
+										images.length > 1
+											? {
+													type: "fraction",
+												}
+											: false
+									}
+									// TODO: learn this
+									thumbs={{
+										swiper:
+											thumbsSwiper && !thumbsSwiper.destroyed
+												? thumbsSwiper
+												: null,
+									}}
+									modules={[Pagination, Navigation, FreeMode, Thumbs]}
+									className="swiper"
+								>
+									{images.length > 1 && (
+										<>
+											<button className="swiper-btn-prev">
+												<ChevronLeftIcon />
+											</button>
+											<button className="swiper-btn-next">
+												<ChevronRightIcon />
+											</button>
+										</>
+									)}
+									{images.map((img, index) => {
+										return (
+											<SwiperSlide key={index}>
+												<Image
+													className="swiper-img"
+													src={img}
+													width={1600}
+													height={1200}
+													alt={`${t(product.name)} ${productVariant.state ? t(productVariant.state) : ""}`.trimEnd()}
+													priority={index === 0}
+												/>
+											</SwiperSlide>
+										);
+									})}
+								</Swiper>
+							</>
+						) : (
+							<div className="product-page__img-ph" />
 						)}
 					</div>
 					{images && images.length > 2 && (

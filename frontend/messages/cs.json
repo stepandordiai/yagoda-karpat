@@ -3,7 +3,7 @@
 		"blog": "Blog"
 	},
 	"contact_us": "Kontaktujte nás",
-	"home_title": "Domů",
+	"home_title": "Úvod",
 	"about_us_title": "O nás",
 	"products_title": "Produkty",
 	"contacts_title": "Kontakty",
@@ -599,6 +599,24 @@
 			"IQF, sypký — přesné dávkování, nespéká se",
 			"Bez aditiv, konzervantů a přidaného cukru",
 			"Balení: pytle 25 kg / oktabiny 400 kg · HACCP · Organic na vyžádání"
+		]
+	},
+
+	"frozenChokeberries": {
+		"meta": {
+			"title": "Mražený černý jeřáb / arónie (Aronia melanocarpa) IQF | Dodavatel pro B2B v EU",
+			"description": "IQF mražená arónie / černý jeřáb (Aronia melanocarpa) z ukrajinských Karpat — mimořádně vysoký obsah polyfenolů a antokyanů, strojní sklizeň pro výrobu šťáv a další zpracování. Certifikace HACCP a Bio, MOQ 500 kg, doprava FCA/DAP/DDP do zemí EU. Vyžádejte si cenovou nabídku."
+		},
+		"heading": "Mražená arónie (černý jeřáb) IQF",
+		"description": "Mražená arónie / černý jeřáb (Aronia melanocarpa) metodou IQF z ukrajinských Karpat, zpracovaná ve chvíli plné zralosti. Arónie patří mezi nejbohatší přírodní zdroje polyfenolů a antokyanů ze všech bobulovin mírného pásu, což jí dává intenzivní téměř černou barvu a pevnou, terpkou strukturu, díky které se mnohem lépe hodí pro průmyslové zpracování než pro přímou konzumaci. Díky jednotlivému rychlému zmrazení zůstávají bobule sypké a nelepí se, což umožňuje přesné dávkování a řízené rozmrazování při zachování barvy i bioaktivních látek z okamžiku sklizně. Dodává se bez stopek, tříděná a zbavená cizích příměsí, připravená k přímému průmyslovému použití. Typické využití: šťávy, nektary, koncentráty a sirupy, džemy, kompoty a náplně, doplňky stravy a polyfenolové extrakty, přírodní barviva, funkční potraviny a čaje, vína a likéry. Mražení metodou IQF zachovává polyfenoly, antokyany a typickou trpkost plodu. Původ suroviny je plně dohledatelný od pole až po hotovou paletu a výroba probíhá podle standardů HACCP; na vyžádání jsou k dispozici i bio certifikované šarže. Balení: papírové pytle 25 kg nebo průmyslové oktabíny 400 kg. Skladování při –18 °C. Minimální objednávka 500 kg. Doprava po celé EU na paritě FCA, DAP nebo DDP, včetně kompletní exportní dokumentace.",
+		"benefits": [
+			"Druh: arónie / černý jeřáb (Aronia melanocarpa), bez stopek",
+			"Mimořádně vysoký obsah polyfenolů a antokyanů",
+			"Téměř černá barva, pevná struktura, trpká chuť",
+			"Zpracovatelské ovoce — šťávy, koncentráty, extrakty, barviva, víno",
+			"IQF, sypká struktura — přesné dávkování, bez slepování",
+			"Bez přídatných látek, konzervantů a přidaného cukru",
+			"Balení: pytle 25 kg / oktabíny 400 kg · HACCP · Bio na vyžádání"
 		]
 	},
 
