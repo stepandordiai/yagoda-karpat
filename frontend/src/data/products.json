@@ -24,8 +24,8 @@
 				"id": 1,
 				"state": "product_page.cleaned_1",
 				"images": [
-					"/products/frozen-bilberries/iqf-frozen-bilberries-2.jpg",
-					"/products/frozen-bilberries/iqf-frozen-bilberries-3.jpg"
+					"/products/frozen-bilberries/iqf-frozen-bilberries-6.jpg",
+					"/products/frozen-bilberries/iqf-frozen-bilberries-7.jpg"
 				]
 			},
 			{
@@ -36,7 +36,9 @@
 						"id": 1,
 						"class": "Grade 2",
 						"images": [
-							"/products/frozen-bilberries/iqf-frozen-bilberries-1.JPG",
+							"/products/frozen-bilberries/iqf-frozen-bilberries-1.jpg",
+							"/products/frozen-bilberries/iqf-frozen-bilberries-2.jpg",
+							"/products/frozen-bilberries/iqf-frozen-bilberries-3.jpg",
 							"/products/frozen-bilberries/iqf-frozen-bilberries-4.jpg",
 							"/products/frozen-bilberries/iqf-frozen-bilberries-5.jpg"
 						]
@@ -198,8 +200,7 @@
 					"/products/dried-plums-with-stone/dried-plums-with-stone-1.jpg",
 					"/products/dried-plums-with-stone/dried-plums-with-stone-2.jpg",
 					"/products/dried-plums-with-stone/dried-plums-with-stone-3.jpg",
-					"/products/dried-plums-with-stone/dried-plums-with-stone-4.jpg",
-					"/products/dried-plums-with-stone/dried-plums-with-stone-5.jpg"
+					"/products/dried-plums-with-stone/dried-plums-with-stone-4.jpg"
 				]
 			}
 		],
@@ -227,7 +228,8 @@
 				"state": "product_page.pitted",
 				"images": [
 					"/products/prunes-pitted/prunes-pitted-1.jpg",
-					"/products/prunes-pitted/prunes-pitted-2.jpg"
+					"/products/prunes-pitted/prunes-pitted-2.jpg",
+					"/products/prunes-pitted/prunes-pitted-3.jpg"
 				]
 			}
 		],
@@ -348,7 +350,19 @@
 			{
 				"id": 1,
 				"state": "product_page.halvesPitted",
-				"images": ["/products/frozen-apricots/iqf-frozen-apricots-1.jpg"]
+				"grades": [
+					{
+						"id": 1,
+						"class": "Grade 2",
+						"images": [
+							"/products/frozen-apricots/iqf-frozen-apricots-1.jpg",
+							"/products/frozen-apricots/iqf-frozen-apricots-2.jpg",
+							"/products/frozen-apricots/iqf-frozen-apricots-3.jpg",
+							"/products/frozen-apricots/iqf-frozen-apricots-4.jpg",
+							"/products/frozen-apricots/iqf-frozen-apricots-5.jpg"
+						]
+					}
+				]
 			}
 		],
 		"harvest": [7, 8],
@@ -794,23 +808,62 @@
 		"metaDescription": "frozenChokeberries.meta.description",
 		"type": "berries_title",
 		"status": "frozen",
-		"latName": "Aronia",
+		"latName": "Aronia melanocarpa",
 		"name": "frozenChokeberries.heading",
 		"desc": "frozenChokeberries.description",
 		"benefits": "frozenChokeberries.benefits",
 		"packaging": {
-			"cartonBox": {
-				"title": "product_page.packaging.cartonBox.title",
-				"desc": "product_page.packaging.cartonBox.desc"
+			"paperBag": {
+				"title": "product_page.packaging.paperBag.title",
+				"desc": "product_page.packaging.paperBag.desc"
 			}
 		},
 		"variants": [
 			{
 				"id": 1,
-				"state": "product_page.cleaned_1"
+				"state": "product_page.uncleaned_1",
+				"grades": [
+					{
+						"id": 1,
+						"class": "Grade 2",
+						"images": [
+							"/products/frozen-chokeberries/iqf-frozen-chokeberries-1.jpg",
+							"/products/frozen-chokeberries/iqf-frozen-chokeberries-2.jpg",
+							"/products/frozen-chokeberries/iqf-frozen-chokeberries-3.jpg",
+							"/products/frozen-chokeberries/iqf-frozen-chokeberries-4.jpg",
+							"/products/frozen-chokeberries/iqf-frozen-chokeberries-5.jpg"
+						]
+					}
+				]
+			}
+		],
+		"harvest": [8, 9, 10],
+		"isOrganic": true,
+		"isFeatured": true
+	},
+	{
+		"id": "frozen-wild-bog-bilberries",
+		"metaTitle": "frozenWildBogBilberries.meta.title",
+		"metaDescription": "frozenWildBogBilberries.meta.description",
+		"type": "berries_title",
+		"status": "frozen",
+		"latName": "Vaccinium uliginosum",
+		"name": "frozenWildBogBilberries.heading",
+		"desc": "frozenWildBogBilberries.description",
+		"benefits": "frozenWildBogBilberries.benefits",
+		"packaging": {
+			"paperBag": {
+				"title": "product_page.packaging.paperBag.title",
+				"desc": "product_page.packaging.paperBag.desc"
+			}
+		},
+		"variants": [
+			{
+				"id": 1
 			}
 		],
 		"harvest": [7, 8],
+		"isOrganic": true,
 		"isFeatured": true
 	}
 ]
