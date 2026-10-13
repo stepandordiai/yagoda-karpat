@@ -17,10 +17,10 @@ export default async function Faqs({ faqs }: FaqsProps) {
 		"@type": "FAQPage",
 		mainEntity: faqs.map((faq) => ({
 			"@type": "Question",
-			name: t(faq.q),
+			name: t.has(faq.q) ? t(faq.q) : faq.q,
 			acceptedAnswer: {
 				"@type": "Answer",
-				text: t(faq.a),
+				text: t.has(faq.a) ? t(faq.a) : faq.a,
 			},
 		})),
 	};

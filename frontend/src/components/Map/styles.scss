@@ -1,0 +1,31 @@
+.contacts__map-wrapper {
+	display: flex;
+	flex-direction: column;
+	row-gap: 10px;
+	width: 100%;
+	padding: 25px;
+	background: #fff;
+	border-radius: 10px;
+}
+
+.contacts__map-title {
+	font-size: clamp(20px, 3vw, 30px);
+	font-weight: 500;
+}
+
+.contacts__map {
+	border-radius: inherit;
+	flex-grow: 1;
+}
+
+@media screen and (max-width: 895px) {
+	.contacts__map-wrapper {
+		padding: 10px;
+	}
+}
+
+@media screen and (width < 807px) {
+	.contacts__map {
+		aspect-ratio: 1.5/1;
+	}
+}

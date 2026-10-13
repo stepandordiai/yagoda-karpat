@@ -16,9 +16,14 @@ const pages = [
 		priority: 0.8,
 	},
 	{
+		path: "/for-suppliers",
+		changeFrequency: "monthly",
+		priority: 0.6,
+	},
+	{
 		path: "/blog",
 		changeFrequency: "monthly",
-		priority: 0.8,
+		priority: 0.6,
 	},
 ] as const;
 

@@ -226,6 +226,11 @@ export default function Header({ products }: HeaderProps) {
 						</div>
 					</li>
 					<li>
+						<Link onClick={closeMenu} className="link" href="/for-suppliers">
+							Постачальникам
+						</Link>
+					</li>
+					<li>
 						<Link onClick={closeMenu} className="link" href="/#blog">
 							{t("nav.blog")}
 						</Link>

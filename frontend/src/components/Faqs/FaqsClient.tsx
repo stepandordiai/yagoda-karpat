@@ -35,7 +35,7 @@ export default function FaqsClient({ faqs }: FaqsClientProps) {
 								aria-expanded={isActive}
 								aria-controls={answerId}
 							>
-								<span>{t(faq.q)}</span>
+								<span>{t.has(faq.q) ? t(faq.q) : faq.q}</span>
 								<span
 									className={classNames("faq__btn-icon", {
 										"faq__btn-icon--active": isActive,
@@ -54,7 +54,7 @@ export default function FaqsClient({ faqs }: FaqsClientProps) {
 							aria-labelledby={questionId}
 							hidden={!isActive}
 						>
-							<p>{t(faq.a)}</p>
+							<p>{t.has(faq.a) ? t(faq.a) : faq.a}</p>
 						</div>
 					</li>
 				);

@@ -29,6 +29,11 @@ body {
 	font-weight: 600;
 }
 
+.section__heading {
+	font-size: clamp(20px, 3vw, 30px);
+	font-weight: 500;
+}
+
 .btn--bold {
 	font-weight: 500;
 }

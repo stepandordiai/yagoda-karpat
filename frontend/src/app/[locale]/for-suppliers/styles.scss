@@ -1,0 +1,164 @@
+.for-suppliers {
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
+}
+
+.for-suppliers__hero {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 25px;
+	background: #fff;
+	padding: 25px;
+	border-radius: 10px;
+}
+
+.for-suppliers__hero-content {
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
+	align-items: flex-start;
+}
+
+.for-suppliers__hero-heading {
+	font-size: clamp(2rem, 6vw, 3rem);
+	font-weight: 600;
+}
+
+.for-suppliers__hero-description {
+	font-size: clamp(1.25rem, 2vw, 1.5rem);
+	font-weight: 500;
+}
+
+.for-suppliers__primary-btn {
+	background: var(--accent-clr);
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.for-suppliers__hero-img-wrapper {
+	overflow: hidden;
+	border-radius: 10px;
+}
+
+.for-suppliers__section {
+	background: #fff;
+	padding: 25px;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.for-suppliers__list {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+
+	li {
+		list-style: none;
+	}
+
+	h3 {
+		font-weight: 500;
+	}
+
+	ul {
+		li {
+			&::before {
+				content: "- ";
+			}
+		}
+	}
+}
+
+.for-suppliers__ul {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+
+	li {
+		list-style: disc;
+		list-style-position: inside;
+	}
+
+	h3 {
+		font-weight: 500;
+	}
+
+	span {
+		font-weight: 500;
+	}
+}
+
+// TODO: learn this
+.for-suppliers__ol {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	list-style: none;
+	counter-reset: step;
+
+	li {
+		counter-increment: step;
+		h3 {
+			font-weight: 500;
+
+			&::before {
+				content: counter(step) ". ";
+			}
+		}
+	}
+}
+
+.for-suppliers__container {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 25px;
+
+	div {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+.contacts__map-wrapper {
+	display: flex;
+	flex-direction: column;
+	row-gap: 10px;
+	width: 100%;
+	padding: 25px;
+	background: #fff;
+	border-radius: 10px;
+}
+
+@media (max-width: 900px) {
+	.for-suppliers {
+		gap: 10px;
+	}
+
+	.for-suppliers__hero {
+		grid-template-columns: repeat(1, 1fr);
+		padding: 10px;
+		gap: 10px;
+	}
+
+	.for-suppliers__hero-content {
+		gap: 10px;
+	}
+
+	.for-suppliers__section {
+		padding: 10px;
+	}
+
+	.for-suppliers__container {
+		gap: 10px;
+	}
+}
+
+@media screen and (width < 807px) {
+	.for-suppliers__container {
+		grid-template-columns: repeat(1, 1fr);
+	}
+}
