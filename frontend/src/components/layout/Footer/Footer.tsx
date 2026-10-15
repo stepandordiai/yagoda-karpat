@@ -144,7 +144,7 @@ export default function Footer({ products }: FooterProps) {
 													onClick={closeFooterDropdown}
 													href="/"
 												>
-													{t("home_title")}
+													{t("nav.home")}
 												</Link>
 											</li>
 											<li>
@@ -153,7 +153,7 @@ export default function Footer({ products }: FooterProps) {
 													onClick={closeFooterDropdown}
 													href="/#about-us"
 												>
-													{t("about_us_title")}
+													{t("nav.aboutUs")}
 												</Link>
 											</li>
 											<li>
@@ -162,7 +162,7 @@ export default function Footer({ products }: FooterProps) {
 													onClick={closeFooterDropdown}
 													href="/products"
 												>
-													{t("products_title")}
+													{t("nav.products")}
 												</Link>
 											</li>
 											<li>
@@ -171,7 +171,7 @@ export default function Footer({ products }: FooterProps) {
 													onClick={closeFooterDropdown}
 													href="/for-suppliers"
 												>
-													Постачальникам
+													{t("nav.forSuppliers")}
 												</Link>
 											</li>
 											<li>
@@ -189,7 +189,7 @@ export default function Footer({ products }: FooterProps) {
 													onClick={closeFooterDropdown}
 													href="/#contacts"
 												>
-													{t("contacts_title")}
+													{t("nav.contacts")}
 												</Link>
 											</li>
 										</ul>

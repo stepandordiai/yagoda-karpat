@@ -13,7 +13,7 @@ export default async function AboutUs({ productsLength }: AboutUsProps) {
 
 	return (
 		<section className="about-us js-about-us" id="about-us">
-			<h2 className="section-title">{t("about_us_title")}</h2>
+			<h2 className="section-title">{t("nav.aboutUs")}</h2>
 			<div className="about-us-container">
 				{t.raw("about_us.description").map((paragraph: string, i: number) => {
 					return <p key={i}>{paragraph}</p>;

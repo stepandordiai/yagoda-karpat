@@ -71,7 +71,7 @@ export default async function Products() {
 
 	return (
 		<main className="js-products">
-			<Breadcrumbs homeTitle={t("home_title")} title={t("products_title")} />
+			<Breadcrumbs title={t("nav.products")} />
 			<h1 className="products__title">{t("products.title")}</h1>
 			<ProductsClient />
 			<Faqs faqs={productsFaqs} />

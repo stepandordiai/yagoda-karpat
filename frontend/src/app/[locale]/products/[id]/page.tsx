@@ -193,9 +193,8 @@ export default async function ProductPage({ params }: ProductPageProps) {
 			<Container>
 				<Breadcrumbs
 					title={t(product.name)}
-					previousTitle={t("products_title")}
+					previousTitle={t("nav.products")}
 					previousUrl="/products"
-					homeTitle={t("home_title")}
 				/>
 				<ProductPageStatic product={product} />
 				{relatedProducts.length > 0 && (

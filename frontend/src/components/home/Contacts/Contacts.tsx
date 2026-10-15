@@ -10,7 +10,7 @@ export default async function Contacts() {
 
 	return (
 		<section className="js-contacts" id="contacts">
-			<h2 className="section-title">{t("contacts_title")}</h2>
+			<h2 className="section-title">{t("nav.contacts")}</h2>
 			<div className="contacts-wrapper">
 				<div>
 					<ContactDetails />

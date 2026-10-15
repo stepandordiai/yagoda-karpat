@@ -1,12 +1,6 @@
 {
-	"nav": {
-		"blog": "Blog"
-	},
 	"contact_us": "Kontaktujte nás",
-	"home_title": "Úvod",
-	"about_us_title": "O nás",
-	"products_title": "Produkty",
-	"contacts_title": "Kontakty",
+
 	"berries_title": "Bobule",
 	"fruits_title": "Ovoce",
 	"vegetables_title": "Zelenina",
@@ -45,6 +39,15 @@
 	"downloadCertificate": "Stáhnout certifikát",
 	"learnMore": "Číst více",
 	"availableNow": "Skladem",
+
+	"nav": {
+		"home": "Úvod",
+		"aboutUs": "O nás",
+		"products": "Produkty",
+		"forSuppliers": "Pro dodavatele",
+		"blog": "Blog",
+		"contacts": "Kontakty"
+	},
 
 	"header": {
 		"openMenu": "Otevřít menu",
@@ -149,6 +152,68 @@
 			"cta": {
 				"text": "Dodáváme mražené lesní borůvky IQF (Vaccinium myrtillus), ručně sbírané v ukrajinských Karpatech — tmavě fialové až do dřeně, s obsahem anthokyanů, na který se průmysloví odběratelé spoléhají. Certifikace HACCP a Organic, MOQ 500 kg, FCA/DAP/DDP po EU.",
 				"productLinkLabel": "Zobrazit mražené borůvky IQF"
+			}
+		}
+	},
+
+	"harvestCalendar": {
+		"meta": {
+			"title": "Kalendář sklizně bobulí, hub a ovoce na Ukrajině | Yagoda Karpat",
+			"description": "Kdy která plodina dozrává na Ukrajině — průměrné termíny sklizně bobulí, hub a ovoce. Jak může B2B odběratel plánovat nákup podle sezóny a včas rezervovat nedostatkové položky.",
+			"category": "Plánování nákupu"
+		},
+		"readingTime": "5 min",
+		"heading": "Kalendář sklizně na Ukrajině: kdy dozrávají bobule, houby a ovoce",
+		"description": "Pro průmyslového odběratele je sezónnost základem plánování. Tento kalendář ukazuje průměrné termíny sklizně hlavních plodin na Ukrajině a vysvětluje, jak ovlivňují váš nákup.",
+		"body": {
+			"intro": "Když víte, kdy která plodina dozrává, objednáváte ve špičkové kvalitě, zafixujete cenu dřív, než poptávka vzroste, a nezůstanete bez suroviny uprostřed výroby. Níže jsou průměrné termíny sklizně hlavních plodin na Ukrajině a to, jak tento kalendář využít k plánování nákupu.",
+			"sections": {
+				"whyHeading": "Proč je termín sklizně důležitý i u mraženého produktu",
+				"whyText": "Zdálo by se, že IQF mražení odstraňuje otázku sezónnosti — produkt je dostupný celoročně ze skladu. Kvalita mražené šarže se však určuje v okamžiku sklizně: bobule zmražená ve špičkové zralosti si uchová barvu, chuť i živiny; sklizená mimo špičku nikoli. Znát kalendář sklizně znamená vědět, která šarže bude nejlepší — a kdy ji rezervovat, než se čerstvá úroda rozebere. Navíc je objem každé sezóny omezen úrodou: kdo nasmlouvá brzy, získá lepší cenu a zaručené množství; kdo pozdě, bere, co zbylo.",
+				"summerHeading": "Léto — vrchol bobulové sezóny",
+				"summerText": "Nejintenzivnější období. Většina divokých i pěstovaných bobulí se sklízí v létě. To je období, kdy jsou kvalita a dostupnost nejvyšší — a kdy se vyplatí rezervovat objemy rok dopředu.",
+				"lateSummerHeading": "Konec léta až začátek podzimu: brusinky, houby, pozdní ovoce",
+				"lateSummerText": "Dozrává pozdní ovoce a začíná houbová sezóna. Divoké houby jsou nejvíce závislé na počasí: výnosy kolísají rok od roku, proto je zde včasný kontakt nejdůležitější.",
+				"autumnHeading": "Podzim — pozdní bobule",
+				"autumnText": "Poslední položky sezóny, které získávají na hodnotě po prvních mrazech.",
+				"howToUseHeading": "Jak tento kalendář využít k nákupu",
+				"howToUseText": "Plánujte objednávky podle sezóny sklizně, ne podle okamžiku potřeby: letní bobule nasmlouvejte na jaře, podzimní houby v létě. Nedostatkové položky rezervujte brzy — divoké borůvky, hřiby a lišky mají omezené výnosy závislé na počasí a rozeberou se první. Dostupnost ověřujte u konkrétního produktu — ke každé položce poskytujeme aktuální termíny sklizně a zbývající zásoby pro vaše plánování."
+			},
+			"crop": {
+				"strawberry": "Jahody",
+				"bilberry": "Divoké borůvky",
+				"raspberry": "Maliny",
+				"blackcurrant": "Černý rybíz",
+				"sourCherry": "Višně",
+				"elderberry": "Bezinky",
+				"apricot": "Meruňky",
+				"lingonberry": "Brusinky",
+				"plum": "Švestky",
+				"aronia": "Aronie",
+				"porcini": "Hřiby",
+				"chanterelle": "Lišky",
+				"honeyMushroom": "Václavky",
+				"roseHip": "Šípky"
+			},
+			"month": {
+				"strawberry": "červen–červenec",
+				"bilberry": "červen–srpen",
+				"raspberry": "červenec–srpen",
+				"blackcurrant": "červenec",
+				"sourCherry": "červenec",
+				"elderberry": "srpen",
+				"apricot": "červenec–srpen",
+				"lingonberry": "srpen–září",
+				"plum": "srpen–září",
+				"aronia": "září",
+				"porcini": "vrchol srpen–září",
+				"chanterelle": "léto–podzim",
+				"honeyMushroom": "září–listopad",
+				"roseHip": "září–říjen"
+			},
+			"cta": {
+				"text": "Yagoda Karpat dodává IQF mraženou a sušenou surovinu z ukrajinských Karpat — sklizenou ve špičkové sezóně pod kontrolovanou kvalitou. Certifikace HACCP a bio, MOQ 500 kg, FCA/DAP/DDP po celé EU.",
+				"productLinkLabel": "Zobrazit všechny produkty"
 			}
 		}
 	},

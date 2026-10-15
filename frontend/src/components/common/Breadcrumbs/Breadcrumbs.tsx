@@ -1,25 +1,26 @@
 import { Link } from "@/i18n/navigation";
+import { getTranslations } from "next-intl/server";
 import "./Breadcrumbs.scss";
 
 type BreadcrumbsProps = {
-	homeTitle: string;
 	previousTitle?: string;
 	previousUrl?: string;
 	title: string;
 };
 
-export default function Breadcrumbs({
-	homeTitle,
+export default async function Breadcrumbs({
 	previousTitle,
 	previousUrl,
 	title,
 }: BreadcrumbsProps) {
+	const t = await getTranslations();
+
 	return (
 		<nav className="breadcrumbs" aria-label="Breadcrumb">
 			<ol className="breadcrumbs-list">
 				<li>
 					<Link className="breadcrumbs__link" href="/">
-						{homeTitle}
+						{t("nav.home")}
 					</Link>
 				</li>
 				{previousTitle && previousUrl && (

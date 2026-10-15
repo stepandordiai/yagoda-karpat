@@ -1,12 +1,5 @@
 {
-	"nav": {
-		"blog": "Blog"
-	},
 	"contact_us": "Contact us",
-	"home_title": "Home",
-	"about_us_title": "About us",
-	"products_title": "Products",
-	"contacts_title": "Contacts",
 	"berries_title": "Berries",
 	"fruits_title": "Fruits",
 	"vegetables_title": "Vegetables",
@@ -45,6 +38,15 @@
 	"downloadCertificate": "Download certificate",
 	"learnMore": "Learn more",
 	"availableNow": "Available Now",
+
+	"nav": {
+		"home": "Home",
+		"aboutUs": "About us",
+		"products": "Products",
+		"forSuppliers": "For suppliers",
+		"blog": "Blog",
+		"contacts": "Contacts"
+	},
 
 	"header": {
 		"openMenu": "Open menu",
@@ -149,6 +151,68 @@
 			"cta": {
 				"text": "We supply IQF wild bilberries (Vaccinium myrtillus), hand-harvested in the Ukrainian Carpathians — dark purple to the core, with the anthocyanin content industrial buyers rely on. HACCP & Organic certified, MOQ 500 kg, FCA/DAP/DDP across the EU.",
 				"productLinkLabel": "See IQF frozen bilberries"
+			}
+		}
+	},
+
+	"harvestCalendar": {
+		"meta": {
+			"title": "Harvest Calendar for Berries, Mushrooms & Fruit in Ukraine | Yagoda Karpat",
+			"description": "When each crop ripens in Ukraine — average harvest windows for berries, mushrooms and fruit. How B2B buyers can plan purchasing around the season and reserve scarce lines early.",
+			"category": "Procurement planning"
+		},
+		"readingTime": "5 min",
+		"heading": "Harvest Calendar for Ukraine: When Berries, Mushrooms & Fruit Ripen",
+		"description": "For an industrial buyer, seasonality is the basis of planning. This calendar shows the average harvest windows for the main crops in Ukraine and explains how they affect your purchasing.",
+		"body": {
+			"intro": "Knowing when each crop ripens lets you order at peak quality, lock in pricing before demand spikes, and avoid running short of raw material mid-production. Below are the average harvest windows for the main crops in Ukraine, and how to use this calendar to plan your purchasing.",
+			"sections": {
+				"whyHeading": "Why the harvest window matters even for frozen product",
+				"whyText": "It would seem IQF freezing removes the question of seasonality — the product is available year-round from stock. But the quality of a frozen batch is set at the moment of harvest: a berry frozen at peak ripeness keeps its colour, flavour and nutrients; one picked off-peak does not. Knowing the harvest calendar means knowing which batch will be best — and when to reserve it before the fresh crop is taken. On top of that, each season's volume is capped by the yield: contract early and you get a better price and guaranteed quantity; contract late and you take what's left.",
+				"summerHeading": "Summer — peak berry season",
+				"summerText": "The most intensive period. Most wild and cultivated berries are harvested in summer. This is the window when quality and availability are highest — and when it's worth reserving volumes a year ahead.",
+				"lateSummerHeading": "Late summer to early autumn: lingonberries, mushrooms, late fruit",
+				"lateSummerText": "Late fruit ripens and the mushroom season begins. Wild mushrooms are the most weather-dependent category: yields swing year to year, so early contact matters most here.",
+				"autumnHeading": "Autumn — late berries",
+				"autumnText": "The last lines of the season, which gain value after the first frosts.",
+				"howToUseHeading": "How to use this calendar for purchasing",
+				"howToUseText": "Plan orders around the harvest season, not the moment of need: contract summer berries in spring, autumn mushrooms in summer. Reserve scarce lines early — wild bilberries, porcini and chanterelles have limited, weather-dependent yields and are taken first. Confirm availability per product — we provide current harvest windows and remaining stock for each line to support your planning."
+			},
+			"crop": {
+				"strawberry": "Strawberries",
+				"bilberry": "Wild bilberries",
+				"raspberry": "Raspberries",
+				"blackcurrant": "Blackcurrants",
+				"sourCherry": "Sour cherries",
+				"elderberry": "Elderberries",
+				"apricot": "Apricots",
+				"lingonberry": "Lingonberries",
+				"plum": "Plums",
+				"aronia": "Aronia",
+				"porcini": "Porcini",
+				"chanterelle": "Chanterelles",
+				"honeyMushroom": "Honey mushrooms",
+				"roseHip": "Rose hips"
+			},
+			"month": {
+				"strawberry": "June–July",
+				"bilberry": "June–August",
+				"raspberry": "July–August",
+				"blackcurrant": "July",
+				"sourCherry": "July",
+				"elderberry": "August",
+				"apricot": "July–August",
+				"lingonberry": "August–September",
+				"plum": "August–September",
+				"aronia": "September",
+				"porcini": "peak August–September",
+				"chanterelle": "summer–autumn",
+				"honeyMushroom": "September–November",
+				"roseHip": "September–October"
+			},
+			"cta": {
+				"text": "Yagoda Karpat supplies IQF frozen and dried raw material from the Ukrainian Carpathians — harvested at peak season under controlled quality. HACCP & Organic certified, MOQ 500 kg, FCA/DAP/DDP across the EU.",
+				"productLinkLabel": "View all products"
 			}
 		}
 	},

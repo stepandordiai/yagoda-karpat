@@ -41,5 +41,110 @@
 				"productLinkLabel": "wildBilberryVsCultivatedBlueberry.body.cta.productLinkLabel"
 			}
 		}
+	},
+	{
+		"meta": {
+			"title": "harvestCalendar.meta.title",
+			"description": "harvestCalendar.meta.description",
+			"category": "harvestCalendar.meta.category"
+		},
+		"slug": "harvest-calendar-ukraine",
+		"date": "2026-10-15",
+		"readingTime": "harvestCalendar.readingTime",
+		"img": "/posts/harvest-calendar.png",
+		"heading": "harvestCalendar.heading",
+		"description": "harvestCalendar.description",
+		"body": {
+			"intro": "harvestCalendar.body.intro",
+			"sections": [
+				{
+					"heading": "harvestCalendar.body.sections.whyHeading",
+					"text": "harvestCalendar.body.sections.whyText"
+				},
+				{
+					"heading": "harvestCalendar.body.sections.summerHeading",
+					"text": "harvestCalendar.body.sections.summerText",
+					"items": [
+						{
+							"label": "harvestCalendar.body.crop.strawberry",
+							"value": "harvestCalendar.body.month.strawberry"
+						},
+						{
+							"label": "harvestCalendar.body.crop.bilberry",
+							"value": "harvestCalendar.body.month.bilberry"
+						},
+						{
+							"label": "harvestCalendar.body.crop.raspberry",
+							"value": "harvestCalendar.body.month.raspberry"
+						},
+						{
+							"label": "harvestCalendar.body.crop.blackcurrant",
+							"value": "harvestCalendar.body.month.blackcurrant"
+						},
+						{
+							"label": "harvestCalendar.body.crop.sourCherry",
+							"value": "harvestCalendar.body.month.sourCherry"
+						},
+						{
+							"label": "harvestCalendar.body.crop.elderberry",
+							"value": "harvestCalendar.body.month.elderberry"
+						}
+					]
+				},
+				{
+					"heading": "harvestCalendar.body.sections.lateSummerHeading",
+					"text": "harvestCalendar.body.sections.lateSummerText",
+					"items": [
+						{
+							"label": "harvestCalendar.body.crop.apricot",
+							"value": "harvestCalendar.body.month.apricot"
+						},
+						{
+							"label": "harvestCalendar.body.crop.lingonberry",
+							"value": "harvestCalendar.body.month.lingonberry"
+						},
+						{
+							"label": "harvestCalendar.body.crop.plum",
+							"value": "harvestCalendar.body.month.plum"
+						},
+						{
+							"label": "harvestCalendar.body.crop.aronia",
+							"value": "harvestCalendar.body.month.aronia"
+						},
+						{
+							"label": "harvestCalendar.body.crop.porcini",
+							"value": "harvestCalendar.body.month.porcini"
+						},
+						{
+							"label": "harvestCalendar.body.crop.chanterelle",
+							"value": "harvestCalendar.body.month.chanterelle"
+						},
+						{
+							"label": "harvestCalendar.body.crop.honeyMushroom",
+							"value": "harvestCalendar.body.month.honeyMushroom"
+						}
+					]
+				},
+				{
+					"heading": "harvestCalendar.body.sections.autumnHeading",
+					"text": "harvestCalendar.body.sections.autumnText",
+					"items": [
+						{
+							"label": "harvestCalendar.body.crop.roseHip",
+							"value": "harvestCalendar.body.month.roseHip"
+						}
+					]
+				},
+				{
+					"heading": "harvestCalendar.body.sections.howToUseHeading",
+					"text": "harvestCalendar.body.sections.howToUseText"
+				}
+			],
+			"cta": {
+				"text": "harvestCalendar.body.cta.text",
+				"productLink": "/products",
+				"productLinkLabel": "harvestCalendar.body.cta.productLinkLabel"
+			}
+		}
 	}
 ]

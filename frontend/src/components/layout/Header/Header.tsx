@@ -144,12 +144,12 @@ export default function Header({ products }: HeaderProps) {
 							})}
 							href="/"
 						>
-							{t("home_title")}
+							{t("nav.home")}
 						</Link>
 					</li>
 					<li>
 						<Link onClick={closeMenu} className="link" href="/#about-us">
-							{t("about_us_title")}
+							{t("nav.aboutUs")}
 						</Link>
 					</li>
 					<li>
@@ -161,7 +161,7 @@ export default function Header({ products }: HeaderProps) {
 								})}
 								href="/products"
 							>
-								{t("products_title")}
+								{t("nav.products")}
 							</Link>
 							<button
 								className={classNames("products-btn", {
@@ -227,7 +227,7 @@ export default function Header({ products }: HeaderProps) {
 					</li>
 					<li>
 						<Link onClick={closeMenu} className="link" href="/for-suppliers">
-							Постачальникам
+							{t("nav.forSuppliers")}
 						</Link>
 					</li>
 					<li>
@@ -237,7 +237,7 @@ export default function Header({ products }: HeaderProps) {
 					</li>
 					<li>
 						<Link onClick={closeMenu} className="link" href="/#contacts">
-							{t("contacts_title")}
+							{t("nav.contacts")}
 						</Link>
 					</li>
 				</ul>

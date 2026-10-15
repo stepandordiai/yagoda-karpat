@@ -74,7 +74,7 @@ export default async function ForSuppliers() {
 		<main>
 			<Container>
 				<div className="for-suppliers">
-					<Breadcrumbs title="Постачальникам" homeTitle={t("home_title")} />
+					<Breadcrumbs title="Постачальникам" />
 					<section className="for-suppliers__hero">
 						<div className="for-suppliers__hero-content">
 							<h1 className="for-suppliers__hero-heading">

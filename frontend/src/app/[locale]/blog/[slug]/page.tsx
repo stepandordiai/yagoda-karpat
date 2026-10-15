@@ -99,7 +99,6 @@ export default async function BlogPage({ params }: BlogPageProps) {
 						title={t(blog.heading)}
 						previousTitle={t("nav.blog")}
 						previousUrl="/blog"
-						homeTitle={t("home_title")}
 					/>
 					<div className="blog-page">
 						<div style={{ display: "flex", justifyContent: "space-between" }}>
@@ -116,14 +115,21 @@ export default async function BlogPage({ params }: BlogPageProps) {
 							<img className="blog-page__img" src={blog.img} alt="" />
 						</div>
 						<p>{t(blog.body.intro)}</p>
-						{blog.body.sections.map((s, i) => {
-							return (
-								<section key={i}>
-									<h2 className="blog-page__section-heading">{t(s.heading)}</h2>
-									<p>{t(s.text)}</p>
-								</section>
-							);
-						})}
+						{blog.body.sections.map((s) => (
+							<section key={s.heading}>
+								<h2 className="blog-page__section-heading">{t(s.heading)}</h2>
+								{s.text && <p>{t(s.text)}</p>}
+								{"items" in s && s.items && (
+									<ul className="blog-page__list">
+										{s.items.map((item) => (
+											<li key={item.label}>
+												<strong>{t(item.label)}</strong> — {t(item.value)}
+											</li>
+										))}
+									</ul>
+								)}
+							</section>
+						))}
 					</div>
 					<aside className="blog-page__cta">
 						<p className="blog-page__cta-text">{t(blog.body.cta.text)}</p>

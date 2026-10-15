@@ -83,7 +83,7 @@ export default async function Blog({
 			></script>
 			<main>
 				<Container>
-					<Breadcrumbs title={t("nav.blog")} homeTitle={t("home_title")} />
+					<Breadcrumbs title={t("nav.blog")} />
 					<h1 className="main__heading">{t("blog.heading")}</h1>
 					<p style={{ marginBottom: "10px" }}>{t("blog.subheading")}</p>
 					<div className="blog-grid">
