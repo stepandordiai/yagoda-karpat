@@ -23,6 +23,10 @@ body {
 	display: none;
 }
 
+h3 {
+	font-weight: 500;
+}
+
 .main__heading {
 	padding: 25px 0;
 	font-size: clamp(2rem, 6vw, 3rem);

@@ -224,14 +224,45 @@
 			"description": "Mražené lesní borůvky (Vaccinium myrtillus) IQF, ručně sbírané v ukrajinských Karpatech. Certifikace HACCP, bio šarže na vyžádání, MOQ 500 kg. Dodání FCA, DAP a DDP po celé EU."
 		},
 		"heading": "Mražené lesní borůvky (IQF)",
-		"description": "Mražené lesní borůvky IQF (Vaccinium myrtillus), ručně sbírané v čistých lesích ukrajinských Karpat. Na rozdíl od velkoplodých (kanadských) borůvek je lesní borůvka tmavě fialová až do dřeně — anthokyany obsahuje nejen ve slupce, ale i v dužině, což jí dodává intenzivní chuť a přirozenou barvicí schopnost, na kterou průmysloví odběratelé spoléhají. Zmrazená metodou IQF ve fázi plné zralosti zůstává sypká a nespéká se, se zachovanou strukturou, barvou i nutričními hodnotami. Je tříděná, čištěná a zbavená stopek, listů i cizích příměsí — připravená k přímému použití ve výrobě. Typické využití: náplně a polevy do pekařských výrobků, jogurty a mléčné výrobky, džemy a zavařeniny, šťávy a koncentráty a nutraceutické extrakty, kde záleží na vysokém obsahu anthokyanů. Původ je plně dohledatelný od lesa až po hotovou paletu a zpracování probíhá podle standardů HACCP; šarže s certifikací Organic jsou k dispozici na vyžádání. Balení: vícevrstvé papírové pytle 25 kg nebo průmyslové oktabiny 400 kg. Skladování při –18 °C. Minimální objednávka 500 kg. Dodání za podmínek FCA, DAP nebo DDP s kompletní exportní dokumentací.",
-		"benefits": [
-			"Druh: lesní borůvka (Vaccinium myrtillus), nikoli velkoplodá",
-			"Anthokyany v dužině — přirozená barvicí schopnost",
-			"IQF, sypké — nespékají se, snadné dávkování",
-			"Bez aditiv, konzervantů a přidaného cukru",
-			"Balení: pytle 25 kg / oktabiny 400 kg",
-			"HACCP · Organic na vyžádání · plná dohledatelnost"
+		"description": [
+			"Prémiové mražené divoké borůvky IQF (Vaccinium myrtillus), ručně sbírané v čistých lesích ukrajinských Karpat a zpracované pro profesionální výrobce potravin, distributory a nákupčí surovin v celé Evropské unii.",
+			"Na rozdíl od pěstovaných kanadských borůvek jsou divoké borůvky přirozeně tmavě fialové v celém plodu. Antokyany obsahuje nejen slupka, ale i dužina — odtud sytá barva, intenzivní chuť lesní bobule a silná přirozená barvicí schopnost. Ukrajinské divoké borůvky jsou proto ideální pro potraviny, kde záleží na autentické chuti, přirozené barvě a kvalitě plodu.",
+			"Borůvky jsou zmrazeny metodou IQF ve vrcholu zralosti, aby si zachovaly přirozenou strukturu, barvu, chuť i nutriční hodnoty. Po zmrazení zůstávají sypké a neslepují se, což usnadňuje manipulaci a umožňuje přímé použití ve výrobě.",
+			"Produkt je tříděný a čištěný — stopky, listí a viditelné cizí příměsi jsou odstraněny podle dohodnuté specifikace zákazníka. K dispozici je plná dohledatelnost šarže od místa sběru přes zpracování až po hotovou paletu.",
+			"Sezóna sběru divokých borůvek v ukrajinských Karpatech trvá od července do srpna s vrcholem v srpnu; ve vyšších polohách může sběr pokračovat až do září. Přesné termíny se každý rok liší podle počasí a nadmořské výšky. Mimo sezónu je produkt dostupný z mražených zásob letošní úrody — pro aktuální objemy a termíny nakládky nás kontaktujte."
+		],
+		"specs": {
+			"product": "Mražené divoké borůvky IQF",
+			"botanicalName": "Vaccinium myrtillus",
+			"origin": "Ukrajina",
+			"harvesting": "Ruční sběr divokých bobulí",
+			"environment": "Lesy ukrajinských Karpat",
+			"processing": "Individuální rychlé zmrazení (IQF)",
+			"colour": "Přirozeně tmavě fialová",
+			"fruit": "Divoká borůvka s přirozeně zbarvenou dužinou",
+			"cleaning": "Tříděné a čištěné; bez stopek, listí a cizích příměsí",
+			"storage": "–18 °C nebo méně",
+			"packaging": "Vícevrstvé papírové pytle 25 kg nebo průmyslové oktabiny 400 kg",
+			"moq": "500 kg",
+			"traceability": "Dohledatelnost na úrovni šarže od sběru po hotový výrobek",
+			"foodSafety": "Zpracování podle zásad HACCP",
+			"organic": "Bio šarže na vyžádání, dle dostupnosti",
+			"delivery": "Po celé EU",
+			"incoterms": "FCA, DAP nebo DDP",
+			"documents": "Kompletní exportní a přepravní dokumentace"
+		},
+		"applications": [
+			"Pekařské náplně, cukrářské výrobky a ovocné polevy",
+			"Jogurty a mléčné výrobky",
+			"Zmrzlina a mražené dezerty",
+			"Džemy, zavařeniny a ovocné přípravky",
+			"Smoothie, šťávy a ovocné nápoje",
+			"Ovocné omáčky a pyré",
+			"Cukrovinky a čokoládové výrobky",
+			"Snídaňové produkty a cereálie",
+			"Potravinářské suroviny a ovocné polotovary",
+			"Nutraceutika a funkční potraviny",
+			"Extrakty bohaté na antokyany a přírodní barviva"
 		]
 	},
 
@@ -241,15 +272,45 @@
 			"description": "Mražené brusinky IQF (Vaccinium vitis-idaea) z ukrajinských Karpat. Certifikace HACCP a bio, MOQ 500 kg. Velkoobchodní export FCA/DAP/DDP po celé EU."
 		},
 		"heading": "Mražené brusinky (IQF)",
-		"description": "Mražené lesní brusinky IQF (Vaccinium vitis-idaea), ručně sbírané v čistých lesích ukrajinských Karpat. Přirozeně pevné a lesklé brusinky mají charakteristickou nakyslou, mírně nahořklou chuť a vysoký obsah přírodní kyseliny benzoové, která zajišťuje mimořádně dlouhou trvanlivost s minimálním zpracováním. Zmrazené metodou IQF ve fázi plné zralosti zůstávají sypké a nespékají se, zachovávají si jasně červenou barvu, pevnou strukturu i nutriční hodnoty. Jsou tříděné, čištěné a zbavené stopek, listů i cizích příměsí — připravené k přímému použití ve výrobě. Typické využití: omáčky a přílohy k masu a zvěřině, džemy, zavařeniny a kompoty, pekařské náplně, šťávy a koncentráty a funkční či nutraceutické produkty, kde záleží na vysokém obsahu antioxidantů. Původ je plně dohledatelný od lesa až po hotovou paletu a zpracování probíhá podle standardů HACCP; šarže s certifikací Organic jsou k dispozici na vyžádání. Balení: vícevrstvé papírové pytle 25 kg nebo průmyslové oktabiny 400 kg. Skladování při –18 °C. Minimální objednávka 500 kg. Dodání za podmínek FCA, DAP nebo DDP s kompletní exportní dokumentací.",
-		"benefits": [
-			"Druh: lesní brusinka (Vaccinium vitis-idaea), ruční sběr",
-			"Pevná struktura, jasně červená barva, nakyslá chuť",
-			"Přirozeně vysoký obsah kyseliny benzoové — dlouhá trvanlivost",
-			"IQF, sypké — nespékají se, snadné dávkování",
-			"Bez aditiv, konzervantů a přidaného cukru",
-			"Balení: pytle 25 kg / oktabiny 400 kg",
-			"HACCP · Organic na vyžádání · plná dohledatelnost"
+		"description": [
+			"Prémiové mražené divoké brusinky IQF (Vaccinium vitis-idaea), ručně sbírané v čistých lesích a na horských svazích ukrajinských Karpat a zpracované pro profesionální výrobce potravin, distributory a nákupčí surovin.",
+			"Brusinky se často zaměňují s klikvou (americkou „cranberry“), jde však o odlišné plody: brusinky jsou menší, jasně červené, s typickou kyselou, nahořklou chutí. Přirozeně obsahují kyselinu benzoovou — přírodní konzervant, díky kterému si plody dobře uchovávají kvalitu a jsou stabilní při zpracování. Proto jsou brusinky zvláště cenné pro omáčky, džemy a nápoje, kde záleží na výrazné chuti a čistém složení bez přidaných konzervantů.",
+			"Brusinky jsou zmrazeny metodou IQF ve vrcholu zralosti, aby si zachovaly přirozenou strukturu, barvu, chuť i nutriční hodnoty. Po zmrazení zůstávají sypké a neslepují se, což usnadňuje manipulaci a umožňuje přímé použití ve výrobě.",
+			"Produkt je tříděný a čištěný — stopky, listí a viditelné cizí příměsi jsou odstraněny podle dohodnuté specifikace zákazníka. K dispozici je plná dohledatelnost šarže od místa sběru přes zpracování až po hotovou paletu.",
+			"Sezóna sběru divokých brusinek v ukrajinských Karpatech trvá od srpna do září s vrcholem na konci srpna a v září; ve vyšších polohách může sběr pokračovat až do října. Přesné termíny se každý rok liší podle počasí a nadmořské výšky. Mimo sezónu je produkt dostupný z mražených zásob letošní úrody — pro aktuální objemy a termíny nakládky nás kontaktujte."
+		],
+		"specs": {
+			"product": "Mražené divoké brusinky IQF",
+			"botanicalName": "Vaccinium vitis-idaea",
+			"origin": "Ukrajina",
+			"harvesting": "Ruční sběr divokých bobulí",
+			"environment": "Lesy a horské svahy ukrajinských Karpat",
+			"processing": "Individuální rychlé zmrazení (IQF)",
+			"colour": "Přirozeně jasně červená",
+			"fruit": "Divoká brusinka s kyselou, nahořklou chutí",
+			"cleaning": "Tříděné a čištěné; bez stopek, listí a cizích příměsí",
+			"storage": "–18 °C nebo méně",
+			"packaging": "Vícevrstvé papírové pytle 25 kg nebo průmyslové oktabiny 400 kg",
+			"moq": "500 kg",
+			"traceability": "Dohledatelnost na úrovni šarže od sběru po hotový výrobek",
+			"foodSafety": "Zpracování podle zásad HACCP",
+			"organic": "Bio šarže na vyžádání, dle dostupnosti",
+			"delivery": "Po celé EU",
+			"incoterms": "FCA, DAP nebo DDP",
+			"documents": "Kompletní exportní a přepravní dokumentace"
+		},
+		"applications": [
+			"Omáčky k masu a zvěřině",
+			"Džemy, zavařeniny a marmelády",
+			"Šťávy, ovocné nápoje a moštové nápoje",
+			"Pekařské náplně a cukrářské výrobky",
+			"Jogurty a mléčné výrobky",
+			"Ovocná pyré a ovocné přípravky",
+			"Sirupy, likéry a nálevy",
+			"Snídaňové produkty a cereálie",
+			"Potravinářské suroviny a ovocné polotovary",
+			"Nutraceutika a funkční potraviny",
+			"Extrakty bohaté na polyfenoly a přírodní barviva"
 		]
 	},
 
@@ -259,15 +320,45 @@
 			"description": "Mražené šípky IQF (Rosa canina) z ukrajinských Karpat, vysoký obsah vitamínu C. Certifikace HACCP a bio, MOQ 500 kg. Velkoobchodní export FCA/DAP/DDP po celé EU."
 		},
 		"heading": "Mražené šípky (IQF)",
-		"description": "Mražené lesní šípky IQF (Rosa canina), ručně sbírané v čistých lesích a na okrajích ukrajinských Karpat. Šípky jsou ceněné jako jeden z nejbohatších rostlinných zdrojů vitaminu C, spolu s karotenoidy a flavonoidy, což z nich činí vyhledávanou surovinu pro funkční a nutraceutickou výrobu. Sbírané ve fázi plné zralosti a zmrazené metodou IQF si plod zachovává sytě oranžovočervenou barvu, dužnatou strukturu a teplotně citlivé živiny, které se při sušení degradují — klíčová výhoda formátu IQF pro odběratele, kteří potřebují maximální zachování vitaminů. Podle vašich požadavků se šípky dodávají celé nebo připravené dle specifikace. Typické využití: bylinné čaje a nálevy, pyré a džemy, ovocné náplně, šťávy a sirupy a extrakty a doplňky bohaté na vitamin C. Původ je plně dohledatelný od lesa až po hotovou paletu a zpracování probíhá podle standardů HACCP; šarže s certifikací Organic jsou k dispozici na vyžádání. Balení: vícevrstvé papírové pytle 25 kg nebo průmyslové oktabiny 400 kg. Skladování při –18 °C. Minimální objednávka 500 kg. Dodání za podmínek FCA, DAP nebo DDP s kompletní exportní dokumentací.",
-		"benefits": [
-			"Druh: lesní šípky (Rosa canina), ruční sběr",
-			"Mimořádně vysoký obsah vitaminu C, karotenoidů a flavonoidů",
-			"IQF zachovává teplotně citlivé živiny, které sušení degraduje",
-			"Sytě oranžovočervená barva, dužnatá struktura, plná zralost",
-			"Ideální pro čaje, pyré, extrakty a nutraceutika",
-			"Bez aditiv, konzervantů a přidaného cukru",
-			"Balení: pytle 25 kg / oktabiny 400 kg · HACCP · Organic na vyžádání"
+		"description": [
+			"Prémiové mražené divoké šípky IQF (Rosa canina), ručně sbírané v ekologicky čistých oblastech ukrajinských Karpat a zpracované pro profesionální výrobce potravin, nápojů a doplňků stravy i nákupčí surovin.",
+			"Šípky patří k nejbohatším přírodním zdrojům vitamínu C — obsahují ho několikanásobně více než citrusové plody. Kromě toho obsahují karotenoidy, polyfenoly a pektin, mají sytě červenooranžovou barvu a příjemnou sladkokyselou chuť. Proto jsou šípky klíčovou surovinou pro čaje, sirupy, nápoje a vitamínové produkty, kde záleží na přírodním původu a funkční hodnotě.",
+			"Plody jsou zmrazeny metodou IQF ve vrcholu zralosti, aby si zachovaly strukturu, barvu, chuť i živiny, včetně tepelně citlivého vitamínu C. Po zmrazení zůstávají sypké a neslepují se, což usnadňuje manipulaci a umožňuje přímé použití ve výrobě.",
+			"Produkt je tříděný a čištěný — stopky, zbytky suchých kališních lístků a viditelné cizí příměsi jsou odstraněny podle dohodnuté specifikace zákazníka. Plody se dodávají celé i se semeny; pro pyré, omáčky a džemy se propasírují, aby se oddělila semena a vnitřní chloupky. K dispozici je plná dohledatelnost šarže od místa sběru přes zpracování až po hotovou paletu.",
+			"Sezóna sběru šípků v ukrajinských Karpatech trvá od září do října. Plody se tradičně sbírají po úplném dozrání a chuťově nejlepší jsou po prvních mrazech, kdy změknou a zesládnou. Přesné termíny se každý rok liší podle počasí a nadmořské výšky. Mimo sezónu je produkt dostupný z mražených zásob letošní úrody — pro aktuální objemy a termíny nakládky nás kontaktujte."
+		],
+		"specs": {
+			"product": "Mražené divoké šípky IQF",
+			"botanicalName": "Rosa canina",
+			"origin": "Ukrajina",
+			"harvesting": "Ruční sběr divokých plodů",
+			"environment": "Ekologicky čisté oblasti ukrajinských Karpat",
+			"processing": "Individuální rychlé zmrazení (IQF)",
+			"colour": "Přirozeně červenooranžová",
+			"fruit": "Celé šípky se semeny",
+			"cleaning": "Tříděné a čištěné; bez stopek, kališních lístků a cizích příměsí",
+			"storage": "–18 °C nebo méně",
+			"packaging": "Vícevrstvé papírové pytle 25 kg nebo průmyslové oktabiny 400 kg",
+			"moq": "500 kg",
+			"traceability": "Dohledatelnost na úrovni šarže od sběru po hotový výrobek",
+			"foodSafety": "Zpracování podle zásad HACCP",
+			"organic": "Bio šarže na vyžádání, dle dostupnosti",
+			"delivery": "Po celé EU",
+			"incoterms": "FCA, DAP nebo DDP",
+			"documents": "Kompletní exportní a přepravní dokumentace"
+		},
+		"applications": [
+			"Čaje a bylinné směsi",
+			"Sirupy a vitamínové nápoje",
+			"Šťávy, nektary a ovocné nápoje",
+			"Džemy, pyré a ovocné přípravky",
+			"Omáčky a čatní",
+			"Doplňky stravy a vitamínové komplexy",
+			"Extrakty s vysokým obsahem vitamínu C",
+			"Dětská výživa",
+			"Ovocné želé a dezerty",
+			"Likéry a nálevy",
+			"Potravinářské suroviny a funkční produkty"
 		]
 	},
 
@@ -277,15 +368,45 @@
 			"description": "Mražené švestky IQF z ukrajinských karpatských sadů — celé, půlené nebo bez pecky. Certifikace HACCP a bio, MOQ 500 kg. Velkoobchodní export FCA/DAP/DDP po celé EU."
 		},
 		"heading": "Mražené švestky (IQF)",
-		"description": "Mražené švestky IQF pěstované v sadech ukrajinského karpatského regionu, kde příznivé kontinentální klima dává plody s hlubokou rovnováhou sladkosti a kyselosti. Pracujeme převážně s pevnými peckovými odrůdami typu švestka (freestone), jejichž jantarová dužina a modrofialová slupka dobře drží tvar během mrazení i dalšího zpracování. Zmrazené metodou IQF ve fázi optimální zralosti zůstávají švestky sypké a nespékají se do bloku, takže zpracovatelé mohou dávkovat přesně podle potřeby. Podle vaší linky se švestky dodávají celé, půlené nebo bez pecky dle specifikace. Typické využití: pekařské a cukrářské výrobky (koláče, štrúdly, náplně), pyré, kompoty a džemy, dětská výživa, jogurty a mléčné výrobky, šťávy a také ovocné destiláty a lihoviny — včetně suroviny na slivovici. Veškeré ovoce je tříděné, čištěné a bez cizích příměsí, připravené k přímému průmyslovému využití. Původ je plně dohledatelný od sadu až po hotovou paletu a zpracování probíhá podle standardů HACCP; šarže s certifikací Organic jsou k dispozici na vyžádání. Balení: vícevrstvé papírové pytle 25 kg nebo průmyslové oktabiny 400 kg. Skladování při –18 °C. Minimální objednávka 500 kg. Dodání za podmínek FCA, DAP nebo DDP s kompletní exportní dokumentací.",
-		"benefits": [
-			"Pevné peckové odrůdy typu švestka (freestone), sadové",
-			"Dodávány celé, půlené nebo bez pecky dle specifikace",
-			"IQF, sypké — drží tvar, nespékají se",
-			"Vyvážená sladkost a kyselost, modrofialová slupka",
-			"Ideální pro pekárny, pyré, dětskou výživu i destilaci (slivovice)",
-			"Bez aditiv, konzervantů a přidaného cukru",
-			"Balení: pytle 25 kg / oktabiny 400 kg · HACCP · Organic na vyžádání"
+		"description": [
+			"Prémiové mražené švestky IQF (Prunus domestica), vypěstované v sadech Zakarpatí a zpracované pro profesionální výrobce potravin, distributory a nákupčí surovin.",
+			"Švestky mají tmavě modrou slupku, pevnou žlutozelenou dužinu a vyváženou sladkokyselou chuť. Díky vysokému obsahu pektinu a pevné struktuře si dobře drží tvar při pečení a snadno se svaří do husté konzistence. Proto jsou švestky ideální pro náplně, povidla, džemy a omáčky, kde záleží na plné chuti a stabilní struktuře.",
+			"Plody jsou zmrazeny metodou IQF ve vrcholu zralosti, aby si zachovaly strukturu, barvu, chuť i živiny. Po zmrazení zůstávají sypké a neslepují se, což usnadňuje manipulaci, přesné dávkování a umožňuje přímé použití ve výrobě.",
+			"Podle potřeb výroby dodáváme švestky celé, půlené nebo bez pecky. Produkt je tříděný a čištěný — stopky, listí a viditelné cizí příměsi jsou odstraněny podle dohodnuté specifikace zákazníka. K dispozici je plná dohledatelnost šarže od sadu přes zpracování až po hotovou paletu.",
+			"Sezóna sklizně švestek v Zakarpatí trvá od srpna do září s vrcholem na konci srpna. Přesné termíny se každý rok liší podle počasí a odrůdy. Mimo sezónu je produkt dostupný z mražených zásob letošní úrody — pro aktuální objemy a termíny nakládky nás kontaktujte."
+		],
+		"specs": {
+			"product": "Mražené švestky IQF",
+			"botanicalName": "Prunus domestica",
+			"origin": "Ukrajina",
+			"harvesting": "Sklizeň v sadech v plné zralosti",
+			"environment": "Sady Zakarpatí",
+			"processing": "Individuální rychlé zmrazení (IQF)",
+			"colour": "Tmavě modrá slupka, žlutozelená dužina",
+			"fruit": "Celé, půlené nebo bez pecky",
+			"cleaning": "Tříděné a čištěné; bez stopek, listí a cizích příměsí",
+			"storage": "–18 °C nebo méně",
+			"packaging": "Vícevrstvé papírové pytle 25 kg nebo kartonové krabice 10 kg",
+			"moq": "500 kg",
+			"traceability": "Dohledatelnost na úrovni šarže od sklizně po hotový výrobek",
+			"foodSafety": "Zpracování podle zásad HACCP",
+			"organic": "Bio šarže na vyžádání, dle dostupnosti",
+			"delivery": "Po celé EU",
+			"incoterms": "FCA, DAP nebo DDP",
+			"documents": "Kompletní exportní a přepravní dokumentace"
+		},
+		"applications": [
+			"Náplně do koláčů, buchet a knedlíků",
+			"Povidla, džemy a marmelády",
+			"Ovocné omáčky a čatní",
+			"Pyré a ovocné přípravky",
+			"Kompoty a ovocné nápoje",
+			"Jogurty a mléčné výrobky",
+			"Zmrzlina a mražené dezerty",
+			"Cukrářské výrobky",
+			"Dětská výživa",
+			"Hotová jídla a polotovary",
+			"Potravinářské suroviny a ovocné polotovary"
 		]
 	},
 
@@ -295,15 +416,45 @@
 			"description": "Sušené celé švestky z ukrajinských karpatských sadů — s peckou, přirozeně sušené, bez aditiv a glycerinu. Certifikace HACCP a bio, MOQ 500 kg. Velkoobchodní export FCA/DAP/DDP po celé EU."
 		},
 		"heading": "Sušené celé švestky",
-		"description": "Celé přirozeně sušené švestky (Prunus domestica) ze sadů ukrajinského karpatského regionu. Jde o zralé švestky sušené vcelku, s peckou uvnitř — nic přidaného, nic naneseného. Na rozdíl od upravovaných sušených švestek jsou vyrobeny bez glycerinu, sorbátu, konzervantů a jakékoli povrchové úpravy, a bez uzení, což z nich činí clean-label surovinu pro odběratele, kteří chtějí zcela přírodní sušené ovoce. Pomalé sušení koncentruje vlastní cukry švestky a dává přirozeně tmavou, téměř černou slupku, hutnou žvýkavou dužinu a hlubokou, opravdovou švestkovou chuť bez přidané sladkosti. Díky snížení vlhkosti na stabilní úroveň má produkt dlouhou trvanlivost při pokojové teplotě a nevyžaduje chladicí řetězec, což zjednodušuje skladování i přepravu. Dodává se vcelku, s peckou. Typické využití: kompoty a povidla, pečivo a cukrářské výrobky, snacking, snídaňové cereálie a tradiční masité pokrmy, kde se dává přednost přírodní sušené švestce s peckou. Přirozeně bohaté na vlákninu, sorbitol a draslík. Veškeré ovoce je tříděné, čištěné a bez cizích příměsí. Původ je plně dohledatelný od sadu až po hotovou paletu a zpracování probíhá podle standardů HACCP; šarže s certifikací Organic jsou k dispozici na vyžádání. Balení: kartonové krabice s potravinářskou vložkou, na paletách pro export. Skladujte v chladu a suchu. Minimální objednávka 500 kg. Dodání za podmínek FCA, DAP nebo DDP s kompletní exportní dokumentací.",
-		"benefits": [
-			"Celé švestky (Prunus domestica), sušené s peckou",
-			"Přirozené sušení — bez glycerinu, sorbátu, konzervantů a uzení",
-			"Clean-label: bez aditiv, bez cukru, bez povrchové úpravy",
-			"Přirozeně tmavá slupka, hutná žvýkavá dužina, hluboká švestková chuť",
-			"Přirozeně bohaté na vlákninu, sorbitol a draslík",
-			"Stabilní při pokojové teplotě — bez chladicího řetězce",
-			"Balení: kartonové krabice, na paletách · HACCP · Organic na vyžádání"
+		"description": [
+			"Sušené švestky (Prunus domestica) ze sadů Zakarpatí — celé plody s peckou, sušené přirozeným způsobem bez jakékoli chemické úpravy. Produkt je připraven pro profesionální výrobce potravin, distributory a nákupčí surovin.",
+			"Nejde o běžné průmyslové sušené švestky bez pecky. Ty se většinou ošetřují glycerinem, konzervanty nebo párou, aby byly měkké a lesklé. Naše sušené švestky neobsahují žádné přídatné látky: bez glycerinu, konzervantů, cukru a barviv. Díky přirozenému sušení mají pevnější strukturu, plnou přirozenou chuť a čisté složení („clean label“), které oceňují výrobci zdravých a tradičních potravin.",
+			"Švestky se suší celé i s peckou, což pomáhá zachovat jejich tvar, šťavnatost uvnitř a přirozené aroma. Vlhkost je kontrolována pro stálou kvalitu a dlouhou trvanlivost bez konzervantů.",
+			"Produkt je tříděný a čištěný — stopky, poškozené plody a viditelné cizí příměsi jsou odstraněny podle dohodnuté specifikace zákazníka. K dispozici je plná dohledatelnost šarže od sadu přes sušení až po hotovou paletu.",
+			"Švestky k sušení se sklízejí v Zakarpatí v srpnu až září v plné zralosti, kdy plody nashromáždí nejvíce přírodního cukru. Sušený produkt si dlouho uchovává kvalitu, a proto je k objednání po celý rok — pro aktuální objemy a termíny nakládky nás kontaktujte."
+		],
+		"specs": {
+			"product": "Sušené švestky celé s peckou",
+			"botanicalName": "Prunus domestica",
+			"origin": "Ukrajina",
+			"harvesting": "Sklizeň v sadech v plné zralosti",
+			"environment": "Sady Zakarpatí",
+			"processing": "Přirozené sušení bez chemické úpravy",
+			"colour": "Přirozeně tmavě hnědá až černá",
+			"fruit": "Celé plody s peckou",
+			"cleaning": "Tříděné a čištěné; bez stopek, poškozených plodů a cizích příměsí",
+			"storage": "Suché a chladné místo chráněné před přímým sluncem",
+			"packaging": "Kartonové krabice 10 kg nebo pytle 25 kg",
+			"moq": "500 kg",
+			"traceability": "Dohledatelnost na úrovni šarže od sklizně po hotový výrobek",
+			"foodSafety": "Zpracování podle zásad HACCP",
+			"organic": "Bio šarže na vyžádání, dle dostupnosti",
+			"delivery": "Po celé EU",
+			"incoterms": "FCA, DAP nebo DDP",
+			"documents": "Kompletní exportní a přepravní dokumentace"
+		},
+		"applications": [
+			"Kompoty, ovocné odvary a nápoje",
+			"Náplně do pečiva a cukrářských výrobků",
+			"Povidla a ovocné pasty",
+			"Müsli, granola a cereální tyčinky",
+			"Omáčky k masu a zvěřině",
+			"Dušená jídla a nádivky",
+			"Čajové směsi a ovocné čaje",
+			"Směsi sušeného ovoce",
+			"Zdravé potraviny s čistým složením",
+			"Tradiční a etnická kuchyně",
+			"Potravinářské suroviny a ovocné polotovary"
 		]
 	},
 
@@ -313,15 +464,45 @@
 			"description": "Sušené švestky bez pecky (Prunus domestica) — měkké, kalibrované, bez přidaného cukru. Karpatské sady, HACCP a bio, MOQ 500 kg. Export FCA/DAP/DDP po celé EU."
 		},
 		"heading": "Sušené švestky",
-		"description": "Sušené švestky bez pecky (Prunus domestica) vyrobené z peckových odrůd typu švestka (freestone) pěstovaných v sadech ukrajinského karpatského regionu. Pecka je odstraněna a plod je připraven jako měkká sušená švestka k přímé spotřebě, s vláčnou, jemnou texturou a bohatou karamelově sladkou chutí, která vzniká koncentrací vlastních cukrů švestky během sušení. Sušené švestky jsou kalibrované dle velikosti (počet kusů na kg), takže dostáváte konzistentní kalibr odpovídající vaší lince — ať už pro přímé balení, nebo další zpracování. Protože jsou bez pecky a rovnoměrně měkké, čistě se podávají do automatického zařízení, což z nich činí praktickou surovinu pro velkoobjemovou výrobu. Typické využití: pekařské a cukrářské výrobky, švestková pasta a pyré, ovocné náplně, snacking a dárková balení, snídaňové cereálie a müsli a energetické či ovocné tyčinky. Přirozeně bohaté na vlákninu, sorbitol a draslík, bez přidaného cukru. Veškeré ovoce je tříděné, čištěné a bez cizích příměsí, s vlhkostí udržovanou na stabilní úrovni pro dlouhou trvanlivost při pokojové teplotě bez nutnosti chladicího řetězce. Původ je plně dohledatelný od sadu až po hotovou paletu a zpracování probíhá podle standardů HACCP; šarže s certifikací Organic jsou k dispozici na vyžádání. Balení: kartonové krabice s potravinářskou vložkou, na paletách pro export. Skladujte v chladu a suchu. Minimální objednávka 500 kg. Dodání za podmínek FCA, DAP nebo DDP s kompletní exportní dokumentací.",
-		"benefits": [
-			"Sušené švestky (Prunus domestica) — pecka odstraněna",
-			"Měkká, vláčná textura, k přímé spotřebě",
-			"Kalibrované dle velikosti (ks/kg) pro konzistentní kalibr",
-			"Čistě se podávají do automatických linek",
-			"Bez přidaného cukru · bohaté na vlákninu, sorbitol a draslík",
-			"Stabilní při pokojové teplotě — bez chladicího řetězce",
-			"Balení: kartonové krabice, na paletách · HACCP · Organic na vyžádání"
+		"description": [
+			"Sušené švestky bez pecky (Prunus domestica) ze švestek vypěstovaných v sadech Zakarpatí — měkké, kalibrované podle velikosti a připravené k přímé konzumaci. Produkt je připraven pro profesionální výrobce potravin, cukráře, balírny, distributory a nákupčí surovin.",
+			"Sušené švestky bez pecky jsou praktickým řešením pro výrobu: není třeba je třídit, vypeckovávat ani namáčet. Díky měkké struktuře je lze použít ihned — do náplní, dezertů, snacků i hotových jídel — a kalibrace podle velikosti zajišťuje jednotné porce a stálý vzhled hotového výrobku. Bez přidaného cukru — jen přirozená sladkost zralých švestek.",
+			"Švestky se suší po úplném dozrání, kdy plody nashromáždí nejvíce přírodního cukru. Po usušení se z plodů odstraní pecka a dovedou se do měkké, pružné konzistence. Vlhkost je kontrolována pro stálou kvalitu a dlouhou trvanlivost.",
+			"Produkt je tříděný, čištěný a kalibrovaný podle velikosti — stopky, zbytky pecek, poškozené plody a viditelné cizí příměsi jsou odstraněny podle dohodnuté specifikace zákazníka. Kalibr volíme podle požadavků odběratele. K dispozici je plná dohledatelnost šarže od sadu přes zpracování až po hotovou paletu.",
+			"Švestky k sušení se sklízejí v Zakarpatí v srpnu až září. Hotové sušené švestky si dlouho uchovávají kvalitu, a proto jsou k objednání po celý rok — pro aktuální objemy, kalibry a termíny nakládky nás kontaktujte."
+		],
+		"specs": {
+			"product": "Sušené švestky bez pecky",
+			"botanicalName": "Prunus domestica",
+			"origin": "Ukrajina",
+			"harvesting": "Sklizeň v sadech v plné zralosti",
+			"environment": "Sady Zakarpatí",
+			"processing": "Sušení, vypeckování, změkčení",
+			"colour": "Přirozeně černá s leskem",
+			"fruit": "Bez pecky, měkké, kalibrované podle velikosti",
+			"cleaning": "Tříděné a čištěné; bez stopek, zbytků pecek a cizích příměsí",
+			"storage": "Suché a chladné místo chráněné před přímým sluncem",
+			"packaging": "Kartonové krabice 10 kg s PE vložkou",
+			"moq": "500 kg",
+			"traceability": "Dohledatelnost na úrovni šarže od sklizně po hotový výrobek",
+			"foodSafety": "Zpracování podle zásad HACCP",
+			"organic": "Bio šarže na vyžádání, dle dostupnosti",
+			"delivery": "Po celé EU",
+			"incoterms": "FCA, DAP nebo DDP",
+			"documents": "Kompletní exportní a přepravní dokumentace"
+		},
+		"applications": [
+			"Švestky v čokoládě a cukrovinky",
+			"Náplně do pečiva a dortů",
+			"Snacky a balení pro maloobchod",
+			"Müsli, granola a cereální tyčinky",
+			"Saláty a studené předkrmy",
+			"Masová jídla, omáčky a nádivky",
+			"Jogurty a mléčné dezerty",
+			"Ovocné pasty a pyré",
+			"Dětská a zdravá výživa",
+			"Směsi sušeného ovoce",
+			"HoReCa a hotová jídla"
 		]
 	},
 
@@ -331,15 +512,45 @@
 			"description": "Mražené bezinky IQF (Sambucus nigra) na sirupy, extrakty a přírodní barvivo. Karpatský původ, HACCP a bio, MOQ 500 kg. Velkoobchodní export FCA/DAP/DDP po celé EU."
 		},
 		"heading": "Mražené plody černého bezu (IQF)",
-		"description": "Mražené plody divokého černého bezu IQF (Sambucus nigra), ručně sbírané v čistých lesích a na okrajích ukrajinských Karpat. Černý bez patří k nejbohatším přírodním zdrojům anthokyanů, ceněný jak pro svou sytou tmavě fialovočernou barvicí schopnost, tak pro pověst podporovatele imunity, což vytváří silnou poptávku v odvětví nutraceutik a funkčních potravin. Protože se syrový černý bez nekonzumuje čerstvý, jde o surovinu ke zpracování: plody se zmrazují metodou IQF ve fázi plné zralosti, aby se zafixovala barva i teplotně citlivé látky, než se dostanou na vaši linku. Pečlivě zbavené stopek, tříděné a čištěné plody zůstávají sypké pro přesné dávkování. Typické využití: sirupy, kordialy a koncentráty, doplňky stravy a extrakty, přírodní potravinářské barvivo, víno a likéry, džemy a zavařeniny. Původ je plně dohledatelný od lesa až po hotovou paletu a zpracování probíhá podle standardů HACCP; šarže s certifikací Organic jsou k dispozici na vyžádání. Balení: vícevrstvé papírové pytle 25 kg nebo průmyslové oktabiny 400 kg. Skladování při –18 °C. Minimální objednávka 500 kg. Dodání za podmínek FCA, DAP nebo DDP s kompletní exportní dokumentací.",
-		"benefits": [
-			"Druh: divoký černý bez (Sambucus nigra), ruční sběr, bez stopek",
-			"Mimořádně vysoký obsah anthokyanů — silná přírodní barva",
-			"Klíčová surovina pro sirupy, extrakty a doplňky",
-			"IQF zachovává barvu a teplotně citlivé látky",
-			"Sypké — přesné dávkování na zpracovatelských linkách",
-			"Bez aditiv, konzervantů a přidaného cukru",
-			"Balení: pytle 25 kg / oktabiny 400 kg · HACCP · Organic na vyžádání"
+		"description": [
+			"Prémiové mražené divoké bezinky IQF (Sambucus nigra), ručně sbírané v ekologicky čistých oblastech ukrajinských Karpat a zpracované pro profesionální výrobce sirupů, nápojů, doplňků stravy a přírodních barviv i nákupčí surovin.",
+			"Bez černý patří k nejbohatším přírodním zdrojům antokyanů: sytá tmavě fialová barva plodů zajišťuje silnou přirozenou barvicí schopnost. Plody obsahují také flavonoidy a vitamíny, proto jsou bezinky klíčovou surovinou pro sirupy na podporu imunity, extrakty a funkční nápoje. Upozornění: bezinky jsou surovinou ke zpracování a před konzumací je nutné je tepelně upravit.",
+			"Plody jsou zmrazeny metodou IQF ve vrcholu zralosti, aby si až do zpracování zachovaly barvu, tepelně citlivé látky i živiny. Po zmrazení zůstávají sypké a neslepují se, což usnadňuje manipulaci, přesné dávkování a umožňuje přímé použití ve výrobě.",
+			"Produkt je tříděný a čištěný: plody jsou odděleny od okolíků, stopky, listí a viditelné cizí příměsi jsou odstraněny podle dohodnuté specifikace zákazníka. K dispozici je plná dohledatelnost šarže od místa sběru přes zpracování až po hotovou paletu.",
+			"Sezóna sběru bezinek v ukrajinských Karpatech probíhá v srpnu, v chladnějších a vyšších polohách až do začátku září. Přesné termíny se každý rok liší podle počasí a nadmořské výšky. Mimo sezónu je produkt dostupný z mražených zásob letošní úrody — pro aktuální objemy a termíny nakládky nás kontaktujte."
+		],
+		"specs": {
+			"product": "Mražené divoké bezinky IQF",
+			"botanicalName": "Sambucus nigra",
+			"origin": "Ukrajina",
+			"harvesting": "Ruční sběr divokých plodů",
+			"environment": "Ekologicky čisté oblasti ukrajinských Karpat",
+			"processing": "Individuální rychlé zmrazení (IQF)",
+			"colour": "Přirozeně tmavě fialová až černá",
+			"fruit": "Plody oddělené od okolíků",
+			"cleaning": "Tříděné a čištěné; bez stopek, listí a cizích příměsí",
+			"storage": "–18 °C nebo méně",
+			"packaging": "Vícevrstvé papírové pytle 25 kg nebo průmyslové oktabiny 400 kg",
+			"moq": "500 kg",
+			"traceability": "Dohledatelnost na úrovni šarže od sběru po hotový výrobek",
+			"foodSafety": "Zpracování podle zásad HACCP",
+			"organic": "Bio šarže na vyžádání, dle dostupnosti",
+			"delivery": "Po celé EU",
+			"incoterms": "FCA, DAP nebo DDP",
+			"documents": "Kompletní exportní a přepravní dokumentace"
+		},
+		"applications": [
+			"Sirupy, včetně sirupů na podporu imunity",
+			"Extrakty a doplňky stravy",
+			"Přírodní barviva na bázi antokyanů",
+			"Šťávy, nektary a koncentráty",
+			"Džemy, marmelády a ovocné přípravky",
+			"Funkční nápoje a želé bonbony",
+			"Čaje a ovocné směsi",
+			"Vína, likéry a nálevy",
+			"Pekařské náplně",
+			"Omáčky a čatní",
+			"Potravinářské suroviny a funkční produkty"
 		]
 	},
 
@@ -349,15 +560,45 @@
 			"description": "Mražené jahody IQF — celé, kalibrované, plátky, kostky nebo pyré. Karpatské farmy, HACCP a bio, MOQ 500 kg. Velkoobchodní export FCA/DAP/DDP po celé EU."
 		},
 		"heading": "Mražené jahody (IQF)",
-		"description": "Mražené jahody IQF (Fragaria × ananassa) pěstované na farmách ukrajinského karpatského regionu a zpracované ve fázi plné zralosti. Pracujeme s pevnými, sytě červenými odrůdami vybranými pro schopnost udržet barvu a strukturu během mrazení — což je přesně to, na co průmysloví odběratelé spoléhají pro konzistentní finální produkt. Zmrazené metodou IQF zůstávají jahody sypké a nespékají se do bloku, takže zpracovatelé mohou přesně dávkovat a rozmrazit jen to, co potřebují. Podle vaší linky se jahody dodávají celé, kalibrované dle velikosti, plátkované, krájené na kostičky nebo jako pyré. Veškeré ovoce je zbavené kalíšku (de-capped), tříděné, čištěné a bez stopek a cizích příměsí, připravené k přímému průmyslovému využití. Typické využití: pekařské a cukrářské výrobky, jogurty a mléčné výrobky, zmrzlina a dezerty, džemy, zavařeniny a náplně, smoothie, šťávy a koncentráty. Mrazení IQF zachovává přírodní barvu, aroma a živiny, včetně vysokého obsahu přírodního vitaminu C. Původ je plně dohledatelný od pole až po hotovou paletu a zpracování probíhá podle standardů HACCP; šarže s certifikací Organic jsou k dispozici na vyžádání. Balení: vícevrstvé papírové pytle 25 kg nebo průmyslové oktabiny 400 kg. Skladování při –18 °C. Minimální objednávka 500 kg. Dodání za podmínek FCA, DAP nebo DDP s kompletní exportní dokumentací.",
-		"benefits": [
-			"Pevné, sytě červené odrůdy vybrané pro zachování barvy",
-			"Dodávány celé, kalibrované, plátky, kostičky nebo pyré",
-			"Zbavené kalíšku, tříděné, bez stopek a cizích příměsí",
-			"IQF, sypké — přesné dávkování, nespékají se",
-			"Vysoký obsah přírodního vitaminu C · bez aditiv a cukru",
-			"Ideální pro pekárny, mléčné výrobky, zmrzlinu, džemy a smoothie",
-			"Balení: pytle 25 kg / oktabiny 400 kg · HACCP · Organic na vyžádání"
+		"description": [
+			"Prémiové mražené jahody IQF (Fragaria × ananassa), vypěstované na farmách v Zakarpatí a zpracované pro profesionální výrobce potravin, distributory a nákupčí surovin.",
+			"Jahody mají jasně červenou barvu, šťavnatou dužinu a plné sladké aroma — patří k nejoblíbenějším plodům v mlékárenském, pekařském a nápojovém průmyslu. Sezóna čerstvých jahod je krátká, a proto mražené jahody umožňují výrobcům pracovat se stálou kvalitou a chutí po celý rok.",
+			"Jahody se ručně sbírají v plné zralosti a zmrazují metodou IQF, aby si zachovaly barvu, aroma, chuť i živiny. Po zmrazení zůstávají sypké a neslepují se, což usnadňuje manipulaci, přesné dávkování a umožňuje přímé použití ve výrobě.",
+			"Podle potřeb výroby dodáváme jahody celé, kalibrované podle velikosti, na plátky, na kostky nebo jako pyré. Produkt je tříděný a čištěný — kališní lístky, stopky a viditelné cizí příměsi jsou odstraněny podle dohodnuté specifikace zákazníka. K dispozici je plná dohledatelnost šarže od pole přes zpracování až po hotovou paletu.",
+			"Sezóna sklizně jahod v Zakarpatí trvá od června do července s vrcholem v polovině června. Přesné termíny se každý rok liší podle počasí a odrůdy. Mimo sezónu je produkt dostupný z mražených zásob letošní úrody — pro aktuální objemy a termíny nakládky nás kontaktujte."
+		],
+		"specs": {
+			"product": "Mražené jahody IQF",
+			"botanicalName": "Fragaria × ananassa",
+			"origin": "Ukrajina",
+			"harvesting": "Ruční sběr v plné zralosti",
+			"environment": "Farmy v Zakarpatí",
+			"processing": "Individuální rychlé zmrazení (IQF)",
+			"colour": "Přirozeně jasně červená",
+			"fruit": "Celé, kalibrované, plátky, kostky nebo pyré",
+			"cleaning": "Tříděné a čištěné; bez kališních lístků, stopek a cizích příměsí",
+			"storage": "–18 °C nebo méně",
+			"packaging": "Vícevrstvé papírové pytle 25 kg nebo kartonové krabice 10 kg",
+			"moq": "500 kg",
+			"traceability": "Dohledatelnost na úrovni šarže od sklizně po hotový výrobek",
+			"foodSafety": "Zpracování podle zásad HACCP",
+			"organic": "Bio šarže na vyžádání, dle dostupnosti",
+			"delivery": "Po celé EU",
+			"incoterms": "FCA, DAP nebo DDP",
+			"documents": "Kompletní exportní a přepravní dokumentace"
+		},
+		"applications": [
+			"Jogurty a mléčné výrobky",
+			"Zmrzlina a mražené dezerty",
+			"Pekařské náplně a polevy",
+			"Džemy, marmelády a ovocné přípravky",
+			"Smoothie, šťávy a ovocné nápoje",
+			"Ovocná pyré a omáčky",
+			"Cukrovinky a čokoládové výrobky",
+			"Snídaňové produkty a cereálie",
+			"Dezerty a dorty",
+			"Koktejly a HoReCa",
+			"Potravinářské suroviny a ovocné polotovary"
 		]
 	},
 
@@ -367,15 +608,45 @@
 			"description": "Mražené maliny IQF z ukrajinských karpatských farem — celé, drť/lámané nebo pyré. HACCP a bio, MOQ 500 kg. Velkoobchodní export FCA/DAP/DDP po celé EU."
 		},
 		"heading": "Mražené maliny (IQF)",
-		"description": "Mražené maliny IQF (Rubus idaeus) pěstované na farmách ukrajinského karpatského regionu a zpracované ve fázi plné zralosti. Maliny jsou jemné ovoce s dutým jádrem, proto jsou šetrný sběr a jemné individuální zmrazení zásadní pro zachování celých, neporušených plodů s jasně červenou barvou, aroma a strukturou. Zmrazené jednotlivě zůstávají sypké pro přesné dávkování a řízené rozmrazování. Podle vašich požadavků a cenové úrovně se maliny dodávají jako celý plod (whole grade), drť (broken — lámané plody) pro nákladově efektivní zpracování, nebo jako pyré bez semínek. Veškeré ovoce je tříděné, čištěné a bez listů a cizích příměsí, připravené k přímému průmyslovému využití. Typické využití: pekařské a cukrářské výrobky, jogurty a mléčné výrobky, zmrzlina a dezerty, coulis a omáčky, džemy, zavařeniny a náplně, smoothie, šťávy a koncentráty. Mrazení IQF zachovává přírodní barvu, intenzivní chuť a živiny, včetně přírodního vitaminu C a kyseliny elagové. Původ je plně dohledatelný od pole až po hotovou paletu a zpracování probíhá podle standardů HACCP; šarže s certifikací Organic jsou k dispozici na vyžádání. Balení: vícevrstvé papírové pytle 25 kg nebo průmyslové oktabiny 400 kg. Skladování při –18 °C. Minimální objednávka 500 kg. Dodání za podmínek FCA, DAP nebo DDP s kompletní exportní dokumentací.",
-		"benefits": [
-			"Kalibry: celé, drť (broken) nebo pyré bez semínek",
-			"Jemné IQF zachovává celý, neporušený jemný plod",
-			"Jasně červená barva, intenzivní aroma, pevná struktura",
-			"Sypké — přesné dávkování, nespékají se",
-			"Přírodní vitamin C a kyselina elagová · bez aditiv a cukru",
-			"Ideální pro pekárny, mléčné výrobky, coulis, džemy a smoothie",
-			"Balení: pytle 25 kg / oktabiny 400 kg · HACCP · Organic na vyžádání"
+		"description": [
+			"Prémiové mražené maliny IQF (Rubus idaeus), vypěstované na farmách v Zakarpatí a zpracované pro profesionální výrobce potravin, distributory a nákupčí surovin.",
+			"Maliny mají jasně rubínově červenou barvu, jemnou šťavnatou dužinu a plné aroma — patří k nejcennějším plodům pro mlékárenský, pekařský a nápojový průmysl. Zároveň jde o velmi křehké plody, které je těžké uchovat celé, a proto je správné zmrazení pro kvalitu zásadní.",
+			"Maliny se ručně sbírají v plné zralosti a zmrazují metodou IQF — šetrné rychlé zmrazení zachovává celistvost křehkých plodů spolu s jejich barvou, aroma a chutí. Po zmrazení zůstávají sypké a neslepují se, což usnadňuje manipulaci, přesné dávkování a umožňuje přímé použití ve výrobě.",
+			"Podle požadavků a cenové kategorie dodáváme maliny celé, jako drť (lámané plody) pro ekonomické zpracování nebo jako pyré bez semínek. Produkt je tříděný a čištěný — stopky, listí a viditelné cizí příměsi jsou odstraněny podle dohodnuté specifikace zákazníka. K dispozici je plná dohledatelnost šarže od pole přes zpracování až po hotovou paletu.",
+			"Sezóna sklizně malin v Zakarpatí trvá od července do srpna s vrcholem v polovině července. Přesné termíny se každý rok liší podle počasí a odrůdy. Mimo sezónu je produkt dostupný z mražených zásob letošní úrody — pro aktuální objemy a termíny nakládky nás kontaktujte."
+		],
+		"specs": {
+			"product": "Mražené maliny IQF",
+			"botanicalName": "Rubus idaeus",
+			"origin": "Ukrajina",
+			"harvesting": "Ruční sběr v plné zralosti",
+			"environment": "Farmy v Zakarpatí",
+			"processing": "Individuální rychlé zmrazení (IQF)",
+			"colour": "Přirozeně rubínově červená",
+			"fruit": "Celé, drť (lámané) nebo pyré bez semínek",
+			"cleaning": "Tříděné a čištěné; bez stopek, listí a cizích příměsí",
+			"storage": "–18 °C nebo méně",
+			"packaging": "Kartonové krabice 10 kg",
+			"moq": "500 kg",
+			"traceability": "Dohledatelnost na úrovni šarže od sklizně po hotový výrobek",
+			"foodSafety": "Zpracování podle zásad HACCP",
+			"organic": "Bio šarže na vyžádání, dle dostupnosti",
+			"delivery": "Po celé EU",
+			"incoterms": "FCA, DAP nebo DDP",
+			"documents": "Kompletní exportní a přepravní dokumentace"
+		},
+		"applications": [
+			"Jogurty a mléčné výrobky",
+			"Zmrzlina a mražené dezerty",
+			"Pekařské náplně a polevy",
+			"Džemy, marmelády a ovocné přípravky",
+			"Smoothie, šťávy a ovocné nápoje",
+			"Ovocná pyré a omáčky",
+			"Cukrovinky a čokoládové výrobky",
+			"Snídaňové produkty a cereálie",
+			"Dezerty a dorty",
+			"Koktejly a HoReCa",
+			"Potravinářské suroviny a ovocné polotovary"
 		]
 	},
 
@@ -385,15 +656,45 @@
 			"description": "Mražené meruňky IQF z ukrajinských karpatských sadů — půlené a bez pecky nebo kostky. HACCP a bio, MOQ 500 kg. Velkoobchodní export FCA/DAP/DDP po celé EU."
 		},
 		"heading": "Mražené meruňky (IQF)",
-		"description": "Mražené meruňky IQF (Prunus armeniaca) pěstované v sadech ukrajinského karpatského regionu a zpracované ve fázi plné zralosti, kdy plod dosahuje plného aroma a syté oranžové barvy. Pracujeme s pevnými peckovými odrůdami s volnou peckou (freestone), jejichž dužina drží tvar během mrazení i zpracování — což je důležité pro odběratele, kteří potřebují čisté, celé půlky, a ne kaši. Zmrazené metodou IQF zůstává ovoce sypké pro přesné dávkování a řízené rozmrazování. Podle vaší linky se meruňky dodávají půlené bez pecky nebo krájené na kostičky dle specifikace. Veškeré ovoce je omyté, tříděné, čištěné a bez cizích příměsí, připravené k přímému průmyslovému využití. Typické využití: pekařské a cukrářské výrobky (koláče, dánské pečivo, náplně), džemy, zavařeniny a ovocné pomazánky, pyré a kompoty, dětská výživa, jogurty a mléčné výrobky, šťávy, nektary a dezerty. Mrazení IQF zachovává přírodní barvu, aroma a karotenoidy, které dávají meruňkám charakteristický oranžový odstín. Původ je plně dohledatelný od sadu až po hotovou paletu a zpracování probíhá podle standardů HACCP; šarže s certifikací Organic jsou k dispozici na vyžádání. Balení: vícevrstvé papírové pytle 25 kg nebo průmyslové oktabiny 400 kg. Skladování při –18 °C. Minimální objednávka 500 kg. Dodání za podmínek FCA, DAP nebo DDP s kompletní exportní dokumentací.",
-		"benefits": [
-			"Pevné peckové odrůdy s volnou peckou (Prunus armeniaca), sadové",
-			"Dodávány půlené bez pecky nebo krájené na kostičky dle specifikace",
-			"Drží tvar — čisté celé půlky, ne kaše",
-			"Sytě oranžová barva, bohaté na přírodní karotenoidy",
-			"IQF, sypké — přesné dávkování, nespékají se",
-			"Bez aditiv, konzervantů a přidaného cukru",
-			"Balení: pytle 25 kg / oktabiny 400 kg · HACCP · Organic na vyžádání"
+		"description": [
+			"Prémiové mražené meruňky IQF (Prunus armeniaca), vypěstované v sadech Zakarpatí a zpracované pro profesionální výrobce potravin, distributory a nákupčí surovin.",
+			"Meruňky mají zlatooranžovou dužinu, jemnou strukturu a plné sladké aroma s lehkou kyselinkou. Jsou přirozeně bohaté na beta-karoten a pektin, dobře si drží tvar při pečení a dodávají hotovému výrobku sytou přirozenou barvu. Proto jsou meruňky zvláště cenné pro pečivo, džemy, mléčné výrobky a dezerty.",
+			"Plody se sklízejí v plné zralosti a zmrazují metodou IQF, aby si zachovaly barvu, aroma, chuť i živiny. Po zmrazení zůstávají sypké a neslepují se, což usnadňuje manipulaci, přesné dávkování a umožňuje přímé použití ve výrobě.",
+			"Podle potřeb výroby dodáváme meruňky půlené bez pecky nebo na kostky. Produkt je tříděný a čištěný — pecky, stopky a viditelné cizí příměsi jsou odstraněny podle dohodnuté specifikace zákazníka. K dispozici je plná dohledatelnost šarže od sadu přes zpracování až po hotovou paletu.",
+			"Sezóna sklizně meruněk v Zakarpatí trvá od července do srpna s vrcholem na konci července. Přesné termíny se každý rok liší podle počasí a odrůdy. Mimo sezónu je produkt dostupný z mražených zásob letošní úrody — pro aktuální objemy a termíny nakládky nás kontaktujte."
+		],
+		"specs": {
+			"product": "Mražené meruňky IQF",
+			"botanicalName": "Prunus armeniaca",
+			"origin": "Ukrajina",
+			"harvesting": "Sklizeň v sadech v plné zralosti",
+			"environment": "Sady Zakarpatí",
+			"processing": "Individuální rychlé zmrazení (IQF)",
+			"colour": "Přirozeně zlatooranžová",
+			"fruit": "Půlené bez pecky nebo kostky",
+			"cleaning": "Tříděné a čištěné; bez pecek, stopek a cizích příměsí",
+			"storage": "–18 °C nebo méně",
+			"packaging": "Kartonové krabice 10 kg nebo vícevrstvé papírové pytle 25 kg",
+			"moq": "500 kg",
+			"traceability": "Dohledatelnost na úrovni šarže od sklizně po hotový výrobek",
+			"foodSafety": "Zpracování podle zásad HACCP",
+			"organic": "Bio šarže na vyžádání, dle dostupnosti",
+			"delivery": "Po celé EU",
+			"incoterms": "FCA, DAP nebo DDP",
+			"documents": "Kompletní exportní a přepravní dokumentace"
+		},
+		"applications": [
+			"Náplně do koláčů, buchet a knedlíků",
+			"Džemy, marmelády a ovocné přípravky",
+			"Jogurty a mléčné výrobky",
+			"Zmrzlina a mražené dezerty",
+			"Ovocná pyré a omáčky",
+			"Omáčky a čatní k masu",
+			"Kompoty a ovocné nápoje",
+			"Cukrářské výrobky",
+			"Dětská výživa",
+			"Snídaňové produkty a cereálie",
+			"Potravinářské suroviny a ovocné polotovary"
 		]
 	},
 
@@ -403,15 +704,45 @@
 			"description": "Mražená červená paprika IQF z ukrajinských karpatských farem — kostky, nudličky nebo půlky. Certifikace HACCP, MOQ 500 kg. Velkoobchodní export FCA/DAP/DDP po celé EU."
 		},
 		"heading": "Mražená červená paprika (IQF)",
-		"description": "Mražená červená paprika IQF (Capsicum annuum) pěstovaná na farmách ukrajinského karpatského regionu a zpracovaná ve fázi plné zralosti, kdy je plod zcela červený, sladký a tlustostěnný. Paprika se myje, zbavuje semen a stopky, krájí a poté zmrazuje metodou IQF, takže kousky zůstávají oddělené a sypké a nespékají se do bloku — připravené nasypat přímo do výroby bez rozmrazování a bez odpadu. Podle vaší linky se červená paprika dodává krájená na kostičky (obvykle 10×10 mm nebo dle specifikace), na nudličky, nebo jako půlky. Mrazení IQF uzamyká přírodní sladkost, pevnou strukturu, jasně červenou barvu a vysoký obsah vitaminu C čerstvé papriky — k dispozici celoročně nezávisle na sezoně. Typické využití: hotová jídla a polotovary, polévky, omáčky a dušené pokrmy, topping na pizzu a pečivo, mražené zeleninové směsi, gastro a catering. Veškerá produkce je tříděná, čištěná a bez cizích příměsí. Původ je plně dohledatelný od pole až po hotovou paletu a zpracování probíhá podle standardů HACCP; šarže s certifikací Organic jsou k dispozici na vyžádání. Balení: vícevrstvé papírové pytle 25 kg nebo průmyslové oktabiny 400 kg. Skladování při –18 °C. Minimální objednávka 500 kg. Dodání za podmínek FCA, DAP nebo DDP s kompletní exportní dokumentací.",
-		"benefits": [
-			"Červeně zralá Capsicum annuum, polní, tlustostěnná",
-			"Dodávána kostičky (10×10 mm nebo dle spec.), nudličky nebo půlky",
-			"Bez semen a stopky — připravená k použití, bez odpadu",
-			"IQF, sypká — nasypat přímo do výroby",
-			"Vysoký obsah vitaminu C · jasně červená barva zachována",
-			"K dispozici celoročně, nezávisle na sezoně",
-			"Balení: pytle 25 kg / oktabiny 400 kg · HACCP · Organic na vyžádání"
+		"description": [
+			"Prémiová mražená červená paprika IQF (Capsicum annuum), vypěstovaná na farmách v Zakarpatí a zpracovaná pro profesionální výrobce potravin a hotových jídel, distributory a nákupčí surovin.",
+			"Červená paprika má silné masité stěny, sytou červenou barvu a jemnou sladkou chuť bez pálivosti. Je přirozeně bohatá na vitamín C a karotenoidy a dodává hotovým jídlům výraznou přirozenou barvu. Proto je paprika jednou z klíčových zeleninových surovin pro pizzu, hotová jídla, omáčky a zeleninové směsi.",
+			"Paprika se sklízí v plné zralosti, důkladně se umyje, zbaví stopek a semínek, nakrájí a zmrazí metodou IQF, aby si zachovala barvu, strukturu, chuť i živiny. Po zmrazení zůstávají kousky sypké a neslepují se, což umožňuje přesné dávkování a přímé použití ve výrobě.",
+			"Podle potřeb výroby dodáváme papriku na kostky, nudličky nebo půlky; velikost řezu dohodneme se zákazníkem. Produkt je tříděný a čištěný — stopky, semínka, přepážky a viditelné cizí příměsi jsou odstraněny podle dohodnuté specifikace. K dispozici je plná dohledatelnost šarže od pole přes zpracování až po hotovou paletu.",
+			"Sezóna sklizně papriky v Zakarpatí trvá od srpna do října s vrcholem v září. Přesné termíny se každý rok liší podle počasí. Mimo sezónu je produkt dostupný z mražených zásob letošní úrody — pro aktuální objemy a termíny nakládky nás kontaktujte."
+		],
+		"specs": {
+			"product": "Mražená červená paprika IQF",
+			"botanicalName": "Capsicum annuum",
+			"origin": "Ukrajina",
+			"harvesting": "Sklizeň v plné zralosti",
+			"environment": "Farmy v Zakarpatí",
+			"processing": "Mytí, čištění, krájení a individuální rychlé zmrazení (IQF)",
+			"colour": "Přirozeně sytě červená",
+			"fruit": "Kostky, nudličky nebo půlky",
+			"cleaning": "Bez stopek, semínek, přepážek a cizích příměsí",
+			"storage": "–18 °C nebo méně",
+			"packaging": "Kartonové krabice 10 kg nebo vícevrstvé papírové pytle 25 kg",
+			"moq": "500 kg",
+			"traceability": "Dohledatelnost na úrovni šarže od sklizně po hotový výrobek",
+			"foodSafety": "Zpracování podle zásad HACCP",
+			"organic": "Konvenční pěstování",
+			"delivery": "Po celé EU",
+			"incoterms": "FCA, DAP nebo DDP",
+			"documents": "Kompletní exportní a přepravní dokumentace"
+		},
+		"applications": [
+			"Pizza a posypy",
+			"Hotová jídla a polotovary",
+			"Zeleninové směsi",
+			"Omáčky, lečo a zeleninové pasty",
+			"Polévky a vývary",
+			"Wok a restovaná jídla",
+			"Dušená jídla a ragú",
+			"Náplně a zapékané pokrmy",
+			"Konzervování a nakládání",
+			"HoReCa a catering",
+			"Potravinářské suroviny a zeleninové polotovary"
 		]
 	},
 
@@ -421,15 +752,45 @@
 			"description": "Mražená zelená paprika IQF z karpatských farem — kostky, nudličky nebo půlky. Certifikace HACCP, MOQ 500 kg. Velkoobchodní export FCA/DAP/DDP po celé EU."
 		},
 		"heading": "Mražená zelená paprika (IQF)",
-		"description": "Mražená zelená paprika IQF (Capsicum annuum) pěstovaná na farmách ukrajinského karpatského regionu a sklizená před plným dozráním, což jí dodává charakteristickou křupavou strukturu a svěží, mírně travnatou, pikantní chuť — méně sladkou a ostřejší než červená paprika. Proto je zelená paprika volbou tam, kde záleží na pevném soustu a zeleninovém tónu, a kde zpracovatel potřebuje zelený barevný kontrast ve směsi. Paprika se myje, zbavuje semen a stopky, krájí a poté zmrazuje metodou IQF, takže kousky zůstávají oddělené a sypké a nespékají se do bloku — připravené nasypat přímo do výroby bez rozmrazování a bez odpadu. Podle vaší linky se zelená paprika dodává krájená na kostičky (obvykle 10×10 mm nebo dle specifikace), na nudličky, nebo jako půlky. Mrazení IQF zachovává pevnou strukturu a jasně zelenou barvu celoročně, nezávisle na sezoně. Typické využití: hotová jídla a polotovary, směsi na stir-fry a fajitas, polévky, omáčky a dušené pokrmy, topping na pizzu a pečivo, a zeleninové směsi s barevným kontrastem. Veškerá produkce je tříděná, čištěná a bez cizích příměsí. Původ je plně dohledatelný od pole až po hotovou paletu a zpracování probíhá podle standardů HACCP; šarže s certifikací Organic jsou k dispozici na vyžádání. Balení: vícevrstvé papírové pytle 25 kg nebo průmyslové oktabiny 400 kg. Skladování při –18 °C. Minimální objednávka 500 kg. Dodání za podmínek FCA, DAP nebo DDP s kompletní exportní dokumentací.",
-		"benefits": [
-			"Zelená Capsicum annuum, sklizená před dozráním — křupavá a pevná",
-			"Svěží, mírně travnatá, pikantní chuť — méně sladká než červená",
-			"Dodávána kostičky (10×10 mm nebo dle spec.), nudličky nebo půlky",
-			"Bez semen a stopky — připravená k použití, bez odpadu",
-			"IQF, sypká — nasypat přímo do výroby",
-			"Jasně zelená barva zachována · k dispozici celoročně",
-			"Balení: pytle 25 kg / oktabiny 400 kg · HACCP · Organic na vyžádání"
+		"description": [
+			"Prémiová mražená zelená paprika IQF (Capsicum annuum), vypěstovaná na farmách v Zakarpatí a zpracovaná pro profesionální výrobce potravin a hotových jídel, distributory a nákupčí surovin.",
+			"Zelená paprika se sklízí v technické zralosti, ještě před úplným dozráním. Proto má svěží, lehce bylinnou chuť, méně sladkou než červená paprika, křupavou strukturu a sytě zelenou barvu. Dobře si drží strukturu při tepelné úpravě a dodává hotovým jídlům svěžest a barevný kontrast — zejména na pizze, v ragú, zeleninových směsích a jídlech z woku.",
+			"Paprika se sklízí v technické zralosti, důkladně se umyje, zbaví stopek a semínek, nakrájí a zmrazí metodou IQF, aby si zachovala barvu, strukturu, chuť i živiny. Po zmrazení zůstávají kousky sypké a neslepují se, což umožňuje přesné dávkování a přímé použití ve výrobě.",
+			"Podle potřeb výroby dodáváme papriku na kostky, nudličky nebo půlky; velikost řezu dohodneme se zákazníkem. Produkt je tříděný a čištěný — stopky, semínka, přepážky a viditelné cizí příměsi jsou odstraněny podle dohodnuté specifikace. K dispozici je plná dohledatelnost šarže od pole přes zpracování až po hotovou paletu.",
+			"Sezóna sklizně zelené papriky v Zakarpatí trvá od července do září s vrcholem v srpnu. Přesné termíny se každý rok liší podle počasí. Mimo sezónu je produkt dostupný z mražených zásob letošní úrody — pro aktuální objemy a termíny nakládky nás kontaktujte."
+		],
+		"specs": {
+			"product": "Mražená zelená paprika IQF",
+			"botanicalName": "Capsicum annuum",
+			"origin": "Ukrajina",
+			"harvesting": "Sklizeň v technické zralosti",
+			"environment": "Farmy v Zakarpatí",
+			"processing": "Mytí, čištění, krájení a individuální rychlé zmrazení (IQF)",
+			"colour": "Přirozeně sytě zelená",
+			"fruit": "Kostky, nudličky nebo půlky",
+			"cleaning": "Bez stopek, semínek, přepážek a cizích příměsí",
+			"storage": "–18 °C nebo méně",
+			"packaging": "Kartonové krabice 10 kg nebo vícevrstvé papírové pytle 25 kg",
+			"moq": "500 kg",
+			"traceability": "Dohledatelnost na úrovni šarže od sklizně po hotový výrobek",
+			"foodSafety": "Zpracování podle zásad HACCP",
+			"organic": "Konvenční pěstování",
+			"delivery": "Po celé EU",
+			"incoterms": "FCA, DAP nebo DDP",
+			"documents": "Kompletní exportní a přepravní dokumentace"
+		},
+		"applications": [
+			"Pizza a posypy",
+			"Hotová jídla a polotovary",
+			"Zeleninové směsi",
+			"Omáčky a zeleninové pasty",
+			"Polévky a vývary",
+			"Wok a restovaná jídla",
+			"Dušená jídla a ragú",
+			"Náplně a zapékané pokrmy",
+			"Konzervování a nakládání",
+			"HoReCa a catering",
+			"Potravinářské suroviny a zeleninové polotovary"
 		]
 	},
 
@@ -439,15 +800,45 @@
 			"description": "Mražená žlutá paprika IQF z karpatských farem — kostky, nudličky nebo půlky. Certifikace HACCP, MOQ 500 kg. Velkoobchodní export FCA/DAP/DDP po celé EU."
 		},
 		"heading": "Mražená žlutá paprika (IQF)",
-		"description": "Mražená žlutá paprika IQF (Capsicum annuum) pěstovaná na farmách ukrajinského karpatského regionu a sklizená plně zralá, kdy plod získává zlatavě žlutou barvu a vyvíjí jemnou, sladkou, ovocnou chuť a silné, jemné stěny. Jasná zlatavá barva je hlavním důvodem, proč ji zpracovatelé volí — drží během mrazení i vaření a je ceněná pro přidání živého třetího tónu do červeno-žluto-zelených zeleninových směsí, kde o prodeji rozhoduje vizuální atraktivita. Paprika se myje, zbavuje semen a stopky, krájí a poté zmrazuje metodou IQF, takže kousky zůstávají oddělené a sypké a nespékají se do bloku — připravené nasypat přímo do výroby bez rozmrazování a bez odpadu. Podle vaší linky se žlutá paprika dodává krájená na kostičky (obvykle 10×10 mm nebo dle specifikace), na nudličky, nebo jako půlky. Mrazení IQF uzamyká sladkost, jemnou strukturu a zlatavou barvu celoročně, nezávisle na sezoně. Typické využití: tříbarevné paprikové a zeleninové směsi, hotová jídla a polotovary, směsi na fajitas a stir-fry, topping na pizzu a pečivo, polévky, omáčky a saláty. Veškerá produkce je tříděná, čištěná a bez cizích příměsí. Původ je plně dohledatelný od pole až po hotovou paletu a zpracování probíhá podle standardů HACCP; šarže s certifikací Organic jsou k dispozici na vyžádání. Balení: vícevrstvé papírové pytle 25 kg nebo průmyslové oktabiny 400 kg. Skladování při –18 °C. Minimální objednávka 500 kg. Dodání za podmínek FCA, DAP nebo DDP s kompletní exportní dokumentací.",
-		"benefits": [
-			"Žlutá Capsicum annuum, sklizená plně zralá — sladká a jemná",
-			"Jasná zlatavá barva — klíčový tón pro tříbarevné směsi",
-			"Dodávána kostičky (10×10 mm nebo dle spec.), nudličky nebo půlky",
-			"Bez semen a stopky — připravená k použití, bez odpadu",
-			"IQF, sypká — nasypat přímo do výroby",
-			"Jemné silné stěny · barva zachována celoročně",
-			"Balení: pytle 25 kg / oktabiny 400 kg · HACCP · Organic na vyžádání"
+		"description": [
+			"Prémiová mražená žlutá paprika IQF (Capsicum annuum), vypěstovaná na farmách v Zakarpatí a zpracovaná pro profesionální výrobce potravin a hotových jídel, distributory a nákupčí surovin.",
+			"Žlutá paprika se sklízí v plné zralosti, a proto má jemnou, výrazně sladkou, lehce ovocnou chuť, masité stěny a jasně zlatožlutou barvu. Je přirozeně bohatá na vitamín C a karotenoidy. Právě díky barvě je žlutá paprika nenahraditelná všude, kde záleží na vizuálním kontrastu: v zeleninových směsích, na pizze, v salátových a hotových jídlech.",
+			"Paprika se sklízí v plné zralosti, důkladně se umyje, zbaví stopek a semínek, nakrájí a zmrazí metodou IQF, aby si zachovala barvu, strukturu, chuť i živiny. Po zmrazení zůstávají kousky sypké a neslepují se, což umožňuje přesné dávkování a přímé použití ve výrobě.",
+			"Podle potřeb výroby dodáváme papriku na kostky, nudličky nebo půlky; velikost řezu dohodneme se zákazníkem. Produkt je tříděný a čištěný — stopky, semínka, přepážky a viditelné cizí příměsi jsou odstraněny podle dohodnuté specifikace. K dispozici je plná dohledatelnost šarže od pole přes zpracování až po hotovou paletu.",
+			"Sezóna sklizně žluté papriky v Zakarpatí trvá od srpna do října s vrcholem v září. Přesné termíny se každý rok liší podle počasí. Mimo sezónu je produkt dostupný z mražených zásob letošní úrody — pro aktuální objemy a termíny nakládky nás kontaktujte."
+		],
+		"specs": {
+			"product": "Mražená žlutá paprika IQF",
+			"botanicalName": "Capsicum annuum",
+			"origin": "Ukrajina",
+			"harvesting": "Sklizeň v plné zralosti",
+			"environment": "Farmy v Zakarpatí",
+			"processing": "Mytí, čištění, krájení a individuální rychlé zmrazení (IQF)",
+			"colour": "Přirozeně jasně zlatožlutá",
+			"fruit": "Kostky, nudličky nebo půlky",
+			"cleaning": "Bez stopek, semínek, přepážek a cizích příměsí",
+			"storage": "–18 °C nebo méně",
+			"packaging": "Kartonové krabice 10 kg nebo vícevrstvé papírové pytle 25 kg",
+			"moq": "500 kg",
+			"traceability": "Dohledatelnost na úrovni šarže od sklizně po hotový výrobek",
+			"foodSafety": "Zpracování podle zásad HACCP",
+			"organic": "Konvenční pěstování",
+			"delivery": "Po celé EU",
+			"incoterms": "FCA, DAP nebo DDP",
+			"documents": "Kompletní exportní a přepravní dokumentace"
+		},
+		"applications": [
+			"Zeleninové směsi a mixy",
+			"Pizza a posypy",
+			"Hotová jídla a polotovary",
+			"Omáčky a zeleninové pasty",
+			"Polévky a vývary",
+			"Wok a restovaná jídla",
+			"Dušená jídla a ragú",
+			"Náplně a zapékané pokrmy",
+			"Konzervování a nakládání",
+			"HoReCa a catering",
+			"Potravinářské suroviny a zeleninové polotovary"
 		]
 	},
 
@@ -457,15 +848,45 @@
 			"description": "Mražená paprika směs IQF (červená, žlutá, zelená) — kostky nebo nudličky, míchaná v poměru. Karpatské farmy, HACCP, MOQ 500 kg. Export FCA/DAP/DDP po celé EU."
 		},
 		"heading": "Mražená paprika směs (IQF)",
-		"description": "Mražená paprika směs IQF (Capsicum annuum) — hotová tříbarevná směs červené, žluté a zelené papriky pěstované na farmách ukrajinského karpatského regionu. Každá barva se sklízí ve své optimální fázi — červená a žlutá plně zralé a sladké, zelená dříve pro křupavý, pikantní tón — poté se myje, zbavuje semen a stopky, krájí a zmrazuje metodou IQF. Spojení do jednoho balení dává zpracovateli hotové barevné řešení: živou červeno-žluto-zelenou atraktivitu bez nutnosti nakupovat, skladovat a kombinovat tři samostatné položky. Protože jsou kousky mražené metodou IQF, zůstávají oddělené a sypké — připravené nasypat přímo do výroby bez rozmrazování a bez odpadu. Dodává se krájená na kostičky (obvykle 10×10 mm nebo dle specifikace) nebo na nudličky, ve standardním rovnoměrném poměru nebo s vlastním poměrem barev na vyžádání. Typické využití: hotová jídla a polotovary, směsi na fajitas a stir-fry, topping na pizzu a pečivo, omelety a vaječné výrobky, polévky, omáčky, rýžová a těstovinová jídla, gastro a catering. Veškerá produkce je tříděná, čištěná a bez cizích příměsí. Původ je plně dohledatelný od pole až po hotovou paletu a zpracování probíhá podle standardů HACCP; šarže s certifikací Organic jsou k dispozici na vyžádání. Balení: vícevrstvé papírové pytle 25 kg nebo průmyslové oktabiny 400 kg. Skladování při –18 °C. Minimální objednávka 500 kg. Dodání za podmínek FCA, DAP nebo DDP s kompletní exportní dokumentací.",
-		"benefits": [
-			"Hotová tříbarevná směs: červená, žlutá a zelená paprika",
-			"Jedna položka místo tří — hotové barevné řešení",
-			"Standardní rovnoměrný poměr nebo vlastní poměr barev na vyžádání",
-			"Dodávána kostičky (10×10 mm nebo dle spec.) nebo nudličky",
-			"Bez semen a stopky — připravená k použití, bez odpadu",
-			"IQF, sypká — nasypat přímo do výroby",
-			"Balení: pytle 25 kg / oktabiny 400 kg · HACCP · Organic na vyžádání"
+		"description": [
+			"Prémiová mražená paprika směs IQF (Capsicum annuum) — směs červené, žluté a zelené papriky vypěstované na farmách v Zakarpatí. Produkt je zpracován pro profesionální výrobce potravin a hotových jídel, distributory a nákupčí surovin.",
+			"Směs spojuje tři barvy a tři chutě: sladkou červenou, jemnou ovocnou žlutou a svěží bylinnou zelenou papriku. Hotová barevná směs šetří čas ve výrobě — není třeba nakupovat, skladovat a míchat tři samostatné produkty. Díky výrazně tříbarevnému vzhledu je směs ideální pro pizzu, hotová jídla, jídla z woku a zeleninové směsi, kde záleží na vizuální přitažlivosti.",
+			"Paprika každé barvy se sklízí v odpovídající zralosti, důkladně se umyje, zbaví stopek a semínek, nakrájí a zmrazí metodou IQF, aby si zachovala barvu, strukturu, chuť i živiny. Po zmrazení zůstávají kousky sypké a neslepují se, což umožňuje přesné dávkování a přímé použití ve výrobě.",
+			"Směs dodáváme na kostky nebo nudličky. Barvy se míchají v dohodnutém poměru, který zůstává stálý od šarže k šarži, a velikost řezu dohodneme se zákazníkem. Produkt je tříděný a čištěný — stopky, semínka, přepážky a viditelné cizí příměsi jsou odstraněny podle dohodnuté specifikace. K dispozici je plná dohledatelnost šarže od pole přes zpracování až po hotovou paletu.",
+			"Sezóna sklizně papriky v Zakarpatí trvá od července do října: zelená paprika se sklízí dříve, červená a žlutá v plné zralosti v září. Směs se připravuje z mražených zásob letošní úrody, a proto je k objednání po celý rok — pro aktuální objemy a termíny nakládky nás kontaktujte."
+		],
+		"specs": {
+			"product": "Mražená paprika směs IQF",
+			"botanicalName": "Capsicum annuum",
+			"origin": "Ukrajina",
+			"harvesting": "Sklizeň každé barvy v odpovídající zralosti",
+			"environment": "Farmy v Zakarpatí",
+			"processing": "Mytí, čištění, krájení, míchání a individuální rychlé zmrazení (IQF)",
+			"colour": "Směs červené, žluté a zelené",
+			"fruit": "Kostky nebo nudličky; poměr barev dle dohody",
+			"cleaning": "Bez stopek, semínek, přepážek a cizích příměsí",
+			"storage": "–18 °C nebo méně",
+			"packaging": "Kartonové krabice 10 kg nebo vícevrstvé papírové pytle 25 kg",
+			"moq": "500 kg",
+			"traceability": "Dohledatelnost na úrovni šarže od sklizně po hotový výrobek",
+			"foodSafety": "Zpracování podle zásad HACCP",
+			"organic": "Konvenční pěstování",
+			"delivery": "Po celé EU",
+			"incoterms": "FCA, DAP nebo DDP",
+			"documents": "Kompletní exportní a přepravní dokumentace"
+		},
+		"applications": [
+			"Pizza a posypy",
+			"Hotová jídla a polotovary",
+			"Wok a restovaná jídla",
+			"Zeleninové směsi",
+			"Fajitas, burritos a mexická kuchyně",
+			"Dušená jídla a ragú",
+			"Omáčky a lečo",
+			"Náplně a zapékané pokrmy",
+			"Polévky a vývary",
+			"HoReCa a catering",
+			"Potravinářské suroviny a zeleninové polotovary"
 		]
 	},
 
@@ -475,15 +896,45 @@
 			"description": "Mražené hřiby IQF (Boletus edulis) z Karpat, vcelku nebo plátky. Certifikace HACCP, MOQ 500 kg. Velkoobchodní export FCA/DAP/DDP po celé EU."
 		},
 		"heading": "Mražené hřiby (IQF)",
-		"description": "Mražené hřiby IQF (hřib smrkový, Boletus edulis), sbírané ručně v lesích ukrajinských Karpat. Hřib smrkový nelze průmyslově pěstovat — každá houba je skutečně divoce sbíraná, a právě to jí dodává hlubokou, oříškovou, na umami bohatou chuť a pevnou, masitou strukturu, které cení profesionální kuchyně i výrobci potravin. Houby se čistí, třídí a zmrazují metodou IQF krátce po sběru, aby se zafixovalo aroma, barva a struktura, které se sušením mění — a zachoval se čerstvý charakter houby. Podle vašich požadavků se hřiby dodávají celé nebo krájené a tříděné dle kvality. Díky IQF zůstávají kousky oddělené a sypké pro přesné porcování — přímo na pánev nebo do procesu. Typické využití: polévky, omáčky a rizoto, hotová jídla a polotovary, náplně a pasty, gastro a fine dining, a prémiové mražené řady. Všechny houby jsou tříděné, čištěné a bez cizích příměsí. Původ je dohledatelný od lesa až po hotovou paletu a zpracování probíhá podle standardů HACCP. Balení: vlnité kartonové krabice 10 kg, na paletách pro export. Skladování při –18 °C. Minimální objednávka 500 kg. Dodání za podmínek FCA, DAP nebo DDP s kompletní exportní dokumentací.",
-		"benefits": [
-			"Druh: divoký hřib smrkový (Boletus edulis) — nikdy pěstovaný",
-			"Hluboká oříšková, na umami bohatá chuť, pevná masitá struktura",
-			"Dodávány celé nebo krájené, tříděné dle kvality",
-			"IQF zachovává aroma a strukturu, které sušení mění",
-			"Sypké — přesné porcování, nespékají se",
-			"Čištěné, tříděné, bez cizích příměsí",
-			"Balení: kartonové krabice 10 kg · HACCP · dohledatelnost"
+		"description": [
+			"Prémiové mražené hřiby IQF (hřib smrkový, Boletus edulis), ručně sbírané v čistých lesích ukrajinských Karpat a zpracované pro profesionální výrobce potravin a hotových jídel, distributory a nákupčí surovin.",
+			"Hřib smrkový je nejceněnější lesní houba: pevná dužina, plná oříšková chuť a výrazné lesní aroma, které vydrží i po tepelné úpravě. Proto jsou hřiby prémiovou surovinou pro omáčky, polévky, rizota, těstoviny a hotová jídla, kde chuť houby hraje hlavní roli. Divoké houby nelze pěstovat, a proto objemy každý rok závisí na počasí a lesní úrodě.",
+			"Houby se ručně sbírají, v den sběru se očistí od hlíny a lesních nečistot, zastřihnou a zmrazí metodou IQF, aby si zachovaly pevnou strukturu, barvu, chuť i aroma. Po zmrazení zůstávají sypké a neslepují se, což umožňuje přesné dávkování a přímé použití ve výrobě.",
+			"Podle potřeb výroby dodáváme hřiby celé nebo na plátky. Produkt je tříděný podle velikosti a pevnosti — měkké, přerostlé a poškozené houby, zbytky hlíny a viditelné cizí příměsi jsou odstraněny podle dohodnuté specifikace zákazníka. K dispozici je plná dohledatelnost šarže od místa sběru přes zpracování až po hotovou paletu.",
+			"Sezóna sběru hřibů v ukrajinských Karpatech trvá od července do října s vrcholem v srpnu a září. Objemy a termíny se každý rok liší podle srážek a teplot. Mimo sezónu je produkt dostupný z mražených zásob letošní úrody — pro aktuální objemy a termíny nakládky nás kontaktujte."
+		],
+		"specs": {
+			"product": "Mražené hřiby IQF",
+			"botanicalName": "Boletus edulis",
+			"origin": "Ukrajina",
+			"harvesting": "Ruční sběr divokých hub",
+			"environment": "Lesy ukrajinských Karpat",
+			"processing": "Čištění, zastřižení a individuální rychlé zmrazení (IQF)",
+			"colour": "Přirozeně světle béžová až hnědá",
+			"fruit": "Celé nebo plátky",
+			"cleaning": "Tříděné podle velikosti; bez zbytků hlíny, poškozených hub a cizích příměsí",
+			"storage": "–18 °C nebo méně",
+			"packaging": "Kartonové krabice 10 kg",
+			"moq": "500 kg",
+			"traceability": "Dohledatelnost na úrovni šarže od sběru po hotový výrobek",
+			"foodSafety": "Zpracování podle zásad HACCP",
+			"organic": "Divoké, bez bio certifikace",
+			"delivery": "Po celé EU",
+			"incoterms": "FCA, DAP nebo DDP",
+			"documents": "Kompletní exportní a přepravní dokumentace"
+		},
+		"applications": [
+			"Omáčky",
+			"Polévky a vývary",
+			"Rizota a těstoviny",
+			"Hotová jídla a polotovary",
+			"Pizza a posypy",
+			"Knedlíky, pirohy a náplně",
+			"Slané koláče a plněné pečivo",
+			"Houbové směsi",
+			"Konzervování a nakládání",
+			"HoReCa a restaurační kuchyně",
+			"Potravinářské suroviny a houbové polotovary"
 		]
 	},
 
@@ -493,15 +944,45 @@
 			"description": "Divoké čerstvé hřiby (Boletus edulis) z Karpat — sezónní, ručně sbírané, tříděné. Chlazené B2B dodávky, MOQ na vyžádání, FCA/DAP po celé EU."
 		},
 		"heading": "Čerstvé hřiby",
-		"description": "Čerstvé divoké hřiby (hřib smrkový, Boletus edulis), sbírané ručně v lesích ukrajinských Karpat a dodávané během sběrové sezony. Hřib smrkový nelze pěstovat, takže dostupnost se řídí přírodou — houby se sbírají, ručně vybírají a přesouvají do chladicího řetězce během několika hodin po sběru, aby si zachovaly pevnou, masitou strukturu, světlou neporušenou dužinu a intenzivní lesní aroma. Jde o sezonní, vysoce podléhající zkáze produkt: pracujeme s krátkými dodacími lhůtami a chlazenou logistikou, aby houby dorazily do vaší kuchyně nebo na linku ve špičkové čerstvosti. Podle dostupnosti se čerstvé hřiby třídí dle velikosti a kvality — od prémiových celých klobouků pro fine dining po tříditelné kvality pro další zpracování. Typické využití: restaurace a fine dining, čerstvý retail a specializované prodejny, a zpracovatelé vyrábějící vlastní mražené, sušené či nakládané hřiby. Všechny houby jsou ručně čištěné, tříděné a kontrolované na kvalitu a cizí příměsi. Původ je dohledatelný od lesa až po expedici a manipulace probíhá podle standardů HACCP. Dodávané ve větraných bednách vhodných pro čerstvé houby, na paletách a chlazené pro přepravu. Dostupnost a minimální objednávka se potvrzují dle sezony — vyžádejte si prosím aktuální stav sběru. Dodání za podmínek FCA nebo DAP s kompletní dokumentací.",
-		"benefits": [
-			"Druh: divoký hřib smrkový (Boletus edulis) — nepěstovaný",
-			"Sezonní, ruční sběr, do chladicího řetězce během několika hodin",
-			"Pevná masitá struktura, světlá dužina, intenzivní lesní aroma",
-			"Tříděné dle velikosti — prémiové klobouky po zpracovatelské kvality",
-			"Chlazená logistika a krátké dodací lhůty pro zachování čerstvosti",
-			"Pro fine dining, čerstvý retail a další zpracování",
-			"Větrané bedny, chlazené · HACCP · dohledatelnost · sezonní dostupnost"
+		"description": [
+			"Prémiové čerstvé hřiby (hřib smrkový, Boletus edulis), ručně sbírané v čistých lesích ukrajinských Karpat a připravené pro restaurace, distributory, gurmánské obchody a zpracovatele.",
+			"Hřib smrkový je nejceněnější lesní houba: pevná dužina, plná oříšková chuť a výrazné lesní aroma. Čerstvé hřiby jsou sezónní lahůdkou, kterou oceňují šéfkuchaři i gurmánští nákupčí po celé Evropě. Divoké houby nelze pěstovat, a proto objemy každý rok závisí na počasí a lesní úrodě.",
+			"Houby se ručně sbírají, v den sběru se očistí od hlíny a lesních nečistot, roztřídí a ihned zchladí. Udržujeme nepřerušený chladový řetězec od lesa až k odběrateli, aby si houby zachovaly pevnost, svěží aroma a atraktivní vzhled.",
+			"Houby se třídí podle velikosti a pevnosti klobouku: měkké, přerostlé, poškozené a červivé houby se odstraňují. Třídu a kalibr dohodneme se zákazníkem. K dispozici je plná dohledatelnost šarže od místa sběru až po expedici.",
+			"Čerstvé hřiby jsou dostupné pouze v sezóně — od července do října s vrcholem v srpnu a září. Objemy a termíny se každý rok liší podle srážek a teplot, proto je vhodné dodávky domluvit předem. Mimo sezónu nabízíme mražené a sušené hřiby — pro aktuální objemy a termíny nakládky nás kontaktujte."
+		],
+		"specs": {
+			"product": "Čerstvé hřiby",
+			"botanicalName": "Boletus edulis",
+			"origin": "Ukrajina",
+			"harvesting": "Ruční sběr divokých hub",
+			"environment": "Lesy ukrajinských Karpat",
+			"processing": "Očištěné, tříděné a zchlazené v den sběru",
+			"colour": "Přirozeně světle béžová až hnědá",
+			"fruit": "Celé houby tříděné podle velikosti a pevnosti",
+			"cleaning": "Bez zbytků hlíny, poškozených, přerostlých a červivých hub",
+			"storage": "0 až +4 °C, nepřerušený chladový řetězec",
+			"packaging": "Větrané přepravky, hmotnost dle dohody",
+			"moq": "Na vyžádání, dle úrody",
+			"traceability": "Dohledatelnost na úrovni šarže od sběru po expedici",
+			"foodSafety": "Manipulace podle zásad HACCP",
+			"organic": "Divoké, bez bio certifikace",
+			"delivery": "Po celé EU chladírenskou dopravou",
+			"incoterms": "FCA nebo DAP",
+			"documents": "Kompletní exportní a přepravní dokumentace"
+		},
+		"applications": [
+			"Restaurace a HoReCa",
+			"Gurmánské obchody a prémiový maloobchod",
+			"Sezónní a degustační menu",
+			"Omáčky, rizota a těstoviny",
+			"Polévky a vývary",
+			"Catering a bankety",
+			"Sušení a mrazení",
+			"Nakládání a konzervování",
+			"Prémiová hotová jídla",
+			"Houbové lahůdky",
+			"Velkoobchodní trhy a distribuce"
 		]
 	},
 
@@ -511,15 +992,45 @@
 			"description": "Divoké sušené hřiby (Boletus edulis) — tříděné plátky, kousky nebo prášek. Intenzivní umami, trvanlivé. HACCP, MOQ 500 kg. Export FCA/DAP/DDP po EU."
 		},
 		"heading": "Sušené hřiby",
-		"description": "Sušené divoké hřiby (hřib smrkový, Boletus edulis), sbírané ručně v lesích ukrajinských Karpat a šetrně sušené pro koncentraci charakteru. Sušení nejen konzervuje — prohlubuje chuť houby a zesiluje oříškové, kořenité umami, díky němuž je hřib tolik ceněný jako přírodní chuťový základ. Díky snížení vlhkosti na stabilní úroveň je produkt plně skladovatelný za pokojové teploty a nevyžaduje chladicí řetězec, což zjednodušuje skladování a snižuje náklady na přepravu na kilogram chuti oproti čerstvým či mraženým. Hřiby se třídí dle specifikace: prémiové celé plátky se světlou, neporušenou dužinou pro retail a fine dining; lámané kousky pro potravinářský průmysl; a mletý prášek do vývarů, omáček, koření a hotových jídel. Protože je sušený hřib vysoce koncentrovaný, malé množství dodá silnou chuť, což z něj činí nákladově efektivní ingredienci ve velkém měřítku. Typické využití: polévky, omáčky, vývary a rizoto, kořenící směsi, náplně a paštiky, a prémiová maloobchodní balení. Všechny houby jsou čištěné, tříděné a bez cizích příměsí. Původ je dohledatelný od lesa až po hotovou paletu a zpracování probíhá podle standardů HACCP. Balení: potravinářské kartonové krabice nebo sáčky dle specifikace, na paletách pro export. Skladujte v chladu a suchu. Minimální objednávka se potvrzuje na vyžádání. Dodání za podmínek FCA, DAP nebo DDP s kompletní exportní dokumentací.",
-		"benefits": [
-			"Druh: divoký hřib smrkový (Boletus edulis) — nepěstovaný",
-			"Sušení koncentruje a prohlubuje přírodní umami",
-			"Kvality: prémiové celé plátky, lámané kousky nebo mletý prášek",
-			"Skladovatelné za pokojové teploty — bez chladicího řetězce",
-			"Vysoce koncentrované — malá dávka, silná chuť, nákladově efektivní",
-			"Čištěné, tříděné, bez cizích příměsí",
-			"Balení: krabice nebo sáčky dle spec. · HACCP · dohledatelnost"
+		"description": [
+			"Prémiové sušené hřiby (hřib smrkový, Boletus edulis), ručně sbírané v čistých lesích ukrajinských Karpat a připravené pro profesionální výrobce potravin, koření a hotových jídel, distributory a nákupčí surovin.",
+			"Sušením se aroma a chuť hřibu koncentrují: sušené hřiby mají intenzivní lesní aroma a hlubokou chuť umami, kterou je těžké získat z jakékoli jiné suroviny. Malé množství sušených hřibů dodá polévkám, omáčkám a vývarům výraznou houbovou chuť a houbový prášek je přírodním zvýrazňovačem chuti pro koření a hotová jídla.",
+			"Houby se ručně sbírají, v den sběru se očistí od hlíny a lesních nečistot, nakrájí a šetrně suší při kontrolované teplotě, aby si zachovaly světlou barvu, aroma i chuť. Vlhkost je kontrolována pro stálou kvalitu a dlouhou trvanlivost bez konzervantů. Před použitím stačí plátky a kousky namočit ve vodě.",
+			"Podle potřeb výroby dodáváme sušené hřiby na plátky, kousky nebo jako mletý prášek. Produkt se třídí podle barvy, velikosti a celistvosti plátků; třídu dohodneme se zákazníkem. Polámané kousky, zbytky hlíny a viditelné cizí příměsi jsou odstraněny podle dohodnuté specifikace. K dispozici je plná dohledatelnost šarže od místa sběru přes sušení až po hotovou paletu.",
+			"Hřiby se v ukrajinských Karpatech sbírají od července do října s vrcholem v srpnu a září. Sušený produkt si dlouho uchovává kvalitu, a proto je k objednání po celý rok — pro aktuální objemy, třídy a termíny nakládky nás kontaktujte."
+		],
+		"specs": {
+			"product": "Sušené hřiby",
+			"botanicalName": "Boletus edulis",
+			"origin": "Ukrajina",
+			"harvesting": "Ruční sběr divokých hub",
+			"environment": "Lesy ukrajinských Karpat",
+			"processing": "Čištění, krájení a sušení při kontrolované teplotě",
+			"colour": "Přirozeně světle béžová až hnědá",
+			"fruit": "Plátky, kousky nebo prášek; třída dle dohody",
+			"cleaning": "Tříděné; bez polámaných kousků, hlíny a cizích příměsí",
+			"storage": "Suché a chladné místo chráněné před světlem a vlhkostí",
+			"packaging": "Kartonové krabice s PE vložkou, hmotnost dle dohody",
+			"moq": "Na vyžádání",
+			"traceability": "Dohledatelnost na úrovni šarže od sběru po hotový výrobek",
+			"foodSafety": "Zpracování podle zásad HACCP",
+			"organic": "Divoké, bez bio certifikace",
+			"delivery": "Po celé EU",
+			"incoterms": "FCA, DAP nebo DDP",
+			"documents": "Kompletní exportní a přepravní dokumentace"
+		},
+		"applications": [
+			"Polévky a vývary, včetně instantních",
+			"Omáčky",
+			"Koření a kořenicí směsi",
+			"Přírodní zvýrazňovače chuti (houbový prášek)",
+			"Rizota a těstoviny",
+			"Hotová jídla a polotovary",
+			"Masné výrobky a uzeniny",
+			"Knedlíky, pirohy a náplně",
+			"Balení pro gurmánský maloobchod",
+			"HoReCa a restaurační kuchyně",
+			"Potravinářské suroviny a houbové polotovary"
 		]
 	},
 
@@ -529,15 +1040,45 @@
 			"description": "Divoké čerstvé lišky (Cantharellus cibarius) z Karpat — zlaté, aromatické, ručně sbírané, tříděné dle velikosti. Chlazené, MOQ na vyžádání, FCA/DAP po EU."
 		},
 		"heading": "Čerstvé lišky",
-		"description": "Čerstvé divoké lišky (liška obecná, Cantharellus cibarius), sbírané ručně v lesích ukrajinských Karpat během sběrové sezony. Okamžitě rozpoznatelné podle zlatožluté trychtýřovité formy a ovocného, meruňkového aroma s jemným pepřovým závěrem patří lišky k nejvyhledávanějším divokým houbám v evropské kuchyni. Jako všechny pravé divoké houby je nelze pěstovat, takže dodávky se řídí sezonou. Klíčová výhoda oproti měkčím druhům: lišky jsou pevné a odolné, drží tvar a strukturu na pánvi, aniž by se rozbředly — což je přesně důvod, proč je kuchaři cení pro celistvý, viditelný servis. Sbírané a přesunuté do chladicího řetězce během několika hodin se ručně čistí a třídí dle velikosti — od malých prémiových lišek pro fine dining po větší kvality pro běžné kuchyňské využití a zpracování. Jde o sezonní, podléhající zkáze produkt dodávaný s krátkými dodacími lhůtami a chlazenou logistikou. Typické využití: restaurace a fine dining, čerstvý retail a specializované prodejny, a zpracovatelé vyrábějící vlastní mražené či nakládané lišky. Všechny houby jsou ručně čištěné, tříděné a kontrolované na cizí příměsi. Původ je dohledatelný od lesa až po expedici a manipulace probíhá podle standardů HACCP. Dodávané ve větraných bednách, na paletách a chlazené pro přepravu. Dostupnost a minimální objednávka se potvrzují dle sezony — vyžádejte si prosím aktuální stav sběru. Dodání za podmínek FCA nebo DAP s kompletní dokumentací.",
-		"benefits": [
-			"Druh: divoké lišky (Cantharellus cibarius) — nepěstované",
-			"Zlatá trychtýřovitá forma, ovocné meruňkové aroma, pepřový závěr",
-			"Pevné a odolné — drží tvar, nerozbředají se, ideální pro celistvý servis",
-			"Sezonní, ruční sběr, do chladicího řetězce během několika hodin",
-			"Tříděné dle velikosti — malé prémiové po větší kuchyňské kvality",
-			"Chlazená logistika a krátké dodací lhůty pro zachování čerstvosti",
-			"Větrané bedny, chlazené · HACCP · dohledatelnost · sezonní dostupnost"
+		"description": [
+			"Prémiové čerstvé lišky (liška obecná, Cantharellus cibarius), ručně sbírané v čistých lesích ukrajinských Karpat a připravené pro restaurace, distributory, gurmánské obchody a zpracovatele.",
+			"Lišky patří k nejoblíbenějším lesním houbám v Evropě: jasně zlatožlutá barva, pevná pružná dužina, jemné ovocné aroma s tóny meruňky a lehce pikantní dochuť. Dobře si drží tvar při vaření a zdobí pokrm svou barvou. Divoké houby nelze pěstovat, a proto objemy každý rok závisí na počasí a lesní úrodě.",
+			"Houby se ručně sbírají, v den sběru se očistí od hlíny a lesních nečistot, roztřídí a ihned zchladí. Udržujeme nepřerušený chladový řetězec od lesa až k odběrateli, aby si lišky zachovaly pružnost, svěží aroma a sytou barvu.",
+			"Lišky se třídí podle velikosti — nejvíce ceněné jsou malé mladé houby, které dodáváme jako samostatný kalibr. Měkké, poškozené a přerostlé houby se odstraňují. Třídu a kalibr dohodneme se zákazníkem. K dispozici je plná dohledatelnost šarže od místa sběru až po expedici.",
+			"Čerstvé lišky jsou dostupné pouze v sezóně — od června do října s vrcholem v červenci a srpnu. Objemy a termíny se každý rok liší podle srážek a teplot, proto je vhodné dodávky domluvit předem. Pro aktuální objemy a termíny nakládky nás kontaktujte."
+		],
+		"specs": {
+			"product": "Čerstvé lišky",
+			"botanicalName": "Cantharellus cibarius",
+			"origin": "Ukrajina",
+			"harvesting": "Ruční sběr divokých hub",
+			"environment": "Lesy ukrajinských Karpat",
+			"processing": "Očištěné, tříděné a zchlazené v den sběru",
+			"colour": "Přirozeně zlatožlutá",
+			"fruit": "Celé houby tříděné podle velikosti",
+			"cleaning": "Bez zbytků hlíny, poškozených a přerostlých hub",
+			"storage": "0 až +4 °C, nepřerušený chladový řetězec",
+			"packaging": "Větrané přepravky, hmotnost dle dohody",
+			"moq": "Na vyžádání, dle úrody",
+			"traceability": "Dohledatelnost na úrovni šarže od sběru po expedici",
+			"foodSafety": "Manipulace podle zásad HACCP",
+			"organic": "Divoké, bez bio certifikace",
+			"delivery": "Po celé EU chladírenskou dopravou",
+			"incoterms": "FCA nebo DAP",
+			"documents": "Kompletní exportní a přepravní dokumentace"
+		},
+		"applications": [
+			"Restaurace a HoReCa",
+			"Gurmánské obchody a prémiový maloobchod",
+			"Sezónní a degustační menu",
+			"Omáčky, rizota a těstoviny",
+			"Polévky a vývary",
+			"Přílohy a vaječná jídla",
+			"Catering a bankety",
+			"Mrazení a sušení",
+			"Nakládání a konzervování",
+			"Prémiová hotová jídla",
+			"Velkoobchodní trhy a distribuce"
 		]
 	},
 
@@ -547,15 +1088,45 @@
 			"description": "Divoké sušené lišky (Cantharellus cibarius) — vcelku nebo mletý prášek. Zlatá barva, ovocné aroma, trvanlivé. HACCP, MOQ 500 kg. Export FCA/DAP/DDP po EU."
 		},
 		"heading": "Sušené lišky",
-		"description": "Sušené divoké lišky (liška obecná, Cantharellus cibarius), sbírané ručně v lesích ukrajinských Karpat a šetrně sušené pro zachování jejich charakteristických vlastností. Sušení zachovává zlatou barvu lišky a její ovocné, meruňkové aroma s pepřovou notou a koncentruje je do kompaktní, skladovatelné formy, která nevyžaduje chladicí řetězec a je efektivní při přepravě. Na rozdíl od hřibu sušené lišky výrazně ztvrdnou a rehydratují do příjemně žvýkavého sousta, takže se hodí pro déle vařené pokrmy — a nejlépe vyniknou umleté na prášek, kdy se jejich aroma plně uvolní do vývarů, omáček a koření. Třídí se dle specifikace: celé sušené klobouky pro viditelný servis a prémiový retail; lámané kousky pro potravinářský průmysl; a mletý prášek jako přírodní houbový chuťový základ. Protože jsou sušené houby vysoce koncentrované, malé množství dodá silnou barvu a aroma, což z nich činí nákladově efektivní surovinu ve velkém měřítku. Typické využití: polévky, omáčky, vývary a déle vařené pokrmy, houbové prášky a kořenící směsi, rizoto a rýžové směsi, náplně a paštiky, a prémiová maloobchodní balení. Všechny houby jsou čištěné, tříděné a bez cizích příměsí. Původ je dohledatelný od lesa až po hotovou paletu a zpracování probíhá podle standardů HACCP. Balení: potravinářské kartonové krabice nebo sáčky dle specifikace, na paletách pro export. Skladujte v chladu a suchu. Minimální objednávka se potvrzuje na vyžádání. Dodání za podmínek FCA, DAP nebo DDP s kompletní exportní dokumentací.",
-		"benefits": [
-			"Druh: divoké lišky (Cantharellus cibarius) — nepěstované",
-			"Zlatá barva a ovocné, pepřové aroma zachované sušením",
-			"Ztvrdnou a rehydratují žvýkavé — ideální pro déle vařené pokrmy",
-			"Kvality: celé klobouky, lámané kousky nebo mletý prášek-koření",
-			"Skladovatelné za pokojové teploty — bez chladicího řetězce",
-			"Vysoce koncentrované — malá dávka, silná barva a aroma",
-			"Balení: krabice nebo sáčky dle spec. · HACCP · dohledatelnost"
+		"description": [
+			"Prémiové sušené lišky (liška obecná, Cantharellus cibarius), ručně sbírané v čistých lesích ukrajinských Karpat a připravené pro profesionální výrobce potravin, koření a hotových jídel, distributory a nákupčí surovin.",
+			"Sušené lišky si zachovávají typickou zlatou barvu a jemné ovocné aroma s tóny meruňky, přičemž sušením se jejich chuť koncentruje. Po namočení jsou o něco pevnější než čerstvé houby, a proto nejlépe vyniknou v polévkách, omáčkách a tekutých pokrmech. Mletý prášek z lišek je přírodním kořením, které hotovým jídlům dodá zlatavou barvu i výraznou houbovou chuť.",
+			"Houby se ručně sbírají, v den sběru se očistí od hlíny a lesních nečistot a šetrně suší při kontrolované teplotě, aby si zachovaly barvu i aroma. Vlhkost je kontrolována pro stálou kvalitu a dlouhou trvanlivost bez konzervantů. Před použitím stačí celé houby namočit ve vodě.",
+			"Podle potřeb výroby dodáváme sušené lišky celé nebo jako mletý prášek. Produkt se třídí podle barvy a velikosti; třídu dohodneme se zákazníkem. Poškozené a ztmavlé houby, zbytky hlíny a viditelné cizí příměsi jsou odstraněny podle dohodnuté specifikace. K dispozici je plná dohledatelnost šarže od místa sběru přes sušení až po hotovou paletu.",
+			"Lišky se v ukrajinských Karpatech sbírají od června do října s vrcholem v červenci a srpnu. Sušený produkt si dlouho uchovává kvalitu, a proto je k objednání po celý rok — pro aktuální objemy, třídy a termíny nakládky nás kontaktujte."
+		],
+		"specs": {
+			"product": "Sušené lišky",
+			"botanicalName": "Cantharellus cibarius",
+			"origin": "Ukrajina",
+			"harvesting": "Ruční sběr divokých hub",
+			"environment": "Lesy ukrajinských Karpat",
+			"processing": "Čištění a sušení při kontrolované teplotě",
+			"colour": "Přirozeně zlatožlutá až okrová",
+			"fruit": "Celé nebo mletý prášek; třída dle dohody",
+			"cleaning": "Tříděné; bez poškozených a ztmavlých hub, hlíny a cizích příměsí",
+			"storage": "Suché a chladné místo chráněné před světlem a vlhkostí",
+			"packaging": "Kartonové krabice s PE vložkou, hmotnost dle dohody",
+			"moq": "Na vyžádání",
+			"traceability": "Dohledatelnost na úrovni šarže od sběru po hotový výrobek",
+			"foodSafety": "Zpracování podle zásad HACCP",
+			"organic": "Divoké, bez bio certifikace",
+			"delivery": "Po celé EU",
+			"incoterms": "FCA, DAP nebo DDP",
+			"documents": "Kompletní exportní a přepravní dokumentace"
+		},
+		"applications": [
+			"Polévky a vývary, včetně instantních",
+			"Omáčky",
+			"Koření a kořenicí směsi",
+			"Přírodní zvýrazňovače chuti (houbový prášek)",
+			"Rizota a těstoviny",
+			"Hotová jídla a polotovary",
+			"Houbové směsi",
+			"Náplně a zapékané pokrmy",
+			"Balení pro gurmánský maloobchod",
+			"HoReCa a restaurační kuchyně",
+			"Potravinářské suroviny a houbové polotovary"
 		]
 	},
 
@@ -565,15 +1136,45 @@
 			"description": "Mražené višně IQF (Prunus cerasus) z karpatských sadů — bez pecky, tmavě červené, výrazná kyselost. HACCP a bio, MOQ 500 kg. Export FCA/DAP/DDP po EU."
 		},
 		"heading": "Mražené višně (IQF)",
-		"description": "Mražené višně IQF (Prunus cerasus) pěstované v sadech ukrajinského karpatského regionu a zpracované ve fázi plné zralosti. Na rozdíl od sladkých třešní jsou višně skutečným ovocem ke zpracování: jejich výrazná, vyvážená kyselost a sytě červená barva se vařením zintenzivňují, a právě proto je pekaři a výrobci volí do náplní a dezertů, kde chuť musí proniknout cukrem, těstem i mléčnou složkou. Višně se odpeckují a poté zmrazují metodou IQF, takže zůstávají sypké a nespékají se do bloku — což umožňuje přesné dávkování a řízené rozmrazování s minimální ztrátou šťávy. Dodávají se odpeckované jako standard; celé s peckou na vyžádání. Veškeré ovoce je tříděné, čištěné a bez stopek a cizích příměsí, připravené k přímému průmyslovému využití. Typické využití: pekařské a cukrářské výrobky (náplně do koláčů a štrúdlů, clafoutis, topping), džemy, zavařeniny a kompoty, jogurty a mléčné výrobky, šťávy, nektary a koncentráty, a višňové omáčky k masu a dezertům. Mrazení IQF zachovává barvu, nakyslou chuť a přírodní živiny, včetně anthokyanů. Původ je plně dohledatelný od sadu až po hotovou paletu a zpracování probíhá podle standardů HACCP; šarže s certifikací Organic jsou k dispozici na vyžádání. Balení: vícevrstvé papírové pytle 25 kg nebo průmyslové oktabiny 400 kg. Skladování při –18 °C. Minimální objednávka 500 kg. Dodání za podmínek FCA, DAP nebo DDP s kompletní exportní dokumentací.",
-		"benefits": [
-			"Druh: višně (Prunus cerasus), sadové",
-			"Odpeckované jako standard — celé s peckou na vyžádání",
-			"Výrazná vyvážená kyselost, sytě červená barva zintenzivňující se vařením",
-			"IQF, sypké — přesné dávkování, minimální ztráta šťávy",
-			"Ideální do náplní, džemů, šťáv a mléčných výrobků",
-			"Bez aditiv, konzervantů a přidaného cukru",
-			"Balení: pytle 25 kg / oktabiny 400 kg · HACCP · Organic na vyžádání"
+		"description": [
+			"Prémiové mražené višně IQF (Prunus cerasus), vypěstované v sadech Zakarpatí a zpracované pro profesionální výrobce potravin, distributory a nákupčí surovin.",
+			"Višně mají sytě tmavě červenou barvu, šťavnatou dužinu a výraznou kyselost, díky které zůstává jejich chuť živá i po pečení či vaření. Právě tato kyselost je odlišuje od sladkých třešní a činí je nenahraditelnými pro náplně, džemy, šťávy a omáčky, kde má být chuť výrazná, nikoli jen sladká.",
+			"Višně se sklízejí v plné zralosti a zmrazují metodou IQF, aby si zachovaly barvu, šťavnatost, chuť i živiny. Po zmrazení zůstávají sypké a neslepují se, což usnadňuje manipulaci, přesné dávkování a umožňuje přímé použití ve výrobě.",
+			"Višně dodáváme bez pecky; na vyžádání také s peckou. Pecky se odstraňují strojově s následnou kontrolou zbytkových pecek a jejich úlomků. Produkt je tříděný a čištěný — stopky, listí a viditelné cizí příměsi jsou odstraněny podle dohodnuté specifikace zákazníka. K dispozici je plná dohledatelnost šarže od sadu přes zpracování až po hotovou paletu.",
+			"Sezóna sklizně višní v Zakarpatí trvá od konce června do července s vrcholem v polovině července. Přesné termíny se každý rok liší podle počasí a odrůdy. Mimo sezónu je produkt dostupný z mražených zásob letošní úrody — pro aktuální objemy a termíny nakládky nás kontaktujte."
+		],
+		"specs": {
+			"product": "Mražené višně IQF bez pecky",
+			"botanicalName": "Prunus cerasus",
+			"origin": "Ukrajina",
+			"harvesting": "Sklizeň v sadech v plné zralosti",
+			"environment": "Sady Zakarpatí",
+			"processing": "Vypeckování a individuální rychlé zmrazení (IQF)",
+			"colour": "Přirozeně sytě tmavě červená",
+			"fruit": "Bez pecky; s peckou na vyžádání",
+			"cleaning": "Tříděné a čištěné; kontrola zbytkových pecek; bez stopek a cizích příměsí",
+			"storage": "–18 °C nebo méně",
+			"packaging": "Vícevrstvé papírové pytle 25 kg nebo kartonové krabice 10 kg",
+			"moq": "500 kg",
+			"traceability": "Dohledatelnost na úrovni šarže od sklizně po hotový výrobek",
+			"foodSafety": "Zpracování podle zásad HACCP",
+			"organic": "Bio šarže na vyžádání, dle dostupnosti",
+			"delivery": "Po celé EU",
+			"incoterms": "FCA, DAP nebo DDP",
+			"documents": "Kompletní exportní a přepravní dokumentace"
+		},
+		"applications": [
+			"Náplně do koláčů, závinů a dortů",
+			"Knedlíky a náplně",
+			"Džemy, marmelády a ovocné přípravky",
+			"Šťávy, nektary a ovocné nápoje",
+			"Jogurty a mléčné výrobky",
+			"Zmrzlina a mražené dezerty",
+			"Omáčky k masu a kachně",
+			"Višňovky, likéry a nálevy",
+			"Cukrovinky a čokoládové výrobky",
+			"Ovocná pyré a kompoty",
+			"Potravinářské suroviny a ovocné polotovary"
 		]
 	},
 
@@ -583,15 +1184,45 @@
 			"description": "Divoké mražené václavky (Armillaria mellea) z Karpat — vcelku, malé klobouky. HACCP, MOQ 500 kg. Velkoobchodní export FCA/DAP/DDP po celé EU."
 		},
 		"heading": "Mražené václavky (IQF)",
-		"description": "Mražené václavky IQF (Armillaria mellea), sbírané ručně v lesích ukrajinských Karpat. Tyto drobné divoké houby — kompaktní klobouky na tenkých třeních — jsou ceněné za to, že zůstávají celé a neporušené během mrazení i vaření, dávají pevné, pružné sousto a atraktivní přirozený vzhled, který krásně vynikne v pokrmech s celými houbami. Rostou v trsech a sbírají se ručně v sezoně; čistí se, třídí a zmrazují metodou IQF krátce po sběru, takže houby zůstávají oddělené a sypké pro snadné porcování — přímo na pánev nebo do procesu. Václavky se vždy konzumují tepelně upravené, nikdy syrové, což z nich činí přirozenou volbu pro tepelné zpracování a hotová jídla. Dodávají se celé jako standard. Typické využití: marinované a nakládané výrobky, polévky a dušené pokrmy, restované a smažené houbové pokrmy, hotová jídla, a směsi divokých hub. Všechny houby jsou tříděné, čištěné a bez cizích příměsí. Původ je dohledatelný od lesa až po hotovou paletu a zpracování probíhá podle standardů HACCP. Balení: vlnité kartonové krabice 10 kg, na paletách pro export. Skladování při –18 °C. Minimální objednávka 500 kg. Dodání za podmínek FCA, DAP nebo DDP s kompletní exportní dokumentací.",
-		"benefits": [
-			"Druh: divoké václavky (Armillaria mellea)",
-			"Drobné celé klobouky na tenkých třeních — drží při vaření",
-			"Pevná, pružná struktura a atraktivní přirozený vzhled",
-			"Ideální pro marinování, nakládání, polévky, restování a směsi",
-			"Vždy tepelně upravené, nikdy syrové — pro tepelné zpracování",
-			"IQF, sypké — snadné porcování, nespékají se",
-			"Balení: kartonové krabice 10 kg · HACCP · dohledatelnost"
+		"description": [
+			"Prémiové mražené václavky IQF (václavka obecná, Armillaria mellea), ručně sbírané v čistých lesích ukrajinských Karpat a zpracované pro profesionální výrobce potravin, konzerv a hotových jídel, distributory a nákupčí surovin.",
+			"Václavky patří k nejoblíbenějším lesním houbám na Ukrajině, v Česku i v Polsku: pevná pružná struktura, příjemná houbová chuť a lehce oříšková dochuť. Rostou ve velkých trsech na pařezech a stromech, a proto v sezóně dávají značné objemy. Václavky jsou ideální k nakládání, do polévek, omáček a hotových jídel. Upozornění: václavky jsou surovinou ke zpracování a před konzumací je nutné je důkladně tepelně upravit.",
+			"Houby se ručně sbírají, v den sběru se očistí od hlíny a lesních nečistot, zastřihnou a zmrazí metodou IQF, aby si zachovaly pružnou strukturu, barvu i chuť. Po zmrazení zůstávají sypké a neslepují se, což umožňuje přesné dávkování a přímé použití ve výrobě.",
+			"Václavky dodáváme celé, přednostně malé mladé houby se zavřenými klobouky, které jsou nejvíce ceněné k nakládání a konzervování. Produkt je tříděný podle velikosti — přerostlé a poškozené houby, zbytky hlíny a viditelné cizí příměsi jsou odstraněny podle dohodnuté specifikace zákazníka. K dispozici je plná dohledatelnost šarže od místa sběru přes zpracování až po hotovou paletu.",
+			"Sezóna sběru václavek v ukrajinských Karpatech trvá od září do listopadu s vrcholem v září a říjnu. Objemy a termíny se každý rok liší podle srážek a teplot. Mimo sezónu je produkt dostupný z mražených zásob letošní úrody — pro aktuální objemy a termíny nakládky nás kontaktujte."
+		],
+		"specs": {
+			"product": "Mražené václavky IQF",
+			"botanicalName": "Armillaria mellea",
+			"origin": "Ukrajina",
+			"harvesting": "Ruční sběr divokých hub",
+			"environment": "Lesy ukrajinských Karpat",
+			"processing": "Čištění, zastřižení a individuální rychlé zmrazení (IQF)",
+			"colour": "Přirozeně medově hnědá",
+			"fruit": "Celé houby, převážně malé mladé klobouky",
+			"cleaning": "Tříděné podle velikosti; bez zbytků hlíny, přerostlých hub a cizích příměsí",
+			"storage": "–18 °C nebo méně",
+			"packaging": "Kartonové krabice 10 kg",
+			"moq": "500 kg",
+			"traceability": "Dohledatelnost na úrovni šarže od sběru po hotový výrobek",
+			"foodSafety": "Zpracování podle zásad HACCP",
+			"organic": "Divoké, bez bio certifikace",
+			"delivery": "Po celé EU",
+			"incoterms": "FCA, DAP nebo DDP",
+			"documents": "Kompletní exportní a přepravní dokumentace"
+		},
+		"applications": [
+			"Nakládání a konzervování",
+			"Polévky a vývary",
+			"Omáčky",
+			"Hotová jídla a polotovary",
+			"Knedlíky, pirohy a náplně",
+			"Houbové směsi",
+			"Saláty a studené předkrmy z nakládaných hub",
+			"Pizza a posypy",
+			"Dušená jídla a ragú",
+			"HoReCa a restaurační kuchyně",
+			"Potravinářské suroviny a houbové polotovary"
 		]
 	},
 
@@ -601,15 +1232,45 @@
 			"description": "Mražené ostružiny IQF (Rubus fruticosus) z Karpat — celé plody, tmavá barva, pevná struktura. HACCP a bio, MOQ 500 kg. Export FCA/DAP/DDP po EU."
 		},
 		"heading": "Mražené ostružiny (IQF)",
-		"description": "Mražené ostružiny IQF (Rubus fruticosus) z ukrajinského karpatského regionu, zpracované ve fázi plné zralosti. Ostružiny jsou větší a pevnější než maliny, dobře drží tvar během mrazení i dalšího zpracování a jejich intenzivní tmavě fialovočerná barva nese silné přírodní anthokyany — ceněné jak pro vizuální efekt, tak pro barvicí schopnost v hotových výrobcích. Zmrazené metodou IQF při plné zralosti zůstávají plody sypké, takže zpracovatelé mohou přesně dávkovat a rozmrazit jen to, co potřebují. Protože je plod robustnější, ostružiny v celé kvalitě (whole grade) zůstávají atraktivně neporušené pro viditelné použití; drť (broken) je k dispozici tam, kde je nákladová efektivita důležitější než vzhled. Veškeré ovoce je tříděné, čištěné a bez listů, kalíšků a cizích příměsí, připravené k přímému průmyslovému využití. Typické využití: pekařské a cukrářské výrobky (koláče, muffiny, náplně), jogurty a mléčné výrobky, zmrzlina a dezerty, džemy, zavařeniny a coulis, šťávy, smoothie a koncentráty, a směsi lesního ovoce. Mrazení IQF zachovává sytou barvu, chuť a živiny, včetně anthokyanů a vitaminu C. Původ je plně dohledatelný od pole až po hotovou paletu a zpracování probíhá podle standardů HACCP; šarže s certifikací Organic jsou k dispozici na vyžádání. Balení: vícevrstvé papírové pytle 25 kg nebo průmyslové oktabiny 400 kg. Skladování při –18 °C. Minimální objednávka 500 kg. Dodání za podmínek FCA, DAP nebo DDP s kompletní exportní dokumentací.",
-		"benefits": [
-			"Druh: ostružiny (Rubus fruticosus)",
-			"Větší a pevnější než maliny — dobře drží tvar",
-			"Intenzivní tmavě fialovočerná barva, silné přírodní anthokyany",
-			"Kvality: celé (neporušené, pro viditelné použití) nebo drť (broken)",
-			"IQF, sypké — přesné dávkování, nespékají se",
-			"Anthokyany a vitamin C · bez aditiv a cukru",
-			"Balení: pytle 25 kg / oktabiny 400 kg · HACCP · Organic na vyžádání"
+		"description": [
+			"Prémiové mražené divoké ostružiny IQF (Rubus fruticosus), ručně sbírané v ekologicky čistých oblastech ukrajinských Karpat a zpracované pro profesionální výrobce potravin, distributory a nákupčí surovin.",
+			"Ostružiny mají sytě tmavě fialovou, téměř černou barvu, šťavnatou dužinu a plnou sladkokyselou chuť s lesními tóny. Jsou bohaté na antokyany, a proto dodávají hotovým výrobkům intenzivní přirozenou barvu. Divoké ostružiny jsou menší a aromatičtější než pěstované a jejich pevná struktura dobře snáší zmrazení — díky tomu jsou ostružiny cennou surovinou pro náplně, džemy, šťávy a mléčné výrobky.",
+			"Ostružiny se ručně sbírají v plné zralosti a zmrazují metodou IQF, aby si zachovaly celistvost, barvu, aroma i chuť. Po zmrazení zůstávají sypké a neslepují se, což usnadňuje manipulaci, přesné dávkování a umožňuje přímé použití ve výrobě.",
+			"Ostružiny dodáváme jako celé plody. Produkt je tříděný a čištěný — stopky, listí, nezralé plody a viditelné cizí příměsi jsou odstraněny podle dohodnuté specifikace zákazníka. K dispozici je plná dohledatelnost šarže od místa sběru přes zpracování až po hotovou paletu.",
+			"Sezóna sběru divokých ostružin v ukrajinských Karpatech trvá od srpna do září s vrcholem na konci srpna. Přesné termíny se každý rok liší podle počasí a nadmořské výšky. Mimo sezónu je produkt dostupný z mražených zásob letošní úrody — pro aktuální objemy a termíny nakládky nás kontaktujte."
+		],
+		"specs": {
+			"product": "Mražené divoké ostružiny IQF",
+			"botanicalName": "Rubus fruticosus",
+			"origin": "Ukrajina",
+			"harvesting": "Ruční sběr divokých plodů",
+			"environment": "Ekologicky čisté oblasti ukrajinských Karpat",
+			"processing": "Individuální rychlé zmrazení (IQF)",
+			"colour": "Přirozeně tmavě fialová až černá",
+			"fruit": "Celé plody, pevná struktura",
+			"cleaning": "Tříděné a čištěné; bez stopek, listí, nezralých plodů a cizích příměsí",
+			"storage": "–18 °C nebo méně",
+			"packaging": "Vícevrstvé papírové pytle 25 kg nebo kartonové krabice 10 kg",
+			"moq": "500 kg",
+			"traceability": "Dohledatelnost na úrovni šarže od sběru po hotový výrobek",
+			"foodSafety": "Zpracování podle zásad HACCP",
+			"organic": "Bio šarže na vyžádání, dle dostupnosti",
+			"delivery": "Po celé EU",
+			"incoterms": "FCA, DAP nebo DDP",
+			"documents": "Kompletní exportní a přepravní dokumentace"
+		},
+		"applications": [
+			"Pekařské náplně a polevy",
+			"Džemy, marmelády a ovocné přípravky",
+			"Jogurty a mléčné výrobky",
+			"Zmrzlina a mražené dezerty",
+			"Smoothie, šťávy a ovocné nápoje",
+			"Ovocná pyré a omáčky",
+			"Cukrovinky a čokoládové výrobky",
+			"Likéry a ovocné nálevy",
+			"Snídaňové produkty a cereálie",
+			"Přírodní barviva na bázi antokyanů",
+			"Potravinářské suroviny a ovocné polotovary"
 		]
 	},
 
@@ -619,15 +1280,45 @@
 			"description": "Mražené hrozny IQF bez pecek z karpatských vinic — celé, odstopkované, sypké. HACCP a bio, MOQ 500 kg. Velkoobchodní export FCA/DAP/DDP po EU."
 		},
 		"heading": "Mražené hroznové víno (IQF)",
-		"description": "Mražené hroznové víno IQF (Vitis vinifera) z vinic ukrajinského karpatského regionu, sklizené zralé a zmrazené vcelku. Hrozny se myjí, zbavují třapin a zmrazují metodou IQF, takže každá bobule si zachová kulatý tvar a zůstává sypká, místo aby se spekla do bloku — připravená k porcování přesně dle hmotnosti. Dodává se bez pecek jako standard, což umožňuje přímé použití bez přípravy. Mražené hrozny mají osobitou přednost: podávané přímo z mrazáku slouží jako přirozeně sladké, osvěžující sousto a čistá náhrada ledových kostek v nápojích — chladí, aniž by ředily — zatímco zpracovatelům nabízejí celoroční zdroj zralého ovoce pro další využití. Veškeré ovoce je tříděné, čištěné a bez třapin a cizích příměsí. Typické využití: mražené snacky a zdravé řady, chlazené a alkoholické nápoje (jako jedlý led), ovocné a smoothie směsi, dezerty a ozdoby, šťávy a koncentráty, a gastro. Mrazení IQF zachovává přírodní sladkost, barvu a živiny, včetně polyfenolů jako je resveratrol. Původ je plně dohledatelný od vinice až po hotovou paletu a zpracování probíhá podle standardů HACCP; šarže s certifikací Organic jsou k dispozici na vyžádání. Balení: vícevrstvé papírové pytle 25 kg nebo průmyslové oktabiny 400 kg. Skladování při –18 °C. Minimální objednávka 500 kg. Dodání za podmínek FCA, DAP nebo DDP s kompletní exportní dokumentací.",
-		"benefits": [
-			"Hroznové víno bez pecek (Vitis vinifera), zmrazené vcelku, bez třapin",
-			"Kulaté bobule zůstávají sypké — porcování dle hmotnosti",
-			"Přímo z mrazáku — sladký snack nebo jedlý led do nápojů",
-			"Celoroční zdroj zralého ovoce pro zpracování",
-			"Obsahuje přírodní polyfenoly včetně resveratrolu",
-			"Bez aditiv, konzervantů a přidaného cukru",
-			"Balení: pytle 25 kg / oktabiny 400 kg · HACCP · Organic na vyžádání"
+		"description": [
+			"Prémiové mražené hrozny IQF bez pecek (Vitis vinifera), vypěstované na vinicích Zakarpatí — jedné z nejstarších vinařských oblastí Ukrajiny — a zpracované pro profesionální výrobce potravin a nápojů, distributory a nákupčí surovin.",
+			"Hrozny bez pecek mají šťavnatou dužinu, tenkou slupku a vyváženou sladkou chuť s lehkou kyselinkou. Mražené hrozny jsou univerzální surovinou: zachovávají si tvar i šťavnatost, hodí se do smoothie, dezertů a mléčných výrobků a celé mražené bobule se používají jako přírodní „ovocný led“ do nápojů a koktejlů i jako hotový snack.",
+			"Hrozny se sklízejí v plné zralosti, oddělí se od stopek a zmrazí metodou IQF, aby si zachovaly tvar, barvu, chuť i živiny. Po zmrazení zůstávají sypké a neslepují se, což umožňuje přesné dávkování a přímé použití ve výrobě.",
+			"Hrozny dodáváme jako celé bobule bez pecek a bez stopek. Produkt je tříděný a čištěný — stopky, poškozené a nezralé bobule a viditelné cizí příměsi jsou odstraněny podle dohodnuté specifikace zákazníka. K dispozici je plná dohledatelnost šarže od vinice přes zpracování až po hotovou paletu.",
+			"Sezóna sklizně hroznů v Zakarpatí trvá od srpna do září s vrcholem v září. Přesné termíny se každý rok liší podle počasí a odrůdy. Mimo sezónu je produkt dostupný z mražených zásob letošní úrody — pro aktuální objemy a termíny nakládky nás kontaktujte."
+		],
+		"specs": {
+			"product": "Mražené hrozny IQF bez pecek",
+			"botanicalName": "Vitis vinifera",
+			"origin": "Ukrajina",
+			"harvesting": "Sklizeň na vinicích v plné zralosti",
+			"environment": "Vinice Zakarpatí",
+			"processing": "Odstopkování a individuální rychlé zmrazení (IQF)",
+			"colour": "Přirozená, podle odrůdy",
+			"fruit": "Celé bobule bez pecek",
+			"cleaning": "Tříděné a čištěné; bez stopek, poškozených bobulí a cizích příměsí",
+			"storage": "–18 °C nebo méně",
+			"packaging": "Vícevrstvé papírové pytle 25 kg nebo kartonové krabice 10 kg",
+			"moq": "500 kg",
+			"traceability": "Dohledatelnost na úrovni šarže od sklizně po hotový výrobek",
+			"foodSafety": "Zpracování podle zásad HACCP",
+			"organic": "Bio šarže na vyžádání, dle dostupnosti",
+			"delivery": "Po celé EU",
+			"incoterms": "FCA, DAP nebo DDP",
+			"documents": "Kompletní exportní a přepravní dokumentace"
+		},
+		"applications": [
+			"Smoothie, šťávy a ovocné nápoje",
+			"Koktejly a „ovocný led“ do nápojů",
+			"Mražené snacky",
+			"Zmrzlina a mražené dezerty",
+			"Jogurty a mléčné výrobky",
+			"Ovocné saláty a směsi",
+			"Pekařské náplně a polevy",
+			"Džemy a ovocné přípravky",
+			"Dezerty a dorty",
+			"HoReCa a bary",
+			"Potravinářské suroviny a ovocné polotovary"
 		]
 	},
 
@@ -637,15 +1328,45 @@
 			"description": "Mražená kukuřice cukrová IQF z karpatských farem — zrna nebo klasy, blanšírovaná, sypká. HACCP a bio, MOQ 500 kg. Export FCA/DAP/DDP po EU."
 		},
 		"heading": "Mražená kukuřice cukrová (IQF)",
-		"description": "Mražená cukrová kukuřice IQF (Zea mays var. saccharata) pěstovaná na farmách ukrajinského karpatského regionu a zpracovaná během několika hodin po sklizni, kdy je zrno nejsladší — cukry v cukrové kukuřici se po sklizni rychle mění na škrob, takže právě rychlé zmrazení uzamyká jemný, sladký charakter, který odběratelé očekávají. Kukuřice se zbavuje listenů, blanšíruje pro zachování barvy a struktury, zrno se odřezává z klasu a zmrazuje metodou IQF, takže zrna zůstávají oddělená a sypká — připravená nasypat přímo do výroby bez rozmrazování a bez odpadu. Dodává se jako sypké zrno jako standard, nebo jako klasy a mini-klasy dle specifikace. Veškerá produkce je tříděná, čištěná a bez listenů, blizen a cizích příměsí. Typické využití: mražené zeleninové směsi, hotová jídla a polotovary, polévky, saláty a salsy, topping na pizzu a pečivo, gastro a catering. Mrazení IQF zachovává jasně zlatavou barvu, přírodní sladkost a celoroční dostupnost nezávisle na sezoně. Původ je plně dohledatelný od pole až po hotovou paletu a zpracování probíhá podle standardů HACCP; šarže s certifikací Organic jsou k dispozici na vyžádání. Balení: vícevrstvé papírové pytle 25 kg nebo průmyslové oktabiny 400 kg. Skladování při –18 °C. Minimální objednávka 500 kg. Dodání za podmínek FCA, DAP nebo DDP s kompletní exportní dokumentací.",
-		"benefits": [
-			"Cukrová kukuřice (Zea mays var. saccharata), polní",
-			"Dodávána jako sypké zrno nebo klasy / mini-klasy dle spec.",
-			"Blanšírovaná — barva, sladkost a struktura zachovány",
-			"Zmrazená během několika hodin — uzamyká sladkost před přeměnou na škrob",
-			"IQF, sypká — nasypat přímo do výroby, bez odpadu",
-			"Jasně zlatavá barva · dostupná celoročně",
-			"Balení: pytle 25 kg / oktabiny 400 kg · HACCP · Organic na vyžádání"
+		"description": [
+			"Prémiová mražená cukrová kukuřice IQF (Zea mays var. saccharata), vypěstovaná na farmách v Zakarpatí a zpracovaná pro profesionální výrobce potravin a hotových jídel, distributory a nákupčí surovin.",
+			"Cukrová kukuřice má jasně žlutá šťavnatá zrna, jemnou strukturu a přirozeně sladkou chuť. Sklízí se v mléčně-voskové zralosti — právě tehdy, kdy zrna obsahují nejvíce přírodního cukru. Díky sytě žluté barvě a sladkosti patří kukuřice k nejoblíbenější zelenině do zeleninových směsí, salátů, na pizzu a do hotových jídel.",
+			"Palice se sklízejí v optimální zralosti, očistí, blanšírují a zmrazí metodou IQF. Blanšírování zastaví enzymatické procesy a zachová sladkost, barvu i strukturu zrn. Po zmrazení zůstávají zrna sypká a neslepují se, což umožňuje přesné dávkování a přímé použití ve výrobě.",
+			"Podle potřeb výroby dodáváme kukuřici jako zrna nebo celé palice. Produkt je tříděný a čištěný — poškozená zrna, zbytky palic, listí a viditelné cizí příměsi jsou odstraněny podle dohodnuté specifikace zákazníka. K dispozici je plná dohledatelnost šarže od pole přes zpracování až po hotovou paletu.",
+			"Sezóna sklizně cukrové kukuřice v Zakarpatí trvá od srpna do září s vrcholem v srpnu. Přesné termíny se každý rok liší podle počasí a odrůdy. Mimo sezónu je produkt dostupný z mražených zásob letošní úrody — pro aktuální objemy a termíny nakládky nás kontaktujte."
+		],
+		"specs": {
+			"product": "Mražená cukrová kukuřice IQF",
+			"botanicalName": "Zea mays var. saccharata",
+			"origin": "Ukrajina",
+			"harvesting": "Sklizeň v mléčně-voskové zralosti",
+			"environment": "Farmy v Zakarpatí",
+			"processing": "Čištění, blanšírování a individuální rychlé zmrazení (IQF)",
+			"colour": "Přirozeně jasně žlutá",
+			"fruit": "Zrna nebo celé palice",
+			"cleaning": "Tříděná a čištěná; bez poškozených zrn, zbytků palic, listí a cizích příměsí",
+			"storage": "–18 °C nebo méně",
+			"packaging": "Vícevrstvé papírové pytle 25 kg nebo kartonové krabice 10 kg",
+			"moq": "500 kg",
+			"traceability": "Dohledatelnost na úrovni šarže od sklizně po hotový výrobek",
+			"foodSafety": "Zpracování podle zásad HACCP",
+			"organic": "Bio šarže na vyžádání, dle dostupnosti",
+			"delivery": "Po celé EU",
+			"incoterms": "FCA, DAP nebo DDP",
+			"documents": "Kompletní exportní a přepravní dokumentace"
+		},
+		"applications": [
+			"Zeleninové směsi",
+			"Saláty a studené předkrmy",
+			"Pizza a posypy",
+			"Hotová jídla a polotovary",
+			"Polévky a krémové polévky",
+			"Přílohy",
+			"Mexická kuchyně",
+			"Konzervování",
+			"Dětská výživa",
+			"HoReCa a catering",
+			"Potravinářské suroviny a zeleninové polotovary"
 		]
 	},
 
@@ -655,15 +1376,45 @@
 			"description": "Mražený černý rybíz IQF (Ribes nigrum) — vysoký obsah vitamínu C, na šťávu a zpracování. Karpaty, HACCP a bio, MOQ 500 kg. Export FCA/DAP/DDP po EU."
 		},
 		"heading": "Mražený černý rybíz (IQF)",
-		"description": "Mražený černý rybíz IQF (Ribes nigrum) z ukrajinského karpatského regionu, zpracovaný ve fázi plné zralosti. Černý rybíz je jednou z nejkoncentrovanějších surovin v kategorii bobulovin: mimořádně vysoký obsah přírodního vitaminu C — několikanásobně vyšší než u citrusů — s intenzivní anthokyanovou barvou a ostrou, aromatickou nakyslostí, které z něj činí spíše pracovní surovinu pro výrobu šťáv, koncentrátů a nápojů než ovoce ke konzumaci za čerstva. Zmrazený metodou IQF zůstává bobule sypká pro přesné dávkování a řízené rozmrazování, se zafixovanou sytou barvou a živinami. Dodává se zbavený stopek a tříděný, čištěný a bez cizích příměsí, připravený k přímému průmyslovému využití. Typické využití: šťávy, nektary, koncentráty a sirupy, džemy, zavařeniny a ovocné náplně, mléčné výrobky a jogurty, doplňky stravy a extrakty, přírodní barvivo, a likéry a nápoje včetně cassis. Mrazení IQF zachovává vitamin C, anthokyany a charakteristické aroma. Původ je plně dohledatelný od pole až po hotovou paletu a zpracování probíhá podle standardů HACCP; šarže s certifikací Organic jsou k dispozici na vyžádání. Balení: vícevrstvé papírové pytle 25 kg nebo průmyslové oktabiny 400 kg. Skladování při –18 °C. Minimální objednávka 500 kg. Dodání za podmínek FCA, DAP nebo DDP s kompletní exportní dokumentací.",
-		"benefits": [
-			"Druh: černý rybíz (Ribes nigrum), zbavený stopek",
-			"Mimořádně vysoký přírodní vitamin C — několikanásobně více než citrusy",
-			"Sytá anthokyanová barva a ostrá aromatická nakyslost",
-			"Zpracovatelská bobule — šťáva, koncentrát, sirup, doplňky, cassis",
-			"IQF, sypký — přesné dávkování, nespéká se",
-			"Bez aditiv, konzervantů a přidaného cukru",
-			"Balení: pytle 25 kg / oktabiny 400 kg · HACCP · Organic na vyžádání"
+		"description": [
+			"Prémiový mražený černý rybíz IQF (Ribes nigrum) z karpatské oblasti Ukrajiny, zpracovaný pro profesionální výrobce šťáv, nápojů, potravin a doplňků stravy, distributory a nákupčí surovin.",
+			"Černý rybíz patří k nejkoncentrovanějším bobulovým surovinám: obsah přírodního vitamínu C je několikanásobně vyšší než u citrusů a intenzivní antokyanová barva spolu s ostrou aromatickou kyselostí z něj dělají základní surovinu pro šťávy, koncentráty a nápoje, nikoli ovoce k přímé konzumaci.",
+			"Plody se sklízejí strojově ve vrcholu zralosti pro průmyslové objemy zpracování a zmrazují metodou IQF, aby si zachovaly sytou barvu, vitamíny i živiny. Po zmrazení zůstávají sypké a neslepují se, což umožňuje přesné dávkování a kontrolované rozmrazování.",
+			"Černý rybíz dodáváme jako celé plody zbavené stopek. Produkt je tříděný a čištěný — stopky, listí a viditelné cizí příměsi jsou odstraněny podle dohodnuté specifikace zákazníka, takže je připraven k přímému průmyslovému použití. K dispozici je plná dohledatelnost šarže od plantáže přes zpracování až po hotovou paletu.",
+			"Sezóna sklizně černého rybízu v karpatské oblasti probíhá v červenci s vrcholem v polovině měsíce. Přesné termíny se každý rok liší podle počasí a odrůdy. Mimo sezónu je produkt dostupný z mražených zásob letošní úrody — pro aktuální objemy a termíny nakládky nás kontaktujte."
+		],
+		"specs": {
+			"product": "Mražený černý rybíz IQF",
+			"botanicalName": "Ribes nigrum",
+			"origin": "Ukrajina",
+			"harvesting": "Strojová sklizeň ve vrcholu zralosti",
+			"environment": "Plantáže v karpatské oblasti",
+			"processing": "Individuální rychlé zmrazení (IQF)",
+			"colour": "Přirozeně sytě černofialová",
+			"fruit": "Celé plody bez stopek",
+			"cleaning": "Tříděný a čištěný; bez stopek, listí a cizích příměsí",
+			"storage": "–18 °C nebo méně",
+			"packaging": "Vícevrstvé papírové pytle 25 kg nebo průmyslové oktabiny 400 kg",
+			"moq": "500 kg",
+			"traceability": "Dohledatelnost na úrovni šarže od sklizně po hotový výrobek",
+			"foodSafety": "Zpracování podle zásad HACCP",
+			"organic": "Bio šarže na vyžádání, dle dostupnosti",
+			"delivery": "Po celé EU",
+			"incoterms": "FCA, DAP nebo DDP",
+			"documents": "Kompletní exportní a přepravní dokumentace"
+		},
+		"applications": [
+			"Šťávy, nektary a koncentráty",
+			"Sirupy a nápoje",
+			"Džemy, zavařeniny a ovocné náplně",
+			"Jogurty a mléčné výrobky",
+			"Doplňky stravy a extrakty",
+			"Přírodní barviva na bázi antokyanů",
+			"Likéry a nápoje, včetně cassisu",
+			"Zmrzlina a mražené dezerty",
+			"Pekařské náplně",
+			"Ovocná pyré a omáčky",
+			"Potravinářské suroviny a ovocné polotovary"
 		]
 	},
 
@@ -673,15 +1424,45 @@
 			"description": "Mražená aronie IQF (Aronia melanocarpa) — vysoký obsah polyfenolů a antokyanů, na šťávu a extrakt. Karpaty, HACCP a bio, MOQ 500 kg. Export FCA/DAP/DDP po EU."
 		},
 		"heading": "Mražená arónie (černý jeřáb) IQF",
-		"description": "Mražená arónie / černý jeřáb (Aronia melanocarpa) metodou IQF z ukrajinských Karpat, zpracovaná ve chvíli plné zralosti. Arónie patří mezi nejbohatší přírodní zdroje polyfenolů a antokyanů ze všech bobulovin mírného pásu, což jí dává intenzivní téměř černou barvu a pevnou, terpkou strukturu, díky které se mnohem lépe hodí pro průmyslové zpracování než pro přímou konzumaci. Díky jednotlivému rychlému zmrazení zůstávají bobule sypké a nelepí se, což umožňuje přesné dávkování a řízené rozmrazování při zachování barvy i bioaktivních látek z okamžiku sklizně. Dodává se bez stopek, tříděná a zbavená cizích příměsí, připravená k přímému průmyslovému použití. Typické využití: šťávy, nektary, koncentráty a sirupy, džemy, kompoty a náplně, doplňky stravy a polyfenolové extrakty, přírodní barviva, funkční potraviny a čaje, vína a likéry. Mražení metodou IQF zachovává polyfenoly, antokyany a typickou trpkost plodu. Původ suroviny je plně dohledatelný od pole až po hotovou paletu a výroba probíhá podle standardů HACCP; na vyžádání jsou k dispozici i bio certifikované šarže. Balení: papírové pytle 25 kg nebo průmyslové oktabíny 400 kg. Skladování při –18 °C. Minimální objednávka 500 kg. Doprava po celé EU na paritě FCA, DAP nebo DDP, včetně kompletní exportní dokumentace.",
-		"benefits": [
-			"Druh: arónie / černý jeřáb (Aronia melanocarpa), bez stopek",
-			"Mimořádně vysoký obsah polyfenolů a antokyanů",
-			"Téměř černá barva, pevná struktura, trpká chuť",
-			"Zpracovatelské ovoce — šťávy, koncentráty, extrakty, barviva, víno",
-			"IQF, sypká struktura — přesné dávkování, bez slepování",
-			"Bez přídatných látek, konzervantů a přidaného cukru",
-			"Balení: pytle 25 kg / oktabíny 400 kg · HACCP · Bio na vyžádání"
+		"description": [
+			"Prémiová mražená aronie IQF (temnoplodec černoplodý, Aronia melanocarpa) z karpatské oblasti Ukrajiny, zpracovaná pro profesionální výrobce šťáv, extraktů, doplňků stravy a přírodních barviv, distributory a nákupčí surovin.",
+			"Aronie patří k bobulím nejbohatším na polyfenoly a antokyany — v jejich obsahu předčí většinu ostatních bobulí, a proto je ceněna jako superpotravinová surovina pro funkční produkty. Plody mají sytě černofialovou barvu a trpkou, svíravou chuť, a proto se aronie používá především ke zpracování — do šťáv, koncentrátů, extraktů a přírodních barviv, nikoli k přímé konzumaci.",
+			"Plody se sklízejí strojově v plné zralosti pro průmyslové objemy a zmrazují metodou IQF, aby si zachovaly barvu, polyfenoly i živiny. Po zmrazení zůstávají sypké a neslepují se, což umožňuje přesné dávkování a přímé použití ve výrobě.",
+			"Aronii dodáváme čištěnou nebo nečištěnou podle potřeb výroby. Čištěná aronie je tříděná a zbavená stopek, listí a viditelných cizích příměsí podle dohodnuté specifikace zákazníka. K dispozici je plná dohledatelnost šarže od plantáže přes zpracování až po hotovou paletu.",
+			"Sezóna sklizně aronie v karpatské oblasti trvá od konce srpna do září s vrcholem v září. Přesné termíny se každý rok liší podle počasí. Mimo sezónu je produkt dostupný z mražených zásob letošní úrody — pro aktuální objemy a termíny nakládky nás kontaktujte."
+		],
+		"specs": {
+			"product": "Mražená aronie IQF",
+			"botanicalName": "Aronia melanocarpa",
+			"origin": "Ukrajina",
+			"harvesting": "Strojová sklizeň v plné zralosti",
+			"environment": "Plantáže v karpatské oblasti",
+			"processing": "Individuální rychlé zmrazení (IQF)",
+			"colour": "Přirozeně sytě černofialová",
+			"fruit": "Celé plody, čištěné nebo nečištěné",
+			"cleaning": "Čištěná: bez stopek, listí a cizích příměsí; nečištěná dle dohody",
+			"storage": "–18 °C nebo méně",
+			"packaging": "Vícevrstvé papírové pytle 25 kg nebo průmyslové oktabiny 400 kg",
+			"moq": "500 kg",
+			"traceability": "Dohledatelnost na úrovni šarže od sklizně po hotový výrobek",
+			"foodSafety": "Zpracování podle zásad HACCP",
+			"organic": "Bio šarže na vyžádání, dle dostupnosti",
+			"delivery": "Po celé EU",
+			"incoterms": "FCA, DAP nebo DDP",
+			"documents": "Kompletní exportní a přepravní dokumentace"
+		},
+		"applications": [
+			"Šťávy, nektary a koncentráty",
+			"Extrakty a doplňky stravy",
+			"Přírodní barviva na bázi antokyanů",
+			"Superpotravinové prášky a funkční směsi",
+			"Funkční nápoje a smoothie",
+			"Džemy a ovocné přípravky (ve směsi s jinými bobulemi)",
+			"Jogurty a mléčné výrobky",
+			"Cereální tyčinky a snacky",
+			"Čaje a ovocné směsi",
+			"Vína, likéry a nálevy",
+			"Potravinářské suroviny a funkční produkty"
 		]
 	},
 
@@ -691,15 +1472,45 @@
 			"description": "Divoké mražené vlochyně (Vaccinium uliginosum) z Karpat — ručně sbírané, tmavá barva, vysoký obsah antokyanů. HACCP, MOQ 500 kg. Export FCA/DAP/DDP po EU."
 		},
 		"heading": "Mražená divoká vlochyně bahenní (borůvka bahenní) IQF",
-		"description": "Mražená divoká vlochyně bahenní, lidově nazývaná také borůvka bahenní (Vaccinium uliginosum), metodou IQF z ukrajinských Karpat, ručně sbíraná na rašeliništích a v lesích a zpracovaná během několika hodin od sběru. Na rozdíl od pěstované borůvky chocholičnaté (Vaccinium corymbosum) je vlochyně bahenní menší, má zbarvenou dužinu (nejen slupku) a výraznější, jemně nakyslou lesní chuť spolu s přirozeně vyšším obsahem antokyanů — vlastnosti typické pro pravé divoké, nekultivované ovoce. Díky jednotlivému rychlému zmrazení zůstávají bobule sypké, což umožňuje přesné dávkování a řízené rozmrazování při zachování barvy, vůně i účinných látek z okamžiku sklizně. Dodává se bez stopek, tříděná a zbavená cizích příměsí, připravená k přímému průmyslovému použití. Typické využití: šťávy, nektary, smoothies a pyré, džemy, kompoty a náplně, cukrářské a mléčné výrobky, doplňky stravy a antokyanové extrakty, přírodní barviva a lesní likéry a sirupy. Mražení metodou IQF zachovává antokyany, texturu a typické lesní aroma. Původ suroviny je plně dohledatelný od lesa až po hotovou paletu a výroba probíhá podle standardů HACCP; na vyžádání jsou k dispozici i bio certifikované šarže. Balení: papírové pytle 25 kg nebo průmyslové oktabíny 400 kg. Skladování při –18 °C. Minimální objednávka 500 kg. Doprava po celé EU na paritě FCA, DAP nebo DDP, včetně kompletní exportní dokumentace.",
-		"benefits": [
-			"Druh: vlochyně bahenní / borůvka bahenní (Vaccinium uliginosum), ruční sběr",
-			"Zbarvená dužina, nejen slupka plodu",
-			"Přirozeně vysoký obsah antokyanů oproti pěstované borůvce",
-			"Pravé divoké lesní ovoce — šťávy, pyré, extrakty, barviva",
-			"IQF, sypká struktura — přesné dávkování, bez slepování",
-			"Bez přídatných látek, konzervantů a přidaného cukru",
-			"Balení: pytle 25 kg / oktabíny 400 kg · HACCP · Bio na vyžádání"
+		"description": [
+			"Prémiové mražené divoké vlochyně IQF (vlochyně bahenní, Vaccinium uliginosum), ručně sbírané na horských rašeliništích a svazích ukrajinských Karpat a zpracované pro profesionální výrobce potravin, distributory a nákupčí surovin.",
+			"Vlochyně není pěstovaná kanadská borůvka z plantáží, ale divoká lesní bobule. Od divoké borůvky (Vaccinium myrtillus) ji snadno rozeznáte: plody vlochyně jsou větší, s namodralým ojíněním, a jejich dužina je světlá — barva je soustředěna ve slupce. Chuť je jemná, sladkokyselá a šťavnatá, bez trpkosti. Proto se vlochyně hodí zejména pro výrobky, kde záleží na jemné chuti, šťavnatosti a pravém divokém původu, zatímco pro intenzivní barvení je vhodnější divoká borůvka.",
+			"Plody se ručně sbírají v plné zralosti a zmrazují metodou IQF, aby si zachovaly strukturu, barvu, chuť i živiny. Po zmrazení zůstávají sypké a neslepují se, což usnadňuje manipulaci, přesné dávkování a umožňuje přímé použití ve výrobě.",
+			"Produkt je tříděný a čištěný — stopky, listí, nezralé plody a viditelné cizí příměsi jsou odstraněny podle dohodnuté specifikace zákazníka. K dispozici je plná dohledatelnost šarže od místa sběru přes zpracování až po hotovou paletu.",
+			"Sezóna sběru divokých vlochyní v ukrajinských Karpatech trvá od konce července do srpna; ve vyšších polohách může sběr pokračovat až do září. Přesné termíny se každý rok liší podle počasí a nadmořské výšky. Mimo sezónu je produkt dostupný z mražených zásob letošní úrody — pro aktuální objemy a termíny nakládky nás kontaktujte."
+		],
+		"specs": {
+			"product": "Mražené divoké vlochyně IQF",
+			"botanicalName": "Vaccinium uliginosum",
+			"origin": "Ukrajina",
+			"harvesting": "Ruční sběr divokých bobulí",
+			"environment": "Horská rašeliniště a svahy ukrajinských Karpat",
+			"processing": "Individuální rychlé zmrazení (IQF)",
+			"colour": "Modrofialová slupka s ojíněním, světlá dužina",
+			"fruit": "Divoká vlochyně, větší než borůvka, šťavnatá",
+			"cleaning": "Tříděné a čištěné; bez stopek, listí, nezralých plodů a cizích příměsí",
+			"storage": "–18 °C nebo méně",
+			"packaging": "Vícevrstvé papírové pytle 25 kg nebo průmyslové oktabiny 400 kg",
+			"moq": "500 kg",
+			"traceability": "Dohledatelnost na úrovni šarže od sběru po hotový výrobek",
+			"foodSafety": "Zpracování podle zásad HACCP",
+			"organic": "Bio šarže na vyžádání, dle dostupnosti",
+			"delivery": "Po celé EU",
+			"incoterms": "FCA, DAP nebo DDP",
+			"documents": "Kompletní exportní a přepravní dokumentace"
+		},
+		"applications": [
+			"Pekařské náplně a polevy",
+			"Jogurty a mléčné výrobky",
+			"Zmrzlina a mražené dezerty",
+			"Džemy, zavařeniny a ovocné přípravky",
+			"Smoothie, šťávy a ovocné nápoje",
+			"Ovocné omáčky a pyré",
+			"Cukrářské výrobky",
+			"Snídaňové produkty a cereálie",
+			"Likéry a ovocné nálevy",
+			"Výrobky z divokých surovin",
+			"Potravinářské suroviny a ovocné polotovary"
 		]
 	},
 
@@ -731,33 +1542,32 @@
 			"description": " pro potravinářský průmysl, zpracovatele a velkoobchodní odběratele v České republice. Stabilní dodávky, kontrola kvality a profesionální B2B servis."
 		},
 
-		"origin_title": "Země původu",
-		"packaging_title": "Balení",
-		"delivery": {
-			"title": "Doprava",
-			"refrigeratedTransport": {
-				"title": "Chladírenská doprava",
-				"desc": {
-					"frozen": "–18 °C, chladicí řetězec",
-					"fresh": "5 °C, chladicí řetězec",
-					"dried": "pokojová teplota"
-				}
-			},
-			"internationalLogistics": {
-				"title": "Mezinárodní logistika",
-				"desc": "Pravidelné zásilky do EU a dalších světových trhů."
-			},
-			"deliveryTerms": {
-				"title": "Dodací podmínky",
-				"desc": "FCA, DAP nebo DDP - podle požadavků zákazníka."
-			},
-			"exportDocumentation": {
-				"title": "Exportní dokumentace",
-				"desc": "Kompletní sada dokumentů pro hladké celní odbavení."
-			}
+		"specsHeading": "Specifikace produktu",
+		"applicationsHeading": "Typické použití",
+		"harvestPeriod": "Období",
+		"harvestAvailability": "Typická dostupnost",
+		"specs": {
+			"product": "Produkt",
+			"botanicalName": "Botanický název",
+			"origin": "Původ",
+			"harvesting": "Sběr",
+			"environment": "Prostředí růstu",
+			"processing": "Zpracování",
+			"colour": "Barva",
+			"fruit": "Plod",
+			"cleaning": "Čištění",
+			"storage": "Skladování",
+			"packaging": "Balení",
+			"moq": "Minimální objednávka",
+			"traceability": "Dohledatelnost",
+			"foodSafety": "Bezpečnost potravin",
+			"organic": "Bio",
+			"delivery": "Dodání",
+			"incoterms": "Incoterms",
+			"documents": "Dokumentace"
 		},
-		"deliveryByVehicle": "Doprava vozidlem",
-		"desc_title": "Popis",
+
+		"descriptionHeading": "Popis",
 		"status": "Typ produktu",
 		"grade": "Třída jakosti",
 		"whole": "Celé",

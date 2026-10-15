@@ -5,7 +5,6 @@ import { Product } from "@/interfaces/Product";
 import { useEffect, useState } from "react";
 import ContactDetails from "@/components/ContactDetails/ContactDetails";
 import Image from "next/image";
-import harvestData from "@/data/harvest-data.json";
 // Swiper
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Thumbs, FreeMode } from "swiper/modules";
@@ -97,213 +96,12 @@ export default function ProductPageStatic({ product }: ProductPageStaticProps) {
 		};
 	}, [fullScreenIndex]);
 
+	const paragraphs = t.raw(product.description) as string[];
+	const applications = t.raw(product.applications) as string[];
+
 	return (
 		<>
 			<div className="product-page">
-				<div className="product-page__details">
-					<div className="product-page__details-inner">
-						<div>
-							<p className="product-page__lat-name">{product.latName}</p>
-							<h1 className="product-page__name">{t(product.name)}</h1>
-						</div>
-						{product.variants.some((variant) => variant.state) && (
-							<>
-								<div>
-									<h2 style={{ color: "hsl(0, 0%, 50%)", marginBottom: 5 }}>
-										{t("product_page.status")}
-									</h2>
-									<div className="product-page__variants">
-										{product?.variants.map((variant) => {
-											return (
-												<button
-													key={variant.id}
-													onClick={() => handleVariantId(variant.id)}
-													className={classNames("variant-btn btn--bold", {
-														"variant-btn--active":
-															variant.id === activeVariantId,
-													})}
-												>
-													{t(variant.state!)}
-												</button>
-											);
-										})}
-									</div>
-								</div>
-								{productVariant?.grades && productVariant.grades.length > 0 && (
-									<>
-										<h4 style={{ color: "hsl(0, 0%, 50%)" }}>
-											{t("product_page.grade")}
-										</h4>
-										<div style={{ display: "flex", gap: 5, flexWrap: "wrap" }}>
-											{productVariant.grades.map((grade) => (
-												<button
-													key={grade.id}
-													onClick={() => setProductGradeId(grade.id)}
-													className={classNames("variant-btn btn--bold", {
-														"variant-btn--active": grade.id === productGradeId,
-													})}
-												>
-													{grade.class}
-												</button>
-											))}
-										</div>
-									</>
-								)}
-							</>
-						)}
-						<div>
-							<h2 style={{ color: "hsl(0, 0%, 50%)", marginBottom: 5 }}>
-								{t("certificates_title")}
-							</h2>
-							<div style={{ display: "flex", columnGap: 5 }}>
-								{product.isOrganic && (
-									<img
-										src="/icons/organic-logo.jpg"
-										alt="Organic Standard logo"
-										loading="lazy"
-									/>
-								)}
-								<span>HACCP</span>
-							</div>
-						</div>
-						<div>
-							<h2 style={{ color: "hsl(0, 0%, 50%)", marginBottom: 5 }}>
-								{t("product_page.origin_title")}
-							</h2>
-							<p>
-								<span style={{ fontWeight: 500 }}>
-									{t("product_page.origin.region.title")}:
-								</span>{" "}
-								{t("product_page.origin.region.desc")}
-							</p>
-							<p>
-								<span style={{ fontWeight: 500 }}>
-									{t("product_page.origin.traceability.title")}:
-								</span>{" "}
-								{t("product_page.origin.traceability.desc")}
-							</p>
-						</div>
-						<div>
-							<h2 style={{ color: "hsl(0, 0%, 50%)", marginBottom: 5 }}>
-								{t("product_page.packaging_title")}
-							</h2>
-							{product.packaging.paperBag && (
-								<p>
-									<span style={{ fontWeight: 500 }}>
-										{t(product.packaging.paperBag.title)}:
-									</span>{" "}
-									{t(product.packaging.paperBag.desc)}
-								</p>
-							)}
-							{product.packaging.cartonBox && (
-								<p>
-									<span style={{ fontWeight: 500 }}>
-										{t(product.packaging.cartonBox.title)}:
-									</span>{" "}
-									{t(product.packaging.cartonBox.desc)}
-								</p>
-							)}
-							{product.packaging.octabin && (
-								<p>
-									<span style={{ fontWeight: 500 }}>
-										{t(product.packaging.octabin.title)}:
-									</span>{" "}
-									{t(product.packaging.octabin.desc)}
-								</p>
-							)}
-							{product.packaging.woodenContainer && (
-								<p>
-									<span style={{ fontWeight: 500 }}>
-										{t(product.packaging.woodenContainer.title)}:
-									</span>{" "}
-									{t(product.packaging.woodenContainer.desc)}
-								</p>
-							)}
-						</div>
-						<div>
-							<h2 style={{ color: "hsl(0, 0%, 50%)", marginBottom: 5 }}>
-								{t("product_page.delivery.title")}
-							</h2>
-							<ul>
-								<li>
-									<span style={{ fontWeight: 500 }}>
-										{t("product_page.delivery.refrigeratedTransport.title")}:
-									</span>{" "}
-									{t(
-										`product_page.delivery.refrigeratedTransport.desc.${product.status}`,
-									)}
-								</li>
-								<li>
-									<span style={{ fontWeight: 500 }}>
-										{t("product_page.delivery.internationalLogistics.title")}:
-									</span>{" "}
-									{t("product_page.delivery.internationalLogistics.desc")}
-								</li>
-								<li>
-									<span style={{ fontWeight: 500 }}>
-										{t("product_page.delivery.deliveryTerms.title")}{" "}
-										(Incoterms):
-									</span>{" "}
-									{t("product_page.delivery.deliveryTerms.desc")}
-								</li>
-								<li>
-									<span style={{ fontWeight: 500 }}>
-										{t("product_page.delivery.exportDocumentation.title")}:
-									</span>{" "}
-									{t("product_page.delivery.exportDocumentation.desc")}
-								</li>
-							</ul>
-						</div>
-						<div>
-							<h2 style={{ color: "hsl(0, 0%, 50%)", marginBottom: 5 }}>
-								{t("product_page.desc_title")}
-							</h2>
-							<p>{t(product.desc)}</p>
-							<h3 style={{ fontWeight: 500 }}>Key Benefits:</h3>
-							<ul>
-								{t.raw(product.benefits).map((b: string, i: number) => {
-									return (
-										<li
-											key={i}
-											style={{
-												listStyle: "disc",
-												listStylePosition: "inside",
-											}}
-										>
-											{b}
-										</li>
-									);
-								})}
-							</ul>
-						</div>
-						<div>
-							<h2 style={{ color: "hsl(0, 0%, 50%)", marginBottom: 5 }}>
-								{t("harvest_calendar")}
-							</h2>
-							<div style={{ display: "flex", columnGap: 5 }}>
-								{harvestData.map(({ id, month }) => {
-									return (
-										<div
-											key={id}
-											title={t(month)}
-											className={classNames("harvest-month", {
-												"month--active": product.harvest.includes(id),
-											})}
-										>
-											{t(month)[0]}
-										</div>
-									);
-								})}
-							</div>
-						</div>
-					</div>
-					<a
-						className="product-page__link btn--bold"
-						href="#products-page__contacts"
-					>
-						{t("requestPrice")}
-					</a>
-				</div>
 				<div className="swipers-container">
 					<div className="swiper-wrapper">
 						{product.isFeatured && (
@@ -319,7 +117,6 @@ export default function ProductPageStatic({ product }: ProductPageStaticProps) {
 								>
 									<SearchIcon />
 								</button>
-
 								<Swiper
 									// TODO: learn this
 									key={activeVariantId}
@@ -385,7 +182,7 @@ export default function ProductPageStatic({ product }: ProductPageStaticProps) {
 							<div className="product-page__img-ph" />
 						)}
 					</div>
-					{images && images.length > 2 && (
+					{images && images.length > 1 && (
 						<div>
 							<Swiper
 								// TODO: learn this
@@ -415,6 +212,95 @@ export default function ProductPageStatic({ product }: ProductPageStaticProps) {
 							</Swiper>
 						</div>
 					)}
+				</div>
+				<div className="product-page__content">
+					<div>
+						<p className="product-page__lat-name">{product.latName}</p>
+						<h1 className="product-page__name">{t(product.name)}</h1>
+					</div>
+					{product.variants.some((variant) => variant.state) && (
+						<>
+							<div>
+								<h2 className="product-page__h2">{t("product_page.status")}</h2>
+								<div className="product-page__variants">
+									{product?.variants.map((variant) => {
+										return (
+											<button
+												key={variant.id}
+												onClick={() => handleVariantId(variant.id)}
+												className={classNames("variant-btn btn--bold", {
+													"variant-btn--active": variant.id === activeVariantId,
+												})}
+											>
+												{t(variant.state!)}
+											</button>
+										);
+									})}
+								</div>
+							</div>
+							{productVariant?.grades && productVariant.grades.length > 0 && (
+								<div>
+									<h2 className="product-page__h2">
+										{t("product_page.grade")}
+									</h2>
+									<div style={{ display: "flex", gap: 5, flexWrap: "wrap" }}>
+										{productVariant.grades.map((grade) => (
+											<button
+												key={grade.id}
+												onClick={() => setProductGradeId(grade.id)}
+												className={classNames("variant-btn btn--bold", {
+													"variant-btn--active": grade.id === productGradeId,
+												})}
+											>
+												{grade.class}
+											</button>
+										))}
+									</div>
+								</div>
+							)}
+						</>
+					)}
+					<div>
+						<h2 className="product-page__h2">
+							{t("product_page.descriptionHeading")}
+						</h2>
+						{paragraphs.map((p) => (
+							<p key={p}>{p}</p>
+						))}
+					</div>
+					{"specs" in product && product.specs && (
+						<div>
+							<h2 className="product-page__h2">
+								{t("product_page.specsHeading")}
+							</h2>
+							<dl className="product-desc__specs">
+								{product.specs.map((s) => (
+									<div key={s.label}>
+										<dt style={{ fontWeight: "500" }}>{t(s.label)}:</dt>
+										<dd>{t(s.value)}</dd>
+									</div>
+								))}
+							</dl>
+						</div>
+					)}
+					{"applications" in product && product.applications && (
+						<div>
+							<h2 className="product-page__h2">
+								{t("product_page.applicationsHeading")}
+							</h2>
+							<ul className="product-page__ul">
+								{applications.map((key) => (
+									<li key={key}>{key}</li>
+								))}
+							</ul>
+						</div>
+					)}
+					<a
+						className="product-page__link btn--bold"
+						href="#products-page__contacts"
+					>
+						{t("requestPrice")}
+					</a>
 				</div>
 			</div>
 			<div className="product-page__contacts">

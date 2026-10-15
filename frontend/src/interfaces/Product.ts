@@ -1,42 +1,34 @@
+// FIXME:
+type ProductSpec = {
+	label: string;
+	value: string;
+};
+
+type ProductVariant = {
+	id: number;
+	state?: string;
+	images?: string[];
+	grades?: {
+		id: number;
+		class: string;
+		images: string[];
+	}[];
+};
+
 export interface Product {
 	id: string;
+	meta: {
+		title: string;
+		description: string;
+	};
 	type: string;
 	status: string;
 	latName: string;
 	name: string;
-	packaging: {
-		paperBag?: {
-			title: string;
-			desc: string;
-		};
-		cartonBox?: {
-			title: string;
-			desc: string;
-		};
-		octabin?: {
-			title: string;
-			desc: string;
-		};
-		woodenContainer?: {
-			title: string;
-			desc: string;
-		};
-	};
-	desc: string;
-	benefits: string;
-	variants: {
-		id: number;
-		state?: string;
-		images?: string[];
-		grades?: {
-			id: number;
-			class: string;
-			images: string[];
-		}[];
-	}[];
-	isOrganic?: boolean;
-	harvest: number[];
-	descSEO?: string;
-	isIQF?: boolean;
+	description: string;
+	specs?: ProductSpec[];
+	applications: string;
+	variants: ProductVariant[];
 	isFeatured?: boolean;
+	descSEO?: string;
 }

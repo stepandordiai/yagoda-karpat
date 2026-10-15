@@ -72,8 +72,8 @@ export async function generateMetadata({
 			.at(0) ?? "/yagoda-karpat-og.png";
 
 	return {
-		title: t(product.metaTitle),
-		description: t(product.metaDescription),
+		title: t(product.meta.title),
+		description: t(product.meta.description),
 		alternates: {
 			canonical: `/${locale}/${prevPage}/${product.id}`,
 			languages: {
@@ -83,8 +83,8 @@ export async function generateMetadata({
 		},
 		// TODO: learn this
 		openGraph: {
-			title: t(product.metaTitle),
-			description: t(product.metaDescription),
+			title: t(product.meta.title),
+			description: t(product.meta.description),
 			url: `/${locale}/${prevPage}/${product.id}`,
 			type: "website",
 			images: firstImage,

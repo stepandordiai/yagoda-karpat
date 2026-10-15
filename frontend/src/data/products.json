@@ -1,24 +1,90 @@
 [
 	{
 		"id": "frozen-bilberries",
-		"metaTitle": "frozenBilberries.meta.title",
-		"metaDescription": "frozenBilberries.meta.description",
+		"meta": {
+			"title": "frozenBilberries.meta.title",
+			"description": "frozenBilberries.meta.description"
+		},
 		"type": "berries_title",
 		"status": "frozen",
 		"latName": "Vaccinium myrtillus",
 		"name": "frozenBilberries.heading",
-		"desc": "frozenBilberries.description",
-		"benefits": "frozenBilberries.benefits",
-		"packaging": {
-			"paperBag": {
-				"title": "product_page.packaging.paperBag.title",
-				"desc": "product_page.packaging.paperBag.desc"
+		"description": "frozenBilberries.description",
+		"specs": [
+			{
+				"label": "product_page.specs.product",
+				"value": "frozenBilberries.specs.product"
 			},
-			"octabin": {
-				"title": "product_page.packaging.octabin.title",
-				"desc": "product_page.packaging.octabin.desc"
+			{
+				"label": "product_page.specs.botanicalName",
+				"value": "frozenBilberries.specs.botanicalName"
+			},
+			{
+				"label": "product_page.specs.origin",
+				"value": "frozenBilberries.specs.origin"
+			},
+			{
+				"label": "product_page.specs.harvesting",
+				"value": "frozenBilberries.specs.harvesting"
+			},
+			{
+				"label": "product_page.specs.environment",
+				"value": "frozenBilberries.specs.environment"
+			},
+			{
+				"label": "product_page.specs.processing",
+				"value": "frozenBilberries.specs.processing"
+			},
+			{
+				"label": "product_page.specs.colour",
+				"value": "frozenBilberries.specs.colour"
+			},
+			{
+				"label": "product_page.specs.fruit",
+				"value": "frozenBilberries.specs.fruit"
+			},
+			{
+				"label": "product_page.specs.cleaning",
+				"value": "frozenBilberries.specs.cleaning"
+			},
+			{
+				"label": "product_page.specs.storage",
+				"value": "frozenBilberries.specs.storage"
+			},
+			{
+				"label": "product_page.specs.packaging",
+				"value": "frozenBilberries.specs.packaging"
+			},
+			{
+				"label": "product_page.specs.moq",
+				"value": "frozenBilberries.specs.moq"
+			},
+			{
+				"label": "product_page.specs.traceability",
+				"value": "frozenBilberries.specs.traceability"
+			},
+			{
+				"label": "product_page.specs.foodSafety",
+				"value": "frozenBilberries.specs.foodSafety"
+			},
+			{
+				"label": "product_page.specs.organic",
+				"value": "frozenBilberries.specs.organic"
+			},
+			{
+				"label": "product_page.specs.delivery",
+				"value": "frozenBilberries.specs.delivery"
+			},
+			{
+				"label": "product_page.specs.incoterms",
+				"value": "frozenBilberries.specs.incoterms"
+			},
+			{
+				"label": "product_page.specs.documents",
+				"value": "frozenBilberries.specs.documents"
 			}
-		},
+		],
+		"applications": "frozenBilberries.applications",
 		"variants": [
 			{
 				"id": 1,
@@ -46,30 +112,94 @@
 				]
 			}
 		],
-		"harvest": [7, 8],
-		"isOrganic": true,
 		"isFeatured": true
 	},
 	{
 		"id": "frozen-lingonberries",
-		"metaTitle": "frozenLingonberries.meta.title",
-		"metaDescription": "frozenLingonberries.meta.description",
+		"meta": {
+			"title": "frozenLingonberries.meta.title",
+			"description": "frozenLingonberries.meta.description"
+		},
 		"type": "berries_title",
 		"status": "frozen",
 		"latName": "Vaccinium vitis-idaea",
 		"name": "frozenLingonberries.heading",
-		"desc": "frozenLingonberries.description",
-		"benefits": "frozenLingonberries.benefits",
-		"packaging": {
-			"paperBag": {
-				"title": "product_page.packaging.paperBag.title",
-				"desc": "product_page.packaging.paperBag.desc"
+		"description": "frozenLingonberries.description",
+		"specs": [
+			{
+				"label": "product_page.specs.product",
+				"value": "frozenLingonberries.specs.product"
 			},
-			"octabin": {
-				"title": "product_page.packaging.octabin.title",
-				"desc": "product_page.packaging.octabin.desc"
+			{
+				"label": "product_page.specs.botanicalName",
+				"value": "frozenLingonberries.specs.botanicalName"
+			},
+			{
+				"label": "product_page.specs.origin",
+				"value": "frozenLingonberries.specs.origin"
+			},
+			{
+				"label": "product_page.specs.harvesting",
+				"value": "frozenLingonberries.specs.harvesting"
+			},
+			{
+				"label": "product_page.specs.environment",
+				"value": "frozenLingonberries.specs.environment"
+			},
+			{
+				"label": "product_page.specs.processing",
+				"value": "frozenLingonberries.specs.processing"
+			},
+			{
+				"label": "product_page.specs.colour",
+				"value": "frozenLingonberries.specs.colour"
+			},
+			{
+				"label": "product_page.specs.fruit",
+				"value": "frozenLingonberries.specs.fruit"
+			},
+			{
+				"label": "product_page.specs.cleaning",
+				"value": "frozenLingonberries.specs.cleaning"
+			},
+			{
+				"label": "product_page.specs.storage",
+				"value": "frozenLingonberries.specs.storage"
+			},
+			{
+				"label": "product_page.specs.packaging",
+				"value": "frozenLingonberries.specs.packaging"
+			},
+			{
+				"label": "product_page.specs.moq",
+				"value": "frozenLingonberries.specs.moq"
+			},
+			{
+				"label": "product_page.specs.traceability",
+				"value": "frozenLingonberries.specs.traceability"
+			},
+			{
+				"label": "product_page.specs.foodSafety",
+				"value": "frozenLingonberries.specs.foodSafety"
+			},
+			{
+				"label": "product_page.specs.organic",
+				"value": "frozenLingonberries.specs.organic"
+			},
+			{
+				"label": "product_page.specs.delivery",
+				"value": "frozenLingonberries.specs.delivery"
+			},
+			{
+				"label": "product_page.specs.incoterms",
+				"value": "frozenLingonberries.specs.incoterms"
+			},
+			{
+				"label": "product_page.specs.documents",
+				"value": "frozenLingonberries.specs.documents"
 			}
-		},
+		],
+		"applications": "frozenLingonberries.applications",
 		"variants": [
 			{
 				"id": 1,
@@ -93,30 +223,94 @@
 				]
 			}
 		],
-		"harvest": [8, 9],
-		"isOrganic": true,
 		"isFeatured": true
 	},
 	{
 		"id": "frozen-rosehips",
-		"metaTitle": "frozenRoseHips.meta.title",
-		"metaDescription": "frozenRoseHips.meta.description",
+		"meta": {
+			"title": "frozenRoseHips.meta.title",
+			"description": "frozenRoseHips.meta.description"
+		},
 		"type": "berries_title",
 		"status": "frozen",
 		"latName": "Rosa canina",
 		"name": "frozenRoseHips.heading",
-		"desc": "frozenRoseHips.description",
-		"benefits": "frozenRoseHips.benefits",
-		"packaging": {
-			"paperBag": {
-				"title": "product_page.packaging.paperBag.title",
-				"desc": "product_page.packaging.paperBag.desc"
+		"description": "frozenRoseHips.description",
+		"specs": [
+			{
+				"label": "product_page.specs.product",
+				"value": "frozenRoseHips.specs.product"
 			},
-			"octabin": {
-				"title": "product_page.packaging.octabin.title",
-				"desc": "product_page.packaging.octabin.desc"
+			{
+				"label": "product_page.specs.botanicalName",
+				"value": "frozenRoseHips.specs.botanicalName"
+			},
+			{
+				"label": "product_page.specs.origin",
+				"value": "frozenRoseHips.specs.origin"
+			},
+			{
+				"label": "product_page.specs.harvesting",
+				"value": "frozenRoseHips.specs.harvesting"
+			},
+			{
+				"label": "product_page.specs.environment",
+				"value": "frozenRoseHips.specs.environment"
+			},
+			{
+				"label": "product_page.specs.processing",
+				"value": "frozenRoseHips.specs.processing"
+			},
+			{
+				"label": "product_page.specs.colour",
+				"value": "frozenRoseHips.specs.colour"
+			},
+			{
+				"label": "product_page.specs.fruit",
+				"value": "frozenRoseHips.specs.fruit"
+			},
+			{
+				"label": "product_page.specs.cleaning",
+				"value": "frozenRoseHips.specs.cleaning"
+			},
+			{
+				"label": "product_page.specs.storage",
+				"value": "frozenRoseHips.specs.storage"
+			},
+			{
+				"label": "product_page.specs.packaging",
+				"value": "frozenRoseHips.specs.packaging"
+			},
+			{
+				"label": "product_page.specs.moq",
+				"value": "frozenRoseHips.specs.moq"
+			},
+			{
+				"label": "product_page.specs.traceability",
+				"value": "frozenRoseHips.specs.traceability"
+			},
+			{
+				"label": "product_page.specs.foodSafety",
+				"value": "frozenRoseHips.specs.foodSafety"
+			},
+			{
+				"label": "product_page.specs.organic",
+				"value": "frozenRoseHips.specs.organic"
+			},
+			{
+				"label": "product_page.specs.delivery",
+				"value": "frozenRoseHips.specs.delivery"
+			},
+			{
+				"label": "product_page.specs.incoterms",
+				"value": "frozenRoseHips.specs.incoterms"
+			},
+			{
+				"label": "product_page.specs.documents",
+				"value": "frozenRoseHips.specs.documents"
 			}
-		},
+		],
+		"applications": "frozenRoseHips.applications",
 		"variants": [
 			{
 				"id": 1,
@@ -126,30 +320,94 @@
 				]
 			}
 		],
-		"harvest": [9, 10, 11],
-		"isOrganic": true,
 		"isFeatured": true
 	},
 	{
 		"id": "frozen-plums",
-		"metaTitle": "frozenPlums.meta.title",
-		"metaDescription": "frozenPlums.meta.description",
+		"meta": {
+			"title": "frozenPlums.meta.title",
+			"description": "frozenPlums.meta.description"
+		},
 		"type": "fruits_title",
 		"status": "frozen",
 		"latName": "Prunus domestica",
 		"name": "frozenPlums.heading",
-		"desc": "frozenPlums.description",
-		"benefits": "frozenPlums.benefits",
-		"packaging": {
-			"paperBag": {
-				"title": "product_page.packaging.paperBag.title",
-				"desc": "product_page.packaging.paperBag.desc"
+		"description": "frozenPlums.description",
+		"specs": [
+			{
+				"label": "product_page.specs.product",
+				"value": "frozenPlums.specs.product"
 			},
-			"octabin": {
-				"title": "product_page.packaging.octabin.title",
-				"desc": "product_page.packaging.octabin.desc"
+			{
+				"label": "product_page.specs.botanicalName",
+				"value": "frozenPlums.specs.botanicalName"
+			},
+			{
+				"label": "product_page.specs.origin",
+				"value": "frozenPlums.specs.origin"
+			},
+			{
+				"label": "product_page.specs.harvesting",
+				"value": "frozenPlums.specs.harvesting"
+			},
+			{
+				"label": "product_page.specs.environment",
+				"value": "frozenPlums.specs.environment"
+			},
+			{
+				"label": "product_page.specs.processing",
+				"value": "frozenPlums.specs.processing"
+			},
+			{
+				"label": "product_page.specs.colour",
+				"value": "frozenPlums.specs.colour"
+			},
+			{
+				"label": "product_page.specs.fruit",
+				"value": "frozenPlums.specs.fruit"
+			},
+			{
+				"label": "product_page.specs.cleaning",
+				"value": "frozenPlums.specs.cleaning"
+			},
+			{
+				"label": "product_page.specs.storage",
+				"value": "frozenPlums.specs.storage"
+			},
+			{
+				"label": "product_page.specs.packaging",
+				"value": "frozenPlums.specs.packaging"
+			},
+			{
+				"label": "product_page.specs.moq",
+				"value": "frozenPlums.specs.moq"
+			},
+			{
+				"label": "product_page.specs.traceability",
+				"value": "frozenPlums.specs.traceability"
+			},
+			{
+				"label": "product_page.specs.foodSafety",
+				"value": "frozenPlums.specs.foodSafety"
+			},
+			{
+				"label": "product_page.specs.organic",
+				"value": "frozenPlums.specs.organic"
+			},
+			{
+				"label": "product_page.specs.delivery",
+				"value": "frozenPlums.specs.delivery"
+			},
+			{
+				"label": "product_page.specs.incoterms",
+				"value": "frozenPlums.specs.incoterms"
+			},
+			{
+				"label": "product_page.specs.documents",
+				"value": "frozenPlums.specs.documents"
 			}
-		},
+		],
+		"applications": "frozenPlums.applications",
 		"variants": [
 			{
 				"id": 1,
@@ -172,26 +430,94 @@
 				]
 			}
 		],
-		"harvest": [8, 9],
-		"isOrganic": true,
 		"isFeatured": true
 	},
 	{
 		"id": "dried-plums",
-		"metaTitle": "driedPlums.meta.title",
-		"metaDescription": "driedPlums.meta.description",
+		"meta": {
+			"title": "driedPlums.meta.title",
+			"description": "driedPlums.meta.description"
+		},
 		"type": "fruits_title",
 		"status": "dried",
 		"latName": "Prunus domestica",
 		"name": "driedPlums.heading",
-		"desc": "driedPlums.description",
-		"benefits": "driedPlums.benefits",
-		"packaging": {
-			"paperBag": {
-				"title": "product_page.packaging.paperBag.title",
-				"desc": "product_page.packaging.paperBag.desc"
+		"description": "driedPlums.description",
+		"specs": [
+			{
+				"label": "product_page.specs.product",
+				"value": "driedPlums.specs.product"
+			},
+			{
+				"label": "product_page.specs.botanicalName",
+				"value": "driedPlums.specs.botanicalName"
+			},
+			{
+				"label": "product_page.specs.origin",
+				"value": "driedPlums.specs.origin"
+			},
+			{
+				"label": "product_page.specs.harvesting",
+				"value": "driedPlums.specs.harvesting"
+			},
+			{
+				"label": "product_page.specs.environment",
+				"value": "driedPlums.specs.environment"
+			},
+			{
+				"label": "product_page.specs.processing",
+				"value": "driedPlums.specs.processing"
+			},
+			{
+				"label": "product_page.specs.colour",
+				"value": "driedPlums.specs.colour"
+			},
+			{
+				"label": "product_page.specs.fruit",
+				"value": "driedPlums.specs.fruit"
+			},
+			{
+				"label": "product_page.specs.cleaning",
+				"value": "driedPlums.specs.cleaning"
+			},
+			{
+				"label": "product_page.specs.storage",
+				"value": "driedPlums.specs.storage"
+			},
+			{
+				"label": "product_page.specs.packaging",
+				"value": "driedPlums.specs.packaging"
+			},
+			{
+				"label": "product_page.specs.moq",
+				"value": "driedPlums.specs.moq"
+			},
+			{
+				"label": "product_page.specs.traceability",
+				"value": "driedPlums.specs.traceability"
+			},
+			{
+				"label": "product_page.specs.foodSafety",
+				"value": "driedPlums.specs.foodSafety"
+			},
+			{
+				"label": "product_page.specs.organic",
+				"value": "driedPlums.specs.organic"
+			},
+			{
+				"label": "product_page.specs.delivery",
+				"value": "driedPlums.specs.delivery"
+			},
+			{
+				"label": "product_page.specs.incoterms",
+				"value": "driedPlums.specs.incoterms"
+			},
+			{
+				"label": "product_page.specs.documents",
+				"value": "driedPlums.specs.documents"
 			}
-		},
+		],
+		"applications": "driedPlums.applications",
 		"variants": [
 			{
 				"id": 1,
@@ -203,25 +529,94 @@
 					"/products/dried-plums-with-stone/dried-plums-with-stone-4.jpg"
 				]
 			}
-		],
-		"harvest": [8, 9]
+		]
 	},
 	{
 		"id": "prunes",
-		"metaTitle": "prunes.meta.title",
-		"metaDescription": "prunes.meta.description",
+		"meta": {
+			"title": "prunes.meta.title",
+			"description": "prunes.meta.description"
+		},
 		"type": "fruits_title",
 		"status": "dried",
 		"latName": "Prunus domestica",
 		"name": "prunes.heading",
-		"desc": "prunes.description",
-		"benefits": "prunes.benefits",
-		"packaging": {
-			"cartonBox": {
-				"title": "product_page.packaging.cartonBox.title",
-				"desc": "product_page.packaging.cartonBox.desc"
+		"description": "prunes.description",
+		"specs": [
+			{
+				"label": "product_page.specs.product",
+				"value": "prunes.specs.product"
+			},
+			{
+				"label": "product_page.specs.botanicalName",
+				"value": "prunes.specs.botanicalName"
+			},
+			{
+				"label": "product_page.specs.origin",
+				"value": "prunes.specs.origin"
+			},
+			{
+				"label": "product_page.specs.harvesting",
+				"value": "prunes.specs.harvesting"
+			},
+			{
+				"label": "product_page.specs.environment",
+				"value": "prunes.specs.environment"
+			},
+			{
+				"label": "product_page.specs.processing",
+				"value": "prunes.specs.processing"
+			},
+			{
+				"label": "product_page.specs.colour",
+				"value": "prunes.specs.colour"
+			},
+			{
+				"label": "product_page.specs.fruit",
+				"value": "prunes.specs.fruit"
+			},
+			{
+				"label": "product_page.specs.cleaning",
+				"value": "prunes.specs.cleaning"
+			},
+			{
+				"label": "product_page.specs.storage",
+				"value": "prunes.specs.storage"
+			},
+			{
+				"label": "product_page.specs.packaging",
+				"value": "prunes.specs.packaging"
+			},
+			{
+				"label": "product_page.specs.moq",
+				"value": "prunes.specs.moq"
+			},
+			{
+				"label": "product_page.specs.traceability",
+				"value": "prunes.specs.traceability"
+			},
+			{
+				"label": "product_page.specs.foodSafety",
+				"value": "prunes.specs.foodSafety"
+			},
+			{
+				"label": "product_page.specs.organic",
+				"value": "prunes.specs.organic"
+			},
+			{
+				"label": "product_page.specs.delivery",
+				"value": "prunes.specs.delivery"
+			},
+			{
+				"label": "product_page.specs.incoterms",
+				"value": "prunes.specs.incoterms"
+			},
+			{
+				"label": "product_page.specs.documents",
+				"value": "prunes.specs.documents"
 			}
-		},
+		],
+		"applications": "prunes.applications",
 		"variants": [
 			{
 				"id": 1,
@@ -232,29 +627,94 @@
 					"/products/prunes-pitted/prunes-pitted-3.jpg"
 				]
 			}
-		],
-		"harvest": [8, 9]
+		]
 	},
 	{
 		"id": "frozen-elderberries",
-		"metaTitle": "frozenElderberries.meta.title",
-		"metaDescription": "frozenElderberries.meta.description",
+		"meta": {
+			"title": "frozenElderberries.meta.title",
+			"description": "frozenElderberries.meta.description"
+		},
 		"type": "berries_title",
 		"status": "frozen",
 		"latName": "Sambucus",
 		"name": "frozenElderberries.heading",
-		"desc": "frozenElderberries.description",
-		"benefits": "frozenElderberries.benefits",
-		"packaging": {
-			"paperBag": {
-				"title": "product_page.packaging.paperBag.title",
-				"desc": "product_page.packaging.paperBag.desc"
+		"description": "frozenElderberries.description",
+		"specs": [
+			{
+				"label": "product_page.specs.product",
+				"value": "frozenElderberries.specs.product"
 			},
-			"octabin": {
-				"title": "product_page.packaging.octabin.title",
-				"desc": "product_page.packaging.octabin.desc"
+			{
+				"label": "product_page.specs.botanicalName",
+				"value": "frozenElderberries.specs.botanicalName"
+			},
+			{
+				"label": "product_page.specs.origin",
+				"value": "frozenElderberries.specs.origin"
+			},
+			{
+				"label": "product_page.specs.harvesting",
+				"value": "frozenElderberries.specs.harvesting"
+			},
+			{
+				"label": "product_page.specs.environment",
+				"value": "frozenElderberries.specs.environment"
+			},
+			{
+				"label": "product_page.specs.processing",
+				"value": "frozenElderberries.specs.processing"
+			},
+			{
+				"label": "product_page.specs.colour",
+				"value": "frozenElderberries.specs.colour"
+			},
+			{
+				"label": "product_page.specs.fruit",
+				"value": "frozenElderberries.specs.fruit"
+			},
+			{
+				"label": "product_page.specs.cleaning",
+				"value": "frozenElderberries.specs.cleaning"
+			},
+			{
+				"label": "product_page.specs.storage",
+				"value": "frozenElderberries.specs.storage"
+			},
+			{
+				"label": "product_page.specs.packaging",
+				"value": "frozenElderberries.specs.packaging"
+			},
+			{
+				"label": "product_page.specs.moq",
+				"value": "frozenElderberries.specs.moq"
+			},
+			{
+				"label": "product_page.specs.traceability",
+				"value": "frozenElderberries.specs.traceability"
+			},
+			{
+				"label": "product_page.specs.foodSafety",
+				"value": "frozenElderberries.specs.foodSafety"
+			},
+			{
+				"label": "product_page.specs.organic",
+				"value": "frozenElderberries.specs.organic"
+			},
+			{
+				"label": "product_page.specs.delivery",
+				"value": "frozenElderberries.specs.delivery"
+			},
+			{
+				"label": "product_page.specs.incoterms",
+				"value": "frozenElderberries.specs.incoterms"
+			},
+			{
+				"label": "product_page.specs.documents",
+				"value": "frozenElderberries.specs.documents"
 			}
-		},
+		],
+		"applications": "frozenElderberries.applications",
 		"variants": [
 			{
 				"id": 1,
@@ -266,30 +726,94 @@
 				]
 			}
 		],
-		"isOrganic": true,
-		"harvest": [8, 9],
 		"isFeatured": true
 	},
 	{
 		"id": "frozen-strawberries",
-		"metaTitle": "frozenStrawberries.meta.title",
-		"metaDescription": "frozenStrawberries.meta.description",
+		"meta": {
+			"title": "frozenStrawberries.meta.title",
+			"description": "frozenStrawberries.meta.description"
+		},
 		"type": "berries_title",
 		"status": "frozen",
 		"latName": "Fragaria",
 		"name": "frozenStrawberries.heading",
-		"desc": "frozenStrawberries.description",
-		"benefits": "frozenStrawberries.benefits",
-		"packaging": {
-			"paperBag": {
-				"title": "product_page.packaging.paperBag.title",
-				"desc": "product_page.packaging.paperBag.desc"
+		"description": "frozenStrawberries.description",
+		"specs": [
+			{
+				"label": "product_page.specs.product",
+				"value": "frozenStrawberries.specs.product"
 			},
-			"octabin": {
-				"title": "product_page.packaging.octabin.title",
-				"desc": "product_page.packaging.octabin.desc"
+			{
+				"label": "product_page.specs.botanicalName",
+				"value": "frozenStrawberries.specs.botanicalName"
+			},
+			{
+				"label": "product_page.specs.origin",
+				"value": "frozenStrawberries.specs.origin"
+			},
+			{
+				"label": "product_page.specs.harvesting",
+				"value": "frozenStrawberries.specs.harvesting"
+			},
+			{
+				"label": "product_page.specs.environment",
+				"value": "frozenStrawberries.specs.environment"
+			},
+			{
+				"label": "product_page.specs.processing",
+				"value": "frozenStrawberries.specs.processing"
+			},
+			{
+				"label": "product_page.specs.colour",
+				"value": "frozenStrawberries.specs.colour"
+			},
+			{
+				"label": "product_page.specs.fruit",
+				"value": "frozenStrawberries.specs.fruit"
+			},
+			{
+				"label": "product_page.specs.cleaning",
+				"value": "frozenStrawberries.specs.cleaning"
+			},
+			{
+				"label": "product_page.specs.storage",
+				"value": "frozenStrawberries.specs.storage"
+			},
+			{
+				"label": "product_page.specs.packaging",
+				"value": "frozenStrawberries.specs.packaging"
+			},
+			{
+				"label": "product_page.specs.moq",
+				"value": "frozenStrawberries.specs.moq"
+			},
+			{
+				"label": "product_page.specs.traceability",
+				"value": "frozenStrawberries.specs.traceability"
+			},
+			{
+				"label": "product_page.specs.foodSafety",
+				"value": "frozenStrawberries.specs.foodSafety"
+			},
+			{
+				"label": "product_page.specs.organic",
+				"value": "frozenStrawberries.specs.organic"
+			},
+			{
+				"label": "product_page.specs.delivery",
+				"value": "frozenStrawberries.specs.delivery"
+			},
+			{
+				"label": "product_page.specs.incoterms",
+				"value": "frozenStrawberries.specs.incoterms"
+			},
+			{
+				"label": "product_page.specs.documents",
+				"value": "frozenStrawberries.specs.documents"
 			}
-		},
+		],
+		"applications": "frozenStrawberries.applications",
 		"variants": [
 			{
 				"id": 1,
@@ -299,25 +823,94 @@
 					"/products/frozen-strawberries/iqf-frozen-strawberries-2.jpg"
 				]
 			}
-		],
-		"harvest": [5, 6, 7]
+		]
 	},
 	{
 		"id": "frozen-raspberries",
-		"metaTitle": "frozenRaspberries.meta.title",
-		"metaDescription": "frozenRaspberries.meta.description",
+		"meta": {
+			"title": "frozenRaspberries.meta.title",
+			"description": "frozenRaspberries.meta.description"
+		},
 		"type": "berries_title",
 		"status": "frozen",
 		"latName": "Rubus idaeus",
 		"name": "frozenRaspberries.heading",
-		"desc": "frozenRaspberries.description",
-		"benefits": "frozenRaspberries.benefits",
-		"packaging": {
-			"cartonBox": {
-				"title": "product_page.packaging.cartonBox.title",
-				"desc": "product_page.packaging.cartonBox.desc"
+		"description": "frozenRaspberries.description",
+		"specs": [
+			{
+				"label": "product_page.specs.product",
+				"value": "frozenRaspberries.specs.product"
+			},
+			{
+				"label": "product_page.specs.botanicalName",
+				"value": "frozenRaspberries.specs.botanicalName"
+			},
+			{
+				"label": "product_page.specs.origin",
+				"value": "frozenRaspberries.specs.origin"
+			},
+			{
+				"label": "product_page.specs.harvesting",
+				"value": "frozenRaspberries.specs.harvesting"
+			},
+			{
+				"label": "product_page.specs.environment",
+				"value": "frozenRaspberries.specs.environment"
+			},
+			{
+				"label": "product_page.specs.processing",
+				"value": "frozenRaspberries.specs.processing"
+			},
+			{
+				"label": "product_page.specs.colour",
+				"value": "frozenRaspberries.specs.colour"
+			},
+			{
+				"label": "product_page.specs.fruit",
+				"value": "frozenRaspberries.specs.fruit"
+			},
+			{
+				"label": "product_page.specs.cleaning",
+				"value": "frozenRaspberries.specs.cleaning"
+			},
+			{
+				"label": "product_page.specs.storage",
+				"value": "frozenRaspberries.specs.storage"
+			},
+			{
+				"label": "product_page.specs.packaging",
+				"value": "frozenRaspberries.specs.packaging"
+			},
+			{
+				"label": "product_page.specs.moq",
+				"value": "frozenRaspberries.specs.moq"
+			},
+			{
+				"label": "product_page.specs.traceability",
+				"value": "frozenRaspberries.specs.traceability"
+			},
+			{
+				"label": "product_page.specs.foodSafety",
+				"value": "frozenRaspberries.specs.foodSafety"
+			},
+			{
+				"label": "product_page.specs.organic",
+				"value": "frozenRaspberries.specs.organic"
+			},
+			{
+				"label": "product_page.specs.delivery",
+				"value": "frozenRaspberries.specs.delivery"
+			},
+			{
+				"label": "product_page.specs.incoterms",
+				"value": "frozenRaspberries.specs.incoterms"
+			},
+			{
+				"label": "product_page.specs.documents",
+				"value": "frozenRaspberries.specs.documents"
 			}
-		},
+		],
+		"applications": "frozenRaspberries.applications",
 		"variants": [
 			{
 				"id": 1,
@@ -327,25 +920,94 @@
 					"/products/frozen-raspberries/iqf-frozen-raspberries-2.JPG"
 				]
 			}
-		],
-		"harvest": [7, 8, 9]
+		]
 	},
 	{
 		"id": "frozen-apricots",
-		"metaTitle": "frozenApricots.meta.title",
-		"metaDescription": "frozenApricots.meta.description",
+		"meta": {
+			"title": "frozenApricots.meta.title",
+			"description": "frozenApricots.meta.description"
+		},
 		"type": "fruits_title",
 		"status": "frozen",
 		"latName": "Prunus armeniaca",
 		"name": "frozenApricots.heading",
-		"desc": "frozenApricots.description",
-		"benefits": "frozenApricots.benefits",
-		"packaging": {
-			"cartonBox": {
-				"title": "product_page.packaging.cartonBox.title",
-				"desc": "product_page.packaging.cartonBox.desc"
+		"description": "frozenApricots.description",
+		"specs": [
+			{
+				"label": "product_page.specs.product",
+				"value": "frozenApricots.specs.product"
+			},
+			{
+				"label": "product_page.specs.botanicalName",
+				"value": "frozenApricots.specs.botanicalName"
+			},
+			{
+				"label": "product_page.specs.origin",
+				"value": "frozenApricots.specs.origin"
+			},
+			{
+				"label": "product_page.specs.harvesting",
+				"value": "frozenApricots.specs.harvesting"
+			},
+			{
+				"label": "product_page.specs.environment",
+				"value": "frozenApricots.specs.environment"
+			},
+			{
+				"label": "product_page.specs.processing",
+				"value": "frozenApricots.specs.processing"
+			},
+			{
+				"label": "product_page.specs.colour",
+				"value": "frozenApricots.specs.colour"
+			},
+			{
+				"label": "product_page.specs.fruit",
+				"value": "frozenApricots.specs.fruit"
+			},
+			{
+				"label": "product_page.specs.cleaning",
+				"value": "frozenApricots.specs.cleaning"
+			},
+			{
+				"label": "product_page.specs.storage",
+				"value": "frozenApricots.specs.storage"
+			},
+			{
+				"label": "product_page.specs.packaging",
+				"value": "frozenApricots.specs.packaging"
+			},
+			{
+				"label": "product_page.specs.moq",
+				"value": "frozenApricots.specs.moq"
+			},
+			{
+				"label": "product_page.specs.traceability",
+				"value": "frozenApricots.specs.traceability"
+			},
+			{
+				"label": "product_page.specs.foodSafety",
+				"value": "frozenApricots.specs.foodSafety"
+			},
+			{
+				"label": "product_page.specs.organic",
+				"value": "frozenApricots.specs.organic"
+			},
+			{
+				"label": "product_page.specs.delivery",
+				"value": "frozenApricots.specs.delivery"
+			},
+			{
+				"label": "product_page.specs.incoterms",
+				"value": "frozenApricots.specs.incoterms"
+			},
+			{
+				"label": "product_page.specs.documents",
+				"value": "frozenApricots.specs.documents"
 			}
-		},
+		],
+		"applications": "frozenApricots.applications",
 		"variants": [
 			{
 				"id": 1,
@@ -365,25 +1027,94 @@
 				]
 			}
 		],
-		"harvest": [7, 8],
 		"isFeatured": true
 	},
 	{
 		"id": "frozen-red-bell-peppers",
-		"metaTitle": "frozenRedBellPeppers.meta.title",
-		"metaDescription": "frozenRedBellPeppers.meta.description",
+		"meta": {
+			"title": "frozenRedBellPeppers.meta.title",
+			"description": "frozenRedBellPeppers.meta.description"
+		},
 		"type": "vegetables_title",
 		"status": "frozen",
 		"latName": "Capsicum annuum",
 		"name": "frozenRedBellPeppers.heading",
-		"desc": "frozenRedBellPeppers.description",
-		"benefits": "frozenRedBellPeppers.benefits",
-		"packaging": {
-			"cartonBox": {
-				"title": "product_page.packaging.cartonBox.title",
-				"desc": "product_page.packaging.cartonBox.desc"
+		"description": "frozenRedBellPeppers.description",
+		"specs": [
+			{
+				"label": "product_page.specs.product",
+				"value": "frozenRedBellPeppers.specs.product"
+			},
+			{
+				"label": "product_page.specs.botanicalName",
+				"value": "frozenRedBellPeppers.specs.botanicalName"
+			},
+			{
+				"label": "product_page.specs.origin",
+				"value": "frozenRedBellPeppers.specs.origin"
+			},
+			{
+				"label": "product_page.specs.harvesting",
+				"value": "frozenRedBellPeppers.specs.harvesting"
+			},
+			{
+				"label": "product_page.specs.environment",
+				"value": "frozenRedBellPeppers.specs.environment"
+			},
+			{
+				"label": "product_page.specs.processing",
+				"value": "frozenRedBellPeppers.specs.processing"
+			},
+			{
+				"label": "product_page.specs.colour",
+				"value": "frozenRedBellPeppers.specs.colour"
+			},
+			{
+				"label": "product_page.specs.fruit",
+				"value": "frozenRedBellPeppers.specs.fruit"
+			},
+			{
+				"label": "product_page.specs.cleaning",
+				"value": "frozenRedBellPeppers.specs.cleaning"
+			},
+			{
+				"label": "product_page.specs.storage",
+				"value": "frozenRedBellPeppers.specs.storage"
+			},
+			{
+				"label": "product_page.specs.packaging",
+				"value": "frozenRedBellPeppers.specs.packaging"
+			},
+			{
+				"label": "product_page.specs.moq",
+				"value": "frozenRedBellPeppers.specs.moq"
+			},
+			{
+				"label": "product_page.specs.traceability",
+				"value": "frozenRedBellPeppers.specs.traceability"
+			},
+			{
+				"label": "product_page.specs.foodSafety",
+				"value": "frozenRedBellPeppers.specs.foodSafety"
+			},
+			{
+				"label": "product_page.specs.organic",
+				"value": "frozenRedBellPeppers.specs.organic"
+			},
+			{
+				"label": "product_page.specs.delivery",
+				"value": "frozenRedBellPeppers.specs.delivery"
+			},
+			{
+				"label": "product_page.specs.incoterms",
+				"value": "frozenRedBellPeppers.specs.incoterms"
+			},
+			{
+				"label": "product_page.specs.documents",
+				"value": "frozenRedBellPeppers.specs.documents"
 			}
-		},
+		],
+		"applications": "frozenRedBellPeppers.applications",
 		"variants": [
 			{
 				"id": 1,
@@ -393,25 +1124,94 @@
 					"/products/frozen-red-bell-peppers/iqf-frozen-red-bell-peppers-2.JPG"
 				]
 			}
-		],
-		"harvest": [7, 8, 9]
+		]
 	},
 	{
 		"id": "frozen-green-bell-peppers",
-		"metaTitle": "frozenGreenBellPeppers.meta.title",
-		"metaDescription": "frozenGreenBellPeppers.meta.description",
+		"meta": {
+			"title": "frozenGreenBellPeppers.meta.title",
+			"description": "frozenGreenBellPeppers.meta.description"
+		},
 		"type": "vegetables_title",
 		"status": "frozen",
 		"latName": "Capsicum annuum",
 		"name": "frozenGreenBellPeppers.heading",
-		"desc": "frozenGreenBellPeppers.description",
-		"benefits": "frozenGreenBellPeppers.benefits",
-		"packaging": {
-			"cartonBox": {
-				"title": "product_page.packaging.cartonBox.title",
-				"desc": "product_page.packaging.cartonBox.desc"
+		"description": "frozenGreenBellPeppers.description",
+		"specs": [
+			{
+				"label": "product_page.specs.product",
+				"value": "frozenGreenBellPeppers.specs.product"
+			},
+			{
+				"label": "product_page.specs.botanicalName",
+				"value": "frozenGreenBellPeppers.specs.botanicalName"
+			},
+			{
+				"label": "product_page.specs.origin",
+				"value": "frozenGreenBellPeppers.specs.origin"
+			},
+			{
+				"label": "product_page.specs.harvesting",
+				"value": "frozenGreenBellPeppers.specs.harvesting"
+			},
+			{
+				"label": "product_page.specs.environment",
+				"value": "frozenGreenBellPeppers.specs.environment"
+			},
+			{
+				"label": "product_page.specs.processing",
+				"value": "frozenGreenBellPeppers.specs.processing"
+			},
+			{
+				"label": "product_page.specs.colour",
+				"value": "frozenGreenBellPeppers.specs.colour"
+			},
+			{
+				"label": "product_page.specs.fruit",
+				"value": "frozenGreenBellPeppers.specs.fruit"
+			},
+			{
+				"label": "product_page.specs.cleaning",
+				"value": "frozenGreenBellPeppers.specs.cleaning"
+			},
+			{
+				"label": "product_page.specs.storage",
+				"value": "frozenGreenBellPeppers.specs.storage"
+			},
+			{
+				"label": "product_page.specs.packaging",
+				"value": "frozenGreenBellPeppers.specs.packaging"
+			},
+			{
+				"label": "product_page.specs.moq",
+				"value": "frozenGreenBellPeppers.specs.moq"
+			},
+			{
+				"label": "product_page.specs.traceability",
+				"value": "frozenGreenBellPeppers.specs.traceability"
+			},
+			{
+				"label": "product_page.specs.foodSafety",
+				"value": "frozenGreenBellPeppers.specs.foodSafety"
+			},
+			{
+				"label": "product_page.specs.organic",
+				"value": "frozenGreenBellPeppers.specs.organic"
+			},
+			{
+				"label": "product_page.specs.delivery",
+				"value": "frozenGreenBellPeppers.specs.delivery"
+			},
+			{
+				"label": "product_page.specs.incoterms",
+				"value": "frozenGreenBellPeppers.specs.incoterms"
+			},
+			{
+				"label": "product_page.specs.documents",
+				"value": "frozenGreenBellPeppers.specs.documents"
 			}
-		},
+		],
+		"applications": "frozenGreenBellPeppers.applications",
 		"variants": [
 			{
 				"id": 1,
@@ -420,25 +1220,94 @@
 					"/products/frozen-green-bell-peppers/iqf-frozen-green-bell-peppers-1.JPG"
 				]
 			}
-		],
-		"harvest": [7, 8, 9]
+		]
 	},
 	{
 		"id": "frozen-yellow-bell-peppers",
-		"metaTitle": "frozenYellowBellPeppers.meta.title",
-		"metaDescription": "frozenYellowBellPeppers.meta.description",
+		"meta": {
+			"title": "frozenYellowBellPeppers.meta.title",
+			"description": "frozenYellowBellPeppers.meta.description"
+		},
 		"type": "vegetables_title",
 		"status": "frozen",
 		"latName": "Capsicum annuum",
 		"name": "frozenYellowBellPeppers.heading",
-		"desc": "frozenYellowBellPeppers.description",
-		"benefits": "frozenYellowBellPeppers.benefits",
-		"packaging": {
-			"cartonBox": {
-				"title": "product_page.packaging.cartonBox.title",
-				"desc": "product_page.packaging.cartonBox.desc"
+		"description": "frozenYellowBellPeppers.description",
+		"specs": [
+			{
+				"label": "product_page.specs.product",
+				"value": "frozenYellowBellPeppers.specs.product"
+			},
+			{
+				"label": "product_page.specs.botanicalName",
+				"value": "frozenYellowBellPeppers.specs.botanicalName"
+			},
+			{
+				"label": "product_page.specs.origin",
+				"value": "frozenYellowBellPeppers.specs.origin"
+			},
+			{
+				"label": "product_page.specs.harvesting",
+				"value": "frozenYellowBellPeppers.specs.harvesting"
+			},
+			{
+				"label": "product_page.specs.environment",
+				"value": "frozenYellowBellPeppers.specs.environment"
+			},
+			{
+				"label": "product_page.specs.processing",
+				"value": "frozenYellowBellPeppers.specs.processing"
+			},
+			{
+				"label": "product_page.specs.colour",
+				"value": "frozenYellowBellPeppers.specs.colour"
+			},
+			{
+				"label": "product_page.specs.fruit",
+				"value": "frozenYellowBellPeppers.specs.fruit"
+			},
+			{
+				"label": "product_page.specs.cleaning",
+				"value": "frozenYellowBellPeppers.specs.cleaning"
+			},
+			{
+				"label": "product_page.specs.storage",
+				"value": "frozenYellowBellPeppers.specs.storage"
+			},
+			{
+				"label": "product_page.specs.packaging",
+				"value": "frozenYellowBellPeppers.specs.packaging"
+			},
+			{
+				"label": "product_page.specs.moq",
+				"value": "frozenYellowBellPeppers.specs.moq"
+			},
+			{
+				"label": "product_page.specs.traceability",
+				"value": "frozenYellowBellPeppers.specs.traceability"
+			},
+			{
+				"label": "product_page.specs.foodSafety",
+				"value": "frozenYellowBellPeppers.specs.foodSafety"
+			},
+			{
+				"label": "product_page.specs.organic",
+				"value": "frozenYellowBellPeppers.specs.organic"
+			},
+			{
+				"label": "product_page.specs.delivery",
+				"value": "frozenYellowBellPeppers.specs.delivery"
+			},
+			{
+				"label": "product_page.specs.incoterms",
+				"value": "frozenYellowBellPeppers.specs.incoterms"
+			},
+			{
+				"label": "product_page.specs.documents",
+				"value": "frozenYellowBellPeppers.specs.documents"
 			}
-		},
+		],
+		"applications": "frozenYellowBellPeppers.applications",
 		"variants": [
 			{
 				"id": 1,
@@ -447,25 +1316,94 @@
 					"/products/frozen-yellow-bell-peppers/iqf-frozen-yellow-bell-peppers-1.JPG"
 				]
 			}
-		],
-		"harvest": [7, 8, 9]
+		]
 	},
 	{
 		"id": "frozen-mixed-bell-peppers",
-		"metaTitle": "frozenMixedBellPeppers.meta.title",
-		"metaDescription": "frozenMixedBellPeppers.meta.description",
+		"meta": {
+			"title": "frozenMixedBellPeppers.meta.title",
+			"description": "frozenMixedBellPeppers.meta.description"
+		},
 		"type": "vegetables_title",
 		"status": "frozen",
 		"latName": "Capsicum annuum",
 		"name": "frozenMixedBellPeppers.heading",
-		"desc": "frozenMixedBellPeppers.description",
-		"benefits": "frozenMixedBellPeppers.benefits",
-		"packaging": {
-			"cartonBox": {
-				"title": "product_page.packaging.cartonBox.title",
-				"desc": "product_page.packaging.cartonBox.desc"
+		"description": "frozenMixedBellPeppers.description",
+		"specs": [
+			{
+				"label": "product_page.specs.product",
+				"value": "frozenMixedBellPeppers.specs.product"
+			},
+			{
+				"label": "product_page.specs.botanicalName",
+				"value": "frozenMixedBellPeppers.specs.botanicalName"
+			},
+			{
+				"label": "product_page.specs.origin",
+				"value": "frozenMixedBellPeppers.specs.origin"
+			},
+			{
+				"label": "product_page.specs.harvesting",
+				"value": "frozenMixedBellPeppers.specs.harvesting"
+			},
+			{
+				"label": "product_page.specs.environment",
+				"value": "frozenMixedBellPeppers.specs.environment"
+			},
+			{
+				"label": "product_page.specs.processing",
+				"value": "frozenMixedBellPeppers.specs.processing"
+			},
+			{
+				"label": "product_page.specs.colour",
+				"value": "frozenMixedBellPeppers.specs.colour"
+			},
+			{
+				"label": "product_page.specs.fruit",
+				"value": "frozenMixedBellPeppers.specs.fruit"
+			},
+			{
+				"label": "product_page.specs.cleaning",
+				"value": "frozenMixedBellPeppers.specs.cleaning"
+			},
+			{
+				"label": "product_page.specs.storage",
+				"value": "frozenMixedBellPeppers.specs.storage"
+			},
+			{
+				"label": "product_page.specs.packaging",
+				"value": "frozenMixedBellPeppers.specs.packaging"
+			},
+			{
+				"label": "product_page.specs.moq",
+				"value": "frozenMixedBellPeppers.specs.moq"
+			},
+			{
+				"label": "product_page.specs.traceability",
+				"value": "frozenMixedBellPeppers.specs.traceability"
+			},
+			{
+				"label": "product_page.specs.foodSafety",
+				"value": "frozenMixedBellPeppers.specs.foodSafety"
+			},
+			{
+				"label": "product_page.specs.organic",
+				"value": "frozenMixedBellPeppers.specs.organic"
+			},
+			{
+				"label": "product_page.specs.delivery",
+				"value": "frozenMixedBellPeppers.specs.delivery"
+			},
+			{
+				"label": "product_page.specs.incoterms",
+				"value": "frozenMixedBellPeppers.specs.incoterms"
+			},
+			{
+				"label": "product_page.specs.documents",
+				"value": "frozenMixedBellPeppers.specs.documents"
 			}
-		},
+		],
+		"applications": "frozenMixedBellPeppers.applications",
 		"variants": [
 			{
 				"id": 1,
@@ -475,25 +1413,94 @@
 					"/products/frozen-mixed-bell-peppers/iqf-frozen-mixed-bell-peppers-2.jpg"
 				]
 			}
-		],
-		"harvest": [7, 8, 9]
+		]
 	},
 	{
 		"id": "frozen-porcini-mushrooms",
-		"metaTitle": "frozenPorciniMushrooms.meta.title",
-		"metaDescription": "frozenPorciniMushrooms.meta.description",
+		"meta": {
+			"title": "frozenPorciniMushrooms.meta.title",
+			"description": "frozenPorciniMushrooms.meta.description"
+		},
 		"type": "mushrooms_title",
 		"status": "frozen",
 		"latName": "Boletus edulis",
 		"name": "frozenPorciniMushrooms.heading",
-		"desc": "frozenPorciniMushrooms.description",
-		"benefits": "frozenPorciniMushrooms.benefits",
-		"packaging": {
-			"cartonBox": {
-				"title": "product_page.packaging.cartonBox.title",
-				"desc": "product_page.packaging.cartonBox.desc"
+		"description": "frozenPorciniMushrooms.description",
+		"specs": [
+			{
+				"label": "product_page.specs.product",
+				"value": "frozenPorciniMushrooms.specs.product"
+			},
+			{
+				"label": "product_page.specs.botanicalName",
+				"value": "frozenPorciniMushrooms.specs.botanicalName"
+			},
+			{
+				"label": "product_page.specs.origin",
+				"value": "frozenPorciniMushrooms.specs.origin"
+			},
+			{
+				"label": "product_page.specs.harvesting",
+				"value": "frozenPorciniMushrooms.specs.harvesting"
+			},
+			{
+				"label": "product_page.specs.environment",
+				"value": "frozenPorciniMushrooms.specs.environment"
+			},
+			{
+				"label": "product_page.specs.processing",
+				"value": "frozenPorciniMushrooms.specs.processing"
+			},
+			{
+				"label": "product_page.specs.colour",
+				"value": "frozenPorciniMushrooms.specs.colour"
+			},
+			{
+				"label": "product_page.specs.fruit",
+				"value": "frozenPorciniMushrooms.specs.fruit"
+			},
+			{
+				"label": "product_page.specs.cleaning",
+				"value": "frozenPorciniMushrooms.specs.cleaning"
+			},
+			{
+				"label": "product_page.specs.storage",
+				"value": "frozenPorciniMushrooms.specs.storage"
+			},
+			{
+				"label": "product_page.specs.packaging",
+				"value": "frozenPorciniMushrooms.specs.packaging"
+			},
+			{
+				"label": "product_page.specs.moq",
+				"value": "frozenPorciniMushrooms.specs.moq"
+			},
+			{
+				"label": "product_page.specs.traceability",
+				"value": "frozenPorciniMushrooms.specs.traceability"
+			},
+			{
+				"label": "product_page.specs.foodSafety",
+				"value": "frozenPorciniMushrooms.specs.foodSafety"
+			},
+			{
+				"label": "product_page.specs.organic",
+				"value": "frozenPorciniMushrooms.specs.organic"
+			},
+			{
+				"label": "product_page.specs.delivery",
+				"value": "frozenPorciniMushrooms.specs.delivery"
+			},
+			{
+				"label": "product_page.specs.incoterms",
+				"value": "frozenPorciniMushrooms.specs.incoterms"
+			},
+			{
+				"label": "product_page.specs.documents",
+				"value": "frozenPorciniMushrooms.specs.documents"
 			}
-		},
+		],
+		"applications": "frozenPorciniMushrooms.applications",
 		"variants": [
 			{
 				"id": 1,
@@ -526,25 +1533,94 @@
 					"/products/frozen-porcini-mushrooms-piccolo/iqf-frozen-porcini-mushrooms-piccolo-2.jpg"
 				]
 			}
-		],
-		"harvest": [7, 8, 9]
+		]
 	},
 	{
 		"id": "fresh-porcini-mushrooms",
-		"metaTitle": "freshPorciniMushrooms.meta.title",
-		"metaDescription": "freshPorciniMushrooms.meta.description",
+		"meta": {
+			"title": "freshPorciniMushrooms.meta.title",
+			"description": "freshPorciniMushrooms.meta.description"
+		},
 		"type": "mushrooms_title",
 		"status": "fresh",
 		"latName": "Boletus edulis",
 		"name": "freshPorciniMushrooms.heading",
-		"desc": "freshPorciniMushrooms.description",
-		"benefits": "freshPorciniMushrooms.benefits",
-		"packaging": {
-			"woodenContainer": {
-				"title": "product_page.packaging.woodenContainer.title",
-				"desc": "product_page.packaging.woodenContainer.desc"
+		"description": "freshPorciniMushrooms.description",
+		"specs": [
+			{
+				"label": "product_page.specs.product",
+				"value": "freshPorciniMushrooms.specs.product"
+			},
+			{
+				"label": "product_page.specs.botanicalName",
+				"value": "freshPorciniMushrooms.specs.botanicalName"
+			},
+			{
+				"label": "product_page.specs.origin",
+				"value": "freshPorciniMushrooms.specs.origin"
+			},
+			{
+				"label": "product_page.specs.harvesting",
+				"value": "freshPorciniMushrooms.specs.harvesting"
+			},
+			{
+				"label": "product_page.specs.environment",
+				"value": "freshPorciniMushrooms.specs.environment"
+			},
+			{
+				"label": "product_page.specs.processing",
+				"value": "freshPorciniMushrooms.specs.processing"
+			},
+			{
+				"label": "product_page.specs.colour",
+				"value": "freshPorciniMushrooms.specs.colour"
+			},
+			{
+				"label": "product_page.specs.fruit",
+				"value": "freshPorciniMushrooms.specs.fruit"
+			},
+			{
+				"label": "product_page.specs.cleaning",
+				"value": "freshPorciniMushrooms.specs.cleaning"
+			},
+			{
+				"label": "product_page.specs.storage",
+				"value": "freshPorciniMushrooms.specs.storage"
+			},
+			{
+				"label": "product_page.specs.packaging",
+				"value": "freshPorciniMushrooms.specs.packaging"
+			},
+			{
+				"label": "product_page.specs.moq",
+				"value": "freshPorciniMushrooms.specs.moq"
+			},
+			{
+				"label": "product_page.specs.traceability",
+				"value": "freshPorciniMushrooms.specs.traceability"
+			},
+			{
+				"label": "product_page.specs.foodSafety",
+				"value": "freshPorciniMushrooms.specs.foodSafety"
+			},
+			{
+				"label": "product_page.specs.organic",
+				"value": "freshPorciniMushrooms.specs.organic"
+			},
+			{
+				"label": "product_page.specs.delivery",
+				"value": "freshPorciniMushrooms.specs.delivery"
+			},
+			{
+				"label": "product_page.specs.incoterms",
+				"value": "freshPorciniMushrooms.specs.incoterms"
+			},
+			{
+				"label": "product_page.specs.documents",
+				"value": "freshPorciniMushrooms.specs.documents"
 			}
-		},
+		],
+		"applications": "freshPorciniMushrooms.applications",
 		"variants": [
 			{
 				"id": 1,
@@ -553,25 +1629,94 @@
 					"/products/fresh-porcini-mushrooms/fresh-porcini-mushrooms-1.jpg"
 				]
 			}
-		],
-		"harvest": [7, 8, 9]
+		]
 	},
 	{
 		"id": "dried-porcini-mushrooms",
-		"metaTitle": "driedPorciniMushrooms.meta.title",
-		"metaDescription": "driedPorciniMushrooms.meta.description",
+		"meta": {
+			"title": "driedPorciniMushrooms.meta.title",
+			"description": "driedPorciniMushrooms.meta.description"
+		},
 		"type": "mushrooms_title",
 		"status": "dried",
 		"latName": "Boletus edulis",
 		"name": "driedPorciniMushrooms.heading",
-		"desc": "driedPorciniMushrooms.description",
-		"benefits": "driedPorciniMushrooms.benefits",
-		"packaging": {
-			"cartonBox": {
-				"title": "product_page.packaging.cartonBox.title",
-				"desc": "product_page.packaging.cartonBox.desc"
+		"description": "driedPorciniMushrooms.description",
+		"specs": [
+			{
+				"label": "product_page.specs.product",
+				"value": "driedPorciniMushrooms.specs.product"
+			},
+			{
+				"label": "product_page.specs.botanicalName",
+				"value": "driedPorciniMushrooms.specs.botanicalName"
+			},
+			{
+				"label": "product_page.specs.origin",
+				"value": "driedPorciniMushrooms.specs.origin"
+			},
+			{
+				"label": "product_page.specs.harvesting",
+				"value": "driedPorciniMushrooms.specs.harvesting"
+			},
+			{
+				"label": "product_page.specs.environment",
+				"value": "driedPorciniMushrooms.specs.environment"
+			},
+			{
+				"label": "product_page.specs.processing",
+				"value": "driedPorciniMushrooms.specs.processing"
+			},
+			{
+				"label": "product_page.specs.colour",
+				"value": "driedPorciniMushrooms.specs.colour"
+			},
+			{
+				"label": "product_page.specs.fruit",
+				"value": "driedPorciniMushrooms.specs.fruit"
+			},
+			{
+				"label": "product_page.specs.cleaning",
+				"value": "driedPorciniMushrooms.specs.cleaning"
+			},
+			{
+				"label": "product_page.specs.storage",
+				"value": "driedPorciniMushrooms.specs.storage"
+			},
+			{
+				"label": "product_page.specs.packaging",
+				"value": "driedPorciniMushrooms.specs.packaging"
+			},
+			{
+				"label": "product_page.specs.moq",
+				"value": "driedPorciniMushrooms.specs.moq"
+			},
+			{
+				"label": "product_page.specs.traceability",
+				"value": "driedPorciniMushrooms.specs.traceability"
+			},
+			{
+				"label": "product_page.specs.foodSafety",
+				"value": "driedPorciniMushrooms.specs.foodSafety"
+			},
+			{
+				"label": "product_page.specs.organic",
+				"value": "driedPorciniMushrooms.specs.organic"
+			},
+			{
+				"label": "product_page.specs.delivery",
+				"value": "driedPorciniMushrooms.specs.delivery"
+			},
+			{
+				"label": "product_page.specs.incoterms",
+				"value": "driedPorciniMushrooms.specs.incoterms"
+			},
+			{
+				"label": "product_page.specs.documents",
+				"value": "driedPorciniMushrooms.specs.documents"
 			}
-		},
+		],
+		"applications": "driedPorciniMushrooms.applications",
 		"variants": [
 			{
 				"id": 1,
@@ -579,73 +1724,280 @@
 					"/products/dried-porcini-mushrooms/dried-porcini-mushrooms-1.jpg"
 				]
 			}
-		],
-		"harvest": [7, 8, 9]
+		]
 	},
 	{
 		"id": "fresh-chanterelles",
-		"metaTitle": "freshChanterelles.meta.title",
-		"metaDescription": "freshChanterelles.meta.description",
+		"meta": {
+			"title": "freshChanterelles.meta.title",
+			"description": "freshChanterelles.meta.description"
+		},
 		"type": "mushrooms_title",
 		"status": "fresh",
 		"latName": "Cantharellus cibarius",
 		"name": "freshChanterelles.heading",
-		"desc": "freshChanterelles.description",
-		"benefits": "freshChanterelles.benefits",
-		"packaging": {
-			"woodenContainer": {
-				"title": "product_page.packaging.woodenContainer.title",
-				"desc": "product_page.packaging.woodenContainer.desc"
+		"description": "freshChanterelles.description",
+		"specs": [
+			{
+				"label": "product_page.specs.product",
+				"value": "freshChanterelles.specs.product"
+			},
+			{
+				"label": "product_page.specs.botanicalName",
+				"value": "freshChanterelles.specs.botanicalName"
+			},
+			{
+				"label": "product_page.specs.origin",
+				"value": "freshChanterelles.specs.origin"
+			},
+			{
+				"label": "product_page.specs.harvesting",
+				"value": "freshChanterelles.specs.harvesting"
+			},
+			{
+				"label": "product_page.specs.environment",
+				"value": "freshChanterelles.specs.environment"
+			},
+			{
+				"label": "product_page.specs.processing",
+				"value": "freshChanterelles.specs.processing"
+			},
+			{
+				"label": "product_page.specs.colour",
+				"value": "freshChanterelles.specs.colour"
+			},
+			{
+				"label": "product_page.specs.fruit",
+				"value": "freshChanterelles.specs.fruit"
+			},
+			{
+				"label": "product_page.specs.cleaning",
+				"value": "freshChanterelles.specs.cleaning"
+			},
+			{
+				"label": "product_page.specs.storage",
+				"value": "freshChanterelles.specs.storage"
+			},
+			{
+				"label": "product_page.specs.packaging",
+				"value": "freshChanterelles.specs.packaging"
+			},
+			{
+				"label": "product_page.specs.moq",
+				"value": "freshChanterelles.specs.moq"
+			},
+			{
+				"label": "product_page.specs.traceability",
+				"value": "freshChanterelles.specs.traceability"
+			},
+			{
+				"label": "product_page.specs.foodSafety",
+				"value": "freshChanterelles.specs.foodSafety"
+			},
+			{
+				"label": "product_page.specs.organic",
+				"value": "freshChanterelles.specs.organic"
+			},
+			{
+				"label": "product_page.specs.delivery",
+				"value": "freshChanterelles.specs.delivery"
+			},
+			{
+				"label": "product_page.specs.incoterms",
+				"value": "freshChanterelles.specs.incoterms"
+			},
+			{
+				"label": "product_page.specs.documents",
+				"value": "freshChanterelles.specs.documents"
 			}
-		},
+		],
+		"applications": "freshChanterelles.applications",
 		"variants": [
 			{
 				"id": 1,
 				"images": ["/products/fresh-chanterelles/fresh-chanterelles-1.jpg"]
 			}
-		],
-		"harvest": [7, 8, 9]
+		]
 	},
 	{
 		"id": "dried-chanterelles",
-		"metaTitle": "driedChanterelles.meta.title",
-		"metaDescription": "driedChanterelles.meta.description",
+		"meta": {
+			"title": "driedChanterelles.meta.title",
+			"description": "driedChanterelles.meta.description"
+		},
 		"type": "mushrooms_title",
 		"status": "dried",
 		"latName": "Cantharellus cibarius",
 		"name": "driedChanterelles.heading",
-		"desc": "driedChanterelles.description",
-		"benefits": "driedChanterelles.benefits",
-		"packaging": {
-			"cartonBox": {
-				"title": "product_page.packaging.cartonBox.title",
-				"desc": "product_page.packaging.cartonBox.desc"
+		"description": "driedChanterelles.description",
+		"specs": [
+			{
+				"label": "product_page.specs.product",
+				"value": "driedChanterelles.specs.product"
+			},
+			{
+				"label": "product_page.specs.botanicalName",
+				"value": "driedChanterelles.specs.botanicalName"
+			},
+			{
+				"label": "product_page.specs.origin",
+				"value": "driedChanterelles.specs.origin"
+			},
+			{
+				"label": "product_page.specs.harvesting",
+				"value": "driedChanterelles.specs.harvesting"
+			},
+			{
+				"label": "product_page.specs.environment",
+				"value": "driedChanterelles.specs.environment"
+			},
+			{
+				"label": "product_page.specs.processing",
+				"value": "driedChanterelles.specs.processing"
+			},
+			{
+				"label": "product_page.specs.colour",
+				"value": "driedChanterelles.specs.colour"
+			},
+			{
+				"label": "product_page.specs.fruit",
+				"value": "driedChanterelles.specs.fruit"
+			},
+			{
+				"label": "product_page.specs.cleaning",
+				"value": "driedChanterelles.specs.cleaning"
+			},
+			{
+				"label": "product_page.specs.storage",
+				"value": "driedChanterelles.specs.storage"
+			},
+			{
+				"label": "product_page.specs.packaging",
+				"value": "driedChanterelles.specs.packaging"
+			},
+			{
+				"label": "product_page.specs.moq",
+				"value": "driedChanterelles.specs.moq"
+			},
+			{
+				"label": "product_page.specs.traceability",
+				"value": "driedChanterelles.specs.traceability"
+			},
+			{
+				"label": "product_page.specs.foodSafety",
+				"value": "driedChanterelles.specs.foodSafety"
+			},
+			{
+				"label": "product_page.specs.organic",
+				"value": "driedChanterelles.specs.organic"
+			},
+			{
+				"label": "product_page.specs.delivery",
+				"value": "driedChanterelles.specs.delivery"
+			},
+			{
+				"label": "product_page.specs.incoterms",
+				"value": "driedChanterelles.specs.incoterms"
+			},
+			{
+				"label": "product_page.specs.documents",
+				"value": "driedChanterelles.specs.documents"
 			}
-		},
+		],
+		"applications": "driedChanterelles.applications",
 		"variants": [
 			{
 				"id": 1,
 				"images": ["/products/dried-chanterelles/dried-chanterelles-1.jpg"]
 			}
-		],
-		"harvest": [7, 8, 9]
+		]
 	},
 	{
 		"id": "frozen-sour-cherries",
-		"metaTitle": "frozenSourCherries.meta.title",
-		"metaDescription": "frozenSourCherries.meta.description",
+		"meta": {
+			"title": "frozenSourCherries.meta.title",
+			"description": "frozenSourCherries.meta.description"
+		},
 		"type": "berries_title",
 		"status": "frozen",
 		"latName": "Prunus cerasus",
 		"name": "frozenSourCherries.heading",
-		"desc": "frozenSourCherries.description",
-		"benefits": "frozenSourCherries.benefits",
-		"packaging": {
-			"cartonBox": {
-				"title": "product_page.packaging.cartonBox.title",
-				"desc": "product_page.packaging.cartonBox.desc"
+		"description": "frozenSourCherries.description",
+		"specs": [
+			{
+				"label": "product_page.specs.product",
+				"value": "frozenSourCherries.specs.product"
+			},
+			{
+				"label": "product_page.specs.botanicalName",
+				"value": "frozenSourCherries.specs.botanicalName"
+			},
+			{
+				"label": "product_page.specs.origin",
+				"value": "frozenSourCherries.specs.origin"
+			},
+			{
+				"label": "product_page.specs.harvesting",
+				"value": "frozenSourCherries.specs.harvesting"
+			},
+			{
+				"label": "product_page.specs.environment",
+				"value": "frozenSourCherries.specs.environment"
+			},
+			{
+				"label": "product_page.specs.processing",
+				"value": "frozenSourCherries.specs.processing"
+			},
+			{
+				"label": "product_page.specs.colour",
+				"value": "frozenSourCherries.specs.colour"
+			},
+			{
+				"label": "product_page.specs.fruit",
+				"value": "frozenSourCherries.specs.fruit"
+			},
+			{
+				"label": "product_page.specs.cleaning",
+				"value": "frozenSourCherries.specs.cleaning"
+			},
+			{
+				"label": "product_page.specs.storage",
+				"value": "frozenSourCherries.specs.storage"
+			},
+			{
+				"label": "product_page.specs.packaging",
+				"value": "frozenSourCherries.specs.packaging"
+			},
+			{
+				"label": "product_page.specs.moq",
+				"value": "frozenSourCherries.specs.moq"
+			},
+			{
+				"label": "product_page.specs.traceability",
+				"value": "frozenSourCherries.specs.traceability"
+			},
+			{
+				"label": "product_page.specs.foodSafety",
+				"value": "frozenSourCherries.specs.foodSafety"
+			},
+			{
+				"label": "product_page.specs.organic",
+				"value": "frozenSourCherries.specs.organic"
+			},
+			{
+				"label": "product_page.specs.delivery",
+				"value": "frozenSourCherries.specs.delivery"
+			},
+			{
+				"label": "product_page.specs.incoterms",
+				"value": "frozenSourCherries.specs.incoterms"
+			},
+			{
+				"label": "product_page.specs.documents",
+				"value": "frozenSourCherries.specs.documents"
 			}
-		},
+		],
+		"applications": "frozenSourCherries.applications",
 		"variants": [
 			{
 				"id": 1,
@@ -668,26 +2020,94 @@
 				]
 			}
 		],
-		"isOrganic": true,
-		"harvest": [5, 6],
 		"isFeatured": true
 	},
 	{
 		"id": "frozen-honey-mushrooms",
-		"metaTitle": "frozenHoneyMushrooms.meta.title",
-		"metaDescription": "frozenHoneyMushrooms.meta.description",
+		"meta": {
+			"title": "frozenHoneyMushrooms.meta.title",
+			"description": "frozenHoneyMushrooms.meta.description"
+		},
 		"type": "mushrooms_title",
 		"status": "frozen",
 		"latName": "Armillaria mellea",
 		"name": "frozenHoneyMushrooms.heading",
-		"desc": "frozenHoneyMushrooms.description",
-		"benefits": "frozenHoneyMushrooms.benefits",
-		"packaging": {
-			"cartonBox": {
-				"title": "product_page.packaging.cartonBox.title",
-				"desc": "product_page.packaging.cartonBox.desc"
+		"description": "frozenHoneyMushrooms.description",
+		"specs": [
+			{
+				"label": "product_page.specs.product",
+				"value": "frozenHoneyMushrooms.specs.product"
+			},
+			{
+				"label": "product_page.specs.botanicalName",
+				"value": "frozenHoneyMushrooms.specs.botanicalName"
+			},
+			{
+				"label": "product_page.specs.origin",
+				"value": "frozenHoneyMushrooms.specs.origin"
+			},
+			{
+				"label": "product_page.specs.harvesting",
+				"value": "frozenHoneyMushrooms.specs.harvesting"
+			},
+			{
+				"label": "product_page.specs.environment",
+				"value": "frozenHoneyMushrooms.specs.environment"
+			},
+			{
+				"label": "product_page.specs.processing",
+				"value": "frozenHoneyMushrooms.specs.processing"
+			},
+			{
+				"label": "product_page.specs.colour",
+				"value": "frozenHoneyMushrooms.specs.colour"
+			},
+			{
+				"label": "product_page.specs.fruit",
+				"value": "frozenHoneyMushrooms.specs.fruit"
+			},
+			{
+				"label": "product_page.specs.cleaning",
+				"value": "frozenHoneyMushrooms.specs.cleaning"
+			},
+			{
+				"label": "product_page.specs.storage",
+				"value": "frozenHoneyMushrooms.specs.storage"
+			},
+			{
+				"label": "product_page.specs.packaging",
+				"value": "frozenHoneyMushrooms.specs.packaging"
+			},
+			{
+				"label": "product_page.specs.moq",
+				"value": "frozenHoneyMushrooms.specs.moq"
+			},
+			{
+				"label": "product_page.specs.traceability",
+				"value": "frozenHoneyMushrooms.specs.traceability"
+			},
+			{
+				"label": "product_page.specs.foodSafety",
+				"value": "frozenHoneyMushrooms.specs.foodSafety"
+			},
+			{
+				"label": "product_page.specs.organic",
+				"value": "frozenHoneyMushrooms.specs.organic"
+			},
+			{
+				"label": "product_page.specs.delivery",
+				"value": "frozenHoneyMushrooms.specs.delivery"
+			},
+			{
+				"label": "product_page.specs.incoterms",
+				"value": "frozenHoneyMushrooms.specs.incoterms"
+			},
+			{
+				"label": "product_page.specs.documents",
+				"value": "frozenHoneyMushrooms.specs.documents"
 			}
-		},
+		],
+		"applications": "frozenHoneyMushrooms.applications",
 		"variants": [
 			{
 				"id": 1,
@@ -695,25 +2115,94 @@
 					"/products/frozen-honey-mushrooms/iqf-frozen-honey-mushrooms-1.jpg"
 				]
 			}
-		],
-		"harvest": [8, 9, 10]
+		]
 	},
 	{
 		"id": "frozen-blackberries",
-		"metaTitle": "frozenBlackberries.meta.title",
-		"metaDescription": "frozenBlackberries.meta.description",
+		"meta": {
+			"title": "frozenBlackberries.meta.title",
+			"description": "frozenBlackberries.meta.description"
+		},
 		"type": "berries_title",
 		"status": "frozen",
 		"latName": "Rubus fruticosus",
 		"name": "frozenBlackberries.heading",
-		"desc": "frozenBlackberries.description",
-		"benefits": "frozenBlackberries.benefits",
-		"packaging": {
-			"cartonBox": {
-				"title": "product_page.packaging.cartonBox.title",
-				"desc": "product_page.packaging.cartonBox.desc"
+		"description": "frozenBlackberries.description",
+		"specs": [
+			{
+				"label": "product_page.specs.product",
+				"value": "frozenBlackberries.specs.product"
+			},
+			{
+				"label": "product_page.specs.botanicalName",
+				"value": "frozenBlackberries.specs.botanicalName"
+			},
+			{
+				"label": "product_page.specs.origin",
+				"value": "frozenBlackberries.specs.origin"
+			},
+			{
+				"label": "product_page.specs.harvesting",
+				"value": "frozenBlackberries.specs.harvesting"
+			},
+			{
+				"label": "product_page.specs.environment",
+				"value": "frozenBlackberries.specs.environment"
+			},
+			{
+				"label": "product_page.specs.processing",
+				"value": "frozenBlackberries.specs.processing"
+			},
+			{
+				"label": "product_page.specs.colour",
+				"value": "frozenBlackberries.specs.colour"
+			},
+			{
+				"label": "product_page.specs.fruit",
+				"value": "frozenBlackberries.specs.fruit"
+			},
+			{
+				"label": "product_page.specs.cleaning",
+				"value": "frozenBlackberries.specs.cleaning"
+			},
+			{
+				"label": "product_page.specs.storage",
+				"value": "frozenBlackberries.specs.storage"
+			},
+			{
+				"label": "product_page.specs.packaging",
+				"value": "frozenBlackberries.specs.packaging"
+			},
+			{
+				"label": "product_page.specs.moq",
+				"value": "frozenBlackberries.specs.moq"
+			},
+			{
+				"label": "product_page.specs.traceability",
+				"value": "frozenBlackberries.specs.traceability"
+			},
+			{
+				"label": "product_page.specs.foodSafety",
+				"value": "frozenBlackberries.specs.foodSafety"
+			},
+			{
+				"label": "product_page.specs.organic",
+				"value": "frozenBlackberries.specs.organic"
+			},
+			{
+				"label": "product_page.specs.delivery",
+				"value": "frozenBlackberries.specs.delivery"
+			},
+			{
+				"label": "product_page.specs.incoterms",
+				"value": "frozenBlackberries.specs.incoterms"
+			},
+			{
+				"label": "product_page.specs.documents",
+				"value": "frozenBlackberries.specs.documents"
 			}
-		},
+		],
+		"applications": "frozenBlackberries.applications",
 		"variants": [
 			{
 				"id": 1,
@@ -721,26 +2210,94 @@
 					"/products/frozen-blackberries/iqf-frozen-blackberries-1.jpeg"
 				]
 			}
-		],
-		"isOrganic": true,
-		"harvest": [8, 9]
+		]
 	},
 	{
 		"id": "frozen-grapes",
-		"metaTitle": "frozenGrapes.meta.title",
-		"metaDescription": "frozenGrapes.meta.description",
+		"meta": {
+			"title": "frozenGrapes.meta.title",
+			"description": "frozenGrapes.meta.description"
+		},
 		"type": "berries_title",
 		"status": "frozen",
 		"latName": "Vitis vinifera",
 		"name": "frozenGrapes.heading",
-		"desc": "frozenGrapes.description",
-		"benefits": "frozenGrapes.benefits",
-		"packaging": {
-			"cartonBox": {
-				"title": "product_page.packaging.cartonBox.title",
-				"desc": "product_page.packaging.cartonBox.desc"
+		"description": "frozenGrapes.description",
+		"specs": [
+			{
+				"label": "product_page.specs.product",
+				"value": "frozenGrapes.specs.product"
+			},
+			{
+				"label": "product_page.specs.botanicalName",
+				"value": "frozenGrapes.specs.botanicalName"
+			},
+			{
+				"label": "product_page.specs.origin",
+				"value": "frozenGrapes.specs.origin"
+			},
+			{
+				"label": "product_page.specs.harvesting",
+				"value": "frozenGrapes.specs.harvesting"
+			},
+			{
+				"label": "product_page.specs.environment",
+				"value": "frozenGrapes.specs.environment"
+			},
+			{
+				"label": "product_page.specs.processing",
+				"value": "frozenGrapes.specs.processing"
+			},
+			{
+				"label": "product_page.specs.colour",
+				"value": "frozenGrapes.specs.colour"
+			},
+			{
+				"label": "product_page.specs.fruit",
+				"value": "frozenGrapes.specs.fruit"
+			},
+			{
+				"label": "product_page.specs.cleaning",
+				"value": "frozenGrapes.specs.cleaning"
+			},
+			{
+				"label": "product_page.specs.storage",
+				"value": "frozenGrapes.specs.storage"
+			},
+			{
+				"label": "product_page.specs.packaging",
+				"value": "frozenGrapes.specs.packaging"
+			},
+			{
+				"label": "product_page.specs.moq",
+				"value": "frozenGrapes.specs.moq"
+			},
+			{
+				"label": "product_page.specs.traceability",
+				"value": "frozenGrapes.specs.traceability"
+			},
+			{
+				"label": "product_page.specs.foodSafety",
+				"value": "frozenGrapes.specs.foodSafety"
+			},
+			{
+				"label": "product_page.specs.organic",
+				"value": "frozenGrapes.specs.organic"
+			},
+			{
+				"label": "product_page.specs.delivery",
+				"value": "frozenGrapes.specs.delivery"
+			},
+			{
+				"label": "product_page.specs.incoterms",
+				"value": "frozenGrapes.specs.incoterms"
+			},
+			{
+				"label": "product_page.specs.documents",
+				"value": "frozenGrapes.specs.documents"
 			}
-		},
+		],
+		"applications": "frozenGrapes.applications",
 		"variants": [
 			{
 				"id": 1,
@@ -749,49 +2306,187 @@
 					"/products/frozen-grapes/iqf-frozen-grapes-2.jpg"
 				]
 			}
-		],
-		"harvest": [9, 10]
+		]
 	},
 	{
 		"id": "frozen-sweet-corn",
-		"metaTitle": "frozenGrapes.meta.title",
-		"metaDescription": "frozenGrapes.meta.description",
+		"meta": {
+			"title": "frozenCorn.meta.title",
+			"description": "frozenCorn.meta.description"
+		},
 		"type": "vegetables_title",
 		"status": "frozen",
 		"latName": "Zea mays",
 		"name": "frozenCorn.heading",
-		"desc": "frozenCorn.description",
-		"benefits": "frozenCorn.benefits",
-		"packaging": {
-			"cartonBox": {
-				"title": "product_page.packaging.cartonBox.title",
-				"desc": "product_page.packaging.cartonBox.desc"
+		"description": "frozenCorn.description",
+		"specs": [
+			{
+				"label": "product_page.specs.product",
+				"value": "frozenCorn.specs.product"
+			},
+			{
+				"label": "product_page.specs.botanicalName",
+				"value": "frozenCorn.specs.botanicalName"
+			},
+			{
+				"label": "product_page.specs.origin",
+				"value": "frozenCorn.specs.origin"
+			},
+			{
+				"label": "product_page.specs.harvesting",
+				"value": "frozenCorn.specs.harvesting"
+			},
+			{
+				"label": "product_page.specs.environment",
+				"value": "frozenCorn.specs.environment"
+			},
+			{
+				"label": "product_page.specs.processing",
+				"value": "frozenCorn.specs.processing"
+			},
+			{
+				"label": "product_page.specs.colour",
+				"value": "frozenCorn.specs.colour"
+			},
+			{
+				"label": "product_page.specs.fruit",
+				"value": "frozenCorn.specs.fruit"
+			},
+			{
+				"label": "product_page.specs.cleaning",
+				"value": "frozenCorn.specs.cleaning"
+			},
+			{
+				"label": "product_page.specs.storage",
+				"value": "frozenCorn.specs.storage"
+			},
+			{
+				"label": "product_page.specs.packaging",
+				"value": "frozenCorn.specs.packaging"
+			},
+			{
+				"label": "product_page.specs.moq",
+				"value": "frozenCorn.specs.moq"
+			},
+			{
+				"label": "product_page.specs.traceability",
+				"value": "frozenCorn.specs.traceability"
+			},
+			{
+				"label": "product_page.specs.foodSafety",
+				"value": "frozenCorn.specs.foodSafety"
+			},
+			{
+				"label": "product_page.specs.organic",
+				"value": "frozenCorn.specs.organic"
+			},
+			{
+				"label": "product_page.specs.delivery",
+				"value": "frozenCorn.specs.delivery"
+			},
+			{
+				"label": "product_page.specs.incoterms",
+				"value": "frozenCorn.specs.incoterms"
+			},
+			{
+				"label": "product_page.specs.documents",
+				"value": "frozenCorn.specs.documents"
 			}
-		},
+		],
+		"applications": "frozenCorn.applications",
 		"variants": [
 			{
 				"id": 1,
 				"images": ["/products/frozen-sweet-corn/iqf-frozen-sweet-corn-1.jpeg"]
 			}
-		],
-		"harvest": [8, 9]
+		]
 	},
 	{
 		"id": "frozen-black-currants",
-		"metaTitle": "frozenBlackCurrants.meta.title",
-		"metaDescription": "frozenBlackCurrants.meta.description",
+		"meta": {
+			"title": "frozenBlackCurrants.meta.title",
+			"description": "frozenBlackCurrants.meta.description"
+		},
 		"type": "berries_title",
 		"status": "frozen",
 		"latName": "Ribes nigrum",
 		"name": "frozenBlackCurrants.heading",
-		"desc": "frozenBlackCurrants.description",
-		"benefits": "frozenBlackCurrants.benefits",
-		"packaging": {
-			"cartonBox": {
-				"title": "product_page.packaging.cartonBox.title",
-				"desc": "product_page.packaging.cartonBox.desc"
+		"description": "frozenBlackCurrants.description",
+		"specs": [
+			{
+				"label": "product_page.specs.product",
+				"value": "frozenBlackCurrants.specs.product"
+			},
+			{
+				"label": "product_page.specs.botanicalName",
+				"value": "frozenBlackCurrants.specs.botanicalName"
+			},
+			{
+				"label": "product_page.specs.origin",
+				"value": "frozenBlackCurrants.specs.origin"
+			},
+			{
+				"label": "product_page.specs.harvesting",
+				"value": "frozenBlackCurrants.specs.harvesting"
+			},
+			{
+				"label": "product_page.specs.environment",
+				"value": "frozenBlackCurrants.specs.environment"
+			},
+			{
+				"label": "product_page.specs.processing",
+				"value": "frozenBlackCurrants.specs.processing"
+			},
+			{
+				"label": "product_page.specs.colour",
+				"value": "frozenBlackCurrants.specs.colour"
+			},
+			{
+				"label": "product_page.specs.fruit",
+				"value": "frozenBlackCurrants.specs.fruit"
+			},
+			{
+				"label": "product_page.specs.cleaning",
+				"value": "frozenBlackCurrants.specs.cleaning"
+			},
+			{
+				"label": "product_page.specs.storage",
+				"value": "frozenBlackCurrants.specs.storage"
+			},
+			{
+				"label": "product_page.specs.packaging",
+				"value": "frozenBlackCurrants.specs.packaging"
+			},
+			{
+				"label": "product_page.specs.moq",
+				"value": "frozenBlackCurrants.specs.moq"
+			},
+			{
+				"label": "product_page.specs.traceability",
+				"value": "frozenBlackCurrants.specs.traceability"
+			},
+			{
+				"label": "product_page.specs.foodSafety",
+				"value": "frozenBlackCurrants.specs.foodSafety"
+			},
+			{
+				"label": "product_page.specs.organic",
+				"value": "frozenBlackCurrants.specs.organic"
+			},
+			{
+				"label": "product_page.specs.delivery",
+				"value": "frozenBlackCurrants.specs.delivery"
+			},
+			{
+				"label": "product_page.specs.incoterms",
+				"value": "frozenBlackCurrants.specs.incoterms"
+			},
+			{
+				"label": "product_page.specs.documents",
+				"value": "frozenBlackCurrants.specs.documents"
 			}
-		},
+		],
+		"applications": "frozenBlackCurrants.applications",
 		"variants": [
 			{
 				"id": 1,
@@ -799,25 +2494,94 @@
 					"/products/frozen-black-currants/iqf-frozen-black-currants-1.jpg"
 				]
 			}
-		],
-		"harvest": [7, 8]
+		]
 	},
 	{
 		"id": "frozen-chokeberries",
-		"metaTitle": "frozenChokeberries.meta.title",
-		"metaDescription": "frozenChokeberries.meta.description",
+		"meta": {
+			"title": "frozenChokeberries.meta.title",
+			"description": "frozenChokeberries.meta.description"
+		},
 		"type": "berries_title",
 		"status": "frozen",
 		"latName": "Aronia melanocarpa",
 		"name": "frozenChokeberries.heading",
-		"desc": "frozenChokeberries.description",
-		"benefits": "frozenChokeberries.benefits",
-		"packaging": {
-			"paperBag": {
-				"title": "product_page.packaging.paperBag.title",
-				"desc": "product_page.packaging.paperBag.desc"
+		"description": "frozenChokeberries.description",
+		"specs": [
+			{
+				"label": "product_page.specs.product",
+				"value": "frozenChokeberries.specs.product"
+			},
+			{
+				"label": "product_page.specs.botanicalName",
+				"value": "frozenChokeberries.specs.botanicalName"
+			},
+			{
+				"label": "product_page.specs.origin",
+				"value": "frozenChokeberries.specs.origin"
+			},
+			{
+				"label": "product_page.specs.harvesting",
+				"value": "frozenChokeberries.specs.harvesting"
+			},
+			{
+				"label": "product_page.specs.environment",
+				"value": "frozenChokeberries.specs.environment"
+			},
+			{
+				"label": "product_page.specs.processing",
+				"value": "frozenChokeberries.specs.processing"
+			},
+			{
+				"label": "product_page.specs.colour",
+				"value": "frozenChokeberries.specs.colour"
+			},
+			{
+				"label": "product_page.specs.fruit",
+				"value": "frozenChokeberries.specs.fruit"
+			},
+			{
+				"label": "product_page.specs.cleaning",
+				"value": "frozenChokeberries.specs.cleaning"
+			},
+			{
+				"label": "product_page.specs.storage",
+				"value": "frozenChokeberries.specs.storage"
+			},
+			{
+				"label": "product_page.specs.packaging",
+				"value": "frozenChokeberries.specs.packaging"
+			},
+			{
+				"label": "product_page.specs.moq",
+				"value": "frozenChokeberries.specs.moq"
+			},
+			{
+				"label": "product_page.specs.traceability",
+				"value": "frozenChokeberries.specs.traceability"
+			},
+			{
+				"label": "product_page.specs.foodSafety",
+				"value": "frozenChokeberries.specs.foodSafety"
+			},
+			{
+				"label": "product_page.specs.organic",
+				"value": "frozenChokeberries.specs.organic"
+			},
+			{
+				"label": "product_page.specs.delivery",
+				"value": "frozenChokeberries.specs.delivery"
+			},
+			{
+				"label": "product_page.specs.incoterms",
+				"value": "frozenChokeberries.specs.incoterms"
+			},
+			{
+				"label": "product_page.specs.documents",
+				"value": "frozenChokeberries.specs.documents"
 			}
-		},
+		],
+		"applications": "frozenChokeberries.applications",
 		"variants": [
 			{
 				"id": 1,
@@ -837,33 +2601,99 @@
 				]
 			}
 		],
-		"harvest": [8, 9, 10],
-		"isOrganic": true,
 		"isFeatured": true
 	},
 	{
 		"id": "frozen-wild-bog-bilberries",
-		"metaTitle": "frozenWildBogBilberries.meta.title",
-		"metaDescription": "frozenWildBogBilberries.meta.description",
+		"meta": {
+			"title": "frozenWildBogBilberries.meta.title",
+			"description": "frozenWildBogBilberries.meta.description"
+		},
 		"type": "berries_title",
 		"status": "frozen",
 		"latName": "Vaccinium uliginosum",
 		"name": "frozenWildBogBilberries.heading",
-		"desc": "frozenWildBogBilberries.description",
-		"benefits": "frozenWildBogBilberries.benefits",
-		"packaging": {
-			"paperBag": {
-				"title": "product_page.packaging.paperBag.title",
-				"desc": "product_page.packaging.paperBag.desc"
+		"description": "frozenWildBogBilberries.description",
+		"specs": [
+			{
+				"label": "product_page.specs.product",
+				"value": "frozenWildBogBilberries.specs.product"
+			},
+			{
+				"label": "product_page.specs.botanicalName",
+				"value": "frozenWildBogBilberries.specs.botanicalName"
+			},
+			{
+				"label": "product_page.specs.origin",
+				"value": "frozenWildBogBilberries.specs.origin"
+			},
+			{
+				"label": "product_page.specs.harvesting",
+				"value": "frozenWildBogBilberries.specs.harvesting"
+			},
+			{
+				"label": "product_page.specs.environment",
+				"value": "frozenWildBogBilberries.specs.environment"
+			},
+			{
+				"label": "product_page.specs.processing",
+				"value": "frozenWildBogBilberries.specs.processing"
+			},
+			{
+				"label": "product_page.specs.colour",
+				"value": "frozenWildBogBilberries.specs.colour"
+			},
+			{
+				"label": "product_page.specs.fruit",
+				"value": "frozenWildBogBilberries.specs.fruit"
+			},
+			{
+				"label": "product_page.specs.cleaning",
+				"value": "frozenWildBogBilberries.specs.cleaning"
+			},
+			{
+				"label": "product_page.specs.storage",
+				"value": "frozenWildBogBilberries.specs.storage"
+			},
+			{
+				"label": "product_page.specs.packaging",
+				"value": "frozenWildBogBilberries.specs.packaging"
+			},
+			{
+				"label": "product_page.specs.moq",
+				"value": "frozenWildBogBilberries.specs.moq"
+			},
+			{
+				"label": "product_page.specs.traceability",
+				"value": "frozenWildBogBilberries.specs.traceability"
+			},
+			{
+				"label": "product_page.specs.foodSafety",
+				"value": "frozenWildBogBilberries.specs.foodSafety"
+			},
+			{
+				"label": "product_page.specs.organic",
+				"value": "frozenWildBogBilberries.specs.organic"
+			},
+			{
+				"label": "product_page.specs.delivery",
+				"value": "frozenWildBogBilberries.specs.delivery"
+			},
+			{
+				"label": "product_page.specs.incoterms",
+				"value": "frozenWildBogBilberries.specs.incoterms"
+			},
+			{
+				"label": "product_page.specs.documents",
+				"value": "frozenWildBogBilberries.specs.documents"
 			}
-		},
+		],
+		"applications": "frozenWildBogBilberries.applications",
 		"variants": [
 			{
 				"id": 1
 			}
 		],
-		"harvest": [7, 8],
-		"isOrganic": true,
 		"isFeatured": true
 	}
 ]
