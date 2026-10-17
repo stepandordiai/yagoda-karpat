@@ -34,6 +34,7 @@
 .certificates__link-container {
 	display: flex;
 	gap: 5px;
+	flex-shrink: 0;
 }
 
 .certificates__link {
@@ -54,6 +55,7 @@
 	padding: 5px;
 	border-radius: 10px;
 	border: 1px solid rgba(0, 0, 0, 0.1);
+	// height: 50px;
 }
 
 @media screen and (max-width: 895px) {
