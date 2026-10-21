@@ -219,7 +219,7 @@
 
 	"frozenBilberries": {
 		"meta": {
-			"title": "IQF Frozen Wild Bilberries | EU Supplier",
+			"title": "IQF Frozen Wild Bilberries",
 			"description": "IQF frozen wild bilberries (Vaccinium myrtillus), hand-harvested in the Ukrainian Carpathians. HACCP-certified processing, organic lots available, MOQ 500 kg. FCA, DAP & DDP across the EU."
 		},
 		"heading": "IQF Frozen Bilberries",
@@ -267,7 +267,7 @@
 
 	"frozenLingonberries": {
 		"meta": {
-			"title": "IQF Lingonberries | Bulk Frozen Supplier & Exporter EU",
+			"title": "IQF Frozen Lingonberries",
 			"description": "Bulk IQF frozen lingonberries (Vaccinium vitis-idaea) from the Ukrainian Carpathians. HACCP & Organic certified, MOQ 500 kg. Wholesale export FCA/DAP/DDP to the EU."
 		},
 		"heading": "IQF Frozen Lingonberries",
@@ -315,7 +315,7 @@
 
 	"frozenRoseHips": {
 		"meta": {
-			"title": "IQF Frozen Rose Hips | Bulk Supplier & Exporter EU",
+			"title": "IQF Frozen Rose Hips",
 			"description": "Bulk IQF frozen rose hips (Rosa canina), high in vitamin C, from the Ukrainian Carpathians. HACCP & Organic, MOQ 500 kg. Export FCA/DAP/DDP to the EU."
 		},
 		"heading": "IQF Frozen Rose Hips",
@@ -363,7 +363,7 @@
 
 	"frozenPlums": {
 		"meta": {
-			"title": "IQF Frozen Plums — Whole, Halved & Pitted | Bulk Supplier EU",
+			"title": "IQF Frozen Plums",
 			"description": "Bulk IQF frozen plums from Ukrainian Carpathian orchards — whole, halved or pitted. HACCP & Organic certified, MOQ 500 kg. Wholesale export FCA/DAP/DDP to the EU."
 		},
 		"heading": "IQF Frozen Plums",
@@ -411,7 +411,7 @@
 
 	"driedPlums": {
 		"meta": {
-			"title": "Dried Whole Plums — Unpitted & Untreated | Bulk Supplier EU",
+			"title": "Dried Whole Plums",
 			"description": "Bulk dried whole plums from Ukrainian Carpathian orchards — unpitted, naturally dried, no additives or glycerin. HACCP & Organic, MOQ 500 kg. Wholesale export FCA/DAP/DDP to the EU."
 		},
 		"heading": "Naturally Dried Whole Plums",
@@ -459,7 +459,7 @@
 
 	"prunes": {
 		"meta": {
-			"title": "Pitted Prunes — Soft, Calibrated, No Sugar | Bulk Supplier EU",
+			"title": "Pitted Prunes",
 			"description": "Bulk pitted prunes (Prunus domestica), soft, calibrated, no added sugar. Carpathian orchards, HACCP & Organic, MOQ 500 kg. Export FCA/DAP/DDP to the EU."
 		},
 		"heading": "Pitted Prunes",
@@ -507,7 +507,7 @@
 
 	"frozenElderberries": {
 		"meta": {
-			"title": "IQF Frozen Elderberries | Bulk Supplier & Exporter EU",
+			"title": "IQF Frozen Elderberries",
 			"description": "Bulk IQF frozen elderberries (Sambucus nigra) for syrups, extracts & natural colour. Carpathian origin, HACCP & Organic, MOQ 500 kg. Export FCA/DAP/DDP to the EU."
 		},
 		"heading": "IQF Frozen Elderberries",
@@ -555,7 +555,7 @@
 
 	"frozenStrawberries": {
 		"meta": {
-			"title": "IQF Frozen Strawberries — Whole, Sliced, Diced | Bulk Supplier EU",
+			"title": "IQF Frozen Strawberries",
 			"description": "Bulk IQF frozen strawberries — whole, calibrated, sliced, diced or purée. Carpathian farms, HACCP & Organic, MOQ 500 kg. Export FCA/DAP/DDP to the EU."
 		},
 		"heading": "IQF Frozen Strawberries",
@@ -603,7 +603,7 @@
 
 	"frozenRaspberries": {
 		"meta": {
-			"title": "IQF Frozen Raspberries — Whole, Crumble, Purée | Bulk Supplier EU",
+			"title": "IQF Frozen Raspberries",
 			"description": "Bulk IQF frozen raspberries from Ukrainian Carpathian farms — whole, crumble/broken or purée. HACCP & Organic, MOQ 500 kg. Wholesale export FCA/DAP/DDP to the EU."
 		},
 		"heading": "IQF Frozen Raspberries",
@@ -651,7 +651,7 @@
 
 	"frozenApricots": {
 		"meta": {
-			"title": "IQF Frozen Apricots — Halved, Pitted, Diced | Bulk Supplier EU",
+			"title": "IQF Frozen Apricots",
 			"description": "Bulk IQF frozen apricots from Ukrainian Carpathian orchards — halved and pitted or diced. HACCP & Organic, MOQ 500 kg. Wholesale export FCA/DAP/DDP to the EU."
 		},
 		"heading": "IQF Frozen Apricots",
@@ -699,7 +699,7 @@
 
 	"frozenRedBellPeppers": {
 		"meta": {
-			"title": "IQF Frozen Red Bell Peppers — Diced, Strips | Bulk Supplier EU",
+			"title": "IQF Frozen Red Bell Peppers",
 			"description": "Bulk IQF frozen red bell peppers from Ukrainian Carpathian farms — diced, strips or halves. HACCP certified, MOQ 500 kg. Wholesale export FCA/DAP/DDP to the EU."
 		},
 		"heading": "IQF Frozen Red Bell Peppers",
@@ -747,7 +747,7 @@
 
 	"frozenGreenBellPeppers": {
 		"meta": {
-			"title": "IQF Frozen Green Bell Peppers — Diced, Strips | Bulk Supplier EU",
+			"title": "IQF Frozen Green Bell Peppers",
 			"description": "Bulk IQF frozen green bell peppers from Carpathian farms — diced, strips or halves. HACCP certified, MOQ 500 kg. Wholesale export FCA/DAP/DDP to the EU."
 		},
 		"heading": "IQF Frozen Green Bell Peppers",
@@ -795,7 +795,7 @@
 
 	"frozenYellowBellPeppers": {
 		"meta": {
-			"title": "IQF Frozen Yellow Bell Peppers — Diced, Strips | Bulk Supplier EU",
+			"title": "IQF Frozen Yellow Bell Peppers",
 			"description": "Bulk IQF frozen yellow bell peppers from Carpathian farms — diced, strips or halves. HACCP certified, MOQ 500 kg. Export FCA/DAP/DDP to the EU."
 		},
 		"heading": "IQF Frozen Yellow Bell Peppers",
@@ -843,7 +843,7 @@
 
 	"frozenMixedBellPeppers": {
 		"meta": {
-			"title": "IQF Frozen Mixed Pepper Strips & Diced | Bulk Supplier EU",
+			"title": "IQF Frozen Mixed Pepper",
 			"description": "Bulk IQF frozen mixed bell peppers (red, yellow, green) — diced or strips, blended to ratio. Carpathian farms, HACCP, MOQ 500 kg. Export FCA/DAP/DDP EU."
 		},
 		"heading": "IQF Frozen Mixed Bell Peppers",
@@ -891,7 +891,7 @@
 
 	"frozenPorciniMushrooms": {
 		"meta": {
-			"title": "IQF Frozen Porcini / Cep Mushrooms | Bulk Supplier EU",
+			"title": "IQF Frozen Porcini / Cep Mushrooms",
 			"description": "Bulk IQF frozen porcini / cep mushrooms (Boletus edulis), whole or sliced. Carpathian origin, HACCP, MOQ 500 kg. Wholesale export FCA/DAP/DDP to the EU."
 		},
 		"heading": "IQF Frozen Porcini Mushrooms",
@@ -939,7 +939,7 @@
 
 	"freshPorciniMushrooms": {
 		"meta": {
-			"title": "Fresh Porcini / Cep Mushrooms — Seasonal | Bulk Supplier EU",
+			"title": "Fresh Porcini / Cep Mushrooms",
 			"description": "Wild fresh porcini / cep mushrooms (Boletus edulis), seasonal, hand-picked, graded. Chilled B2B supply from the Carpathians. MOQ on request, FCA/DAP to the EU."
 		},
 		"heading": "Fresh Porcini Mushrooms",
@@ -987,7 +987,7 @@
 
 	"driedPorciniMushrooms": {
 		"meta": {
-			"title": "Dried Porcini / Cep Mushrooms — Slices, Powder | Bulk Supplier EU",
+			"title": "Dried Porcini / Cep Mushrooms",
 			"description": "Wild dried porcini / cep mushrooms (Boletus edulis) — graded slices, pieces or powder. Intense umami, shelf-stable. Carpathian origin, HACCP, FCA/DAP/DDP to the EU."
 		},
 		"heading": "Dried Porcini Mushrooms",
@@ -1035,7 +1035,7 @@
 
 	"freshChanterelles": {
 		"meta": {
-			"title": "Fresh Chanterelles / Girolles — Seasonal | Bulk Supplier EU",
+			"title": "Fresh Chanterelles / Girolles",
 			"description": "Wild fresh chanterelles / girolles (Cantharellus cibarius), golden and aromatic, hand-picked, graded by size. Chilled seasonal supply from the Carpathians."
 		},
 		"heading": "Fresh Chanterelles",
@@ -1083,7 +1083,7 @@
 
 	"driedChanterelles": {
 		"meta": {
-			"title": "Dried Chanterelles / Girolles — Whole & Powder | Bulk Supplier EU",
+			"title": "Dried Chanterelles / Girolles",
 			"description": "Wild dried chanterelles / girolles (Cantharellus cibarius) — whole or milled powder. Golden, fruity aroma, shelf-stable. Carpathian origin, HACCP, FCA/DAP/DDP EU."
 		},
 		"heading": "Dried Chanterelles",
@@ -1131,7 +1131,7 @@
 
 	"frozenSourCherries": {
 		"meta": {
-			"title": "IQF Frozen Sour Cherries — Pitted | Bulk Supplier EU",
+			"title": "IQF Frozen Sour Cherries",
 			"description": "Bulk IQF frozen sour cherries (Prunus cerasus) — pitted, deep red, bright acidity. Carpathian orchards, HACCP & Organic, MOQ 500 kg. Export FCA/DAP/DDP EU."
 		},
 		"heading": "IQF Frozen Sour Cherries",
@@ -1179,7 +1179,7 @@
 
 	"frozenHoneyMushrooms": {
 		"meta": {
-			"title": "IQF Frozen Honey Mushrooms — Whole | Bulk Supplier EU",
+			"title": "IQF Frozen Honey Mushrooms",
 			"description": "Bulk IQF frozen honey mushrooms / honey fungus (Armillaria mellea) from the Carpathians — whole, small-capped. HACCP, MOQ 500 kg. Export FCA/DAP/DDP to the EU."
 		},
 		"heading": "IQF Frozen Honey Mushrooms",
@@ -1227,7 +1227,7 @@
 
 	"frozenBlackberries": {
 		"meta": {
-			"title": "IQF Frozen Blackberries | Bulk Supplier EU",
+			"title": "IQF Frozen Blackberries",
 			"description": "Bulk IQF frozen blackberries (Rubus fruticosus) from the Carpathians — whole grade, deep colour, firm structure. HACCP & Organic, MOQ 500 kg. Export FCA/DAP/DDP EU."
 		},
 		"heading": "IQF Frozen Blackberries",
@@ -1275,7 +1275,7 @@
 
 	"frozenGrapes": {
 		"meta": {
-			"title": "IQF Frozen Seedless Grapes — Whole | Bulk Supplier EU",
+			"title": "IQF Frozen Grapes",
 			"description": "Bulk IQF frozen seedless grapes from Carpathian vineyards — whole, de-stemmed, free-flowing. HACCP & Organic, MOQ 500 kg. Export FCA/DAP/DDP to the EU."
 		},
 		"heading": "IQF Frozen Grapes",
@@ -1323,7 +1323,7 @@
 
 	"frozenCorn": {
 		"meta": {
-			"title": "IQF Frozen Sweet Corn — Kernels & Cob | Bulk Supplier EU",
+			"title": "IQF Frozen Sweet Corn",
 			"description": "Bulk IQF frozen sweet corn from Carpathian farms — kernels or cob, blanched, free-flowing. HACCP & Organic, MOQ 500 kg. Export FCA/DAP/DDP to the EU."
 		},
 		"heading": "IQF Frozen Sweet Corn",
@@ -1371,7 +1371,7 @@
 
 	"frozenBlackCurrants": {
 		"meta": {
-			"title": "IQF Frozen Blackcurrants | Bulk Supplier EU",
+			"title": "IQF Frozen Blackcurrants",
 			"description": "Bulk IQF frozen blackcurrants (Ribes nigrum) — high vitamin C, for juice & processing. Carpathian origin, HACCP & Organic, MOQ 500 kg. Export FCA/DAP/DDP EU."
 		},
 		"heading": "IQF Frozen Blackcurrants",
@@ -1419,7 +1419,7 @@
 
 	"frozenChokeberries": {
 		"meta": {
-			"title": "IQF Frozen Aronia / Chokeberries | Bulk Supplier EU",
+			"title": "IQF Frozen Aronia / Chokeberries",
 			"description": "Bulk IQF frozen aronia / chokeberries (Aronia melanocarpa) — high polyphenols & anthocyanins, for juice & extract. Carpathian, HACCP, MOQ 500 kg. FCA/DAP/DDP EU."
 		},
 		"heading": "IQF Frozen Chokeberries",
@@ -1467,7 +1467,7 @@
 
 	"frozenWildBogBilberries": {
 		"meta": {
-			"title": "IQF Frozen Wild Bog Bilberries | Bulk Supplier EU",
+			"title": "IQF Frozen Wild Bog Bilberries",
 			"description": "Bulk IQF wild bog bilberries (Vaccinium uliginosum) — hand-picked in the Carpathians, deep colour, high anthocyanins. HACCP, MOQ 500 kg. FCA/DAP/DDP EU."
 		},
 		"heading": "IQF Frozen Wild Bog Bilberries",

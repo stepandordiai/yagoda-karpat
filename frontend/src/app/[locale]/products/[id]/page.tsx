@@ -72,7 +72,7 @@ export async function generateMetadata({
 			.at(0) ?? "/yagoda-karpat-og.png";
 
 	return {
-		title: t(product.meta.title),
+		title: t(product.meta.title) + " | Bulk Supplier from Ukraine",
 		description: t(product.meta.description),
 		alternates: {
 			canonical: `/${locale}/${prevPage}/${product.id}`,
