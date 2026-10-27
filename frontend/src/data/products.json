@@ -206,7 +206,8 @@
 				"state": "product_page.cleaned_1",
 
 				"images": [
-					"/products/frozen-lingonberries/iqf-frozen-lingonberries-1.jpg"
+					"/products/frozen-lingonberries/iqf-frozen-lingonberries-1.jpg",
+					"/products/frozen-lingonberries/iqf-frozen-lingonberries-3.jpg"
 				]
 			},
 			{
@@ -2691,7 +2692,11 @@
 		"applications": "frozenWildBogBilberries.applications",
 		"variants": [
 			{
-				"id": 1
+				"id": 1,
+				"images": [
+					"/products/frozen-wild-bog-bilberries/frozen-wild-bog-bilberries-1.jpg",
+					"/products/frozen-wild-bog-bilberries/frozen-wild-bog-bilberries-2.jpg"
+				]
 			}
 		],
 		"isFeatured": true

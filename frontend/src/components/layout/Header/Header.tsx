@@ -10,7 +10,7 @@ import { useTranslations } from "next-intl";
 import { usePathname } from "@/i18n/navigation";
 import TelIcon from "@/components/icons/TelIcon";
 import EmailIcon from "@/components/icons/EmailIcon";
-import PdfIcon from "@/components/icons/PdfIcon";
+// import PdfIcon from "@/components/icons/PdfIcon";
 import PlusIcon from "@/components/icons/PlusIcon";
 import TelLink from "@/components/TelLink/TelLink";
 import "./Header.scss";
@@ -74,7 +74,7 @@ export default function Header({ products }: HeaderProps) {
 							/>
 							<span>{t("company_name")}</span>
 						</Link>
-						<a
+						{/* <a
 							className="header__catalog"
 							href="/pdf/yagoda-karpat-catalog.pdf"
 							target="_blank"
@@ -90,7 +90,7 @@ export default function Header({ products }: HeaderProps) {
 							>
 								<PdfIcon />
 							</span>
-						</a>
+						</a> */}
 						<LngSelect />
 						<TelLink
 							tel="+380968065513"
