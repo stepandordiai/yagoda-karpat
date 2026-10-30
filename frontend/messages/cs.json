@@ -1698,11 +1698,12 @@
 		"success": "Děkujeme za vaši poptávku. Ozveme se vám do jednoho pracovního dne.",
 		"sending": "Odesílání poptávky...",
 		"close": "Zavřít",
-		"error": "Něco se pokazilo. Zkuste to prosím znovu nebo nám napište na info@yagodakarpat.com.",
+		"error": "Něco se pokazilo. Zkuste to prosím znovu nebo nám napište na {email}.",
 		"paymentTerms": {
 			"title": "Platební podmínky",
 			"description": "První objednávka je realizována na základě 100% úhrady po vývozním celním odbavení a před dodáním do cílové země. Po úspěšné spolupráci jsme připraveni jednat o flexibilnějších platebních podmínkách pro stálé zákazníky.",
-			"cbLabel": "Potvrzuji, že jsem se seznámil(a) s platebními podmínkami pro první objednávku a souhlasím s nimi."
+			"cbLabel": "Potvrzuji, že jsem se seznámil(a) s platebními podmínkami pro první objednávku a souhlasím s nimi.",
+			"required": "Potvrďte prosím souhlas s platebními podmínkami."
 		}
 	}
 }
