@@ -35,6 +35,7 @@
 	"all": "Vše",
 	"all_rights_reserved": "Všechna práva vyhrazena",
 	"requestPrice": "Vyžádat cenu",
+	"requestAvailability": "Zjistit dostupnost",
 	"companyCode": "Company code",
 	"downloadCertificate": "Stáhnout certifikát",
 	"learnMore": "Číst více",
@@ -1686,7 +1687,7 @@
 
 	"contactForm": {
 		"heading": "Nezávazná poptávka",
-		"subheading": "Vyplňte prosím formulář níže. Minimální objednací množství (MOQ): 500 kg. Ozveme se vám do jednoho pracovního dne.",
+		"subheading": "Vyplňte prosím formulář níže. Minimální objednací množství (MOQ): 1000 kg. Ozveme se vám do jednoho pracovního dne.",
 		"name": "Kontaktní osoba",
 		"company": "Název společnosti",
 		"country": "Země určení",

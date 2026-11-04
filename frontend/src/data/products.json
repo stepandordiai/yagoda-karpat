@@ -111,8 +111,7 @@
 					}
 				]
 			}
-		],
-		"isFeatured": true
+		]
 	},
 	{
 		"id": "frozen-lingonberries",
@@ -320,8 +319,7 @@
 					"/products/frozen-rosehips/iqf-frozen-rosehips-2.JPG"
 				]
 			}
-		],
-		"isFeatured": true
+		]
 	},
 	{
 		"id": "frozen-plums",
@@ -726,8 +724,7 @@
 					"/products/frozen-elderberries/iqf-frozen-elderberries-3.jpg"
 				]
 			}
-		],
-		"isFeatured": true
+		]
 	},
 	{
 		"id": "frozen-strawberries",
@@ -1027,8 +1024,7 @@
 					}
 				]
 			}
-		],
-		"isFeatured": true
+		]
 	},
 	{
 		"id": "frozen-red-bell-peppers",
@@ -2307,7 +2303,8 @@
 					"/products/frozen-grapes/iqf-frozen-grapes-2.jpg"
 				]
 			}
-		]
+		],
+		"isFeatured": true
 	},
 	{
 		"id": "frozen-sweet-corn",

@@ -1,0 +1,1651 @@
+{
+	"contact_us": "Kontakt",
+	"berries_title": "Beeren",
+	"fruits_title": "Obst",
+	"vegetables_title": "Gemüse",
+	"mushrooms_title": "Pilze",
+	"certificates_title": "Zertifikate",
+	"business_hours_title": "Geschäftszeiten",
+	"mon": "Montag",
+	"tue": "Dienstag",
+	"wed": "Mittwoch",
+	"thu": "Donnerstag",
+	"fri": "Freitag",
+	"sat": "Samstag",
+	"sun": "Sonntag",
+	"closed": "Geschlossen",
+	"gallery_title": "Galerie",
+	"harvest_calendar": "Erntekalender",
+	"jan": "Januar",
+	"feb": "Februar",
+	"mar": "März",
+	"apr": "April",
+	"may": "Mai",
+	"jun": "Juni",
+	"jul": "Juli",
+	"aug": "August",
+	"sep": "September",
+	"oct": "Oktober",
+	"nov": "November",
+	"dec": "Dezember",
+	"company_name": "Yagoda Karpat",
+	"companyFullName": "Yagoda Karpat LLC",
+	"copied": "Kopiert",
+	"all": "Alle",
+	"all_rights_reserved": "Alle Rechte vorbehalten",
+	"requestPrice": "Preis anfragen",
+	"requestAvailability": "Verfügbarkeit anfragen",
+	"companyCode": "Firmennummer",
+	"downloadCertificate": "Zertifikat herunterladen",
+	"learnMore": "Mehr erfahren",
+	"availableNow": "Jetzt verfügbar",
+	"nav": {
+		"home": "Startseite",
+		"aboutUs": "Über uns",
+		"products": "Produkte",
+		"forSuppliers": "Für Lieferanten",
+		"blog": "Blog",
+		"contacts": "Kontakt"
+	},
+	"header": {
+		"openMenu": "Menü öffnen",
+		"closeMenu": "Menü schließen"
+	},
+	"home": {
+		"meta": {
+			"title": "IQF-Tiefkühlbeeren, Obst, Gemüse & Pilze | Lieferant EU",
+			"description": "Zuverlässiger Lieferant von IQF-Tiefkühlbeeren, Obst, Gemüse und Pilzen für Lebensmittelhersteller, Verarbeiter und Großhändler in Europa. Ganzjährig."
+		},
+		"title": "Tiefgekühlte & getrocknete Beeren, Obst, Pilze und Gemüse – Hersteller & Exporteur aus den Karpaten",
+		"sec_title": "Wir produzieren und liefern hochwertige tiefgekühlte und getrocknete Beeren, Obst, Pilze und Gemüse",
+		"viewProducts": "Produkte ansehen",
+		"requestPriceList": "Preisliste anfordern",
+		"availableProducts": {
+			"heading": "Verfügbare Produkte",
+			"subheading": "Entdecken Sie unser Sortiment an hochwertigen IQF-tiefgekühlten Beeren, Obst und Gemüse – im Großhandel für den Export in ganz Europa."
+		},
+		"viewAllProducts": "Alle Produkte ansehen"
+	},
+	"cookieBanner": {
+		"title": "Wir verwenden Cookies",
+		"description": "Wir verwenden Cookies, um den Betrieb dieser Website sicherzustellen und zu verstehen, wie Besucher sie nutzen, damit wir sie verbessern können. Sie können alle Cookies akzeptieren oder nur mit den notwendigen fortfahren.",
+		"rejectAll": "Alle ablehnen",
+		"acceptAll": "Alle akzeptieren"
+	},
+	"about_us": {
+		"description": [
+			"Wir sind ein familiengeführtes Privatunternehmen mit über zehn Jahren Erfahrung in der industriellen Verarbeitung und im Export von tiefgekühlten und getrockneten Beeren, Obst, Pilzen und Gemüse. Seit 2010 richten wir unsere Arbeit an einem Grundsatz aus: gleichbleibende, zertifizierte Qualität in großen Mengen für internationale B2B-Partner. Von handgepflückten Rohwaren bis zu modernen Verarbeitungstechnologien ist jede Produktionsstufe darauf ausgelegt, die Erwartungen anspruchsvoller europäischer Märkte zu erfüllen.",
+			"Alle unsere Produkte werden ausschließlich in ökologisch sauberen Regionen der Ukraine angebaut und geerntet, wo günstige klimatische Bedingungen und lange landwirtschaftliche Traditionen hochwertige Rohwaren sichern. Wir arbeiten eng mit bewährten Landwirten zusammen und kontrollieren die Ernte sorgfältig, um den natürlichen Geschmack, die Farbe und den Nährwert unserer Produkte zu erhalten. Je nach Produkt und Kundenanforderungen setzen wir IQF-Schockfrostung, Sonnentrocknung oder Trocknung in speziellen Trockenkammern ein.",
+			"Qualität und Lebensmittelsicherheit sind die Grundlage unseres Geschäfts. Unsere Betriebe arbeiten in voller Übereinstimmung mit internationalen Standards, darunter HACCP, ISO und Bio-Zertifizierungen. So sind wir nicht nur Lieferant, sondern ein verlässlicher langfristiger Partner für EU-Einkäufer, die Transparenz, Flexibilität und sichere Mengen suchen. Wir verbinden Familienbesitz mit industrieller Präzision – natürliche Produkte, auf die Sie sich Saison für Saison verlassen können."
+		],
+		"years": "Jahre Erfahrung",
+		"products": "natürliche Produkte",
+		"employees": "Mitarbeiter",
+		"exportCountries": "Exportländer",
+		"map_title": "Wohin wir liefern"
+	},
+	"gallery": [
+		"LKW beladen mit IQF-tiefgekühlten Waldheidelbeeren in 25-kg-Papiersäcken, bereit für den Export",
+		"Reinigung und Sortierung von IQF-tiefgekühlten Preiselbeeren im Verarbeitungsbetrieb",
+		"IQF-tiefgekühlte Heidelbeeren in Oktabins für den B2B-Großhandelsexport",
+		"Einkauf frischer Hagebutten – Rohwarenbeschaffung für die IQF-Verarbeitung"
+	],
+	"products": {
+		"meta": {
+			"title": "IQF-Tiefkühlbeeren, Obst, Gemüse & Pilze | B2B-Lieferant",
+			"description": "Unser Sortiment an IQF-tiefgekühlten Beeren, Obst, Gemüse und Pilzen für Lebensmittelhersteller, Verarbeiter und Großhändler in Europa. Stabile Lieferungen."
+		},
+		"title": "Alle Produkte",
+		"filter_placeholder": "Welches Produkt suchen Sie?",
+		"productNotFound": "Produkt nicht gefunden",
+		"productDetails": "Produktdetails"
+	},
+	"blogSection": {
+		"heading": "Aus unserem Blog",
+		"subheading": "Praxisleitfäden und Produktvergleiche für Lebensmittelhersteller, die tiefgekühlte und getrocknete Beeren, Obst und Pilze einkaufen.",
+		"viewAll": "Alle Artikel ansehen"
+	},
+	"blog": {
+		"meta": {
+			"title": "Blog – Einkaufsratgeber für TK- & Trockenbeeren im B2B",
+			"description": "Ratgeber, Produktvergleiche und Einkaufstipps für Hersteller, die IQF-tiefgekühlte und getrocknete Beeren, Obst und Wildpilze aus den Karpaten kaufen."
+		},
+		"heading": "Wissen für Lebensmittelhersteller & Importeure",
+		"subheading": "Produktvergleiche, Einkaufschecklisten und Verarbeitungs-Know-how von einem Beeren- und Pilzlieferanten aus den Karpaten."
+	},
+	"wildBilberryVsCultivatedBlueberry": {
+		"meta": {
+			"title": "Waldheidelbeere vs. Kulturheidelbeere: B2B-Einkaufsratgeber",
+			"description": "Warum die Waldheidelbeere bis zum Kern dunkelviolett ist, die Kulturheidelbeere innen aber hell – und was das für Farbe, Geschmack und Anthocyane bedeutet.",
+			"category": "Produktvergleiche"
+		},
+		"slug": "wild-bilberry-vs-cultivated-blueberry",
+		"readingTime": "6 Min.",
+		"heading": "Waldheidelbeere vs. Kulturheidelbeere: Warum die Farbe durch die ganze Frucht geht",
+		"description": "In der Schale sehen sie ähnlich aus, doch für industrielle Einkäufer sind Waldheidelbeere und Kulturheidelbeere zwei verschiedene Rohwaren. Der Unterschied geht buchstäblich unter die Haut.",
+		"body": {
+			"intro": "Für Verbraucher sehen Waldheidelbeere und Kulturheidelbeere wie dieselbe kleine blauviolette Frucht aus. Für Lebensmittelhersteller verhalten sie sich völlig unterschiedlich – bei Farbausbeute, Geschmacksintensität und Kosten pro Einheit Anthocyan. Schneidet man beide durch, wird der Grund in einer Sekunde klar: Die Kulturheidelbeere ist innen blass grünlich-weiß, die Waldheidelbeere dagegen bis zum Kern tief violett. Dieser Artikel erklärt, warum das für die Verarbeitung wichtig ist und wann welche Frucht die richtige Wahl ist.",
+			"sections": {
+				"heading1": "Zwei verschiedene Arten",
+				"text1": "Trotz der ähnlichen Namen handelt es sich botanisch um verschiedene Pflanzen. Die Waldheidelbeere (Vaccinium myrtillus) wächst bodennah in nördlichen Wäldern und Bergwäldern und lässt sich nicht in großem Maßstab kommerziell anbauen – sie wird tatsächlich wild gesammelt. Die im Supermarkt verkaufte Kulturheidelbeere ist meist die Amerikanische Heidelbeere (Vaccinium corymbosum), die auf Plantagen für Größe, Festigkeit und Haltbarkeit gezüchtet wird. Gleiche Gattung, andere Frucht – und der Unterschied zeigt sich genau dort, wo es für Verarbeiter darauf ankommt.",
+				"heading2": "Warum die Farbe durch die ganze Frucht geht",
+				"text2": "Das Blau einer Kulturheidelbeere sitzt fast ausschließlich in der Schale; das Fruchtfleisch darunter ist hell. Bei der Waldheidelbeere durchdringen die Anthocyan-Farbstoffe die ganze Beere – Schale und Fruchtfleisch gleichermaßen. Deshalb färbt eine zerdrückte Waldheidelbeere Finger, Teig und Joghurt tief violett, während eine zerdrückte Kulturheidelbeere nur einen schwachen Farbton ergibt. Für jedes Produkt, bei dem sichtbare Farbe zählt – Füllungen, Swirls in Milchprodukten, Säfte, Extrakte –, ist das der wichtigste praktische Unterschied zwischen beiden.",
+				"heading3": "Anthocyangehalt und warum Einkäufer dafür bezahlen",
+				"text3": "Da der Farbstoff die ganze Frucht durchzieht, enthalten Waldheidelbeeren pro Kilogramm deutlich mehr Anthocyane als die meisten Kulturheidelbeeren. Für die Nutraceutical- und Naturfarbstoffindustrie ist genau das entscheidend: Sie kaufen Färbekraft und Polyphenolgehalt, nicht nur Frucht. Eine kleinere Menge Waldheidelbeeren liefert die Farbe und den funktionellen Wert, für die man deutlich mehr Kulturheidelbeeren bräuchte – das verändert den echten Kostenvergleich weit über den Kilopreis hinaus.",
+				"heading4": "Geschmack und Textur",
+				"text4": "Waldheidelbeeren sind kleiner, weicher und intensiver im Geschmack – ein konzentriertes, leicht säuerliches Wildbeerenaroma. Kulturheidelbeeren sind größer, fester und milder, mit höherem Wassergehalt. Für den Frischhandel und die Präsentation ganzer Beeren sind Festigkeit und Größe ein Vorteil. Für die Verarbeitung zu Füllungen, Pürees, Säften und Extrakten – wo die Frucht ohnehin zerkleinert wird – gewinnt die Intensität der Waldheidelbeere.",
+				"heading5": "Welche sollten Sie einkaufen?",
+				"text5": "Wählen Sie Kulturheidelbeeren, wenn Sie große, gleichmäßige, feste ganze Beeren brauchen, die ihre Form behalten und auf einem Produkt attraktiv aussehen. Wählen Sie Waldheidelbeeren, wenn Farbtiefe, Geschmacksintensität oder Anthocyangehalt das Ergebnis bestimmen – Backfüllungen, Milchprodukte, Konfitüren, Säfte, Konzentrate und Extrakte. Viele Hersteller nutzen beide für unterschiedliche Linien. Der Fehler ist, sie im Spezifikationsblatt als austauschbar zu behandeln, obwohl sie es im Inneren der Frucht eindeutig nicht sind."
+			},
+			"cta": {
+				"text": "Wir liefern IQF-tiefgekühlte Waldheidelbeeren (Vaccinium myrtillus), handgepflückt in den ukrainischen Karpaten – bis zum Kern dunkelviolett, mit dem Anthocyangehalt, auf den industrielle Einkäufer setzen. HACCP- & Bio-zertifiziert, MOQ 500 kg, FCA/DAP/DDP in die gesamte EU.",
+				"productLinkLabel": "IQF-tiefgekühlte Waldheidelbeeren ansehen"
+			}
+		}
+	},
+	"harvestCalendar": {
+		"meta": {
+			"title": "Erntekalender Ukraine: Beeren, Pilze & Obst | Yagoda Karpat",
+			"description": "Wann welche Kultur in der Ukraine reift – durchschnittliche Erntezeiten für Beeren, Pilze und Obst. So planen B2B-Einkäufer und reservieren knappe Sorten früh.",
+			"category": "Einkaufsplanung"
+		},
+		"readingTime": "5 Min.",
+		"heading": "Erntekalender Ukraine: Wann Beeren, Pilze und Obst reifen",
+		"description": "Für industrielle Einkäufer ist Saisonalität die Grundlage der Planung. Dieser Kalender zeigt die durchschnittlichen Erntezeiten der wichtigsten Kulturen in der Ukraine und erklärt, wie sie Ihren Einkauf beeinflussen.",
+		"body": {
+			"intro": "Wer weiß, wann welche Kultur reift, bestellt zur besten Qualität, sichert sich Preise vor dem Nachfragehoch und vermeidet Rohwarenengpässe mitten in der Produktion. Unten finden Sie die durchschnittlichen Erntezeiten der wichtigsten Kulturen in der Ukraine und wie Sie den Kalender für Ihre Einkaufsplanung nutzen.",
+			"sections": {
+				"whyHeading": "Warum das Erntefenster auch bei Tiefkühlware zählt",
+				"whyText": "Man könnte meinen, IQF-Schockfrostung hebe die Saisonalität auf – die Ware ist ganzjährig ab Lager verfügbar. Doch die Qualität einer Tiefkühlcharge wird im Moment der Ernte festgelegt: Eine in voller Reife gefrostete Beere behält Farbe, Geschmack und Nährstoffe, eine außerhalb des Höhepunkts gepflückte nicht. Wer den Erntekalender kennt, weiß, welche Charge die beste sein wird – und wann man sie reservieren muss, bevor die frische Ernte vergeben ist. Zudem ist die Menge jeder Saison durch den Ertrag begrenzt: Wer früh kontrahiert, erhält einen besseren Preis und garantierte Mengen; wer spät kommt, nimmt, was übrig ist.",
+				"summerHeading": "Sommer – Hochsaison der Beeren",
+				"summerText": "Die intensivste Zeit. Die meisten wilden und kultivierten Beeren werden im Sommer geerntet. In diesem Fenster sind Qualität und Verfügbarkeit am höchsten – und es lohnt sich, Mengen ein Jahr im Voraus zu reservieren.",
+				"lateSummerHeading": "Spätsommer bis Frühherbst: Preiselbeeren, Pilze, spätes Obst",
+				"lateSummerText": "Spätes Obst reift und die Pilzsaison beginnt. Wildpilze sind die wetterabhängigste Kategorie: Die Erträge schwanken von Jahr zu Jahr, daher ist eine frühe Kontaktaufnahme hier besonders wichtig.",
+				"autumnHeading": "Herbst – späte Beeren",
+				"autumnText": "Die letzten Sorten der Saison, die nach den ersten Frösten an Wert gewinnen.",
+				"howToUseHeading": "So nutzen Sie den Kalender für Ihren Einkauf",
+				"howToUseText": "Planen Sie Bestellungen nach der Erntesaison, nicht nach dem Bedarfszeitpunkt: Sommerbeeren im Frühjahr kontrahieren, Herbstpilze im Sommer. Reservieren Sie knappe Sorten früh – Waldheidelbeeren, Steinpilze und Pfifferlinge haben begrenzte, wetterabhängige Erträge und sind zuerst vergriffen. Bestätigen Sie die Verfügbarkeit pro Produkt – wir nennen Ihnen für jede Sorte die aktuellen Erntezeiten und Restbestände zur Planung."
+			},
+			"crop": {
+				"strawberry": "Erdbeeren",
+				"bilberry": "Waldheidelbeeren",
+				"raspberry": "Himbeeren",
+				"blackcurrant": "Schwarze Johannisbeeren",
+				"sourCherry": "Sauerkirschen",
+				"elderberry": "Holunderbeeren",
+				"apricot": "Aprikosen",
+				"lingonberry": "Preiselbeeren",
+				"plum": "Pflaumen",
+				"aronia": "Aronia",
+				"porcini": "Steinpilze",
+				"chanterelle": "Pfifferlinge",
+				"honeyMushroom": "Hallimasch",
+				"roseHip": "Hagebutten"
+			},
+			"month": {
+				"strawberry": "Juni–Juli",
+				"bilberry": "Juni–August",
+				"raspberry": "Juli–August",
+				"blackcurrant": "Juli",
+				"sourCherry": "Juli",
+				"elderberry": "August",
+				"apricot": "Juli–August",
+				"lingonberry": "August–September",
+				"plum": "August–September",
+				"aronia": "September",
+				"porcini": "Höhepunkt August–September",
+				"chanterelle": "Sommer–Herbst",
+				"honeyMushroom": "September–November",
+				"roseHip": "September–Oktober"
+			},
+			"cta": {
+				"text": "Yagoda Karpat liefert IQF-tiefgekühlte und getrocknete Rohwaren aus den ukrainischen Karpaten – geerntet in der Hochsaison unter kontrollierter Qualität. HACCP- & Bio-zertifiziert, MOQ 500 kg, FCA/DAP/DDP in die gesamte EU.",
+				"productLinkLabel": "Alle Produkte ansehen"
+			}
+		}
+	},
+	"frozenBilberries": {
+		"meta": {
+			"title": "IQF Waldheidelbeeren tiefgekühlt | Großhandel Ukraine",
+			"description": "IQF-tiefgekühlte Waldheidelbeeren (Vaccinium myrtillus), handgepflückt in den ukrainischen Karpaten. HACCP, Bio-Partien möglich, MOQ 500 kg. FCA, DAP, DDP EU."
+		},
+		"heading": "Tiefgekühlte Waldheidelbeeren (IQF)",
+		"description": [
+			"Hochwertige IQF-tiefgekühlte Waldheidelbeeren (Vaccinium myrtillus), handgepflückt in den unberührten Wäldern der ukrainischen Karpaten und verarbeitet für professionelle Lebensmittelhersteller, Händler und Zutateneinkäufer in der gesamten Europäischen Union.",
+			"Anders als Kulturheidelbeeren sind Waldheidelbeeren von Natur aus durch die ganze Frucht dunkelviolett. Ihr Fruchtfleisch enthält natürliche Anthocyane, die den Beeren ihre typische tiefe Farbe, ihren intensiven Wildbeerengeschmack und ihre starke natürliche Färbekraft verleihen. Damit eignen sich ukrainische Waldheidelbeeren besonders für Anwendungen, bei denen authentischer Geschmack, natürliche Farbe und Fruchtqualität wichtig sind.",
+			"Unsere einzeln schockgefrorenen (IQF) Waldheidelbeeren werden in voller Reife gefrostet, um ihre natürliche Struktur, Farbe, ihren Geschmack und ihre Nährstoffe zu erhalten. Die Beeren bleiben nach dem Frosten lose und rieselfähig, was eine effiziente Handhabung und den direkten Einsatz in der industriellen Produktion ermöglicht.",
+			"Die Ware wird sortiert und gereinigt; Stiele, Blätter und sichtbare Fremdkörper werden gemäß vereinbarter Kundenspezifikation entfernt. Eine vollständige Chargenrückverfolgbarkeit ist vom Sammelgebiet über die Verarbeitung bis zur fertigen Palette gewährleistet.",
+			"Die Waldheidelbeerernte in den ukrainischen Karpaten dauert von Juli bis August mit dem Höhepunkt im August; in höheren Lagen kann bis in den September gesammelt werden. Der genaue Zeitpunkt hängt jedes Jahr von Wetter und Höhenlage ab. Außerhalb der Saison ist die Ware aus dem Tiefkühllager der aktuellen Ernte verfügbar – kontaktieren Sie uns für aktuelle Mengen und Verladetermine."
+		],
+		"specs": {
+			"product": "IQF-tiefgekühlte Waldheidelbeeren",
+			"botanicalName": "Vaccinium myrtillus",
+			"origin": "Ukraine",
+			"harvesting": "Handgepflückte Wildbeeren",
+			"environment": "Wälder der ukrainischen Karpaten",
+			"processing": "Einzeln schockgefroren (IQF)",
+			"colour": "Natürlich tiefviolett",
+			"fruit": "Waldheidelbeere mit natürlich gefärbtem Fruchtfleisch",
+			"cleaning": "Sortiert und gereinigt; Stiele, Blätter und Fremdkörper entfernt",
+			"storage": "–18 °C oder kälter",
+			"packaging": "Mehrlagige Papiersäcke à 25 kg oder Industrie-Oktabins à 400 kg",
+			"moq": "500 kg",
+			"traceability": "Chargenrückverfolgbarkeit von der Ernte bis zum Endprodukt",
+			"foodSafety": "Verarbeitung nach HACCP-Grundsätzen",
+			"organic": "Bio-zertifizierte Partien auf Anfrage und je nach Verfügbarkeit",
+			"delivery": "EU-weit",
+			"incoterms": "FCA, DAP oder DDP",
+			"documents": "Vollständige Export- und Versanddokumente verfügbar"
+		},
+		"applications": [
+			"Backfüllungen, Feingebäck und Frucht-Toppings",
+			"Joghurt und Milchprodukte",
+			"Speiseeis und Tiefkühldesserts",
+			"Konfitüren, Fruchtaufstriche und Fruchtzubereitungen",
+			"Smoothies, Säfte und Fruchtgetränke",
+			"Fruchtsaucen und Pürees",
+			"Süßwaren- und Schokoladenanwendungen",
+			"Frühstücksprodukte und Cerealien",
+			"Lebensmittelzutaten und Fruchtzubereitungen",
+			"Nutraceuticals und funktionelle Lebensmittel",
+			"Anthocyanreiche Extrakte und natürliche Farbstoffe"
+		]
+	},
+	"frozenLingonberries": {
+		"meta": {
+			"title": "IQF Preiselbeeren tiefgekühlt | Großhandel aus der Ukraine",
+			"description": "IQF-tiefgekühlte Preiselbeeren (Vaccinium vitis-idaea) aus den ukrainischen Karpaten im Großhandel. HACCP & Bio, MOQ 500 kg. Export FCA/DAP/DDP in die EU."
+		},
+		"heading": "Tiefgekühlte Preiselbeeren (IQF)",
+		"description": [
+			"Hochwertige IQF-tiefgekühlte wilde Preiselbeeren (Vaccinium vitis-idaea), handgepflückt in den unberührten Wäldern und an den Berghängen der ukrainischen Karpaten und verarbeitet für professionelle Lebensmittelhersteller, Händler und Zutateneinkäufer.",
+			"Preiselbeeren werden oft mit Cranberrys verwechselt, sind aber andere Beeren: Preiselbeeren sind kleiner und leuchtend rot, mit einem typisch herben, leicht bitteren Geschmack. Sie enthalten von Natur aus Benzoesäure – ein natürliches Konservierungsmittel, das hilft, die Qualität der Beeren zu bewahren und sie während der Verarbeitung stabil zu halten. Das macht Preiselbeeren besonders wertvoll für Saucen, Konfitüren und Getränke, bei denen ein charakteristischer Geschmack und eine saubere Rezeptur ohne Konservierungsstoffe zählen.",
+			"Die Beeren werden in voller Reife einzeln schockgefroren (IQF), um ihre natürliche Struktur, Farbe, ihren Geschmack und ihre Nährstoffe zu erhalten. Sie bleiben nach dem Frosten lose und rieselfähig, was eine effiziente Handhabung und den direkten Einsatz in der industriellen Produktion ermöglicht.",
+			"Die Ware wird sortiert und gereinigt; Stiele, Blätter und sichtbare Fremdkörper werden gemäß vereinbarter Kundenspezifikation entfernt. Eine vollständige Chargenrückverfolgbarkeit ist vom Sammelgebiet über die Verarbeitung bis zur fertigen Palette gewährleistet.",
+			"Die Ernte wilder Preiselbeeren in den ukrainischen Karpaten dauert von August bis September mit dem Höhepunkt Ende August und im September; in höheren Lagen kann bis in den Oktober gesammelt werden. Der genaue Zeitpunkt hängt jedes Jahr von Wetter und Höhenlage ab. Außerhalb der Saison ist die Ware aus dem Tiefkühllager der aktuellen Ernte verfügbar – kontaktieren Sie uns für aktuelle Mengen und Verladetermine."
+		],
+		"specs": {
+			"product": "IQF-tiefgekühlte wilde Preiselbeeren",
+			"botanicalName": "Vaccinium vitis-idaea",
+			"origin": "Ukraine",
+			"harvesting": "Handgepflückte Wildbeeren",
+			"environment": "Wälder und Berghänge der ukrainischen Karpaten",
+			"processing": "Einzeln schockgefroren (IQF)",
+			"colour": "Natürlich leuchtend rot",
+			"fruit": "Wilde Preiselbeere mit herbem, leicht bitterem Geschmack",
+			"cleaning": "Sortiert und gereinigt; Stiele, Blätter und Fremdkörper entfernt",
+			"storage": "–18 °C oder kälter",
+			"packaging": "Mehrlagige Papiersäcke à 25 kg oder Industrie-Oktabins à 400 kg",
+			"moq": "500 kg",
+			"traceability": "Chargenrückverfolgbarkeit von der Ernte bis zum Endprodukt",
+			"foodSafety": "Verarbeitung nach HACCP-Grundsätzen",
+			"organic": "Bio-zertifizierte Partien auf Anfrage und je nach Verfügbarkeit",
+			"delivery": "EU-weit",
+			"incoterms": "FCA, DAP oder DDP",
+			"documents": "Vollständige Export- und Versanddokumente verfügbar"
+		},
+		"applications": [
+			"Saucen zu Fleisch und Wild",
+			"Marmeladen, Konfitüren und Fruchtaufstriche",
+			"Säfte, Beerengetränke und Fruchtgetränke",
+			"Backfüllungen und Süßwaren",
+			"Joghurt und Milchprodukte",
+			"Fruchtpürees und Fruchtzubereitungen",
+			"Sirupe, Liköre und Ansatzspirituosen",
+			"Frühstücksprodukte und Cerealien",
+			"Lebensmittelzutaten und Fruchtzubereitungen",
+			"Nutraceuticals und funktionelle Lebensmittel",
+			"Polyphenolreiche Extrakte und natürliche Farbstoffe"
+		]
+	},
+	"frozenRoseHips": {
+		"meta": {
+			"title": "IQF Hagebutten tiefgekühlt | Großhandel aus der Ukraine",
+			"description": "IQF-tiefgekühlte Hagebutten (Rosa canina) mit viel Vitamin C aus den ukrainischen Karpaten. HACCP & Bio, MOQ 500 kg. Export FCA/DAP/DDP in die EU."
+		},
+		"heading": "Tiefgekühlte Hagebutten (IQF)",
+		"description": [
+			"Hochwertige IQF-tiefgekühlte wilde Hagebutten (Rosa canina), handgepflückt in ökologisch sauberen Gebieten der ukrainischen Karpaten und verarbeitet für professionelle Hersteller von Lebensmitteln, Getränken und Nahrungsergänzungsmitteln sowie für Zutateneinkäufer.",
+			"Hagebutten zählen zu den reichsten natürlichen Vitamin-C-Quellen und enthalten ein Vielfaches mehr als Zitrusfrüchte. Außerdem enthalten sie Carotinoide, Polyphenole und Pektin, haben eine leuchtend rot-orange Farbe und einen angenehm süßsäuerlichen Geschmack. Damit sind Hagebutten eine wichtige Rohware für Tees, Sirupe, Getränke und Vitaminprodukte, bei denen natürliche Herkunft und funktioneller Wert zählen.",
+			"Die Früchte werden in voller Reife einzeln schockgefroren (IQF), um Struktur, Farbe, Geschmack und Nährstoffe einschließlich des hitzeempfindlichen Vitamin C zu erhalten. Sie bleiben nach dem Frosten lose und rieselfähig, was eine effiziente Handhabung und den direkten Einsatz in der industriellen Produktion ermöglicht.",
+			"Die Ware wird sortiert und gereinigt; Stiele, Reste der vertrockneten Kelchblätter und sichtbare Fremdkörper werden gemäß vereinbarter Kundenspezifikation entfernt. Die Früchte werden ganz mit Kernen geliefert; für Pürees, Saucen und Konfitüren werden sie passiert, um Kerne und Härchen abzutrennen. Eine vollständige Chargenrückverfolgbarkeit ist vom Sammelgebiet über die Verarbeitung bis zur fertigen Palette gewährleistet.",
+			"Die Hagebuttenernte in den ukrainischen Karpaten dauert von September bis Oktober. Traditionell werden die Früchte in voller Reife gepflückt, die geschmacklich besten nach den ersten Frösten, wenn sie weicher und süßer werden. Der genaue Zeitpunkt hängt jedes Jahr von Wetter und Höhenlage ab. Außerhalb der Saison ist die Ware aus dem Tiefkühllager der aktuellen Ernte verfügbar – kontaktieren Sie uns für aktuelle Mengen und Verladetermine."
+		],
+		"specs": {
+			"product": "IQF-tiefgekühlte wilde Hagebutten",
+			"botanicalName": "Rosa canina",
+			"origin": "Ukraine",
+			"harvesting": "Handgepflückte Wildfrüchte",
+			"environment": "Ökologisch saubere Gebiete der ukrainischen Karpaten",
+			"processing": "Einzeln schockgefroren (IQF)",
+			"colour": "Natürlich rot-orange",
+			"fruit": "Ganze Hagebutten mit Kernen",
+			"cleaning": "Sortiert und gereinigt; Stiele, Kelchblätter und Fremdkörper entfernt",
+			"storage": "–18 °C oder kälter",
+			"packaging": "Mehrlagige Papiersäcke à 25 kg oder Industrie-Oktabins à 400 kg",
+			"moq": "500 kg",
+			"traceability": "Chargenrückverfolgbarkeit von der Ernte bis zum Endprodukt",
+			"foodSafety": "Verarbeitung nach HACCP-Grundsätzen",
+			"organic": "Bio-zertifizierte Partien auf Anfrage und je nach Verfügbarkeit",
+			"delivery": "EU-weit",
+			"incoterms": "FCA, DAP oder DDP",
+			"documents": "Vollständige Export- und Versanddokumente verfügbar"
+		},
+		"applications": [
+			"Tees und Kräutertees",
+			"Sirupe und Vitamingetränke",
+			"Säfte, Nektare und Beerengetränke",
+			"Konfitüren, Pürees und Fruchtzubereitungen",
+			"Saucen und Chutneys",
+			"Nahrungsergänzungsmittel und Vitaminkomplexe",
+			"Vitamin-C-reiche Extrakte",
+			"Babynahrung",
+			"Fruchtgelees und Desserts",
+			"Liköre und Ansatzspirituosen",
+			"Lebensmittelzutaten und funktionelle Produkte"
+		]
+	},
+	"frozenPlums": {
+		"meta": {
+			"title": "IQF Pflaumen tiefgekühlt | Großhandel aus der Ukraine",
+			"description": "IQF-tiefgekühlte Pflaumen aus Obstgärten der ukrainischen Karpaten – ganz, halbiert oder entsteint. HACCP & Bio, MOQ 500 kg. Export FCA/DAP/DDP in die EU."
+		},
+		"heading": "Tiefgekühlte Pflaumen (IQF)",
+		"description": [
+			"Hochwertige IQF-tiefgekühlte Pflaumen (Prunus domestica), angebaut in den Obstgärten Transkarpatiens und verarbeitet für professionelle Lebensmittelhersteller, Händler und Zutateneinkäufer.",
+			"Die Pflaumen haben eine dunkelblaue Schale, festes gelbgrünes Fruchtfleisch und einen ausgewogenen süßsäuerlichen Geschmack. Dank ihres hohen Pektingehalts und ihrer festen Textur behalten sie beim Backen gut ihre Form und lassen sich leicht zu einer dicken Masse einkochen. Damit eignen sich Pflaumen besonders für Füllungen, Pflaumenmus, Konfitüren und Saucen, bei denen voller Geschmack und eine stabile Struktur zählen.",
+			"Die Früchte werden in voller Reife einzeln schockgefroren (IQF), um Struktur, Farbe, Geschmack und Nährstoffe zu erhalten. Sie bleiben nach dem Frosten lose und rieselfähig, was eine effiziente Handhabung, genaue Dosierung und den direkten Einsatz in der industriellen Produktion ermöglicht.",
+			"Je nach Produktionsanforderung werden die Pflaumen ganz, halbiert oder entsteint geliefert. Die Ware wird sortiert und gereinigt; Stiele, Blätter und sichtbare Fremdkörper werden gemäß vereinbarter Kundenspezifikation entfernt. Eine vollständige Chargenrückverfolgbarkeit ist vom Obstgarten über die Verarbeitung bis zur fertigen Palette gewährleistet.",
+			"Die Pflaumenernte in Transkarpatien dauert von August bis September mit dem Höhepunkt Ende August. Der genaue Zeitpunkt hängt jedes Jahr von Wetter und Sorte ab. Außerhalb der Saison ist die Ware aus dem Tiefkühllager der aktuellen Ernte verfügbar – kontaktieren Sie uns für aktuelle Mengen und Verladetermine."
+		],
+		"specs": {
+			"product": "IQF-tiefgekühlte Pflaumen",
+			"botanicalName": "Prunus domestica",
+			"origin": "Ukraine",
+			"harvesting": "In Obstgärten bei voller Reife geerntet",
+			"environment": "Obstgärten in Transkarpatien",
+			"processing": "Einzeln schockgefroren (IQF)",
+			"colour": "Dunkelblaue Schale, gelbgrünes Fruchtfleisch",
+			"fruit": "Ganz, halbiert oder entsteint",
+			"cleaning": "Sortiert und gereinigt; Stiele, Blätter und Fremdkörper entfernt",
+			"storage": "–18 °C oder kälter",
+			"packaging": "Mehrlagige Papiersäcke à 25 kg oder Kartons à 10 kg",
+			"moq": "500 kg",
+			"traceability": "Chargenrückverfolgbarkeit von der Ernte bis zum Endprodukt",
+			"foodSafety": "Verarbeitung nach HACCP-Grundsätzen",
+			"organic": "Bio-zertifizierte Partien auf Anfrage und je nach Verfügbarkeit",
+			"delivery": "EU-weit",
+			"incoterms": "FCA, DAP oder DDP",
+			"documents": "Vollständige Export- und Versanddokumente verfügbar"
+		},
+		"applications": [
+			"Backfüllungen, Kuchen und Pies",
+			"Pflaumenmus, Marmeladen und Konfitüren",
+			"Fruchtsaucen und Chutneys",
+			"Pürees und Fruchtzubereitungen",
+			"Kompotte und Fruchtgetränke",
+			"Joghurt und Milchprodukte",
+			"Speiseeis und Tiefkühldesserts",
+			"Süßwaren",
+			"Babynahrung",
+			"Fertiggerichte und Convenience-Produkte",
+			"Lebensmittelzutaten und Fruchtzubereitungen"
+		]
+	},
+	"driedPlums": {
+		"meta": {
+			"title": "Getrocknete ganze Pflaumen | Großhandel aus der Ukraine",
+			"description": "Getrocknete ganze Pflaumen aus den Karpaten – mit Stein, natürlich getrocknet, ohne Zusätze oder Glycerin. HACCP & Bio, MOQ 500 kg. FCA/DAP/DDP in die EU."
+		},
+		"heading": "Natürlich getrocknete ganze Pflaumen",
+		"description": [
+			"Getrocknete Pflaumen (Prunus domestica) aus den Obstgärten Transkarpatiens – ganze Früchte mit Stein, natürlich getrocknet ohne jede chemische Behandlung. Die Ware wird für professionelle Lebensmittelhersteller, Händler und Zutateneinkäufer aufbereitet.",
+			"Das sind keine klassischen Soft-Pflaumen. Die meisten industriellen Trockenpflaumen werden mit Glycerin, Konservierungsstoffen oder Dampf behandelt, damit sie weich und glänzend werden. Unsere getrockneten Pflaumen enthalten keinerlei Zusätze: kein Glycerin, keine Konservierungsstoffe, keinen Zucker und keine Farbstoffe. Dank der natürlichen Trocknung haben sie eine festere Textur, einen vollen natürlichen Geschmack und eine Clean-Label-Zusammensetzung, die Hersteller gesunder und traditioneller Lebensmittel schätzen.",
+			"Die Pflaumen werden ganz mit Stein getrocknet, was Form, innere Saftigkeit und natürliches Aroma bewahrt. Die Restfeuchte wird kontrolliert – für gleichbleibende Qualität und lange Haltbarkeit ohne Konservierungsstoffe.",
+			"Die Ware wird sortiert und gereinigt; Stiele, beschädigte Früchte und sichtbare Fremdkörper werden gemäß vereinbarter Kundenspezifikation entfernt. Eine vollständige Chargenrückverfolgbarkeit ist vom Obstgarten über die Trocknung bis zur fertigen Palette gewährleistet.",
+			"Pflaumen zum Trocknen werden in Transkarpatien im August–September in voller Reife geerntet, wenn die Früchte den meisten natürlichen Zucker enthalten. Die getrocknete Ware behält ihre Qualität lange und ist daher ganzjährig bestellbar – kontaktieren Sie uns für aktuelle Mengen und Verladetermine."
+		],
+		"specs": {
+			"product": "Getrocknete ganze Pflaumen mit Stein",
+			"botanicalName": "Prunus domestica",
+			"origin": "Ukraine",
+			"harvesting": "In Obstgärten bei voller Reife geerntet",
+			"environment": "Obstgärten in Transkarpatien",
+			"processing": "Natürliche Trocknung ohne chemische Behandlung",
+			"colour": "Natürlich dunkelbraun bis schwarz",
+			"fruit": "Ganze Früchte mit Stein",
+			"cleaning": "Sortiert und gereinigt; Stiele, beschädigte Früchte und Fremdkörper entfernt",
+			"storage": "Kühl und trocken, vor direkter Sonneneinstrahlung geschützt",
+			"packaging": "Kartons à 10 kg oder Säcke à 25 kg",
+			"moq": "500 kg",
+			"traceability": "Chargenrückverfolgbarkeit von der Ernte bis zum Endprodukt",
+			"foodSafety": "Verarbeitung nach HACCP-Grundsätzen",
+			"organic": "Bio-zertifizierte Partien auf Anfrage und je nach Verfügbarkeit",
+			"delivery": "EU-weit",
+			"incoterms": "FCA, DAP oder DDP",
+			"documents": "Vollständige Export- und Versanddokumente verfügbar"
+		},
+		"applications": [
+			"Kompotte, Aufgüsse und Getränke aus Trockenobst",
+			"Back- und Süßwarenfüllungen",
+			"Pflaumenmus und Fruchtpasten",
+			"Müsli, Granola und Müsliriegel",
+			"Saucen zu Fleisch und Wild",
+			"Schmorgerichte und Füllungen",
+			"Teemischungen und Früchtetees",
+			"Trockenfruchtmischungen",
+			"Clean-Label-Produkte für gesunde Ernährung",
+			"Traditionelle und ethnische Küche",
+			"Lebensmittelzutaten und Fruchtzubereitungen"
+		]
+	},
+	"prunes": {
+		"meta": {
+			"title": "Entsteinte Trockenpflaumen | Großhandel aus der Ukraine",
+			"description": "Entsteinte Trockenpflaumen (Prunus domestica), weich, kalibriert, ohne Zuckerzusatz. Obstgärten der Karpaten, HACCP & Bio, MOQ 500 kg. FCA/DAP/DDP in die EU."
+		},
+		"heading": "Entsteinte Trockenpflaumen",
+		"description": [
+			"Entsteinte Trockenpflaumen (Prunus domestica) aus Pflaumen, die in den Obstgärten Transkarpatiens angebaut werden – weich, nach Größe kalibriert und verzehrfertig. Die Ware wird für professionelle Lebensmittelhersteller, Konditoreien, Abpacker, Händler und Zutateneinkäufer aufbereitet.",
+			"Entsteinte Trockenpflaumen sind eine praktische Lösung für die Produktion: Sortieren, Entsteinen oder Einweichen entfallen. Dank ihrer weichen Textur sind sie sofort einsetzbar in Füllungen, Desserts, Snacks und Fertiggerichten, während die Kalibrierung gleichmäßige Portionen und ein einheitliches Erscheinungsbild sichert. Ohne Zuckerzusatz – nur die natürliche Süße reifer Pflaumen.",
+			"Die Pflaumen werden nach der Vollreife getrocknet, wenn die Früchte den meisten natürlichen Zucker enthalten. Nach dem Trocknen werden die Steine entfernt und die Früchte auf eine weiche, geschmeidige Konsistenz gebracht. Die Restfeuchte wird kontrolliert – für gleichbleibende Qualität und lange Haltbarkeit.",
+			"Die Ware wird sortiert, gereinigt und nach Größe kalibriert; Stiele, Steinfragmente, beschädigte Früchte und sichtbare Fremdkörper werden gemäß vereinbarter Kundenspezifikation entfernt. Das Kaliber wird nach den Anforderungen des Käufers gewählt. Eine vollständige Chargenrückverfolgbarkeit ist vom Obstgarten über die Verarbeitung bis zur fertigen Palette gewährleistet.",
+			"Pflaumen für Trockenpflaumen werden in Transkarpatien im August–September geerntet. Fertige Trockenpflaumen behalten ihre Qualität lange und sind daher ganzjährig bestellbar – kontaktieren Sie uns für aktuelle Mengen, Kaliber und Verladetermine."
+		],
+		"specs": {
+			"product": "Entsteinte Trockenpflaumen",
+			"botanicalName": "Prunus domestica",
+			"origin": "Ukraine",
+			"harvesting": "In Obstgärten bei voller Reife geerntet",
+			"environment": "Obstgärten in Transkarpatien",
+			"processing": "Trocknen, Entsteinen, Weichmachen",
+			"colour": "Natürlich glänzend schwarz",
+			"fruit": "Entsteint, weich, nach Größe kalibriert",
+			"cleaning": "Sortiert und gereinigt; Stiele, Steinfragmente und Fremdkörper entfernt",
+			"storage": "Kühl und trocken, vor direkter Sonneneinstrahlung geschützt",
+			"packaging": "Kartons à 10 kg mit PE-Innenbeutel",
+			"moq": "500 kg",
+			"traceability": "Chargenrückverfolgbarkeit von der Ernte bis zum Endprodukt",
+			"foodSafety": "Verarbeitung nach HACCP-Grundsätzen",
+			"organic": "Bio-zertifizierte Partien auf Anfrage und je nach Verfügbarkeit",
+			"delivery": "EU-weit",
+			"incoterms": "FCA, DAP oder DDP",
+			"documents": "Vollständige Export- und Versanddokumente verfügbar"
+		},
+		"applications": [
+			"Schokoladenüberzogene Trockenpflaumen und Süßwaren",
+			"Back- und Tortenfüllungen",
+			"Snacks und Abpackung für den Einzelhandel",
+			"Müsli, Granola und Müsliriegel",
+			"Salate und kalte Vorspeisen",
+			"Fleischgerichte, Saucen und Füllungen",
+			"Joghurts und Milchdesserts",
+			"Fruchtpasten und Pürees",
+			"Baby- und Gesundheitsnahrung",
+			"Trockenfruchtmischungen",
+			"HoReCa und Fertiggerichte"
+		]
+	},
+	"frozenElderberries": {
+		"meta": {
+			"title": "IQF Holunderbeeren tiefgekühlt | Großhandel aus der Ukraine",
+			"description": "IQF-tiefgekühlte Holunderbeeren (Sambucus nigra) für Sirupe, Extrakte & Naturfarbstoffe. Aus den Karpaten, HACCP & Bio, MOQ 500 kg. FCA/DAP/DDP in die EU."
+		},
+		"heading": "Tiefgekühlte Holunderbeeren (IQF)",
+		"description": [
+			"Hochwertige IQF-tiefgekühlte wilde Holunderbeeren (Sambucus nigra), handgepflückt in ökologisch sauberen Gebieten der ukrainischen Karpaten und verarbeitet für professionelle Hersteller von Sirupen, Getränken, Nahrungsergänzungsmitteln und natürlichen Farbstoffen sowie für Zutateneinkäufer.",
+			"Schwarzer Holunder ist eine der reichsten natürlichen Anthocyanquellen: Die tief dunkelviolette Farbe der Beere liefert eine starke natürliche Färbekraft. Die Beeren enthalten außerdem Flavonoide und Vitamine, was Holunder zu einer wichtigen Rohware für Sirupe zur Stärkung des Immunsystems, Extrakte und funktionelle Getränke macht. Bitte beachten: Holunderbeeren sind eine Verarbeitungsrohware und müssen vor dem Verzehr erhitzt werden.",
+			"Die Beeren werden in voller Reife einzeln schockgefroren (IQF), um Farbe, hitzeempfindliche Inhaltsstoffe und Nährstoffe bis zur Verarbeitung zu bewahren. Sie bleiben nach dem Frosten lose und rieselfähig, was eine effiziente Handhabung, genaue Dosierung und den direkten Einsatz in der industriellen Produktion ermöglicht.",
+			"Die Ware wird sortiert und gereinigt: Die Beeren werden von den Dolden getrennt, Stiele, Blätter und sichtbare Fremdkörper gemäß vereinbarter Kundenspezifikation entfernt. Eine vollständige Chargenrückverfolgbarkeit ist vom Sammelgebiet über die Verarbeitung bis zur fertigen Palette gewährleistet.",
+			"Die Holunderernte in den ukrainischen Karpaten findet im August statt und reicht in kühleren und höheren Lagen bis Anfang September. Der genaue Zeitpunkt hängt jedes Jahr von Wetter und Höhenlage ab. Außerhalb der Saison ist die Ware aus dem Tiefkühllager der aktuellen Ernte verfügbar – kontaktieren Sie uns für aktuelle Mengen und Verladetermine."
+		],
+		"specs": {
+			"product": "IQF-tiefgekühlte wilde Holunderbeeren",
+			"botanicalName": "Sambucus nigra",
+			"origin": "Ukraine",
+			"harvesting": "Handgepflückte Wildbeeren",
+			"environment": "Ökologisch saubere Gebiete der ukrainischen Karpaten",
+			"processing": "Einzeln schockgefroren (IQF)",
+			"colour": "Natürlich dunkelviolett bis schwarz",
+			"fruit": "Von den Dolden getrennte Beeren",
+			"cleaning": "Sortiert und gereinigt; Stiele, Blätter und Fremdkörper entfernt",
+			"storage": "–18 °C oder kälter",
+			"packaging": "Mehrlagige Papiersäcke à 25 kg oder Industrie-Oktabins à 400 kg",
+			"moq": "500 kg",
+			"traceability": "Chargenrückverfolgbarkeit von der Ernte bis zum Endprodukt",
+			"foodSafety": "Verarbeitung nach HACCP-Grundsätzen",
+			"organic": "Bio-zertifizierte Partien auf Anfrage und je nach Verfügbarkeit",
+			"delivery": "EU-weit",
+			"incoterms": "FCA, DAP oder DDP",
+			"documents": "Vollständige Export- und Versanddokumente verfügbar"
+		},
+		"applications": [
+			"Sirupe, einschließlich Sirupe zur Stärkung des Immunsystems",
+			"Extrakte und Nahrungsergänzungsmittel",
+			"Natürliche Farbstoffe auf Anthocyanbasis",
+			"Säfte, Nektare und Konzentrate",
+			"Marmeladen, Konfitüren und Fruchtzubereitungen",
+			"Funktionelle Getränke und Fruchtgummis",
+			"Tees und Früchtetees",
+			"Weine, Liköre und Ansatzspirituosen",
+			"Backfüllungen",
+			"Saucen und Chutneys",
+			"Lebensmittelzutaten und funktionelle Produkte"
+		]
+	},
+	"frozenStrawberries": {
+		"meta": {
+			"title": "IQF Erdbeeren tiefgekühlt | Großhandel aus der Ukraine",
+			"description": "IQF-tiefgekühlte Erdbeeren – ganz, kalibriert, in Scheiben, gewürfelt oder als Püree. Aus den Karpaten, HACCP & Bio, MOQ 500 kg. FCA/DAP/DDP in die EU."
+		},
+		"heading": "Tiefgekühlte Erdbeeren (IQF)",
+		"description": [
+			"Hochwertige IQF-tiefgekühlte Erdbeeren (Fragaria × ananassa), angebaut auf Betrieben in Transkarpatien und verarbeitet für professionelle Lebensmittelhersteller, Händler und Zutateneinkäufer.",
+			"Erdbeeren haben eine leuchtend rote Farbe, saftiges Fruchtfleisch und ein volles, süßes Aroma – eine der beliebtesten Beeren in der Molkerei-, Back- und Getränkeindustrie. Die Frischsaison ist kurz, daher ermöglichen tiefgekühlte Erdbeeren Herstellern ganzjährig gleichbleibende Qualität und gleichbleibenden Geschmack.",
+			"Die Beeren werden in voller Reife von Hand gepflückt und einzeln schockgefroren (IQF), um Farbe, Aroma, Geschmack und Nährstoffe zu erhalten. Sie bleiben nach dem Frosten lose und rieselfähig, was eine effiziente Handhabung, genaue Dosierung und den direkten Einsatz in der industriellen Produktion ermöglicht.",
+			"Je nach Produktionsanforderung werden Erdbeeren ganz, nach Größe kalibriert, in Scheiben, gewürfelt oder als Püree geliefert. Die Ware wird sortiert und gereinigt; Kelche, Stiele und sichtbare Fremdkörper werden gemäß vereinbarter Kundenspezifikation entfernt. Eine vollständige Chargenrückverfolgbarkeit ist vom Feld über die Verarbeitung bis zur fertigen Palette gewährleistet.",
+			"Die Erdbeerernte in Transkarpatien dauert von Juni bis Juli mit dem Höhepunkt Mitte Juni. Der genaue Zeitpunkt hängt jedes Jahr von Wetter und Sorte ab. Außerhalb der Saison ist die Ware aus dem Tiefkühllager der aktuellen Ernte verfügbar – kontaktieren Sie uns für aktuelle Mengen und Verladetermine."
+		],
+		"specs": {
+			"product": "IQF-tiefgekühlte Erdbeeren",
+			"botanicalName": "Fragaria × ananassa",
+			"origin": "Ukraine",
+			"harvesting": "Bei voller Reife von Hand gepflückt",
+			"environment": "Betriebe in Transkarpatien",
+			"processing": "Einzeln schockgefroren (IQF)",
+			"colour": "Natürlich leuchtend rot",
+			"fruit": "Ganz, kalibriert, in Scheiben, gewürfelt oder Püree",
+			"cleaning": "Sortiert und gereinigt; Kelche, Stiele und Fremdkörper entfernt",
+			"storage": "–18 °C oder kälter",
+			"packaging": "Mehrlagige Papiersäcke à 25 kg oder Kartons à 10 kg",
+			"moq": "500 kg",
+			"traceability": "Chargenrückverfolgbarkeit von der Ernte bis zum Endprodukt",
+			"foodSafety": "Verarbeitung nach HACCP-Grundsätzen",
+			"organic": "Bio-zertifizierte Partien auf Anfrage und je nach Verfügbarkeit",
+			"delivery": "EU-weit",
+			"incoterms": "FCA, DAP oder DDP",
+			"documents": "Vollständige Export- und Versanddokumente verfügbar"
+		},
+		"applications": [
+			"Joghurt und Milchprodukte",
+			"Speiseeis und Tiefkühldesserts",
+			"Backfüllungen und Toppings",
+			"Marmeladen, Konfitüren und Fruchtzubereitungen",
+			"Smoothies, Säfte und Fruchtgetränke",
+			"Fruchtpürees und Saucen",
+			"Süßwaren und Schokoladenprodukte",
+			"Frühstücksprodukte und Cerealien",
+			"Desserts und Torten",
+			"Cocktails und HoReCa",
+			"Lebensmittelzutaten und Fruchtzubereitungen"
+		]
+	},
+	"frozenRaspberries": {
+		"meta": {
+			"title": "IQF Himbeeren tiefgekühlt | Großhandel aus der Ukraine",
+			"description": "IQF-tiefgekühlte Himbeeren von Betrieben in den Karpaten – ganz, Bruch oder Püree. HACCP & Bio, MOQ 500 kg. Großhandelsexport FCA/DAP/DDP in die EU."
+		},
+		"heading": "Tiefgekühlte Himbeeren (IQF)",
+		"description": [
+			"Hochwertige IQF-tiefgekühlte Himbeeren (Rubus idaeus), angebaut auf Betrieben in Transkarpatien und verarbeitet für professionelle Lebensmittelhersteller, Händler und Zutateneinkäufer.",
+			"Himbeeren haben eine leuchtend rubinrote Farbe, zartes, saftiges Fruchtfleisch und ein volles Aroma – eine der wertvollsten Beeren für die Molkerei-, Back- und Getränkeindustrie. Zugleich sind sie sehr empfindlich und schwer unversehrt zu halten, daher ist das richtige Frosten entscheidend für die Qualität.",
+			"Die Beeren werden in voller Reife von Hand gepflückt und einzeln schockgefroren (IQF) – das schonende, schnelle Frosten bewahrt die Unversehrtheit der empfindlichen Beeren sowie Farbe, Aroma und Geschmack. Sie bleiben nach dem Frosten lose und rieselfähig, was eine effiziente Handhabung, genaue Dosierung und den direkten Einsatz in der industriellen Produktion ermöglicht.",
+			"Je nach Anforderung und Preisniveau werden Himbeeren als ganze Ware, als Bruch (Crumble) für die kosteneffiziente Verarbeitung oder als kernloses Püree geliefert. Die Ware wird sortiert und gereinigt; Stiele, Blätter und sichtbare Fremdkörper werden gemäß vereinbarter Kundenspezifikation entfernt. Eine vollständige Chargenrückverfolgbarkeit ist vom Feld über die Verarbeitung bis zur fertigen Palette gewährleistet.",
+			"Die Himbeerernte in Transkarpatien dauert von Juli bis August mit dem Höhepunkt Mitte Juli. Der genaue Zeitpunkt hängt jedes Jahr von Wetter und Sorte ab. Außerhalb der Saison ist die Ware aus dem Tiefkühllager der aktuellen Ernte verfügbar – kontaktieren Sie uns für aktuelle Mengen und Verladetermine."
+		],
+		"specs": {
+			"product": "IQF-tiefgekühlte Himbeeren",
+			"botanicalName": "Rubus idaeus",
+			"origin": "Ukraine",
+			"harvesting": "Bei voller Reife von Hand gepflückt",
+			"environment": "Betriebe in Transkarpatien",
+			"processing": "Einzeln schockgefroren (IQF)",
+			"colour": "Natürlich rubinrot",
+			"fruit": "Ganz, Bruch (Crumble) oder kernloses Püree",
+			"cleaning": "Sortiert und gereinigt; Stiele, Blätter und Fremdkörper entfernt",
+			"storage": "–18 °C oder kälter",
+			"packaging": "Kartons à 10 kg",
+			"moq": "500 kg",
+			"traceability": "Chargenrückverfolgbarkeit von der Ernte bis zum Endprodukt",
+			"foodSafety": "Verarbeitung nach HACCP-Grundsätzen",
+			"organic": "Bio-zertifizierte Partien auf Anfrage und je nach Verfügbarkeit",
+			"delivery": "EU-weit",
+			"incoterms": "FCA, DAP oder DDP",
+			"documents": "Vollständige Export- und Versanddokumente verfügbar"
+		},
+		"applications": [
+			"Joghurt und Milchprodukte",
+			"Speiseeis und Tiefkühldesserts",
+			"Backfüllungen und Toppings",
+			"Marmeladen, Konfitüren und Fruchtzubereitungen",
+			"Smoothies, Säfte und Fruchtgetränke",
+			"Fruchtpürees und Saucen",
+			"Süßwaren und Schokoladenprodukte",
+			"Frühstücksprodukte und Cerealien",
+			"Desserts und Torten",
+			"Cocktails und HoReCa",
+			"Lebensmittelzutaten und Fruchtzubereitungen"
+		]
+	},
+	"frozenApricots": {
+		"meta": {
+			"title": "IQF Aprikosen tiefgekühlt | Großhandel aus der Ukraine",
+			"description": "IQF-tiefgekühlte Aprikosen aus Obstgärten der Karpaten – halbiert und entsteint oder gewürfelt. HACCP & Bio, MOQ 500 kg. Export FCA/DAP/DDP in die EU."
+		},
+		"heading": "Tiefgekühlte Aprikosen (IQF)",
+		"description": [
+			"Hochwertige IQF-tiefgekühlte Aprikosen (Prunus armeniaca), angebaut in den Obstgärten Transkarpatiens und verarbeitet für professionelle Lebensmittelhersteller, Händler und Zutateneinkäufer.",
+			"Aprikosen haben goldorangefarbenes Fruchtfleisch, eine zarte Textur und ein volles, süßes Aroma mit leichter Säure. Sie sind von Natur aus reich an Beta-Carotin und Pektin, behalten beim Backen gut ihre Form und verleihen dem Endprodukt eine lebendige natürliche Farbe. Damit sind Aprikosen besonders wertvoll für Backwaren, Konfitüren, Milchprodukte und Desserts.",
+			"Die Früchte werden in voller Reife gepflückt und einzeln schockgefroren (IQF), um Farbe, Aroma, Geschmack und Nährstoffe zu erhalten. Sie bleiben nach dem Frosten lose und rieselfähig, was eine effiziente Handhabung, genaue Dosierung und den direkten Einsatz in der industriellen Produktion ermöglicht.",
+			"Je nach Produktionsanforderung werden Aprikosen als entsteinte Hälften oder gewürfelt geliefert. Die Ware wird sortiert und gereinigt; Steine, Stiele und sichtbare Fremdkörper werden gemäß vereinbarter Kundenspezifikation entfernt. Eine vollständige Chargenrückverfolgbarkeit ist vom Obstgarten über die Verarbeitung bis zur fertigen Palette gewährleistet.",
+			"Die Aprikosenernte in Transkarpatien dauert von Juli bis August mit dem Höhepunkt Ende Juli. Der genaue Zeitpunkt hängt jedes Jahr von Wetter und Sorte ab. Außerhalb der Saison ist die Ware aus dem Tiefkühllager der aktuellen Ernte verfügbar – kontaktieren Sie uns für aktuelle Mengen und Verladetermine."
+		],
+		"specs": {
+			"product": "IQF-tiefgekühlte Aprikosen",
+			"botanicalName": "Prunus armeniaca",
+			"origin": "Ukraine",
+			"harvesting": "In Obstgärten bei voller Reife geerntet",
+			"environment": "Obstgärten in Transkarpatien",
+			"processing": "Einzeln schockgefroren (IQF)",
+			"colour": "Natürlich goldorange",
+			"fruit": "Entsteinte Hälften oder Würfel",
+			"cleaning": "Sortiert und gereinigt; Steine, Stiele und Fremdkörper entfernt",
+			"storage": "–18 °C oder kälter",
+			"packaging": "Kartons à 10 kg oder mehrlagige Papiersäcke à 25 kg",
+			"moq": "500 kg",
+			"traceability": "Chargenrückverfolgbarkeit von der Ernte bis zum Endprodukt",
+			"foodSafety": "Verarbeitung nach HACCP-Grundsätzen",
+			"organic": "Bio-zertifizierte Partien auf Anfrage und je nach Verfügbarkeit",
+			"delivery": "EU-weit",
+			"incoterms": "FCA, DAP oder DDP",
+			"documents": "Vollständige Export- und Versanddokumente verfügbar"
+		},
+		"applications": [
+			"Backfüllungen, Pies und Feingebäck",
+			"Marmeladen, Konfitüren und Fruchtzubereitungen",
+			"Joghurt und Milchprodukte",
+			"Speiseeis und Tiefkühldesserts",
+			"Fruchtpürees und Saucen",
+			"Saucen und Chutneys zu Fleisch",
+			"Kompotte und Fruchtgetränke",
+			"Süßwaren",
+			"Babynahrung",
+			"Frühstücksprodukte und Cerealien",
+			"Lebensmittelzutaten und Fruchtzubereitungen"
+		]
+	},
+	"frozenRedBellPeppers": {
+		"meta": {
+			"title": "IQF Rote Paprika tiefgekühlt | Großhandel aus der Ukraine",
+			"description": "IQF-tiefgekühlte rote Paprika von Betrieben in den Karpaten – Würfel, Streifen oder Hälften. HACCP, MOQ 500 kg. Großhandelsexport FCA/DAP/DDP in die EU."
+		},
+		"heading": "Tiefgekühlte rote Paprika (IQF)",
+		"description": [
+			"Hochwertige IQF-tiefgekühlte rote Paprika (Gemüsepaprika; Capsicum annuum), angebaut auf Betrieben in Transkarpatien und verarbeitet für professionelle Hersteller von Lebensmitteln und Fertiggerichten, Händler und Zutateneinkäufer.",
+			"Rote Paprika hat dicke, fleischige Wände, eine satte rote Farbe und einen milden, süßen Geschmack ohne Schärfe. Sie ist von Natur aus reich an Vitamin C und Carotinoiden und verleiht fertigen Gerichten eine lebendige natürliche Farbe. Damit ist Paprika eine der wichtigsten Gemüserohwaren für Pizza, Fertiggerichte, Saucen und Gemüsemischungen.",
+			"Die Paprika wird in voller Reife geerntet, gründlich gewaschen, von Stielen und Kernen befreit, geschnitten und einzeln schockgefroren (IQF), um Farbe, Textur, Geschmack und Nährstoffe zu erhalten. Die Stücke bleiben nach dem Frosten lose und rieselfähig, was eine genaue Dosierung und den direkten Einsatz in der industriellen Produktion ermöglicht.",
+			"Je nach Produktionsanforderung wird die Paprika gewürfelt, in Streifen oder als Hälften geliefert; die Schnittgröße wird mit dem Kunden vereinbart. Die Ware wird sortiert und gereinigt; Stiele, Kerne, Scheidewände und sichtbare Fremdkörper werden gemäß vereinbarter Spezifikation entfernt. Eine vollständige Chargenrückverfolgbarkeit ist vom Feld über die Verarbeitung bis zur fertigen Palette gewährleistet.",
+			"Die Paprikaernte in Transkarpatien dauert von August bis Oktober mit dem Höhepunkt im September. Der genaue Zeitpunkt hängt jedes Jahr vom Wetter ab. Außerhalb der Saison ist die Ware aus dem Tiefkühllager der aktuellen Ernte verfügbar – kontaktieren Sie uns für aktuelle Mengen und Verladetermine."
+		],
+		"specs": {
+			"product": "IQF-tiefgekühlte rote Paprika",
+			"botanicalName": "Capsicum annuum",
+			"origin": "Ukraine",
+			"harvesting": "Bei voller Reife geerntet",
+			"environment": "Betriebe in Transkarpatien",
+			"processing": "Waschen, Putzen, Schneiden und einzeln schockgefroren (IQF)",
+			"colour": "Natürlich tiefrot",
+			"fruit": "Würfel, Streifen oder Hälften",
+			"cleaning": "Stiele, Kerne, Scheidewände und Fremdkörper entfernt",
+			"storage": "–18 °C oder kälter",
+			"packaging": "Kartons à 10 kg oder mehrlagige Papiersäcke à 25 kg",
+			"moq": "500 kg",
+			"traceability": "Chargenrückverfolgbarkeit von der Ernte bis zum Endprodukt",
+			"foodSafety": "Verarbeitung nach HACCP-Grundsätzen",
+			"organic": "Konventioneller Anbau",
+			"delivery": "EU-weit",
+			"incoterms": "FCA, DAP oder DDP",
+			"documents": "Vollständige Export- und Versanddokumente verfügbar"
+		},
+		"applications": [
+			"Pizza und Beläge",
+			"Fertiggerichte und Convenience-Produkte",
+			"Gemüsemischungen",
+			"Saucen, Ajvar-artige Relishes und Gemüsepasten",
+			"Suppen und Brühen",
+			"Wok- und Pfannengerichte",
+			"Eintöpfe und Schmorgerichte",
+			"Füllungen und Aufläufe",
+			"Konserven und Eingelegtes",
+			"HoReCa und Catering",
+			"Lebensmittelzutaten und Gemüsezubereitungen"
+		]
+	},
+	"frozenGreenBellPeppers": {
+		"meta": {
+			"title": "IQF Grüne Paprika tiefgekühlt | Großhandel aus der Ukraine",
+			"description": "IQF-tiefgekühlte grüne Paprika von Betrieben in den Karpaten – Würfel, Streifen oder Hälften. HACCP, MOQ 500 kg. Großhandelsexport FCA/DAP/DDP in die EU."
+		},
+		"heading": "Tiefgekühlte grüne Paprika (IQF)",
+		"description": [
+			"Hochwertige IQF-tiefgekühlte grüne Paprika (Gemüsepaprika; Capsicum annuum), angebaut auf Betrieben in Transkarpatien und verarbeitet für professionelle Hersteller von Lebensmitteln und Fertiggerichten, Händler und Zutateneinkäufer.",
+			"Grüne Paprika wird in technischer Reife geerntet, also vor der Vollreife. Das gibt ihr einen frischen, leicht grasigen Geschmack, der weniger süß ist als bei roter Paprika, eine knackige Textur und eine tiefgrüne Farbe. Sie behält beim Garen gut ihre Struktur und bringt Frische und Farbkontrast in fertige Gerichte – besonders auf Pizza, in Eintöpfen, Gemüsemischungen und Pfannengerichten.",
+			"Die Paprika wird in technischer Reife geerntet, gründlich gewaschen, von Stielen und Kernen befreit, geschnitten und einzeln schockgefroren (IQF), um Farbe, Textur, Geschmack und Nährstoffe zu erhalten. Die Stücke bleiben nach dem Frosten lose und rieselfähig, was eine genaue Dosierung und den direkten Einsatz in der industriellen Produktion ermöglicht.",
+			"Je nach Produktionsanforderung wird die Paprika gewürfelt, in Streifen oder als Hälften geliefert; die Schnittgröße wird mit dem Kunden vereinbart. Die Ware wird sortiert und gereinigt; Stiele, Kerne, Scheidewände und sichtbare Fremdkörper werden gemäß vereinbarter Spezifikation entfernt. Eine vollständige Chargenrückverfolgbarkeit ist vom Feld über die Verarbeitung bis zur fertigen Palette gewährleistet.",
+			"Die Ernte grüner Paprika in Transkarpatien dauert von Juli bis September mit dem Höhepunkt im August. Der genaue Zeitpunkt hängt jedes Jahr vom Wetter ab. Außerhalb der Saison ist die Ware aus dem Tiefkühllager der aktuellen Ernte verfügbar – kontaktieren Sie uns für aktuelle Mengen und Verladetermine."
+		],
+		"specs": {
+			"product": "IQF-tiefgekühlte grüne Paprika",
+			"botanicalName": "Capsicum annuum",
+			"origin": "Ukraine",
+			"harvesting": "In technischer Reife geerntet",
+			"environment": "Betriebe in Transkarpatien",
+			"processing": "Waschen, Putzen, Schneiden und einzeln schockgefroren (IQF)",
+			"colour": "Natürlich tiefgrün",
+			"fruit": "Würfel, Streifen oder Hälften",
+			"cleaning": "Stiele, Kerne, Scheidewände und Fremdkörper entfernt",
+			"storage": "–18 °C oder kälter",
+			"packaging": "Kartons à 10 kg oder mehrlagige Papiersäcke à 25 kg",
+			"moq": "500 kg",
+			"traceability": "Chargenrückverfolgbarkeit von der Ernte bis zum Endprodukt",
+			"foodSafety": "Verarbeitung nach HACCP-Grundsätzen",
+			"organic": "Konventioneller Anbau",
+			"delivery": "EU-weit",
+			"incoterms": "FCA, DAP oder DDP",
+			"documents": "Vollständige Export- und Versanddokumente verfügbar"
+		},
+		"applications": [
+			"Pizza und Beläge",
+			"Fertiggerichte und Convenience-Produkte",
+			"Gemüsemischungen",
+			"Saucen und Gemüsepasten",
+			"Suppen und Brühen",
+			"Wok- und Pfannengerichte",
+			"Eintöpfe und Schmorgerichte",
+			"Füllungen und Aufläufe",
+			"Konserven und Eingelegtes",
+			"HoReCa und Catering",
+			"Lebensmittelzutaten und Gemüsezubereitungen"
+		]
+	},
+	"frozenYellowBellPeppers": {
+		"meta": {
+			"title": "IQF Gelbe Paprika tiefgekühlt | Großhandel aus der Ukraine",
+			"description": "IQF-tiefgekühlte gelbe Paprika von Betrieben in den Karpaten – Würfel, Streifen oder Hälften. HACCP, MOQ 500 kg. Export FCA/DAP/DDP in die EU."
+		},
+		"heading": "Tiefgekühlte gelbe Paprika (IQF)",
+		"description": [
+			"Hochwertige IQF-tiefgekühlte gelbe Paprika (Gemüsepaprika; Capsicum annuum), angebaut auf Betrieben in Transkarpatien und verarbeitet für professionelle Hersteller von Lebensmitteln und Fertiggerichten, Händler und Zutateneinkäufer.",
+			"Gelbe Paprika wird in voller Reife geerntet und hat daher einen milden, ausgeprägt süßen, leicht fruchtigen Geschmack, fleischige Wände und eine leuchtend goldgelbe Farbe. Sie ist von Natur aus reich an Vitamin C und Carotinoiden. Gerade ihre Farbe macht gelbe Paprika unverzichtbar, wo optischer Kontrast zählt: in Gemüsemischungen, auf Pizza sowie in Salaten und Fertiggerichten.",
+			"Die Paprika wird in voller Reife geerntet, gründlich gewaschen, von Stielen und Kernen befreit, geschnitten und einzeln schockgefroren (IQF), um Farbe, Textur, Geschmack und Nährstoffe zu erhalten. Die Stücke bleiben nach dem Frosten lose und rieselfähig, was eine genaue Dosierung und den direkten Einsatz in der industriellen Produktion ermöglicht.",
+			"Je nach Produktionsanforderung wird die Paprika gewürfelt, in Streifen oder als Hälften geliefert; die Schnittgröße wird mit dem Kunden vereinbart. Die Ware wird sortiert und gereinigt; Stiele, Kerne, Scheidewände und sichtbare Fremdkörper werden gemäß vereinbarter Spezifikation entfernt. Eine vollständige Chargenrückverfolgbarkeit ist vom Feld über die Verarbeitung bis zur fertigen Palette gewährleistet.",
+			"Die Ernte gelber Paprika in Transkarpatien dauert von August bis Oktober mit dem Höhepunkt im September. Der genaue Zeitpunkt hängt jedes Jahr vom Wetter ab. Außerhalb der Saison ist die Ware aus dem Tiefkühllager der aktuellen Ernte verfügbar – kontaktieren Sie uns für aktuelle Mengen und Verladetermine."
+		],
+		"specs": {
+			"product": "IQF-tiefgekühlte gelbe Paprika",
+			"botanicalName": "Capsicum annuum",
+			"origin": "Ukraine",
+			"harvesting": "Bei voller Reife geerntet",
+			"environment": "Betriebe in Transkarpatien",
+			"processing": "Waschen, Putzen, Schneiden und einzeln schockgefroren (IQF)",
+			"colour": "Natürlich leuchtend goldgelb",
+			"fruit": "Würfel, Streifen oder Hälften",
+			"cleaning": "Stiele, Kerne, Scheidewände und Fremdkörper entfernt",
+			"storage": "–18 °C oder kälter",
+			"packaging": "Kartons à 10 kg oder mehrlagige Papiersäcke à 25 kg",
+			"moq": "500 kg",
+			"traceability": "Chargenrückverfolgbarkeit von der Ernte bis zum Endprodukt",
+			"foodSafety": "Verarbeitung nach HACCP-Grundsätzen",
+			"organic": "Konventioneller Anbau",
+			"delivery": "EU-weit",
+			"incoterms": "FCA, DAP oder DDP",
+			"documents": "Vollständige Export- und Versanddokumente verfügbar"
+		},
+		"applications": [
+			"Gemüsemischungen und -blends",
+			"Pizza und Beläge",
+			"Fertiggerichte und Convenience-Produkte",
+			"Saucen und Gemüsepasten",
+			"Suppen und Brühen",
+			"Wok- und Pfannengerichte",
+			"Eintöpfe und Schmorgerichte",
+			"Füllungen und Aufläufe",
+			"Konserven und Eingelegtes",
+			"HoReCa und Catering",
+			"Lebensmittelzutaten und Gemüsezubereitungen"
+		]
+	},
+	"frozenMixedBellPeppers": {
+		"meta": {
+			"title": "IQF Paprika-Mix tiefgekühlt | Großhandel aus der Ukraine",
+			"description": "IQF-tiefgekühlter Paprika-Mix (rot, gelb, grün) – Würfel oder Streifen, Mischverhältnis nach Wunsch. Karpaten, HACCP, MOQ 500 kg. FCA/DAP/DDP in die EU."
+		},
+		"heading": "Tiefgekühlter Paprika-Mix (IQF)",
+		"description": [
+			"Hochwertiger IQF-tiefgekühlter Paprika-Mix (Gemüsepaprika; Capsicum annuum) – eine Mischung aus roter, gelber und grüner Paprika, angebaut auf Betrieben in Transkarpatien. Die Ware wird für professionelle Hersteller von Lebensmitteln und Fertiggerichten, Händler und Zutateneinkäufer verarbeitet.",
+			"Der Mix vereint drei Farben und drei Geschmacksrichtungen: süße rote, mild-fruchtige gelbe und frische, grasige grüne Paprika. Eine fertige Farbmischung spart Produktionszeit – drei Einzelprodukte müssen nicht gekauft, gelagert und gemischt werden. Dank seiner leuchtenden Dreifarbigkeit ist der Mix ideal für Pizza, Fertiggerichte, Pfannengerichte und Gemüsemischungen, bei denen die Optik zählt.",
+			"Jede Farbe wird im passenden Reifestadium geerntet, gründlich gewaschen, von Stielen und Kernen befreit, geschnitten und einzeln schockgefroren (IQF), um Farbe, Textur, Geschmack und Nährstoffe zu erhalten. Die Stücke bleiben nach dem Frosten lose und rieselfähig, was eine genaue Dosierung und den direkten Einsatz in der industriellen Produktion ermöglicht.",
+			"Der Mix wird gewürfelt oder in Streifen geliefert. Die Farben werden in einem vereinbarten Verhältnis gemischt, das von Charge zu Charge gleich bleibt; die Schnittgröße wird mit dem Kunden vereinbart. Die Ware wird sortiert und gereinigt; Stiele, Kerne, Scheidewände und sichtbare Fremdkörper werden gemäß vereinbarter Spezifikation entfernt. Eine vollständige Chargenrückverfolgbarkeit ist vom Feld über die Verarbeitung bis zur fertigen Palette gewährleistet.",
+			"Die Paprikaernte in Transkarpatien dauert von Juli bis Oktober: Grüne Paprika wird früher geerntet, rote und gelbe in voller Reife im September. Der Mix wird aus dem Tiefkühllager der aktuellen Ernte zusammengestellt und ist daher ganzjährig bestellbar – kontaktieren Sie uns für aktuelle Mengen und Verladetermine."
+		],
+		"specs": {
+			"product": "IQF-tiefgekühlter Paprika-Mix",
+			"botanicalName": "Capsicum annuum",
+			"origin": "Ukraine",
+			"harvesting": "Jede Farbe im passenden Reifestadium geerntet",
+			"environment": "Betriebe in Transkarpatien",
+			"processing": "Waschen, Putzen, Schneiden, Mischen und einzeln schockgefroren (IQF)",
+			"colour": "Mischung aus Rot, Gelb und Grün",
+			"fruit": "Würfel oder Streifen; Farbverhältnis nach Vereinbarung",
+			"cleaning": "Stiele, Kerne, Scheidewände und Fremdkörper entfernt",
+			"storage": "–18 °C oder kälter",
+			"packaging": "Kartons à 10 kg oder mehrlagige Papiersäcke à 25 kg",
+			"moq": "500 kg",
+			"traceability": "Chargenrückverfolgbarkeit von der Ernte bis zum Endprodukt",
+			"foodSafety": "Verarbeitung nach HACCP-Grundsätzen",
+			"organic": "Konventioneller Anbau",
+			"delivery": "EU-weit",
+			"incoterms": "FCA, DAP oder DDP",
+			"documents": "Vollständige Export- und Versanddokumente verfügbar"
+		},
+		"applications": [
+			"Pizza und Beläge",
+			"Fertiggerichte und Convenience-Produkte",
+			"Wok- und Pfannengerichte",
+			"Gemüsemischungen",
+			"Fajitas, Burritos und mexikanische Küche",
+			"Eintöpfe und Schmorgerichte",
+			"Saucen und Relishes",
+			"Füllungen und Aufläufe",
+			"Suppen und Brühen",
+			"HoReCa und Catering",
+			"Lebensmittelzutaten und Gemüsezubereitungen"
+		]
+	},
+	"frozenPorciniMushrooms": {
+		"meta": {
+			"title": "IQF Steinpilze tiefgekühlt | Großhandel aus der Ukraine",
+			"description": "IQF-tiefgekühlte Steinpilze (Boletus edulis), ganz oder in Scheiben. Aus den Karpaten, HACCP, MOQ 500 kg. Großhandelsexport FCA/DAP/DDP in die EU."
+		},
+		"heading": "Tiefgekühlte Steinpilze (IQF)",
+		"description": [
+			"Hochwertige IQF-tiefgekühlte Steinpilze (Boletus edulis), von Hand gesammelt in den unberührten Wäldern der ukrainischen Karpaten und verarbeitet für professionelle Hersteller von Lebensmitteln und Fertiggerichten, Händler und Zutateneinkäufer.",
+			"Der Steinpilz ist der begehrteste Waldpilz: festes Fleisch, ein voller nussiger Geschmack und ein unverwechselbares Waldaroma, das auch nach dem Garen erhalten bleibt. Damit ist der Steinpilz eine Premium-Zutat für Saucen, Suppen, Risotto, Pasta und Fertiggerichte, bei denen der Pilzgeschmack im Mittelpunkt steht. Wildpilze lassen sich nicht anbauen, daher hängen die Mengen jedes Jahr vom Wetter und der Waldernte ab.",
+			"Die Pilze werden von Hand gesammelt, noch am Erntetag von Erde und Waldresten gereinigt, zugeschnitten und einzeln schockgefroren (IQF), um ihre feste Struktur, Farbe, ihren Geschmack und ihr Aroma zu erhalten. Sie bleiben nach dem Frosten lose und rieselfähig, was eine genaue Dosierung und den direkten Einsatz in der industriellen Produktion ermöglicht.",
+			"Je nach Produktionsanforderung werden Steinpilze ganz oder in Scheiben geliefert. Die Ware wird nach Größe und Festigkeit sortiert: weiche, überständige und beschädigte Pilze, Erdreste und sichtbare Fremdkörper werden gemäß vereinbarter Kundenspezifikation entfernt. Eine vollständige Chargenrückverfolgbarkeit ist vom Sammelgebiet über die Verarbeitung bis zur fertigen Palette gewährleistet.",
+			"Die Steinpilzsaison in den ukrainischen Karpaten dauert von Juli bis Oktober mit dem Höhepunkt im August–September. Mengen und Zeitpunkt hängen jedes Jahr von Niederschlag und Temperatur ab. Außerhalb der Saison ist die Ware aus dem Tiefkühllager der aktuellen Ernte verfügbar – kontaktieren Sie uns für aktuelle Mengen und Verladetermine."
+		],
+		"specs": {
+			"product": "IQF-tiefgekühlte Steinpilze",
+			"botanicalName": "Boletus edulis",
+			"origin": "Ukraine",
+			"harvesting": "Handgesammelte Wildpilze",
+			"environment": "Wälder der ukrainischen Karpaten",
+			"processing": "Putzen, Zuschneiden und einzeln schockgefroren (IQF)",
+			"colour": "Natürlich hellbeige bis braun",
+			"fruit": "Ganz oder in Scheiben",
+			"cleaning": "Nach Größe sortiert; Erdreste, beschädigte Pilze und Fremdkörper entfernt",
+			"storage": "–18 °C oder kälter",
+			"packaging": "Kartons à 10 kg",
+			"moq": "500 kg",
+			"traceability": "Chargenrückverfolgbarkeit von der Ernte bis zum Endprodukt",
+			"foodSafety": "Verarbeitung nach HACCP-Grundsätzen",
+			"organic": "Wildsammlung, nicht bio-zertifiziert",
+			"delivery": "EU-weit",
+			"incoterms": "FCA, DAP oder DDP",
+			"documents": "Vollständige Export- und Versanddokumente verfügbar"
+		},
+		"applications": [
+			"Saucen und Bratensaucen",
+			"Suppen und Brühen",
+			"Risotto und Pasta",
+			"Fertiggerichte und Convenience-Produkte",
+			"Pizza und Beläge",
+			"Teigtaschen, Piroggen und Füllungen",
+			"Herzhafte Pasteten und gefülltes Gebäck",
+			"Pilzmischungen",
+			"Konserven und Eingelegtes",
+			"HoReCa und Restaurantküchen",
+			"Lebensmittelzutaten und Pilzzubereitungen"
+		]
+	},
+	"freshPorciniMushrooms": {
+		"meta": {
+			"title": "Frische Steinpilze | Großhandel aus der Ukraine",
+			"description": "Frische wilde Steinpilze (Boletus edulis), saisonal, handgesammelt, sortiert. Gekühlte B2B-Lieferung aus den Karpaten. MOQ auf Anfrage, FCA/DAP in die EU."
+		},
+		"heading": "Frische Steinpilze",
+		"description": [
+			"Hochwertige frische Steinpilze (Boletus edulis), von Hand gesammelt in den unberührten Wäldern der ukrainischen Karpaten und aufbereitet für Restaurants, Händler, Feinkostgeschäfte und Verarbeiter.",
+			"Der Steinpilz ist der begehrteste Waldpilz: festes Fleisch, ein voller nussiger Geschmack und ein unverwechselbares Waldaroma. Frische Steinpilze sind eine saisonale Delikatesse, die Köche und Feinkosteinkäufer in ganz Europa schätzen. Wildpilze lassen sich nicht anbauen, daher hängen die Mengen jedes Jahr vom Wetter und der Waldernte ab.",
+			"Die Pilze werden von Hand gesammelt, noch am Erntetag von Erde und Waldresten gereinigt, sortiert und sofort gekühlt. Wir halten eine lückenlose Kühlkette vom Wald bis zum Käufer ein, damit die Pilze ihre Festigkeit, ihr frisches Aroma und ihr ansprechendes Aussehen behalten.",
+			"Die Pilze werden nach Größe und Hutfestigkeit sortiert: weiche, überständige, beschädigte und madige Pilze werden aussortiert. Qualität und Kaliber werden mit dem Kunden vereinbart. Eine vollständige Chargenrückverfolgbarkeit ist vom Sammelgebiet bis zum Versand gewährleistet.",
+			"Frische Steinpilze gibt es nur in der Saison – von Juli bis Oktober mit dem Höhepunkt im August–September. Mengen und Zeitpunkt hängen jedes Jahr von Niederschlag und Temperatur ab, daher sollten Lieferungen am besten im Voraus vereinbart werden. Außerhalb der Saison bieten wir tiefgekühlte und getrocknete Steinpilze an – kontaktieren Sie uns für aktuelle Mengen und Verladetermine."
+		],
+		"specs": {
+			"product": "Frische Steinpilze",
+			"botanicalName": "Boletus edulis",
+			"origin": "Ukraine",
+			"harvesting": "Handgesammelte Wildpilze",
+			"environment": "Wälder der ukrainischen Karpaten",
+			"processing": "Am Erntetag geputzt, sortiert und gekühlt",
+			"colour": "Natürlich hellbeige bis braun",
+			"fruit": "Ganze Pilze, nach Größe und Festigkeit sortiert",
+			"cleaning": "Erdreste, beschädigte, überständige und madige Pilze entfernt",
+			"storage": "0 bis +4 °C, lückenlose Kühlkette",
+			"packaging": "Belüftete Steigen, Gewicht nach Vereinbarung",
+			"moq": "Auf Anfrage, abhängig von der Ernte",
+			"traceability": "Chargenrückverfolgbarkeit von der Ernte bis zum Versand",
+			"foodSafety": "Handhabung nach HACCP-Grundsätzen",
+			"organic": "Wildsammlung, nicht bio-zertifiziert",
+			"delivery": "EU-weit per Kühltransport",
+			"incoterms": "FCA oder DAP",
+			"documents": "Vollständige Export- und Versanddokumente verfügbar"
+		},
+		"applications": [
+			"Restaurants und HoReCa",
+			"Feinkost- und Premium-Einzelhandel",
+			"Saison- und Degustationsmenüs",
+			"Saucen, Risotto und Pasta",
+			"Suppen und Brühen",
+			"Catering und Bankette",
+			"Trocknen und Tiefkühlen",
+			"Einlegen und Konservieren",
+			"Premium-Fertiggerichte",
+			"Pilzdelikatessen",
+			"Großmärkte und Distribution"
+		]
+	},
+	"driedPorciniMushrooms": {
+		"meta": {
+			"title": "Getrocknete Steinpilze | Großhandel aus der Ukraine",
+			"description": "Getrocknete wilde Steinpilze (Boletus edulis) – sortierte Scheiben, Stücke oder Pulver. Intensives Umami, lange haltbar. Karpaten, HACCP, FCA/DAP/DDP in die EU."
+		},
+		"heading": "Getrocknete Steinpilze",
+		"description": [
+			"Hochwertige getrocknete Steinpilze (Boletus edulis), von Hand gesammelt in den unberührten Wäldern der ukrainischen Karpaten und aufbereitet für professionelle Hersteller von Lebensmitteln, Würzmitteln und Fertiggerichten, Händler und Zutateneinkäufer.",
+			"Das Trocknen konzentriert Aroma und Geschmack des Steinpilzes: Getrocknete Steinpilze haben ein intensives Waldaroma und einen tiefen Umami-Geschmack, der mit kaum einer anderen Rohware zu erreichen ist. Schon eine kleine Menge verleiht Suppen, Saucen und Brühen einen ausgeprägten Pilzgeschmack, und Steinpilzpulver ist ein natürlicher Geschmacksverstärker für Würzmittel und Fertiggerichte.",
+			"Die Pilze werden von Hand gesammelt, noch am Erntetag von Erde und Waldresten gereinigt, in Scheiben geschnitten und bei kontrollierter Temperatur schonend getrocknet, um ihre helle Farbe, ihr Aroma und ihren Geschmack zu erhalten. Die Restfeuchte wird kontrolliert – für gleichbleibende Qualität und lange Haltbarkeit ohne Konservierungsstoffe. Vor der Verwendung müssen Scheiben und Stücke lediglich in Wasser eingeweicht werden.",
+			"Je nach Produktionsanforderung werden getrocknete Steinpilze als Scheiben, Stücke oder gemahlenes Pulver geliefert. Die Ware wird nach Farbe, Größe und Unversehrtheit der Scheiben sortiert; die Qualitätsstufe wird mit dem Kunden vereinbart. Bruch, Erdreste und sichtbare Fremdkörper werden gemäß vereinbarter Spezifikation entfernt. Eine vollständige Chargenrückverfolgbarkeit ist vom Sammelgebiet über die Trocknung bis zur fertigen Palette gewährleistet.",
+			"Steinpilze werden in den ukrainischen Karpaten von Juli bis Oktober gesammelt, mit dem Höhepunkt im August–September. Die getrocknete Ware behält ihre Qualität lange und ist daher ganzjährig bestellbar – kontaktieren Sie uns für aktuelle Mengen, Qualitätsstufen und Verladetermine."
+		],
+		"specs": {
+			"product": "Getrocknete Steinpilze",
+			"botanicalName": "Boletus edulis",
+			"origin": "Ukraine",
+			"harvesting": "Handgesammelte Wildpilze",
+			"environment": "Wälder der ukrainischen Karpaten",
+			"processing": "Putzen, Schneiden und Trocknen bei kontrollierter Temperatur",
+			"colour": "Natürlich hellbeige bis braun",
+			"fruit": "Scheiben, Stücke oder Pulver; Qualitätsstufe nach Vereinbarung",
+			"cleaning": "Sortiert; Bruch, Erde und Fremdkörper entfernt",
+			"storage": "Kühl und trocken, vor Licht und Feuchtigkeit geschützt",
+			"packaging": "Kartons mit PE-Innenbeutel, Gewicht nach Vereinbarung",
+			"moq": "Auf Anfrage",
+			"traceability": "Chargenrückverfolgbarkeit von der Ernte bis zum Endprodukt",
+			"foodSafety": "Verarbeitung nach HACCP-Grundsätzen",
+			"organic": "Wildsammlung, nicht bio-zertifiziert",
+			"delivery": "EU-weit",
+			"incoterms": "FCA, DAP oder DDP",
+			"documents": "Vollständige Export- und Versanddokumente verfügbar"
+		},
+		"applications": [
+			"Suppen und Brühen, einschließlich Instantsuppen",
+			"Saucen und Bratensaucen",
+			"Würzmittel, Gewürze und Mischungen",
+			"Natürliche Geschmacksverstärker (Steinpilzpulver)",
+			"Risotto und Pasta",
+			"Fertiggerichte und Convenience-Produkte",
+			"Fleischwaren und Würste",
+			"Teigtaschen, Piroggen und Füllungen",
+			"Abpackung für den Feinkosthandel",
+			"HoReCa und Restaurantküchen",
+			"Lebensmittelzutaten und Pilzzubereitungen"
+		]
+	},
+	"freshChanterelles": {
+		"meta": {
+			"title": "Frische Pfifferlinge | Großhandel aus der Ukraine",
+			"description": "Frische wilde Pfifferlinge (Cantharellus cibarius), goldgelb und aromatisch, handgesammelt, nach Größe sortiert. Gekühlte Saisonlieferung aus den Karpaten."
+		},
+		"heading": "Frische Pfifferlinge",
+		"description": [
+			"Hochwertige frische Pfifferlinge (Cantharellus cibarius), von Hand gesammelt in den unberührten Wäldern der ukrainischen Karpaten und aufbereitet für Restaurants, Händler, Feinkostgeschäfte und Verarbeiter.",
+			"Pfifferlinge gehören zu den beliebtesten Waldpilzen Europas: leuchtend goldgelbe Farbe, festes, elastisches Fleisch, ein feines fruchtiges Aroma mit Aprikosennoten und ein leicht pfeffriger Abgang. Sie behalten beim Garen gut ihre Form und bringen Farbe in jedes Gericht. Wildpilze lassen sich nicht anbauen, daher hängen die Mengen jedes Jahr vom Wetter und der Waldernte ab.",
+			"Die Pilze werden von Hand gesammelt, noch am Erntetag von Erde und Waldresten gereinigt, sortiert und sofort gekühlt. Wir halten eine lückenlose Kühlkette vom Wald bis zum Käufer ein, damit die Pfifferlinge ihre Elastizität, ihr frisches Aroma und ihre leuchtende Farbe behalten.",
+			"Pfifferlinge werden nach Größe sortiert – kleine junge Pilze sind am wertvollsten und werden als eigenes Kaliber geliefert. Weiche, beschädigte und überständige Pilze werden aussortiert. Qualität und Kaliber werden mit dem Kunden vereinbart. Eine vollständige Chargenrückverfolgbarkeit ist vom Sammelgebiet bis zum Versand gewährleistet.",
+			"Frische Pfifferlinge gibt es nur in der Saison – von Juni bis Oktober mit dem Höhepunkt im Juli–August. Mengen und Zeitpunkt hängen jedes Jahr von Niederschlag und Temperatur ab, daher sollten Lieferungen am besten im Voraus vereinbart werden. Kontaktieren Sie uns für aktuelle Mengen und Verladetermine."
+		],
+		"specs": {
+			"product": "Frische Pfifferlinge",
+			"botanicalName": "Cantharellus cibarius",
+			"origin": "Ukraine",
+			"harvesting": "Handgesammelte Wildpilze",
+			"environment": "Wälder der ukrainischen Karpaten",
+			"processing": "Am Erntetag geputzt, sortiert und gekühlt",
+			"colour": "Natürlich goldgelb",
+			"fruit": "Ganze Pilze, nach Größe sortiert",
+			"cleaning": "Erdreste, beschädigte und überständige Pilze entfernt",
+			"storage": "0 bis +4 °C, lückenlose Kühlkette",
+			"packaging": "Belüftete Steigen, Gewicht nach Vereinbarung",
+			"moq": "Auf Anfrage, abhängig von der Ernte",
+			"traceability": "Chargenrückverfolgbarkeit von der Ernte bis zum Versand",
+			"foodSafety": "Handhabung nach HACCP-Grundsätzen",
+			"organic": "Wildsammlung, nicht bio-zertifiziert",
+			"delivery": "EU-weit per Kühltransport",
+			"incoterms": "FCA oder DAP",
+			"documents": "Vollständige Export- und Versanddokumente verfügbar"
+		},
+		"applications": [
+			"Restaurants und HoReCa",
+			"Feinkost- und Premium-Einzelhandel",
+			"Saison- und Degustationsmenüs",
+			"Saucen, Risotto und Pasta",
+			"Suppen und Brühen",
+			"Beilagen und Eiergerichte",
+			"Catering und Bankette",
+			"Tiefkühlen und Trocknen",
+			"Einlegen und Konservieren",
+			"Premium-Fertiggerichte",
+			"Großmärkte und Distribution"
+		]
+	},
+	"driedChanterelles": {
+		"meta": {
+			"title": "Getrocknete Pfifferlinge | Großhandel aus der Ukraine",
+			"description": "Getrocknete wilde Pfifferlinge (Cantharellus cibarius) – ganz oder als Pulver. Goldgelb, fruchtiges Aroma, lange haltbar. Karpaten, HACCP, FCA/DAP/DDP EU."
+		},
+		"heading": "Getrocknete Pfifferlinge",
+		"description": [
+			"Hochwertige getrocknete Pfifferlinge (Cantharellus cibarius), von Hand gesammelt in den unberührten Wäldern der ukrainischen Karpaten und aufbereitet für professionelle Hersteller von Lebensmitteln, Würzmitteln und Fertiggerichten, Händler und Zutateneinkäufer.",
+			"Getrocknete Pfifferlinge behalten ihre typische goldene Farbe und ihr feines fruchtiges Aroma mit Aprikosennoten, während das Trocknen ihren Geschmack konzentriert. Nach dem Einweichen sind sie etwas fester als frische Pilze und kommen daher in Suppen, Saucen und Gerichten mit Flüssigkeit am besten zur Geltung. Pfifferlingspulver ist ein natürliches Würzmittel, das fertigen Gerichten sowohl goldene Farbe als auch ausgeprägten Pilzgeschmack verleiht.",
+			"Die Pilze werden von Hand gesammelt, noch am Erntetag von Erde und Waldresten gereinigt und bei kontrollierter Temperatur schonend getrocknet, um Farbe und Aroma zu erhalten. Die Restfeuchte wird kontrolliert – für gleichbleibende Qualität und lange Haltbarkeit ohne Konservierungsstoffe. Vor der Verwendung müssen ganze Pilze lediglich in Wasser eingeweicht werden.",
+			"Je nach Produktionsanforderung werden getrocknete Pfifferlinge ganz oder als gemahlenes Pulver geliefert. Die Ware wird nach Farbe und Größe sortiert; die Qualitätsstufe wird mit dem Kunden vereinbart. Beschädigte und dunkel verfärbte Pilze, Erdreste und sichtbare Fremdkörper werden gemäß vereinbarter Spezifikation entfernt. Eine vollständige Chargenrückverfolgbarkeit ist vom Sammelgebiet über die Trocknung bis zur fertigen Palette gewährleistet.",
+			"Pfifferlinge werden in den ukrainischen Karpaten von Juni bis Oktober gesammelt, mit dem Höhepunkt im Juli–August. Die getrocknete Ware behält ihre Qualität lange und ist daher ganzjährig bestellbar – kontaktieren Sie uns für aktuelle Mengen, Qualitätsstufen und Verladetermine."
+		],
+		"specs": {
+			"product": "Getrocknete Pfifferlinge",
+			"botanicalName": "Cantharellus cibarius",
+			"origin": "Ukraine",
+			"harvesting": "Handgesammelte Wildpilze",
+			"environment": "Wälder der ukrainischen Karpaten",
+			"processing": "Putzen und Trocknen bei kontrollierter Temperatur",
+			"colour": "Natürlich goldgelb bis ocker",
+			"fruit": "Ganz oder gemahlenes Pulver; Qualitätsstufe nach Vereinbarung",
+			"cleaning": "Sortiert; beschädigte und dunkel verfärbte Pilze, Erde und Fremdkörper entfernt",
+			"storage": "Kühl und trocken, vor Licht und Feuchtigkeit geschützt",
+			"packaging": "Kartons mit PE-Innenbeutel, Gewicht nach Vereinbarung",
+			"moq": "Auf Anfrage",
+			"traceability": "Chargenrückverfolgbarkeit von der Ernte bis zum Endprodukt",
+			"foodSafety": "Verarbeitung nach HACCP-Grundsätzen",
+			"organic": "Wildsammlung, nicht bio-zertifiziert",
+			"delivery": "EU-weit",
+			"incoterms": "FCA, DAP oder DDP",
+			"documents": "Vollständige Export- und Versanddokumente verfügbar"
+		},
+		"applications": [
+			"Suppen und Brühen, einschließlich Instantsuppen",
+			"Saucen und Bratensaucen",
+			"Würzmittel, Gewürze und Mischungen",
+			"Natürliche Geschmacksverstärker (Pilzpulver)",
+			"Risotto und Pasta",
+			"Fertiggerichte und Convenience-Produkte",
+			"Pilzmischungen",
+			"Füllungen und Aufläufe",
+			"Abpackung für den Feinkosthandel",
+			"HoReCa und Restaurantküchen",
+			"Lebensmittelzutaten und Pilzzubereitungen"
+		]
+	},
+	"frozenSourCherries": {
+		"meta": {
+			"title": "IQF Sauerkirschen tiefgekühlt | Großhandel aus der Ukraine",
+			"description": "IQF-tiefgekühlte Sauerkirschen (Prunus cerasus) – entsteint, tiefrot, frische Säure. Obstgärten der Karpaten, HACCP & Bio, MOQ 500 kg. FCA/DAP/DDP in die EU."
+		},
+		"heading": "Tiefgekühlte Sauerkirschen (IQF)",
+		"description": [
+			"Hochwertige IQF-tiefgekühlte Sauerkirschen (Prunus cerasus), angebaut in den Obstgärten Transkarpatiens und verarbeitet für professionelle Lebensmittelhersteller, Händler und Zutateneinkäufer.",
+			"Sauerkirschen haben eine tief dunkelrote Farbe, saftiges Fruchtfleisch und eine frische Säure, die ihren Geschmack auch nach dem Backen oder Kochen lebendig hält. Diese Säure unterscheidet sie von Süßkirschen und macht sie unverzichtbar für Füllungen, Konfitüren, Säfte und Saucen, bei denen der Geschmack frisch und nicht nur süß sein soll.",
+			"Die Kirschen werden in voller Reife gepflückt und einzeln schockgefroren (IQF), um Farbe, Saftigkeit, Geschmack und Nährstoffe zu erhalten. Sie bleiben nach dem Frosten lose und rieselfähig, was eine effiziente Handhabung, genaue Dosierung und den direkten Einsatz in der industriellen Produktion ermöglicht.",
+			"Die Kirschen werden entsteint geliefert; Ware mit Stein ist auf Anfrage erhältlich. Die Steine werden maschinell entfernt, anschließend erfolgt eine Kontrolle auf Reststeine und Steinfragmente. Die Ware wird sortiert und gereinigt; Stiele, Blätter und sichtbare Fremdkörper werden gemäß vereinbarter Kundenspezifikation entfernt. Eine vollständige Chargenrückverfolgbarkeit ist vom Obstgarten über die Verarbeitung bis zur fertigen Palette gewährleistet.",
+			"Die Sauerkirschernte in Transkarpatien dauert von Ende Juni bis Juli mit dem Höhepunkt Mitte Juli. Der genaue Zeitpunkt hängt jedes Jahr von Wetter und Sorte ab. Außerhalb der Saison ist die Ware aus dem Tiefkühllager der aktuellen Ernte verfügbar – kontaktieren Sie uns für aktuelle Mengen und Verladetermine."
+		],
+		"specs": {
+			"product": "IQF-tiefgekühlte entsteinte Sauerkirschen",
+			"botanicalName": "Prunus cerasus",
+			"origin": "Ukraine",
+			"harvesting": "In Obstgärten bei voller Reife geerntet",
+			"environment": "Obstgärten in Transkarpatien",
+			"processing": "Entsteinen und einzeln schockgefroren (IQF)",
+			"colour": "Natürlich tief dunkelrot",
+			"fruit": "Entsteint; mit Stein auf Anfrage",
+			"cleaning": "Sortiert und gereinigt; Reststeinkontrolle; Stiele und Fremdkörper entfernt",
+			"storage": "–18 °C oder kälter",
+			"packaging": "Mehrlagige Papiersäcke à 25 kg oder Kartons à 10 kg",
+			"moq": "500 kg",
+			"traceability": "Chargenrückverfolgbarkeit von der Ernte bis zum Endprodukt",
+			"foodSafety": "Verarbeitung nach HACCP-Grundsätzen",
+			"organic": "Bio-zertifizierte Partien auf Anfrage und je nach Verfügbarkeit",
+			"delivery": "EU-weit",
+			"incoterms": "FCA, DAP oder DDP",
+			"documents": "Vollständige Export- und Versanddokumente verfügbar"
+		},
+		"applications": [
+			"Backfüllungen, Strudel und Kuchen",
+			"Teigtaschen und Füllungen",
+			"Marmeladen, Konfitüren und Fruchtzubereitungen",
+			"Säfte, Nektare und Fruchtgetränke",
+			"Joghurt und Milchprodukte",
+			"Speiseeis und Tiefkühldesserts",
+			"Saucen zu Fleisch und Ente",
+			"Liköre und Fruchtansätze",
+			"Süßwaren und Schokoladenprodukte",
+			"Fruchtpürees und Kompotte",
+			"Lebensmittelzutaten und Fruchtzubereitungen"
+		]
+	},
+	"frozenHoneyMushrooms": {
+		"meta": {
+			"title": "IQF Hallimasch tiefgekühlt | Großhandel aus der Ukraine",
+			"description": "IQF-tiefgekühlter Hallimasch (Armillaria mellea) aus den Karpaten – ganz, kleine Hüte. HACCP, MOQ 500 kg. Großhandelsexport FCA/DAP/DDP in die EU."
+		},
+		"heading": "Tiefgekühlter Hallimasch (IQF)",
+		"description": [
+			"Hochwertiger IQF-tiefgekühlter Hallimasch (Armillaria mellea), von Hand gesammelt in den unberührten Wäldern der ukrainischen Karpaten und verarbeitet für professionelle Hersteller von Lebensmitteln, Konserven und Fertiggerichten, Händler und Zutateneinkäufer.",
+			"Der Hallimasch gehört in der Ukraine, Tschechien und Polen zu den beliebtesten Waldpilzen: feste, elastische Textur, angenehmer Pilzgeschmack und eine leicht nussige Note. Er wächst in großen Büscheln an Baumstümpfen und Bäumen und liefert in der Saison beachtliche Mengen. Hallimasch eignet sich ideal zum Einlegen sowie für Suppen, Saucen und Fertiggerichte. Bitte beachten: Hallimasch ist eine Verarbeitungsrohware und muss vor dem Verzehr gründlich gegart werden.",
+			"Die Pilze werden von Hand gesammelt, noch am Erntetag von Erde und Waldresten gereinigt, zugeschnitten und einzeln schockgefroren (IQF), um ihre elastische Struktur, Farbe und ihren Geschmack zu erhalten. Sie bleiben nach dem Frosten lose und rieselfähig, was eine genaue Dosierung und den direkten Einsatz in der industriellen Produktion ermöglicht.",
+			"Hallimasch wird ganz geliefert, bevorzugt kleine junge Pilze mit geschlossenen Hüten, die zum Einlegen und Konservieren am meisten geschätzt werden. Die Ware wird nach Größe sortiert: überständige und beschädigte Pilze, Erdreste und sichtbare Fremdkörper werden gemäß vereinbarter Kundenspezifikation entfernt. Eine vollständige Chargenrückverfolgbarkeit ist vom Sammelgebiet über die Verarbeitung bis zur fertigen Palette gewährleistet.",
+			"Die Hallimaschsaison in den ukrainischen Karpaten dauert von September bis November mit dem Höhepunkt im September–Oktober. Mengen und Zeitpunkt hängen jedes Jahr von Niederschlag und Temperatur ab. Außerhalb der Saison ist die Ware aus dem Tiefkühllager der aktuellen Ernte verfügbar – kontaktieren Sie uns für aktuelle Mengen und Verladetermine."
+		],
+		"specs": {
+			"product": "IQF-tiefgekühlter Hallimasch",
+			"botanicalName": "Armillaria mellea",
+			"origin": "Ukraine",
+			"harvesting": "Handgesammelte Wildpilze",
+			"environment": "Wälder der ukrainischen Karpaten",
+			"processing": "Putzen, Zuschneiden und einzeln schockgefroren (IQF)",
+			"colour": "Natürlich honigbraun",
+			"fruit": "Ganze Pilze, überwiegend kleine junge Hüte",
+			"cleaning": "Nach Größe sortiert; Erdreste, überständige Pilze und Fremdkörper entfernt",
+			"storage": "–18 °C oder kälter",
+			"packaging": "Kartons à 10 kg",
+			"moq": "500 kg",
+			"traceability": "Chargenrückverfolgbarkeit von der Ernte bis zum Endprodukt",
+			"foodSafety": "Verarbeitung nach HACCP-Grundsätzen",
+			"organic": "Wildsammlung, nicht bio-zertifiziert",
+			"delivery": "EU-weit",
+			"incoterms": "FCA, DAP oder DDP",
+			"documents": "Vollständige Export- und Versanddokumente verfügbar"
+		},
+		"applications": [
+			"Einlegen und Konservieren",
+			"Suppen und Brühen",
+			"Saucen und Bratensaucen",
+			"Fertiggerichte und Convenience-Produkte",
+			"Teigtaschen, Piroggen und Füllungen",
+			"Pilzmischungen",
+			"Eingelegte Pilzsalate und kalte Vorspeisen",
+			"Pizza und Beläge",
+			"Eintöpfe und Schmorgerichte",
+			"HoReCa und Restaurantküchen",
+			"Lebensmittelzutaten und Pilzzubereitungen"
+		]
+	},
+	"frozenBlackberries": {
+		"meta": {
+			"title": "IQF Brombeeren tiefgekühlt | Großhandel aus der Ukraine",
+			"description": "IQF-tiefgekühlte Brombeeren (Rubus fruticosus) aus den Karpaten – ganze Beeren, tiefe Farbe, feste Struktur. HACCP & Bio, MOQ 500 kg. FCA/DAP/DDP in die EU."
+		},
+		"heading": "Tiefgekühlte Brombeeren (IQF)",
+		"description": [
+			"Hochwertige IQF-tiefgekühlte wilde Brombeeren (Rubus fruticosus), handgepflückt in ökologisch sauberen Gebieten der ukrainischen Karpaten und verarbeitet für professionelle Lebensmittelhersteller, Händler und Zutateneinkäufer.",
+			"Brombeeren haben eine tief dunkelviolette, fast schwarze Farbe, saftiges Fruchtfleisch und einen vollen süßsäuerlichen Geschmack mit Waldnoten. Sie sind reich an Anthocyanen und verleihen Endprodukten eine intensive natürliche Farbe. Wilde Brombeeren sind kleiner und aromatischer als kultivierte, und ihre feste Struktur übersteht das Frosten gut – damit sind Brombeeren eine wertvolle Rohware für Füllungen, Konfitüren, Säfte und Milchprodukte.",
+			"Die Beeren werden in voller Reife von Hand gepflückt und einzeln schockgefroren (IQF), um ihre Unversehrtheit, Farbe, ihr Aroma und ihren Geschmack zu erhalten. Sie bleiben nach dem Frosten lose und rieselfähig, was eine effiziente Handhabung, genaue Dosierung und den direkten Einsatz in der industriellen Produktion ermöglicht.",
+			"Brombeeren werden als ganze Beeren geliefert. Die Ware wird sortiert und gereinigt; Stiele, Blätter, unreife Beeren und sichtbare Fremdkörper werden gemäß vereinbarter Kundenspezifikation entfernt. Eine vollständige Chargenrückverfolgbarkeit ist vom Sammelgebiet über die Verarbeitung bis zur fertigen Palette gewährleistet.",
+			"Die Ernte wilder Brombeeren in den ukrainischen Karpaten dauert von August bis September mit dem Höhepunkt Ende August. Der genaue Zeitpunkt hängt jedes Jahr von Wetter und Höhenlage ab. Außerhalb der Saison ist die Ware aus dem Tiefkühllager der aktuellen Ernte verfügbar – kontaktieren Sie uns für aktuelle Mengen und Verladetermine."
+		],
+		"specs": {
+			"product": "IQF-tiefgekühlte wilde Brombeeren",
+			"botanicalName": "Rubus fruticosus",
+			"origin": "Ukraine",
+			"harvesting": "Handgepflückte Wildbeeren",
+			"environment": "Ökologisch saubere Gebiete der ukrainischen Karpaten",
+			"processing": "Einzeln schockgefroren (IQF)",
+			"colour": "Natürlich dunkelviolett bis schwarz",
+			"fruit": "Ganze Beeren, feste Struktur",
+			"cleaning": "Sortiert und gereinigt; Stiele, Blätter, unreife Beeren und Fremdkörper entfernt",
+			"storage": "–18 °C oder kälter",
+			"packaging": "Mehrlagige Papiersäcke à 25 kg oder Kartons à 10 kg",
+			"moq": "500 kg",
+			"traceability": "Chargenrückverfolgbarkeit von der Ernte bis zum Endprodukt",
+			"foodSafety": "Verarbeitung nach HACCP-Grundsätzen",
+			"organic": "Bio-zertifizierte Partien auf Anfrage und je nach Verfügbarkeit",
+			"delivery": "EU-weit",
+			"incoterms": "FCA, DAP oder DDP",
+			"documents": "Vollständige Export- und Versanddokumente verfügbar"
+		},
+		"applications": [
+			"Backfüllungen und Toppings",
+			"Marmeladen, Konfitüren und Fruchtzubereitungen",
+			"Joghurt und Milchprodukte",
+			"Speiseeis und Tiefkühldesserts",
+			"Smoothies, Säfte und Fruchtgetränke",
+			"Fruchtpürees und Saucen",
+			"Süßwaren und Schokoladenprodukte",
+			"Liköre und Fruchtansätze",
+			"Frühstücksprodukte und Cerealien",
+			"Natürliche Farbstoffe auf Anthocyanbasis",
+			"Lebensmittelzutaten und Fruchtzubereitungen"
+		]
+	},
+	"frozenGrapes": {
+		"meta": {
+			"title": "IQF Weintrauben tiefgekühlt | Großhandel aus der Ukraine",
+			"description": "IQF-tiefgekühlte kernlose Weintrauben aus Weinbergen der Karpaten – ganz, entrappt, rieselfähig. HACCP & Bio, MOQ 500 kg. Export FCA/DAP/DDP in die EU."
+		},
+		"heading": "Tiefgekühlte Weintrauben (IQF)",
+		"description": [
+			"Hochwertige IQF-tiefgekühlte kernlose Weintrauben (Vitis vinifera), angebaut in den Weinbergen Transkarpatiens – einer der ältesten Weinbauregionen der Ukraine – und verarbeitet für professionelle Hersteller von Lebensmitteln und Getränken, Händler und Zutateneinkäufer.",
+			"Kernlose Weintrauben haben saftiges Fruchtfleisch, eine dünne Schale und einen ausgewogenen süßen Geschmack mit leichter Säure. Tiefgekühlte Trauben sind eine vielseitige Rohware: Sie behalten Form und Saftigkeit, eignen sich für Smoothies, Desserts und Milchprodukte, und ganze gefrorene Beeren werden als natürliches „Fruchteis“ in Getränken und Cocktails sowie als verzehrfertiger Snack verwendet.",
+			"Die Trauben werden in voller Reife geerntet, entrappt und einzeln schockgefroren (IQF), um Form, Farbe, Geschmack und Nährstoffe zu erhalten. Sie bleiben nach dem Frosten lose und rieselfähig, was eine genaue Dosierung und den direkten Einsatz in der industriellen Produktion ermöglicht.",
+			"Die Trauben werden als ganze kernlose, entrappte Beeren geliefert. Die Ware wird sortiert und gereinigt; Stiele, beschädigte und unreife Beeren sowie sichtbare Fremdkörper werden gemäß vereinbarter Kundenspezifikation entfernt. Eine vollständige Chargenrückverfolgbarkeit ist vom Weinberg über die Verarbeitung bis zur fertigen Palette gewährleistet.",
+			"Die Traubenernte in Transkarpatien dauert von August bis September mit dem Höhepunkt im September. Der genaue Zeitpunkt hängt jedes Jahr von Wetter und Sorte ab. Außerhalb der Saison ist die Ware aus dem Tiefkühllager der aktuellen Ernte verfügbar – kontaktieren Sie uns für aktuelle Mengen und Verladetermine."
+		],
+		"specs": {
+			"product": "IQF-tiefgekühlte kernlose Weintrauben",
+			"botanicalName": "Vitis vinifera",
+			"origin": "Ukraine",
+			"harvesting": "Im Weinberg bei voller Reife geerntet",
+			"environment": "Weinberge in Transkarpatien",
+			"processing": "Entrappen und einzeln schockgefroren (IQF)",
+			"colour": "Natürlich, je nach Sorte",
+			"fruit": "Ganze kernlose Beeren",
+			"cleaning": "Sortiert und gereinigt; Stiele, beschädigte Beeren und Fremdkörper entfernt",
+			"storage": "–18 °C oder kälter",
+			"packaging": "Mehrlagige Papiersäcke à 25 kg oder Kartons à 10 kg",
+			"moq": "500 kg",
+			"traceability": "Chargenrückverfolgbarkeit von der Ernte bis zum Endprodukt",
+			"foodSafety": "Verarbeitung nach HACCP-Grundsätzen",
+			"organic": "Bio-zertifizierte Partien auf Anfrage und je nach Verfügbarkeit",
+			"delivery": "EU-weit",
+			"incoterms": "FCA, DAP oder DDP",
+			"documents": "Vollständige Export- und Versanddokumente verfügbar"
+		},
+		"applications": [
+			"Smoothies, Säfte und Fruchtgetränke",
+			"Cocktails und „Fruchteis“ für Getränke",
+			"Tiefkühlsnacks",
+			"Speiseeis und Tiefkühldesserts",
+			"Joghurt und Milchprodukte",
+			"Obstsalate und Fruchtmischungen",
+			"Backfüllungen und Toppings",
+			"Konfitüren und Fruchtzubereitungen",
+			"Desserts und Torten",
+			"HoReCa und Bars",
+			"Lebensmittelzutaten und Fruchtzubereitungen"
+		]
+	},
+	"frozenCorn": {
+		"meta": {
+			"title": "IQF Zuckermais tiefgekühlt | Großhandel aus der Ukraine",
+			"description": "IQF-tiefgekühlter Zuckermais von Betrieben in den Karpaten – Körner oder Kolben, blanchiert, rieselfähig. HACCP & Bio, MOQ 500 kg. FCA/DAP/DDP in die EU."
+		},
+		"heading": "Tiefgekühlter Zuckermais (IQF)",
+		"description": [
+			"Hochwertiger IQF-tiefgekühlter Zuckermais (Zea mays var. saccharata), angebaut auf Betrieben in Transkarpatien und verarbeitet für professionelle Hersteller von Lebensmitteln und Fertiggerichten, Händler und Zutateneinkäufer.",
+			"Zuckermais hat leuchtend gelbe, saftige Körner, eine zarte Textur und einen natürlich süßen Geschmack. Er wird in der Milchwachsreife geerntet – genau dann, wenn die Körner den meisten natürlichen Zucker enthalten. Seine leuchtende Farbe und Süße machen Zuckermais zu einem der beliebtesten Gemüse für Gemüsemischungen, Salate, Pizza und Fertiggerichte.",
+			"Die Kolben werden im optimalen Reifestadium geerntet, gereinigt, blanchiert und einzeln schockgefroren (IQF). Das Blanchieren stoppt die Enzymaktivität und bewahrt Süße, Farbe und Textur der Körner. Die Körner bleiben nach dem Frosten lose und rieselfähig, was eine genaue Dosierung und den direkten Einsatz in der industriellen Produktion ermöglicht.",
+			"Je nach Produktionsanforderung wird Zuckermais als Körner oder ganze Kolben geliefert. Die Ware wird sortiert und gereinigt; beschädigte Körner, Kolbenreste, Lieschblätter und sichtbare Fremdkörper werden gemäß vereinbarter Kundenspezifikation entfernt. Eine vollständige Chargenrückverfolgbarkeit ist vom Feld über die Verarbeitung bis zur fertigen Palette gewährleistet.",
+			"Die Zuckermaisernte in Transkarpatien dauert von August bis September mit dem Höhepunkt im August. Der genaue Zeitpunkt hängt jedes Jahr von Wetter und Sorte ab. Außerhalb der Saison ist die Ware aus dem Tiefkühllager der aktuellen Ernte verfügbar – kontaktieren Sie uns für aktuelle Mengen und Verladetermine."
+		],
+		"specs": {
+			"product": "IQF-tiefgekühlter Zuckermais",
+			"botanicalName": "Zea mays var. saccharata",
+			"origin": "Ukraine",
+			"harvesting": "In der Milchwachsreife geerntet",
+			"environment": "Betriebe in Transkarpatien",
+			"processing": "Reinigen, Blanchieren und einzeln schockgefroren (IQF)",
+			"colour": "Natürlich leuchtend gelb",
+			"fruit": "Körner oder ganze Kolben",
+			"cleaning": "Sortiert und gereinigt; beschädigte Körner, Kolbenreste, Lieschblätter und Fremdkörper entfernt",
+			"storage": "–18 °C oder kälter",
+			"packaging": "Mehrlagige Papiersäcke à 25 kg oder Kartons à 10 kg",
+			"moq": "500 kg",
+			"traceability": "Chargenrückverfolgbarkeit von der Ernte bis zum Endprodukt",
+			"foodSafety": "Verarbeitung nach HACCP-Grundsätzen",
+			"organic": "Bio-zertifizierte Partien auf Anfrage und je nach Verfügbarkeit",
+			"delivery": "EU-weit",
+			"incoterms": "FCA, DAP oder DDP",
+			"documents": "Vollständige Export- und Versanddokumente verfügbar"
+		},
+		"applications": [
+			"Gemüsemischungen",
+			"Salate und kalte Vorspeisen",
+			"Pizza und Beläge",
+			"Fertiggerichte und Convenience-Produkte",
+			"Suppen und Cremesuppen",
+			"Beilagen",
+			"Mexikanische Küche",
+			"Konserven",
+			"Babynahrung",
+			"HoReCa und Catering",
+			"Lebensmittelzutaten und Gemüsezubereitungen"
+		]
+	},
+	"frozenBlackCurrants": {
+		"meta": {
+			"title": "IQF Schwarze Johannisbeeren tiefgekühlt | Großhandel",
+			"description": "IQF-tiefgekühlte Schwarze Johannisbeeren (Ribes nigrum) – viel Vitamin C, für Saft & Verarbeitung. Karpaten, HACCP & Bio, MOQ 500 kg. FCA/DAP/DDP in die EU."
+		},
+		"heading": "Tiefgekühlte Schwarze Johannisbeeren (IQF)",
+		"description": [
+			"Hochwertige IQF-tiefgekühlte Schwarze Johannisbeeren (Ribes nigrum) aus der Karpatenregion der Ukraine, verarbeitet für professionelle Hersteller von Säften, Getränken, Lebensmitteln und Nahrungsergänzungsmitteln, Händler und Zutateneinkäufer.",
+			"Schwarze Johannisbeeren sind eine der konzentriertesten Rohwaren im Beerensegment: außergewöhnlich reich an natürlichem Vitamin C – ein Vielfaches von Zitrusfrüchten –, mit intensiver Anthocyanfarbe und einer kräftigen, aromatischen Säure. Das macht sie zu einem Arbeitspferd der Saft-, Konzentrat- und Getränkeindustrie statt zu einer Frucht für den Frischverzehr.",
+			"Die Beeren werden für industrielle Verarbeitungsmengen in voller Reife maschinell geerntet und einzeln schockgefroren (IQF), um ihre tiefe Farbe, Vitamine und Nährstoffe zu bewahren. Sie bleiben nach dem Frosten lose und rieselfähig, was eine genaue Dosierung und kontrolliertes Auftauen ermöglicht.",
+			"Schwarze Johannisbeeren werden als ganze, entrappte Beeren geliefert. Die Ware wird sortiert und gereinigt; Stiele, Blätter und sichtbare Fremdkörper werden gemäß vereinbarter Kundenspezifikation entfernt – bereit für den direkten industriellen Einsatz. Eine vollständige Chargenrückverfolgbarkeit ist von der Plantage über die Verarbeitung bis zur fertigen Palette gewährleistet.",
+			"Die Ernte Schwarzer Johannisbeeren in der Karpatenregion findet im Juli statt, mit dem Höhepunkt Mitte des Monats. Der genaue Zeitpunkt hängt jedes Jahr von Wetter und Sorte ab. Außerhalb der Saison ist die Ware aus dem Tiefkühllager der aktuellen Ernte verfügbar – kontaktieren Sie uns für aktuelle Mengen und Verladetermine."
+		],
+		"specs": {
+			"product": "IQF-tiefgekühlte Schwarze Johannisbeeren",
+			"botanicalName": "Ribes nigrum",
+			"origin": "Ukraine",
+			"harvesting": "In voller Reife maschinell geerntet",
+			"environment": "Plantagen in der Karpatenregion",
+			"processing": "Einzeln schockgefroren (IQF)",
+			"colour": "Natürlich tief schwarzviolett",
+			"fruit": "Ganze entrappte Beeren",
+			"cleaning": "Sortiert und gereinigt; Stiele, Blätter und Fremdkörper entfernt",
+			"storage": "–18 °C oder kälter",
+			"packaging": "Mehrlagige Papiersäcke à 25 kg oder Industrie-Oktabins à 400 kg",
+			"moq": "500 kg",
+			"traceability": "Chargenrückverfolgbarkeit von der Ernte bis zum Endprodukt",
+			"foodSafety": "Verarbeitung nach HACCP-Grundsätzen",
+			"organic": "Bio-zertifizierte Partien auf Anfrage und je nach Verfügbarkeit",
+			"delivery": "EU-weit",
+			"incoterms": "FCA, DAP oder DDP",
+			"documents": "Vollständige Export- und Versanddokumente verfügbar"
+		},
+		"applications": [
+			"Säfte, Nektare und Konzentrate",
+			"Sirupe und Getränke",
+			"Konfitüren, Fruchtaufstriche und Fruchtfüllungen",
+			"Joghurt und Milchprodukte",
+			"Nahrungsergänzungsmittel und Extrakte",
+			"Natürliche Farbstoffe auf Anthocyanbasis",
+			"Liköre und Getränke, einschließlich Cassis",
+			"Speiseeis und Tiefkühldesserts",
+			"Backfüllungen",
+			"Fruchtpürees und Saucen",
+			"Lebensmittelzutaten und Fruchtzubereitungen"
+		]
+	},
+	"frozenChokeberries": {
+		"meta": {
+			"title": "IQF Aroniabeeren tiefgekühlt | Großhandel aus der Ukraine",
+			"description": "IQF-tiefgekühlte Aroniabeeren (Aronia melanocarpa) – reich an Polyphenolen & Anthocyanen, für Saft & Extrakte. Karpaten, HACCP, MOQ 500 kg. FCA/DAP/DDP EU."
+		},
+		"heading": "Tiefgekühlte Aroniabeeren (IQF)",
+		"description": [
+			"Hochwertige IQF-tiefgekühlte Aroniabeeren (Apfelbeeren, Aronia melanocarpa) aus der Karpatenregion der Ukraine, verarbeitet für professionelle Hersteller von Säften, Extrakten, Nahrungsergänzungsmitteln und natürlichen Farbstoffen, Händler und Zutateneinkäufer.",
+			"Aronia gehört zu den polyphenol- und anthocyanreichsten Beeren und übertrifft die meisten anderen Beeren – deshalb wird sie als Superfood-Rohware für funktionelle Produkte geschätzt. Die Beeren haben eine tief schwarzviolette Farbe und einen herben, adstringierenden Geschmack, daher wird Aronia hauptsächlich verarbeitet – zu Säften, Konzentraten, Extrakten und natürlichen Farbstoffen – und kaum frisch verzehrt.",
+			"Die Beeren werden für industrielle Mengen in voller Reife maschinell geerntet und einzeln schockgefroren (IQF), um Farbe, Polyphenole und Nährstoffe zu erhalten. Sie bleiben nach dem Frosten lose und rieselfähig, was eine genaue Dosierung und den direkten Einsatz in der industriellen Produktion ermöglicht.",
+			"Aronia wird je nach Produktionsanforderung gereinigt oder ungereinigt geliefert. Gereinigte Aronia wird sortiert; Stiele, Blätter und sichtbare Fremdkörper werden gemäß vereinbarter Kundenspezifikation entfernt. Eine vollständige Chargenrückverfolgbarkeit ist von der Plantage über die Verarbeitung bis zur fertigen Palette gewährleistet.",
+			"Die Aroniaernte in der Karpatenregion dauert von Ende August bis September mit dem Höhepunkt im September. Der genaue Zeitpunkt hängt jedes Jahr vom Wetter ab. Außerhalb der Saison ist die Ware aus dem Tiefkühllager der aktuellen Ernte verfügbar – kontaktieren Sie uns für aktuelle Mengen und Verladetermine."
+		],
+		"specs": {
+			"product": "IQF-tiefgekühlte Aroniabeeren",
+			"botanicalName": "Aronia melanocarpa",
+			"origin": "Ukraine",
+			"harvesting": "In voller Reife maschinell geerntet",
+			"environment": "Plantagen in der Karpatenregion",
+			"processing": "Einzeln schockgefroren (IQF)",
+			"colour": "Natürlich tief schwarzviolett",
+			"fruit": "Ganze Beeren, gereinigt oder ungereinigt",
+			"cleaning": "Gereinigt: Stiele, Blätter und Fremdkörper entfernt; ungereinigt nach Vereinbarung",
+			"storage": "–18 °C oder kälter",
+			"packaging": "Mehrlagige Papiersäcke à 25 kg oder Industrie-Oktabins à 400 kg",
+			"moq": "500 kg",
+			"traceability": "Chargenrückverfolgbarkeit von der Ernte bis zum Endprodukt",
+			"foodSafety": "Verarbeitung nach HACCP-Grundsätzen",
+			"organic": "Bio-zertifizierte Partien auf Anfrage und je nach Verfügbarkeit",
+			"delivery": "EU-weit",
+			"incoterms": "FCA, DAP oder DDP",
+			"documents": "Vollständige Export- und Versanddokumente verfügbar"
+		},
+		"applications": [
+			"Säfte, Nektare und Konzentrate",
+			"Extrakte und Nahrungsergänzungsmittel",
+			"Natürliche Farbstoffe auf Anthocyanbasis",
+			"Superfood-Pulver und funktionelle Mischungen",
+			"Funktionelle Getränke und Smoothies",
+			"Konfitüren und Fruchtzubereitungen (gemischt mit anderen Beeren)",
+			"Joghurt und Milchprodukte",
+			"Müsliriegel und Snacks",
+			"Tees und Früchtetees",
+			"Weine, Liköre und Ansatzspirituosen",
+			"Lebensmittelzutaten und funktionelle Produkte"
+		]
+	},
+	"frozenWildBogBilberries": {
+		"meta": {
+			"title": "IQF Wilde Rauschbeeren tiefgekühlt | Großhandel Ukraine",
+			"description": "IQF-tiefgekühlte wilde Rauschbeeren (Vaccinium uliginosum) – handgepflückt in den Karpaten, tiefe Farbe, viele Anthocyane. HACCP, MOQ 500 kg. FCA/DAP/DDP EU."
+		},
+		"heading": "Tiefgekühlte wilde Rauschbeeren (IQF)",
+		"description": [
+			"Hochwertige IQF-tiefgekühlte wilde Rauschbeeren (Moorbeeren, Vaccinium uliginosum), handgepflückt in den Bergmooren und an den Hängen der ukrainischen Karpaten und verarbeitet für professionelle Lebensmittelhersteller, Händler und Zutateneinkäufer.",
+			"Die Rauschbeere ist keine Kulturheidelbeere von der Plantage, sondern eine wilde Waldbeere. Von der Waldheidelbeere (Vaccinium myrtillus) lässt sie sich leicht unterscheiden: Rauschbeeren sind größer, haben einen bläulichen Reif, und ihr Fruchtfleisch ist hell – die Farbe sitzt in der Schale. Der Geschmack ist mild, süßsäuerlich und saftig, ohne Adstringenz. Damit eignen sich Rauschbeeren besonders für Produkte, bei denen milder Geschmack, Saftigkeit und echte Wildherkunft zählen; für intensive Färbung ist die Waldheidelbeere die bessere Wahl.",
+			"Die Beeren werden in voller Reife von Hand gepflückt und einzeln schockgefroren (IQF), um ihre Struktur, Farbe, ihren Geschmack und ihre Nährstoffe zu erhalten. Sie bleiben nach dem Frosten lose und rieselfähig, was eine effiziente Handhabung, genaue Dosierung und den direkten Einsatz in der industriellen Produktion ermöglicht.",
+			"Die Ware wird sortiert und gereinigt; Stiele, Blätter, unreife Beeren und sichtbare Fremdkörper werden gemäß vereinbarter Kundenspezifikation entfernt. Eine vollständige Chargenrückverfolgbarkeit ist vom Sammelgebiet über die Verarbeitung bis zur fertigen Palette gewährleistet.",
+			"Die Rauschbeerenernte in den ukrainischen Karpaten dauert von Ende Juli bis August; in höheren Lagen kann bis in den September gesammelt werden. Der genaue Zeitpunkt hängt jedes Jahr von Wetter und Höhenlage ab. Außerhalb der Saison ist die Ware aus dem Tiefkühllager der aktuellen Ernte verfügbar – kontaktieren Sie uns für aktuelle Mengen und Verladetermine."
+		],
+		"specs": {
+			"product": "IQF-tiefgekühlte wilde Rauschbeeren",
+			"botanicalName": "Vaccinium uliginosum",
+			"origin": "Ukraine",
+			"harvesting": "Handgepflückte Wildbeeren",
+			"environment": "Bergmoore und Hänge der ukrainischen Karpaten",
+			"processing": "Einzeln schockgefroren (IQF)",
+			"colour": "Blauviolette Schale mit bläulichem Reif, helles Fruchtfleisch",
+			"fruit": "Wilde Rauschbeere, größer als die Waldheidelbeere, saftig",
+			"cleaning": "Sortiert und gereinigt; Stiele, Blätter, unreife Beeren und Fremdkörper entfernt",
+			"storage": "–18 °C oder kälter",
+			"packaging": "Mehrlagige Papiersäcke à 25 kg oder Industrie-Oktabins à 400 kg",
+			"moq": "500 kg",
+			"traceability": "Chargenrückverfolgbarkeit von der Ernte bis zum Endprodukt",
+			"foodSafety": "Verarbeitung nach HACCP-Grundsätzen",
+			"organic": "Bio-zertifizierte Partien auf Anfrage und je nach Verfügbarkeit",
+			"delivery": "EU-weit",
+			"incoterms": "FCA, DAP oder DDP",
+			"documents": "Vollständige Export- und Versanddokumente verfügbar"
+		},
+		"applications": [
+			"Backfüllungen und Toppings",
+			"Joghurt und Milchprodukte",
+			"Speiseeis und Tiefkühldesserts",
+			"Konfitüren, Fruchtaufstriche und Fruchtzubereitungen",
+			"Smoothies, Säfte und Fruchtgetränke",
+			"Fruchtsaucen und Pürees",
+			"Süßwaren",
+			"Frühstücksprodukte und Cerealien",
+			"Liköre und Fruchtansätze",
+			"Produkte mit Zutaten aus Wildsammlung",
+			"Lebensmittelzutaten und Fruchtzubereitungen"
+		]
+	},
+	"contacts": {
+		"address": "Zentralna-Straße 34B, Dorf Wilchiwzi, Bezirk Tjatschiw, Oblast Transkarpatien, Ukraine, 90542",
+		"map_title": "So finden Sie uns"
+	},
+	"ourCertificates": {
+		"desc": "Wir halten höchste Sicherheits- und Qualitätsstandards ein, bestätigt durch unsere HACCP- und Bio-Zertifikate. Unsere Produkte werden aus sorgfältig ausgewählten Rohwaren hergestellt und durchlaufen in jeder Produktionsstufe eine mehrstufige Kontrolle. Diese internationalen Zertifizierungen gewährleisten, dass unsere Beeren, Obst und Gemüse natürlich, sicher und vollständig konform mit den Anforderungen der ökologischen Produktion sind.",
+		"viewCertificate": "Zertifikat ansehen",
+		"downloadCertificate": "Zertifikat herunterladen"
+	},
+	"footer": {
+		"navigation": "Navigation",
+		"scrollToTop": "Nach oben scrollen"
+	},
+	"product_page": {
+		"meta": {
+			"title": "| Großhandel für Lebensmittelhersteller in Europa",
+			"description": ". Premiumqualität für Lebensmittelhersteller, Verarbeiter und Großhändler in Europa. Zuverlässige Lieferung, zertifizierte Qualität, B2B-Partnerschaft."
+		},
+		"specsHeading": "Produktspezifikation",
+		"applicationsHeading": "Typische Anwendungen",
+		"harvestPeriod": "Zeitraum",
+		"harvestAvailability": "Typische Verfügbarkeit",
+		"specs": {
+			"product": "Produkt",
+			"botanicalName": "Botanischer Name",
+			"origin": "Herkunft",
+			"harvesting": "Ernte",
+			"environment": "Anbaugebiet",
+			"processing": "Verarbeitung",
+			"colour": "Farbe",
+			"fruit": "Frucht",
+			"cleaning": "Reinigung",
+			"storage": "Lagerung",
+			"packaging": "Verpackung",
+			"moq": "Mindestbestellmenge",
+			"traceability": "Rückverfolgbarkeit",
+			"foodSafety": "Lebensmittelsicherheit",
+			"organic": "Bio",
+			"delivery": "Lieferung",
+			"incoterms": "Incoterms",
+			"documents": "Dokumente"
+		},
+		"deliveryByVehicle": "Lieferung per Fahrzeug",
+		"descriptionHeading": "Beschreibung",
+		"status": "Produktart",
+		"grade": "Qualitätsklasse",
+		"whole": "Ganz",
+		"whole2": "Ganz",
+		"sliced": "In Scheiben",
+		"cubed": "Gewürfelt",
+		"piccolo": "Piccolo",
+		"strips": "Streifen",
+		"unpitted": "Mit Stein",
+		"pitted": "Entsteint",
+		"wholeUnpitted": "Ganz / mit Stein",
+		"halvesPitted": "Hälften / entsteint",
+		"wholePitted": "Ganz / entsteint",
+		"uncleaned_1": "Ungereinigt",
+		"uncleaned_2": "Ungereinigt",
+		"cleaned_1": "Gereinigt",
+		"cleaned_2": "Gereinigt",
+		"related": "Ähnliche Produkte",
+		"origin": {
+			"region": {
+				"title": "Ukraine (Karpatenregion)",
+				"desc": "Wildsammlung oder ökologischer Anbau in schadstofffreier Umgebung."
+			},
+			"traceability": {
+				"title": "Vollständige Rückverfolgbarkeit",
+				"desc": "Wir überwachen jeden Schritt – von der Ernte im Wald bis zur abschließenden IQF-Verarbeitung."
+			}
+		},
+		"packaging": {
+			"paperBag": {
+				"title": "Mehrlagige Papiersäcke (25 kg)",
+				"desc": "Robuste, lebensmitteltaugliche Säcke mit Polyethylen-Innenbeutel gegen Feuchtigkeitsverlust und Gefrierbrand."
+			},
+			"cartonBox": {
+				"title": "Wellpappkartons (10 kg)",
+				"desc": "Ideal für kleinere Großhandelsaufträge oder Profiküchen; leicht zu stapeln und zu palettieren."
+			},
+			"octabin": {
+				"title": "Industrie-Oktabins (400 kg)",
+				"desc": "Ideal für große Produktionsbetriebe; optimiert für effiziente Logistik und Verarbeitung großer Mengen."
+			},
+			"woodenContainer": {
+				"title": "Holzkisten für den Versand",
+				"desc": "Robuste Holzkisten für maximalen Schutz bei Langstreckentransporten und intensiver Handhabung."
+			}
+		},
+		"pack_1": "Papiersack (25 kg)",
+		"pack_2": "Karton (10 kg)",
+		"pack_3": "Holzkiste",
+		"pack_4": "Oktabin (400 kg)",
+		"wholesaleSupplier": "Großhandelslieferant"
+	},
+	"faq": {
+		"title": "FAQ",
+		"home": {
+			"q": {
+				"1": "Welche tiefgekühlten Beeren und Naturprodukte bieten Sie im Großhandel an?",
+				"2": "Woher stammen Ihre Beeren und Früchte aus den Karpaten?",
+				"3": "Liefern Sie zertifizierte Bio-Beeren im Großhandel?",
+				"4": "Kann ich Groß- oder Großhandelsbestellungen für die industrielle Lebensmittelverarbeitung aufgeben?",
+				"5": "Wie gewährleisten Sie Lebensmittelsicherheit und Qualitätskontrolle?",
+				"6": "Welche Industrieverpackungen bieten Sie an?"
+			},
+			"a": {
+				"1": "Wir sind auf hochwertige IQF-tiefgekühlte (einzeln schockgefrorene) Beeren und Naturprodukte für den Großhandel spezialisiert, die direkt aus der unberührten Karpatenregion stammen. Unser Kernsortiment umfasst Waldheidelbeeren, kultivierte Himbeeren, Waldbrombeeren, wilde Preiselbeeren und Sauerkirschen. Je nach Ihren Produktionsanforderungen liefern wir unsere Früchte frisch, schockgefroren oder vorverarbeitet – zugeschnitten auf Industriebäckereien, Molkereien, Konfitürenhersteller und Foodservice-Händler.",
+				"2": "Alle unsere Agrarprodukte werden nachhaltig geerntet und stammen aus der ökologisch sauberen Karpatenregion, die für ihren geringen industriellen Fußabdruck und ihre reiche Artenvielfalt bekannt ist. Wir arbeiten direkt mit einem sorgfältig geprüften Netzwerk lokaler Landwirte und zertifizierter Wildsammler zusammen. Dieses Direktbezugsmodell sichert eine vollständige Chargenrückverfolgbarkeit, eine echte geografische Herkunft und eine transparente Lieferkette.",
+				"3": "Ja, wir liefern neben unseren konventionellen Naturprodukten auch zertifizierte Bio-Beeren im Großhandel. Da unsere Früchte in Hochlagen, naturbelassenen und wilden Gebieten geerntet werden, sind sie von Natur aus naturnah. Wir verfügen über eine offizielle Bio-Zertifizierung gemäß den strengen internationalen Vorschriften für ökologischen Landbau. Bitte kontaktieren Sie unser Vertriebsteam, um aktuelle Bio-Mengen und saisonale Verfügbarkeit zu bestätigen und unsere Zertifizierungsunterlagen anzufordern.",
+				"4": "Selbstverständlich. Wir sind ein spezialisierter B2B-Lieferant und Großhändler, der auch großvolumige Handelsverträge abwickelt. Wir beliefern regelmäßig Lebensmittelhersteller, Zutatenhändler und Lebensmittelfabriken in ganz Europa mit Tiefkühlobst in großen Mengen. Wir bieten mengenabhängige Preisstaffeln, Logistik für Lieferungen im Tonnenbereich und ganzjährige Liefervereinbarungen, damit Ihre Produktionslinien laufen.",
+				"5": "Wir setzen ein strenges, mehrstufiges Qualitätssicherungssystem ein, das durch unsere offizielle HACCP-Zertifizierung gestützt wird. Unsere Qualitätskontrolle beginnt bereits beim Pflücken von Hand, gefolgt von strenger Sortierung, maschineller Reinigung und Inline-Metalldetektion. So sind unsere Lieferungen frei von Fremdkörpern, halten strenge Rückstandshöchstgehalte (MRL) ein und kommen mit einem vollständigen Analysezertifikat (COA) bei Ihnen an, das die Lebensmittelsicherheit garantiert.",
+				"6": "Wir sind ausschließlich auf großvolumige B2B-Distribution spezialisiert und bieten Industrieverpackungen, die die Kühlkette während des Transports sichern. Einzelhandelsverpackungen oder Private-Label-Leistungen bieten wir nicht an. Stattdessen konzentrieren wir uns auf robuste Großgebinde, darunter mehrlagige Industriesäcke à 10/25 kg, Oktabins und große Schüttgutbehälter, optimiert für die gewerbliche Lebensmittelverarbeitung und automatisierte Produktionslinien."
+			}
+		},
+		"products": {
+			"q": {
+				"1": "Welche Beeren aus den Karpaten bieten Sie im Großhandel an?",
+				"2": "Sind Ihre Beeren frisch oder einzeln schockgefroren (IQF) erhältlich?",
+				"3": "Wie sieht der saisonale Erntekalender für Ihre Früchte aus den Karpaten aus?",
+				"4": "Welche Industrieverpackungen bieten Sie für Großbestellungen an?",
+				"5": "Welche Anforderungen gelten für die Tiefkühllagerung Ihrer Beeren?",
+				"6": "Wie lange sind Ihre tiefgekühlten Großhandelsprodukte haltbar?"
+			},
+			"a": {
+				"1": "Wir liefern eine hochwertige Auswahl an wild gesammelten und kultivierten Beeren aus den Karpaten, mit Schwerpunkt auf Waldheidelbeeren, Waldbrombeeren, Premium-Himbeeren, Preiselbeeren und Sauerkirschen. Unser Sortiment erfüllt strenge Handelsspezifikationen bei Kaliber, Farbsortierung und mechanischer Reinheit und sichert so absolute Gleichmäßigkeit für Großhersteller und Zutatenhändler.",
+				"2": "Wir sind sowohl auf saisonale Frischware als auch auf ganzjährige IQF-Lösungen (einzeln schockgefroren) spezialisiert. Unsere Schockfrosttechnologie bewahrt sofort Zellstruktur, vollen Geschmack und Nährstoffprofil der frisch gepflückten Beeren. Während Frischware nur in der Erntezeit nach festen Mengen geliefert wird, lagern unsere zertifizierten Bio- und konventionellen IQF-Früchte in unseren Kühlhäusern für eine zuverlässige ganzjährige Versorgung.",
+				"3": "Unsere Hauptsaison für Wildsammlung und Ernte reicht vom Frühsommer bis zum Herbst (Juni bis September); in dieser Zeit liefern wir Frischware. Da wir die Rohware sofort mit moderner IQF-Technologie verarbeiten, sind unsere tiefgekühlten Beeren jedoch völlig unabhängig von der Saison und stehen an 365 Tagen im Jahr für den Großhandel zur Verfügung.",
+				"4": "Wir bieten robuste Industrieverpackungen, optimiert für Verarbeitungsbetriebe und gewerbliche Produktionslinien. Wir konzentrieren uns ganz auf B2B-Großhandel und bieten weder Einzelhandelsverpackungen noch Private-Label-Abpackung an. Zu unseren Standardgebinden gehören mehrlagige Industriepapiersäcke à 10/25 kg, stabile Kunststoffkisten und großvolumige Oktabins, die die Ware während des Transports schützen.",
+				"5": "Um unsere strengen HACCP-Standards einzuhalten und ein Verklumpen zu verhindern, müssen unsere IQF-Beeren durchgehend bei –18 °C oder kälter gelagert werden. Eine lückenlose Kühlkette von unseren Frostanlagen bis zu Ihrem Werk ist entscheidend, um Temperaturschwankungen zu vermeiden, die enzymatische Stabilität zu bewahren und mikrobielles Wachstum zu verhindern.",
+				"6": "Bei durchgehender Tiefkühllagerung (–18 °C oder kälter) sind unsere IQF-Beeren 12 bis 24 Monate haltbar. Jedes Gebinde verlässt unseren Betrieb mit genauen Chargencodes, Herstellungsdatum und klarem Mindesthaltbarkeitsdatum, begleitet von einem vollständigen Analysezertifikat (COA) für Ihre Qualitätssicherung."
+			}
+		},
+		"productPage": {
+			"q": {
+				"1": "In welchen Formen ist diese Zutat erhältlich?",
+				"2": "Ist dieses Produkt ganzjährig lieferbar?",
+				"3": "Welche Lageranforderungen gelten für dieses Produkt?",
+				"4": "Wie lange ist diese Ware haltbar?",
+				"5": "Bieten Sie dieses Produkt in großen Mengen oder im Großhandel an?",
+				"6": "Kann ich individuelle Industrieverpackungen für dieses Produkt anfragen?"
+			},
+			"a": {
+				"1": "Diese hochwertige Zutat aus den Karpaten ist während der Haupternte als Frischware in Industriequalität oder ganzjährig als IQF-Ware (einzeln schockgefroren) erhältlich. Je nach Ihrer Produktionsspezifikation liefern wir das Produkt farbsortiert, nach Millimetergröße kalibriert oder vorverarbeitet – für den nahtlosen Einsatz in automatisierten Produktionslinien, Molkereien oder Industriebäckereien.",
+				"2": "Ja. Während Frischware strikt an unseren saisonalen Erntekalender gebunden ist, werden unsere IQF-Produkte (einzeln schockgefroren) in optimaler Reife verarbeitet und in Tiefkühlanlagen gelagert. So können wir unseren B2B-Partnern an 365 Tagen im Jahr eine durchgehende Versorgung garantieren – unabhängig von der Erntesaison.",
+				"3": "Um Zellstruktur, Geschmack und volle Lebensmittelsicherheit zu bewahren, müssen strenge Kühlkettenvorgaben eingehalten werden. Frischware erfordert sofortige Kühlung bei kontrollierter Luftfeuchtigkeit und schnelle Verarbeitung. Unsere IQF-Tiefkühlprodukte müssen durchgehend bei stabil –18 °C oder kälter gelagert werden, um enzymatischen Abbau und Verklumpen zu verhindern – in voller Übereinstimmung mit internationalen HACCP-Richtlinien.",
+				"4": "Die Haltbarkeit hängt von der Produktform ab. Frisch geerntete Ware ist leicht verderblich und muss innerhalb weniger Tage gekühlt verarbeitet oder vertrieben werden. Unsere IQF-Tiefkühlprodukte sind bei durchgehend –18 °C 12 bis 24 Monate haltbar und behalten ihre natürliche Farbe, Struktur und mikrobiologische Stabilität.",
+				"5": "Ja, wir arbeiten ausschließlich als direkter B2B-Lieferant und Großhändler. Wir sind auf Lieferungen im Tonnenbereich für Lebensmittelfabriken, Zutatenhändler und industrielle Verarbeitungsbetriebe spezialisiert. Wenden Sie sich an unseren Vertrieb, um ein individuelles Angebot, Spezifikationsblätter und die aktuelle Mindestbestellmenge (MOQ) zu erhalten.",
+				"6": "Wir sind ausschließlich auf Großhandel spezialisiert und bieten keine Einzelhandels- oder Private-Label-Verpackungen an, stellen aber flexible Industrieverpackungen bereit. Großbestellungen liefern wir in mehrlagigen Industriepapiersäcken à 10/25 kg, stabilen Kunststoffkisten oder großvolumigen Oktabins – abgestimmt auf Ihre Wareneingangssysteme und Versandanforderungen."
+			}
+		}
+	},
+	"contactForm": {
+		"heading": "Angebot anfordern",
+		"subheading": "Bitte füllen Sie das untenstehende Formular aus. Mindestbestellmenge (MOQ): 1000 kg. Wir melden uns innerhalb eines Werktages bei Ihnen.",
+		"name": "Ansprechpartner",
+		"company": "Firmenname",
+		"country": "Zielland",
+		"email": "Geschäftliche E-Mail",
+		"productRequested": "Gewünschtes Produkt",
+		"quantity": "Geschätzte Menge (kg)",
+		"message": "Nachricht",
+		"submit": "Angebot anfordern",
+		"success": "Vielen Dank für Ihre Anfrage. Wir melden uns innerhalb eines Werktages bei Ihnen.",
+		"sending": "Anfrage wird gesendet...",
+		"close": "Schließen",
+		"error": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut oder schreiben Sie uns an {email}.",
+		"paymentTerms": {
+			"title": "Zahlungsbedingungen",
+			"description": "Die erste Bestellung wird gegen 100 % Vorauszahlung nach der Ausfuhrzollabfertigung und vor der Lieferung ausgeliefert. Für Stammkunden sind nach erfolgreicher Zusammenarbeit flexible Zahlungsbedingungen möglich.",
+			"cbLabel": "Ich habe die Zahlungsbedingungen für die erste Bestellung gelesen und akzeptiere sie.",
+			"required": "Bitte bestätigen Sie, dass Sie den Zahlungsbedingungen zustimmen."
+		}
+	}
+}

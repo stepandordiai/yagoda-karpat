@@ -299,7 +299,7 @@ export default function ProductPageStatic({ product }: ProductPageStaticProps) {
 						className="product-page__link btn--bold"
 						href="#products-page__contacts"
 					>
-						{t("requestPrice")}
+						{product.isFeatured ? t("requestPrice") : t("requestAvailability")}
 					</a>
 				</div>
 			</div>

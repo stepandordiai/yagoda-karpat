@@ -10,6 +10,7 @@ const languages = [
 	{ code: "uk", name: "UA", fullName: "Українська" },
 	{ code: "en", name: "EN", fullName: "English" },
 	{ code: "cs", name: "CZ", fullName: "Čeština" },
+	{ code: "de", name: "DE", fullName: "Deutsch" },
 ];
 
 const LngSelect = () => {
