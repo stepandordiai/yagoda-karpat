@@ -1613,7 +1613,9 @@
 		"pack_2": "Carton box (10 kg)",
 		"pack_3": "Wooden container",
 		"pack_4": "Octabin (400 kg)",
-		"wholesaleSupplier": "Wholesale Supplier"
+		"wholesaleSupplier": "Wholesale Supplier",
+		"contactFormHeadingAvailable": "Price inquiry",
+		"contactFormHeadingUnavailable": "Availability inquiry"
 	},
 
 	"faq": {
@@ -1678,8 +1680,12 @@
 	},
 
 	"contactForm": {
-		"heading": "Request a Quote",
-		"subheading": "Please fill out the form below. Minimum order quantity (MOQ): 1000 kg. We will get back to you within 1 business day.",
+		"heading": "Get a quote",
+		"subheading": [
+			"Tell us the product and volume — we'll send prices and delivery terms.",
+			"Minimum order quantity (MOQ): 1,000 kg.",
+			"We reply within one business day."
+		],
 		"name": "Contact Person",
 		"company": "Company Name",
 		"country": "Destination Country",

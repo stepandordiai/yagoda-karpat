@@ -1567,8 +1567,11 @@
 		"pack_2": "Karton (10 kg)",
 		"pack_3": "Holzkiste",
 		"pack_4": "Oktabin (400 kg)",
-		"wholesaleSupplier": "Großhandelslieferant"
+		"wholesaleSupplier": "Großhandelslieferant",
+		"contactFormHeadingAvailable": "Preisanfrage",
+		"contactFormHeadingUnavailable": "Verfügbarkeitsanfrage"
 	},
+
 	"faq": {
 		"title": "FAQ",
 		"home": {
@@ -1628,7 +1631,11 @@
 	},
 	"contactForm": {
 		"heading": "Angebot anfordern",
-		"subheading": "Bitte füllen Sie das untenstehende Formular aus. Mindestbestellmenge (MOQ): 1000 kg. Wir melden uns innerhalb eines Werktages bei Ihnen.",
+		"subheading": [
+			"Nennen Sie Produkt und Menge — wir senden Ihnen Preise und Lieferbedingungen.",
+			"Mindestbestellmenge (MOQ): 1.000 kg.",
+			"Wir antworten innerhalb eines Werktages."
+		],
 		"name": "Ansprechpartner",
 		"company": "Firmenname",
 		"country": "Zielland",

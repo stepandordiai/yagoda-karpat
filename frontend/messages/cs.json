@@ -221,8 +221,8 @@
 
 	"frozenBilberries": {
 		"meta": {
-			"title": "Mražené borůvky (Vaccinium myrtillus) | Velkoobchod EU",
-			"description": "Mražené lesní borůvky (Vaccinium myrtillus) IQF, ručně sbírané v ukrajinských Karpatech. Certifikace HACCP, bio šarže na vyžádání, MOQ 500 kg. Dodání FCA, DAP a DDP po celé EU."
+			"title": "Mražené borůvky | Velkoobchod EU",
+			"description": "Mražené lesní borůvky (Vaccinium myrtillus) IQF, ručně sbírané v ukrajinských Karpatech. Certifikace HACCP, bio šarže na vyžádání, MOQ 1000 kg. Dodání FCA, DAP a DDP po celé EU."
 		},
 		"heading": "Mražené lesní borůvky (IQF)",
 		"description": [
@@ -270,7 +270,7 @@
 	"frozenLingonberries": {
 		"meta": {
 			"title": "Mražené brusinky | Velkoobchod EU",
-			"description": "Mražené brusinky IQF (Vaccinium vitis-idaea) z ukrajinských Karpat. Certifikace HACCP a bio, MOQ 500 kg. Velkoobchodní export FCA/DAP/DDP po celé EU."
+			"description": "Mražené brusinky IQF (Vaccinium vitis-idaea) z ukrajinských Karpat. Certifikace HACCP a bio, MOQ 1000 kg. Velkoobchodní export FCA/DAP/DDP po celé EU."
 		},
 		"heading": "Mražené brusinky (IQF)",
 		"description": [
@@ -318,7 +318,7 @@
 	"frozenRoseHips": {
 		"meta": {
 			"title": "Mražené šípky | Velkoobchod EU",
-			"description": "Mražené šípky IQF (Rosa canina) z ukrajinských Karpat, vysoký obsah vitamínu C. Certifikace HACCP a bio, MOQ 500 kg. Velkoobchodní export FCA/DAP/DDP po celé EU."
+			"description": "Mražené šípky IQF (Rosa canina) z ukrajinských Karpat, vysoký obsah vitamínu C. Certifikace HACCP a bio, MOQ 1000 kg. Velkoobchodní export FCA/DAP/DDP po celé EU."
 		},
 		"heading": "Mražené šípky (IQF)",
 		"description": [
@@ -365,8 +365,8 @@
 
 	"frozenPlums": {
 		"meta": {
-			"title": "Mražené švestky — celé, půlené, bez pecky | Velkoobchod EU",
-			"description": "Mražené švestky IQF z ukrajinských karpatských sadů — celé, půlené nebo bez pecky. Certifikace HACCP a bio, MOQ 500 kg. Velkoobchodní export FCA/DAP/DDP po celé EU."
+			"title": "Mražené švestky | Velkoobchod EU",
+			"description": "Mražené švestky IQF z ukrajinských karpatských sadů — celé, půlené nebo bez pecky. Certifikace HACCP a bio, MOQ 1000 kg. Velkoobchodní export FCA/DAP/DDP po celé EU."
 		},
 		"heading": "Mražené švestky (IQF)",
 		"description": [
@@ -413,8 +413,8 @@
 
 	"driedPlums": {
 		"meta": {
-			"title": "Sušené celé švestky — s peckou, bez úprav | Velkoobchod EU",
-			"description": "Sušené celé švestky z ukrajinských karpatských sadů — s peckou, přirozeně sušené, bez aditiv a glycerinu. Certifikace HACCP a bio, MOQ 500 kg. Velkoobchodní export FCA/DAP/DDP po celé EU."
+			"title": "Sušené celé švestky | Velkoobchod EU",
+			"description": "Sušené celé švestky z ukrajinských karpatských sadů — s peckou, přirozeně sušené, bez aditiv a glycerinu. Certifikace HACCP a bio, MOQ 1000 kg. Velkoobchodní export FCA/DAP/DDP po celé EU."
 		},
 		"heading": "Sušené celé švestky",
 		"description": [
@@ -461,8 +461,8 @@
 
 	"prunes": {
 		"meta": {
-			"title": "Sušené švestky bez pecky — měkké, kalibrované | Velkoobchod EU",
-			"description": "Sušené švestky bez pecky (Prunus domestica) — měkké, kalibrované, bez přidaného cukru. Karpatské sady, HACCP a bio, MOQ 500 kg. Export FCA/DAP/DDP po celé EU."
+			"title": "Sušené švestky bez pecky | Velkoobchod EU",
+			"description": "Sušené švestky bez pecky (Prunus domestica) — měkké, kalibrované, bez přidaného cukru. Karpatské sady, HACCP a bio, MOQ 1000 kg. Export FCA/DAP/DDP po celé EU."
 		},
 		"heading": "Sušené švestky",
 		"description": [
@@ -510,7 +510,7 @@
 	"frozenElderberries": {
 		"meta": {
 			"title": "Mražené bezinky | Velkoobchod EU",
-			"description": "Mražené bezinky IQF (Sambucus nigra) na sirupy, extrakty a přírodní barvivo. Karpatský původ, HACCP a bio, MOQ 500 kg. Velkoobchodní export FCA/DAP/DDP po celé EU."
+			"description": "Mražené bezinky IQF (Sambucus nigra) na sirupy, extrakty a přírodní barvivo. Karpatský původ, HACCP a bio, MOQ 1000 kg. Velkoobchodní export FCA/DAP/DDP po celé EU."
 		},
 		"heading": "Mražené plody černého bezu (IQF)",
 		"description": [
@@ -557,8 +557,8 @@
 
 	"frozenStrawberries": {
 		"meta": {
-			"title": "Mražené jahody — celé, plátky, kostky | Velkoobchod EU",
-			"description": "Mražené jahody IQF — celé, kalibrované, plátky, kostky nebo pyré. Karpatské farmy, HACCP a bio, MOQ 500 kg. Velkoobchodní export FCA/DAP/DDP po celé EU."
+			"title": "Mražené jahody | Velkoobchod EU",
+			"description": "Mražené jahody IQF — celé, kalibrované, plátky, kostky nebo pyré. Karpatské farmy, HACCP a bio, MOQ 1000 kg. Velkoobchodní export FCA/DAP/DDP po celé EU."
 		},
 		"heading": "Mražené jahody (IQF)",
 		"description": [
@@ -605,8 +605,8 @@
 
 	"frozenRaspberries": {
 		"meta": {
-			"title": "Mražené maliny — celé, drť, pyré | Velkoobchod EU",
-			"description": "Mražené maliny IQF z ukrajinských karpatských farem — celé, drť/lámané nebo pyré. HACCP a bio, MOQ 500 kg. Velkoobchodní export FCA/DAP/DDP po celé EU."
+			"title": "Mražené maliny | Velkoobchod EU",
+			"description": "Mražené maliny IQF z ukrajinských karpatských farem — celé, drť/lámané nebo pyré. HACCP a bio, MOQ 1000 kg. Velkoobchodní export FCA/DAP/DDP po celé EU."
 		},
 		"heading": "Mražené maliny (IQF)",
 		"description": [
@@ -653,8 +653,8 @@
 
 	"frozenApricots": {
 		"meta": {
-			"title": "Mražené meruňky — půlené, bez pecky, kostky | Velkoobchod EU",
-			"description": "Mražené meruňky IQF z ukrajinských karpatských sadů — půlené a bez pecky nebo kostky. HACCP a bio, MOQ 500 kg. Velkoobchodní export FCA/DAP/DDP po celé EU."
+			"title": "Mražené meruňky | Velkoobchod EU",
+			"description": "Mražené meruňky IQF z ukrajinských karpatských sadů — půlené a bez pecky nebo kostky. HACCP a bio, MOQ 1000 kg. Velkoobchodní export FCA/DAP/DDP po celé EU."
 		},
 		"heading": "Mražené meruňky (IQF)",
 		"description": [
@@ -701,8 +701,8 @@
 
 	"frozenRedBellPeppers": {
 		"meta": {
-			"title": "Mražená červená paprika — kostky, nudličky | Velkoobchod EU",
-			"description": "Mražená červená paprika IQF z ukrajinských karpatských farem — kostky, nudličky nebo půlky. Certifikace HACCP, MOQ 500 kg. Velkoobchodní export FCA/DAP/DDP po celé EU."
+			"title": "Mražená červená paprika | Velkoobchod EU",
+			"description": "Mražená červená paprika IQF z ukrajinských karpatských farem — kostky, nudličky nebo půlky. Certifikace HACCP, MOQ 1000 kg. Velkoobchodní export FCA/DAP/DDP po celé EU."
 		},
 		"heading": "Mražená červená paprika (IQF)",
 		"description": [
@@ -749,8 +749,8 @@
 
 	"frozenGreenBellPeppers": {
 		"meta": {
-			"title": "Mražená zelená paprika — kostky, nudličky | Velkoobchod EU",
-			"description": "Mražená zelená paprika IQF z karpatských farem — kostky, nudličky nebo půlky. Certifikace HACCP, MOQ 500 kg. Velkoobchodní export FCA/DAP/DDP po celé EU."
+			"title": "Mražená zelená paprika | Velkoobchod EU",
+			"description": "Mražená zelená paprika IQF z karpatských farem — kostky, nudličky nebo půlky. Certifikace HACCP, MOQ 1000 kg. Velkoobchodní export FCA/DAP/DDP po celé EU."
 		},
 		"heading": "Mražená zelená paprika (IQF)",
 		"description": [
@@ -797,8 +797,8 @@
 
 	"frozenYellowBellPeppers": {
 		"meta": {
-			"title": "Mražená žlutá paprika — kostky, nudličky | Velkoobchod EU",
-			"description": "Mražená žlutá paprika IQF z karpatských farem — kostky, nudličky nebo půlky. Certifikace HACCP, MOQ 500 kg. Velkoobchodní export FCA/DAP/DDP po celé EU."
+			"title": "Mražená žlutá paprika | Velkoobchod EU",
+			"description": "Mražená žlutá paprika IQF z karpatských farem — kostky, nudličky nebo půlky. Certifikace HACCP, MOQ 1000 kg. Velkoobchodní export FCA/DAP/DDP po celé EU."
 		},
 		"heading": "Mražená žlutá paprika (IQF)",
 		"description": [
@@ -845,8 +845,8 @@
 
 	"frozenMixedBellPeppers": {
 		"meta": {
-			"title": "Mražená paprika směs — kostky, nudličky | Velkoobchod EU",
-			"description": "Mražená paprika směs IQF (červená, žlutá, zelená) — kostky nebo nudličky, míchaná v poměru. Karpatské farmy, HACCP, MOQ 500 kg. Export FCA/DAP/DDP po celé EU."
+			"title": "Mražená paprika směs | Velkoobchod EU",
+			"description": "Mražená paprika směs IQF (červená, žlutá, zelená) — kostky nebo nudličky, míchaná v poměru. Karpatské farmy, HACCP, MOQ 1000 kg. Export FCA/DAP/DDP po celé EU."
 		},
 		"heading": "Mražená paprika směs (IQF)",
 		"description": [
@@ -893,8 +893,8 @@
 
 	"frozenPorciniMushrooms": {
 		"meta": {
-			"title": "Mražené hřiby — vcelku nebo plátky | Velkoobchod EU",
-			"description": "Mražené hřiby IQF (Boletus edulis) z Karpat, vcelku nebo plátky. Certifikace HACCP, MOQ 500 kg. Velkoobchodní export FCA/DAP/DDP po celé EU."
+			"title": "Mražené hřiby | Velkoobchod EU",
+			"description": "Mražené hřiby IQF (Boletus edulis) z Karpat, vcelku nebo plátky. Certifikace HACCP, MOQ 1000 kg. Velkoobchodní export FCA/DAP/DDP po celé EU."
 		},
 		"heading": "Mražené hřiby (IQF)",
 		"description": [
@@ -941,7 +941,7 @@
 
 	"freshPorciniMushrooms": {
 		"meta": {
-			"title": "Čerstvé hřiby — sezónní, chlazené | Velkoobchod EU",
+			"title": "Čerstvé hřiby | Velkoobchod EU",
 			"description": "Divoké čerstvé hřiby (Boletus edulis) z Karpat — sezónní, ručně sbírané, tříděné. Chlazené B2B dodávky, MOQ na vyžádání, FCA/DAP po celé EU."
 		},
 		"heading": "Čerstvé hřiby",
@@ -989,8 +989,8 @@
 
 	"driedPorciniMushrooms": {
 		"meta": {
-			"title": "Sušené hřiby — plátky, kousky, prášek | Velkoobchod EU",
-			"description": "Divoké sušené hřiby (Boletus edulis) — tříděné plátky, kousky nebo prášek. Intenzivní umami, trvanlivé. HACCP, MOQ 500 kg. Export FCA/DAP/DDP po EU."
+			"title": "Sušené hřiby | Velkoobchod EU",
+			"description": "Divoké sušené hřiby (Boletus edulis) — tříděné plátky, kousky nebo prášek. Intenzivní umami, trvanlivé. HACCP, MOQ 1000 kg. Export FCA/DAP/DDP po EU."
 		},
 		"heading": "Sušené hřiby",
 		"description": [
@@ -1037,7 +1037,7 @@
 
 	"freshChanterelles": {
 		"meta": {
-			"title": "Čerstvé lišky — sezónní, chlazené | Velkoobchod EU",
+			"title": "Čerstvé lišky | Velkoobchod EU",
 			"description": "Divoké čerstvé lišky (Cantharellus cibarius) z Karpat — zlaté, aromatické, ručně sbírané, tříděné dle velikosti. Chlazené, MOQ na vyžádání, FCA/DAP po EU."
 		},
 		"heading": "Čerstvé lišky",
@@ -1085,8 +1085,8 @@
 
 	"driedChanterelles": {
 		"meta": {
-			"title": "Sušené lišky — vcelku nebo prášek | Velkoobchod EU",
-			"description": "Divoké sušené lišky (Cantharellus cibarius) — vcelku nebo mletý prášek. Zlatá barva, ovocné aroma, trvanlivé. HACCP, MOQ 500 kg. Export FCA/DAP/DDP po EU."
+			"title": "Sušené lišky | Velkoobchod EU",
+			"description": "Divoké sušené lišky (Cantharellus cibarius) — vcelku nebo mletý prášek. Zlatá barva, ovocné aroma, trvanlivé. HACCP, MOQ 1000 kg. Export FCA/DAP/DDP po EU."
 		},
 		"heading": "Sušené lišky",
 		"description": [
@@ -1133,8 +1133,8 @@
 
 	"frozenSourCherries": {
 		"meta": {
-			"title": "Mražené višně — bez pecky | Velkoobchod EU",
-			"description": "Mražené višně IQF (Prunus cerasus) z karpatských sadů — bez pecky, tmavě červené, výrazná kyselost. HACCP a bio, MOQ 500 kg. Export FCA/DAP/DDP po EU."
+			"title": "Mražené višně | Velkoobchod EU",
+			"description": "Mražené višně IQF (Prunus cerasus) z karpatských sadů — bez pecky, tmavě červené, výrazná kyselost. HACCP a bio, MOQ 1000 kg. Export FCA/DAP/DDP po EU."
 		},
 		"heading": "Mražené višně (IQF)",
 		"description": [
@@ -1181,8 +1181,8 @@
 
 	"frozenHoneyMushrooms": {
 		"meta": {
-			"title": "Mražené václavky — vcelku | Velkoobchod EU",
-			"description": "Divoké mražené václavky (Armillaria mellea) z Karpat — vcelku, malé klobouky. HACCP, MOQ 500 kg. Velkoobchodní export FCA/DAP/DDP po celé EU."
+			"title": "Mražené václavky | Velkoobchod EU",
+			"description": "Divoké mražené václavky (Armillaria mellea) z Karpat — vcelku, malé klobouky. HACCP, MOQ 1000 kg. Velkoobchodní export FCA/DAP/DDP po celé EU."
 		},
 		"heading": "Mražené václavky (IQF)",
 		"description": [
@@ -1230,7 +1230,7 @@
 	"frozenBlackberries": {
 		"meta": {
 			"title": "Mražené ostružiny | Velkoobchod EU",
-			"description": "Mražené ostružiny IQF (Rubus fruticosus) z Karpat — celé plody, tmavá barva, pevná struktura. HACCP a bio, MOQ 500 kg. Export FCA/DAP/DDP po EU."
+			"description": "Mražené ostružiny IQF (Rubus fruticosus) z Karpat — celé plody, tmavá barva, pevná struktura. HACCP a bio, MOQ 1000 kg. Export FCA/DAP/DDP po EU."
 		},
 		"heading": "Mražené ostružiny (IQF)",
 		"description": [
@@ -1277,8 +1277,8 @@
 
 	"frozenGrapes": {
 		"meta": {
-			"title": "Mražené hrozny bez pecek — celé | Velkoobchod EU",
-			"description": "Mražené hrozny IQF bez pecek z karpatských vinic — celé, odstopkované, sypké. HACCP a bio, MOQ 500 kg. Velkoobchodní export FCA/DAP/DDP po EU."
+			"title": "Mražené hrozny bez pecek | Velkoobchod EU",
+			"description": "Mražené hrozny IQF bez pecek z karpatských vinic — celé, odstopkované, sypké. HACCP a bio, MOQ 1000 kg. Velkoobchodní export FCA/DAP/DDP po EU."
 		},
 		"heading": "Mražené hroznové víno (IQF)",
 		"description": [
@@ -1325,8 +1325,8 @@
 
 	"frozenCorn": {
 		"meta": {
-			"title": "Mražená kukuřice — zrna i klasy | Velkoobchod EU",
-			"description": "Mražená kukuřice cukrová IQF z karpatských farem — zrna nebo klasy, blanšírovaná, sypká. HACCP a bio, MOQ 500 kg. Export FCA/DAP/DDP po EU."
+			"title": "Mražená kukuřice | Velkoobchod EU",
+			"description": "Mražená kukuřice cukrová IQF z karpatských farem — zrna nebo klasy, blanšírovaná, sypká. HACCP a bio, MOQ 1000 kg. Export FCA/DAP/DDP po EU."
 		},
 		"heading": "Mražená kukuřice cukrová (IQF)",
 		"description": [
@@ -1374,7 +1374,7 @@
 	"frozenBlackCurrants": {
 		"meta": {
 			"title": "Mražený černý rybíz | Velkoobchod EU",
-			"description": "Mražený černý rybíz IQF (Ribes nigrum) — vysoký obsah vitamínu C, na šťávu a zpracování. Karpaty, HACCP a bio, MOQ 500 kg. Export FCA/DAP/DDP po EU."
+			"description": "Mražený černý rybíz IQF (Ribes nigrum) — vysoký obsah vitamínu C, na šťávu a zpracování. Karpaty, HACCP a bio, MOQ 1000 kg. Export FCA/DAP/DDP po EU."
 		},
 		"heading": "Mražený černý rybíz (IQF)",
 		"description": [
@@ -1422,7 +1422,7 @@
 	"frozenChokeberries": {
 		"meta": {
 			"title": "Mražená aronie | Velkoobchod EU",
-			"description": "Mražená aronie IQF (Aronia melanocarpa) — vysoký obsah polyfenolů a antokyanů, na šťávu a extrakt. Karpaty, HACCP a bio, MOQ 500 kg. Export FCA/DAP/DDP po EU."
+			"description": "Mražená aronie IQF (Aronia melanocarpa) — vysoký obsah polyfenolů a antokyanů, na šťávu a extrakt. Karpaty, HACCP a bio, MOQ 1000 kg. Export FCA/DAP/DDP po EU."
 		},
 		"heading": "Mražená arónie (černý jeřáb) IQF",
 		"description": [
@@ -1470,7 +1470,7 @@
 	"frozenWildBogBilberries": {
 		"meta": {
 			"title": "Mražené vlochyně | Velkoobchod EU",
-			"description": "Divoké mražené vlochyně (Vaccinium uliginosum) z Karpat — ručně sbírané, tmavá barva, vysoký obsah antokyanů. HACCP, MOQ 500 kg. Export FCA/DAP/DDP po EU."
+			"description": "Divoké mražené vlochyně (Vaccinium uliginosum) z Karpat — ručně sbírané, tmavá barva, vysoký obsah antokyanů. HACCP, MOQ 1000 kg. Export FCA/DAP/DDP po EU."
 		},
 		"heading": "Mražená divoká vlochyně bahenní (borůvka bahenní) IQF",
 		"description": [
@@ -1623,8 +1623,10 @@
 		"company": "Společnost",
 		"productRequested": "Požadovaný produkt",
 		"messagePlaceholder": "Uveďte prosím požadované balení, objem a cílovou zemi.",
-		"minimumOrderQuantity": "*Minimální objednávka: 500 kg",
-		"wholesaleSupplier": "Velkoobchodní dodavatel"
+		"minimumOrderQuantity": "*Minimální objednávka: 1000 kg",
+		"wholesaleSupplier": "Velkoobchodní dodavatel",
+		"contactFormHeadingAvailable": "Dotaz na cenu",
+		"contactFormHeadingUnavailable": "Dotaz na dostupnost"
 	},
 
 	"faq": {
@@ -1686,8 +1688,12 @@
 	},
 
 	"contactForm": {
-		"heading": "Nezávazná poptávka",
-		"subheading": "Vyplňte prosím formulář níže. Minimální objednací množství (MOQ): 1000 kg. Ozveme se vám do jednoho pracovního dne.",
+		"heading": "Získat cenovou nabídku",
+		"subheading": [
+			"Uveďte produkt a objem — pošleme vám ceny a dodací podmínky.",
+			"Minimální objednávka (MOQ): 1 000 kg.",
+			"Odpovíme do jednoho pracovního dne."
+		],
 		"name": "Kontaktní osoba",
 		"company": "Název společnosti",
 		"country": "Země určení",

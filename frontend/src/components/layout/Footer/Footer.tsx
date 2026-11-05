@@ -7,38 +7,10 @@ import { usePathname } from "@/i18n/navigation";
 import Container from "@/components/Container/Container";
 import classNames from "classnames";
 import { Link } from "@/i18n/navigation";
-import FacebookIcon from "@/components/icons/FacebookIcon";
-import LinkedinIcon from "@/components/icons/LinkedinIcon";
 import ArrowUpIcon from "@/components/icons/ArrowUpIcon";
 import PlusIcon from "@/components/icons/PlusIcon";
-import YoutubeIcon from "@/components/icons/YoutubeIcon";
+import { socials } from "@/data/socials";
 import "./Footer.scss";
-
-interface Social {
-	title: string;
-	url: string;
-	// TODO: LEARN THIS
-	img: React.ReactNode;
-}
-
-const socialsData: Social[] = [
-	{
-		title: "Facebook",
-		url: "https://www.facebook.com/profile.php?id=61584019674019",
-		img: <FacebookIcon size={24} />,
-	},
-	{
-		title: "LinkedIn",
-		url: "https://www.linkedin.com/company/yagoda-karpat",
-		img: <LinkedinIcon size={24} />,
-	},
-
-	{
-		title: "YouTube",
-		url: "https://www.youtube.com/@YagodaKarpat",
-		img: <YoutubeIcon size={24} />,
-	},
-];
 
 type FooterProps = {
 	products: Product[];
@@ -106,10 +78,10 @@ export default function Footer({ products }: FooterProps) {
 							<span>{t("company_name")}</span>
 						</Link>
 						<div className="footer__socials">
-							{socialsData.map(({ title, url, img }, i) => {
+							{socials.map(({ title, url, Icon }) => {
 								return (
-									<a key={i} href={url} target="_blank" title={title}>
-										{img}
+									<a key={title} href={url} target="_blank" title={title}>
+										<Icon size={24} />
 									</a>
 								);
 							})}

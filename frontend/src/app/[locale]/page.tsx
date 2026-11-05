@@ -10,9 +10,10 @@ import Certificates from "@/components/home/Certificates/Certificates";
 import { Link } from "@/i18n/navigation";
 import Hero from "@/components/home/Hero/Hero";
 import Faqs from "@/components/Faqs/Faqs";
-import { BASE_URL } from "@/lib/constants";
+import { BASE_URL, EMAIL } from "@/lib/constants";
 import posts from "@/data/posts.json";
 import BlogCard from "@/components/BlogCard/BlogCard";
+import { socials } from "@/data/socials";
 import "./Home.scss";
 
 const faqs = [
@@ -81,43 +82,56 @@ export default async function Home() {
 	// Organization
 	const jsonLd = {
 		"@context": "https://schema.org",
-		"@type": "Organization",
-		"@id": `${BASE_URL}/#organization`,
-		name: t("company_name"),
-		url: BASE_URL,
-		// FIXME:
-		logo: `${BASE_URL}/logo-img/yagoda-karpat-logo.svg`,
-		image: `${BASE_URL}/yagoda-karpat-og.png`,
-		description: t("home.meta.description"),
-		email: "info@yagodakarpat.com",
-		telephone: "+380968065513",
-		contactPoint: {
-			"@type": "ContactPoint",
-			telephone: "+380968065513",
-			email: "info@yagodakarpat.com",
-			contactType: "sales",
-			availableLanguage: ["uk", "en", "cs"],
-		},
-		sameAs: [
-			"https://www.facebook.com/profile.php?id=61584019674019",
-			"https://www.linkedin.com/company/yagoda-karpat",
-			"https://www.youtube.com/@YagodaKarpat",
+		"@graph": [
+			{
+				"@type": "WebSite",
+				"@id": `${BASE_URL}/#website`,
+				name: "Yagoda Karpat",
+				alternateName: ["Ягода Карпат", "yagodakarpat.com"],
+				url: `${BASE_URL}/`,
+				inLanguage: routing.locales,
+				publisher: { "@id": `${BASE_URL}/#organization` },
+			},
+			{
+				"@type": "Organization",
+				"@id": `${BASE_URL}/#organization`,
+				name: "Yagoda Karpat",
+				legalName: "Yagoda Karpat LLC",
+				url: `${BASE_URL}/`,
+				// FIXME:
+				logo: `${BASE_URL}/logo-img/yagoda-karpat-logo.svg`,
+				image: `${BASE_URL}/yagoda-karpat-og.png`,
+				description: t("home.meta.description"),
+				email: EMAIL,
+				telephone: "+380968065513",
+				contactPoint: {
+					"@type": "ContactPoint",
+					telephone: "+380968065513",
+					email: EMAIL,
+					contactType: "sales",
+					availableLanguage: routing.locales,
+				},
+				sameAs: socials.map((s) => s.url),
+				address: {
+					"@type": "PostalAddress",
+					streetAddress: "Central street, 34B",
+					addressLocality: "Vilkhivtsi",
+					addressRegion: "Zakarpattia",
+					postalCode: "90542",
+					addressCountry: "UA",
+				},
+			},
 		],
-		address: {
-			"@type": "PostalAddress",
-			streetAddress: "Central street, 34B",
-			addressLocality: "Vilkhivtsi",
-			addressRegion: "Zakarpattia",
-			postalCode: "90542",
-			addressCountry: "UA",
-		},
 	};
 
 	return (
 		<>
 			<script
 				type="application/ld+json"
-				dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+				// TODO: learn this: replace(/</g, "\\u003c")
+				dangerouslySetInnerHTML={{
+					__html: JSON.stringify(jsonLd).replace(/</g, "\\u003c"),
+				}}
 			/>
 			<main>
 				<Container>

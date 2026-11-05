@@ -308,6 +308,11 @@ export default function ProductPageStatic({ product }: ProductPageStaticProps) {
 					requestedProduct={`${t(product.name)} ${
 						productVariant.state ? "(" + t(productVariant.state) + ")" : ""
 					}${productGrade?.class ? ", " + productGrade.class : ""}`.trimEnd()}
+					heading={
+						product.isFeatured
+							? "product_page.contactFormHeadingAvailable"
+							: "product_page.contactFormHeadingUnavailable"
+					}
 				/>
 				<ContactDetails />
 			</div>

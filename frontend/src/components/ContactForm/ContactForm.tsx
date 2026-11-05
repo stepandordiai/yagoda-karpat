@@ -9,10 +9,14 @@ import "./ContactForm.scss";
 
 type ContactFormProps = {
 	requestedProduct?: string;
+	heading: string;
 };
 
-const ContactForm = ({ requestedProduct = "" }: ContactFormProps) => {
-	const t = useTranslations("contactForm");
+const ContactForm = ({
+	requestedProduct = "",
+	heading = "contactForm.heading",
+}: ContactFormProps) => {
+	const t = useTranslations();
 
 	const initForm = {
 		name: "",
@@ -40,7 +44,7 @@ const ContactForm = ({ requestedProduct = "" }: ContactFormProps) => {
 		setError(null);
 
 		if (!paymentTermsCheck) {
-			setError(t("paymentTerms.required"));
+			setError(t("contactForm.paymentTerms.required"));
 			return;
 		}
 
@@ -50,7 +54,7 @@ const ContactForm = ({ requestedProduct = "" }: ContactFormProps) => {
 
 		if (error) {
 			// console.error("Lead insert failed:", error);
-			setError(t("error", { email: EMAIL }));
+			setError(t("contactForm.error", { email: EMAIL }));
 		} else {
 			reportConversion("AW-16930854291/aCjkCMaZisEcEJOroYk_");
 
@@ -71,13 +75,21 @@ const ContactForm = ({ requestedProduct = "" }: ContactFormProps) => {
 
 	return (
 		<div className="contact-form">
-			<h3 className="contact-form__heading">{t("heading")}</h3>
-			<p className="contact-form__subheading">{t("subheading")}</p>
+			<h3 className="contact-form__heading">{t(heading)}</h3>
+			<div>
+				{t.raw("contactForm.subheading").map((p: string) => {
+					return (
+						<p className="contact-form__subheading" key={p}>
+							{p}
+						</p>
+					);
+				})}
+			</div>
 			{error && <p style={{ color: "#f00" }}>{error}</p>}
 			<form className="form" onSubmit={insertLead}>
 				<div className="input-container">
 					<label className="contact-label" htmlFor="name">
-						{t("name")}
+						{t("contactForm.name")}
 						<span style={{ color: "#f00" }} aria-hidden="true">
 							*
 						</span>
@@ -95,7 +107,7 @@ const ContactForm = ({ requestedProduct = "" }: ContactFormProps) => {
 				</div>
 				<div className="input-container">
 					<label className="contact-label" htmlFor="company">
-						{t("company")}
+						{t("contactForm.company")}
 						<span style={{ color: "#f00" }} aria-hidden="true">
 							*
 						</span>
@@ -112,7 +124,7 @@ const ContactForm = ({ requestedProduct = "" }: ContactFormProps) => {
 				</div>
 				<div className="input-container">
 					<label className="contact-label" htmlFor="country">
-						{t("country")}
+						{t("contactForm.country")}
 						<span style={{ color: "#f00" }} aria-hidden="true">
 							*
 						</span>
@@ -129,7 +141,7 @@ const ContactForm = ({ requestedProduct = "" }: ContactFormProps) => {
 				</div>
 				<div className="input-container">
 					<label className="contact-label" htmlFor="email">
-						{t("email")}
+						{t("contactForm.email")}
 						<span style={{ color: "#f00" }} aria-hidden="true">
 							*
 						</span>
@@ -148,7 +160,7 @@ const ContactForm = ({ requestedProduct = "" }: ContactFormProps) => {
 				{requestedProduct && (
 					<div className="input-container">
 						<label className="contact-label" htmlFor="product">
-							{t("productRequested")}
+							{t("contactForm.productRequested")}
 						</label>
 						<input
 							onChange={(e) => handleForm(e.target.name, e.target.value)}
@@ -162,7 +174,7 @@ const ContactForm = ({ requestedProduct = "" }: ContactFormProps) => {
 				)}
 				<div className="input-container">
 					<label className="contact-label" htmlFor="quantity">
-						{t("quantity")}
+						{t("contactForm.quantity")}
 					</label>
 					<input
 						onChange={(e) => handleForm(e.target.name, e.target.value)}
@@ -176,7 +188,7 @@ const ContactForm = ({ requestedProduct = "" }: ContactFormProps) => {
 				</div>
 				<div className="input-container textarea-container">
 					<label className="contact-label" htmlFor="message">
-						{t("message")}
+						{t("contactForm.message")}
 						<span style={{ color: "#f00" }} aria-hidden="true">
 							*
 						</span>
@@ -196,12 +208,12 @@ const ContactForm = ({ requestedProduct = "" }: ContactFormProps) => {
 				</div>
 				<div style={{ display: "flex", flexDirection: "column", gap: "5px" }}>
 					<p style={{ fontWeight: "500" }}>
-						{t("paymentTerms.title")}
+						{t("contactForm.paymentTerms.title")}
 						<span style={{ color: "#f00" }} aria-hidden="true">
 							*
 						</span>
 					</p>
-					<p>{t("paymentTerms.description")}</p>
+					<p>{t("contactForm.paymentTerms.description")}</p>
 					<div className="contact-form__cb-container">
 						<input
 							className="contact-form__cb"
@@ -213,7 +225,7 @@ const ContactForm = ({ requestedProduct = "" }: ContactFormProps) => {
 							onChange={(e) => setPaymentTermsCheck(e.target.checked)}
 						/>
 						<label style={{ fontWeight: 500 }} htmlFor="payment-terms">
-							{t("paymentTerms.cbLabel")}
+							{t("contactForm.paymentTerms.cbLabel")}
 						</label>
 					</div>
 				</div>
@@ -222,17 +234,17 @@ const ContactForm = ({ requestedProduct = "" }: ContactFormProps) => {
 					type="submit"
 					disabled={loading}
 				>
-					{loading ? t("sending") : t("submit")}
+					{loading ? t("contactForm.sending") : t("contactForm.submit")}
 				</button>
 			</form>
 			{success && (
 				<div className="success-modal">
-					<p>{t("success")}</p>
+					<p>{t("contactForm.success")}</p>
 					<button
 						onClick={() => setSuccess(false)}
 						className="success-btn btn--bold"
 					>
-						{t("close")}
+						{t("contactForm.close")}
 					</button>
 				</div>
 			)}
