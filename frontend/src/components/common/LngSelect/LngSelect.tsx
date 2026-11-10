@@ -11,6 +11,7 @@ const languages = [
 	{ code: "en", name: "EN", fullName: "English" },
 	{ code: "cs", name: "CZ", fullName: "Čeština" },
 	{ code: "de", name: "DE", fullName: "Deutsch" },
+	{ code: "pl", name: "PL", fullName: "Polski" },
 ];
 
 const LngSelect = () => {

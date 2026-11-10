@@ -9,7 +9,7 @@ import "./ContactForm.scss";
 
 type ContactFormProps = {
 	requestedProduct?: string;
-	heading: string;
+	heading?: string;
 };
 
 const ContactForm = ({

@@ -1,0 +1,1657 @@
+{
+	"contact_us": "Kontakt",
+	"berries_title": "Jagody",
+	"fruits_title": "Owoce",
+	"vegetables_title": "Warzywa",
+	"mushrooms_title": "Grzyby",
+	"certificates_title": "Certyfikaty",
+	"business_hours_title": "Godziny pracy",
+	"mon": "Poniedziałek",
+	"tue": "Wtorek",
+	"wed": "Środa",
+	"thu": "Czwartek",
+	"fri": "Piątek",
+	"sat": "Sobota",
+	"sun": "Niedziela",
+	"closed": "Zamknięte",
+	"gallery_title": "Galeria",
+	"harvest_calendar": "Kalendarz zbiorów",
+	"jan": "Styczeń",
+	"feb": "Luty",
+	"mar": "Marzec",
+	"apr": "Kwiecień",
+	"may": "Maj",
+	"jun": "Czerwiec",
+	"jul": "Lipiec",
+	"aug": "Sierpień",
+	"sep": "Wrzesień",
+	"oct": "Październik",
+	"nov": "Listopad",
+	"dec": "Grudzień",
+	"company_name": "Yagoda Karpat",
+	"companyFullName": "Yagoda Karpat LLC",
+	"copied": "Skopiowano",
+	"all": "Wszystkie",
+	"all_rights_reserved": "Wszelkie prawa zastrzeżone",
+	"requestPrice": "Zapytaj o cenę",
+	"requestAvailability": "Zapytaj o dostępność",
+	"companyCode": "Numer rejestracyjny firmy",
+	"downloadCertificate": "Pobierz certyfikat",
+	"learnMore": "Dowiedz się więcej",
+	"availableNow": "Dostępne teraz",
+	"nav": {
+		"home": "Strona główna",
+		"aboutUs": "O nas",
+		"products": "Produkty",
+		"forSuppliers": "Dla dostawców",
+		"blog": "Blog",
+		"contacts": "Kontakt"
+	},
+	"header": {
+		"openMenu": "Otwórz menu",
+		"closeMenu": "Zamknij menu"
+	},
+	"home": {
+		"meta": {
+			"title": "Mrożone IQF owoce, warzywa i grzyby | Dostawca dla Europy",
+			"description": "Sprawdzony dostawca mrożonych IQF jagód, owoców, warzyw i grzybów dla producentów żywności, przetwórców i hurtowni w Europie. Certyfikowana jakość, cały rok."
+		},
+		"title": "Mrożone i suszone jagody, owoce, grzyby i warzywa – producent i eksporter z Karpat",
+		"sec_title": "Produkujemy i dostarczamy wysokiej jakości mrożone i suszone jagody, owoce, grzyby i warzywa",
+		"viewProducts": "Zobacz produkty",
+		"requestPriceList": "Poproś o cennik",
+		"availableProducts": {
+			"heading": "Dostępne produkty",
+			"subheading": "Poznaj naszą ofertę wysokiej jakości mrożonych IQF jagód, owoców i warzyw dostępnych w eksporcie hurtowym do całej Europy."
+		},
+		"viewAllProducts": "Zobacz wszystkie produkty"
+	},
+	"cookieBanner": {
+		"title": "Używamy plików cookie",
+		"description": "Używamy plików cookie, aby strona działała poprawnie oraz aby rozumieć, jak korzystają z niej odwiedzający, i dzięki temu ją ulepszać. Możesz zaakceptować wszystkie pliki cookie lub kontynuować tylko z niezbędnymi.",
+		"rejectAll": "Odrzuć wszystkie",
+		"acceptAll": "Akceptuj wszystkie"
+	},
+	"about_us": {
+		"description": [
+			"Jesteśmy rodzinną firmą prywatną z ponad dziesięcioletnim doświadczeniem w przemysłowym przetwórstwie i eksporcie mrożonych i suszonych jagód, owoców, grzybów i warzyw. Od 2010 roku budujemy naszą działalność wokół jednej zasady: dostarczać stałą, certyfikowaną jakość w dużej skali dla międzynarodowych partnerów B2B. Od ręcznie zbieranych surowców po zaawansowane technologie przetwórstwa – każdy etap naszej produkcji jest zaprojektowany tak, aby spełniać oczekiwania wymagających rynków europejskich.",
+			"Wszystkie nasze produkty są uprawiane i zbierane wyłącznie w ekologicznie czystych regionach Ukrainy, gdzie sprzyjające warunki klimatyczne i wieloletnie tradycje rolnicze zapewniają wysoką jakość surowców. Ściśle współpracujemy ze sprawdzonymi rolnikami i starannie kontrolujemy proces zbioru, aby zachować naturalny smak, barwę i wartości odżywcze naszych produktów. W zależności od rodzaju produktu i wymagań klienta stosujemy mrożenie IQF, suszenie na słońcu lub suszenie w specjalistycznych komorach suszarniczych.",
+			"Jakość i bezpieczeństwo żywności to fundament naszej działalności. Nasze zakłady działają w pełnej zgodności z międzynarodowymi standardami, w tym HACCP, ISO oraz certyfikacją ekologiczną. Dzięki temu jesteśmy nie tylko dostawcą, ale też wiarygodnym, długoterminowym partnerem dla kupujących z UE, którzy szukają przejrzystości, elastyczności i pewnych wolumenów. Łączymy rodzinną własność z przemysłową precyzją – dostarczamy naturalne produkty, którym można ufać, sezon po sezonie."
+		],
+		"years": "lat doświadczenia",
+		"products": "naturalnych produktów",
+		"employees": "pracowników",
+		"exportCountries": "krajów eksportu",
+		"map_title": "Dokąd dostarczamy nasze produkty"
+	},
+	"gallery": [
+		"Ciężarówka załadowana mrożonymi IQF jagodami leśnymi w workach papierowych 25 kg, gotowa do eksportu",
+		"Etap czyszczenia i sortowania mrożonej IQF borówki brusznicy w zakładzie przetwórczym",
+		"Mrożone IQF borówki zapakowane w oktabiny do hurtowego eksportu B2B",
+		"Skup świeżych owoców dzikiej róży – pozyskiwanie surowca do przetwórstwa IQF"
+	],
+	"products": {
+		"meta": {
+			"title": "Mrożone IQF jagody, owoce, warzywa i grzyby | Dostawca B2B",
+			"description": "Poznaj naszą ofertę mrożonych IQF jagód, owoców, warzyw i grzybów. Rzetelny dostawca B2B dla producentów żywności, przetwórców i hurtowni w Europie."
+		},
+		"title": "Wszystkie produkty",
+		"filter_placeholder": "Jakiego produktu szukasz?",
+		"productNotFound": "Nie znaleziono produktu",
+		"productDetails": "Szczegóły produktu"
+	},
+	"blogSection": {
+		"heading": "Z naszego bloga",
+		"subheading": "Praktyczne poradniki i porównania produktów dla producentów żywności kupujących mrożone i suszone jagody, owoce i grzyby.",
+		"viewAll": "Zobacz wszystkie artykuły"
+	},
+	"blog": {
+		"meta": {
+			"title": "Blog – poradniki zakupowe B2B: mrożone i suszone owoce",
+			"description": "Poradniki, porównania produktów i wskazówki zakupowe dla producentów żywności kupujących mrożone IQF i suszone jagody, owoce i grzyby leśne z Karpat."
+		},
+		"heading": "Wiedza dla producentów żywności i importerów",
+		"subheading": "Porównania produktów, listy kontrolne dla kupców i know-how przetwórcze od dostawcy jagód i grzybów z Karpat."
+	},
+	"wildBilberryVsCultivatedBlueberry": {
+		"meta": {
+			"title": "Jagoda leśna a borówka amerykańska: poradnik dla kupców B2B",
+			"description": "Dlaczego jagoda leśna jest ciemnofioletowa aż do środka, a borówka amerykańska jasna w środku – i co to oznacza dla barwy, smaku i antocyjanów w przetwórstwie.",
+			"category": "Porównania produktów"
+		},
+		"slug": "wild-bilberry-vs-cultivated-blueberry",
+		"readingTime": "6 min",
+		"heading": "Jagoda leśna a borówka amerykańska: dlaczego barwa przenika cały owoc",
+		"description": "W opakowaniu wyglądają podobnie, ale dla kupca przemysłowego jagoda leśna i borówka amerykańska to dwa różne surowce. Różnica dosłownie sięga głębiej niż skórka.",
+		"body": {
+			"intro": "Dla konsumenta jagoda leśna i borówka amerykańska to ten sam mały niebieskofioletowy owoc. Dla producenta żywności zachowują się zupełnie inaczej – pod względem wydajności barwy, intensywności smaku i kosztu jednostki antocyjanów. Wystarczy przekroić oba owoce, by w sekundę zobaczyć powód: borówka amerykańska jest w środku bladozielonkawa, a jagoda leśna – głęboko fioletowa aż do samego środka. W tym artykule wyjaśniamy, dlaczego ma to znaczenie w przetwórstwie i kiedy który owoc jest właściwym wyborem.",
+			"sections": {
+				"heading1": "Dwa różne gatunki",
+				"text1": "Mimo podobnych nazw są to botanicznie odrębne rośliny. Jagoda leśna, czyli borówka czarna (Vaccinium myrtillus), rośnie nisko przy ziemi w lasach północnych i górskich i nie da się jej uprawiać komercyjnie na dużą skalę – jest rzeczywiście zbierana ze stanu naturalnego. Borówka sprzedawana w supermarketach to zwykle borówka wysoka, zwana amerykańską (Vaccinium corymbosum), hodowana na plantacjach pod kątem wielkości, jędrności i trwałości. Ten sam rodzaj, inny owoc – a różnica ujawnia się dokładnie tam, gdzie zależy na niej przetwórcy.",
+				"heading2": "Dlaczego barwa przenika cały owoc",
+				"text2": "Niebieski kolor borówki amerykańskiej znajduje się niemal wyłącznie w skórce; miąższ pod nią jest jasny. W jagodzie leśnej barwniki antocyjanowe nasycają cały owoc – zarówno skórkę, jak i miąższ. Dlatego rozgnieciona jagoda leśna barwi palce, ciasto i jogurt na głęboki fiolet, a rozgnieciona borówka amerykańska daje znacznie słabszy odcień. Dla każdego produktu, w którym liczy się widoczna barwa – nadzień, wsadów do nabiału, soków, ekstraktów – to najważniejsza praktyczna różnica między nimi.",
+				"heading3": "Zawartość antocyjanów i dlaczego kupujący za nią płacą",
+				"text3": "Ponieważ barwnik przenika cały owoc, jagody leśne zawierają w kilogramie znacznie więcej antocyjanów niż większość borówek uprawnych. Dla branży nutraceutyków i naturalnych barwników to sedno sprawy: kupuje się siłę barwiącą i zawartość polifenoli, a nie tylko owoc. Mniejsza ilość jagód leśnych daje barwę i wartość funkcjonalną, do których uzyskania potrzeba by znacznie więcej borówki amerykańskiej – a to zmienia rzeczywiste porównanie kosztów daleko poza cenę za kilogram.",
+				"heading4": "Smak i tekstura",
+				"text4": "Jagody leśne są mniejsze, bardziej miękkie i mają intensywniejszy smak – skoncentrowany, lekko cierpki smak leśnych owoców. Borówki amerykańskie są większe, jędrniejsze i łagodniejsze, zawierają więcej wody. W handlu owocami świeżymi i przy prezentacji całych owoców jędrność i wielkość są zaletą. W przetwórstwie na nadzienia, przeciery, soki i ekstrakty – gdzie owoc i tak zostaje rozdrobniony – wygrywa intensywność jagody leśnej.",
+				"heading5": "Który surowiec wybrać?",
+				"text5": "Wybierz borówkę amerykańską, gdy potrzebujesz dużych, jednolitych, jędrnych całych owoców, które zachowują kształt i atrakcyjnie wyglądają na wierzchu produktu. Wybierz jagody leśne, gdy o efekcie końcowym decyduje głębia barwy, intensywność smaku lub zawartość antocyjanów – nadzienia piekarnicze, nabiał, dżemy, soki, koncentraty i ekstrakty. Wielu producentów używa obu, do różnych linii. Błędem jest traktowanie ich w specyfikacji jako zamienników, skoro wewnątrz owocu wyraźnie nimi nie są."
+			},
+			"cta": {
+				"text": "Dostarczamy mrożone IQF jagody leśne (Vaccinium myrtillus), zbierane ręcznie w ukraińskich Karpatach – ciemnofioletowe aż do środka, z zawartością antocyjanów, na której polegają kupcy przemysłowi. Certyfikaty HACCP i ekologiczny, MOQ 500 kg, FCA/DAP/DDP w całej UE.",
+				"productLinkLabel": "Zobacz mrożone IQF jagody leśne"
+			}
+		}
+	},
+	"harvestCalendar": {
+		"meta": {
+			"title": "Kalendarz zbiorów w Ukrainie: jagody, grzyby, owoce",
+			"description": "Kiedy dojrzewają uprawy w Ukrainie – średnie terminy zbiorów jagód, grzybów i owoców. Jak kupcy B2B mogą planować zakupy i wcześnie rezerwować deficytowy towar.",
+			"category": "Planowanie zakupów"
+		},
+		"readingTime": "5 min",
+		"heading": "Kalendarz zbiorów w Ukrainie: kiedy dojrzewają jagody, grzyby i owoce",
+		"description": "Dla kupca przemysłowego sezonowość to podstawa planowania. Ten kalendarz pokazuje średnie terminy zbiorów głównych upraw w Ukrainie i wyjaśnia, jak wpływają one na zakupy.",
+		"body": {
+			"intro": "Wiedza o tym, kiedy dojrzewa każda uprawa, pozwala zamawiać w szczycie jakości, zabezpieczyć ceny przed wzrostem popytu i uniknąć braków surowca w trakcie produkcji. Poniżej przedstawiamy średnie terminy zbiorów głównych upraw w Ukrainie oraz sposób wykorzystania tego kalendarza w planowaniu zakupów.",
+			"sections": {
+				"whyHeading": "Dlaczego termin zbioru ma znaczenie nawet dla produktu mrożonego",
+				"whyText": "Mogłoby się wydawać, że mrożenie IQF usuwa kwestię sezonowości – produkt jest dostępny z magazynu przez cały rok. Jednak jakość mrożonej partii jest ustalana w chwili zbioru: owoc zamrożony w szczycie dojrzałości zachowuje barwę, smak i składniki odżywcze; zebrany poza szczytem – nie. Znajomość kalendarza zbiorów oznacza wiedzę, która partia będzie najlepsza – i kiedy ją zarezerwować, zanim świeże zbiory zostaną rozdysponowane. Do tego wolumen każdego sezonu jest ograniczony plonem: kto kontraktuje wcześnie, otrzymuje lepszą cenę i gwarantowaną ilość; kto późno – bierze to, co zostało.",
+				"summerHeading": "Lato – szczyt sezonu jagodowego",
+				"summerText": "Najbardziej intensywny okres. Większość jagód dziko rosnących i uprawnych zbiera się latem. To czas, gdy jakość i dostępność są najwyższe – i gdy warto rezerwować wolumeny z rocznym wyprzedzeniem.",
+				"lateSummerHeading": "Późne lato i wczesna jesień: brusznica, grzyby, późne owoce",
+				"lateSummerText": "Dojrzewają późne owoce i zaczyna się sezon grzybowy. Grzyby leśne to kategoria najbardziej zależna od pogody: plony zmieniają się z roku na rok, dlatego wczesny kontakt ma tu największe znaczenie.",
+				"autumnHeading": "Jesień – późne jagody",
+				"autumnText": "Ostatnie pozycje sezonu, które zyskują na wartości po pierwszych przymrozkach.",
+				"howToUseHeading": "Jak korzystać z kalendarza przy zakupach",
+				"howToUseText": "Planuj zamówienia według sezonu zbiorów, a nie momentu zapotrzebowania: letnie jagody kontraktuj wiosną, jesienne grzyby latem. Deficytowe pozycje rezerwuj wcześnie – jagody leśne, borowiki i kurki mają ograniczone, zależne od pogody plony i znikają jako pierwsze. Potwierdzaj dostępność dla każdego produktu – podajemy aktualne terminy zbiorów i stany magazynowe dla każdej pozycji, aby ułatwić planowanie."
+			},
+			"crop": {
+				"strawberry": "Truskawki",
+				"bilberry": "Jagody leśne",
+				"raspberry": "Maliny",
+				"blackcurrant": "Czarna porzeczka",
+				"sourCherry": "Wiśnie",
+				"elderberry": "Czarny bez",
+				"apricot": "Morele",
+				"lingonberry": "Borówka brusznica",
+				"plum": "Śliwki",
+				"aronia": "Aronia",
+				"porcini": "Borowiki",
+				"chanterelle": "Kurki",
+				"honeyMushroom": "Opieńki",
+				"roseHip": "Dzika róża"
+			},
+			"month": {
+				"strawberry": "czerwiec–lipiec",
+				"bilberry": "czerwiec–sierpień",
+				"raspberry": "lipiec–sierpień",
+				"blackcurrant": "lipiec",
+				"sourCherry": "lipiec",
+				"elderberry": "sierpień",
+				"apricot": "lipiec–sierpień",
+				"lingonberry": "sierpień–wrzesień",
+				"plum": "sierpień–wrzesień",
+				"aronia": "wrzesień",
+				"porcini": "szczyt: sierpień–wrzesień",
+				"chanterelle": "lato–jesień",
+				"honeyMushroom": "wrzesień–listopad",
+				"roseHip": "wrzesień–październik"
+			},
+			"cta": {
+				"text": "Yagoda Karpat dostarcza mrożone IQF i suszone surowce z ukraińskich Karpat – zbierane w szczycie sezonu pod kontrolą jakości. Certyfikaty HACCP i ekologiczny, MOQ 500 kg, FCA/DAP/DDP w całej UE.",
+				"productLinkLabel": "Zobacz wszystkie produkty"
+			}
+		}
+	},
+	"frozenBilberries": {
+		"meta": {
+			"title": "Mrożone jagody leśne IQF | Dostawca hurtowy z Ukrainy",
+			"description": "Mrożone IQF jagody leśne (Vaccinium myrtillus), zbierane ręcznie w ukraińskich Karpatach. HACCP, partie ekologiczne, MOQ 500 kg. FCA, DAP i DDP w całej UE."
+		},
+		"heading": "Mrożone jagody leśne (IQF)",
+		"description": [
+			"Wysokiej jakości mrożone IQF jagody leśne (borówka czarna, Vaccinium myrtillus), zbierane ręcznie w czystych lasach ukraińskich Karpat i przetwarzane dla profesjonalnych producentów żywności, dystrybutorów i odbiorców surowców w całej Unii Europejskiej.",
+			"W odróżnieniu od borówki amerykańskiej jagody leśne są naturalnie ciemnofioletowe w całym przekroju owocu. Ich miąższ zawiera naturalne antocyjany, które nadają jagodom charakterystyczną głęboką barwę, intensywny smak leśnych owoców i dużą naturalną siłę barwiącą. Dzięki temu ukraińskie jagody leśne szczególnie dobrze sprawdzają się tam, gdzie liczą się autentyczny smak, naturalna barwa i jakość owoców.",
+			"Nasze jagody leśne są indywidualnie szybko mrożone (IQF) w szczycie dojrzałości, aby zachować naturalną strukturę, barwę, smak i wartości odżywcze. Po zamrożeniu pozostają sypkie, co ułatwia obsługę i bezpośrednie wykorzystanie w produkcji przemysłowej.",
+			"Produkt jest sortowany i czyszczony; szypułki, liście i widoczne zanieczyszczenia obce są usuwane zgodnie z uzgodnioną specyfikacją klienta. Pełna identyfikowalność partii jest zapewniona od miejsca zbioru przez przetwórstwo po gotową paletę.",
+			"Zbiory jagód leśnych w ukraińskich Karpatach trwają od lipca do sierpnia, ze szczytem w sierpniu; w wyższych partiach gór zbiór może trwać do września. Dokładny termin zależy co roku od pogody i wysokości nad poziomem morza. Poza sezonem produkt jest dostępny z zapasów mrożonych z bieżących zbiorów – skontaktuj się z nami, aby poznać aktualne ilości i terminy załadunku."
+		],
+		"specs": {
+			"product": "Mrożone IQF jagody leśne",
+			"botanicalName": "Vaccinium myrtillus",
+			"origin": "Ukraina",
+			"harvesting": "Dziko rosnące jagody zbierane ręcznie",
+			"environment": "Lasy ukraińskich Karpat",
+			"processing": "Indywidualne szybkie mrożenie (IQF)",
+			"colour": "Naturalna, głęboka fioletowa",
+			"fruit": "Jagoda leśna o naturalnie zabarwionym miąższu",
+			"cleaning": "Sortowane i czyszczone; usunięte szypułki, liście i zanieczyszczenia obce",
+			"storage": "–18 °C lub niżej",
+			"packaging": "Wielowarstwowe worki papierowe 25 kg lub oktabiny przemysłowe 400 kg",
+			"moq": "500 kg",
+			"traceability": "Identyfikowalność partii od zbioru do gotowego produktu",
+			"foodSafety": "Przetwórstwo zgodne z zasadami HACCP",
+			"organic": "Partie z certyfikatem ekologicznym na zapytanie, w miarę dostępności",
+			"delivery": "Cała UE",
+			"incoterms": "FCA, DAP lub DDP",
+			"documents": "Pełna dokumentacja eksportowa i przewozowa"
+		},
+		"applications": [
+			"Nadzienia piekarnicze, wyroby cukiernicze i polewy owocowe",
+			"Jogurty i produkty mleczne",
+			"Lody i desery mrożone",
+			"Dżemy, konfitury i wsady owocowe",
+			"Smoothie, soki i napoje owocowe",
+			"Sosy owocowe i przeciery",
+			"Wyroby cukiernicze i czekoladowe",
+			"Produkty śniadaniowe i płatki zbożowe",
+			"Składniki spożywcze i przetwory owocowe",
+			"Nutraceutyki i żywność funkcjonalna",
+			"Ekstrakty bogate w antocyjany i naturalne barwniki"
+		]
+	},
+	"frozenLingonberries": {
+		"meta": {
+			"title": "Mrożona borówka brusznica IQF | Dostawca hurtowy z Ukrainy",
+			"description": "Mrożona IQF borówka brusznica (Vaccinium vitis-idaea) z ukraińskich Karpat, hurt. HACCP i certyfikat ekologiczny, MOQ 500 kg. Eksport FCA/DAP/DDP do UE."
+		},
+		"heading": "Mrożona borówka brusznica (IQF)",
+		"description": [
+			"Wysokiej jakości mrożona IQF dziko rosnąca borówka brusznica (Vaccinium vitis-idaea), zbierana ręcznie w czystych lasach i na górskich zboczach ukraińskich Karpat i przetwarzana dla profesjonalnych producentów żywności, dystrybutorów i odbiorców surowców.",
+			"Brusznicę często myli się z żurawiną, ale to różne owoce: brusznica jest mniejsza i jaskrawoczerwona, o charakterystycznym cierpkim, lekko gorzkawym smaku. Naturalnie zawiera kwas benzoesowy – naturalny konserwant, który pomaga owocom zachować jakość i stabilność podczas przetwórstwa. Dzięki temu brusznica jest szczególnie ceniona w sosach, dżemach i napojach, w których liczą się wyrazisty smak i czysta receptura bez konserwantów.",
+			"Owoce są indywidualnie szybko mrożone (IQF) w szczycie dojrzałości, aby zachować naturalną strukturę, barwę, smak i wartości odżywcze. Po zamrożeniu pozostają sypkie, co ułatwia obsługę i bezpośrednie wykorzystanie w produkcji przemysłowej.",
+			"Produkt jest sortowany i czyszczony; szypułki, liście i widoczne zanieczyszczenia obce są usuwane zgodnie z uzgodnioną specyfikacją klienta. Pełna identyfikowalność partii jest zapewniona od miejsca zbioru przez przetwórstwo po gotową paletę.",
+			"Zbiory dziko rosnącej brusznicy w ukraińskich Karpatach trwają od sierpnia do września, ze szczytem pod koniec sierpnia i we wrześniu; w wyższych partiach gór zbiór może trwać do października. Dokładny termin zależy co roku od pogody i wysokości nad poziomem morza. Poza sezonem produkt jest dostępny z zapasów mrożonych z bieżących zbiorów – skontaktuj się z nami, aby poznać aktualne ilości i terminy załadunku."
+		],
+		"specs": {
+			"product": "Mrożona IQF dziko rosnąca borówka brusznica",
+			"botanicalName": "Vaccinium vitis-idaea",
+			"origin": "Ukraina",
+			"harvesting": "Dziko rosnące jagody zbierane ręcznie",
+			"environment": "Lasy i górskie zbocza ukraińskich Karpat",
+			"processing": "Indywidualne szybkie mrożenie (IQF)",
+			"colour": "Naturalna, jaskrawoczerwona",
+			"fruit": "Dziko rosnąca brusznica o cierpkim, lekko gorzkawym smaku",
+			"cleaning": "Sortowane i czyszczone; usunięte szypułki, liście i zanieczyszczenia obce",
+			"storage": "–18 °C lub niżej",
+			"packaging": "Wielowarstwowe worki papierowe 25 kg lub oktabiny przemysłowe 400 kg",
+			"moq": "500 kg",
+			"traceability": "Identyfikowalność partii od zbioru do gotowego produktu",
+			"foodSafety": "Przetwórstwo zgodne z zasadami HACCP",
+			"organic": "Partie z certyfikatem ekologicznym na zapytanie, w miarę dostępności",
+			"delivery": "Cała UE",
+			"incoterms": "FCA, DAP lub DDP",
+			"documents": "Pełna dokumentacja eksportowa i przewozowa"
+		},
+		"applications": [
+			"Sosy do mięs i dziczyzny",
+			"Dżemy, konfitury i powidła",
+			"Soki, napoje jagodowe i owocowe",
+			"Nadzienia piekarnicze i wyroby cukiernicze",
+			"Jogurty i produkty mleczne",
+			"Przeciery i wsady owocowe",
+			"Syropy, likiery i nalewki",
+			"Produkty śniadaniowe i płatki zbożowe",
+			"Składniki spożywcze i przetwory owocowe",
+			"Nutraceutyki i żywność funkcjonalna",
+			"Ekstrakty bogate w polifenole i naturalne barwniki"
+		]
+	},
+	"frozenRoseHips": {
+		"meta": {
+			"title": "Mrożone owoce dzikiej róży IQF | Dostawca hurtowy z Ukrainy",
+			"description": "Mrożone IQF owoce dzikiej róży (Rosa canina), bogate w witaminę C, z ukraińskich Karpat. HACCP i certyfikat ekologiczny, MOQ 500 kg. FCA/DAP/DDP do UE."
+		},
+		"heading": "Mrożone owoce dzikiej róży (IQF)",
+		"description": [
+			"Wysokiej jakości mrożone IQF owoce dzikiej róży (Rosa canina), zbierane ręcznie na ekologicznie czystych terenach ukraińskich Karpat i przetwarzane dla profesjonalnych producentów żywności, napojów i suplementów diety oraz odbiorców surowców.",
+			"Owoce dzikiej róży to jedno z najbogatszych naturalnych źródeł witaminy C – zawierają jej kilkakrotnie więcej niż owoce cytrusowe. Zawierają też karotenoidy, polifenole i pektyny, mają jaskrawą czerwonopomarańczową barwę i przyjemny słodko-cierpki smak. Dzięki temu dzika róża jest kluczowym surowcem do herbat, syropów, napojów i produktów witaminowych, w których liczą się naturalne pochodzenie i wartość funkcjonalna.",
+			"Owoce są indywidualnie szybko mrożone (IQF) w szczycie dojrzałości, aby zachować strukturę, barwę, smak i składniki odżywcze, w tym wrażliwą na ciepło witaminę C. Po zamrożeniu pozostają sypkie, co ułatwia obsługę i bezpośrednie wykorzystanie w produkcji przemysłowej.",
+			"Produkt jest sortowany i czyszczony; szypułki, resztki zaschniętych działek kielicha i widoczne zanieczyszczenia obce są usuwane zgodnie z uzgodnioną specyfikacją klienta. Owoce dostarczamy w całości, z nasionami; do przecierów, sosów i dżemów przeciera się je, aby oddzielić nasiona i włoski. Pełna identyfikowalność partii jest zapewniona od miejsca zbioru przez przetwórstwo po gotową paletę.",
+			"Zbiory dzikiej róży w ukraińskich Karpatach trwają od września do października. Owoce tradycyjnie zbiera się w pełnej dojrzałości, a najsmaczniejsze – po pierwszych przymrozkach, gdy miękną i stają się słodsze. Dokładny termin zależy co roku od pogody i wysokości nad poziomem morza. Poza sezonem produkt jest dostępny z zapasów mrożonych z bieżących zbiorów – skontaktuj się z nami, aby poznać aktualne ilości i terminy załadunku."
+		],
+		"specs": {
+			"product": "Mrożone IQF owoce dzikiej róży",
+			"botanicalName": "Rosa canina",
+			"origin": "Ukraina",
+			"harvesting": "Dziko rosnące owoce zbierane ręcznie",
+			"environment": "Ekologicznie czyste tereny ukraińskich Karpat",
+			"processing": "Indywidualne szybkie mrożenie (IQF)",
+			"colour": "Naturalna, czerwonopomarańczowa",
+			"fruit": "Całe owoce dzikiej róży z nasionami",
+			"cleaning": "Sortowane i czyszczone; usunięte szypułki, działki kielicha i zanieczyszczenia obce",
+			"storage": "–18 °C lub niżej",
+			"packaging": "Wielowarstwowe worki papierowe 25 kg lub oktabiny przemysłowe 400 kg",
+			"moq": "500 kg",
+			"traceability": "Identyfikowalność partii od zbioru do gotowego produktu",
+			"foodSafety": "Przetwórstwo zgodne z zasadami HACCP",
+			"organic": "Partie z certyfikatem ekologicznym na zapytanie, w miarę dostępności",
+			"delivery": "Cała UE",
+			"incoterms": "FCA, DAP lub DDP",
+			"documents": "Pełna dokumentacja eksportowa i przewozowa"
+		},
+		"applications": [
+			"Herbaty i napary ziołowe",
+			"Syropy i napoje witaminowe",
+			"Soki, nektary i napoje owocowe",
+			"Dżemy, przeciery i wsady owocowe",
+			"Sosy i chutneye",
+			"Suplementy diety i kompleksy witaminowe",
+			"Ekstrakty bogate w witaminę C",
+			"Żywność dla niemowląt i dzieci",
+			"Galaretki owocowe i desery",
+			"Likiery i nalewki",
+			"Składniki spożywcze i produkty funkcjonalne"
+		]
+	},
+	"frozenPlums": {
+		"meta": {
+			"title": "Mrożone śliwki IQF | Dostawca hurtowy z Ukrainy",
+			"description": "Mrożone IQF śliwki z sadów ukraińskich Karpat – całe, połówki lub bez pestek. HACCP i certyfikat ekologiczny, MOQ 500 kg. Eksport hurtowy FCA/DAP/DDP do UE."
+		},
+		"heading": "Mrożone śliwki (IQF)",
+		"description": [
+			"Wysokiej jakości mrożone IQF śliwki (Prunus domestica), uprawiane w sadach Zakarpacia i przetwarzane dla profesjonalnych producentów żywności, dystrybutorów i odbiorców surowców.",
+			"Śliwki mają ciemnoniebieską skórkę, jędrny żółtozielony miąższ i zrównoważony słodko-kwaśny smak. Dzięki wysokiej zawartości pektyn i zwartej teksturze dobrze zachowują kształt podczas pieczenia i łatwo rozgotowują się do gęstej konsystencji. Dlatego śliwki szczególnie dobrze nadają się do nadzień, powideł, dżemów i sosów, w których liczą się pełny smak i stabilna struktura.",
+			"Owoce są indywidualnie szybko mrożone (IQF) w szczycie dojrzałości, aby zachować strukturę, barwę, smak i składniki odżywcze. Po zamrożeniu pozostają sypkie, co ułatwia obsługę, precyzyjne dozowanie i bezpośrednie wykorzystanie w produkcji przemysłowej.",
+			"W zależności od wymagań produkcyjnych śliwki dostarczamy całe, w połówkach lub bez pestek. Produkt jest sortowany i czyszczony; szypułki, liście i widoczne zanieczyszczenia obce są usuwane zgodnie z uzgodnioną specyfikacją klienta. Pełna identyfikowalność partii jest zapewniona od sadu przez przetwórstwo po gotową paletę.",
+			"Zbiory śliwek na Zakarpaciu trwają od sierpnia do września, ze szczytem pod koniec sierpnia. Dokładny termin zależy co roku od pogody i odmiany. Poza sezonem produkt jest dostępny z zapasów mrożonych z bieżących zbiorów – skontaktuj się z nami, aby poznać aktualne ilości i terminy załadunku."
+		],
+		"specs": {
+			"product": "Mrożone IQF śliwki",
+			"botanicalName": "Prunus domestica",
+			"origin": "Ukraina",
+			"harvesting": "Zbiór w sadach w pełnej dojrzałości",
+			"environment": "Sady Zakarpacia",
+			"processing": "Indywidualne szybkie mrożenie (IQF)",
+			"colour": "Ciemnoniebieska skórka, żółtozielony miąższ",
+			"fruit": "Całe, połówki lub bez pestek",
+			"cleaning": "Sortowane i czyszczone; usunięte szypułki, liście i zanieczyszczenia obce",
+			"storage": "–18 °C lub niżej",
+			"packaging": "Wielowarstwowe worki papierowe 25 kg lub kartony 10 kg",
+			"moq": "500 kg",
+			"traceability": "Identyfikowalność partii od zbioru do gotowego produktu",
+			"foodSafety": "Przetwórstwo zgodne z zasadami HACCP",
+			"organic": "Partie z certyfikatem ekologicznym na zapytanie, w miarę dostępności",
+			"delivery": "Cała UE",
+			"incoterms": "FCA, DAP lub DDP",
+			"documents": "Pełna dokumentacja eksportowa i przewozowa"
+		},
+		"applications": [
+			"Nadzienia piekarnicze, ciasta i placki",
+			"Powidła, dżemy i konfitury",
+			"Sosy owocowe i chutneye",
+			"Przeciery i wsady owocowe",
+			"Kompoty i napoje owocowe",
+			"Jogurty i produkty mleczne",
+			"Lody i desery mrożone",
+			"Wyroby cukiernicze",
+			"Żywność dla niemowląt i dzieci",
+			"Dania gotowe i żywność wygodna",
+			"Składniki spożywcze i przetwory owocowe"
+		]
+	},
+	"driedPlums": {
+		"meta": {
+			"title": "Suszone śliwki całe z pestką | Dostawca hurtowy z Ukrainy",
+			"description": "Suszone śliwki całe z sadów Karpat – z pestką, suszone naturalnie, bez dodatków i gliceryny. HACCP i certyfikat ekologiczny, MOQ 500 kg. FCA/DAP/DDP do UE."
+		},
+		"heading": "Naturalnie suszone śliwki całe",
+		"description": [
+			"Suszone śliwki (Prunus domestica) z sadów Zakarpacia – całe owoce z pestką, suszone naturalnie, bez jakiejkolwiek obróbki chemicznej. Produkt jest przygotowywany dla profesjonalnych producentów żywności, dystrybutorów i odbiorców surowców.",
+			"To nie są typowe miękkie śliwki kalifornijskie. Większość przemysłowych suszonych śliwek poddaje się działaniu gliceryny, konserwantów lub pary, aby były miękkie i błyszczące. Nasze suszone śliwki nie zawierają żadnych dodatków: gliceryny, konserwantów, cukru ani barwników. Dzięki naturalnemu suszeniu mają bardziej zwartą teksturę, pełny naturalny smak i skład typu clean label, ceniony przez producentów zdrowej i tradycyjnej żywności.",
+			"Śliwki suszy się w całości, z pestką, co pomaga zachować ich kształt, wewnętrzną soczystość i naturalny aromat. Wilgotność jest kontrolowana, co zapewnia stałą jakość i długi termin przydatności bez konserwantów.",
+			"Produkt jest sortowany i czyszczony; szypułki, uszkodzone owoce i widoczne zanieczyszczenia obce są usuwane zgodnie z uzgodnioną specyfikacją klienta. Pełna identyfikowalność partii jest zapewniona od sadu przez suszenie po gotową paletę.",
+			"Śliwki do suszenia zbiera się na Zakarpaciu w sierpniu–wrześniu, w pełnej dojrzałości, gdy owoce zgromadziły najwięcej naturalnego cukru. Suszony produkt długo zachowuje jakość, dlatego jest dostępny w zamówieniach przez cały rok – skontaktuj się z nami, aby poznać aktualne ilości i terminy załadunku."
+		],
+		"specs": {
+			"product": "Suszone śliwki całe z pestką",
+			"botanicalName": "Prunus domestica",
+			"origin": "Ukraina",
+			"harvesting": "Zbiór w sadach w pełnej dojrzałości",
+			"environment": "Sady Zakarpacia",
+			"processing": "Naturalne suszenie bez obróbki chemicznej",
+			"colour": "Naturalna, od ciemnobrązowej do czarnej",
+			"fruit": "Całe owoce z pestką",
+			"cleaning": "Sortowane i czyszczone; usunięte szypułki, uszkodzone owoce i zanieczyszczenia obce",
+			"storage": "Chłodne, suche miejsce, z dala od bezpośredniego światła słonecznego",
+			"packaging": "Kartony 10 kg lub worki 25 kg",
+			"moq": "500 kg",
+			"traceability": "Identyfikowalność partii od zbioru do gotowego produktu",
+			"foodSafety": "Przetwórstwo zgodne z zasadami HACCP",
+			"organic": "Partie z certyfikatem ekologicznym na zapytanie, w miarę dostępności",
+			"delivery": "Cała UE",
+			"incoterms": "FCA, DAP lub DDP",
+			"documents": "Pełna dokumentacja eksportowa i przewozowa"
+		},
+		"applications": [
+			"Kompoty z suszu, napary i napoje",
+			"Nadzienia piekarnicze i cukiernicze",
+			"Powidła i pasty owocowe",
+			"Musli, granola i batony zbożowe",
+			"Sosy do mięs i dziczyzny",
+			"Dania duszone i farsze",
+			"Mieszanki herbaciane i napary owocowe",
+			"Mieszanki owoców suszonych",
+			"Zdrowa żywność typu clean label",
+			"Kuchnia tradycyjna i etniczna",
+			"Składniki spożywcze i przetwory owocowe"
+		]
+	},
+	"prunes": {
+		"meta": {
+			"title": "Śliwki suszone bez pestek | Dostawca hurtowy z Ukrainy",
+			"description": "Śliwki suszone bez pestek (Prunus domestica) – miękkie, kalibrowane, bez dodatku cukru. Sady Karpat, HACCP i certyfikat ekologiczny, MOQ 500 kg. FCA/DAP/DDP UE."
+		},
+		"heading": "Śliwki suszone bez pestek",
+		"description": [
+			"Śliwki suszone bez pestek (Prunus domestica) ze śliwek uprawianych w sadach Zakarpacia – miękkie, kalibrowane według wielkości i gotowe do spożycia. Produkt jest przygotowywany dla profesjonalnych producentów żywności, cukierni, firm konfekcjonujących, dystrybutorów i odbiorców surowców.",
+			"Śliwki suszone bez pestek to wygodne rozwiązanie dla produkcji: nie wymagają sortowania, drylowania ani moczenia. Miękka tekstura pozwala od razu wykorzystać je w nadzieniach, deserach, przekąskach i daniach gotowych, a kalibracja zapewnia równe porcje i jednolity wygląd gotowego wyrobu. Bez dodatku cukru – tylko naturalna słodycz dojrzałych śliwek.",
+			"Śliwki suszy się po osiągnięciu pełnej dojrzałości, gdy owoce zgromadziły najwięcej naturalnego cukru. Po wysuszeniu usuwa się pestki, a owoce doprowadza do miękkiej, elastycznej konsystencji. Wilgotność jest kontrolowana, co zapewnia stałą jakość i długi termin przydatności.",
+			"Produkt jest sortowany, czyszczony i kalibrowany według wielkości; szypułki, fragmenty pestek, uszkodzone owoce i widoczne zanieczyszczenia obce są usuwane zgodnie z uzgodnioną specyfikacją klienta. Kaliber dobieramy do wymagań kupującego. Pełna identyfikowalność partii jest zapewniona od sadu przez przetwórstwo po gotową paletę.",
+			"Śliwki na susz zbiera się na Zakarpaciu w sierpniu–wrześniu. Gotowe śliwki suszone długo zachowują jakość, dlatego są dostępne w zamówieniach przez cały rok – skontaktuj się z nami, aby poznać aktualne ilości, kalibry i terminy załadunku."
+		],
+		"specs": {
+			"product": "Śliwki suszone bez pestek",
+			"botanicalName": "Prunus domestica",
+			"origin": "Ukraina",
+			"harvesting": "Zbiór w sadach w pełnej dojrzałości",
+			"environment": "Sady Zakarpacia",
+			"processing": "Suszenie, drylowanie, zmiękczanie",
+			"colour": "Naturalna, błyszcząca czarna",
+			"fruit": "Bez pestek, miękkie, kalibrowane według wielkości",
+			"cleaning": "Sortowane i czyszczone; usunięte szypułki, fragmenty pestek i zanieczyszczenia obce",
+			"storage": "Chłodne, suche miejsce, z dala od bezpośredniego światła słonecznego",
+			"packaging": "Kartony 10 kg z wkładką PE",
+			"moq": "500 kg",
+			"traceability": "Identyfikowalność partii od zbioru do gotowego produktu",
+			"foodSafety": "Przetwórstwo zgodne z zasadami HACCP",
+			"organic": "Partie z certyfikatem ekologicznym na zapytanie, w miarę dostępności",
+			"delivery": "Cała UE",
+			"incoterms": "FCA, DAP lub DDP",
+			"documents": "Pełna dokumentacja eksportowa i przewozowa"
+		},
+		"applications": [
+			"Śliwki w czekoladzie i wyroby cukiernicze",
+			"Nadzienia do pieczywa i ciast",
+			"Przekąski i konfekcjonowanie detaliczne",
+			"Musli, granola i batony zbożowe",
+			"Sałatki i zimne przekąski",
+			"Dania mięsne, sosy i farsze",
+			"Jogurty i desery mleczne",
+			"Pasty owocowe i przeciery",
+			"Żywność dla dzieci i zdrowa żywność",
+			"Mieszanki owoców suszonych",
+			"HoReCa i dania gotowe"
+		]
+	},
+	"frozenElderberries": {
+		"meta": {
+			"title": "Mrożone owoce czarnego bzu IQF | Dostawca hurtowy z Ukrainy",
+			"description": "Mrożone IQF owoce czarnego bzu (Sambucus nigra) do syropów, ekstraktów i barwników. Karpaty, HACCP i certyfikat ekologiczny, MOQ 500 kg. FCA/DAP/DDP do UE."
+		},
+		"heading": "Mrożone owoce czarnego bzu (IQF)",
+		"description": [
+			"Wysokiej jakości mrożone IQF owoce dziko rosnącego czarnego bzu (Sambucus nigra), zbierane ręcznie na ekologicznie czystych terenach ukraińskich Karpat i przetwarzane dla profesjonalnych producentów syropów, napojów, suplementów diety i naturalnych barwników oraz odbiorców surowców.",
+			"Czarny bez to jedno z najbogatszych naturalnych źródeł antocyjanów: głęboka ciemnofioletowa barwa owoców zapewnia dużą naturalną siłę barwiącą. Owoce zawierają też flawonoidy i witaminy, dzięki czemu czarny bez jest kluczowym surowcem do syropów wspierających odporność, ekstraktów i napojów funkcjonalnych. Uwaga: owoce czarnego bzu są surowcem do przetwórstwa i przed spożyciem wymagają obróbki cieplnej.",
+			"Owoce są indywidualnie szybko mrożone (IQF) w szczycie dojrzałości, aby do momentu przetworzenia zachować barwę, związki wrażliwe na ciepło i składniki odżywcze. Po zamrożeniu pozostają sypkie, co ułatwia obsługę, precyzyjne dozowanie i bezpośrednie wykorzystanie w produkcji przemysłowej.",
+			"Produkt jest sortowany i czyszczony: owoce oddziela się od baldachów, a szypułki, liście i widoczne zanieczyszczenia obce są usuwane zgodnie z uzgodnioną specyfikacją klienta. Pełna identyfikowalność partii jest zapewniona od miejsca zbioru przez przetwórstwo po gotową paletę.",
+			"Zbiory czarnego bzu w ukraińskich Karpatach przypadają na sierpień, a w chłodniejszych i wyżej położonych rejonach trwają do początku września. Dokładny termin zależy co roku od pogody i wysokości nad poziomem morza. Poza sezonem produkt jest dostępny z zapasów mrożonych z bieżących zbiorów – skontaktuj się z nami, aby poznać aktualne ilości i terminy załadunku."
+		],
+		"specs": {
+			"product": "Mrożone IQF owoce dziko rosnącego czarnego bzu",
+			"botanicalName": "Sambucus nigra",
+			"origin": "Ukraina",
+			"harvesting": "Dziko rosnące jagody zbierane ręcznie",
+			"environment": "Ekologicznie czyste tereny ukraińskich Karpat",
+			"processing": "Indywidualne szybkie mrożenie (IQF)",
+			"colour": "Naturalna, od ciemnofioletowej do czarnej",
+			"fruit": "Owoce oddzielone od baldachów",
+			"cleaning": "Sortowane i czyszczone; usunięte szypułki, liście i zanieczyszczenia obce",
+			"storage": "–18 °C lub niżej",
+			"packaging": "Wielowarstwowe worki papierowe 25 kg lub oktabiny przemysłowe 400 kg",
+			"moq": "500 kg",
+			"traceability": "Identyfikowalność partii od zbioru do gotowego produktu",
+			"foodSafety": "Przetwórstwo zgodne z zasadami HACCP",
+			"organic": "Partie z certyfikatem ekologicznym na zapytanie, w miarę dostępności",
+			"delivery": "Cała UE",
+			"incoterms": "FCA, DAP lub DDP",
+			"documents": "Pełna dokumentacja eksportowa i przewozowa"
+		},
+		"applications": [
+			"Syropy, w tym syropy wspierające odporność",
+			"Ekstrakty i suplementy diety",
+			"Naturalne barwniki antocyjanowe",
+			"Soki, nektary i koncentraty",
+			"Dżemy, konfitury i wsady owocowe",
+			"Napoje funkcjonalne i żelki",
+			"Herbaty i napary owocowe",
+			"Wina, likiery i nalewki",
+			"Nadzienia piekarnicze",
+			"Sosy i chutneye",
+			"Składniki spożywcze i produkty funkcjonalne"
+		]
+	},
+	"frozenStrawberries": {
+		"meta": {
+			"title": "Mrożone truskawki IQF | Dostawca hurtowy z Ukrainy",
+			"description": "Mrożone IQF truskawki – całe, kalibrowane, plastry, kostka lub przecier. Gospodarstwa Karpat, HACCP i certyfikat ekologiczny, MOQ 500 kg. FCA/DAP/DDP do UE."
+		},
+		"heading": "Mrożone truskawki (IQF)",
+		"description": [
+			"Wysokiej jakości mrożone IQF truskawki (Fragaria × ananassa), uprawiane w gospodarstwach na Zakarpaciu i przetwarzane dla profesjonalnych producentów żywności, dystrybutorów i odbiorców surowców.",
+			"Truskawki mają jaskrawoczerwoną barwę, soczysty miąższ i bogaty słodki aromat – to jedne z najpopularniejszych owoców w branży mleczarskiej, piekarniczej i napojowej. Sezon na świeże truskawki jest krótki, dlatego mrożone truskawki pozwalają producentom pracować ze stałą jakością i smakiem przez cały rok.",
+			"Owoce są zbierane ręcznie w pełnej dojrzałości i indywidualnie szybko mrożone (IQF), aby zachować barwę, aromat, smak i składniki odżywcze. Po zamrożeniu pozostają sypkie, co ułatwia obsługę, precyzyjne dozowanie i bezpośrednie wykorzystanie w produkcji przemysłowej.",
+			"W zależności od wymagań produkcyjnych truskawki dostarczamy całe, kalibrowane według wielkości, w plastrach, w kostce lub jako przecier. Produkt jest sortowany i czyszczony; szypułki z kielichem i widoczne zanieczyszczenia obce są usuwane zgodnie z uzgodnioną specyfikacją klienta. Pełna identyfikowalność partii jest zapewniona od pola przez przetwórstwo po gotową paletę.",
+			"Zbiory truskawek na Zakarpaciu trwają od czerwca do lipca, ze szczytem w połowie czerwca. Dokładny termin zależy co roku od pogody i odmiany. Poza sezonem produkt jest dostępny z zapasów mrożonych z bieżących zbiorów – skontaktuj się z nami, aby poznać aktualne ilości i terminy załadunku."
+		],
+		"specs": {
+			"product": "Mrożone IQF truskawki",
+			"botanicalName": "Fragaria × ananassa",
+			"origin": "Ukraina",
+			"harvesting": "Zbiór ręczny w pełnej dojrzałości",
+			"environment": "Gospodarstwa na Zakarpaciu",
+			"processing": "Indywidualne szybkie mrożenie (IQF)",
+			"colour": "Naturalna, jaskrawoczerwona",
+			"fruit": "Całe, kalibrowane, plastry, kostka lub przecier",
+			"cleaning": "Sortowane i czyszczone; usunięte szypułki z kielichem i zanieczyszczenia obce",
+			"storage": "–18 °C lub niżej",
+			"packaging": "Wielowarstwowe worki papierowe 25 kg lub kartony 10 kg",
+			"moq": "500 kg",
+			"traceability": "Identyfikowalność partii od zbioru do gotowego produktu",
+			"foodSafety": "Przetwórstwo zgodne z zasadami HACCP",
+			"organic": "Partie z certyfikatem ekologicznym na zapytanie, w miarę dostępności",
+			"delivery": "Cała UE",
+			"incoterms": "FCA, DAP lub DDP",
+			"documents": "Pełna dokumentacja eksportowa i przewozowa"
+		},
+		"applications": [
+			"Jogurty i produkty mleczne",
+			"Lody i desery mrożone",
+			"Nadzienia piekarnicze i polewy",
+			"Dżemy, konfitury i wsady owocowe",
+			"Smoothie, soki i napoje owocowe",
+			"Przeciery owocowe i sosy",
+			"Wyroby cukiernicze i czekoladowe",
+			"Produkty śniadaniowe i płatki zbożowe",
+			"Desery i ciasta",
+			"Koktajle i HoReCa",
+			"Składniki spożywcze i przetwory owocowe"
+		]
+	},
+	"frozenRaspberries": {
+		"meta": {
+			"title": "Mrożone maliny IQF | Dostawca hurtowy z Ukrainy",
+			"description": "Mrożone IQF maliny z gospodarstw ukraińskich Karpat – całe, grys lub przecier. HACCP i certyfikat ekologiczny, MOQ 500 kg. Eksport hurtowy FCA/DAP/DDP do UE."
+		},
+		"heading": "Mrożone maliny (IQF)",
+		"description": [
+			"Wysokiej jakości mrożone IQF maliny (Rubus idaeus), uprawiane w gospodarstwach na Zakarpaciu i przetwarzane dla profesjonalnych producentów żywności, dystrybutorów i odbiorców surowców.",
+			"Maliny mają jaskrawą rubinową barwę, delikatny soczysty miąższ i bogaty aromat – to jedne z najcenniejszych owoców dla branży mleczarskiej, piekarniczej i napojowej. Są przy tym bardzo delikatne i trudno zachować je w całości, dlatego prawidłowe mrożenie ma kluczowe znaczenie dla jakości.",
+			"Owoce są zbierane ręcznie w pełnej dojrzałości i indywidualnie szybko mrożone (IQF) – delikatne, szybkie mrożenie pozwala zachować całość delikatnych owoców oraz ich barwę, aromat i smak. Po zamrożeniu pozostają sypkie, co ułatwia obsługę, precyzyjne dozowanie i bezpośrednie wykorzystanie w produkcji przemysłowej.",
+			"W zależności od wymagań i poziomu cenowego maliny dostarczamy jako owoc cały, grys (owoce łamane) do ekonomicznego przetwórstwa lub przecier bez pestek. Produkt jest sortowany i czyszczony; szypułki, liście i widoczne zanieczyszczenia obce są usuwane zgodnie z uzgodnioną specyfikacją klienta. Pełna identyfikowalność partii jest zapewniona od pola przez przetwórstwo po gotową paletę.",
+			"Zbiory malin na Zakarpaciu trwają od lipca do sierpnia, ze szczytem w połowie lipca. Dokładny termin zależy co roku od pogody i odmiany. Poza sezonem produkt jest dostępny z zapasów mrożonych z bieżących zbiorów – skontaktuj się z nami, aby poznać aktualne ilości i terminy załadunku."
+		],
+		"specs": {
+			"product": "Mrożone IQF maliny",
+			"botanicalName": "Rubus idaeus",
+			"origin": "Ukraina",
+			"harvesting": "Zbiór ręczny w pełnej dojrzałości",
+			"environment": "Gospodarstwa na Zakarpaciu",
+			"processing": "Indywidualne szybkie mrożenie (IQF)",
+			"colour": "Naturalna, rubinowa",
+			"fruit": "Całe, grys (owoce łamane) lub przecier bez pestek",
+			"cleaning": "Sortowane i czyszczone; usunięte szypułki, liście i zanieczyszczenia obce",
+			"storage": "–18 °C lub niżej",
+			"packaging": "Kartony 10 kg",
+			"moq": "500 kg",
+			"traceability": "Identyfikowalność partii od zbioru do gotowego produktu",
+			"foodSafety": "Przetwórstwo zgodne z zasadami HACCP",
+			"organic": "Partie z certyfikatem ekologicznym na zapytanie, w miarę dostępności",
+			"delivery": "Cała UE",
+			"incoterms": "FCA, DAP lub DDP",
+			"documents": "Pełna dokumentacja eksportowa i przewozowa"
+		},
+		"applications": [
+			"Jogurty i produkty mleczne",
+			"Lody i desery mrożone",
+			"Nadzienia piekarnicze i polewy",
+			"Dżemy, konfitury i wsady owocowe",
+			"Smoothie, soki i napoje owocowe",
+			"Przeciery owocowe i sosy",
+			"Wyroby cukiernicze i czekoladowe",
+			"Produkty śniadaniowe i płatki zbożowe",
+			"Desery i ciasta",
+			"Koktajle i HoReCa",
+			"Składniki spożywcze i przetwory owocowe"
+		]
+	},
+	"frozenApricots": {
+		"meta": {
+			"title": "Mrożone morele IQF | Dostawca hurtowy z Ukrainy",
+			"description": "Mrożone IQF morele z sadów ukraińskich Karpat – połówki bez pestek lub kostka. HACCP i certyfikat ekologiczny, MOQ 500 kg. Eksport hurtowy FCA/DAP/DDP do UE."
+		},
+		"heading": "Mrożone morele (IQF)",
+		"description": [
+			"Wysokiej jakości mrożone IQF morele (Prunus armeniaca), uprawiane w sadach Zakarpacia i przetwarzane dla profesjonalnych producentów żywności, dystrybutorów i odbiorców surowców.",
+			"Morele mają złocistopomarańczowy miąższ, delikatną teksturę i bogaty słodki aromat z lekką kwaskowatością. Są naturalnie bogate w beta-karoten i pektyny, dobrze zachowują kształt podczas pieczenia i nadają gotowemu wyrobowi żywą naturalną barwę. Dzięki temu morele są szczególnie cenione w piekarnictwie, dżemach, produktach mlecznych i deserach.",
+			"Owoce są zbierane w pełnej dojrzałości i indywidualnie szybko mrożone (IQF), aby zachować barwę, aromat, smak i składniki odżywcze. Po zamrożeniu pozostają sypkie, co ułatwia obsługę, precyzyjne dozowanie i bezpośrednie wykorzystanie w produkcji przemysłowej.",
+			"W zależności od wymagań produkcyjnych morele dostarczamy jako połówki bez pestek lub w kostce. Produkt jest sortowany i czyszczony; pestki, szypułki i widoczne zanieczyszczenia obce są usuwane zgodnie z uzgodnioną specyfikacją klienta. Pełna identyfikowalność partii jest zapewniona od sadu przez przetwórstwo po gotową paletę.",
+			"Zbiory moreli na Zakarpaciu trwają od lipca do sierpnia, ze szczytem pod koniec lipca. Dokładny termin zależy co roku od pogody i odmiany. Poza sezonem produkt jest dostępny z zapasów mrożonych z bieżących zbiorów – skontaktuj się z nami, aby poznać aktualne ilości i terminy załadunku."
+		],
+		"specs": {
+			"product": "Mrożone IQF morele",
+			"botanicalName": "Prunus armeniaca",
+			"origin": "Ukraina",
+			"harvesting": "Zbiór w sadach w pełnej dojrzałości",
+			"environment": "Sady Zakarpacia",
+			"processing": "Indywidualne szybkie mrożenie (IQF)",
+			"colour": "Naturalna, złocistopomarańczowa",
+			"fruit": "Połówki bez pestek lub kostka",
+			"cleaning": "Sortowane i czyszczone; usunięte pestki, szypułki i zanieczyszczenia obce",
+			"storage": "–18 °C lub niżej",
+			"packaging": "Kartony 10 kg lub wielowarstwowe worki papierowe 25 kg",
+			"moq": "500 kg",
+			"traceability": "Identyfikowalność partii od zbioru do gotowego produktu",
+			"foodSafety": "Przetwórstwo zgodne z zasadami HACCP",
+			"organic": "Partie z certyfikatem ekologicznym na zapytanie, w miarę dostępności",
+			"delivery": "Cała UE",
+			"incoterms": "FCA, DAP lub DDP",
+			"documents": "Pełna dokumentacja eksportowa i przewozowa"
+		},
+		"applications": [
+			"Nadzienia piekarnicze, placki i wyroby cukiernicze",
+			"Dżemy, konfitury i wsady owocowe",
+			"Jogurty i produkty mleczne",
+			"Lody i desery mrożone",
+			"Przeciery owocowe i sosy",
+			"Sosy i chutneye do mięs",
+			"Kompoty i napoje owocowe",
+			"Wyroby cukiernicze",
+			"Żywność dla niemowląt i dzieci",
+			"Produkty śniadaniowe i płatki zbożowe",
+			"Składniki spożywcze i przetwory owocowe"
+		]
+	},
+	"frozenRedBellPeppers": {
+		"meta": {
+			"title": "Mrożona papryka czerwona IQF | Dostawca hurtowy z Ukrainy",
+			"description": "Mrożona IQF papryka czerwona z gospodarstw ukraińskich Karpat – kostka, paski lub połówki. HACCP, MOQ 500 kg. Eksport hurtowy FCA/DAP/DDP do UE."
+		},
+		"heading": "Mrożona papryka czerwona (IQF)",
+		"description": [
+			"Wysokiej jakości mrożona IQF papryka czerwona (papryka słodka; Capsicum annuum), uprawiana w gospodarstwach na Zakarpaciu i przetwarzana dla profesjonalnych producentów żywności i dań gotowych, dystrybutorów i odbiorców surowców.",
+			"Czerwona papryka ma grube, mięsiste ścianki, nasyconą czerwoną barwę i łagodny słodki smak bez ostrości. Jest naturalnie bogata w witaminę C i karotenoidy i nadaje gotowym daniom żywą naturalną barwę. Dzięki temu papryka jest jednym z kluczowych surowców warzywnych do pizzy, dań gotowych, sosów i mieszanek warzywnych.",
+			"Paprykę zbiera się w pełnej dojrzałości, dokładnie myje, oczyszcza z szypułek i nasion, kroi i indywidualnie szybko mrozi (IQF), aby zachować barwę, teksturę, smak i składniki odżywcze. Po zamrożeniu produkt pozostaje sypki, co umożliwia precyzyjne dozowanie i bezpośrednie wykorzystanie w produkcji przemysłowej.",
+			"W zależności od wymagań produkcyjnych paprykę dostarczamy w kostce, w paskach lub w połówkach; wielkość cięcia uzgadniamy z klientem. Produkt jest sortowany i czyszczony; szypułki, nasiona, przegrody i widoczne zanieczyszczenia obce są usuwane zgodnie z uzgodnioną specyfikacją. Pełna identyfikowalność partii jest zapewniona od pola przez przetwórstwo po gotową paletę.",
+			"Zbiory papryki na Zakarpaciu trwają od sierpnia do października, ze szczytem we wrześniu. Dokładny termin zależy co roku od pogody. Poza sezonem produkt jest dostępny z zapasów mrożonych z bieżących zbiorów – skontaktuj się z nami, aby poznać aktualne ilości i terminy załadunku."
+		],
+		"specs": {
+			"product": "Mrożona IQF papryka czerwona",
+			"botanicalName": "Capsicum annuum",
+			"origin": "Ukraina",
+			"harvesting": "Zbiór w pełnej dojrzałości",
+			"environment": "Gospodarstwa na Zakarpaciu",
+			"processing": "Mycie, czyszczenie, krojenie i indywidualne szybkie mrożenie (IQF)",
+			"colour": "Naturalna, głęboka czerwona",
+			"fruit": "Kostka, paski lub połówki",
+			"cleaning": "Usunięte szypułki, nasiona, przegrody i zanieczyszczenia obce",
+			"storage": "–18 °C lub niżej",
+			"packaging": "Kartony 10 kg lub wielowarstwowe worki papierowe 25 kg",
+			"moq": "500 kg",
+			"traceability": "Identyfikowalność partii od zbioru do gotowego produktu",
+			"foodSafety": "Przetwórstwo zgodne z zasadami HACCP",
+			"organic": "Uprawa konwencjonalna",
+			"delivery": "Cała UE",
+			"incoterms": "FCA, DAP lub DDP",
+			"documents": "Pełna dokumentacja eksportowa i przewozowa"
+		},
+		"applications": [
+			"Pizza i dodatki",
+			"Dania gotowe i żywność wygodna",
+			"Mieszanki warzywne",
+			"Sosy, pasty typu ajwar i pasty warzywne",
+			"Zupy i buliony",
+			"Dania z woka i stir-fry",
+			"Gulasze i dania duszone",
+			"Farsze i zapiekanki",
+			"Konserwy i marynaty",
+			"HoReCa i catering",
+			"Składniki spożywcze i przetwory warzywne"
+		]
+	},
+	"frozenGreenBellPeppers": {
+		"meta": {
+			"title": "Mrożona papryka zielona IQF | Dostawca hurtowy z Ukrainy",
+			"description": "Mrożona IQF papryka zielona z gospodarstw Karpat – kostka, paski lub połówki. HACCP, MOQ 500 kg. Eksport hurtowy FCA/DAP/DDP do UE."
+		},
+		"heading": "Mrożona papryka zielona (IQF)",
+		"description": [
+			"Wysokiej jakości mrożona IQF papryka zielona (papryka słodka; Capsicum annuum), uprawiana w gospodarstwach na Zakarpaciu i przetwarzana dla profesjonalnych producentów żywności i dań gotowych, dystrybutorów i odbiorców surowców.",
+			"Zieloną paprykę zbiera się w dojrzałości technicznej, przed pełnym dojrzeniem. Daje jej to świeży, lekko trawiasty smak, mniej słodki niż u papryki czerwonej, chrupką teksturę i głęboką zieloną barwę. Dobrze zachowuje strukturę podczas obróbki cieplnej i wnosi do gotowych dań świeżość i kontrast kolorystyczny – zwłaszcza na pizzy, w gulaszach, mieszankach warzywnych i daniach stir-fry.",
+			"Paprykę zbiera się w dojrzałości technicznej, dokładnie myje, oczyszcza z szypułek i nasion, kroi i indywidualnie szybko mrozi (IQF), aby zachować barwę, teksturę, smak i składniki odżywcze. Po zamrożeniu produkt pozostaje sypki, co umożliwia precyzyjne dozowanie i bezpośrednie wykorzystanie w produkcji przemysłowej.",
+			"W zależności od wymagań produkcyjnych paprykę dostarczamy w kostce, w paskach lub w połówkach; wielkość cięcia uzgadniamy z klientem. Produkt jest sortowany i czyszczony; szypułki, nasiona, przegrody i widoczne zanieczyszczenia obce są usuwane zgodnie z uzgodnioną specyfikacją. Pełna identyfikowalność partii jest zapewniona od pola przez przetwórstwo po gotową paletę.",
+			"Zbiory zielonej papryki na Zakarpaciu trwają od lipca do września, ze szczytem w sierpniu. Dokładny termin zależy co roku od pogody. Poza sezonem produkt jest dostępny z zapasów mrożonych z bieżących zbiorów – skontaktuj się z nami, aby poznać aktualne ilości i terminy załadunku."
+		],
+		"specs": {
+			"product": "Mrożona IQF papryka zielona",
+			"botanicalName": "Capsicum annuum",
+			"origin": "Ukraina",
+			"harvesting": "Zbiór w dojrzałości technicznej",
+			"environment": "Gospodarstwa na Zakarpaciu",
+			"processing": "Mycie, czyszczenie, krojenie i indywidualne szybkie mrożenie (IQF)",
+			"colour": "Naturalna, głęboka zielona",
+			"fruit": "Kostka, paski lub połówki",
+			"cleaning": "Usunięte szypułki, nasiona, przegrody i zanieczyszczenia obce",
+			"storage": "–18 °C lub niżej",
+			"packaging": "Kartony 10 kg lub wielowarstwowe worki papierowe 25 kg",
+			"moq": "500 kg",
+			"traceability": "Identyfikowalność partii od zbioru do gotowego produktu",
+			"foodSafety": "Przetwórstwo zgodne z zasadami HACCP",
+			"organic": "Uprawa konwencjonalna",
+			"delivery": "Cała UE",
+			"incoterms": "FCA, DAP lub DDP",
+			"documents": "Pełna dokumentacja eksportowa i przewozowa"
+		},
+		"applications": [
+			"Pizza i dodatki",
+			"Dania gotowe i żywność wygodna",
+			"Mieszanki warzywne",
+			"Sosy i pasty warzywne",
+			"Zupy i buliony",
+			"Dania z woka i stir-fry",
+			"Gulasze i dania duszone",
+			"Farsze i zapiekanki",
+			"Konserwy i marynaty",
+			"HoReCa i catering",
+			"Składniki spożywcze i przetwory warzywne"
+		]
+	},
+	"frozenYellowBellPeppers": {
+		"meta": {
+			"title": "Mrożona papryka żółta IQF | Dostawca hurtowy z Ukrainy",
+			"description": "Mrożona IQF papryka żółta z gospodarstw Karpat – kostka, paski lub połówki. HACCP, MOQ 500 kg. Eksport FCA/DAP/DDP do UE."
+		},
+		"heading": "Mrożona papryka żółta (IQF)",
+		"description": [
+			"Wysokiej jakości mrożona IQF papryka żółta (papryka słodka; Capsicum annuum), uprawiana w gospodarstwach na Zakarpaciu i przetwarzana dla profesjonalnych producentów żywności i dań gotowych, dystrybutorów i odbiorców surowców.",
+			"Żółtą paprykę zbiera się w pełnej dojrzałości, dzięki czemu ma łagodny, wyraźnie słodki, lekko owocowy smak, mięsiste ścianki i jaskrawą złocistożółtą barwę. Jest naturalnie bogata w witaminę C i karotenoidy. To właśnie barwa sprawia, że żółta papryka jest niezastąpiona wszędzie tam, gdzie liczy się kontrast wizualny: w mieszankach warzywnych, na pizzy oraz w sałatkach i daniach gotowych.",
+			"Paprykę zbiera się w pełnej dojrzałości, dokładnie myje, oczyszcza z szypułek i nasion, kroi i indywidualnie szybko mrozi (IQF), aby zachować barwę, teksturę, smak i składniki odżywcze. Po zamrożeniu produkt pozostaje sypki, co umożliwia precyzyjne dozowanie i bezpośrednie wykorzystanie w produkcji przemysłowej.",
+			"W zależności od wymagań produkcyjnych paprykę dostarczamy w kostce, w paskach lub w połówkach; wielkość cięcia uzgadniamy z klientem. Produkt jest sortowany i czyszczony; szypułki, nasiona, przegrody i widoczne zanieczyszczenia obce są usuwane zgodnie z uzgodnioną specyfikacją. Pełna identyfikowalność partii jest zapewniona od pola przez przetwórstwo po gotową paletę.",
+			"Zbiory żółtej papryki na Zakarpaciu trwają od sierpnia do października, ze szczytem we wrześniu. Dokładny termin zależy co roku od pogody. Poza sezonem produkt jest dostępny z zapasów mrożonych z bieżących zbiorów – skontaktuj się z nami, aby poznać aktualne ilości i terminy załadunku."
+		],
+		"specs": {
+			"product": "Mrożona IQF papryka żółta",
+			"botanicalName": "Capsicum annuum",
+			"origin": "Ukraina",
+			"harvesting": "Zbiór w pełnej dojrzałości",
+			"environment": "Gospodarstwa na Zakarpaciu",
+			"processing": "Mycie, czyszczenie, krojenie i indywidualne szybkie mrożenie (IQF)",
+			"colour": "Naturalna, jaskrawa złocistożółta",
+			"fruit": "Kostka, paski lub połówki",
+			"cleaning": "Usunięte szypułki, nasiona, przegrody i zanieczyszczenia obce",
+			"storage": "–18 °C lub niżej",
+			"packaging": "Kartony 10 kg lub wielowarstwowe worki papierowe 25 kg",
+			"moq": "500 kg",
+			"traceability": "Identyfikowalność partii od zbioru do gotowego produktu",
+			"foodSafety": "Przetwórstwo zgodne z zasadami HACCP",
+			"organic": "Uprawa konwencjonalna",
+			"delivery": "Cała UE",
+			"incoterms": "FCA, DAP lub DDP",
+			"documents": "Pełna dokumentacja eksportowa i przewozowa"
+		},
+		"applications": [
+			"Mieszanki i kompozycje warzywne",
+			"Pizza i dodatki",
+			"Dania gotowe i żywność wygodna",
+			"Sosy i pasty warzywne",
+			"Zupy i buliony",
+			"Dania z woka i stir-fry",
+			"Gulasze i dania duszone",
+			"Farsze i zapiekanki",
+			"Konserwy i marynaty",
+			"HoReCa i catering",
+			"Składniki spożywcze i przetwory warzywne"
+		]
+	},
+	"frozenMixedBellPeppers": {
+		"meta": {
+			"title": "Mrożona mieszanka papryki IQF | Dostawca hurtowy z Ukrainy",
+			"description": "Mrożona IQF mieszanka papryki (czerwona, żółta, zielona) – kostka lub paski, proporcje do uzgodnienia. Karpaty, HACCP, MOQ 500 kg. FCA/DAP/DDP do UE."
+		},
+		"heading": "Mrożona mieszanka papryki (IQF)",
+		"description": [
+			"Wysokiej jakości mrożona IQF mieszanka papryki (papryka słodka; Capsicum annuum) – połączenie papryki czerwonej, żółtej i zielonej, uprawianej w gospodarstwach na Zakarpaciu. Produkt jest przetwarzany dla profesjonalnych producentów żywności i dań gotowych, dystrybutorów i odbiorców surowców.",
+			"Mieszanka łączy trzy kolory i trzy smaki: słodką czerwoną, łagodną owocową żółtą i świeżą, trawiastą zieloną paprykę. Gotowa kompozycja kolorów oszczędza czas produkcji – nie trzeba kupować, magazynować i mieszać trzech osobnych produktów. Jaskrawy trójkolorowy wygląd sprawia, że mieszanka idealnie nadaje się do pizzy, dań gotowych, stir-fry i mieszanek warzywnych, w których liczy się atrakcyjność wizualna.",
+			"Każdy kolor zbiera się w odpowiednim stadium dojrzałości, dokładnie myje, oczyszcza z szypułek i nasion, kroi i indywidualnie szybko mrozi (IQF), aby zachować barwę, teksturę, smak i składniki odżywcze. Po zamrożeniu produkt pozostaje sypki, co umożliwia precyzyjne dozowanie i bezpośrednie wykorzystanie w produkcji przemysłowej.",
+			"Mieszankę dostarczamy w kostce lub w paskach. Kolory łączymy w uzgodnionych proporcjach, stałych w każdej partii, a wielkość cięcia uzgadniamy z klientem. Produkt jest sortowany i czyszczony; szypułki, nasiona, przegrody i widoczne zanieczyszczenia obce są usuwane zgodnie z uzgodnioną specyfikacją. Pełna identyfikowalność partii jest zapewniona od pola przez przetwórstwo po gotową paletę.",
+			"Zbiory papryki na Zakarpaciu trwają od lipca do października: zieloną zbiera się wcześniej, czerwoną i żółtą – w pełnej dojrzałości, we wrześniu. Mieszankę komponujemy z zapasów mrożonych z bieżących zbiorów, dlatego jest dostępna w zamówieniach przez cały rok – skontaktuj się z nami, aby poznać aktualne ilości i terminy załadunku."
+		],
+		"specs": {
+			"product": "Mrożona IQF mieszanka papryki",
+			"botanicalName": "Capsicum annuum",
+			"origin": "Ukraina",
+			"harvesting": "Każdy kolor zbierany w odpowiednim stadium dojrzałości",
+			"environment": "Gospodarstwa na Zakarpaciu",
+			"processing": "Mycie, czyszczenie, krojenie, mieszanie i indywidualne szybkie mrożenie (IQF)",
+			"colour": "Mieszanka czerwonej, żółtej i zielonej",
+			"fruit": "Kostka lub paski; proporcje kolorów do uzgodnienia",
+			"cleaning": "Usunięte szypułki, nasiona, przegrody i zanieczyszczenia obce",
+			"storage": "–18 °C lub niżej",
+			"packaging": "Kartony 10 kg lub wielowarstwowe worki papierowe 25 kg",
+			"moq": "500 kg",
+			"traceability": "Identyfikowalność partii od zbioru do gotowego produktu",
+			"foodSafety": "Przetwórstwo zgodne z zasadami HACCP",
+			"organic": "Uprawa konwencjonalna",
+			"delivery": "Cała UE",
+			"incoterms": "FCA, DAP lub DDP",
+			"documents": "Pełna dokumentacja eksportowa i przewozowa"
+		},
+		"applications": [
+			"Pizza i dodatki",
+			"Dania gotowe i żywność wygodna",
+			"Dania z woka i stir-fry",
+			"Mieszanki warzywne",
+			"Fajitas, burrito i kuchnia meksykańska",
+			"Gulasze i dania duszone",
+			"Sosy i relishe",
+			"Farsze i zapiekanki",
+			"Zupy i buliony",
+			"HoReCa i catering",
+			"Składniki spożywcze i przetwory warzywne"
+		]
+	},
+	"frozenPorciniMushrooms": {
+		"meta": {
+			"title": "Mrożone borowiki (prawdziwki) IQF | Hurt z Ukrainy",
+			"description": "Mrożone IQF borowiki szlachetne (Boletus edulis), całe lub krojone. Pochodzenie: Karpaty, HACCP, MOQ 500 kg. Eksport hurtowy FCA/DAP/DDP do UE."
+		},
+		"heading": "Mrożone borowiki (IQF)",
+		"description": [
+			"Wysokiej jakości mrożone IQF borowiki szlachetne (prawdziwki, Boletus edulis), zbierane ręcznie w czystych lasach ukraińskich Karpat i przetwarzane dla profesjonalnych producentów żywności i dań gotowych, dystrybutorów i odbiorców surowców.",
+			"Borowik to najbardziej ceniony grzyb leśny: jędrny miąższ, bogaty orzechowy smak i charakterystyczny leśny aromat, który utrzymuje się nawet po obróbce cieplnej. Dzięki temu borowiki są składnikiem premium do sosów, zup, risotto, makaronów i dań gotowych, w których smak grzybów gra główną rolę. Grzybów leśnych nie da się uprawiać, dlatego ich ilości zależą co roku od pogody i urodzaju w lasach.",
+			"Grzyby są zbierane ręcznie, w dniu zbioru oczyszczane z ziemi i leśnych resztek, przycinane i indywidualnie szybko mrożone (IQF), aby zachować jędrną strukturę, barwę, smak i aromat. Po zamrożeniu produkt pozostaje sypki, co umożliwia precyzyjne dozowanie i bezpośrednie wykorzystanie w produkcji przemysłowej.",
+			"W zależności od wymagań produkcyjnych borowiki dostarczamy całe lub krojone w plastry. Produkt jest sortowany według wielkości i jędrności: grzyby miękkie, przerośnięte i uszkodzone, resztki ziemi i widoczne zanieczyszczenia obce są usuwane zgodnie z uzgodnioną specyfikacją klienta. Pełna identyfikowalność partii jest zapewniona od miejsca zbioru przez przetwórstwo po gotową paletę.",
+			"Sezon na borowiki w ukraińskich Karpatach trwa od lipca do października, ze szczytem w sierpniu–wrześniu. Ilości i terminy zależą co roku od opadów i temperatury. Poza sezonem produkt jest dostępny z zapasów mrożonych z bieżących zbiorów – skontaktuj się z nami, aby poznać aktualne ilości i terminy załadunku."
+		],
+		"specs": {
+			"product": "Mrożone IQF borowiki szlachetne",
+			"botanicalName": "Boletus edulis",
+			"origin": "Ukraina",
+			"harvesting": "Dziko rosnące grzyby zbierane ręcznie",
+			"environment": "Lasy ukraińskich Karpat",
+			"processing": "Czyszczenie, przycinanie i indywidualne szybkie mrożenie (IQF)",
+			"colour": "Naturalna, od jasnobeżowej do brązowej",
+			"fruit": "Całe lub w plastrach",
+			"cleaning": "Sortowane według wielkości; usunięte resztki ziemi, uszkodzone grzyby i zanieczyszczenia obce",
+			"storage": "–18 °C lub niżej",
+			"packaging": "Kartony 10 kg",
+			"moq": "500 kg",
+			"traceability": "Identyfikowalność partii od zbioru do gotowego produktu",
+			"foodSafety": "Przetwórstwo zgodne z zasadami HACCP",
+			"organic": "Zbiór ze stanu naturalnego, bez certyfikatu ekologicznego",
+			"delivery": "Cała UE",
+			"incoterms": "FCA, DAP lub DDP",
+			"documents": "Pełna dokumentacja eksportowa i przewozowa"
+		},
+		"applications": [
+			"Sosy, w tym sosy pieczeniowe",
+			"Zupy i buliony",
+			"Risotto i makarony",
+			"Dania gotowe i żywność wygodna",
+			"Pizza i dodatki",
+			"Pierogi, uszka i farsze",
+			"Wytrawne tarty i wypieki z nadzieniem",
+			"Mieszanki grzybowe",
+			"Konserwy i marynaty",
+			"HoReCa i kuchnie restauracyjne",
+			"Składniki spożywcze i przetwory grzybowe"
+		]
+	},
+	"freshPorciniMushrooms": {
+		"meta": {
+			"title": "Świeże borowiki (prawdziwki) | Dostawca hurtowy z Ukrainy",
+			"description": "Świeże leśne borowiki szlachetne (Boletus edulis) – sezonowe, zbierane ręcznie, sortowane. Schłodzone dostawy B2B z Karpat. MOQ na zapytanie, FCA/DAP do UE."
+		},
+		"heading": "Świeże borowiki",
+		"description": [
+			"Wysokiej jakości świeże borowiki szlachetne (prawdziwki, Boletus edulis), zbierane ręcznie w czystych lasach ukraińskich Karpat i przygotowywane dla restauracji, dystrybutorów, delikatesów i przetwórców.",
+			"Borowik to najbardziej ceniony grzyb leśny: jędrny miąższ, bogaty orzechowy smak i charakterystyczny leśny aromat. Świeże borowiki to sezonowy przysmak ceniony przez szefów kuchni i kupców delikatesowych w całej Europie. Grzybów leśnych nie da się uprawiać, dlatego ich ilości zależą co roku od pogody i urodzaju w lasach.",
+			"Grzyby są zbierane ręcznie, w dniu zbioru oczyszczane z ziemi i leśnych resztek, sortowane i natychmiast schładzane. Utrzymujemy nieprzerwany łańcuch chłodniczy od lasu do kupującego, aby grzyby zachowały jędrność, świeży aromat i atrakcyjny wygląd.",
+			"Grzyby sortuje się według wielkości i jędrności kapelusza: miękkie, przerośnięte, uszkodzone i robaczywe są odrzucane. Klasę i kaliber uzgadniamy z klientem. Pełna identyfikowalność partii jest zapewniona od miejsca zbioru do wysyłki.",
+			"Świeże borowiki są dostępne wyłącznie w sezonie – od lipca do października, ze szczytem w sierpniu–wrześniu. Ilości i terminy zależą co roku od opadów i temperatury, dlatego dostawy najlepiej uzgadniać z wyprzedzeniem. Poza sezonem oferujemy borowiki mrożone i suszone – skontaktuj się z nami, aby poznać aktualne ilości i terminy załadunku."
+		],
+		"specs": {
+			"product": "Świeże borowiki szlachetne",
+			"botanicalName": "Boletus edulis",
+			"origin": "Ukraina",
+			"harvesting": "Dziko rosnące grzyby zbierane ręcznie",
+			"environment": "Lasy ukraińskich Karpat",
+			"processing": "Czyszczenie, sortowanie i schładzanie w dniu zbioru",
+			"colour": "Naturalna, od jasnobeżowej do brązowej",
+			"fruit": "Całe grzyby, sortowane według wielkości i jędrności",
+			"cleaning": "Usunięte resztki ziemi oraz grzyby uszkodzone, przerośnięte i robaczywe",
+			"storage": "0 do +4 °C, nieprzerwany łańcuch chłodniczy",
+			"packaging": "Skrzynki wentylowane, waga do uzgodnienia",
+			"moq": "Na zapytanie, zależnie od zbiorów",
+			"traceability": "Identyfikowalność partii od zbioru do wysyłki",
+			"foodSafety": "Postępowanie zgodne z zasadami HACCP",
+			"organic": "Zbiór ze stanu naturalnego, bez certyfikatu ekologicznego",
+			"delivery": "Cała UE, transportem chłodniczym",
+			"incoterms": "FCA lub DAP",
+			"documents": "Pełna dokumentacja eksportowa i przewozowa"
+		},
+		"applications": [
+			"Restauracje i HoReCa",
+			"Delikatesy i handel premium",
+			"Menu sezonowe i degustacyjne",
+			"Sosy, risotto i makarony",
+			"Zupy i buliony",
+			"Catering i bankiety",
+			"Suszenie i mrożenie",
+			"Marynowanie i konserwowanie",
+			"Dania gotowe premium",
+			"Delikatesy grzybowe",
+			"Rynki hurtowe i dystrybucja"
+		]
+	},
+	"driedPorciniMushrooms": {
+		"meta": {
+			"title": "Suszone borowiki (prawdziwki) | Dostawca hurtowy z Ukrainy",
+			"description": "Suszone leśne borowiki (Boletus edulis) – sortowane plastry, kawałki lub proszek. Intensywne umami, długa trwałość. Karpaty, HACCP, FCA/DAP/DDP do UE."
+		},
+		"heading": "Suszone borowiki",
+		"description": [
+			"Wysokiej jakości suszone borowiki szlachetne (prawdziwki, Boletus edulis), zbierane ręcznie w czystych lasach ukraińskich Karpat i przygotowywane dla profesjonalnych producentów żywności, przypraw i dań gotowych, dystrybutorów i odbiorców surowców.",
+			"Suszenie koncentruje aromat i smak borowików: suszone borowiki mają intensywny leśny aromat i głęboki smak umami, trudny do uzyskania z jakiegokolwiek innego surowca. Niewielka ilość suszonych borowików nadaje zupom, sosom i bulionom wyraźny grzybowy smak, a proszek z borowików to naturalny wzmacniacz smaku do przypraw i dań gotowych.",
+			"Grzyby są zbierane ręcznie, w dniu zbioru oczyszczane z ziemi i leśnych resztek, krojone w plastry i delikatnie suszone w kontrolowanej temperaturze, aby zachować jasną barwę, aromat i smak. Wilgotność jest kontrolowana, co zapewnia stałą jakość i długi termin przydatności bez konserwantów. Przed użyciem plastry i kawałki wystarczy namoczyć w wodzie.",
+			"W zależności od wymagań produkcyjnych suszone borowiki dostarczamy w plastrach, w kawałkach lub jako mielony proszek. Produkt jest sortowany według barwy, wielkości i całości plastrów; klasę jakości uzgadniamy z klientem. Okruchy, resztki ziemi i widoczne zanieczyszczenia obce są usuwane zgodnie z uzgodnioną specyfikacją. Pełna identyfikowalność partii jest zapewniona od miejsca zbioru przez suszenie po gotową paletę.",
+			"Borowiki zbiera się w ukraińskich Karpatach od lipca do października, ze szczytem w sierpniu–wrześniu. Suszony produkt długo zachowuje jakość, dlatego jest dostępny w zamówieniach przez cały rok – skontaktuj się z nami, aby poznać aktualne ilości, klasy jakości i terminy załadunku."
+		],
+		"specs": {
+			"product": "Suszone borowiki szlachetne",
+			"botanicalName": "Boletus edulis",
+			"origin": "Ukraina",
+			"harvesting": "Dziko rosnące grzyby zbierane ręcznie",
+			"environment": "Lasy ukraińskich Karpat",
+			"processing": "Czyszczenie, krojenie i suszenie w kontrolowanej temperaturze",
+			"colour": "Naturalna, od jasnobeżowej do brązowej",
+			"fruit": "Plastry, kawałki lub proszek; klasa jakości do uzgodnienia",
+			"cleaning": "Sortowane; usunięte okruchy, ziemia i zanieczyszczenia obce",
+			"storage": "Chłodne, suche miejsce, chronione przed światłem i wilgocią",
+			"packaging": "Kartony z wkładką PE, waga do uzgodnienia",
+			"moq": "Na zapytanie",
+			"traceability": "Identyfikowalność partii od zbioru do gotowego produktu",
+			"foodSafety": "Przetwórstwo zgodne z zasadami HACCP",
+			"organic": "Zbiór ze stanu naturalnego, bez certyfikatu ekologicznego",
+			"delivery": "Cała UE",
+			"incoterms": "FCA, DAP lub DDP",
+			"documents": "Pełna dokumentacja eksportowa i przewozowa"
+		},
+		"applications": [
+			"Zupy i buliony, w tym zupy instant",
+			"Sosy, w tym sosy pieczeniowe",
+			"Przyprawy i mieszanki przyprawowe",
+			"Naturalne wzmacniacze smaku (proszek z borowików)",
+			"Risotto i makarony",
+			"Dania gotowe i żywność wygodna",
+			"Wyroby mięsne i wędliny",
+			"Pierogi, uszka i farsze",
+			"Konfekcjonowanie dla delikatesów",
+			"HoReCa i kuchnie restauracyjne",
+			"Składniki spożywcze i przetwory grzybowe"
+		]
+	},
+	"freshChanterelles": {
+		"meta": {
+			"title": "Świeże kurki | Dostawca hurtowy z Ukrainy",
+			"description": "Świeże leśne kurki (Cantharellus cibarius) – złociste i aromatyczne, zbierane ręcznie, sortowane według wielkości. Schłodzone dostawy sezonowe z Karpat."
+		},
+		"heading": "Świeże kurki",
+		"description": [
+			"Wysokiej jakości świeże kurki (pieprznik jadalny, Cantharellus cibarius), zbierane ręcznie w czystych lasach ukraińskich Karpat i przygotowywane dla restauracji, dystrybutorów, delikatesów i przetwórców.",
+			"Kurki należą do najpopularniejszych grzybów leśnych w Europie: jaskrawa złocistożółta barwa, jędrny, sprężysty miąższ, delikatny owocowy aromat z nutą moreli i lekko pieprzny finisz. Dobrze zachowują kształt podczas obróbki cieplnej i ożywiają kolorem każde danie. Grzybów leśnych nie da się uprawiać, dlatego ich ilości zależą co roku od pogody i urodzaju w lasach.",
+			"Grzyby są zbierane ręcznie, w dniu zbioru oczyszczane z ziemi i leśnych resztek, sortowane i natychmiast schładzane. Utrzymujemy nieprzerwany łańcuch chłodniczy od lasu do kupującego, aby kurki zachowały sprężystość, świeży aromat i żywą barwę.",
+			"Kurki sortuje się według wielkości – małe, młode grzyby są najbardziej cenione i dostarczamy je jako osobny kaliber. Grzyby miękkie, uszkodzone i przerośnięte są odrzucane. Klasę i kaliber uzgadniamy z klientem. Pełna identyfikowalność partii jest zapewniona od miejsca zbioru do wysyłki.",
+			"Świeże kurki są dostępne wyłącznie w sezonie – od czerwca do października, ze szczytem w lipcu–sierpniu. Ilości i terminy zależą co roku od opadów i temperatury, dlatego dostawy najlepiej uzgadniać z wyprzedzeniem. Skontaktuj się z nami, aby poznać aktualne ilości i terminy załadunku."
+		],
+		"specs": {
+			"product": "Świeże kurki",
+			"botanicalName": "Cantharellus cibarius",
+			"origin": "Ukraina",
+			"harvesting": "Dziko rosnące grzyby zbierane ręcznie",
+			"environment": "Lasy ukraińskich Karpat",
+			"processing": "Czyszczenie, sortowanie i schładzanie w dniu zbioru",
+			"colour": "Naturalna, złocistożółta",
+			"fruit": "Całe grzyby, sortowane według wielkości",
+			"cleaning": "Usunięte resztki ziemi oraz grzyby uszkodzone i przerośnięte",
+			"storage": "0 do +4 °C, nieprzerwany łańcuch chłodniczy",
+			"packaging": "Skrzynki wentylowane, waga do uzgodnienia",
+			"moq": "Na zapytanie, zależnie od zbiorów",
+			"traceability": "Identyfikowalność partii od zbioru do wysyłki",
+			"foodSafety": "Postępowanie zgodne z zasadami HACCP",
+			"organic": "Zbiór ze stanu naturalnego, bez certyfikatu ekologicznego",
+			"delivery": "Cała UE, transportem chłodniczym",
+			"incoterms": "FCA lub DAP",
+			"documents": "Pełna dokumentacja eksportowa i przewozowa"
+		},
+		"applications": [
+			"Restauracje i HoReCa",
+			"Delikatesy i handel premium",
+			"Menu sezonowe i degustacyjne",
+			"Sosy, risotto i makarony",
+			"Zupy i buliony",
+			"Dodatki do dań i potrawy z jajek",
+			"Catering i bankiety",
+			"Mrożenie i suszenie",
+			"Marynowanie i konserwowanie",
+			"Dania gotowe premium",
+			"Rynki hurtowe i dystrybucja"
+		]
+	},
+	"driedChanterelles": {
+		"meta": {
+			"title": "Suszone kurki | Dostawca hurtowy z Ukrainy",
+			"description": "Suszone leśne kurki (Cantharellus cibarius) – całe lub mielony proszek. Złocista barwa, owocowy aromat, długa trwałość. Karpaty, HACCP, FCA/DAP/DDP do UE."
+		},
+		"heading": "Suszone kurki",
+		"description": [
+			"Wysokiej jakości suszone kurki (pieprznik jadalny, Cantharellus cibarius), zbierane ręcznie w czystych lasach ukraińskich Karpat i przygotowywane dla profesjonalnych producentów żywności, przypraw i dań gotowych, dystrybutorów i odbiorców surowców.",
+			"Suszone kurki zachowują charakterystyczną złocistą barwę i delikatny owocowy aromat z nutą moreli, a suszenie koncentruje ich smak. Po namoczeniu są nieco bardziej zwarte niż świeże grzyby, dlatego najlepiej sprawdzają się w zupach, sosach i daniach na bazie płynów. Proszek z kurek to naturalna przyprawa, która nadaje gotowym daniom zarówno złocistą barwę, jak i wyraźny grzybowy smak.",
+			"Grzyby są zbierane ręcznie, w dniu zbioru oczyszczane z ziemi i leśnych resztek i delikatnie suszone w kontrolowanej temperaturze, aby zachować barwę i aromat. Wilgotność jest kontrolowana, co zapewnia stałą jakość i długi termin przydatności bez konserwantów. Przed użyciem całe grzyby wystarczy namoczyć w wodzie.",
+			"W zależności od wymagań produkcyjnych suszone kurki dostarczamy całe lub jako mielony proszek. Produkt jest sortowany według barwy i wielkości; klasę jakości uzgadniamy z klientem. Grzyby uszkodzone i ściemniałe, resztki ziemi i widoczne zanieczyszczenia obce są usuwane zgodnie z uzgodnioną specyfikacją. Pełna identyfikowalność partii jest zapewniona od miejsca zbioru przez suszenie po gotową paletę.",
+			"Kurki zbiera się w ukraińskich Karpatach od czerwca do października, ze szczytem w lipcu–sierpniu. Suszony produkt długo zachowuje jakość, dlatego jest dostępny w zamówieniach przez cały rok – skontaktuj się z nami, aby poznać aktualne ilości, klasy jakości i terminy załadunku."
+		],
+		"specs": {
+			"product": "Suszone kurki",
+			"botanicalName": "Cantharellus cibarius",
+			"origin": "Ukraina",
+			"harvesting": "Dziko rosnące grzyby zbierane ręcznie",
+			"environment": "Lasy ukraińskich Karpat",
+			"processing": "Czyszczenie i suszenie w kontrolowanej temperaturze",
+			"colour": "Naturalna, od złocistożółtej do ochrowej",
+			"fruit": "Całe lub mielony proszek; klasa jakości do uzgodnienia",
+			"cleaning": "Sortowane; usunięte grzyby uszkodzone i ściemniałe, ziemia i zanieczyszczenia obce",
+			"storage": "Chłodne, suche miejsce, chronione przed światłem i wilgocią",
+			"packaging": "Kartony z wkładką PE, waga do uzgodnienia",
+			"moq": "Na zapytanie",
+			"traceability": "Identyfikowalność partii od zbioru do gotowego produktu",
+			"foodSafety": "Przetwórstwo zgodne z zasadami HACCP",
+			"organic": "Zbiór ze stanu naturalnego, bez certyfikatu ekologicznego",
+			"delivery": "Cała UE",
+			"incoterms": "FCA, DAP lub DDP",
+			"documents": "Pełna dokumentacja eksportowa i przewozowa"
+		},
+		"applications": [
+			"Zupy i buliony, w tym zupy instant",
+			"Sosy, w tym sosy pieczeniowe",
+			"Przyprawy i mieszanki przyprawowe",
+			"Naturalne wzmacniacze smaku (proszek grzybowy)",
+			"Risotto i makarony",
+			"Dania gotowe i żywność wygodna",
+			"Mieszanki grzybowe",
+			"Farsze i zapiekanki",
+			"Konfekcjonowanie dla delikatesów",
+			"HoReCa i kuchnie restauracyjne",
+			"Składniki spożywcze i przetwory grzybowe"
+		]
+	},
+	"frozenSourCherries": {
+		"meta": {
+			"title": "Mrożone wiśnie IQF | Dostawca hurtowy z Ukrainy",
+			"description": "Mrożone IQF wiśnie (Prunus cerasus) – drylowane, ciemnoczerwone, wyrazista kwasowość. Sady Karpat, HACCP i certyfikat ekologiczny, MOQ 500 kg. FCA/DAP/DDP UE."
+		},
+		"heading": "Mrożone wiśnie (IQF)",
+		"description": [
+			"Wysokiej jakości mrożone IQF wiśnie (Prunus cerasus), uprawiane w sadach Zakarpacia i przetwarzane dla profesjonalnych producentów żywności, dystrybutorów i odbiorców surowców.",
+			"Wiśnie mają głęboką ciemnoczerwoną barwę, soczysty miąższ i wyrazistą kwasowość, dzięki której ich smak pozostaje żywy nawet po pieczeniu lub gotowaniu. Ta kwasowość odróżnia je od czereśni i sprawia, że są niezastąpione w nadzieniach, dżemach, sokach i sosach, w których smak ma być wyrazisty, a nie po prostu słodki.",
+			"Wiśnie są zbierane w pełnej dojrzałości i indywidualnie szybko mrożone (IQF), aby zachować barwę, soczystość, smak i składniki odżywcze. Po zamrożeniu pozostają sypkie, co ułatwia obsługę, precyzyjne dozowanie i bezpośrednie wykorzystanie w produkcji przemysłowej.",
+			"Wiśnie dostarczamy drylowane; wiśnie z pestką są dostępne na zapytanie. Pestki usuwa się mechanicznie, po czym następuje kontrola pod kątem pozostałych pestek i ich fragmentów. Produkt jest sortowany i czyszczony; szypułki, liście i widoczne zanieczyszczenia obce są usuwane zgodnie z uzgodnioną specyfikacją klienta. Pełna identyfikowalność partii jest zapewniona od sadu przez przetwórstwo po gotową paletę.",
+			"Zbiory wiśni na Zakarpaciu trwają od końca czerwca do lipca, ze szczytem w połowie lipca. Dokładny termin zależy co roku od pogody i odmiany. Poza sezonem produkt jest dostępny z zapasów mrożonych z bieżących zbiorów – skontaktuj się z nami, aby poznać aktualne ilości i terminy załadunku."
+		],
+		"specs": {
+			"product": "Mrożone IQF wiśnie drylowane",
+			"botanicalName": "Prunus cerasus",
+			"origin": "Ukraina",
+			"harvesting": "Zbiór w sadach w pełnej dojrzałości",
+			"environment": "Sady Zakarpacia",
+			"processing": "Drylowanie i indywidualne szybkie mrożenie (IQF)",
+			"colour": "Naturalna, głęboka ciemnoczerwona",
+			"fruit": "Drylowane; z pestką na zapytanie",
+			"cleaning": "Sortowane i czyszczone; kontrola pozostałości pestek; usunięte szypułki i zanieczyszczenia obce",
+			"storage": "–18 °C lub niżej",
+			"packaging": "Wielowarstwowe worki papierowe 25 kg lub kartony 10 kg",
+			"moq": "500 kg",
+			"traceability": "Identyfikowalność partii od zbioru do gotowego produktu",
+			"foodSafety": "Przetwórstwo zgodne z zasadami HACCP",
+			"organic": "Partie z certyfikatem ekologicznym na zapytanie, w miarę dostępności",
+			"delivery": "Cała UE",
+			"incoterms": "FCA, DAP lub DDP",
+			"documents": "Pełna dokumentacja eksportowa i przewozowa"
+		},
+		"applications": [
+			"Nadzienia piekarnicze, strudle i ciasta",
+			"Pierogi i nadzienia",
+			"Dżemy, konfitury i wsady owocowe",
+			"Soki, nektary i napoje owocowe",
+			"Jogurty i produkty mleczne",
+			"Lody i desery mrożone",
+			"Sosy do mięs i kaczki",
+			"Likiery i nalewki owocowe",
+			"Wyroby cukiernicze i czekoladowe",
+			"Przeciery owocowe i kompoty",
+			"Składniki spożywcze i przetwory owocowe"
+		]
+	},
+	"frozenHoneyMushrooms": {
+		"meta": {
+			"title": "Mrożone opieńki IQF | Dostawca hurtowy z Ukrainy",
+			"description": "Mrożone IQF opieńki miodowe (Armillaria mellea) z Karpat – całe, o małych kapeluszach. HACCP, MOQ 500 kg. Eksport hurtowy FCA/DAP/DDP do UE."
+		},
+		"heading": "Mrożone opieńki (IQF)",
+		"description": [
+			"Wysokiej jakości mrożone IQF opieńki miodowe (Armillaria mellea), zbierane ręcznie w czystych lasach ukraińskich Karpat i przetwarzane dla profesjonalnych producentów żywności, przetworów i dań gotowych, dystrybutorów i odbiorców surowców.",
+			"Opieńki należą do najbardziej lubianych grzybów leśnych w Ukrainie, Czechach i Polsce: jędrna, sprężysta tekstura, przyjemny grzybowy smak i lekka orzechowa nuta. Rosną w dużych kępach na pniakach i drzewach, dzięki czemu w sezonie dają znaczne ilości. Opieńki idealnie nadają się do marynowania, zup, sosów i dań gotowych. Uwaga: opieńki są surowcem do przetwórstwa i przed spożyciem wymagają dokładnej obróbki cieplnej.",
+			"Grzyby są zbierane ręcznie, w dniu zbioru oczyszczane z ziemi i leśnych resztek, przycinane i indywidualnie szybko mrożone (IQF), aby zachować sprężystą strukturę, barwę i smak. Po zamrożeniu produkt pozostaje sypki, co umożliwia precyzyjne dozowanie i bezpośrednie wykorzystanie w produkcji przemysłowej.",
+			"Opieńki dostarczamy w całości, preferując małe, młode grzyby o zamkniętych kapeluszach, najbardziej cenione do marynowania i konserwowania. Produkt jest sortowany według wielkości: grzyby przerośnięte i uszkodzone, resztki ziemi i widoczne zanieczyszczenia obce są usuwane zgodnie z uzgodnioną specyfikacją klienta. Pełna identyfikowalność partii jest zapewniona od miejsca zbioru przez przetwórstwo po gotową paletę.",
+			"Sezon na opieńki w ukraińskich Karpatach trwa od września do listopada, ze szczytem we wrześniu–październiku. Ilości i terminy zależą co roku od opadów i temperatury. Poza sezonem produkt jest dostępny z zapasów mrożonych z bieżących zbiorów – skontaktuj się z nami, aby poznać aktualne ilości i terminy załadunku."
+		],
+		"specs": {
+			"product": "Mrożone IQF opieńki miodowe",
+			"botanicalName": "Armillaria mellea",
+			"origin": "Ukraina",
+			"harvesting": "Dziko rosnące grzyby zbierane ręcznie",
+			"environment": "Lasy ukraińskich Karpat",
+			"processing": "Czyszczenie, przycinanie i indywidualne szybkie mrożenie (IQF)",
+			"colour": "Naturalna, miodowobrązowa",
+			"fruit": "Całe grzyby, głównie małe, młode kapelusze",
+			"cleaning": "Sortowane według wielkości; usunięte resztki ziemi, przerośnięte grzyby i zanieczyszczenia obce",
+			"storage": "–18 °C lub niżej",
+			"packaging": "Kartony 10 kg",
+			"moq": "500 kg",
+			"traceability": "Identyfikowalność partii od zbioru do gotowego produktu",
+			"foodSafety": "Przetwórstwo zgodne z zasadami HACCP",
+			"organic": "Zbiór ze stanu naturalnego, bez certyfikatu ekologicznego",
+			"delivery": "Cała UE",
+			"incoterms": "FCA, DAP lub DDP",
+			"documents": "Pełna dokumentacja eksportowa i przewozowa"
+		},
+		"applications": [
+			"Marynowanie i konserwowanie",
+			"Zupy i buliony",
+			"Sosy, w tym sosy pieczeniowe",
+			"Dania gotowe i żywność wygodna",
+			"Pierogi, uszka i farsze",
+			"Mieszanki grzybowe",
+			"Sałatki z grzybów marynowanych i zimne przekąski",
+			"Pizza i dodatki",
+			"Gulasze i dania duszone",
+			"HoReCa i kuchnie restauracyjne",
+			"Składniki spożywcze i przetwory grzybowe"
+		]
+	},
+	"frozenBlackberries": {
+		"meta": {
+			"title": "Mrożone jeżyny IQF | Dostawca hurtowy z Ukrainy",
+			"description": "Mrożone IQF jeżyny (Rubus fruticosus) z Karpat – całe owoce, głęboka barwa, zwarta struktura. HACCP i certyfikat ekologiczny, MOQ 500 kg. FCA/DAP/DDP do UE."
+		},
+		"heading": "Mrożone jeżyny (IQF)",
+		"description": [
+			"Wysokiej jakości mrożone IQF dziko rosnące jeżyny (Rubus fruticosus), zbierane ręcznie na ekologicznie czystych terenach ukraińskich Karpat i przetwarzane dla profesjonalnych producentów żywności, dystrybutorów i odbiorców surowców.",
+			"Jeżyny mają głęboką ciemnofioletową, niemal czarną barwę, soczysty miąższ i bogaty słodko-kwaśny smak z leśną nutą. Są bogate w antocyjany, dzięki czemu nadają gotowym wyrobom intensywną naturalną barwę. Dziko rosnące jeżyny są mniejsze i bardziej aromatyczne niż uprawne, a ich zwarta struktura dobrze znosi mrożenie – to czyni jeżyny cennym surowcem do nadzień, dżemów, soków i produktów mlecznych.",
+			"Owoce są zbierane ręcznie w pełnej dojrzałości i indywidualnie szybko mrożone (IQF), aby zachować ich całość, barwę, aromat i smak. Po zamrożeniu pozostają sypkie, co ułatwia obsługę, precyzyjne dozowanie i bezpośrednie wykorzystanie w produkcji przemysłowej.",
+			"Jeżyny dostarczamy jako całe owoce. Produkt jest sortowany i czyszczony; szypułki, liście, niedojrzałe owoce i widoczne zanieczyszczenia obce są usuwane zgodnie z uzgodnioną specyfikacją klienta. Pełna identyfikowalność partii jest zapewniona od miejsca zbioru przez przetwórstwo po gotową paletę.",
+			"Zbiory dziko rosnących jeżyn w ukraińskich Karpatach trwają od sierpnia do września, ze szczytem pod koniec sierpnia. Dokładny termin zależy co roku od pogody i wysokości nad poziomem morza. Poza sezonem produkt jest dostępny z zapasów mrożonych z bieżących zbiorów – skontaktuj się z nami, aby poznać aktualne ilości i terminy załadunku."
+		],
+		"specs": {
+			"product": "Mrożone IQF dziko rosnące jeżyny",
+			"botanicalName": "Rubus fruticosus",
+			"origin": "Ukraina",
+			"harvesting": "Dziko rosnące jagody zbierane ręcznie",
+			"environment": "Ekologicznie czyste tereny ukraińskich Karpat",
+			"processing": "Indywidualne szybkie mrożenie (IQF)",
+			"colour": "Naturalna, od ciemnofioletowej do czarnej",
+			"fruit": "Całe owoce o zwartej strukturze",
+			"cleaning": "Sortowane i czyszczone; usunięte szypułki, liście, niedojrzałe owoce i zanieczyszczenia obce",
+			"storage": "–18 °C lub niżej",
+			"packaging": "Wielowarstwowe worki papierowe 25 kg lub kartony 10 kg",
+			"moq": "500 kg",
+			"traceability": "Identyfikowalność partii od zbioru do gotowego produktu",
+			"foodSafety": "Przetwórstwo zgodne z zasadami HACCP",
+			"organic": "Partie z certyfikatem ekologicznym na zapytanie, w miarę dostępności",
+			"delivery": "Cała UE",
+			"incoterms": "FCA, DAP lub DDP",
+			"documents": "Pełna dokumentacja eksportowa i przewozowa"
+		},
+		"applications": [
+			"Nadzienia piekarnicze i polewy",
+			"Dżemy, konfitury i wsady owocowe",
+			"Jogurty i produkty mleczne",
+			"Lody i desery mrożone",
+			"Smoothie, soki i napoje owocowe",
+			"Przeciery owocowe i sosy",
+			"Wyroby cukiernicze i czekoladowe",
+			"Likiery i nalewki owocowe",
+			"Produkty śniadaniowe i płatki zbożowe",
+			"Naturalne barwniki antocyjanowe",
+			"Składniki spożywcze i przetwory owocowe"
+		]
+	},
+	"frozenGrapes": {
+		"meta": {
+			"title": "Mrożone winogrona IQF | Dostawca hurtowy z Ukrainy",
+			"description": "Mrożone IQF winogrona bezpestkowe z winnic Karpat – całe, bez szypułek, sypkie. HACCP i certyfikat ekologiczny, MOQ 500 kg. Eksport FCA/DAP/DDP do UE."
+		},
+		"heading": "Mrożone winogrona (IQF)",
+		"description": [
+			"Wysokiej jakości mrożone IQF winogrona bezpestkowe (Vitis vinifera), uprawiane w winnicach Zakarpacia – jednego z najstarszych regionów winiarskich Ukrainy – i przetwarzane dla profesjonalnych producentów żywności i napojów, dystrybutorów i odbiorców surowców.",
+			"Winogrona bezpestkowe mają soczysty miąższ, cienką skórkę i zrównoważony słodki smak z lekką kwaskowatością. Mrożone winogrona to wszechstronny surowiec: zachowują kształt i soczystość, nadają się do smoothie, deserów i produktów mlecznych, a całe mrożone owoce stosuje się jako naturalny „owocowy lód” w napojach i koktajlach oraz jako gotową przekąskę.",
+			"Winogrona są zbierane w pełnej dojrzałości, oddzielane od szypułek i indywidualnie szybko mrożone (IQF), aby zachować kształt, barwę, smak i składniki odżywcze. Po zamrożeniu produkt pozostaje sypki, co umożliwia precyzyjne dozowanie i bezpośrednie wykorzystanie w produkcji przemysłowej.",
+			"Winogrona dostarczamy jako całe owoce bezpestkowe, bez szypułek. Produkt jest sortowany i czyszczony; szypułki, owoce uszkodzone i niedojrzałe oraz widoczne zanieczyszczenia obce są usuwane zgodnie z uzgodnioną specyfikacją klienta. Pełna identyfikowalność partii jest zapewniona od winnicy przez przetwórstwo po gotową paletę.",
+			"Zbiory winogron na Zakarpaciu trwają od sierpnia do września, ze szczytem we wrześniu. Dokładny termin zależy co roku od pogody i odmiany. Poza sezonem produkt jest dostępny z zapasów mrożonych z bieżących zbiorów – skontaktuj się z nami, aby poznać aktualne ilości i terminy załadunku."
+		],
+		"specs": {
+			"product": "Mrożone IQF winogrona bezpestkowe",
+			"botanicalName": "Vitis vinifera",
+			"origin": "Ukraina",
+			"harvesting": "Zbiór w winnicach w pełnej dojrzałości",
+			"environment": "Winnice Zakarpacia",
+			"processing": "Odszypułkowanie i indywidualne szybkie mrożenie (IQF)",
+			"colour": "Naturalna, zależna od odmiany",
+			"fruit": "Całe owoce bezpestkowe",
+			"cleaning": "Sortowane i czyszczone; usunięte szypułki, uszkodzone owoce i zanieczyszczenia obce",
+			"storage": "–18 °C lub niżej",
+			"packaging": "Wielowarstwowe worki papierowe 25 kg lub kartony 10 kg",
+			"moq": "500 kg",
+			"traceability": "Identyfikowalność partii od zbioru do gotowego produktu",
+			"foodSafety": "Przetwórstwo zgodne z zasadami HACCP",
+			"organic": "Partie z certyfikatem ekologicznym na zapytanie, w miarę dostępności",
+			"delivery": "Cała UE",
+			"incoterms": "FCA, DAP lub DDP",
+			"documents": "Pełna dokumentacja eksportowa i przewozowa"
+		},
+		"applications": [
+			"Smoothie, soki i napoje owocowe",
+			"Koktajle i „owocowy lód” do napojów",
+			"Mrożone przekąski",
+			"Lody i desery mrożone",
+			"Jogurty i produkty mleczne",
+			"Sałatki i mieszanki owocowe",
+			"Nadzienia piekarnicze i polewy",
+			"Dżemy i wsady owocowe",
+			"Desery i ciasta",
+			"HoReCa i bary",
+			"Składniki spożywcze i przetwory owocowe"
+		]
+	},
+	"frozenCorn": {
+		"meta": {
+			"title": "Mrożona kukurydza cukrowa IQF | Dostawca hurtowy z Ukrainy",
+			"description": "Mrożona IQF kukurydza cukrowa z gospodarstw Karpat – ziarno lub kolby, blanszowana, sypka. HACCP i certyfikat ekologiczny, MOQ 500 kg. FCA/DAP/DDP do UE."
+		},
+		"heading": "Mrożona kukurydza cukrowa (IQF)",
+		"description": [
+			"Wysokiej jakości mrożona IQF kukurydza cukrowa (Zea mays var. saccharata), uprawiana w gospodarstwach na Zakarpaciu i przetwarzana dla profesjonalnych producentów żywności i dań gotowych, dystrybutorów i odbiorców surowców.",
+			"Kukurydza cukrowa ma jaskrawożółte, soczyste ziarna, delikatną teksturę i naturalnie słodki smak. Zbiera się ją w fazie dojrzałości mleczno-woskowej – dokładnie wtedy, gdy ziarna zawierają najwięcej naturalnego cukru. Jaskrawa barwa i słodycz sprawiają, że kukurydza cukrowa jest jednym z najpopularniejszych warzyw do mieszanek warzywnych, sałatek, pizzy i dań gotowych.",
+			"Kolby są zbierane w optymalnej dojrzałości, czyszczone, blanszowane i indywidualnie szybko mrożone (IQF). Blanszowanie zatrzymuje aktywność enzymów i pozwala zachować słodycz, barwę i teksturę ziaren. Po zamrożeniu ziarna pozostają sypkie, co umożliwia precyzyjne dozowanie i bezpośrednie wykorzystanie w produkcji przemysłowej.",
+			"W zależności od wymagań produkcyjnych kukurydzę cukrową dostarczamy jako ziarno lub całe kolby. Produkt jest sortowany i czyszczony; uszkodzone ziarna, resztki kolb, liście okrywowe i widoczne zanieczyszczenia obce są usuwane zgodnie z uzgodnioną specyfikacją klienta. Pełna identyfikowalność partii jest zapewniona od pola przez przetwórstwo po gotową paletę.",
+			"Zbiory kukurydzy cukrowej na Zakarpaciu trwają od sierpnia do września, ze szczytem w sierpniu. Dokładny termin zależy co roku od pogody i odmiany. Poza sezonem produkt jest dostępny z zapasów mrożonych z bieżących zbiorów – skontaktuj się z nami, aby poznać aktualne ilości i terminy załadunku."
+		],
+		"specs": {
+			"product": "Mrożona IQF kukurydza cukrowa",
+			"botanicalName": "Zea mays var. saccharata",
+			"origin": "Ukraina",
+			"harvesting": "Zbiór w fazie dojrzałości mleczno-woskowej",
+			"environment": "Gospodarstwa na Zakarpaciu",
+			"processing": "Czyszczenie, blanszowanie i indywidualne szybkie mrożenie (IQF)",
+			"colour": "Naturalna, jaskrawożółta",
+			"fruit": "Ziarno lub całe kolby",
+			"cleaning": "Sortowane i czyszczone; usunięte uszkodzone ziarna, resztki kolb, liście okrywowe i zanieczyszczenia obce",
+			"storage": "–18 °C lub niżej",
+			"packaging": "Wielowarstwowe worki papierowe 25 kg lub kartony 10 kg",
+			"moq": "500 kg",
+			"traceability": "Identyfikowalność partii od zbioru do gotowego produktu",
+			"foodSafety": "Przetwórstwo zgodne z zasadami HACCP",
+			"organic": "Partie z certyfikatem ekologicznym na zapytanie, w miarę dostępności",
+			"delivery": "Cała UE",
+			"incoterms": "FCA, DAP lub DDP",
+			"documents": "Pełna dokumentacja eksportowa i przewozowa"
+		},
+		"applications": [
+			"Mieszanki warzywne",
+			"Sałatki i zimne przekąski",
+			"Pizza i dodatki",
+			"Dania gotowe i żywność wygodna",
+			"Zupy i zupy krem",
+			"Dodatki do dań",
+			"Kuchnia meksykańska",
+			"Konserwy",
+			"Żywność dla niemowląt i dzieci",
+			"HoReCa i catering",
+			"Składniki spożywcze i przetwory warzywne"
+		]
+	},
+	"frozenBlackCurrants": {
+		"meta": {
+			"title": "Mrożona czarna porzeczka IQF | Dostawca hurtowy z Ukrainy",
+			"description": "Mrożona IQF czarna porzeczka (Ribes nigrum) – dużo witaminy C, na soki i do przetwórstwa. Karpaty, HACCP i certyfikat ekologiczny, MOQ 500 kg. FCA/DAP/DDP UE."
+		},
+		"heading": "Mrożona czarna porzeczka (IQF)",
+		"description": [
+			"Wysokiej jakości mrożona IQF czarna porzeczka (Ribes nigrum) z karpackiego regionu Ukrainy, przetwarzana dla profesjonalnych producentów soków, napojów, żywności i suplementów diety, dystrybutorów i odbiorców surowców.",
+			"Czarna porzeczka to jeden z najbardziej skoncentrowanych surowców w kategorii jagodowej: wyjątkowo bogata w naturalną witaminę C – kilkakrotnie bardziej niż cytrusy – o intensywnej antocyjanowej barwie i ostrej, aromatycznej kwasowości. To sprawia, że jest podstawowym surowcem dla branży soków, koncentratów i napojów, a nie owocem do spożycia na świeżo.",
+			"Owoce są zbierane mechanicznie w szczycie dojrzałości, w ilościach potrzebnych do przetwórstwa przemysłowego, i indywidualnie szybko mrożone (IQF), aby zachować głęboką barwę, witaminy i składniki odżywcze. Po zamrożeniu pozostają sypkie, co umożliwia precyzyjne dozowanie i kontrolowane rozmrażanie.",
+			"Czarną porzeczkę dostarczamy jako całe owoce bez szypułek. Produkt jest sortowany i czyszczony; szypułki, liście i widoczne zanieczyszczenia obce są usuwane zgodnie z uzgodnioną specyfikacją klienta – jest gotowy do bezpośredniego zastosowania przemysłowego. Pełna identyfikowalność partii jest zapewniona od plantacji przez przetwórstwo po gotową paletę.",
+			"Zbiory czarnej porzeczki w regionie karpackim przypadają na lipiec, ze szczytem w połowie miesiąca. Dokładny termin zależy co roku od pogody i odmiany. Poza sezonem produkt jest dostępny z zapasów mrożonych z bieżących zbiorów – skontaktuj się z nami, aby poznać aktualne ilości i terminy załadunku."
+		],
+		"specs": {
+			"product": "Mrożona IQF czarna porzeczka",
+			"botanicalName": "Ribes nigrum",
+			"origin": "Ukraina",
+			"harvesting": "Zbiór mechaniczny w szczycie dojrzałości",
+			"environment": "Plantacje w regionie karpackim",
+			"processing": "Indywidualne szybkie mrożenie (IQF)",
+			"colour": "Naturalna, głęboka czarnofioletowa",
+			"fruit": "Całe owoce bez szypułek",
+			"cleaning": "Sortowane i czyszczone; usunięte szypułki, liście i zanieczyszczenia obce",
+			"storage": "–18 °C lub niżej",
+			"packaging": "Wielowarstwowe worki papierowe 25 kg lub oktabiny przemysłowe 400 kg",
+			"moq": "500 kg",
+			"traceability": "Identyfikowalność partii od zbioru do gotowego produktu",
+			"foodSafety": "Przetwórstwo zgodne z zasadami HACCP",
+			"organic": "Partie z certyfikatem ekologicznym na zapytanie, w miarę dostępności",
+			"delivery": "Cała UE",
+			"incoterms": "FCA, DAP lub DDP",
+			"documents": "Pełna dokumentacja eksportowa i przewozowa"
+		},
+		"applications": [
+			"Soki, nektary i koncentraty",
+			"Syropy i napoje",
+			"Dżemy, konfitury i nadzienia owocowe",
+			"Jogurty i produkty mleczne",
+			"Suplementy diety i ekstrakty",
+			"Naturalne barwniki antocyjanowe",
+			"Likiery i napoje, w tym cassis",
+			"Lody i desery mrożone",
+			"Nadzienia piekarnicze",
+			"Przeciery owocowe i sosy",
+			"Składniki spożywcze i przetwory owocowe"
+		]
+	},
+	"frozenChokeberries": {
+		"meta": {
+			"title": "Mrożona aronia IQF | Dostawca hurtowy z Ukrainy",
+			"description": "Mrożona IQF aronia (Aronia melanocarpa) – dużo polifenoli i antocyjanów, na soki i ekstrakty. Region karpacki, HACCP, MOQ 500 kg. FCA/DAP/DDP do UE."
+		},
+		"heading": "Mrożona aronia (IQF)",
+		"description": [
+			"Wysokiej jakości mrożona IQF aronia czarnoowocowa (Aronia melanocarpa) z karpackiego regionu Ukrainy, przetwarzana dla profesjonalnych producentów soków, ekstraktów, suplementów diety i naturalnych barwników, dystrybutorów i odbiorców surowców.",
+			"Aronia należy do owoców najbogatszych w polifenole i antocyjany i przewyższa pod tym względem większość innych owoców jagodowych, dlatego jest ceniona jako surowiec typu superfood do produktów funkcjonalnych. Owoce mają głęboką czarnofioletową barwę i cierpki, ściągający smak, dlatego aronię wykorzystuje się głównie w przetwórstwie – na soki, koncentraty, ekstrakty i naturalne barwniki – a nie do spożycia na świeżo.",
+			"Owoce są zbierane mechanicznie w pełnej dojrzałości, w ilościach przemysłowych, i indywidualnie szybko mrożone (IQF), aby zachować barwę, polifenole i składniki odżywcze. Po zamrożeniu produkt pozostaje sypki, co umożliwia precyzyjne dozowanie i bezpośrednie wykorzystanie w produkcji przemysłowej.",
+			"Aronię dostarczamy czyszczoną lub nieczyszczoną, w zależności od wymagań produkcyjnych. Aronia czyszczona jest sortowana, a szypułki, liście i widoczne zanieczyszczenia obce są usuwane zgodnie z uzgodnioną specyfikacją klienta. Pełna identyfikowalność partii jest zapewniona od plantacji przez przetwórstwo po gotową paletę.",
+			"Zbiory aronii w regionie karpackim trwają od końca sierpnia do września, ze szczytem we wrześniu. Dokładny termin zależy co roku od pogody. Poza sezonem produkt jest dostępny z zapasów mrożonych z bieżących zbiorów – skontaktuj się z nami, aby poznać aktualne ilości i terminy załadunku."
+		],
+		"specs": {
+			"product": "Mrożona IQF aronia",
+			"botanicalName": "Aronia melanocarpa",
+			"origin": "Ukraina",
+			"harvesting": "Zbiór mechaniczny w pełnej dojrzałości",
+			"environment": "Plantacje w regionie karpackim",
+			"processing": "Indywidualne szybkie mrożenie (IQF)",
+			"colour": "Naturalna, głęboka czarnofioletowa",
+			"fruit": "Całe owoce, czyszczone lub nieczyszczone",
+			"cleaning": "Czyszczona: usunięte szypułki, liście i zanieczyszczenia obce; nieczyszczona – do uzgodnienia",
+			"storage": "–18 °C lub niżej",
+			"packaging": "Wielowarstwowe worki papierowe 25 kg lub oktabiny przemysłowe 400 kg",
+			"moq": "500 kg",
+			"traceability": "Identyfikowalność partii od zbioru do gotowego produktu",
+			"foodSafety": "Przetwórstwo zgodne z zasadami HACCP",
+			"organic": "Partie z certyfikatem ekologicznym na zapytanie, w miarę dostępności",
+			"delivery": "Cała UE",
+			"incoterms": "FCA, DAP lub DDP",
+			"documents": "Pełna dokumentacja eksportowa i przewozowa"
+		},
+		"applications": [
+			"Soki, nektary i koncentraty",
+			"Ekstrakty i suplementy diety",
+			"Naturalne barwniki antocyjanowe",
+			"Proszki superfood i mieszanki funkcjonalne",
+			"Napoje funkcjonalne i smoothie",
+			"Dżemy i wsady owocowe (w mieszankach z innymi owocami)",
+			"Jogurty i produkty mleczne",
+			"Batony zbożowe i przekąski",
+			"Herbaty i napary owocowe",
+			"Wina, likiery i nalewki",
+			"Składniki spożywcze i produkty funkcjonalne"
+		]
+	},
+	"frozenWildBogBilberries": {
+		"meta": {
+			"title": "Mrożona borówka bagienna IQF | Dostawca hurtowy z Ukrainy",
+			"description": "Mrożona IQF dzika borówka bagienna (Vaccinium uliginosum) – zbierana ręcznie w Karpatach, głęboka barwa, antocyjany. HACCP, MOQ 500 kg. FCA/DAP/DDP do UE."
+		},
+		"heading": "Mrożona dzika borówka bagienna (IQF)",
+		"description": [
+			"Wysokiej jakości mrożona IQF dziko rosnąca borówka bagienna (łochynia, Vaccinium uliginosum), zbierana ręcznie na górskich torfowiskach i zboczach ukraińskich Karpat i przetwarzana dla profesjonalnych producentów żywności, dystrybutorów i odbiorców surowców.",
+			"Borówka bagienna to nie plantacyjna borówka amerykańska, lecz dziki owoc leśny. Łatwo odróżnić ją od jagody leśnej (Vaccinium myrtillus): owoce borówki bagiennej są większe, pokryte niebieskawym nalotem, a ich miąższ jest jasny – barwa znajduje się w skórce. Smak jest łagodny, słodko-kwaśny i soczysty, bez cierpkości. Dlatego borówka bagienna szczególnie dobrze nadaje się do produktów, w których liczą się delikatny smak, soczystość i prawdziwie dzikie pochodzenie, natomiast do intensywnego barwienia lepszym wyborem jest jagoda leśna.",
+			"Owoce są zbierane ręcznie w pełnej dojrzałości i indywidualnie szybko mrożone (IQF), aby zachować strukturę, barwę, smak i składniki odżywcze. Po zamrożeniu pozostają sypkie, co ułatwia obsługę, precyzyjne dozowanie i bezpośrednie wykorzystanie w produkcji przemysłowej.",
+			"Produkt jest sortowany i czyszczony; szypułki, liście, niedojrzałe owoce i widoczne zanieczyszczenia obce są usuwane zgodnie z uzgodnioną specyfikacją klienta. Pełna identyfikowalność partii jest zapewniona od miejsca zbioru przez przetwórstwo po gotową paletę.",
+			"Zbiory borówki bagiennej w ukraińskich Karpatach trwają od końca lipca do sierpnia; w wyższych partiach gór zbiór może trwać do września. Dokładny termin zależy co roku od pogody i wysokości nad poziomem morza. Poza sezonem produkt jest dostępny z zapasów mrożonych z bieżących zbiorów – skontaktuj się z nami, aby poznać aktualne ilości i terminy załadunku."
+		],
+		"specs": {
+			"product": "Mrożona IQF dzika borówka bagienna",
+			"botanicalName": "Vaccinium uliginosum",
+			"origin": "Ukraina",
+			"harvesting": "Dziko rosnące jagody zbierane ręcznie",
+			"environment": "Górskie torfowiska i zbocza ukraińskich Karpat",
+			"processing": "Indywidualne szybkie mrożenie (IQF)",
+			"colour": "Niebieskofioletowa skórka z niebieskawym nalotem, jasny miąższ",
+			"fruit": "Dzika borówka bagienna, większa od jagody leśnej, soczysta",
+			"cleaning": "Sortowane i czyszczone; usunięte szypułki, liście, niedojrzałe owoce i zanieczyszczenia obce",
+			"storage": "–18 °C lub niżej",
+			"packaging": "Wielowarstwowe worki papierowe 25 kg lub oktabiny przemysłowe 400 kg",
+			"moq": "500 kg",
+			"traceability": "Identyfikowalność partii od zbioru do gotowego produktu",
+			"foodSafety": "Przetwórstwo zgodne z zasadami HACCP",
+			"organic": "Partie z certyfikatem ekologicznym na zapytanie, w miarę dostępności",
+			"delivery": "Cała UE",
+			"incoterms": "FCA, DAP lub DDP",
+			"documents": "Pełna dokumentacja eksportowa i przewozowa"
+		},
+		"applications": [
+			"Nadzienia piekarnicze i polewy",
+			"Jogurty i produkty mleczne",
+			"Lody i desery mrożone",
+			"Dżemy, konfitury i wsady owocowe",
+			"Smoothie, soki i napoje owocowe",
+			"Sosy owocowe i przeciery",
+			"Wyroby cukiernicze",
+			"Produkty śniadaniowe i płatki zbożowe",
+			"Likiery i nalewki owocowe",
+			"Produkty ze składnikami ze zbioru dzikiego",
+			"Składniki spożywcze i przetwory owocowe"
+		]
+	},
+	"contacts": {
+		"address": "ul. Centralna 34B, wieś Wilchiwci, rejon tiaczowski, obwód zakarpacki, Ukraina, 90542",
+		"map_title": "Jak nas znaleźć"
+	},
+	"ourCertificates": {
+		"desc": "Przestrzegamy najwyższych standardów bezpieczeństwa i jakości, potwierdzonych naszymi certyfikatami HACCP i ekologicznym. Nasze produkty powstają ze starannie wyselekcjonowanych surowców i przechodzą wieloetapową kontrolę na każdym etapie produkcji. Te międzynarodowe certyfikaty gwarantują, że nasze jagody, owoce i warzywa są naturalne, bezpieczne i w pełni zgodne z wymogami produkcji ekologicznej.",
+		"viewCertificate": "Zobacz certyfikat",
+		"downloadCertificate": "Pobierz certyfikat"
+	},
+	"footer": {
+		"navigation": "Nawigacja",
+		"scrollToTop": "Przewiń do góry"
+	},
+	"product_page": {
+		"meta": {
+			"title": "| Dostawy hurtowe dla producentów żywności w Europie",
+			"description": ". Produkt najwyższej jakości dla producentów żywności, przetwórców i hurtowni w Europie. Pewne dostawy, certyfikowana jakość i partnerstwo B2B."
+		},
+		"specsHeading": "Specyfikacja produktu",
+		"applicationsHeading": "Typowe zastosowania",
+		"harvestPeriod": "Okres",
+		"harvestAvailability": "Typowa dostępność",
+		"specs": {
+			"product": "Produkt",
+			"botanicalName": "Nazwa botaniczna",
+			"origin": "Pochodzenie",
+			"harvesting": "Zbiór",
+			"environment": "Miejsce uprawy / zbioru",
+			"processing": "Przetwórstwo",
+			"colour": "Barwa",
+			"fruit": "Charakterystyka",
+			"cleaning": "Czyszczenie",
+			"storage": "Przechowywanie",
+			"packaging": "Opakowanie",
+			"moq": "Minimalna wielkość zamówienia",
+			"traceability": "Identyfikowalność",
+			"foodSafety": "Bezpieczeństwo żywności",
+			"organic": "Certyfikat ekologiczny",
+			"delivery": "Dostawa",
+			"incoterms": "Incoterms",
+			"documents": "Dokumentacja"
+		},
+		"deliveryByVehicle": "Dostawa transportem samochodowym",
+		"descriptionHeading": "Opis",
+		"status": "Rodzaj produktu",
+		"grade": "Klasa jakości",
+		"whole": "Całe",
+		"whole2": "Całe",
+		"sliced": "Plastry",
+		"cubed": "Kostka",
+		"piccolo": "Piccolo",
+		"strips": "Paski",
+		"unpitted": "Z pestką",
+		"pitted": "Bez pestek",
+		"wholeUnpitted": "Całe / z pestką",
+		"halvesPitted": "Połówki / bez pestek",
+		"wholePitted": "Całe / bez pestek",
+		"uncleaned_1": "Nieczyszczone",
+		"uncleaned_2": "Nieczyszczone",
+		"cleaned_1": "Czyszczone",
+		"cleaned_2": "Czyszczone",
+		"related": "Podobne produkty",
+		"origin": {
+			"region": {
+				"title": "Ukraina (region karpacki)",
+				"desc": "Zbierane ze stanu naturalnego lub uprawiane ekologicznie w środowisku wolnym od zanieczyszczeń."
+			},
+			"traceability": {
+				"title": "Pełna identyfikowalność",
+				"desc": "Monitorujemy każdy etap – od zbioru w lesie po końcowe przetwórstwo IQF."
+			}
+		},
+		"packaging": {
+			"paperBag": {
+				"title": "Wielowarstwowe worki papierowe (25 kg)",
+				"desc": "Wytrzymałe worki dopuszczone do kontaktu z żywnością, z wkładką polietylenową chroniącą przed utratą wilgoci i oparzeliną mrozową."
+			},
+			"cartonBox": {
+				"title": "Kartony z tektury falistej (10 kg)",
+				"desc": "Idealne do mniejszych zamówień hurtowych i kuchni profesjonalnych; łatwe do układania w stosy i paletyzacji."
+			},
+			"octabin": {
+				"title": "Oktabiny przemysłowe (400 kg)",
+				"desc": "Najlepsze dla dużych zakładów produkcyjnych; zoptymalizowane pod kątem sprawnej logistyki i przetwórstwa masowego."
+			},
+			"woodenContainer": {
+				"title": "Drewniane skrzynie transportowe",
+				"desc": "Wytrzymałe drewniane skrzynie zapewniające maksymalną ochronę podczas transportu na duże odległości i intensywnych przeładunków."
+			}
+		},
+		"pack_1": "Worek papierowy (25 kg)",
+		"pack_2": "Karton (10 kg)",
+		"pack_3": "Skrzynia drewniana",
+		"pack_4": "Oktabina (400 kg)",
+		"wholesaleSupplier": "Dostawca hurtowy",
+		"contactFormHeadingAvailable": "Zapytanie o cenę",
+		"contactFormHeadingUnavailable": "Zapytanie o dostępność"
+	},
+	"faq": {
+		"title": "Najczęstsze pytania",
+		"home": {
+			"q": {
+				"1": "Jakie mrożone jagody i produkty naturalne oferujecie w hurcie?",
+				"2": "Skąd pochodzą Wasze karpackie jagody i owoce?",
+				"3": "Czy dostarczacie w hurcie jagody z certyfikatem ekologicznym?",
+				"4": "Czy mogę składać zamówienia hurtowe na potrzeby przemysłowego przetwórstwa żywności?",
+				"5": "Jak zapewniacie bezpieczeństwo żywności i kontrolę jakości?",
+				"6": "Jakie opakowania przemysłowe oferujecie?"
+			},
+			"a": {
+				"1": "Specjalizujemy się w wysokiej jakości mrożonych IQF (indywidualnie szybko mrożonych) jagodach i produktach naturalnych w hurcie, pozyskiwanych bezpośrednio z czystego regionu Karpat. Nasza podstawowa oferta obejmuje jagody leśne, maliny uprawne, jeżyny leśne, dziko rosnącą borówkę brusznicę i wiśnie. W zależności od potrzeb produkcyjnych dostarczamy owoce świeże, szokowo mrożone lub wstępnie przetworzone – dla piekarni przemysłowych, mleczarni, producentów dżemów i dystrybutorów gastronomicznych.",
+				"2": "Wszystkie nasze produkty rolne są pozyskiwane w sposób zrównoważony z ekologicznie czystego regionu Karpat, znanego z niewielkiego uprzemysłowienia i bogatej bioróżnorodności. Współpracujemy bezpośrednio ze starannie zweryfikowaną siecią lokalnych rolników i certyfikowanych zbieraczy. Model zakupu bezpośrednio u źródła zapewnia pełną identyfikowalność partii, autentyczne pochodzenie geograficzne i przejrzysty łańcuch dostaw.",
+				"3": "Tak, obok produktów konwencjonalnych dostarczamy w hurcie jagody z certyfikatem ekologicznym. Nasze owoce są zbierane na terenach wysoko położonych, o niskiej ingerencji człowieka i dzikich, dlatego są z natury naturalne. Utrzymujemy oficjalną certyfikację ekologiczną zgodną z rygorystycznymi międzynarodowymi przepisami dotyczącymi rolnictwa ekologicznego. Skontaktuj się z naszym działem sprzedaży, aby potwierdzić aktualne wolumeny partii ekologicznych i dostępność sezonową oraz otrzymać dokumenty certyfikacyjne.",
+				"4": "Oczywiście. Jesteśmy wyspecjalizowanym dostawcą B2B i dystrybutorem hurtowym, przygotowanym do obsługi dużych kontraktów handlowych. Regularnie dostarczamy hurtowe ilości mrożonych owoców producentom żywności, dystrybutorom surowców i zakładom spożywczym w całej Europie. Oferujemy progi cenowe zależne od wolumenu kontraktu, obsługę logistyczną dostaw wielotonowych i całoroczne umowy na regularne dostawy, aby Twoje linie produkcyjne pracowały bez przestojów.",
+				"5": "Stosujemy rygorystyczny, wieloetapowy system zapewnienia jakości, poparty naszym oficjalnym certyfikatem HACCP. Kontrola jakości zaczyna się już na etapie ręcznego zbioru, po którym następują dokładne sortowanie, czyszczenie mechaniczne i detekcja metali na linii. Dzięki temu nasze dostawy hurtowe są wolne od ciał obcych, spełniają rygorystyczne najwyższe dopuszczalne poziomy pozostałości (NDP/MRL) i trafiają do Twojego zakładu z pełnym certyfikatem analizy (COA) potwierdzającym bezpieczeństwo żywności.",
+				"6": "Specjalizujemy się wyłącznie w wielkotonażowej dystrybucji B2B i oferujemy opakowania przemysłowe zaprojektowane tak, aby chronić łańcuch chłodniczy podczas transportu. Nie oferujemy opakowań detalicznych ani usług marki własnej. Skupiamy się na wytrzymałych opakowaniach zbiorczych, w tym wielowarstwowych workach przemysłowych 10 kg/25 kg, oktabinach i dużych kontenerach zbiorczych, zoptymalizowanych pod kątem przetwórstwa spożywczego i zautomatyzowanych linii produkcyjnych."
+			}
+		},
+		"products": {
+			"q": {
+				"1": "Jakie karpackie jagody oferujecie w hurcie?",
+				"2": "Czy Wasze jagody są dostępne świeże czy indywidualnie szybko mrożone (IQF)?",
+				"3": "Jak wygląda sezonowy kalendarz zbiorów Waszych karpackich owoców?",
+				"4": "Jakie opakowania przemysłowe oferujecie dla zamówień hurtowych?",
+				"5": "Jakie są wymagania dotyczące przechowywania mrożonych jagód?",
+				"6": "Jaki jest termin przydatności Waszych mrożonych produktów hurtowych?"
+			},
+			"a": {
+				"1": "Dostarczamy wysokiej jakości wybór karpackich jagód dziko rosnących i uprawnych, specjalizując się w jagodach leśnych, jeżynach leśnych, malinach premium, borówce brusznicy i wiśniach. Nasza oferta spełnia rygorystyczne specyfikacje handlowe dotyczące kalibru, sortowania według barwy i czystości mechanicznej, zapewniając pełną powtarzalność dla dużych producentów żywności i dystrybutorów surowców.",
+				"2": "Specjalizujemy się zarówno w sezonowych dostawach owoców świeżych, jak i w całorocznych rozwiązaniach IQF (indywidualne szybkie mrożenie). Nasza technologia mrożenia szokowego natychmiast utrwala strukturę komórkową, pełnię smaku i profil odżywczy świeżo zebranych owoców. Owoce świeże dostarczamy wyłącznie w okresie zbiorów, według ustalonych wolumenów, natomiast nasze mrożone IQF owoce ekologiczne i konwencjonalne są składowane w chłodniach, co zapewnia niezawodne dostawy przez cały rok.",
+				"3": "Nasz główny sezon zbiorów dzikich i uprawnych trwa od wczesnego lata do jesieni (od czerwca do września) i wtedy realizujemy dostawy owoców świeżych. Ponieważ jednak surowiec od razu przetwarzamy w zaawansowanej technologii IQF, nasze mrożone jagody są całkowicie niezależne od sezonu i dostępne w dystrybucji hurtowej przez 365 dni w roku.",
+				"4": "Oferujemy wytrzymałe opakowania przemysłowe zoptymalizowane dla zakładów przetwórstwa spożywczego i linii produkcyjnych. Skupiamy się wyłącznie na hurtowej dystrybucji B2B i nie oferujemy opakowań detalicznych ani konfekcjonowania pod marką własną. Nasze standardowe opcje hurtowe to wielowarstwowe przemysłowe worki papierowe 10 kg/25 kg, wytrzymałe skrzynki plastikowe i pojemne oktabiny, które chronią produkt podczas transportu.",
+				"5": "Aby utrzymać nasze rygorystyczne standardy bezpieczeństwa żywności HACCP i zapobiec zbrylaniu się produktu, mrożone IQF jagody należy przechowywać stale w temperaturze –18 °C lub niższej. Nieprzerwany łańcuch chłodniczy od naszych mroźni do Twojego zakładu jest absolutnie kluczowy, aby zapobiec wahaniom temperatury, zachować stabilność enzymatyczną i zahamować rozwój drobnoustrojów.",
+				"6": "Przy ciągłym przechowywaniu w warunkach głębokiego mrożenia (–18 °C lub niżej) nasze mrożone IQF jagody mają termin przydatności od 12 do 24 miesięcy. Każde opakowanie zbiorcze opuszcza nasz zakład z dokładnym kodem partii, datą produkcji i wyraźnym terminem przydatności oraz z pełnym certyfikatem analizy (COA) do Twojej dokumentacji jakościowej."
+			}
+		},
+		"productPage": {
+			"q": {
+				"1": "W jakich formach dostępny jest ten surowiec?",
+				"2": "Czy ten produkt jest dostępny przez cały rok?",
+				"3": "Jakie są wymagania dotyczące przechowywania tego produktu?",
+				"4": "Jaki jest termin przydatności tej partii?",
+				"5": "Czy oferujecie ten produkt w dużych ilościach hurtowych?",
+				"6": "Czy mogę zamówić niestandardowe opakowania przemysłowe dla tego produktu?"
+			},
+			"a": {
+				"1": "Ten wysokiej jakości karpacki surowiec jest dostępny w szczycie zbiorów jako produkt świeży klasy przemysłowej lub przez cały rok jako produkt IQF (indywidualnie szybko mrożony). W zależności od specyfikacji produkcyjnej możemy dostarczyć produkt sortowany według barwy, kalibrowany co do milimetra lub wstępnie przetworzony – tak, aby bezproblemowo trafiał na zautomatyzowane linie produkcji żywności, do mleczarni i piekarni przemysłowych.",
+				"2": "Tak. Partie świeże, niemrożone, są ściśle związane z naszym sezonowym kalendarzem zbiorów, natomiast produkty IQF (indywidualnie szybko mrożone) przetwarzamy w szczycie dojrzałości i przechowujemy w mroźniach. Pozwala nam to gwarantować partnerom B2B ciągłe, nieprzerwane dostawy hurtowe przez 365 dni w roku, niezależnie od sezonu zbiorów.",
+				"3": "Aby zachować strukturę komórkową, profil smakowy i pełne bezpieczeństwo żywności, należy ściśle przestrzegać zasad łańcucha chłodniczego. Produkty świeże wymagają natychmiastowego schłodzenia przy kontrolowanej wilgotności i szybkiego przetworzenia. Nasze głęboko mrożone produkty IQF muszą być stale utrzymywane w stabilnej temperaturze –18 °C lub niższej, aby zapobiec degradacji enzymatycznej i zbrylaniu, zgodnie z międzynarodowymi wytycznymi HACCP.",
+				"4": "Termin przydatności zależy w pełni od formy produktu. Świeżo zebrane partie szybko się psują i wymagają przetworzenia lub dystrybucji w ciągu kilku dni w warunkach chłodniczych. Nasze mrożone produkty IQF mają termin przydatności od 12 do 24 miesięcy przy stałym przechowywaniu w –18 °C i zachowują naturalną barwę, strukturę i stabilność mikrobiologiczną.",
+				"5": "Tak, działamy wyłącznie jako bezpośredni dostawca B2B i dystrybutor hurtowy. Specjalizujemy się w dostawach kontraktowych i wielotonowych dla zakładów spożywczych, dystrybutorów surowców i przetwórni przemysłowych. Skontaktuj się z naszym działem handlowym, aby otrzymać indywidualną ofertę, karty specyfikacji i aktualną minimalną wielkość zamówienia (MOQ).",
+				"6": "Specjalizujemy się wyłącznie w dystrybucji hurtowej i nie oferujemy opakowań detalicznych ani pod marką własną, ale zapewniamy elastyczne konfiguracje opakowań przemysłowych. Zamówienia hurtowe realizujemy w wielowarstwowych przemysłowych workach papierowych 10 kg/25 kg, wytrzymałych skrzynkach plastikowych lub pojemnych oktabinach – dopasowanych do Twoich systemów przyjęcia surowca i wymagań transportowych."
+			}
+		}
+	},
+	"contactForm": {
+		"heading": "Zapytaj o ofertę",
+		"subheading": [
+			"Podaj produkt i ilość – prześlemy ceny i warunki dostawy.",
+			"Minimalna wielkość zamówienia (MOQ): 1000 kg.",
+			"Odpowiadamy w ciągu jednego dnia roboczego."
+		],
+		"name": "Osoba kontaktowa",
+		"company": "Nazwa firmy",
+		"country": "Kraj dostawy",
+		"email": "Służbowy adres e-mail",
+		"productRequested": "Interesujący produkt",
+		"quantity": "Szacowana ilość (kg)",
+		"message": "Wiadomość",
+		"submit": "Wyślij zapytanie ofertowe",
+		"success": "Dziękujemy za zapytanie. Odpowiemy w ciągu jednego dnia roboczego.",
+		"sending": "Wysyłanie zapytania...",
+		"close": "Zamknij",
+		"error": "Coś poszło nie tak. Spróbuj ponownie lub napisz do nas na adres {email}.",
+		"paymentTerms": {
+			"title": "Warunki płatności",
+			"description": "Pierwsze zamówienie realizujemy na zasadzie 100% przedpłaty po eksportowej odprawie celnej, a przed dostawą. Stałym klientom po udanej współpracy oferujemy elastyczne warunki płatności.",
+			"cbLabel": "Zapoznałem(-am) się z warunkami płatności dla pierwszego zamówienia i je akceptuję.",
+			"required": "Potwierdź, że akceptujesz warunki płatności."
+		}
+	}
+}
