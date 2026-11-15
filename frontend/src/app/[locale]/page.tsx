@@ -87,7 +87,7 @@ export default async function Home() {
 				"@type": "WebSite",
 				"@id": `${BASE_URL}/#website`,
 				name: "Yagoda Karpat",
-				alternateName: ["Ягода Карпат", "yagodakarpat.com"],
+				alternateName: ["yagodakarpat.com"],
 				url: `${BASE_URL}/`,
 				inLanguage: routing.locales,
 				publisher: { "@id": `${BASE_URL}/#organization` },

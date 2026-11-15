@@ -67,12 +67,8 @@ export default function Header({ products }: HeaderProps) {
 				<Container>
 					<div className="header-inner">
 						<Link href="/" className="header__logo">
-							<img
-								width={30}
-								src="/logo-img/yagoda-karpat-logo.svg"
-								alt="Yagoda Karpat logo"
-							/>
-							<span>{t("company_name")}</span>
+							<img width={30} src="/logo-img/yagoda-karpat-logo.svg" alt="" />
+							<span>Yagoda Karpat</span>
 						</Link>
 						{/* <a
 							className="header__catalog"

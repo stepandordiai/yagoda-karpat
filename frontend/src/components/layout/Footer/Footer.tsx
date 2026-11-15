@@ -70,12 +70,8 @@ export default function Footer({ products }: FooterProps) {
 					</button>
 					<div className="footer-details">
 						<Link className="footer-logo" href="/">
-							<img
-								src="/logo-img/yagoda-karpat-logo.svg"
-								width={50}
-								alt="Yagoda Karpat logo"
-							/>
-							<span>{t("company_name")}</span>
+							<img src="/logo-img/yagoda-karpat-logo.svg" width={50} alt="" />
+							<span>Yagoda Karpat</span>
 						</Link>
 						<div className="footer__socials">
 							{socials.map(({ title, url, Icon }) => {
